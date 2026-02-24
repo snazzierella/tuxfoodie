@@ -5,4 +5,5 @@ export interface Restaurant {
   distance: number;
   price: string;
   notes: string;
+  isLocal?: boolean;
 }
