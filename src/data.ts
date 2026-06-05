@@ -7345,5 +7345,230 @@ export const restaurants: Restaurant[] = [
     notes: "Taco shop rival; serves Sonoran hot dogs, tacos, and seafood cocktails.",
     isLocal: true
   },
+  {
+    name: "Barrio Bread",
+    cuisine: "Dessert & Bakery",
+    neighborhood: "Central & Midtown",
+    distance: 1.2,
+    price: "$$",
+    notes: "James Beard Award-winning artisan bakery; famous for heritage grain loaves, crusty baguettes, and the iconic Sonoran wheat pan epi.",
+    isLocal: true
+  },
+  {
+    name: "Tap & Bottle",
+    cuisine: "Bar, Pub & Brewery",
+    neighborhood: "Urban Core",
+    distance: 4.5,
+    price: "$$",
+    notes: "Premier craft beer bottle shop and tasting room; offers an extensive rotating draft list, local wines, and food truck pairings.",
+    isLocal: true
+  },
+  {
+    name: "Tucson Hop Shop",
+    cuisine: "Bar, Pub & Brewery",
+    neighborhood: "Northside & Foothills",
+    distance: 6.0,
+    price: "$$",
+    notes: "Urban beer garden in the Metal Arts Village; features curated craft ales, patio seating, and a relaxed, dog-friendly environment.",
+    isLocal: true
+  },
+  {
+    name: "Obon Sushi Bar Ramen",
+    cuisine: "Asian & Sushi",
+    neighborhood: "Urban Core",
+    distance: 4.8,
+    price: "$$",
+    notes: "Modern Japanese eatery; serves innovative sushi rolls, rich tonkotsu ramen, steam buns, and craft cocktails.",
+    isLocal: true
+  },
+  {
+    name: "Raijin Ramen",
+    cuisine: "Asian & Sushi",
+    neighborhood: "Central & Midtown",
+    distance: 1.5,
+    price: "$$",
+    notes: "Authentic ramen house; famous for spicy miso broth, perfectly cooked noodles, and crispy pork gyoza.",
+    isLocal: true
+  },
+  {
+    name: "Flora's Market Run",
+    cuisine: "American & Comfort",
+    neighborhood: "Central & Midtown",
+    distance: 2.0,
+    price: "$$",
+    notes: "Neighborhood market and restaurant; serves wood-fired pizzas, hearty sandwiches, and fresh brunch plates.",
+    isLocal: true
+  },
+  {
+    name: "The Dutch Eatery & Refuge",
+    cuisine: "American & Comfort",
+    neighborhood: "Central & University",
+    distance: 4.5,
+    price: "$$",
+    notes: "European-inspired cafe; serves modern Dutch classics, savory breakfast hashes, and craft cocktails.",
+    isLocal: true
+  },
+  {
+    name: "Che's Lounge",
+    cuisine: "Bar, Pub & Brewery",
+    neighborhood: "Urban Core",
+    distance: 4.5,
+    price: "$",
+    notes: "Iconic Fourth Avenue dive bar; offers a legendary jukebox, strong drinks, and a vibrant local art scene.",
+    isLocal: true
+  },
+  {
+    name: "The Buffet Bar",
+    cuisine: "Bar, Pub & Brewery",
+    neighborhood: "Urban Core",
+    distance: 4.6,
+    price: "$",
+    notes: "Historic dive bar established in 1934; famous for cheap drinks, late-night hot dogs, and a legendary shuffleboard table.",
+    isLocal: true
+  },
+  {
+    name: "Portal Cocktails",
+    cuisine: "Bar, Pub & Brewery",
+    neighborhood: "Urban Core",
+    distance: 4.5,
+    price: "$$",
+    notes: "Immersive cosmic-themed speakeasy; serves expertly crafted artisan cocktails, rare spirits, and moody ambiance.",
+    isLocal: true
+  },
+  {
+    name: "Bob's Steak & Chop House",
+    cuisine: "Steakhouse & BBQ",
+    neighborhood: "Northside & Foothills",
+    distance: 8.5,
+    price: "$$$",
+    notes: "Upscale traditional steakhouse located at Omni Tucson National; serves prime cuts, giant glazed carrots, and fine wines.",
+    isLocal: false
+  },
+  {
+    name: "Calle Tepa",
+    cuisine: "Mexican & Sonoran",
+    neighborhood: "Eastside & Vail",
+    distance: 5.0,
+    price: "$$",
+    notes: "Vibrant casual Mexican dining; serves flavorful street tacos, massive burritos, and an extensive fresh salsa bar.",
+    isLocal: true
+  },
+  {
+    name: "Magpies Gourmet Pizza",
+    cuisine: "Italian & Pizza",
+    neighborhood: "Central & Midtown",
+    distance: 2.5,
+    price: "$$",
+    notes: "Long-standing local pizzeria; famous for unique toppings, vegan options, and the signature Magpie crust.",
+    isLocal: true
+  },
+  {
+    name: "Grimaldi's Pizzeria",
+    cuisine: "Italian & Pizza",
+    neighborhood: "Central & Midtown",
+    distance: 2.8,
+    price: "$$",
+    notes: "Coal-fired brick oven pizza chain; serves traditional Brooklyn-style thin crusts, fresh mozzarella, and calzones.",
+    isLocal: false
+  },
+  {
+    name: "Takamatsu",
+    cuisine: "Asian & Sushi",
+    neighborhood: "Central & Midtown",
+    distance: 3.5,
+    price: "$$",
+    notes: "Korean barbecue and Japanese sushi house; features interactive tabletop grilling, fresh sashimi, and bibimbap.",
+    isLocal: true
+  },
+  {
+    name: "Govinda's Natural Foods Buffet",
+    cuisine: "Healthy, Vegan & Plant-Based",
+    neighborhood: "Central & Midtown",
+    distance: 2.2,
+    price: "$$",
+    notes: "Peaceful vegetarian oasis; serves an all-you-can-eat international vegetarian buffet, fresh salads, and vegan desserts.",
+    isLocal: true
+  },
+  {
+    name: "El Berraco",
+    cuisine: "Seafood",
+    neighborhood: "Central & Midtown",
+    distance: 2.0,
+    price: "$$",
+    notes: "Submarine-themed Latin seafood restaurant; serves vibrant ceviche, spicy aguachile, and unique seafood tacos.",
+    isLocal: true
+  },
+  {
+    name: "The Shelter Cocktail Lounge",
+    cuisine: "Bar, Pub & Brewery",
+    neighborhood: "Central & Midtown",
+    distance: 3.0,
+    price: "$",
+    notes: "Retro 1960s JFK-themed lounge; features vintage decor, classic martinis, and a laid-back dive atmosphere.",
+    isLocal: true
+  },
+  {
+    name: "SideCar",
+    cuisine: "Bar, Pub & Brewery",
+    neighborhood: "Central & Midtown",
+    distance: 2.5,
+    price: "$$",
+    notes: "Craft cocktail neighborhood bar; serves inventive seasonal drinks, classic mixology, and local draft beers.",
+    isLocal: true
+  },
+  {
+    name: "La Chaiteria",
+    cuisine: "Healthy, Vegan & Plant-Based",
+    neighborhood: "Westside & Downtown",
+    distance: 4.5,
+    price: "$$",
+    notes: "Plant-based Latin kitchen by the chef of Tumerico; serves vegan jackfruit tacos, healthy bowls, and fresh lattes.",
+    isLocal: true
+  },
+  {
+    name: "Mariscos San Juan",
+    cuisine: "Seafood",
+    neighborhood: "Southside & Heritage",
+    distance: 6.0,
+    price: "$$",
+    notes: "Authentic Mexican seafood joint; famous for refreshing shrimp cocktails, tostadas de ceviche, and whole fried fish.",
+    isLocal: true
+  },
+  {
+    name: "The B Line",
+    cuisine: "American & Comfort",
+    neighborhood: "Urban Core",
+    distance: 4.5,
+    price: "$$",
+    notes: "Casual Fourth Avenue bistro; serves hearty pastas, fresh salads, savory burritos, and a massive dessert case.",
+    isLocal: true
+  },
+  {
+    name: "Churrasco de Brasil",
+    cuisine: "Steakhouse & BBQ",
+    neighborhood: "Eastside & Vail",
+    distance: 5.5,
+    price: "$$$",
+    notes: "Authentic Brazilian steakhouse; features continuous tableside service of grilled meats, an extensive salad bar, and caipirinhas.",
+    isLocal: true
+  },
+  {
+    name: "El Taco Rustico",
+    cuisine: "Mexican & Sonoran",
+    neighborhood: "Northside & Foothills",
+    distance: 5.5,
+    price: "$",
+    notes: "Rustic Mexican street food; serves charcoal-grilled ribs, tender quesabirria, and flavorful carne asada.",
+    isLocal: true
+  },
+  {
+    name: "1702",
+    cuisine: "Italian & Pizza",
+    neighborhood: "Central & University",
+    distance: 4.8,
+    price: "$$",
+    notes: "Craft beer and pizza haven; serves massive New York-style slices, unique specialty pies, and dozens of beers on tap.",
+    isLocal: true
+  },
   // DATA_MARKER
 ];
