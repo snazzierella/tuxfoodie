@@ -6,4 +6,5 @@ export interface Restaurant {
   price: string;
   notes: string;
   isLocal?: boolean;
+  enriched?: boolean;
 }

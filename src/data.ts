@@ -8,7 +8,8 @@ export const restaurants: Restaurant[] = [
     "distance": 0.1,
     "price": "$",
     "notes": "Hyper-local neighborhood bakery; specialized custom orders including bespoke fondant cakes and sweet treats.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Twinkies Creations",
@@ -17,7 +18,8 @@ export const restaurants: Restaurant[] = [
     "distance": 0.1,
     "price": "$",
     "notes": "Boutique food and dessert provider; artistic presentation of customized confections and layered cakes.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Sandyi Oriental Market",
@@ -26,16 +28,18 @@ export const restaurants: Restaurant[] = [
     "distance": 0.1,
     "price": "$",
     "notes": "Family-owned; integrated grocery and prepared foods offering traditional Korean snacks and fresh kimchi.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Starbucks",
     "cuisine": "Coffee & Cafe",
     "neighborhood": "Central & Midtown",
     "distance": 0.2,
-    "price": "$",
-    "notes": "A great spot to enjoy delicious coffee & cafe in the Central & Midtown area.",
-    "isLocal": false
+    "price": "$$",
+    "notes": "Popular chain offering classic coffee beverages, seasonal drinks, and convenient on-the-go snacks.",
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Jersey Mike's Subs",
@@ -44,16 +48,18 @@ export const restaurants: Restaurant[] = [
     "distance": 0.2,
     "price": "$",
     "notes": "Local favorite in Central & Midtown serving classic fast food & sandwiches options.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": false
   },
   {
     "name": "La Salsa",
     "cuisine": "Mexican & Sonoran",
     "neighborhood": "Central & Midtown",
     "distance": 0.3,
-    "price": "$$",
-    "notes": "Local favorite in Central & Midtown serving classic mexican & sonoran options.",
-    "isLocal": true
+    "price": "$",
+    "notes": "Casual spot for fresh, flavorful Mexican food, famous for gourmet tacos and salsas.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "May's Counter",
@@ -61,8 +67,29 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Central & Midtown",
     "distance": 0.3,
     "price": "$$",
-    "notes": "Popular neighborhood destination featuring fresh american & comfort specialties.",
-    "isLocal": true
+    "notes": "Modern American diner serving elevated comfort food, creative burgers, and delicious, hearty breakfasts.",
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Raijin Ramen",
+    "cuisine": "Asian & Sushi",
+    "neighborhood": "Central & Midtown",
+    "distance": 0.3,
+    "price": "$$",
+    "notes": "Authentic Japanese ramen joint, serving flavorful broths, tender chashu, and fresh, tasty toppings.",
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Fresco",
+    "cuisine": "Italian & Pizza",
+    "neighborhood": "Central & Midtown",
+    "distance": 0.3,
+    "price": "$",
+    "notes": "A great spot to enjoy delicious italian & pizza in the Central & Midtown area.",
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Zayna Mediterranean",
@@ -71,7 +98,8 @@ export const restaurants: Restaurant[] = [
     "distance": 0.4,
     "price": "$$",
     "notes": "Famous for high-quality lentil soup, spit-roasted beef and lamb gyros, and smoky baba ghanoush.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "La Mesa Tortillas",
@@ -80,7 +108,8 @@ export const restaurants: Restaurant[] = [
     "distance": 0.4,
     "price": "$",
     "notes": "Family-owned legacy; fresh Sonoran flour tortillas, handmade tamales, and classic red chile beef burritos.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Paleteria La Michoacana",
@@ -89,7 +118,8 @@ export const restaurants: Restaurant[] = [
     "distance": 0.4,
     "price": "$",
     "notes": "Traditional paletas, fresh fruit cups with Tajín, mangonadas, and a wide variety of Mexican frozen treats.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Blake's Lotaburger",
@@ -98,16 +128,18 @@ export const restaurants: Restaurant[] = [
     "distance": 0.4,
     "price": "$",
     "notes": "Popular neighborhood destination featuring fresh fast food & sandwiches specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Quiznos",
-    "cuisine": "American & Comfort",
+    "cuisine": "Fast Food & Sandwiches",
     "neighborhood": "Central & Midtown",
     "distance": 0.5,
-    "price": "$$",
-    "notes": "Popular neighborhood destination featuring fresh american & comfort specialties.",
-    "isLocal": true
+    "price": "$",
+    "notes": "Toasted subs and sandwiches with fresh ingredients, perfect for a quick, customizable lunch.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Nur Market & Restaurant",
@@ -115,8 +147,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Central & Midtown",
     "distance": 0.5,
     "price": "$$",
-    "notes": "Popular neighborhood destination featuring fresh mediterranean & global specialties.",
-    "isLocal": true
+    "notes": "Authentic Mediterranean market and restaurant with delicious Middle Eastern specialties and fresh ingredients.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Graze Premium Burgers",
@@ -125,7 +158,8 @@ export const restaurants: Restaurant[] = [
     "distance": 0.5,
     "price": "$",
     "notes": "Local favorite in Central & Midtown serving classic fast food & sandwiches options.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Baggin's",
@@ -134,7 +168,8 @@ export const restaurants: Restaurant[] = [
     "distance": 0.5,
     "price": "$",
     "notes": "Local favorite in Central & Midtown serving classic fast food & sandwiches options.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Frank's Restaurant",
@@ -143,7 +178,8 @@ export const restaurants: Restaurant[] = [
     "distance": 0.6,
     "price": "$",
     "notes": "Legacy family diner; famous for \"no sniveling\" house rules; serves classic American breakfast plates.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Fish Wok",
@@ -151,8 +187,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Central & Midtown",
     "distance": 0.6,
     "price": "$$",
-    "notes": "Popular neighborhood destination featuring fresh asian & sushi specialties.",
-    "isLocal": true
+    "notes": "Seafood and Asian fusion dishes. Fresh flavors and unique combinations. A delightful experience.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Ali Baba",
@@ -161,7 +198,8 @@ export const restaurants: Restaurant[] = [
     "distance": 0.6,
     "price": "$$",
     "notes": "Popular neighborhood destination featuring fresh mediterranean & global specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Santorini Greek Cafe",
@@ -170,7 +208,8 @@ export const restaurants: Restaurant[] = [
     "distance": 0.6,
     "price": "$",
     "notes": "A great spot to enjoy delicious coffee & cafe in the Central & Midtown area.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Eegee's",
@@ -178,8 +217,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Central & Midtown",
     "distance": 0.6,
     "price": "$",
-    "notes": "Popular neighborhood destination featuring fresh fast food & sandwiches specialties.",
-    "isLocal": true
+    "notes": "Tucson's iconic spot for refreshing eegee drinks, submarine sandwiches, and crinkle fries.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Old Peking",
@@ -188,7 +228,8 @@ export const restaurants: Restaurant[] = [
     "distance": 0.6,
     "price": "$$",
     "notes": "A great spot to enjoy delicious asian & sushi in the Central & Midtown area.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "The Bashful Bandit Barbeque",
@@ -197,7 +238,8 @@ export const restaurants: Restaurant[] = [
     "distance": 0.6,
     "price": "$$",
     "notes": "Popular neighborhood destination featuring fresh steakhouse & bbq specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Raising Cane's Chicken Fingers",
@@ -206,7 +248,8 @@ export const restaurants: Restaurant[] = [
     "distance": 0.6,
     "price": "$",
     "notes": "Popular neighborhood destination featuring fresh fast food & sandwiches specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Toast 101",
@@ -215,7 +258,8 @@ export const restaurants: Restaurant[] = [
     "distance": 0.7,
     "price": "$$",
     "notes": "Unique breakfast flights, signature hash skillets, loaded avocado toast, and creative morning cocktails.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Alice's Restaurant",
@@ -224,7 +268,8 @@ export const restaurants: Restaurant[] = [
     "distance": 0.7,
     "price": "$",
     "notes": "Neighborhood diner; cozy home-style cooking featuring fluffy pancakes, biscuits and gravy, and breakfast platters.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Oregano's",
@@ -233,7 +278,8 @@ export const restaurants: Restaurant[] = [
     "distance": 0.7,
     "price": "$$",
     "notes": "Family-friendly; Chicago thin-crust and deep-dish pizza, oversized pasta bowls, and signature pizza cookies.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Kiwami Ramen",
@@ -242,7 +288,8 @@ export const restaurants: Restaurant[] = [
     "distance": 0.7,
     "price": "$$",
     "notes": "Authentic 20-hour simmered bone broth, fresh craft noodles, chashu pork belly, and rich tonkotsu bowls.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Sushi-Ten",
@@ -251,7 +298,8 @@ export const restaurants: Restaurant[] = [
     "distance": 0.7,
     "price": "$$",
     "notes": "Casual neighborhood sushi; extensive vegan roll options, fresh nigiri, tempura, and Japanese appetizers.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Bangkok Cafe",
@@ -260,7 +308,8 @@ export const restaurants: Restaurant[] = [
     "distance": 0.7,
     "price": "$",
     "notes": "Popular neighborhood destination featuring fresh coffee & cafe specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Dutch Bros. Coffee",
@@ -269,7 +318,8 @@ export const restaurants: Restaurant[] = [
     "distance": 0.7,
     "price": "$",
     "notes": "Popular neighborhood destination featuring fresh coffee & cafe specialties.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": false
   },
   {
     "name": "Dave's Hot Chicken",
@@ -278,7 +328,8 @@ export const restaurants: Restaurant[] = [
     "distance": 0.8,
     "price": "$$",
     "notes": "Nashville-style sliders and tenders featuring customized spice levels, crinkle-cut fries, and kale slaw.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "IOU Sushi III",
@@ -287,7 +338,8 @@ export const restaurants: Restaurant[] = [
     "distance": 0.8,
     "price": "$$$",
     "notes": "All-you-can-eat sushi; diverse roll selection ranging from spicy tuna to baked salmon, alongside sashimi.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Feast",
@@ -296,7 +348,8 @@ export const restaurants: Restaurant[] = [
     "distance": 0.8,
     "price": "$$$",
     "notes": "Monthly seasonal menus; locally sourced ingredients featuring dishes like Pomegranate-Glazed Pork Osso Buco.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Korea House",
@@ -305,16 +358,18 @@ export const restaurants: Restaurant[] = [
     "distance": 0.8,
     "price": "$$",
     "notes": "Legacy family-owned; Arizona's oldest Korean spot serving authentic bibimbap, bulgogi, and banchan platters.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Tumerico",
-    "cuisine": "American & Comfort",
+    "cuisine": "Healthy, Vegan & Plant-Based",
     "neighborhood": "Central & Midtown",
     "distance": 0.8,
     "price": "$$",
-    "notes": "Local favorite in Central & Midtown serving classic american & comfort options.",
-    "isLocal": true
+    "notes": "Innovative, vibrant vegan and vegetarian Mexican food with unique, fresh, seasonal ingredients.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "McDonald's",
@@ -322,8 +377,19 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Central & Midtown",
     "distance": 0.8,
     "price": "$",
-    "notes": "Local favorite in Central & Midtown serving classic fast food & sandwiches options.",
-    "isLocal": false
+    "notes": "Global fast-food giant serving classic burgers, fries, and breakfast favorites quickly and conveniently.",
+    "isLocal": false,
+    "enriched": true
+  },
+  {
+    "name": "Flora's Market Run",
+    "cuisine": "American & Comfort",
+    "neighborhood": "Central & Midtown",
+    "distance": 0.8,
+    "price": "$$",
+    "notes": "A great spot to enjoy delicious american & comfort in the Central & Midtown area.",
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Bob Dobb's",
@@ -332,7 +398,8 @@ export const restaurants: Restaurant[] = [
     "distance": 0.8,
     "price": "$$",
     "notes": "Popular neighborhood destination featuring fresh bar, pub & brewery specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Seven Cups",
@@ -341,7 +408,18 @@ export const restaurants: Restaurant[] = [
     "distance": 0.8,
     "price": "$",
     "notes": "Popular neighborhood destination featuring fresh coffee & cafe specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
+  },
+  {
+    "name": "Bisbee Breakfast Club",
+    "cuisine": "Breakfast & Diner",
+    "neighborhood": "Central & Midtown",
+    "distance": 0.9,
+    "price": "$$",
+    "notes": "Popular neighborhood destination featuring fresh breakfast & diner specialties.",
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Cheddar's",
@@ -349,8 +427,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Central & Midtown",
     "distance": 0.9,
     "price": "$$",
-    "notes": "Local favorite in Central & Midtown serving classic american & comfort options.",
-    "isLocal": true
+    "notes": "Casual chain serving comfort food favorites, like juicy ribs and honey butter croissants.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Ombre Coffee",
@@ -359,7 +438,8 @@ export const restaurants: Restaurant[] = [
     "distance": 0.9,
     "price": "$",
     "notes": "A great spot to enjoy delicious coffee & cafe in the Central & Midtown area.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Falora Pizza",
@@ -367,8 +447,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Central & Midtown",
     "distance": 0.9,
     "price": "$$",
-    "notes": "Local favorite in Central & Midtown serving classic italian & pizza options.",
-    "isLocal": true
+    "notes": "Neapolitan-style pizza cooked in a wood-fired oven, featuring artisanal ingredients and perfect char.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Sushi Garden",
@@ -376,8 +457,19 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Central & Midtown",
     "distance": 0.9,
     "price": "$$",
-    "notes": "Local favorite in Central & Midtown serving classic asian & sushi options.",
-    "isLocal": true
+    "notes": "Fresh, expertly crafted sushi rolls and Japanese cuisine in a serene dining atmosphere.",
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Starbucks",
+    "cuisine": "Coffee & Cafe",
+    "neighborhood": "Central & Midtown",
+    "distance": 0.9,
+    "price": "$",
+    "notes": "A great spot to enjoy delicious coffee & cafe in the Central & Midtown area.",
+    "isLocal": false,
+    "enriched": false
   },
   {
     "name": "Locale Italian",
@@ -386,7 +478,8 @@ export const restaurants: Restaurant[] = [
     "distance": 1,
     "price": "$$",
     "notes": "Family-owned; large bocce court and garden patio; serves handmade pastas, wood-fired pizzas, and antipasti.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Tito & Pep",
@@ -395,7 +488,8 @@ export const restaurants: Restaurant[] = [
     "distance": 1,
     "price": "$$",
     "notes": "Mesquite-fired modern Sonoran style; Yelp Top 100; features grilled baja striped bass and mayacoba beans.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "BLVCK Boba Tea",
@@ -404,7 +498,8 @@ export const restaurants: Restaurant[] = [
     "distance": 1,
     "price": "$",
     "notes": "Modern boba house; signature milk teas, brown sugar boba, fruit-infused teas, and blended ice beverages.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Panda Express",
@@ -412,8 +507,19 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Central & Midtown",
     "distance": 1,
     "price": "$",
-    "notes": "Popular neighborhood destination featuring fresh asian & sushi specialties.",
-    "isLocal": false
+    "notes": "Fast-casual spot for Americanized Chinese classics like Orange Chicken. Quick, satisfying flavors.",
+    "isLocal": false,
+    "enriched": true
+  },
+  {
+    "name": "Rocco's Little Chicago",
+    "cuisine": "Italian & Pizza",
+    "neighborhood": "Central & Midtown",
+    "distance": 1,
+    "price": "$$",
+    "notes": "Local favorite in Central & Midtown serving classic italian & pizza options.",
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "The Broadway",
@@ -421,8 +527,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Central & Midtown",
     "distance": 1,
     "price": "$$",
-    "notes": "Local favorite in Central & Midtown serving classic bar, pub & brewery options.",
-    "isLocal": true
+    "notes": "Lively pub known for its diverse beer selection, pub grub, and friendly atmosphere.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Black Crown Coffee",
@@ -430,8 +537,29 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Central & Midtown",
     "distance": 1,
     "price": "$",
-    "notes": "Popular neighborhood destination featuring fresh boba tea & beverages specialties.",
-    "isLocal": true
+    "notes": "Chic coffee shop and boba tea bar with unique drinks and a vibrant atmosphere.",
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Korea House",
+    "cuisine": "Asian & Sushi",
+    "neighborhood": "Central & Midtown",
+    "distance": 1,
+    "price": "$$",
+    "notes": "Traditional Korean restaurant serving authentic BBQ, hearty stews, and flavorful banchan. A cultural experience.",
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Frank's Restaurant",
+    "cuisine": "Breakfast & Diner",
+    "neighborhood": "Central & Midtown",
+    "distance": 1,
+    "price": "$",
+    "notes": "Classic diner serving hearty American comfort food, famous for breakfast burritos and chili.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Chick-fil-A",
@@ -440,7 +568,28 @@ export const restaurants: Restaurant[] = [
     "distance": 1,
     "price": "$",
     "notes": "A great spot to enjoy delicious fast food & sandwiches in the Central & Midtown area.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": false
+  },
+  {
+    "name": "Cal's Bakeshop",
+    "cuisine": "Dessert & Bakery",
+    "neighborhood": "Central & Midtown",
+    "distance": 1,
+    "price": "$",
+    "notes": "Popular neighborhood destination featuring fresh dessert & bakery specialties.",
+    "isLocal": true,
+    "enriched": false
+  },
+  {
+    "name": "Zemam's",
+    "cuisine": "American & Comfort",
+    "neighborhood": "Central & Midtown",
+    "distance": 1,
+    "price": "$$",
+    "notes": "Local favorite in Central & Midtown serving classic american & comfort options.",
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "In-N-Out Burger",
@@ -449,7 +598,8 @@ export const restaurants: Restaurant[] = [
     "distance": 1,
     "price": "$",
     "notes": "Popular neighborhood destination featuring fresh fast food & sandwiches specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Wings and Rice",
@@ -458,7 +608,8 @@ export const restaurants: Restaurant[] = [
     "distance": 1.1,
     "price": "$$",
     "notes": "Local favorite for crispy chicken wings tossed in signature sauces and hearty hibachi-style fried rice.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "First Watch (Grant)",
@@ -467,7 +618,8 @@ export const restaurants: Restaurant[] = [
     "distance": 1.1,
     "price": "$$",
     "notes": "Health-focused; known for Million Dollar Bacon, avocado toast, fresh juices, and elevated egg scrambles.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Chipotle (Grant)",
@@ -476,7 +628,8 @@ export const restaurants: Restaurant[] = [
     "distance": 1.1,
     "price": "$",
     "notes": "Build-your-own bowls, massive burritos, fresh guacamole, and grilled proteins wrapped in flour tortillas.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Trident Grill (Speedway)",
@@ -485,7 +638,8 @@ export const restaurants: Restaurant[] = [
     "distance": 1.1,
     "price": "$$",
     "notes": "Nautical theme; famous for fresh seafood, fish and chips, clam chowder, and hearty sports bar burgers.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Casa Molina (Grant)",
@@ -494,7 +648,8 @@ export const restaurants: Restaurant[] = [
     "distance": 1.1,
     "price": "$",
     "notes": "Family-owned since 1947; custom mesquite wood decor; serves traditional chimichangas and tableside salsa.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Bashful Bandit BBQ",
@@ -503,7 +658,8 @@ export const restaurants: Restaurant[] = [
     "distance": 1.1,
     "price": "$$",
     "notes": "Historic bar-turned-BBQ; serves Texas-style dry-rubbed brisket, smoked jackfruit sandwiches, and Crack Pie.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Gee's Garden",
@@ -512,7 +668,8 @@ export const restaurants: Restaurant[] = [
     "distance": 1.1,
     "price": "$$",
     "notes": "Legacy family-owned; destination for weekend dim sum featuring har gow, siu mai, and baked BBQ pork buns.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "What's Cookin' Mexican",
@@ -521,7 +678,8 @@ export const restaurants: Restaurant[] = [
     "distance": 1.1,
     "price": "$",
     "notes": "24/7 drive-thru; famous for loaded breakfast burritos, carne asada fries, and rolled tacos; formerly Nico's.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "IHOP (Grant)",
@@ -530,7 +688,8 @@ export const restaurants: Restaurant[] = [
     "distance": 1.1,
     "price": "$$",
     "notes": "24-hour service; world-famous buttermilk pancakes, stuffed omelettes, and classic diner burger platters.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Audubon Bar & Patio",
@@ -538,17 +697,19 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Central & Midtown",
     "distance": 1.1,
     "price": "$$",
-    "notes": "Local favorite in Central & Midtown serving classic american & comfort options.",
-    "isLocal": true
+    "notes": "Relaxed spot with a charming patio, serving classic American comfort food and refreshing drinks.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Main Dining Room",
     "cuisine": "American & Comfort",
     "neighborhood": "Central & Midtown",
     "distance": 1.1,
-    "price": "$$",
-    "notes": "Local favorite in Central & Midtown serving classic american & comfort options.",
-    "isLocal": true
+    "price": "$$$",
+    "notes": "Elegant dining experience with seasonal menus, exceptional service, and sophisticated American dishes.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "La Mesa Tortilla",
@@ -556,17 +717,19 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Central & Midtown",
     "distance": 1.1,
     "price": "$",
-    "notes": "Local favorite in Central & Midtown serving classic mexican & sonoran options.",
-    "isLocal": true
+    "notes": "Local gem for fresh, handmade tortillas and delicious, traditional Mexican dishes.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Pizza Hut",
     "cuisine": "Italian & Pizza",
     "neighborhood": "Central & University",
     "distance": 1.1,
-    "price": "$$",
-    "notes": "Popular neighborhood destination featuring fresh italian & pizza specialties.",
-    "isLocal": false
+    "price": "$",
+    "notes": "Classic chain for pan pizzas, breadsticks, and wings. Familiar, family-friendly fare.",
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "WXYZ Lounge",
@@ -575,7 +738,8 @@ export const restaurants: Restaurant[] = [
     "distance": 1.1,
     "price": "$$",
     "notes": "Popular neighborhood destination featuring fresh bar, pub & brewery specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Portillo's",
@@ -583,8 +747,19 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Central & Midtown",
     "distance": 1.1,
     "price": "$",
-    "notes": "Popular neighborhood destination featuring fresh fast food & sandwiches specialties.",
-    "isLocal": true
+    "notes": "Iconic Chicago-style hot dogs, Italian beef, and indulgent chocolate cake shakes.",
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Bobo's Restaurant",
+    "cuisine": "Breakfast & Diner",
+    "neighborhood": "Central & Midtown",
+    "distance": 1.1,
+    "price": "$$",
+    "notes": "Popular neighborhood destination featuring fresh breakfast & diner specialties.",
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Jack in the Box",
@@ -593,7 +768,8 @@ export const restaurants: Restaurant[] = [
     "distance": 1.1,
     "price": "$",
     "notes": "A great spot to enjoy delicious fast food & sandwiches in the Central & Midtown area.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": false
   },
   {
     "name": "Aspasia Middle Eastern Restaurant",
@@ -602,7 +778,18 @@ export const restaurants: Restaurant[] = [
     "distance": 1.1,
     "price": "$$",
     "notes": "Local favorite in Central & Midtown serving classic mediterranean & global options.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
+  },
+  {
+    "name": "Noodleholics",
+    "cuisine": "Asian & Sushi",
+    "neighborhood": "Central & Midtown",
+    "distance": 1.1,
+    "price": "$$",
+    "notes": "Local favorite in Central & Midtown serving classic asian & sushi options.",
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Raspados El Chikitin",
@@ -611,7 +798,8 @@ export const restaurants: Restaurant[] = [
     "distance": 1.1,
     "price": "$",
     "notes": "Popular neighborhood destination featuring fresh boba tea & beverages specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Go Dim Sum",
@@ -620,7 +808,8 @@ export const restaurants: Restaurant[] = [
     "distance": 1.2,
     "price": "$$",
     "notes": "Prepared-to-order dim sum, Portuguese Egg Tarts, Salt & Pepper Tofu, mushroom dumplings, and boba tea.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Dedicated Bakery",
@@ -629,7 +818,8 @@ export const restaurants: Restaurant[] = [
     "distance": 1.2,
     "price": "$$",
     "notes": "100% GF facility; famous for Jalapeño Cheddar bagels, gluten-free artisan breads, and dietary-friendly pastries.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Salad and Go (Speedway)",
@@ -638,7 +828,8 @@ export const restaurants: Restaurant[] = [
     "distance": 1.2,
     "price": "$",
     "notes": "Drive-thru organic salads, healthy breakfast wraps, and fresh-brewed iced teas with sustainable sourcing.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Happy Lemon",
@@ -647,7 +838,8 @@ export const restaurants: Restaurant[] = [
     "distance": 1.2,
     "price": "$",
     "notes": "Salted cheese tea, signature bubble waffles, fresh fruit smoothies, and distinctively layered boba drinks.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Ni Hao Tea",
@@ -656,7 +848,8 @@ export const restaurants: Restaurant[] = [
     "distance": 1.2,
     "price": "$",
     "notes": "Quality freshly brewed tea; chewy boba, signature milk teas, fresh taro smoothies, and custom blends.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Panera Bread",
@@ -665,7 +858,8 @@ export const restaurants: Restaurant[] = [
     "distance": 1.2,
     "price": "$$",
     "notes": "Casual dining; freshly baked breads, broccoli cheddar soup in bread bowls, and healthy composed salads.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Outback Steakhouse",
@@ -674,7 +868,8 @@ export const restaurants: Restaurant[] = [
     "distance": 1.2,
     "price": "$$$",
     "notes": "Consistent family-friendly Australian-themed steaks, signature Bloomin' Onion, and heavily seasoned prime rib.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Barrio Bread",
@@ -683,7 +878,8 @@ export const restaurants: Restaurant[] = [
     "distance": 1.2,
     "price": "$$",
     "notes": "James Beard Award-winning artisan bakery; famous for heritage grain loaves, crusty baguettes, and the iconic Sonoran wheat pan epi.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Cheba Hut",
@@ -692,16 +888,18 @@ export const restaurants: Restaurant[] = [
     "distance": 1.2,
     "price": "$",
     "notes": "Local favorite in Central & University serving classic fast food & sandwiches options.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Bruegger's Bagels",
-    "cuisine": "Fast Food & Sandwiches",
+    "cuisine": "Breakfast & Diner",
     "neighborhood": "Central & Midtown",
     "distance": 1.2,
     "price": "$",
-    "notes": "Popular neighborhood destination featuring fresh fast food & sandwiches specialties.",
-    "isLocal": true
+    "notes": "Authentic New York-style bagels, cream cheese, and breakfast sandwiches, a morning classic.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Smashburger",
@@ -709,8 +907,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Central & Midtown",
     "distance": 1.2,
     "price": "$",
-    "notes": "Local favorite in Central & Midtown serving classic fast food & sandwiches options.",
-    "isLocal": true
+    "notes": "Custom-built smashed burgers with unique toppings, crispy fries, and delicious milkshakes.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Azian",
@@ -718,8 +917,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Central & Midtown",
     "distance": 1.2,
     "price": "$$",
-    "notes": "A great spot to enjoy delicious asian & sushi in the Central & Midtown area.",
-    "isLocal": true
+    "notes": "Modern spot for creative sushi rolls and diverse Asian-fusion dishes in a chic setting.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Postino",
@@ -728,16 +928,18 @@ export const restaurants: Restaurant[] = [
     "distance": 1.2,
     "price": "$$",
     "notes": "A great spot to enjoy delicious american & comfort in the Central & Midtown area.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Taco Bell",
-    "cuisine": "Mexican & Sonoran",
+    "cuisine": "Fast Food & Sandwiches",
     "neighborhood": "Central & Midtown",
     "distance": 1.2,
     "price": "$",
-    "notes": "Popular neighborhood destination featuring fresh mexican & sonoran specialties.",
-    "isLocal": false
+    "notes": "Quick and convenient Tex-Mex favorites, satisfying those late-night cravings with familiar flavors.",
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Subway",
@@ -745,8 +947,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Central & Midtown",
     "distance": 1.2,
     "price": "$",
-    "notes": "Popular neighborhood destination featuring fresh fast food & sandwiches specialties.",
-    "isLocal": false
+    "notes": "Reliable spot for customizable submarine sandwiches with fresh ingredients, quick and convenient.",
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Miss Saigon",
@@ -754,17 +957,19 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Central & University",
     "distance": 1.2,
     "price": "$$",
-    "notes": "Local favorite in Central & University serving classic asian & sushi options.",
-    "isLocal": true
+    "notes": "Authentic Vietnamese cuisine, renowned for flavorful pho, fresh spring rolls, and spicy curries.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Dirtbags",
     "cuisine": "Bar, Pub & Brewery",
     "neighborhood": "Central & University",
     "distance": 1.2,
-    "price": "$$",
-    "notes": "Local favorite in Central & University serving classic bar, pub & brewery options.",
-    "isLocal": true
+    "price": "$",
+    "notes": "Popular university bar with pub fare, lively atmosphere, and great deals on drinks.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Wendy's",
@@ -772,8 +977,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Central & University",
     "distance": 1.2,
     "price": "$",
-    "notes": "A great spot to enjoy delicious fast food & sandwiches in the Central & University area.",
-    "isLocal": false
+    "notes": "Classic fast-food chain, famous for square burgers, crispy fries, and delicious Frosty desserts.",
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Kazoku Sushi",
@@ -782,7 +988,8 @@ export const restaurants: Restaurant[] = [
     "distance": 1.2,
     "price": "$$",
     "notes": "Local favorite in Central & Midtown serving classic asian & sushi options.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Kingfisher",
@@ -791,7 +998,8 @@ export const restaurants: Restaurant[] = [
     "distance": 1.2,
     "price": "$$",
     "notes": "Popular neighborhood destination featuring fresh seafood specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Roberts restaurant",
@@ -800,7 +1008,8 @@ export const restaurants: Restaurant[] = [
     "distance": 1.2,
     "price": "$$",
     "notes": "Local favorite in Central & Midtown serving classic american & comfort options.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Bay Horse Tavern",
@@ -809,7 +1018,8 @@ export const restaurants: Restaurant[] = [
     "distance": 1.2,
     "price": "$$",
     "notes": "Local favorite in Central & Midtown serving classic bar, pub & brewery options.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Benny's Mexican Food",
@@ -818,7 +1028,18 @@ export const restaurants: Restaurant[] = [
     "distance": 1.2,
     "price": "$$",
     "notes": "Local favorite in Central & Midtown serving classic mexican & sonoran options.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
+  },
+  {
+    "name": "Jun Dynasty",
+    "cuisine": "Asian & Sushi",
+    "neighborhood": "Central & Midtown",
+    "distance": 1.2,
+    "price": "$$",
+    "notes": "A great spot to enjoy delicious asian & sushi in the Central & Midtown area.",
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Serial Grillers",
@@ -827,7 +1048,8 @@ export const restaurants: Restaurant[] = [
     "distance": 1.3,
     "price": "$$",
     "notes": "Movie-themed menu; inventive cheesesteaks, loaded specialty pizzas, and craft beer selections.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Pho Ngan",
@@ -836,7 +1058,8 @@ export const restaurants: Restaurant[] = [
     "distance": 1.3,
     "price": "$$",
     "notes": "Authentic family-owned; signature Bun Bo Hue, traditional beef Pho, fresh spring rolls, and broken rice.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Redbird Scratch Kitchen",
@@ -845,7 +1068,8 @@ export const restaurants: Restaurant[] = [
     "distance": 1.3,
     "price": "$$",
     "notes": "Locally owned; inventive comfort food including smash burgers, elote nachos, honey soy wings, and cocktails.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Culinary Dropout",
@@ -854,7 +1078,8 @@ export const restaurants: Restaurant[] = [
     "distance": 1.3,
     "price": "$$",
     "notes": "\"Refined rebellion\" venue; features 36-hour slow-cooked pork ribs, soft pretzels with provolone fondue.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Kon Tiki",
@@ -863,7 +1088,8 @@ export const restaurants: Restaurant[] = [
     "distance": 1.3,
     "price": "$$",
     "notes": "Iconic 1963 landmark; famous for \"Monkey Sticks\", pupu platters, ribs, and tropical rum-based tiki cocktails.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "China Szechwan",
@@ -872,7 +1098,8 @@ export const restaurants: Restaurant[] = [
     "distance": 1.3,
     "price": "$$",
     "notes": "Traditional Szechuan specialties with bold spice, including Mongolian Tofu, Chong Qi Spicy Tofu, and water-boiled fish.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Angie's Prime Grill",
@@ -881,7 +1108,8 @@ export const restaurants: Restaurant[] = [
     "distance": 1.3,
     "price": "$$",
     "notes": "Rapid-service grill featuring high-quality steak bowls, grilled chicken salads, and fresh-cut vegetables.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Momo's",
@@ -889,8 +1117,19 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Central & University",
     "distance": 1.3,
     "price": "$$",
-    "notes": "A great spot to enjoy delicious american & comfort in the Central & University area.",
-    "isLocal": true
+    "notes": "Neighborhood eatery known for its friendly atmosphere and satisfying American comfort food classics.",
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Eegee's",
+    "cuisine": "Fast Food & Sandwiches",
+    "neighborhood": "Central & Midtown",
+    "distance": 1.3,
+    "price": "$",
+    "notes": "Tucson icon for signature eegee's, delicious sandwiches, and crinkle-cut fries – a local must-try!",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Greek House",
@@ -899,7 +1138,8 @@ export const restaurants: Restaurant[] = [
     "distance": 1.3,
     "price": "$$",
     "notes": "A great spot to enjoy delicious mediterranean & global in the Central & University area.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Bentley's Breakfast",
@@ -908,7 +1148,18 @@ export const restaurants: Restaurant[] = [
     "distance": 1.3,
     "price": "$",
     "notes": "Local favorite in Central & University serving classic coffee & cafe options.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
+  },
+  {
+    "name": "1702",
+    "cuisine": "Italian & Pizza",
+    "neighborhood": "Central & University",
+    "distance": 1.3,
+    "price": "$$",
+    "notes": "A great spot to enjoy delicious italian & pizza in the Central & University area.",
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Sonic",
@@ -917,7 +1168,8 @@ export const restaurants: Restaurant[] = [
     "distance": 1.3,
     "price": "$",
     "notes": "A great spot to enjoy delicious fast food & sandwiches in the Central & Midtown area.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Momo's Bebidas y Mas",
@@ -926,7 +1178,8 @@ export const restaurants: Restaurant[] = [
     "distance": 1.3,
     "price": "$$",
     "notes": "A great spot to enjoy delicious american & comfort in the Central & University area.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Karamelo King",
@@ -935,7 +1188,8 @@ export const restaurants: Restaurant[] = [
     "distance": 1.3,
     "price": "$$",
     "notes": "A great spot to enjoy delicious mexican & sonoran in the Central & Midtown area.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Snooze",
@@ -944,7 +1198,8 @@ export const restaurants: Restaurant[] = [
     "distance": 1.3,
     "price": "$$",
     "notes": "Popular neighborhood destination featuring fresh breakfast & diner specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "néktər",
@@ -953,7 +1208,8 @@ export const restaurants: Restaurant[] = [
     "distance": 1.3,
     "price": "$",
     "notes": "Local favorite in Central & Midtown serving classic coffee & cafe options.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "McDonald's",
@@ -962,7 +1218,8 @@ export const restaurants: Restaurant[] = [
     "distance": 1.3,
     "price": "$",
     "notes": "Local favorite in Central & University serving classic fast food & sandwiches options.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": false
   },
   {
     "name": "Gear Shifters",
@@ -970,8 +1227,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Central & Midtown",
     "distance": 1.4,
     "price": "$",
-    "notes": "A great spot to enjoy delicious coffee & cafe in the Central & Midtown area.",
-    "isLocal": true
+    "notes": "Quirky, local coffee shop with excellent brews and a unique automotive-themed ambiance.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "El Beto",
@@ -980,7 +1238,8 @@ export const restaurants: Restaurant[] = [
     "distance": 1.4,
     "price": "$",
     "notes": "Local favorite in Central & Midtown serving classic mexican & sonoran options.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Taco Plus",
@@ -989,34 +1248,8 @@ export const restaurants: Restaurant[] = [
     "distance": 1.4,
     "price": "$$",
     "notes": "Local favorite in Central & Midtown serving classic mexican & sonoran options.",
-    "isLocal": true
-  },
-  {
-    "name": "Raijin Ramen",
-    "cuisine": "Asian & Sushi",
-    "neighborhood": "Central & Midtown",
-    "distance": 1.5,
-    "price": "$$",
-    "notes": "Authentic ramen house; famous for spicy miso broth, perfectly cooked noodles, and crispy pork gyoza.",
-    "isLocal": true
-  },
-  {
-    "name": "Bobo's Restaurant",
-    "cuisine": "Breakfast & Diner",
-    "neighborhood": "Central & Midtown",
-    "distance": 1.5,
-    "price": "$",
-    "notes": "Legacy diner; famous for giant banana pancakes, hash browns, and classic greasy-spoon breakfast plates.",
-    "isLocal": true
-  },
-  {
-    "name": "Noodleholics",
-    "cuisine": "Asian & Sushi",
-    "neighborhood": "Central & Midtown",
-    "distance": 1.5,
-    "price": "$",
-    "notes": "Specializes in authentic dumplings, hand-pulled Guilin-style noodles, and signature Sizzling Garlic Noodles.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Truland Burgers",
@@ -1025,7 +1258,18 @@ export const restaurants: Restaurant[] = [
     "distance": 1.5,
     "price": "$$",
     "notes": "Premium smashed burgers on brioche buns, fresh-cut fries, truffle aioli, and hand-spun milkshakes.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Noodleholics",
+    "cuisine": "Asian & Sushi",
+    "neighborhood": "Central & Midtown",
+    "distance": 1.5,
+    "price": "$",
+    "notes": "Specializes in authentic dumplings, hand-pulled Guilin-style noodles, and signature Sizzling Garlic Noodles.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Tuxon Chix",
@@ -1034,7 +1278,8 @@ export const restaurants: Restaurant[] = [
     "distance": 1.5,
     "price": "$$",
     "notes": "Locally owned; jumbo crispy chicken tenders, seasoned fries, thick-cut toast, and signature \"Tuxon Sauce\".",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Sexy Grilled Cheese",
@@ -1043,7 +1288,8 @@ export const restaurants: Restaurant[] = [
     "distance": 1.5,
     "price": "$$",
     "notes": "Chef-driven artisan cheese melts, loaded mac & cheese bowls, and rich tomato bisque.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Cupbop (Grant/Swan)",
@@ -1052,7 +1298,8 @@ export const restaurants: Restaurant[] = [
     "distance": 1.5,
     "price": "$$",
     "notes": "Fast-casual Korean BBQ served in a cup; features sweet potato noodles, spicy pork, and fried mandu.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Hungry Howie's Pizza",
@@ -1061,7 +1308,8 @@ export const restaurants: Restaurant[] = [
     "distance": 1.5,
     "price": "$",
     "notes": "Home of original flavored crust pizza; serves standard pepperoni pies, baked subs, and garlic cheese bread.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Opa's Best",
@@ -1070,7 +1318,18 @@ export const restaurants: Restaurant[] = [
     "distance": 1.5,
     "price": "$$",
     "notes": "Authentic Mediterranean; housemade baklava, falafel, chicken souvlaki, and large Greek salad platters.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Bobo's Restaurant",
+    "cuisine": "Breakfast & Diner",
+    "neighborhood": "Central & Midtown",
+    "distance": 1.5,
+    "price": "$",
+    "notes": "Legacy diner; famous for giant banana pancakes, hash browns, and classic greasy-spoon breakfast plates.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Amelia's (Grant)",
@@ -1079,7 +1338,8 @@ export const restaurants: Restaurant[] = [
     "distance": 1.5,
     "price": "$$",
     "notes": "Family-owned; award-winning salsas, tangy mole veggie enchiladas, and traditional carne asada plates.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Guadalajara Grill",
@@ -1088,16 +1348,38 @@ export const restaurants: Restaurant[] = [
     "distance": 1.5,
     "price": "$$",
     "notes": "Tableside salsa and mariachis; features the massive Burro Panzon, sizzling fajitas, and fresh guacamole.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Raijin Ramen",
+    "cuisine": "Asian & Sushi",
+    "neighborhood": "Central & Midtown",
+    "distance": 1.5,
+    "price": "$$",
+    "notes": "Authentic ramen house; famous for spicy miso broth, perfectly cooked noodles, and crispy pork gyoza.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Chili Con Sol",
     "cuisine": "Mexican & Sonoran",
     "neighborhood": "Central & University",
     "distance": 1.5,
-    "price": "$$",
-    "notes": "Local favorite in Central & University serving classic mexican & sonoran options.",
-    "isLocal": true
+    "price": "$",
+    "notes": "Authentic Sonoran flavors shine here with delicious green chile stew and savory Mexican classics.",
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Subway",
+    "cuisine": "Fast Food & Sandwiches",
+    "neighborhood": "Central & Midtown",
+    "distance": 1.5,
+    "price": "$",
+    "notes": "Popular neighborhood destination featuring fresh fast food & sandwiches specialties.",
+    "isLocal": false,
+    "enriched": false
   },
   {
     "name": "Little Caesars",
@@ -1106,7 +1388,18 @@ export const restaurants: Restaurant[] = [
     "distance": 1.5,
     "price": "$",
     "notes": "A great spot to enjoy delicious italian & pizza in the Central & Midtown area.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": false
+  },
+  {
+    "name": "Starbucks",
+    "cuisine": "Coffee & Cafe",
+    "neighborhood": "Central & Midtown",
+    "distance": 1.5,
+    "price": "$",
+    "notes": "A great spot to enjoy delicious coffee & cafe in the Central & Midtown area.",
+    "isLocal": false,
+    "enriched": false
   },
   {
     "name": "Carl's Jr.",
@@ -1115,7 +1408,8 @@ export const restaurants: Restaurant[] = [
     "distance": 1.5,
     "price": "$",
     "notes": "Popular neighborhood destination featuring fresh fast food & sandwiches specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Alafia West African",
@@ -1124,7 +1418,8 @@ export const restaurants: Restaurant[] = [
     "distance": 1.6,
     "price": "$$",
     "notes": "Family-owned; authentic egusi soup, fufu, fried plantains, goat soup, and spicy ginger juice.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Sabor",
@@ -1133,34 +1428,38 @@ export const restaurants: Restaurant[] = [
     "distance": 1.6,
     "price": "$$",
     "notes": "Popular neighborhood destination featuring fresh mexican & sonoran specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Saffron Bites",
-    "cuisine": "Asian & Sushi",
+    "cuisine": "Mediterranean & Global",
     "neighborhood": "Central & University",
     "distance": 1.6,
     "price": "$$",
-    "notes": "Local favorite in Central & University serving classic asian & sushi options.",
-    "isLocal": true
+    "notes": "Flavorful Indian cuisine featuring aromatic curries, tandoori specialties, and fresh, handmade naan.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Panda Express",
-    "cuisine": "Asian & Sushi",
-    "neighborhood": "Central & University",
-    "distance": 1.6,
-    "price": "$",
-    "notes": "Popular neighborhood destination featuring fresh asian & sushi specialties.",
-    "isLocal": false
-  },
-  {
-    "name": "IQ",
     "cuisine": "Fast Food & Sandwiches",
     "neighborhood": "Central & University",
     "distance": 1.6,
     "price": "$",
-    "notes": "A great spot to enjoy delicious fast food & sandwiches in the Central & University area.",
-    "isLocal": true
+    "notes": "Fast-casual Chinese-American comfort food, famous for orange chicken and quick, customizable plates.",
+    "isLocal": false,
+    "enriched": true
+  },
+  {
+    "name": "IQ",
+    "cuisine": "Healthy, Vegan & Plant-Based",
+    "neighborhood": "Central & University",
+    "distance": 1.6,
+    "price": "$$",
+    "notes": "Innovative spot for healthy, build-your-own bowls and fresh, nutritious options. Quick and customizable.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Papa John's",
@@ -1168,8 +1467,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Central & University",
     "distance": 1.6,
     "price": "$",
-    "notes": "Popular neighborhood destination featuring fresh italian & pizza specialties.",
-    "isLocal": false
+    "notes": "Dependable pizza chain offering classic and specialty pizzas with a focus on fresh ingredients.",
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Chick-fil-A",
@@ -1177,35 +1477,39 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Central & University",
     "distance": 1.6,
     "price": "$",
-    "notes": "A great spot to enjoy delicious fast food & sandwiches in the Central & University area.",
-    "isLocal": false
+    "notes": "Beloved for its signature chicken sandwiches, waffle fries, and consistently friendly service.",
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "On Deck",
-    "cuisine": "Fast Food & Sandwiches",
+    "cuisine": "Bar, Pub & Brewery",
     "neighborhood": "Central & University",
     "distance": 1.6,
-    "price": "$",
-    "notes": "Popular neighborhood destination featuring fresh fast food & sandwiches specialties.",
-    "isLocal": true
+    "price": "$$",
+    "notes": "Casual sports bar with classic pub fare, juicy burgers, and plenty of big screens.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Core",
     "cuisine": "American & Comfort",
     "neighborhood": "Central & University",
     "distance": 1.6,
-    "price": "$$",
-    "notes": "Local favorite in Central & University serving classic american & comfort options.",
-    "isLocal": true
+    "price": "$$$",
+    "notes": "Modern eatery focusing on locally sourced ingredients for elevated American comfort dishes.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Einstein Bros. Bagels",
-    "cuisine": "Fast Food & Sandwiches",
+    "cuisine": "Breakfast & Diner",
     "neighborhood": "Central & University",
     "distance": 1.6,
     "price": "$",
-    "notes": "Popular neighborhood destination featuring fresh fast food & sandwiches specialties.",
-    "isLocal": true
+    "notes": "Popular spot for freshly baked bagels, schmears, and breakfast sandwiches to start your day.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Cactus Grill",
@@ -1213,17 +1517,19 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Central & University",
     "distance": 1.6,
     "price": "$$",
-    "notes": "Local favorite in Central & University serving classic italian & pizza options.",
-    "isLocal": true
+    "notes": "Casual eatery serving up classic Italian pasta dishes and delicious gourmet pizzas.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Mojo Cuban Kitchen",
-    "cuisine": "American & Comfort",
+    "cuisine": "Mediterranean & Global",
     "neighborhood": "Central & Midtown",
     "distance": 1.6,
     "price": "$$",
-    "notes": "Local favorite in Central & Midtown serving classic american & comfort options.",
-    "isLocal": true
+    "notes": "Vibrant Cuban flavors with authentic ropa vieja and fantastic Cubano sandwiches. A taste of Havana.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Mama's Famous Pizza & Heros",
@@ -1231,17 +1537,19 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Central & Midtown",
     "distance": 1.6,
     "price": "$$",
-    "notes": "Local favorite in Central & Midtown serving classic italian & pizza options.",
-    "isLocal": true
+    "notes": "A local favorite serving up delicious New York-style pizzas and generously sized heroes.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Nrich Urban Market",
-    "cuisine": "Fast Food & Sandwiches",
+    "cuisine": "Healthy, Vegan & Plant-Based",
     "neighborhood": "Central & University",
     "distance": 1.6,
     "price": "$",
-    "notes": "Local favorite in Central & University serving classic fast food & sandwiches options.",
-    "isLocal": true
+    "notes": "Modern urban market offering fresh, healthy grab-and-go options and artisanal sandwiches.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "The Shelter",
@@ -1249,8 +1557,19 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Central & Midtown",
     "distance": 1.6,
     "price": "$$",
-    "notes": "A great spot to enjoy delicious bar, pub & brewery in the Central & Midtown area.",
-    "isLocal": true
+    "notes": "Retro-cool bar offering classic cocktails and pub grub in a unique, speakeasy-like atmosphere.",
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Zayna Mediterranean",
+    "cuisine": "Mediterranean & Global",
+    "neighborhood": "Central & Midtown",
+    "distance": 1.6,
+    "price": "$$",
+    "notes": "Local favorite in Central & Midtown serving classic mediterranean & global options.",
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Karuna",
@@ -1259,7 +1578,8 @@ export const restaurants: Restaurant[] = [
     "distance": 1.6,
     "price": "$$",
     "notes": "A great spot to enjoy delicious asian & sushi in the Central & Midtown area.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Upper Crust Pizza",
@@ -1268,7 +1588,8 @@ export const restaurants: Restaurant[] = [
     "distance": 1.6,
     "price": "$$",
     "notes": "Popular neighborhood destination featuring fresh italian & pizza specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Postino Grant",
@@ -1277,7 +1598,8 @@ export const restaurants: Restaurant[] = [
     "distance": 1.7,
     "price": "$$",
     "notes": "Bruschetta boards with toppings like brie and apple, panini sandwiches, and extensive lunch wine specials.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Jason's Deli",
@@ -1286,7 +1608,8 @@ export const restaurants: Restaurant[] = [
     "distance": 1.7,
     "price": "$$",
     "notes": "Massive salad bar, healthy options, muffalettas, and free soft-serve ice cream with meals.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Highland Market",
@@ -1295,7 +1618,8 @@ export const restaurants: Restaurant[] = [
     "distance": 1.7,
     "price": "$$",
     "notes": "Local favorite in Central & University serving classic american & comfort options.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Cork n' Craft",
@@ -1304,25 +1628,48 @@ export const restaurants: Restaurant[] = [
     "distance": 1.7,
     "price": "$$",
     "notes": "A great spot to enjoy delicious american & comfort in the Central & University area.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Radicchio",
-    "cuisine": "American & Comfort",
+    "cuisine": "Italian & Pizza",
     "neighborhood": "Central & University",
     "distance": 1.7,
     "price": "$$",
-    "notes": "Popular neighborhood destination featuring fresh american & comfort specialties.",
-    "isLocal": true
+    "notes": "Cozy Italian eatery serving traditional pasta, pizzas, and hearty entrees in a warm setting.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Starbucks",
     "cuisine": "Coffee & Cafe",
     "neighborhood": "Central & University",
     "distance": 1.7,
+    "price": "$$",
+    "notes": "Ubiquitous coffee chain for reliable lattes, frappuccinos, and a quick breakfast bite. Always consistent.",
+    "isLocal": false,
+    "enriched": true
+  },
+  {
+    "name": "Eegee's",
+    "cuisine": "Fast Food & Sandwiches",
+    "neighborhood": "Central & Midtown",
+    "distance": 1.7,
     "price": "$",
-    "notes": "A great spot to enjoy delicious coffee & cafe in the Central & University area.",
-    "isLocal": false
+    "notes": "Tucson icon famous for refreshing fruit eegee drinks and delicious grinder sandwiches. A local favorite.",
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Raging Sage",
+    "cuisine": "Coffee & Cafe",
+    "neighborhood": "Central & Midtown",
+    "distance": 1.7,
+    "price": "$",
+    "notes": "Beloved local coffee shop known for artisanal roasts, cozy ambiance, and delicious baked goods.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Blackjack Pizza",
@@ -1330,26 +1677,39 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Central & Midtown",
     "distance": 1.7,
     "price": "$",
-    "notes": "A great spot to enjoy delicious italian & pizza in the Central & Midtown area.",
-    "isLocal": true
+    "notes": "Reliable pizza place offering classic and specialty pies for pickup or delivery. Casual and convenient.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Goodness",
-    "cuisine": "American & Comfort",
+    "cuisine": "Healthy, Vegan & Plant-Based",
     "neighborhood": "Central & Midtown",
     "distance": 1.7,
     "price": "$$",
-    "notes": "Local favorite in Central & Midtown serving classic american & comfort options.",
-    "isLocal": true
+    "notes": "Fresh, wholesome eats specializing in customizable bowls, salads, and healthy, vibrant, plant-forward meals.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Cartel Coffee Lab",
     "cuisine": "Coffee & Cafe",
     "neighborhood": "Central & Midtown",
     "distance": 1.7,
-    "price": "$",
-    "notes": "A great spot to enjoy delicious coffee & cafe in the Central & Midtown area.",
-    "isLocal": true
+    "price": "$$",
+    "notes": "Artisan coffee roaster and cafe, perfect for expertly crafted espresso drinks and a relaxed vibe.",
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Kiwami Ramen",
+    "cuisine": "Asian & Sushi",
+    "neighborhood": "Central & Midtown",
+    "distance": 1.7,
+    "price": "$$",
+    "notes": "Cozy ramen shop serving rich, flavorful broths, tender noodles, and traditional Japanese toppings.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Bing's Boba Tea",
@@ -1357,8 +1717,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Central & Midtown",
     "distance": 1.7,
     "price": "$",
-    "notes": "Popular neighborhood destination featuring fresh boba tea & beverages specialties.",
-    "isLocal": true
+    "notes": "Charming tea shop specializing in refreshing boba teas, milk teas, and creative fruit concoctions.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Zoofari Market",
@@ -1367,7 +1728,8 @@ export const restaurants: Restaurant[] = [
     "distance": 1.7,
     "price": "$$",
     "notes": "Local favorite in Central & Midtown serving classic american & comfort options.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Caravan Grill",
@@ -1376,7 +1738,8 @@ export const restaurants: Restaurant[] = [
     "distance": 1.7,
     "price": "$$",
     "notes": "Popular neighborhood destination featuring fresh mediterranean & global specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Selena’s Salvadorian Restaurant",
@@ -1385,7 +1748,8 @@ export const restaurants: Restaurant[] = [
     "distance": 1.7,
     "price": "$$",
     "notes": "Popular neighborhood destination featuring fresh american & comfort specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Two Hands Corn Dogs",
@@ -1394,7 +1758,8 @@ export const restaurants: Restaurant[] = [
     "distance": 1.8,
     "price": "$",
     "notes": "Korean-style street food with unique toppings like crispy rice and potato cubes around mozzarella and sausage.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Dany Hot Dogs",
@@ -1403,7 +1768,8 @@ export const restaurants: Restaurant[] = [
     "distance": 1.8,
     "price": "$",
     "notes": "Highly-rated local Sonoran dog truck; bacon-wrapped franks with pinto beans, grilled onions, and jalapeño salsa.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Portillo's Hot Dogs",
@@ -1412,7 +1778,8 @@ export const restaurants: Restaurant[] = [
     "distance": 1.8,
     "price": "$$",
     "notes": "Chicago-style Italian beef sandwiches, snappy hot dogs, crinkle-cut fries, and chocolate cake shakes.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Sher E Punjab",
@@ -1421,7 +1788,8 @@ export const restaurants: Restaurant[] = [
     "distance": 1.8,
     "price": "$$",
     "notes": "Bold aromatic curries, Lamb Vindaloo, tandoori grilled meats, and fresh garlic naan.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Ike's Love and Sandwiches",
@@ -1430,7 +1798,8 @@ export const restaurants: Restaurant[] = [
     "distance": 1.8,
     "price": "$",
     "notes": "Local favorite in Central & University serving classic fast food & sandwiches options.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Guilin",
@@ -1438,8 +1807,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Central & Midtown",
     "distance": 1.8,
     "price": "$$",
-    "notes": "A great spot to enjoy delicious asian & sushi in the Central & Midtown area.",
-    "isLocal": true
+    "notes": "Traditional Chinese restaurant offering a wide range of classic dishes, stir-fries, and dim sum.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Dunkin'",
@@ -1447,8 +1817,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Central & Midtown",
     "distance": 1.8,
     "price": "$",
-    "notes": "Popular neighborhood destination featuring fresh coffee & cafe specialties.",
-    "isLocal": false
+    "notes": "Popular chain for coffee, donuts, and quick breakfast sandwiches. A reliable morning stop.",
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Frankie's CheeseSteaks",
@@ -1456,8 +1827,29 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Central & Midtown",
     "distance": 1.8,
     "price": "$",
-    "notes": "A great spot to enjoy delicious fast food & sandwiches in the Central & Midtown area.",
-    "isLocal": true
+    "notes": "Authentic Philadelphia-style cheesesteaks loaded with tender meat and melted cheese. A satisfying indulgence.",
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Blue Willow",
+    "cuisine": "Breakfast & Diner",
+    "neighborhood": "Central & Midtown",
+    "distance": 1.8,
+    "price": "$$",
+    "notes": "Charming diner renowned for delicious breakfasts, comforting American classics, and delightful homemade pies.",
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Toast 101",
+    "cuisine": "Breakfast & Diner",
+    "neighborhood": "Central & Midtown",
+    "distance": 1.8,
+    "price": "$$",
+    "notes": "Modern cafe specializing in gourmet toasts, unique breakfast creations, and artisan coffee. Brunch favorite.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Lucky Wishbone",
@@ -1466,16 +1858,18 @@ export const restaurants: Restaurant[] = [
     "distance": 1.8,
     "price": "$",
     "notes": "Local favorite in Central & Midtown serving classic fast food & sandwiches options.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "China Pasta",
     "cuisine": "Asian & Sushi",
     "neighborhood": "Central & University",
     "distance": 1.9,
-    "price": "$$",
-    "notes": "Local favorite in Central & University serving classic asian & sushi options.",
-    "isLocal": true
+    "price": "$",
+    "notes": "Authentic Chinese noodle dishes and handmade dumplings offer a true taste of Asia.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Caffé Lucé",
@@ -1483,8 +1877,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Central & University",
     "distance": 1.9,
     "price": "$",
-    "notes": "Local favorite in Central & University serving classic coffee & cafe options.",
-    "isLocal": true
+    "notes": "Beloved cafe known for artisanal coffee, pastries, and a cozy atmosphere perfect for study.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Agave House",
@@ -1493,7 +1888,8 @@ export const restaurants: Restaurant[] = [
     "distance": 1.9,
     "price": "$$",
     "notes": "Local favorite in Central & University serving classic american & comfort options.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Vila Thai",
@@ -1502,7 +1898,8 @@ export const restaurants: Restaurant[] = [
     "distance": 1.9,
     "price": "$$",
     "notes": "Popular neighborhood destination featuring fresh asian & sushi specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Jimmy John's",
@@ -1511,16 +1908,18 @@ export const restaurants: Restaurant[] = [
     "distance": 1.9,
     "price": "$",
     "notes": "Popular neighborhood destination featuring fresh fast food & sandwiches specialties.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": false
   },
   {
     "name": "Panera Bread",
-    "cuisine": "Dessert & Bakery",
+    "cuisine": "Fast Food & Sandwiches",
     "neighborhood": "Central & University",
     "distance": 1.9,
-    "price": "$",
-    "notes": "Popular neighborhood destination featuring fresh dessert & bakery specialties.",
-    "isLocal": false
+    "price": "$$",
+    "notes": "Freshly baked bread, comforting soups, and healthy sandwiches in a casual, airy setting.",
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Smoothie Factory",
@@ -1529,7 +1928,8 @@ export const restaurants: Restaurant[] = [
     "distance": 1.9,
     "price": "$",
     "notes": "A great spot to enjoy delicious boba tea & beverages in the Central & University area.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Slot Canyon Cafe",
@@ -1537,8 +1937,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Central & University",
     "distance": 1.9,
     "price": "$",
-    "notes": "A great spot to enjoy delicious coffee & cafe in the Central & University area.",
-    "isLocal": true
+    "notes": "Cozy cafe offering artisan coffee, fresh pastries, and light breakfast/lunch options in a relaxed setting.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Scented Leaf Tea House - University",
@@ -1546,8 +1947,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Central & University",
     "distance": 1.9,
     "price": "$",
-    "notes": "Popular neighborhood destination featuring fresh boba tea & beverages specialties.",
-    "isLocal": true
+    "notes": "Tranquil tea house offering a vast selection of specialty teas, boba drinks, and peaceful ambiance.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Shake Smart",
@@ -1556,7 +1958,8 @@ export const restaurants: Restaurant[] = [
     "distance": 1.9,
     "price": "$",
     "notes": "Popular neighborhood destination featuring fresh boba tea & beverages specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Jack in the Box",
@@ -1565,7 +1968,18 @@ export const restaurants: Restaurant[] = [
     "distance": 1.9,
     "price": "$",
     "notes": "A great spot to enjoy delicious fast food & sandwiches in the Central & University area.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": false
+  },
+  {
+    "name": "Opa's Best",
+    "cuisine": "Mediterranean & Global",
+    "neighborhood": "Central & Midtown",
+    "distance": 1.9,
+    "price": "$$",
+    "notes": "Delicious, authentic Greek and Mediterranean dishes, including flavorful gyros and fresh hummus.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "JA Ramen",
@@ -1573,8 +1987,19 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Central & Midtown",
     "distance": 1.9,
     "price": "$$",
-    "notes": "A great spot to enjoy delicious asian & sushi in the Central & Midtown area.",
-    "isLocal": true
+    "notes": "Authentic ramen shop offering rich broths and savory noodles, perfect for a comforting meal.",
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Prep & Pastry",
+    "cuisine": "Breakfast & Diner",
+    "neighborhood": "Central & Midtown",
+    "distance": 1.9,
+    "price": "$$",
+    "notes": "Trendy brunch spot featuring creative breakfast dishes, delectable pastries, and refreshing craft cocktails.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Pizza Hut",
@@ -1583,7 +2008,18 @@ export const restaurants: Restaurant[] = [
     "distance": 1.9,
     "price": "$$",
     "notes": "Popular neighborhood destination featuring fresh italian & pizza specialties.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": false
+  },
+  {
+    "name": "McDonald's",
+    "cuisine": "Fast Food & Sandwiches",
+    "neighborhood": "Central & Midtown",
+    "distance": 1.9,
+    "price": "$",
+    "notes": "Local favorite in Central & Midtown serving classic fast food & sandwiches options.",
+    "isLocal": false,
+    "enriched": false
   },
   {
     "name": "Crave Coffee Bar",
@@ -1592,7 +2028,8 @@ export const restaurants: Restaurant[] = [
     "distance": 1.9,
     "price": "$",
     "notes": "Local favorite in Central & Midtown serving classic coffee & cafe options.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "The Taco Shop Co.",
@@ -1601,16 +2038,18 @@ export const restaurants: Restaurant[] = [
     "distance": 1.9,
     "price": "$",
     "notes": "Local favorite in Central & Midtown serving classic mexican & sonoran options.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
-    "name": "Flora's Market Run",
-    "cuisine": "American & Comfort",
+    "name": "India Oven",
+    "cuisine": "Asian & Sushi",
     "neighborhood": "Central & Midtown",
-    "distance": 2,
+    "distance": 1.9,
     "price": "$$",
-    "notes": "Neighborhood market and restaurant; serves wood-fired pizzas, hearty sandwiches, and fresh brunch plates.",
-    "isLocal": true
+    "notes": "A great spot to enjoy delicious asian & sushi in the Central & Midtown area.",
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Cheddar's Scratch Kitchen",
@@ -1619,7 +2058,8 @@ export const restaurants: Restaurant[] = [
     "distance": 2,
     "price": "$$",
     "notes": "Scratch-made American favorites including honey butter croissants, chicken tenders, and massive onion rings.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Falora",
@@ -1628,7 +2068,8 @@ export const restaurants: Restaurant[] = [
     "distance": 2,
     "price": "$$",
     "notes": "Artisan wood-fired pizza spot in Broadway Village; features Neapolitan pies, Cavatelli pasta, and fresh kale salads.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Original ChopShop",
@@ -1637,7 +2078,18 @@ export const restaurants: Restaurant[] = [
     "distance": 2,
     "price": "$$",
     "notes": "Quick, health-focused bowls, protein shakes, fresh-pressed juices, and vibrant organic salads.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Flora's Market Run",
+    "cuisine": "American & Comfort",
+    "neighborhood": "Central & Midtown",
+    "distance": 2,
+    "price": "$$",
+    "notes": "Neighborhood market and restaurant; serves wood-fired pizzas, hearty sandwiches, and fresh brunch plates.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "El Berraco",
@@ -1646,7 +2098,8 @@ export const restaurants: Restaurant[] = [
     "distance": 2,
     "price": "$$",
     "notes": "Submarine-themed Latin seafood restaurant; serves vibrant ceviche, spicy aguachile, and unique seafood tacos.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Espresso Art",
@@ -1655,7 +2108,8 @@ export const restaurants: Restaurant[] = [
     "distance": 2,
     "price": "$",
     "notes": "Local favorite in Central & University serving classic coffee & cafe options.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Fuku Sushi",
@@ -1664,16 +2118,18 @@ export const restaurants: Restaurant[] = [
     "distance": 2,
     "price": "$$",
     "notes": "A great spot to enjoy delicious asian & sushi in the Central & University area.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Dunkin Donuts/Baskin Robbins",
-    "cuisine": "Fast Food & Sandwiches",
+    "cuisine": "Dessert & Bakery",
     "neighborhood": "Central & University",
     "distance": 2,
     "price": "$",
-    "notes": "Popular neighborhood destination featuring fresh fast food & sandwiches specialties.",
-    "isLocal": false
+    "notes": "Dual-brand stop for coffee, donuts, and a vast selection of ice cream flavors.",
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Silver Mine Subs",
@@ -1682,7 +2138,8 @@ export const restaurants: Restaurant[] = [
     "distance": 2,
     "price": "$",
     "notes": "Popular neighborhood destination featuring fresh fast food & sandwiches specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Pei Wei",
@@ -1691,7 +2148,8 @@ export const restaurants: Restaurant[] = [
     "distance": 2,
     "price": "$$",
     "notes": "Popular neighborhood destination featuring fresh asian & sushi specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Chipotle",
@@ -1699,8 +2157,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Central & University",
     "distance": 2,
     "price": "$",
-    "notes": "Popular neighborhood destination featuring fresh mexican & sonoran specialties.",
-    "isLocal": false
+    "notes": "Build-your-own burritos and bowls with fresh ingredients and customizable toppings.",
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Saigon Pho",
@@ -1708,26 +2167,29 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Central & University",
     "distance": 2,
     "price": "$$",
-    "notes": "Local favorite in Central & University serving classic asian & sushi options.",
-    "isLocal": true
+    "notes": "Authentic Vietnamese noodle soups and flavorful entrées perfect for a cozy meal.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Sultan Palace",
-    "cuisine": "American & Comfort",
+    "cuisine": "Mediterranean & Global",
     "neighborhood": "Central & University",
     "distance": 2,
     "price": "$$",
-    "notes": "Local favorite in Central & University serving classic american & comfort options.",
-    "isLocal": true
+    "notes": "Elegant Middle Eastern spot offering delicious kebabs, falafel, and a warm, inviting ambiance.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Pasco Kitchen and Lounge",
     "cuisine": "American & Comfort",
     "neighborhood": "Central & University",
     "distance": 2,
-    "price": "$$",
-    "notes": "A great spot to enjoy delicious american & comfort in the Central & University area.",
-    "isLocal": true
+    "price": "$$$",
+    "notes": "Modern American fare with a stylish lounge, creative cocktails, and vibrant downtown ambiance.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Red's Smokehouse and Tap Room",
@@ -1736,34 +2198,68 @@ export const restaurants: Restaurant[] = [
     "distance": 2,
     "price": "$$",
     "notes": "Local favorite in Central & University serving classic bar, pub & brewery options.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Kababeque",
-    "cuisine": "American & Comfort",
+    "cuisine": "Mediterranean & Global",
     "neighborhood": "Central & University",
     "distance": 2,
     "price": "$$",
-    "notes": "Local favorite in Central & University serving classic american & comfort options.",
-    "isLocal": true
+    "notes": "Savory kebabs, flavorful rice dishes, and authentic Mediterranean cuisine crafted with care.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Eat-a-Pita",
-    "cuisine": "Fast Food & Sandwiches",
+    "cuisine": "Mediterranean & Global",
     "neighborhood": "Central & University",
     "distance": 2,
     "price": "$",
-    "notes": "Local favorite in Central & University serving classic fast food & sandwiches options.",
-    "isLocal": true
+    "notes": "Quick and fresh pita sandwiches, flavorful falafel, and other delightful Mediterranean specialties.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Woops!",
+    "cuisine": "Dessert & Bakery",
+    "neighborhood": "Central & University",
+    "distance": 2,
+    "price": "$",
+    "notes": "Delightful artisanal macarons, international pastries, and gourmet coffee in a chic, inviting atmosphere.",
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Illegal Pete's",
+    "cuisine": "Mexican & Sonoran",
+    "neighborhood": "Central & University",
+    "distance": 2,
+    "price": "$",
+    "notes": "Lively spot for oversized burritos, tacos, and craft beers. Fun, casual atmosphere.",
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Starbucks",
     "cuisine": "Coffee & Cafe",
     "neighborhood": "Central & University",
     "distance": 2,
     "price": "$",
-    "notes": "Popular neighborhood destination featuring fresh coffee & cafe specialties.",
-    "isLocal": true
+    "notes": "Consistent coffee, espresso drinks, and quick bites are always available at this location.",
+    "isLocal": false,
+    "enriched": true
+  },
+  {
+    "name": "Saffron Bites",
+    "cuisine": "Mediterranean & Global",
+    "neighborhood": "Central & University",
+    "distance": 2,
+    "price": "$$",
+    "notes": "Authentic Indian cuisine, aromatic curries, biryanis, and tandoori specialties in a cozy setting.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Two Hands",
@@ -1771,17 +2267,19 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Central & Midtown",
     "distance": 2,
     "price": "$",
-    "notes": "Local favorite in Central & Midtown serving classic fast food & sandwiches options.",
-    "isLocal": true
+    "notes": "Delicious gourmet sandwiches and salads, crafted with fresh ingredients for a satisfying meal.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Snakes & Lattes Tucson",
     "cuisine": "Coffee & Cafe",
     "neighborhood": "Central & University",
     "distance": 2,
-    "price": "$",
-    "notes": "Local favorite in Central & University serving classic coffee & cafe options.",
-    "isLocal": true
+    "price": "$$",
+    "notes": "Unique board game cafe offering coffee, snacks, and hundreds of games for fun.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Hungry Fox Restaurant & Country Store",
@@ -1789,8 +2287,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Central & Midtown",
     "distance": 2,
     "price": "$$",
-    "notes": "Popular neighborhood destination featuring fresh american & comfort specialties.",
-    "isLocal": true
+    "notes": "Quaint country store and diner serving classic American comfort food and homemade treats.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Frog and Firkin",
@@ -1799,7 +2298,8 @@ export const restaurants: Restaurant[] = [
     "distance": 2,
     "price": "$$",
     "notes": "Local favorite in Central & University serving classic bar, pub & brewery options.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "No Anchovies",
@@ -1808,7 +2308,8 @@ export const restaurants: Restaurant[] = [
     "distance": 2,
     "price": "$$",
     "notes": "Local favorite in Central & University serving classic bar, pub & brewery options.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Gentle Ben's Brewing Company",
@@ -1817,7 +2318,8 @@ export const restaurants: Restaurant[] = [
     "distance": 2,
     "price": "$$",
     "notes": "Popular neighborhood destination featuring fresh bar, pub & brewery specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Five Guys",
@@ -1825,8 +2327,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Central & Midtown",
     "distance": 2,
     "price": "$",
-    "notes": "A great spot to enjoy delicious fast food & sandwiches in the Central & Midtown area.",
-    "isLocal": false
+    "notes": "Freshly made burgers, hand-cut fries, and generous portions. A popular, satisfying fast-casual option.",
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "The Rock",
@@ -1834,8 +2337,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Central & Midtown",
     "distance": 2,
     "price": "$$",
-    "notes": "Local favorite in Central & Midtown serving classic bar, pub & brewery options.",
-    "isLocal": true
+    "notes": "Lively local spot for live music, pub grub, and a wide selection of craft beers.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Domino's",
@@ -1844,7 +2348,8 @@ export const restaurants: Restaurant[] = [
     "distance": 2,
     "price": "$",
     "notes": "Local favorite in Central & University serving classic italian & pizza options.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": false
   },
   {
     "name": "Wok Fire & Grill",
@@ -1853,7 +2358,28 @@ export const restaurants: Restaurant[] = [
     "distance": 2,
     "price": "$$",
     "notes": "Local favorite in Central & University serving classic asian & sushi options.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
+  },
+  {
+    "name": "Panda Express",
+    "cuisine": "Asian & Sushi",
+    "neighborhood": "Central & Midtown",
+    "distance": 2,
+    "price": "$",
+    "notes": "Popular neighborhood destination featuring fresh asian & sushi specialties.",
+    "isLocal": false,
+    "enriched": false
+  },
+  {
+    "name": "Ni Hao Tea",
+    "cuisine": "Coffee & Cafe",
+    "neighborhood": "Central & Midtown",
+    "distance": 2,
+    "price": "$",
+    "notes": "Popular neighborhood destination featuring fresh coffee & cafe specialties.",
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Oh My Chicken",
@@ -1862,7 +2388,8 @@ export const restaurants: Restaurant[] = [
     "distance": 2,
     "price": "$",
     "notes": "A great spot to enjoy delicious fast food & sandwiches in the Central & Midtown area.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Maru Plus Japanese Noodle, Onigiri & More",
@@ -1871,7 +2398,8 @@ export const restaurants: Restaurant[] = [
     "distance": 2,
     "price": "$$",
     "notes": "Local favorite in Central & Midtown serving classic asian & sushi options.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Karuna's Thai Plate",
@@ -1880,7 +2408,8 @@ export const restaurants: Restaurant[] = [
     "distance": 2.1,
     "price": "$$",
     "notes": "Known for Pad See Ewe, fiery Panang curry, drunken noodles, and high spice intensity.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Geronimo's",
@@ -1889,7 +2418,18 @@ export const restaurants: Restaurant[] = [
     "distance": 2.1,
     "price": "$$",
     "notes": "Popular neighborhood destination featuring fresh american & comfort specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
+  },
+  {
+    "name": "Dunkin'",
+    "cuisine": "Coffee & Cafe",
+    "neighborhood": "Central & Midtown",
+    "distance": 2.1,
+    "price": "$",
+    "notes": "Popular neighborhood destination featuring fresh coffee & cafe specialties.",
+    "isLocal": false,
+    "enriched": false
   },
   {
     "name": "HeeMee Coffee + Bakery on University",
@@ -1897,8 +2437,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Central & University",
     "distance": 2.1,
     "price": "$",
-    "notes": "Popular neighborhood destination featuring fresh coffee & cafe specialties.",
-    "isLocal": true
+    "notes": "Charming coffee shop and bakery serving delectable pastries, artisan coffee, and light bites.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Sinbad's",
@@ -1907,7 +2448,8 @@ export const restaurants: Restaurant[] = [
     "distance": 2.1,
     "price": "$$",
     "notes": "Local favorite in Central & University serving classic mediterranean & global options.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Baja Grill",
@@ -1915,8 +2457,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Central & Midtown",
     "distance": 2.1,
     "price": "$$",
-    "notes": "A great spot to enjoy delicious american & comfort in the Central & Midtown area.",
-    "isLocal": true
+    "notes": "Casual grill offering tasty burgers, tacos, and classic American comfort food. Laid-back atmosphere.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Jamba",
@@ -1924,8 +2467,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Central & Midtown",
     "distance": 2.1,
     "price": "$",
-    "notes": "A great spot to enjoy delicious boba tea & beverages in the Central & Midtown area.",
-    "isLocal": true
+    "notes": "Vibrant spot for refreshing fruit smoothies, freshly squeezed juices, and energizing acai bowls.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "K Japanese Restaurant",
@@ -1933,8 +2477,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Central & Midtown",
     "distance": 2.1,
     "price": "$$",
-    "notes": "A great spot to enjoy delicious asian & sushi in the Central & Midtown area.",
-    "isLocal": true
+    "notes": "Authentic Japanese dining offering fresh sushi rolls, sashimi, and classic izakaya-style small plates.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Applebee's",
@@ -1942,8 +2487,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Central & Midtown",
     "distance": 2.1,
     "price": "$$",
-    "notes": "A great spot to enjoy delicious american & comfort in the Central & Midtown area.",
-    "isLocal": false
+    "notes": "Casual neighborhood grill offering diverse American fare, burgers, and classic happy hour specials.",
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "East Coast Super Subs",
@@ -1951,8 +2497,19 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Central & Midtown",
     "distance": 2.1,
     "price": "$",
-    "notes": "A great spot to enjoy delicious fast food & sandwiches in the Central & Midtown area.",
-    "isLocal": true
+    "notes": "Authentic East Coast-style subs, packed with fresh ingredients and generous portions.",
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Lucky Wishbone",
+    "cuisine": "Fast Food & Sandwiches",
+    "neighborhood": "Central & Midtown",
+    "distance": 2.1,
+    "price": "$",
+    "notes": "Long-standing Tucson institution for classic fried chicken, shrimp, and delectable crisp onion rings.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Oregano’s",
@@ -1961,7 +2518,18 @@ export const restaurants: Restaurant[] = [
     "distance": 2.1,
     "price": "$$",
     "notes": "Popular neighborhood destination featuring fresh italian & pizza specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
+  },
+  {
+    "name": "Taco Bell",
+    "cuisine": "Mexican & Sonoran",
+    "neighborhood": "Central & Midtown",
+    "distance": 2.1,
+    "price": "$",
+    "notes": "Popular neighborhood destination featuring fresh mexican & sonoran specialties.",
+    "isLocal": false,
+    "enriched": false
   },
   {
     "name": "Church's Chicken",
@@ -1970,7 +2538,8 @@ export const restaurants: Restaurant[] = [
     "distance": 2.1,
     "price": "$",
     "notes": "Popular neighborhood destination featuring fresh fast food & sandwiches specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "House of Bards",
@@ -1979,7 +2548,8 @@ export const restaurants: Restaurant[] = [
     "distance": 2.1,
     "price": "$$",
     "notes": "A great spot to enjoy delicious bar, pub & brewery in the Central & Midtown area.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "The Egg Connection",
@@ -1988,7 +2558,8 @@ export const restaurants: Restaurant[] = [
     "distance": 2.1,
     "price": "$$",
     "notes": "Local favorite in Central & Midtown serving classic american & comfort options.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "DJ's Island Grill",
@@ -1997,7 +2568,8 @@ export const restaurants: Restaurant[] = [
     "distance": 2.1,
     "price": "$$",
     "notes": "Popular neighborhood destination featuring fresh american & comfort specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Sauce",
@@ -2006,7 +2578,8 @@ export const restaurants: Restaurant[] = [
     "distance": 2.1,
     "price": "$$",
     "notes": "Popular neighborhood destination featuring fresh italian & pizza specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Chick-fil-A (El Con)",
@@ -2015,7 +2588,8 @@ export const restaurants: Restaurant[] = [
     "distance": 2.2,
     "price": "$",
     "notes": "High-efficiency institutional location; crispy chicken sandwiches, waffle fries, and signature dipping sauces.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "El Charro Café (El Con)",
@@ -2024,7 +2598,8 @@ export const restaurants: Restaurant[] = [
     "distance": 2.2,
     "price": "$$",
     "notes": "Nation's oldest family-run Mexican brand; famous for carne seca burros and classic chimichangas.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Rubio's Mexican",
@@ -2033,7 +2608,8 @@ export const restaurants: Restaurant[] = [
     "distance": 2.2,
     "price": "$",
     "notes": "Known for original beer-battered fish tacos, coastal Mexican bowls, and fresh citrus salsas.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Govinda's Natural Foods Buffet",
@@ -2042,7 +2618,8 @@ export const restaurants: Restaurant[] = [
     "distance": 2.2,
     "price": "$$",
     "notes": "Peaceful vegetarian oasis; serves an all-you-can-eat international vegetarian buffet, fresh salads, and vegan desserts.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Tuk Tuk Thai",
@@ -2050,8 +2627,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Central & Midtown",
     "distance": 2.2,
     "price": "$$",
-    "notes": "Popular neighborhood destination featuring fresh asian & sushi specialties.",
-    "isLocal": true
+    "notes": "Authentic Thai cuisine, from fragrant curries to spicy noodles, bursting with exotic flavors.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Ciao Down Pizza",
@@ -2059,17 +2637,19 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Central & Midtown",
     "distance": 2.2,
     "price": "$$",
-    "notes": "A great spot to enjoy delicious italian & pizza in the Central & Midtown area.",
-    "isLocal": true
+    "notes": "Serving up delicious pizzas with fresh toppings and a casual, friendly neighborhood vibe.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Del Taco",
-    "cuisine": "Mexican & Sonoran",
+    "cuisine": "Fast Food & Sandwiches",
     "neighborhood": "Central & Midtown",
     "distance": 2.2,
     "price": "$",
-    "notes": "A great spot to enjoy delicious mexican & sonoran in the Central & Midtown area.",
-    "isLocal": true
+    "notes": "Fast-food chain serving a mix of Mexican and American favorites, great for quick bites.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Tooley's Cafe",
@@ -2077,8 +2657,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Central & Midtown",
     "distance": 2.2,
     "price": "$",
-    "notes": "A great spot to enjoy delicious coffee & cafe in the Central & Midtown area.",
-    "isLocal": true
+    "notes": "Cozy neighborhood cafe known for delicious coffee, breakfast burritos, and friendly community atmosphere.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Casa Molina",
@@ -2086,8 +2667,19 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Central & Midtown",
     "distance": 2.2,
     "price": "$$",
-    "notes": "Popular neighborhood destination featuring fresh mexican & sonoran specialties.",
-    "isLocal": true
+    "notes": "Long-standing family restaurant serving traditional Sonoran Mexican cuisine in a charming setting. Tucson tradition.",
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Beyond Bread",
+    "cuisine": "Dessert & Bakery",
+    "neighborhood": "Central & Midtown",
+    "distance": 2.2,
+    "price": "$$",
+    "notes": "Artisanal bakery offering fresh-baked breads, gourmet sandwiches, and delightful pastries. A local gem.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Nico's Taco Shop",
@@ -2095,8 +2687,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Central & Midtown",
     "distance": 2.2,
     "price": "$",
-    "notes": "Popular neighborhood destination featuring fresh mexican & sonoran specialties.",
-    "isLocal": true
+    "notes": "Authentic late-night Mexican food specializing in generous portions of street tacos and burritos.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Chipotle",
@@ -2104,8 +2697,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Central & Midtown",
     "distance": 2.2,
     "price": "$",
-    "notes": "Popular neighborhood destination featuring fresh mexican & sonoran specialties.",
-    "isLocal": false
+    "notes": "Fast-casual spot for customizable burritos, bowls, and tacos with fresh, zesty ingredients.",
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "First Watch",
@@ -2113,17 +2707,19 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Central & Midtown",
     "distance": 2.2,
     "price": "$$",
-    "notes": "Popular neighborhood destination featuring fresh breakfast & diner specialties.",
-    "isLocal": true
+    "notes": "Bright, modern cafe offering fresh, seasonal breakfast, brunch, and lunch dishes with healthy options.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "IHOP",
-    "cuisine": "Dessert & Bakery",
+    "cuisine": "Breakfast & Diner",
     "neighborhood": "Central & Midtown",
     "distance": 2.2,
     "price": "$",
-    "notes": "A great spot to enjoy delicious dessert & bakery in the Central & Midtown area.",
-    "isLocal": false
+    "notes": "Classic American diner known for its fluffy pancakes, diverse breakfast menu, and coffee.",
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Filiberto's",
@@ -2131,8 +2727,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Central & Midtown",
     "distance": 2.2,
     "price": "$",
-    "notes": "Popular neighborhood destination featuring fresh mexican & sonoran specialties.",
-    "isLocal": true
+    "notes": "Reliable late-night spot for classic Sonoran hot dogs, burritos, and quick Mexican bites.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "The Depot",
@@ -2140,8 +2737,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Central & Midtown",
     "distance": 2.2,
     "price": "$$",
-    "notes": "A great spot to enjoy delicious american & comfort in the Central & Midtown area.",
-    "isLocal": true
+    "notes": "Historic spot offering hearty American comfort food, steaks, and a lively bar scene.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Welcome Diner",
@@ -2150,7 +2748,18 @@ export const restaurants: Restaurant[] = [
     "distance": 2.2,
     "price": "$$",
     "notes": "A great spot to enjoy delicious breakfast & diner in the Central & Midtown area.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
+  },
+  {
+    "name": "Starbucks",
+    "cuisine": "Coffee & Cafe",
+    "neighborhood": "Central & Midtown",
+    "distance": 2.2,
+    "price": "$",
+    "notes": "A great spot to enjoy delicious coffee & cafe in the Central & Midtown area.",
+    "isLocal": false,
+    "enriched": false
   },
   {
     "name": "Jimmy John's",
@@ -2159,7 +2768,28 @@ export const restaurants: Restaurant[] = [
     "distance": 2.2,
     "price": "$",
     "notes": "Popular neighborhood destination featuring fresh fast food & sandwiches specialties.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": false
+  },
+  {
+    "name": "Panda Express",
+    "cuisine": "Asian & Sushi",
+    "neighborhood": "Central & Midtown",
+    "distance": 2.2,
+    "price": "$",
+    "notes": "Popular neighborhood destination featuring fresh asian & sushi specialties.",
+    "isLocal": false,
+    "enriched": false
+  },
+  {
+    "name": "Lovin' Spoonfuls",
+    "cuisine": "American & Comfort",
+    "neighborhood": "Central & Midtown",
+    "distance": 2.2,
+    "price": "$$",
+    "notes": "Local favorite in Central & Midtown serving classic american & comfort options.",
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Pastiche Modern Eatery",
@@ -2168,7 +2798,8 @@ export const restaurants: Restaurant[] = [
     "distance": 2.2,
     "price": "$$",
     "notes": "Local favorite in Central & Midtown serving classic american & comfort options.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Biscuits Country Cafe",
@@ -2177,7 +2808,8 @@ export const restaurants: Restaurant[] = [
     "distance": 2.3,
     "price": "$",
     "notes": "Traditional diner; heavy breakfast portions, fluffy biscuits with sausage gravy, and chicken fried steak.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "El Jefe Cat Lounge",
@@ -2186,16 +2818,18 @@ export const restaurants: Restaurant[] = [
     "distance": 2.3,
     "price": "$",
     "notes": "A great spot to enjoy delicious coffee & cafe in the Central & Midtown area.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Del Cielo Tamal",
     "cuisine": "Mexican & Sonoran",
     "neighborhood": "Central & Midtown",
     "distance": 2.3,
-    "price": "$$",
-    "notes": "Popular neighborhood destination featuring fresh mexican & sonoran specialties.",
-    "isLocal": true
+    "price": "$",
+    "notes": "Handcrafted Sonoran tamales bursting with traditional flavors. A true Tucson hidden gem.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Midtown Vegan Deli & Market",
@@ -2203,8 +2837,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Central & Midtown",
     "distance": 2.3,
     "price": "$$",
-    "notes": "A great spot to enjoy delicious healthy, vegan & plant-based in the Central & Midtown area.",
-    "isLocal": true
+    "notes": "Innovative vegan deli serving delicious plant-based sandwiches, salads, and market provisions.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Tucson Hop Shop",
@@ -2212,17 +2847,29 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Central & Midtown",
     "distance": 2.3,
     "price": "$$",
-    "notes": "A great spot to enjoy delicious bar, pub & brewery in the Central & Midtown area.",
-    "isLocal": true
+    "notes": "Premier spot for craft beer enthusiasts, featuring rotating local and regional brews.",
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Jack in the Box",
+    "cuisine": "Fast Food & Sandwiches",
+    "neighborhood": "Central & Midtown",
+    "distance": 2.3,
+    "price": "$",
+    "notes": "Diverse menu ranging from burgers to tacos, serving all day, every day. Convenient choice.",
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Leo's Mexican Food",
     "cuisine": "Mexican & Sonoran",
     "neighborhood": "Central & Midtown",
     "distance": 2.3,
-    "price": "$$",
-    "notes": "Popular neighborhood destination featuring fresh mexican & sonoran specialties.",
-    "isLocal": true
+    "price": "$",
+    "notes": "Casual spot for classic Sonoran Mexican dishes, known for delicious burritos and tacos. Quick, tasty.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Popeyes",
@@ -2230,8 +2877,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Central & Midtown",
     "distance": 2.3,
     "price": "$",
-    "notes": "Local favorite in Central & Midtown serving classic fast food & sandwiches options.",
-    "isLocal": false
+    "notes": "Louisiana-inspired fast food known for its spicy fried chicken, biscuits, and flavorful sides.",
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Burger King",
@@ -2240,7 +2888,8 @@ export const restaurants: Restaurant[] = [
     "distance": 2.3,
     "price": "$",
     "notes": "Popular neighborhood destination featuring fresh fast food & sandwiches specialties.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": false
   },
   {
     "name": "Wienerschnitzel",
@@ -2249,7 +2898,8 @@ export const restaurants: Restaurant[] = [
     "distance": 2.3,
     "price": "$",
     "notes": "Popular neighborhood destination featuring fresh fast food & sandwiches specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "La Salsa Fresh Mexican Grill",
@@ -2258,7 +2908,28 @@ export const restaurants: Restaurant[] = [
     "distance": 2.3,
     "price": "$$",
     "notes": "Local favorite in Central & Midtown serving classic mexican & sonoran options.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
+  },
+  {
+    "name": "Panera Bread",
+    "cuisine": "Dessert & Bakery",
+    "neighborhood": "Central & Midtown",
+    "distance": 2.3,
+    "price": "$",
+    "notes": "Popular neighborhood destination featuring fresh dessert & bakery specialties.",
+    "isLocal": false,
+    "enriched": false
+  },
+  {
+    "name": "Smashburger",
+    "cuisine": "Fast Food & Sandwiches",
+    "neighborhood": "Central & Midtown",
+    "distance": 2.3,
+    "price": "$",
+    "notes": "Local favorite in Central & Midtown serving classic fast food & sandwiches options.",
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Papa Murphy's",
@@ -2267,7 +2938,8 @@ export const restaurants: Restaurant[] = [
     "distance": 2.3,
     "price": "$",
     "notes": "Popular neighborhood destination featuring fresh italian & pizza specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Kung Fu Noodle",
@@ -2276,7 +2948,8 @@ export const restaurants: Restaurant[] = [
     "distance": 2.3,
     "price": "$$",
     "notes": "Popular neighborhood destination featuring fresh asian & sushi specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Hungry Howie's",
@@ -2285,7 +2958,8 @@ export const restaurants: Restaurant[] = [
     "distance": 2.3,
     "price": "$",
     "notes": "Popular neighborhood destination featuring fresh italian & pizza specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Wingstop",
@@ -2294,7 +2968,8 @@ export const restaurants: Restaurant[] = [
     "distance": 2.3,
     "price": "$",
     "notes": "A great spot to enjoy delicious fast food & sandwiches in the Central & Midtown area.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "CORE Nutrition",
@@ -2303,7 +2978,8 @@ export const restaurants: Restaurant[] = [
     "distance": 2.3,
     "price": "$",
     "notes": "Popular neighborhood destination featuring fresh boba tea & beverages specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Yamato",
@@ -2312,7 +2988,8 @@ export const restaurants: Restaurant[] = [
     "distance": 2.3,
     "price": "$$",
     "notes": "A great spot to enjoy delicious asian & sushi in the Central & Midtown area.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Bisbee Breakfast Club",
@@ -2321,7 +2998,8 @@ export const restaurants: Restaurant[] = [
     "distance": 2.4,
     "price": "$",
     "notes": "Local favorite; homemade breakfast until 3 p.m. featuring Blue Wally Cakes, loaded hash, and pies.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Rocco's Little Chicago",
@@ -2330,7 +3008,18 @@ export const restaurants: Restaurant[] = [
     "distance": 2.4,
     "price": "$$",
     "notes": "Independent legacy; authentic deep dish pizza, famous hot wings, and witty marquee signs.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Pho Ngan",
+    "cuisine": "Asian & Sushi",
+    "neighborhood": "Central & Midtown",
+    "distance": 2.4,
+    "price": "$$",
+    "notes": "Delicious Vietnamese pho, spring rolls, and other authentic dishes in a casual setting.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Kogi Korean BBQ",
@@ -2338,8 +3027,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Central & Midtown",
     "distance": 2.4,
     "price": "$$",
-    "notes": "A great spot to enjoy delicious asian & sushi in the Central & Midtown area.",
-    "isLocal": true
+    "notes": "Authentic Korean BBQ experience with sizzling bulgogi and delicious banchan. A lively atmosphere.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Hello Cafe",
@@ -2347,17 +3037,29 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Central & Midtown",
     "distance": 2.4,
     "price": "$",
-    "notes": "Popular neighborhood destination featuring fresh coffee & cafe specialties.",
-    "isLocal": true
+    "notes": "Bright and airy spot for expertly brewed coffee, light bites, and a welcoming community vibe.",
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Outback Steakhouse",
+    "cuisine": "Steakhouse & BBQ",
+    "neighborhood": "Central & Midtown",
+    "distance": 2.4,
+    "price": "$$",
+    "notes": "Classic Australian-themed steakhouse serving grilled favorites, blooming onions, and hearty comfort food.",
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Time Market",
     "cuisine": "Coffee & Cafe",
     "neighborhood": "Central & Midtown",
     "distance": 2.4,
-    "price": "$",
-    "notes": "Popular neighborhood destination featuring fresh coffee & cafe specialties.",
-    "isLocal": true
+    "price": "$$",
+    "notes": "Hip locale for excellent coffee, fresh-baked goods, and gourmet deli sandwiches.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Sausage Deli",
@@ -2365,8 +3067,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Central & Midtown",
     "distance": 2.4,
     "price": "$",
-    "notes": "Popular neighborhood destination featuring fresh fast food & sandwiches specialties.",
-    "isLocal": true
+    "notes": "Neighborhood deli known for gourmet sausages, hearty sandwiches, and homemade sides in a casual setting.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Golden Corral",
@@ -2375,7 +3078,8 @@ export const restaurants: Restaurant[] = [
     "distance": 2.4,
     "price": "$$",
     "notes": "Popular neighborhood destination featuring fresh american & comfort specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Toss II Ramen",
@@ -2384,7 +3088,18 @@ export const restaurants: Restaurant[] = [
     "distance": 2.4,
     "price": "$$",
     "notes": "Local favorite in Central & Midtown serving classic asian & sushi options.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
+  },
+  {
+    "name": "China Szechwan",
+    "cuisine": "Asian & Sushi",
+    "neighborhood": "Central & Midtown",
+    "distance": 2.4,
+    "price": "$$",
+    "notes": "Local favorite in Central & Midtown serving classic asian & sushi options.",
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Umetea",
@@ -2393,7 +3108,8 @@ export const restaurants: Restaurant[] = [
     "distance": 2.4,
     "price": "$",
     "notes": "Local favorite in Central & Midtown serving classic coffee & cafe options.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Baggins Gourmet Sandwiches",
@@ -2402,7 +3118,8 @@ export const restaurants: Restaurant[] = [
     "distance": 2.4,
     "price": "$",
     "notes": "Local favorite in Central & Midtown serving classic fast food & sandwiches options.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Taqueria El Pueblito",
@@ -2411,7 +3128,8 @@ export const restaurants: Restaurant[] = [
     "distance": 2.4,
     "price": "$",
     "notes": "Local favorite in Central & Midtown serving classic mexican & sonoran options.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Rosa's Mexican Food",
@@ -2420,7 +3138,8 @@ export const restaurants: Restaurant[] = [
     "distance": 2.4,
     "price": "$$",
     "notes": "Popular neighborhood destination featuring fresh mexican & sonoran specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Sher-i Punjab",
@@ -2429,7 +3148,8 @@ export const restaurants: Restaurant[] = [
     "distance": 2.4,
     "price": "$$",
     "notes": "A great spot to enjoy delicious asian & sushi in the Central & Midtown area.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "The Buffet",
@@ -2438,7 +3158,8 @@ export const restaurants: Restaurant[] = [
     "distance": 2.4,
     "price": "$$",
     "notes": "A great spot to enjoy delicious bar, pub & brewery in the Urban Core area.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Dolce Vita",
@@ -2447,52 +3168,8 @@ export const restaurants: Restaurant[] = [
     "distance": 2.4,
     "price": "$$",
     "notes": "Popular neighborhood destination featuring fresh american & comfort specialties.",
-    "isLocal": true
-  },
-  {
-    "name": "Fresco",
-    "cuisine": "Italian & Pizza",
-    "neighborhood": "Central & Midtown",
-    "distance": 2.5,
-    "price": "$$",
-    "notes": "Traditional Tucson pizza hub offering build-your-own pies, garlic knots, and hearty Italian pasta bakes.",
-    "isLocal": true
-  },
-  {
-    "name": "Cal's Bakeshop",
-    "cuisine": "Dessert & Bakery",
-    "neighborhood": "Central & Midtown",
-    "distance": 2.5,
-    "price": "$",
-    "notes": "Brick-and-mortar location offering delicate brioche donuts, flaky pastries, and specialty espresso lattes.",
-    "isLocal": true
-  },
-  {
-    "name": "Zemam's",
-    "cuisine": "Mediterranean & Global",
-    "neighborhood": "Central & Midtown",
-    "distance": 2.5,
-    "price": "$$",
-    "notes": "Traditional spicy Ethiopian cuisine; communal dining featuring injera bread, gomen wat, and spiced lamb strips.",
-    "isLocal": true
-  },
-  {
-    "name": "Jun Dynasty",
-    "cuisine": "Asian & Sushi",
-    "neighborhood": "Central & Midtown",
-    "distance": 2.5,
-    "price": "$$",
-    "notes": "Traditional Chinese dishes and stir fry; specializes in authentic Szechuan peppercorn preparations and spicy broths.",
-    "isLocal": true
-  },
-  {
-    "name": "Raging Sage",
-    "cuisine": "Coffee & Cafe",
-    "neighborhood": "Central & Midtown",
-    "distance": 2.5,
-    "price": "$",
-    "notes": "Local roaster with a dog-friendly patio; signature Jalapeño Jelly Scones and Double Cubano espresso.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Eegee's (Speedway)",
@@ -2501,7 +3178,8 @@ export const restaurants: Restaurant[] = [
     "distance": 2.5,
     "price": "$",
     "notes": "Independent legacy; iconic Tucson frozen fruit slushes, crinkle-cut Ranch Fries, and grinder subs.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Javelina",
@@ -2510,7 +3188,8 @@ export const restaurants: Restaurant[] = [
     "distance": 2.5,
     "price": "$$",
     "notes": "Relaxed casual dining and cocktails near Reid Park; serves elevated bar food and local drafts.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Brother John's Restaurant",
@@ -2519,7 +3198,28 @@ export const restaurants: Restaurant[] = [
     "distance": 2.5,
     "price": "$$",
     "notes": "Popular BBQ and bourbon bar; serves slow-cooked brisket, St. Louis ribs, and burnt end pit beans.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Cal's Bakeshop",
+    "cuisine": "Dessert & Bakery",
+    "neighborhood": "Central & Midtown",
+    "distance": 2.5,
+    "price": "$",
+    "notes": "Brick-and-mortar location offering delicate brioche donuts, flaky pastries, and specialty espresso lattes.",
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Fresco",
+    "cuisine": "Italian & Pizza",
+    "neighborhood": "Central & Midtown",
+    "distance": 2.5,
+    "price": "$$",
+    "notes": "Traditional Tucson pizza hub offering build-your-own pies, garlic knots, and hearty Italian pasta bakes.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Pure Poke & Prep",
@@ -2528,7 +3228,8 @@ export const restaurants: Restaurant[] = [
     "distance": 2.5,
     "price": "$$",
     "notes": "Hawaiian poke bowls loaded with fresh ahi tuna, salmon, rice, and healthy lunch vegetable mix-ins.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Bailey's Artisan Pizza",
@@ -2537,7 +3238,8 @@ export const restaurants: Restaurant[] = [
     "distance": 2.5,
     "price": "$$",
     "notes": "Creative pies served out of a 24' food truck; features locally sourced toppings and crispy thin crusts.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Special Eats Sweets",
@@ -2546,7 +3248,8 @@ export const restaurants: Restaurant[] = [
     "distance": 2.5,
     "price": "$",
     "notes": "Dessert truck turned brick-and-mortar hub serving unique baked goods, cookies, and layered sweet treats.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Dante's Fire",
@@ -2555,7 +3258,18 @@ export const restaurants: Restaurant[] = [
     "distance": 2.5,
     "price": "$$",
     "notes": "Elevated gastro-pub with late-night service; serves creative cocktails, braised meats, and rich pasta dishes.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Jun Dynasty",
+    "cuisine": "Asian & Sushi",
+    "neighborhood": "Central & Midtown",
+    "distance": 2.5,
+    "price": "$$",
+    "notes": "Traditional Chinese dishes and stir fry; specializes in authentic Szechuan peppercorn preparations and spicy broths.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Jewel's Noodle Kitchen",
@@ -2564,7 +3278,8 @@ export const restaurants: Restaurant[] = [
     "distance": 2.5,
     "price": "$",
     "notes": "Specializes in authentic hand-pleated dumplings, savory pies, and traditional Chinese noodle soups.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Kimchi Time",
@@ -2573,7 +3288,8 @@ export const restaurants: Restaurant[] = [
     "distance": 2.5,
     "price": "$$",
     "notes": "Traditional Korean staples including bubbling tofu stews, spicy pork bulgogi, and extensive pickled banchan.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Yoshimatsu",
@@ -2582,7 +3298,8 @@ export const restaurants: Restaurant[] = [
     "distance": 2.5,
     "price": "$$",
     "notes": "Focus on healthy Japanese eating; transitioned into Maru Plus offering trendy onigiri, ramen, and vegan options.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Sushi Matsu",
@@ -2591,7 +3308,18 @@ export const restaurants: Restaurant[] = [
     "distance": 2.5,
     "price": "$$",
     "notes": "Full-service sushi bar adjoining Yoshimatsu; serves traditional sashimi, creative rolls, and sake.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Zemam's",
+    "cuisine": "Mediterranean & Global",
+    "neighborhood": "Central & Midtown",
+    "distance": 2.5,
+    "price": "$$",
+    "notes": "Traditional spicy Ethiopian cuisine; communal dining featuring injera bread, gomen wat, and spiced lamb strips.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Fatman Kitchen",
@@ -2600,7 +3328,18 @@ export const restaurants: Restaurant[] = [
     "distance": 2.5,
     "price": "$$",
     "notes": "Chinese indulgence featuring house-made Xian Oil Splashing Noodles, Spicy Lamb Noodle Soup, and Pan-Fried Lamb.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Raging Sage",
+    "cuisine": "Coffee & Cafe",
+    "neighborhood": "Central & Midtown",
+    "distance": 2.5,
+    "price": "$",
+    "notes": "Local roaster with a dog-friendly patio; signature Jalapeño Jelly Scones and Double Cubano espresso.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "McDonald's (Alvernon)",
@@ -2609,7 +3348,8 @@ export const restaurants: Restaurant[] = [
     "distance": 2.5,
     "price": "$",
     "notes": "Standard fast food burger franchise; serves classic Big Macs, world-famous fries, and breakfast sandwiches.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Taco Bell (Grant)",
@@ -2618,7 +3358,8 @@ export const restaurants: Restaurant[] = [
     "distance": 2.5,
     "price": "$",
     "notes": "Standard fast food Mexican-style chain; features Crunchwrap Supremes, bean burritos, and late-night snacks.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Wendy's (Speedway)",
@@ -2627,7 +3368,8 @@ export const restaurants: Restaurant[] = [
     "distance": 2.5,
     "price": "$",
     "notes": "Fast food burgers and frosty desserts; famous for square beef patties, chili, and chocolate Frosties.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Subway (Campbell)",
@@ -2636,7 +3378,8 @@ export const restaurants: Restaurant[] = [
     "distance": 2.5,
     "price": "$",
     "notes": "Fast food submarine sandwiches; offers freshly baked bread, customizable cold cuts, and healthy veggie options.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Domino's (Broadway)",
@@ -2645,7 +3388,8 @@ export const restaurants: Restaurant[] = [
     "distance": 2.5,
     "price": "$",
     "notes": "Take-out and delivery pizza; serves garlic-seasoned crusts, loaded specialty pizzas, and cheesy bread.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Pizza Hut (Swan)",
@@ -2654,7 +3398,8 @@ export const restaurants: Restaurant[] = [
     "distance": 2.5,
     "price": "$",
     "notes": "Carry-out pizza franchise location; famous for deep-dish Pan Pizzas, cheese-stuffed crusts, and hot wings.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Arby's (Speedway)",
@@ -2663,7 +3408,8 @@ export const restaurants: Restaurant[] = [
     "distance": 2.5,
     "price": "$",
     "notes": "Roast beef and curly fries franchise; serves towering meat sandwiches and classic Jamocha shakes.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Burger King (Grant)",
@@ -2672,7 +3418,8 @@ export const restaurants: Restaurant[] = [
     "distance": 2.5,
     "price": "$",
     "notes": "Standard burger drive-thru; famous for the flame-grilled Whopper, crispy chicken fries, and onion rings.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Starbucks (Campbell)",
@@ -2681,7 +3428,8 @@ export const restaurants: Restaurant[] = [
     "distance": 2.5,
     "price": "$",
     "notes": "Standard corporate coffee location; serves Frappuccinos, specialty seasonal lattes, and warmed cafe pastries.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Dutch Bros (Broadway)",
@@ -2690,7 +3438,8 @@ export const restaurants: Restaurant[] = [
     "distance": 2.5,
     "price": "$",
     "notes": "Drive-thru specialty coffee chain; serves ultra-sweet blended coffees, energy drinks, and muffin tops.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Jack in the Box (Speedway)",
@@ -2699,7 +3448,8 @@ export const restaurants: Restaurant[] = [
     "distance": 2.5,
     "price": "$",
     "notes": "Late-night burger and taco drive-thru; serves Jumbo Jacks, curly fries, and deep-fried fast food tacos.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Magpies Gourmet Pizza",
@@ -2708,7 +3458,8 @@ export const restaurants: Restaurant[] = [
     "distance": 2.5,
     "price": "$$",
     "notes": "Long-standing local pizzeria; famous for unique toppings, vegan options, and the signature Magpie crust.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "SideCar",
@@ -2717,7 +3468,8 @@ export const restaurants: Restaurant[] = [
     "distance": 2.5,
     "price": "$$",
     "notes": "Craft cocktail neighborhood bar; serves inventive seasonal drinks, classic mixology, and local draft beers.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Zyka Twist",
@@ -2726,7 +3478,8 @@ export const restaurants: Restaurant[] = [
     "distance": 2.5,
     "price": "$$",
     "notes": "Popular neighborhood destination featuring fresh asian & sushi specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "The Hut",
@@ -2735,7 +3488,18 @@ export const restaurants: Restaurant[] = [
     "distance": 2.5,
     "price": "$$",
     "notes": "Popular neighborhood destination featuring fresh bar, pub & brewery specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
+  },
+  {
+    "name": "Opa's Grill",
+    "cuisine": "Mediterranean & Global",
+    "neighborhood": "Urban Core",
+    "distance": 2.5,
+    "price": "$$",
+    "notes": "Popular neighborhood destination featuring fresh mediterranean & global specialties.",
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Brooklyn Pizza Company",
@@ -2744,7 +3508,8 @@ export const restaurants: Restaurant[] = [
     "distance": 2.5,
     "price": "$$",
     "notes": "Popular neighborhood destination featuring fresh italian & pizza specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Caruso's",
@@ -2753,7 +3518,8 @@ export const restaurants: Restaurant[] = [
     "distance": 2.5,
     "price": "$$",
     "notes": "A great spot to enjoy delicious italian & pizza in the Urban Core area.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Surly Wench",
@@ -2762,7 +3528,38 @@ export const restaurants: Restaurant[] = [
     "distance": 2.5,
     "price": "$$",
     "notes": "Popular neighborhood destination featuring fresh bar, pub & brewery specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
+  },
+  {
+    "name": "Che's Lounge",
+    "cuisine": "Bar, Pub & Brewery",
+    "neighborhood": "Urban Core",
+    "distance": 2.5,
+    "price": "$$",
+    "notes": "Popular neighborhood destination featuring fresh bar, pub & brewery specialties.",
+    "isLocal": true,
+    "enriched": false
+  },
+  {
+    "name": "Lemongrass",
+    "cuisine": "American & Comfort",
+    "neighborhood": "Urban Core",
+    "distance": 2.5,
+    "price": "$$",
+    "notes": "A great spot to enjoy delicious american & comfort in the Urban Core area.",
+    "isLocal": true,
+    "enriched": false
+  },
+  {
+    "name": "Bison Witches",
+    "cuisine": "Bar, Pub & Brewery",
+    "neighborhood": "Urban Core",
+    "distance": 2.5,
+    "price": "$$",
+    "notes": "Local favorite in Urban Core serving classic bar, pub & brewery options.",
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "O'Malley's",
@@ -2771,7 +3568,8 @@ export const restaurants: Restaurant[] = [
     "distance": 2.5,
     "price": "$$",
     "notes": "Popular neighborhood destination featuring fresh bar, pub & brewery specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Boca Tacos Y Tequila",
@@ -2779,8 +3577,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Central & Midtown",
     "distance": 2.5,
     "price": "$$",
-    "notes": "A great spot to enjoy delicious mexican & sonoran in the Central & Midtown area.",
-    "isLocal": true
+    "notes": "Creative, gourmet tacos with unique fillings and an extensive tequila selection. Lively atmosphere.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Sky Bar",
@@ -2788,8 +3587,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Central & Midtown",
     "distance": 2.5,
     "price": "$$",
-    "notes": "Popular neighborhood destination featuring fresh bar, pub & brewery specialties.",
-    "isLocal": true
+    "notes": "Unique rooftop bar for cocktails under the stars, often featuring telescopes for stargazing.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "IBT'S",
@@ -2797,8 +3597,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Central & Midtown",
     "distance": 2.5,
     "price": "$$",
-    "notes": "Local favorite in Central & Midtown serving classic bar, pub & brewery options.",
-    "isLocal": true
+    "notes": "Lively gay bar with drag shows, karaoke, and a fun, inclusive atmosphere.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "The Shanty",
@@ -2807,7 +3608,8 @@ export const restaurants: Restaurant[] = [
     "distance": 2.5,
     "price": "$$",
     "notes": "A great spot to enjoy delicious bar, pub & brewery in the Urban Core area.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Public House Brewery",
@@ -2816,7 +3618,8 @@ export const restaurants: Restaurant[] = [
     "distance": 2.5,
     "price": "$$",
     "notes": "Local favorite in Urban Core serving classic bar, pub & brewery options.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Lindy's",
@@ -2825,7 +3628,18 @@ export const restaurants: Restaurant[] = [
     "distance": 2.5,
     "price": "$",
     "notes": "Local favorite in Central & Midtown serving classic fast food & sandwiches options.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
+  },
+  {
+    "name": "La Yaquesita",
+    "cuisine": "Mexican & Sonoran",
+    "neighborhood": "Urban Core",
+    "distance": 2.5,
+    "price": "$",
+    "notes": "Famous for authentic Sonoran hot dogs and carne asada tacos. A true Tucson staple.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Dairy Queen",
@@ -2833,8 +3647,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Urban Core",
     "distance": 2.5,
     "price": "$",
-    "notes": "Local favorite in Urban Core serving classic dessert & bakery options.",
-    "isLocal": false
+    "notes": "Classic spot for soft-serve ice cream, Blizzards, and nostalgic treats. Sweet satisfaction.",
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Romano's Macaroni Grill",
@@ -2842,8 +3657,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Central & Midtown",
     "distance": 2.5,
     "price": "$$",
-    "notes": "Local favorite in Central & Midtown serving classic italian & pizza options.",
-    "isLocal": true
+    "notes": "Upscale-casual Italian restaurant with classic pasta dishes, wood-fired pizzas, and vibrant ambiance. Date night.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Cafe Maggie",
@@ -2851,8 +3667,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Central & Midtown",
     "distance": 2.5,
     "price": "$",
-    "notes": "A great spot to enjoy delicious coffee & cafe in the Central & Midtown area.",
-    "isLocal": true
+    "notes": "Cozy spot for a morning pick-me-up, artisanal coffee, and light pastries.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Barrio Brewing Co.",
@@ -2860,8 +3677,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Central & Midtown",
     "distance": 2.5,
     "price": "$$",
-    "notes": "Popular neighborhood destination featuring fresh bar, pub & brewery specialties.",
-    "isLocal": true
+    "notes": "Tucson's oldest brewery, offering craft beers and upscale pub fare in a vibrant setting.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Martin's Comida Chingona",
@@ -2870,7 +3688,8 @@ export const restaurants: Restaurant[] = [
     "distance": 2.5,
     "price": "$$",
     "notes": "A great spot to enjoy delicious mexican & sonoran in the Central & Midtown area.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Eeegee",
@@ -2879,7 +3698,8 @@ export const restaurants: Restaurant[] = [
     "distance": 2.5,
     "price": "$",
     "notes": "Local favorite in Central & Midtown serving classic fast food & sandwiches options.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Traxide Taproom",
@@ -2888,7 +3708,8 @@ export const restaurants: Restaurant[] = [
     "distance": 2.5,
     "price": "$$",
     "notes": "Local favorite in Urban Core serving classic bar, pub & brewery options.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Kingfisher Bar & Grill",
@@ -2897,7 +3718,18 @@ export const restaurants: Restaurant[] = [
     "distance": 2.6,
     "price": "$$$",
     "notes": "Independent legacy; top-rated oyster bar, Macadamia Nut Crusted Hawaiian Fish, and classic cocktails.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Cup Cafe",
+    "cuisine": "Coffee & Cafe",
+    "neighborhood": "Urban Core",
+    "distance": 2.6,
+    "price": "$",
+    "notes": "Popular neighborhood destination featuring fresh coffee & cafe specialties.",
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Maynard's Kitchen",
@@ -2906,7 +3738,8 @@ export const restaurants: Restaurant[] = [
     "distance": 2.6,
     "price": "$$",
     "notes": "A great spot to enjoy delicious american & comfort in the Urban Core area.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Hi-Fi",
@@ -2914,8 +3747,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Urban Core",
     "distance": 2.6,
     "price": "$$",
-    "notes": "A great spot to enjoy delicious bar, pub & brewery in the Urban Core area.",
-    "isLocal": true
+    "notes": "Energetic bar with live music, creative cocktails, tasty pub grub, and a lively night scene.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "The Funky Monk",
@@ -2923,8 +3757,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Urban Core",
     "distance": 2.6,
     "price": "$$",
-    "notes": "Popular neighborhood destination featuring fresh bar, pub & brewery specialties.",
-    "isLocal": true
+    "notes": "Quirky pub with unique decor, craft beers, good tunes, and a relaxed, bohemian atmosphere.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Maynard's Market",
@@ -2933,7 +3768,8 @@ export const restaurants: Restaurant[] = [
     "distance": 2.6,
     "price": "$$",
     "notes": "Popular neighborhood destination featuring fresh american & comfort specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Fired Pie",
@@ -2941,8 +3777,19 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Urban Core",
     "distance": 2.6,
     "price": "$$",
-    "notes": "A great spot to enjoy delicious italian & pizza in the Urban Core area.",
-    "isLocal": true
+    "notes": "Build-your-own pizza and salad concept with fresh ingredients for a quick, personalized meal.",
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Anello",
+    "cuisine": "Italian & Pizza",
+    "neighborhood": "Urban Core",
+    "distance": 2.6,
+    "price": "$$",
+    "notes": "Neapolitan-style pizza cooked in a wood-fired oven, featuring fresh ingredients and a rustic charm.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Scented Leaf Tea House - Congress",
@@ -2951,7 +3798,8 @@ export const restaurants: Restaurant[] = [
     "distance": 2.6,
     "price": "$",
     "notes": "Local favorite in Urban Core serving classic boba tea & beverages options.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Corbette's",
@@ -2959,26 +3807,39 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Urban Core",
     "distance": 2.6,
     "price": "$$",
-    "notes": "Local favorite in Urban Core serving classic american & comfort options.",
-    "isLocal": true
+    "notes": "Beloved spot for classic American comfort food, known for its hearty portions and friendly vibe.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "eHotPot",
-    "cuisine": "American & Comfort",
+    "cuisine": "Asian & Sushi",
     "neighborhood": "Central & Midtown",
     "distance": 2.6,
     "price": "$$",
-    "notes": "Popular neighborhood destination featuring fresh american & comfort specialties.",
-    "isLocal": true
+    "notes": "Interactive hot pot experience with diverse broths and fresh ingredients for a customizable meal.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "The Lounge",
     "cuisine": "Bar, Pub & Brewery",
     "neighborhood": "Urban Core",
     "distance": 2.6,
+    "price": "$$$",
+    "notes": "Sophisticated lounge with craft cocktails, small bites, and a relaxed, upscale evening atmosphere.",
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Tiger's Tap Room",
+    "cuisine": "Bar, Pub & Brewery",
+    "neighborhood": "Urban Core",
+    "distance": 2.6,
     "price": "$$",
-    "notes": "Local favorite in Urban Core serving classic bar, pub & brewery options.",
-    "isLocal": true
+    "notes": "Lively taproom featuring an extensive selection of local beers and a fun, casual vibe.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Chili's",
@@ -2986,26 +3847,39 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Central & Midtown",
     "distance": 2.6,
     "price": "$$",
-    "notes": "A great spot to enjoy delicious american & comfort in the Central & Midtown area.",
-    "isLocal": false
+    "notes": "Popular chain restaurant offering Tex-Mex favorites, burgers, and classic American casual dining. Family-friendly.",
+    "isLocal": false,
+    "enriched": true
+  },
+  {
+    "name": "IHOP",
+    "cuisine": "Breakfast & Diner",
+    "neighborhood": "Central & Midtown",
+    "distance": 2.6,
+    "price": "$",
+    "notes": "Iconic diner famous for fluffy pancakes, omelets, and classic American breakfast all day long.",
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "On The Border",
-    "cuisine": "American & Comfort",
+    "cuisine": "Mexican & Sonoran",
     "neighborhood": "Central & Midtown",
     "distance": 2.6,
     "price": "$$",
-    "notes": "Popular neighborhood destination featuring fresh american & comfort specialties.",
-    "isLocal": true
+    "notes": "Lively Tex-Mex chain serving sizzling fajitas, margaritas, and classic border-style grilled specialties.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "What’s Cookin Mexican Food",
     "cuisine": "Mexican & Sonoran",
     "neighborhood": "Central & Midtown",
     "distance": 2.6,
-    "price": "$$",
-    "notes": "Popular neighborhood destination featuring fresh mexican & sonoran specialties.",
-    "isLocal": true
+    "price": "$",
+    "notes": "Authentic Sonoran-style Mexican cuisine, serving hearty burritos, tacos, and flavorful, traditional dishes.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Mandarin Grill",
@@ -3013,8 +3887,29 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Central & Midtown",
     "distance": 2.6,
     "price": "$$",
-    "notes": "A great spot to enjoy delicious asian & sushi in the Central & Midtown area.",
-    "isLocal": true
+    "notes": "Upscale Chinese dining, exquisite Szechuan and Cantonese dishes, and elegant ambiance for special occasions.",
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Karamelo King",
+    "cuisine": "Mexican & Sonoran",
+    "neighborhood": "Central & Midtown",
+    "distance": 2.6,
+    "price": "$$",
+    "notes": "A great spot to enjoy delicious mexican & sonoran in the Central & Midtown area.",
+    "isLocal": true,
+    "enriched": false
+  },
+  {
+    "name": "Little Caesars",
+    "cuisine": "Italian & Pizza",
+    "neighborhood": "Central & Midtown",
+    "distance": 2.6,
+    "price": "$",
+    "notes": "A great spot to enjoy delicious italian & pizza in the Central & Midtown area.",
+    "isLocal": false,
+    "enriched": false
   },
   {
     "name": "BK Tacos",
@@ -3023,7 +3918,8 @@ export const restaurants: Restaurant[] = [
     "distance": 2.6,
     "price": "$$",
     "notes": "A great spot to enjoy delicious mexican & sonoran in the Central & Midtown area.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Crooked Tooth Brewing Co.",
@@ -3032,7 +3928,8 @@ export const restaurants: Restaurant[] = [
     "distance": 2.6,
     "price": "$$",
     "notes": "A great spot to enjoy delicious bar, pub & brewery in the Urban Core area.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Yard House",
@@ -3041,7 +3938,8 @@ export const restaurants: Restaurant[] = [
     "distance": 2.7,
     "price": "$$$",
     "notes": "Scratch kitchen; massive draft beer selection, poke nachos, and half-yard glasses of craft ale.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Oh My Chicken",
@@ -3050,7 +3948,8 @@ export const restaurants: Restaurant[] = [
     "distance": 2.7,
     "price": "$$",
     "notes": "Crispy Korean-style wings and flavors; serves double-fried chicken in spicy and sweet soy glazes.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Street Taco & Beer Co",
@@ -3059,7 +3958,8 @@ export const restaurants: Restaurant[] = [
     "distance": 2.7,
     "price": "$",
     "notes": "Award-winning tacos and salsa bar; features the Burrito Bowl with Pollo Asado and Calabacitas.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Charleys Philly Steaks",
@@ -3068,7 +3968,8 @@ export const restaurants: Restaurant[] = [
     "distance": 2.7,
     "price": "$",
     "notes": "Signature Philly steaks and loaded fries; serves hot grilled sandwiches with melted provolone.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Applebee's",
@@ -3077,7 +3978,8 @@ export const restaurants: Restaurant[] = [
     "distance": 2.7,
     "price": "$$",
     "notes": "Neighborhood staple; affordable happy hour featuring riblets, spinach dip, and casual burgers.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Panda Express (Mall)",
@@ -3086,7 +3988,8 @@ export const restaurants: Restaurant[] = [
     "distance": 2.7,
     "price": "$",
     "notes": "American-Chinese crowd-pleasers; serves quick scoops of Orange Chicken and Beijing Beef.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Tutti Frutti",
@@ -3095,7 +3998,8 @@ export const restaurants: Restaurant[] = [
     "distance": 2.7,
     "price": "$",
     "notes": "Self-serve dessert near Entrance 2; offers customizable frozen yogurt with extensive candy toppings.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Zona Donut",
@@ -3104,16 +4008,38 @@ export const restaurants: Restaurant[] = [
     "distance": 2.7,
     "price": "$",
     "notes": "Made-to-order specialty mini donuts; features hot, fresh cakes with custom glazes and sprinkles.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Exo Roast Co.",
+    "cuisine": "Coffee & Cafe",
+    "neighborhood": "Urban Core",
+    "distance": 2.7,
+    "price": "$$",
+    "notes": "Artisan coffee roaster with unique blends and a minimalist vibe, perfect for serious coffee lovers.",
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Tap & Bottle",
+    "cuisine": "Bar, Pub & Brewery",
+    "neighborhood": "Urban Core",
+    "distance": 2.7,
+    "price": "$$",
+    "notes": "Extensive craft beer selection on tap, relaxed patio, and knowledgeable staff for beer enthusiasts.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Cartel Coffee Lab",
     "cuisine": "Coffee & Cafe",
     "neighborhood": "Urban Core",
     "distance": 2.7,
-    "price": "$",
-    "notes": "A great spot to enjoy delicious coffee & cafe in the Urban Core area.",
-    "isLocal": true
+    "price": "$$",
+    "notes": "Modern coffee lab experience, meticulously brewed single-origin coffees, and a chic, vibrant setting.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Playground Bar and Lounge",
@@ -3122,7 +4048,8 @@ export const restaurants: Restaurant[] = [
     "distance": 2.7,
     "price": "$$",
     "notes": "A great spot to enjoy delicious bar, pub & brewery in the Urban Core area.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "The Hub Restaurant and Ice Creamery",
@@ -3131,25 +4058,38 @@ export const restaurants: Restaurant[] = [
     "distance": 2.7,
     "price": "$",
     "notes": "A great spot to enjoy delicious dessert & bakery in the Urban Core area.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
+  },
+  {
+    "name": "Caffe Luce",
+    "cuisine": "Coffee & Cafe",
+    "neighborhood": "Urban Core",
+    "distance": 2.7,
+    "price": "$$",
+    "notes": "Hip, local cafe serving expertly crafted espresso drinks and delicious baked goods. Perfect for studying.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "The Royal Room",
     "cuisine": "Bar, Pub & Brewery",
     "neighborhood": "Urban Core",
     "distance": 2.7,
-    "price": "$$",
-    "notes": "A great spot to enjoy delicious bar, pub & brewery in the Urban Core area.",
-    "isLocal": true
+    "price": "$$$",
+    "notes": "Chic lounge with creative cocktails, small plates, and a vibrant, sophisticated nightlife scene.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Chef Wang",
-    "cuisine": "American & Comfort",
+    "cuisine": "Asian & Sushi",
     "neighborhood": "Central & Midtown",
     "distance": 2.7,
     "price": "$$",
-    "notes": "Popular neighborhood destination featuring fresh american & comfort specialties.",
-    "isLocal": true
+    "notes": "Family-friendly spot serving classic Chinese-American dishes. A reliable choice for favorites.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Berry Greens Juice Bar",
@@ -3158,25 +4098,28 @@ export const restaurants: Restaurant[] = [
     "distance": 2.7,
     "price": "$",
     "notes": "Popular neighborhood destination featuring fresh boba tea & beverages specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Maicos",
     "cuisine": "Mexican & Sonoran",
     "neighborhood": "Central & Midtown",
     "distance": 2.7,
-    "price": "$$",
-    "notes": "A great spot to enjoy delicious mexican & sonoran in the Central & Midtown area.",
-    "isLocal": true
+    "price": "$",
+    "notes": "Beloved family-owned spot for traditional Sonoran Mexican cuisine and flavorful, hearty plates.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Charro Steak",
-    "cuisine": "Boba Tea & Beverages",
+    "cuisine": "Steakhouse & BBQ",
     "neighborhood": "Urban Core",
     "distance": 2.7,
-    "price": "$",
-    "notes": "Local favorite in Urban Core serving classic boba tea & beverages options.",
-    "isLocal": true
+    "price": "$$$",
+    "notes": "Upscale steakhouse offering prime cuts, classic sides, and a sophisticated, memorable dining experience.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Brick Box Brewery",
@@ -3185,7 +4128,8 @@ export const restaurants: Restaurant[] = [
     "distance": 2.7,
     "price": "$$",
     "notes": "A great spot to enjoy delicious bar, pub & brewery in the Urban Core area.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Shooters Bar and Grill",
@@ -3193,8 +4137,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Northside & Foothills",
     "distance": 2.7,
     "price": "$$",
-    "notes": "A great spot to enjoy delicious bar, pub & brewery in the Northside & Foothills area.",
-    "isLocal": true
+    "notes": "Lively sports bar with pub grub, cold drinks, and a casual, friendly atmosphere. Great spot.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Whataburger",
@@ -3202,8 +4147,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Central & Midtown",
     "distance": 2.7,
     "price": "$",
-    "notes": "Popular neighborhood destination featuring fresh fast food & sandwiches specialties.",
-    "isLocal": false
+    "notes": "Texas-sized burgers, classic shakes, and a menu with unique, delicious fast-food favorites.",
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Girls Kitchen Mexican Food",
@@ -3212,7 +4158,8 @@ export const restaurants: Restaurant[] = [
     "distance": 2.7,
     "price": "$$",
     "notes": "Popular neighborhood destination featuring fresh mexican & sonoran specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Wendy's",
@@ -3221,7 +4168,8 @@ export const restaurants: Restaurant[] = [
     "distance": 2.7,
     "price": "$",
     "notes": "A great spot to enjoy delicious fast food & sandwiches in the Central & Midtown area.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": false
   },
   {
     "name": "Pei Wei",
@@ -3230,7 +4178,8 @@ export const restaurants: Restaurant[] = [
     "distance": 2.7,
     "price": "$$",
     "notes": "Popular neighborhood destination featuring fresh asian & sushi specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Sauce Pizza & Wine",
@@ -3239,7 +4188,8 @@ export const restaurants: Restaurant[] = [
     "distance": 2.7,
     "price": "$$",
     "notes": "Local favorite in Central & Midtown serving classic italian & pizza options.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Venture-N",
@@ -3248,7 +4198,8 @@ export const restaurants: Restaurant[] = [
     "distance": 2.7,
     "price": "$$",
     "notes": "A great spot to enjoy delicious bar, pub & brewery in the Central & Midtown area.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Flower Child",
@@ -3257,7 +4208,8 @@ export const restaurants: Restaurant[] = [
     "distance": 2.8,
     "price": "$$",
     "notes": "Modern health food; organic vegetables, Mother Earth bowls, sustainable salmon, and gluten-free wraps.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Texas Roadhouse",
@@ -3266,7 +4218,8 @@ export const restaurants: Restaurant[] = [
     "distance": 2.8,
     "price": "$$$",
     "notes": "Family-style steakhouse; hand-cut steaks, fall-off-the-bone ribs, and fresh-baked yeast rolls.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Black Bear Diner",
@@ -3275,7 +4228,8 @@ export const restaurants: Restaurant[] = [
     "distance": 2.8,
     "price": "$$",
     "notes": "Homestyle diner; \"big portions\" of chicken fried steak, massive pancakes, and thick-cut bacon.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Red Lobster",
@@ -3284,7 +4238,8 @@ export const restaurants: Restaurant[] = [
     "distance": 2.8,
     "price": "$$$",
     "notes": "Known for Cheddar Bay Biscuits, Maine lobster tails, and massive crab-stuffed shrimp platters.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Grimaldi's Pizzeria",
@@ -3293,7 +4248,8 @@ export const restaurants: Restaurant[] = [
     "distance": 2.8,
     "price": "$$",
     "notes": "Coal-fired brick oven pizza chain; serves traditional Brooklyn-style thin crusts, fresh mozzarella, and calzones.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Café Poca Cosa",
@@ -3302,7 +4258,8 @@ export const restaurants: Restaurant[] = [
     "distance": 2.8,
     "price": "$$",
     "notes": "Popular neighborhood destination featuring fresh american & comfort specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Bumsted's",
@@ -3311,7 +4268,8 @@ export const restaurants: Restaurant[] = [
     "distance": 2.8,
     "price": "$$",
     "notes": "Popular neighborhood destination featuring fresh american & comfort specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "La Indita",
@@ -3320,7 +4278,8 @@ export const restaurants: Restaurant[] = [
     "distance": 2.8,
     "price": "$$",
     "notes": "Popular neighborhood destination featuring fresh american & comfort specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Hatch",
@@ -3328,62 +4287,99 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Urban Core",
     "distance": 2.8,
     "price": "$",
-    "notes": "Popular neighborhood destination featuring fresh coffee & cafe specialties.",
-    "isLocal": true
+    "notes": "Trendy cafe serving artisanal coffee, creative breakfast burritos, and vibrant morning ambiance.",
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Jimmy John's",
+    "cuisine": "Fast Food & Sandwiches",
+    "neighborhood": "Urban Core",
+    "distance": 2.8,
+    "price": "$",
+    "notes": "Freaky fast sandwiches with fresh ingredients, perfect for a quick, satisfying lunch.",
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Empire Pizza",
     "cuisine": "Italian & Pizza",
     "neighborhood": "Urban Core",
     "distance": 2.8,
-    "price": "$$",
-    "notes": "A great spot to enjoy delicious italian & pizza in the Urban Core area.",
-    "isLocal": true
+    "price": "$",
+    "notes": "New York-style pizza by the slice or whole pie. Classic, cheesy, satisfying.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Elliott's",
     "cuisine": "American & Comfort",
     "neighborhood": "Urban Core",
     "distance": 2.8,
+    "price": "$$$",
+    "notes": "Upscale American restaurant featuring seasonal menus, craft cocktails, and elegant dining.",
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Cobra Arcade Bar",
+    "cuisine": "Bar, Pub & Brewery",
+    "neighborhood": "Urban Core",
+    "distance": 2.8,
     "price": "$$",
-    "notes": "Popular neighborhood destination featuring fresh american & comfort specialties.",
-    "isLocal": true
+    "notes": "Retro arcade games, craft beers, and specialty cocktails in a lively, nostalgic atmosphere.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Govinda's Indian Eatery",
-    "cuisine": "Asian & Sushi",
+    "cuisine": "Mediterranean & Global",
     "neighborhood": "Central & Midtown",
     "distance": 2.8,
     "price": "$$",
-    "notes": "A great spot to enjoy delicious asian & sushi in the Central & Midtown area.",
-    "isLocal": true
+    "notes": "Vegetarian Indian buffet with a peaceful ambiance, flavorful curries, and traditional sweets.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "The National",
     "cuisine": "Dessert & Bakery",
     "neighborhood": "Urban Core",
     "distance": 2.8,
-    "price": "$",
-    "notes": "Local favorite in Urban Core serving classic dessert & bakery options.",
-    "isLocal": true
+    "price": "$$",
+    "notes": "Upscale bakery offering exquisite pastries, cakes, and delightful coffee. Perfect for a treat.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Indian Twist",
-    "cuisine": "Asian & Sushi",
+    "cuisine": "Mediterranean & Global",
     "neighborhood": "Central & Midtown",
     "distance": 2.8,
     "price": "$$",
-    "notes": "Popular neighborhood destination featuring fresh asian & sushi specialties.",
-    "isLocal": true
+    "notes": "Offers vibrant and aromatic Indian dishes, bringing authentic flavors and spices to Tucson.",
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Raptor Canyon Cafe",
+    "cuisine": "Coffee & Cafe",
+    "neighborhood": "Urban Core",
+    "distance": 2.8,
+    "price": "$",
+    "notes": "Cozy cafe ideal for quick coffee, light bites, and a relaxed atmosphere.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Kintoki Sushi House & Bar",
     "cuisine": "Asian & Sushi",
     "neighborhood": "Central & Midtown",
     "distance": 2.8,
-    "price": "$$",
-    "notes": "A great spot to enjoy delicious asian & sushi in the Central & Midtown area.",
-    "isLocal": true
+    "price": "$$$",
+    "notes": "Elegant setting for expertly crafted sushi rolls, sashimi, and other Japanese delicacies.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Reilly Craft Pizza & Drink",
@@ -3391,8 +4387,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Urban Core",
     "distance": 2.8,
     "price": "$$",
-    "notes": "A great spot to enjoy delicious italian & pizza in the Urban Core area.",
-    "isLocal": true
+    "notes": "Trendy spot for gourmet craft pizzas, unique cocktails, and a vibrant downtown atmosphere.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Borderlands Brewing Co.",
@@ -3401,7 +4398,28 @@ export const restaurants: Restaurant[] = [
     "distance": 2.8,
     "price": "$$",
     "notes": "Local favorite in Urban Core serving classic bar, pub & brewery options.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
+  },
+  {
+    "name": "First Watch",
+    "cuisine": "Breakfast & Diner",
+    "neighborhood": "Central & Midtown",
+    "distance": 2.8,
+    "price": "$$",
+    "notes": "Popular neighborhood destination featuring fresh breakfast & diner specialties.",
+    "isLocal": true,
+    "enriched": false
+  },
+  {
+    "name": "Popeyes",
+    "cuisine": "Fast Food & Sandwiches",
+    "neighborhood": "Central & Midtown",
+    "distance": 2.8,
+    "price": "$",
+    "notes": "Local favorite in Central & Midtown serving classic fast food & sandwiches options.",
+    "isLocal": false,
+    "enriched": false
   },
   {
     "name": "Salad and Go",
@@ -3410,7 +4428,8 @@ export const restaurants: Restaurant[] = [
     "distance": 2.8,
     "price": "$",
     "notes": "Local favorite in Central & Midtown serving classic healthy, vegan & plant-based options.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Prep & Pastry",
@@ -3419,7 +4438,8 @@ export const restaurants: Restaurant[] = [
     "distance": 2.9,
     "price": "$$",
     "notes": "Locally owned; creative scratch-made brunch, chickpea scrambles, duck confit hash, and flaky pastries.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Beyond Bread",
@@ -3428,7 +4448,8 @@ export const restaurants: Restaurant[] = [
     "distance": 2.9,
     "price": "$$",
     "notes": "Locally owned legacy; artisan breads, hearty deli sandwiches, scratch-made soups, and rich cookies.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "The Little One",
@@ -3437,7 +4458,8 @@ export const restaurants: Restaurant[] = [
     "distance": 2.9,
     "price": "$$",
     "notes": "Popular neighborhood destination featuring fresh mexican & sonoran specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Subway",
@@ -3446,16 +4468,18 @@ export const restaurants: Restaurant[] = [
     "distance": 2.9,
     "price": "$",
     "notes": "Popular neighborhood destination featuring fresh fast food & sandwiches specialties.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": false
   },
   {
     "name": "Gemstone Cafe",
     "cuisine": "Coffee & Cafe",
     "neighborhood": "Central & Midtown",
     "distance": 2.9,
-    "price": "$",
-    "notes": "Local favorite in Central & Midtown serving classic coffee & cafe options.",
-    "isLocal": true
+    "price": "$$",
+    "notes": "Hidden gem cafe, unique coffee creations, tasty pastries, and a serene, artsy environment.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Brother John’s Beer, Bourbon, and BBQ",
@@ -3463,17 +4487,19 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Central & Midtown",
     "distance": 2.9,
     "price": "$$",
-    "notes": "Local favorite in Central & Midtown serving classic steakhouse & bbq options.",
-    "isLocal": true
+    "notes": "Smoked meats, craft beers, and an extensive bourbon selection make this a BBQ paradise.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Owl's Club",
     "cuisine": "Bar, Pub & Brewery",
     "neighborhood": "Urban Core",
     "distance": 2.9,
-    "price": "$$",
-    "notes": "Local favorite in Urban Core serving classic bar, pub & brewery options.",
-    "isLocal": true
+    "price": "$$$",
+    "notes": "Historic bar with a timeless charm, offering classic cocktails and a sophisticated, intimate setting.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Eleven Cafe",
@@ -3481,17 +4507,29 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Urban Core",
     "distance": 2.9,
     "price": "$",
-    "notes": "A great spot to enjoy delicious coffee & cafe in the Urban Core area.",
-    "isLocal": true
+    "notes": "Modern cafe serving up gourmet coffee, fresh baked goods, and light, healthy lunch options.",
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "The Monica",
+    "cuisine": "American & Comfort",
+    "neighborhood": "Urban Core",
+    "distance": 2.9,
+    "price": "$$",
+    "notes": "Trendy downtown eatery offering eclectic American dishes, craft cocktails, and vibrant atmosphere.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "HeeMee Coffee + Bakery on Congress",
     "cuisine": "Coffee & Cafe",
     "neighborhood": "Urban Core",
     "distance": 2.9,
-    "price": "$",
-    "notes": "Local favorite in Urban Core serving classic coffee & cafe options.",
-    "isLocal": true
+    "price": "$$",
+    "notes": "Charming urban cafe for specialty coffee drinks, delicate pastries, and light bites.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Perche' No Italian Bistro",
@@ -3500,7 +4538,8 @@ export const restaurants: Restaurant[] = [
     "distance": 2.9,
     "price": "$$",
     "notes": "Local favorite in Urban Core serving classic italian & pizza options.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Med Cuisine",
@@ -3508,8 +4547,19 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Northside & Foothills",
     "distance": 2.9,
     "price": "$$",
-    "notes": "A great spot to enjoy delicious mediterranean & global in the Northside & Foothills area.",
-    "isLocal": true
+    "notes": "Authentic Mediterranean flavors, featuring fresh kebabs, hummus, and flavorful falafel. A healthy choice.",
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Wendy's",
+    "cuisine": "Fast Food & Sandwiches",
+    "neighborhood": "Northside & Foothills",
+    "distance": 2.9,
+    "price": "$",
+    "notes": "Known for square patties, fresh never-frozen beef, and classic Frosty desserts. Quick, satisfying.",
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Olive Garden",
@@ -3517,8 +4567,19 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Central & Midtown",
     "distance": 2.9,
     "price": "$$",
-    "notes": "Popular neighborhood destination featuring fresh italian & pizza specialties.",
-    "isLocal": false
+    "notes": "Casual Italian chain known for unlimited breadsticks, garden salad, and classic pasta dishes.",
+    "isLocal": false,
+    "enriched": true
+  },
+  {
+    "name": "McDonald's",
+    "cuisine": "Fast Food & Sandwiches",
+    "neighborhood": "Central & Midtown",
+    "distance": 2.9,
+    "price": "$",
+    "notes": "Reliable spot for quick, classic burgers, crispy fries, and family-friendly fast-food convenience.",
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Fruit Shack Smoothies",
@@ -3527,16 +4588,8 @@ export const restaurants: Restaurant[] = [
     "distance": 2.9,
     "price": "$",
     "notes": "Local favorite in Central & Midtown serving classic coffee & cafe options.",
-    "isLocal": true
-  },
-  {
-    "name": "India Oven",
-    "cuisine": "Asian & Sushi",
-    "neighborhood": "Central & Midtown",
-    "distance": 3,
-    "price": "$$",
-    "notes": "Long-standing midtown Indian dining; serves rich chicken tikka masala, garlic naan, and a traditional lunch buffet.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Redbird Sam Hughes",
@@ -3545,7 +4598,8 @@ export const restaurants: Restaurant[] = [
     "distance": 3,
     "price": "$$",
     "notes": "Custom mural and open bar; historic building serving smash burgers, chicken sandwiches, and craft beers.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Egg Connection",
@@ -3554,7 +4608,8 @@ export const restaurants: Restaurant[] = [
     "distance": 3,
     "price": "$",
     "notes": "Classic Western diner breakfast featuring griddle hash browns, fluffy omelettes, and bottomless drip coffee.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Red Garter Saloon",
@@ -3563,7 +4618,8 @@ export const restaurants: Restaurant[] = [
     "distance": 3,
     "price": "$",
     "notes": "Mom and pop bar since 1969; great burgers, classic club sandwiches, and traditional tavern appetizers.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Houlden's Rise Above",
@@ -3572,7 +4628,18 @@ export const restaurants: Restaurant[] = [
     "distance": 3,
     "price": "$",
     "notes": "Highly acclaimed local vegan pastries; offers decadent dairy-free cakes, muffins, and seasonal baked goods.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "India Oven",
+    "cuisine": "Asian & Sushi",
+    "neighborhood": "Central & Midtown",
+    "distance": 3,
+    "price": "$$",
+    "notes": "Long-standing midtown Indian dining; serves rich chicken tikka masala, garlic naan, and a traditional lunch buffet.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Batey",
@@ -3581,7 +4648,8 @@ export const restaurants: Restaurant[] = [
     "distance": 3,
     "price": "$$",
     "notes": "Puerto Rican flavors; Caribbean soul; features the massive Chuleta Kan Kan, mofongo, and seafood paella.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Brawley's Restaurant",
@@ -3590,7 +4658,8 @@ export const restaurants: Restaurant[] = [
     "distance": 3,
     "price": "$",
     "notes": "Create your own classic breakfast diner meals with traditional bacon, eggs, hash browns, and pancakes.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Sonoran Brunch Company",
@@ -3599,7 +4668,8 @@ export const restaurants: Restaurant[] = [
     "distance": 3,
     "price": "$$",
     "notes": "Modern brunch offerings with Southwestern twists; features chorizo skillets and green chile eggs benedict.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Dao's Tai Pan",
@@ -3608,7 +4678,8 @@ export const restaurants: Restaurant[] = [
     "distance": 3,
     "price": "$",
     "notes": "Excellent crispy Banh Mi sandwiches, hearty Vietnamese pho, and fresh vermicelli noodle salads.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Smokey Mo's",
@@ -3617,7 +4688,8 @@ export const restaurants: Restaurant[] = [
     "distance": 3,
     "price": "$$",
     "notes": "Celebrated local barbecue spot; features slow-smoked brisket, pulled pork, and traditional southern sides.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Les Rendez-vous",
@@ -3626,7 +4698,8 @@ export const restaurants: Restaurant[] = [
     "distance": 3,
     "price": "$$$",
     "notes": "Fine dining European and French influence; signature dishes include Beef Wellington, Grand Marnier Soufflé.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Filiberto's (Wilmot)",
@@ -3635,7 +4708,8 @@ export const restaurants: Restaurant[] = [
     "distance": 3,
     "price": "$",
     "notes": "24-hour service; Arizona staple serving massive carne asada fries and late-night rolled tacos.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "The Shelter Cocktail Lounge",
@@ -3644,7 +4718,8 @@ export const restaurants: Restaurant[] = [
     "distance": 3,
     "price": "$",
     "notes": "Retro 1960s JFK-themed lounge; features vintage decor, classic martinis, and a laid-back dive atmosphere.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Street Taco and Beer Co",
@@ -3653,7 +4728,8 @@ export const restaurants: Restaurant[] = [
     "distance": 3,
     "price": "$$",
     "notes": "A great spot to enjoy delicious mexican & sonoran in the Urban Core area.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "El Charro",
@@ -3662,7 +4738,18 @@ export const restaurants: Restaurant[] = [
     "distance": 3,
     "price": "$$",
     "notes": "Local favorite in Urban Core serving classic mexican & sonoran options.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
+  },
+  {
+    "name": "Cafe Desta",
+    "cuisine": "Coffee & Cafe",
+    "neighborhood": "Urban Core",
+    "distance": 3,
+    "price": "$$",
+    "notes": "Ethiopian coffee tradition, rich brews, and a welcoming atmosphere perfect for a morning pick-me-up.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "¡Toma!",
@@ -3671,7 +4758,8 @@ export const restaurants: Restaurant[] = [
     "distance": 3,
     "price": "$$",
     "notes": "A great spot to enjoy delicious mexican & sonoran in the Urban Core area.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "La Cocina",
@@ -3680,7 +4768,18 @@ export const restaurants: Restaurant[] = [
     "distance": 3,
     "price": "$$",
     "notes": "Popular neighborhood destination featuring fresh mexican & sonoran specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
+  },
+  {
+    "name": "Monsoon Room",
+    "cuisine": "Bar, Pub & Brewery",
+    "neighborhood": "Urban Core",
+    "distance": 3,
+    "price": "$$",
+    "notes": "Popular neighborhood destination featuring fresh bar, pub & brewery specialties.",
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Island Plate Lunch",
@@ -3689,7 +4788,8 @@ export const restaurants: Restaurant[] = [
     "distance": 3,
     "price": "$$",
     "notes": "A great spot to enjoy delicious american & comfort in the Northside & Foothills area.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Coffee House",
@@ -3698,7 +4798,18 @@ export const restaurants: Restaurant[] = [
     "distance": 3,
     "price": "$",
     "notes": "A great spot to enjoy delicious coffee & cafe in the Central & Midtown area.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
+  },
+  {
+    "name": "Miss Saigon",
+    "cuisine": "Asian & Sushi",
+    "neighborhood": "Central & Midtown",
+    "distance": 3,
+    "price": "$$",
+    "notes": "Local favorite in Central & Midtown serving classic asian & sushi options.",
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Brother's Noodles",
@@ -3706,17 +4817,29 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Central & Midtown",
     "distance": 3,
     "price": "$$",
-    "notes": "A great spot to enjoy delicious asian & sushi in the Central & Midtown area.",
-    "isLocal": true
+    "notes": "Delicious, authentic noodle dishes and savory Asian specialties. A cozy, flavorful experience.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Ceres pasta+bread",
-    "cuisine": "American & Comfort",
+    "cuisine": "Italian & Pizza",
     "neighborhood": "Urban Core",
     "distance": 3,
     "price": "$$",
-    "notes": "Local favorite in Urban Core serving classic american & comfort options.",
-    "isLocal": true
+    "notes": "Artisan pasta and fresh-baked bread, celebrating simple, quality ingredients. Rustic charm.",
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "JA Ramen",
+    "cuisine": "Asian & Sushi",
+    "neighborhood": "Urban Core",
+    "distance": 3,
+    "price": "$$",
+    "notes": "A great spot to enjoy delicious asian & sushi in the Urban Core area.",
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Crispy's Fries And Chips",
@@ -3725,7 +4848,8 @@ export const restaurants: Restaurant[] = [
     "distance": 3,
     "price": "$$",
     "notes": "A great spot to enjoy delicious american & comfort in the Central & Midtown area.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Baggin's",
@@ -3733,8 +4857,19 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Urban Core",
     "distance": 3,
     "price": "$",
-    "notes": "Local favorite in Urban Core serving classic fast food & sandwiches options.",
-    "isLocal": true
+    "notes": "Known for creative sandwiches, fresh bread, and a wide selection of lunch options.",
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Dandelion Cafe",
+    "cuisine": "Coffee & Cafe",
+    "neighborhood": "Urban Core",
+    "distance": 3,
+    "price": "$$",
+    "notes": "Charming cafe with organic coffee, healthy bites, and a serene atmosphere for relaxation.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "La Parrilla Suiza",
@@ -3742,17 +4877,19 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Central & Midtown",
     "distance": 3,
     "price": "$$",
-    "notes": "Local favorite in Central & Midtown serving classic mexican & sonoran options.",
-    "isLocal": true
+    "notes": "Excellent grilled meats and authentic Sonoran Mexican dishes in a family-friendly setting.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Jerry Bob's",
-    "cuisine": "American & Comfort",
+    "cuisine": "Breakfast & Diner",
     "neighborhood": "Northside & Foothills",
     "distance": 3,
-    "price": "$$",
-    "notes": "A great spot to enjoy delicious american & comfort in the Northside & Foothills area.",
-    "isLocal": true
+    "price": "$",
+    "notes": "Classic diner serving hearty American breakfasts, burgers, and comfort food favorites. Local institution.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Ghini's French Caffe",
@@ -3760,17 +4897,19 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Northside & Foothills",
     "distance": 3,
     "price": "$$",
-    "notes": "A great spot to enjoy delicious mediterranean & global in the Northside & Foothills area.",
-    "isLocal": true
+    "notes": "Charming French cafe serving delicious crepes, classic brunch, and exquisite European-inspired dishes.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "BJ's",
-    "cuisine": "American & Comfort",
+    "cuisine": "Bar, Pub & Brewery",
     "neighborhood": "Central & Midtown",
     "distance": 3,
     "price": "$$",
-    "notes": "Local favorite in Central & Midtown serving classic american & comfort options.",
-    "isLocal": true
+    "notes": "Brewpub with a vast menu of American classics, signature deep-dish pizzas, and craft beers.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Meet Rack Bar and Grill",
@@ -3779,7 +4918,8 @@ export const restaurants: Restaurant[] = [
     "distance": 3,
     "price": "$$",
     "notes": "Local favorite in Central & Midtown serving classic bar, pub & brewery options.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "El Taquito King",
@@ -3788,7 +4928,8 @@ export const restaurants: Restaurant[] = [
     "distance": 3,
     "price": "$",
     "notes": "Local favorite in Central & Midtown serving classic mexican & sonoran options.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Egee",
@@ -3797,7 +4938,8 @@ export const restaurants: Restaurant[] = [
     "distance": 3,
     "price": "$",
     "notes": "Popular neighborhood destination featuring fresh fast food & sandwiches specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Potbelly",
@@ -3806,7 +4948,8 @@ export const restaurants: Restaurant[] = [
     "distance": 3,
     "price": "$",
     "notes": "Local favorite in Central & Midtown serving classic fast food & sandwiches options.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Marco's Pizza",
@@ -3815,7 +4958,8 @@ export const restaurants: Restaurant[] = [
     "distance": 3,
     "price": "$",
     "notes": "A great spot to enjoy delicious italian & pizza in the Central & Midtown area.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Blue Willow",
@@ -3824,25 +4968,28 @@ export const restaurants: Restaurant[] = [
     "distance": 3.1,
     "price": "$",
     "notes": "Legacy independent diner; dog-friendly patio; serves crepes, southwest scrambles, and fresh-baked muffins.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "5 Points Market & Resturant",
     "cuisine": "Coffee & Cafe",
     "neighborhood": "Urban Core",
     "distance": 3.1,
-    "price": "$",
-    "notes": "Local favorite in Urban Core serving classic coffee & cafe options.",
-    "isLocal": true
+    "price": "$$",
+    "notes": "Charming market and cafe offering delicious breakfast, lunch, and locally sourced gourmet groceries.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "The Quesadillas",
     "cuisine": "Mexican & Sonoran",
     "neighborhood": "Central & Midtown",
     "distance": 3.1,
-    "price": "$$",
-    "notes": "A great spot to enjoy delicious mexican & sonoran in the Central & Midtown area.",
-    "isLocal": true
+    "price": "$",
+    "notes": "Dedicated to the art of quesadillas, offering creative fillings and authentic Sonoran flavors.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Boondocks",
@@ -3850,8 +4997,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Central & Midtown",
     "distance": 3.1,
     "price": "$$",
-    "notes": "Local favorite in Central & Midtown serving classic bar, pub & brewery options.",
-    "isLocal": true
+    "notes": "Laid-back local bar offering live music, cold drinks, and a relaxed, friendly atmosphere.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Guadalajara Grill",
@@ -3859,8 +5007,19 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Northside & Foothills",
     "distance": 3.1,
     "price": "$$",
-    "notes": "A great spot to enjoy delicious mexican & sonoran in the Northside & Foothills area.",
-    "isLocal": true
+    "notes": "Lively spot for authentic Sonoran Mexican food, famous for table-side salsa and margaritas.",
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Tuxon Chix",
+    "cuisine": "Fast Food & Sandwiches",
+    "neighborhood": "Central & Midtown",
+    "distance": 3.1,
+    "price": "$",
+    "notes": "Local favorite for juicy fried chicken sandwiches with unique sauces and crispy, seasoned fries.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Filiberto's (Bway 2)",
@@ -3869,7 +5028,8 @@ export const restaurants: Restaurant[] = [
     "distance": 3.2,
     "price": "$",
     "notes": "24-hour service; Arizona's favorite fast-food offering massive carne asada burritos and rolled tacos.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Tumerico",
@@ -3878,7 +5038,8 @@ export const restaurants: Restaurant[] = [
     "distance": 3.2,
     "price": "$$",
     "notes": "Yelp Top 100; inventive plant-based Latin flavors including jackfruit carnitas and a renowned spinach salad.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Five Guys",
@@ -3887,7 +5048,8 @@ export const restaurants: Restaurant[] = [
     "distance": 3.2,
     "price": "$$",
     "notes": "Fresh burgers and peanut oil fries; offers double-patty cheeseburgers and free bulk peanuts.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "HoneyBaked Ham",
@@ -3896,7 +5058,8 @@ export const restaurants: Restaurant[] = [
     "distance": 3.2,
     "price": "$$",
     "notes": "Specialized ham, turkey, and catering; serves sweet-glazed spiral hams and deli sandwiches.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Nico's Mexican Food",
@@ -3905,7 +5068,18 @@ export const restaurants: Restaurant[] = [
     "distance": 3.2,
     "price": "$$",
     "notes": "Popular neighborhood destination featuring fresh mexican & sonoran specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
+  },
+  {
+    "name": "Graze Premium Burgers",
+    "cuisine": "Fast Food & Sandwiches",
+    "neighborhood": "Central & Midtown",
+    "distance": 3.2,
+    "price": "$",
+    "notes": "Local favorite in Central & Midtown serving classic fast food & sandwiches options.",
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "RJ's Replays",
@@ -3914,7 +5088,8 @@ export const restaurants: Restaurant[] = [
     "distance": 3.2,
     "price": "$$",
     "notes": "A great spot to enjoy delicious bar, pub & brewery in the Central & Midtown area.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "By the Bucket",
@@ -3923,7 +5098,8 @@ export const restaurants: Restaurant[] = [
     "distance": 3.3,
     "price": "$$",
     "notes": "Takeout spaghetti and meatballs served in family-sized buckets with garlic bread and marinara.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "El Torero",
@@ -3932,16 +5108,38 @@ export const restaurants: Restaurant[] = [
     "distance": 3.3,
     "price": "$$",
     "notes": "A great spot to enjoy delicious mexican & sonoran in the Central & Midtown area.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Anita's Street Market",
     "cuisine": "Mexican & Sonoran",
     "neighborhood": "Central & Midtown",
     "distance": 3.3,
-    "price": "$$",
-    "notes": "A great spot to enjoy delicious mexican & sonoran in the Central & Midtown area.",
-    "isLocal": true
+    "price": "$",
+    "notes": "Beloved local market offering authentic Sonoran hot dogs, tamales, and menudo. A true gem.",
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Jack in the Box",
+    "cuisine": "Fast Food & Sandwiches",
+    "neighborhood": "Central & Midtown",
+    "distance": 3.3,
+    "price": "$",
+    "notes": "A great spot to enjoy delicious fast food & sandwiches in the Central & Midtown area.",
+    "isLocal": false,
+    "enriched": false
+  },
+  {
+    "name": "Wienerschnitzel",
+    "cuisine": "Fast Food & Sandwiches",
+    "neighborhood": "Central & Midtown",
+    "distance": 3.3,
+    "price": "$",
+    "notes": "Popular neighborhood destination featuring fresh fast food & sandwiches specialties.",
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "LongHorn Steakhouse",
@@ -3950,7 +5148,8 @@ export const restaurants: Restaurant[] = [
     "distance": 3.3,
     "price": "$",
     "notes": "A great spot to enjoy delicious boba tea & beverages in the Central & Midtown area.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "El Molinito",
@@ -3959,7 +5158,8 @@ export const restaurants: Restaurant[] = [
     "distance": 3.3,
     "price": "$$",
     "notes": "Popular neighborhood destination featuring fresh mexican & sonoran specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Gen Korean BBQ",
@@ -3968,7 +5168,8 @@ export const restaurants: Restaurant[] = [
     "distance": 3.4,
     "price": "$$$",
     "notes": "High-quality all-you-can-eat Korean grilling; premium cuts of beef, spicy pork, and traditional banchan.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Baggin's Gourmet (Bway)",
@@ -3977,7 +5178,18 @@ export const restaurants: Restaurant[] = [
     "distance": 3.4,
     "price": "$$",
     "notes": "Locally owned; premium meats piled on freshly baked bread, alongside signature chocolate chip cookies.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Chipotle",
+    "cuisine": "Mexican & Sonoran",
+    "neighborhood": "Central & Midtown",
+    "distance": 3.4,
+    "price": "$",
+    "notes": "Build-your-own burritos, bowls, and salads with fresh, customizable ingredients.",
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Shish Kebab House of Tucson",
@@ -3986,7 +5198,8 @@ export const restaurants: Restaurant[] = [
     "distance": 3.4,
     "price": "$$",
     "notes": "A great spot to enjoy delicious american & comfort in the Central & Midtown area.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "ATL Wings",
@@ -3994,8 +5207,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Central & Midtown",
     "distance": 3.4,
     "price": "$",
-    "notes": "Local favorite in Central & Midtown serving classic fast food & sandwiches options.",
-    "isLocal": true
+    "notes": "Go-to spot for flavorful, crispy wings with a huge variety of sauces.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Chicago Bar",
@@ -4004,7 +5218,8 @@ export const restaurants: Restaurant[] = [
     "distance": 3.4,
     "price": "$$",
     "notes": "Popular neighborhood destination featuring fresh bar, pub & brewery specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Lotus Garden",
@@ -4012,8 +5227,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Central & Midtown",
     "distance": 3.4,
     "price": "$$",
-    "notes": "Popular neighborhood destination featuring fresh asian & sushi specialties.",
-    "isLocal": true
+    "notes": "Classic Chinese dishes, flavorful stir-fries, and comforting noodle soups in a relaxed setting.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Cafe Marcel Creperie and Espresso Bar",
@@ -4022,7 +5238,8 @@ export const restaurants: Restaurant[] = [
     "distance": 3.4,
     "price": "$",
     "notes": "Popular neighborhood destination featuring fresh coffee & cafe specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "El Guero Canelo",
@@ -4031,7 +5248,8 @@ export const restaurants: Restaurant[] = [
     "distance": 3.4,
     "price": "$$",
     "notes": "Popular neighborhood destination featuring fresh mexican & sonoran specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "La Michoacana Ice Cream Shop Az",
@@ -4040,7 +5258,8 @@ export const restaurants: Restaurant[] = [
     "distance": 3.4,
     "price": "$",
     "notes": "Popular neighborhood destination featuring fresh dessert & bakery specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Viva Mexican Food",
@@ -4049,7 +5268,8 @@ export const restaurants: Restaurant[] = [
     "distance": 3.4,
     "price": "$$",
     "notes": "Popular neighborhood destination featuring fresh mexican & sonoran specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Red Lobster",
@@ -4058,7 +5278,18 @@ export const restaurants: Restaurant[] = [
     "distance": 3.4,
     "price": "$$",
     "notes": "Popular neighborhood destination featuring fresh seafood specialties.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": false
+  },
+  {
+    "name": "Applebee's",
+    "cuisine": "American & Comfort",
+    "neighborhood": "Central & Midtown",
+    "distance": 3.4,
+    "price": "$$",
+    "notes": "A great spot to enjoy delicious american & comfort in the Central & Midtown area.",
+    "isLocal": false,
+    "enriched": false
   },
   {
     "name": "Mi Nidito",
@@ -4067,7 +5298,8 @@ export const restaurants: Restaurant[] = [
     "distance": 3.4,
     "price": "$$",
     "notes": "A great spot to enjoy delicious mexican & sonoran in the Central & Midtown area.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Dutch Bros. Coffee",
@@ -4076,7 +5308,8 @@ export const restaurants: Restaurant[] = [
     "distance": 3.4,
     "price": "$",
     "notes": "Popular neighborhood destination featuring fresh coffee & cafe specialties.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": false
   },
   {
     "name": "Buendia Breakfast",
@@ -4085,7 +5318,8 @@ export const restaurants: Restaurant[] = [
     "distance": 3.5,
     "price": "$",
     "notes": "Family-owned; highly ranked unique breakfast featuring chilaquiles, house-made tortillas, and strong coffee.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "First Watch (Speedway)",
@@ -4094,7 +5328,8 @@ export const restaurants: Restaurant[] = [
     "distance": 3.5,
     "price": "$$",
     "notes": "Health-focused brunch hub with Million Dollar Bacon, quinoa bowls, and fresh-pressed morning juices.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Kneller's Delicatessen",
@@ -4103,7 +5338,8 @@ export const restaurants: Restaurant[] = [
     "distance": 3.5,
     "price": "$$",
     "notes": "East Coast-style deli; house-cured lox, fresh knishes, Jewish soul food, and stacked pastrami sandwiches.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Wooden Nickel",
@@ -4112,7 +5348,8 @@ export const restaurants: Restaurant[] = [
     "distance": 3.5,
     "price": "$",
     "notes": "Tavern serving famous crispy chicken wings since 1984, alongside cold beer and classic pub burgers.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Bamboo Noodle House",
@@ -4121,7 +5358,8 @@ export const restaurants: Restaurant[] = [
     "distance": 3.5,
     "price": "$",
     "notes": "Authentic Asian-style noodle soups utilizing rich family recipes and fresh, hand-crafted ingredients.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "IHOP (22nd)",
@@ -4130,7 +5368,8 @@ export const restaurants: Restaurant[] = [
     "distance": 3.5,
     "price": "$$",
     "notes": "24-hour; located near Craycroft intersection; classic fluffy pancakes and late-night diner comfort food.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Filiberto's (22nd)",
@@ -4139,7 +5378,8 @@ export const restaurants: Restaurant[] = [
     "distance": 3.5,
     "price": "$",
     "notes": "24-hour; famous Cowboy Fries loaded with guacamole and carne asada, plus heavy Super Nachos.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "BJ's Restaurant",
@@ -4148,7 +5388,8 @@ export const restaurants: Restaurant[] = [
     "distance": 3.5,
     "price": "$$",
     "notes": "Signature deep dish and handcrafted beers; famous for the massive hot Pizookie dessert.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Sauce Pizza & Wine",
@@ -4157,7 +5398,8 @@ export const restaurants: Restaurant[] = [
     "distance": 3.5,
     "price": "$$",
     "notes": "Fast-casual artisanal pizzas and salads; features thin-crust pies and fresh chopped greens.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Ghini's French",
@@ -4166,16 +5408,8 @@ export const restaurants: Restaurant[] = [
     "distance": 3.5,
     "price": "$$",
     "notes": "Parisian-inspired since 1992; serves Eggs Provençal, Salade Niçoise, and Le California Chicken Club.",
-    "isLocal": true
-  },
-  {
-    "name": "Filiberto's (River)",
-    "cuisine": "Mexican & Sonoran",
-    "neighborhood": "Northside & Foothills",
-    "distance": 3.5,
-    "price": "$",
-    "notes": "24-hour drive-thru; serves carne asada fries, rolled tacos, and breakfast burritos.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Seoul Shi",
@@ -4184,7 +5418,8 @@ export const restaurants: Restaurant[] = [
     "distance": 3.5,
     "price": "$$",
     "notes": "Korean fusion; serves bulgogi tacos, kimchi fried rice, and spicy pork bowls.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Jackrabbit Lounge",
@@ -4193,7 +5428,8 @@ export const restaurants: Restaurant[] = [
     "distance": 3.5,
     "price": "$$",
     "notes": "Retro-style lounge; features craft cocktails, fondue, and a 70s vibe.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Tavolino Ristorante",
@@ -4202,7 +5438,8 @@ export const restaurants: Restaurant[] = [
     "distance": 3.5,
     "price": "$$$",
     "notes": "Upscale Northern Italian; serves rotisserie chicken, handmade pasta, and wood-fired pizza.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Shake Shack",
@@ -4211,7 +5448,8 @@ export const restaurants: Restaurant[] = [
     "distance": 3.5,
     "price": "$$",
     "notes": "Modern burger stand; serves ShackBurgers, crinkle-cut fries, and frozen custard concretes.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Wendy's (River)",
@@ -4220,7 +5458,8 @@ export const restaurants: Restaurant[] = [
     "distance": 3.5,
     "price": "$",
     "notes": "Square burgers and fries; serves Baconators, spicy nuggets, and chocolate Frostys.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Pizza Hut (River)",
@@ -4229,7 +5468,8 @@ export const restaurants: Restaurant[] = [
     "distance": 3.5,
     "price": "$",
     "notes": "Classic pizza hut; serves Pan Pizza, stuffed crust, and wingstreet wings.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Carl's Jr (River)",
@@ -4238,7 +5478,8 @@ export const restaurants: Restaurant[] = [
     "distance": 3.5,
     "price": "$",
     "notes": "Charbroiled burgers; serves Western Bacon Cheeseburgers and crisscut fries.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Takamatsu",
@@ -4247,16 +5488,28 @@ export const restaurants: Restaurant[] = [
     "distance": 3.5,
     "price": "$$",
     "notes": "Korean barbecue and Japanese sushi house; features interactive tabletop grilling, fresh sashimi, and bibimbap.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Starbucks",
+    "cuisine": "Coffee & Cafe",
+    "neighborhood": "Central & Midtown",
+    "distance": 3.5,
+    "price": "$$",
+    "notes": "Ubiquitous coffee chain for reliable lattes, frappuccinos, and a quick breakfast bite. Always consistent.",
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Yard House",
     "cuisine": "American & Comfort",
     "neighborhood": "Central & Midtown",
     "distance": 3.5,
-    "price": "$$",
-    "notes": "Local favorite in Central & Midtown serving classic american & comfort options.",
-    "isLocal": true
+    "price": "$$$",
+    "notes": "Expansive menu, incredible tap list, lively atmosphere. Great for groups and diverse cravings.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "La Parilla Suiza",
@@ -4265,7 +5518,8 @@ export const restaurants: Restaurant[] = [
     "distance": 3.5,
     "price": "$$",
     "notes": "Local favorite in Central & Midtown serving classic mexican & sonoran options.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Culver's",
@@ -4274,7 +5528,8 @@ export const restaurants: Restaurant[] = [
     "distance": 3.5,
     "price": "$",
     "notes": "Popular neighborhood destination featuring fresh fast food & sandwiches specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Mariscos Mi Mazatlán",
@@ -4283,7 +5538,8 @@ export const restaurants: Restaurant[] = [
     "distance": 3.5,
     "price": "$$",
     "notes": "Local favorite in Central & Midtown serving classic mexican & sonoran options.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Taco Giro",
@@ -4292,7 +5548,8 @@ export const restaurants: Restaurant[] = [
     "distance": 3.5,
     "price": "$$",
     "notes": "Popular neighborhood destination featuring fresh mexican & sonoran specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "El Sur",
@@ -4301,7 +5558,8 @@ export const restaurants: Restaurant[] = [
     "distance": 3.5,
     "price": "$$",
     "notes": "A great spot to enjoy delicious mexican & sonoran in the Central & Midtown area.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Peter Piper Pizza",
@@ -4310,7 +5568,18 @@ export const restaurants: Restaurant[] = [
     "distance": 3.5,
     "price": "$$",
     "notes": "Local favorite in Central & Midtown serving classic italian & pizza options.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
+  },
+  {
+    "name": "Burger King",
+    "cuisine": "Fast Food & Sandwiches",
+    "neighborhood": "Central & Midtown",
+    "distance": 3.5,
+    "price": "$",
+    "notes": "Popular neighborhood destination featuring fresh fast food & sandwiches specialties.",
+    "isLocal": false,
+    "enriched": false
   },
   {
     "name": "Yin Yang Express",
@@ -4319,7 +5588,8 @@ export const restaurants: Restaurant[] = [
     "distance": 3.5,
     "price": "$$",
     "notes": "A great spot to enjoy delicious american & comfort in the Central & Midtown area.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Nimbus Brewing Company",
@@ -4328,7 +5598,18 @@ export const restaurants: Restaurant[] = [
     "distance": 3.5,
     "price": "$$",
     "notes": "A great spot to enjoy delicious bar, pub & brewery in the Southside & Heritage area.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
+  },
+  {
+    "name": "McDonald's",
+    "cuisine": "Fast Food & Sandwiches",
+    "neighborhood": "Central & Midtown",
+    "distance": 3.5,
+    "price": "$",
+    "notes": "Local favorite in Central & Midtown serving classic fast food & sandwiches options.",
+    "isLocal": false,
+    "enriched": false
   },
   {
     "name": "Denny's",
@@ -4337,7 +5618,8 @@ export const restaurants: Restaurant[] = [
     "distance": 3.5,
     "price": "$$",
     "notes": "A great spot to enjoy delicious american & comfort in the Central & Midtown area.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": false
   },
   {
     "name": "Caffé Lucé",
@@ -4345,8 +5627,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Northside & Foothills",
     "distance": 3.6,
     "price": "$",
-    "notes": "Local favorite in Northside & Foothills serving classic coffee & cafe options.",
-    "isLocal": true
+    "notes": "Charming cafe serving artisanal coffee, pastries, and light bites in a relaxed atmosphere.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Costa Vida",
@@ -4355,16 +5638,28 @@ export const restaurants: Restaurant[] = [
     "distance": 3.6,
     "price": "$$",
     "notes": "Popular neighborhood destination featuring fresh mexican & sonoran specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "DQ/Orange Julius",
-    "cuisine": "American & Comfort",
+    "cuisine": "Fast Food & Sandwiches",
     "neighborhood": "Central & Midtown",
     "distance": 3.6,
-    "price": "$$",
-    "notes": "A great spot to enjoy delicious american & comfort in the Central & Midtown area.",
-    "isLocal": true
+    "price": "$",
+    "notes": "Classic spot for delicious soft-serve blizzards, cool Orange Julius drinks, and quick food.",
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Panda Express",
+    "cuisine": "Asian & Sushi",
+    "neighborhood": "Central & Midtown",
+    "distance": 3.6,
+    "price": "$",
+    "notes": "Popular fast-casual chain offering Americanized Chinese staples like orange chicken and chow mein.",
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Sonic",
@@ -4372,8 +5667,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Northside & Foothills",
     "distance": 3.6,
     "price": "$",
-    "notes": "A great spot to enjoy delicious fast food & sandwiches in the Northside & Foothills area.",
-    "isLocal": true
+    "notes": "Drive-in fast food known for customizable drinks, burgers, hot dogs, and roller-skating carhops.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "El Chinito Gordo",
@@ -4382,7 +5678,8 @@ export const restaurants: Restaurant[] = [
     "distance": 3.6,
     "price": "$$",
     "notes": "Popular neighborhood destination featuring fresh mexican & sonoran specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Chuck E. Cheese",
@@ -4391,16 +5688,28 @@ export const restaurants: Restaurant[] = [
     "distance": 3.6,
     "price": "$$",
     "notes": "Popular neighborhood destination featuring fresh italian & pizza specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Level Bar & Lounge",
     "cuisine": "Bar, Pub & Brewery",
     "neighborhood": "Northside & Foothills",
     "distance": 3.7,
+    "price": "$$$",
+    "notes": "Trendy lounge offering craft cocktails, fine spirits, and a chic, sophisticated nightlife experience.",
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Union Public House",
+    "cuisine": "Bar, Pub & Brewery",
+    "neighborhood": "Northside & Foothills",
+    "distance": 3.7,
     "price": "$$",
-    "notes": "Local favorite in Northside & Foothills serving classic bar, pub & brewery options.",
-    "isLocal": true
+    "notes": "Lively gastropub with a great beer selection, inventive American fare, and outdoor patio.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Reforma Cocina & Cantina",
@@ -4409,7 +5718,8 @@ export const restaurants: Restaurant[] = [
     "distance": 3.7,
     "price": "$$",
     "notes": "Popular neighborhood destination featuring fresh mexican & sonoran specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Seis Kitchen",
@@ -4417,17 +5727,49 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Westside & Downtown",
     "distance": 3.7,
     "price": "$$",
-    "notes": "Local favorite in Westside & Downtown serving classic mexican & sonoran options.",
-    "isLocal": true
+    "notes": "Vibrant, award-winning Sonoran Mexican cuisine with fresh, regional ingredients. Famous tacos.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Arizona Wine Collective",
     "cuisine": "Bar, Pub & Brewery",
     "neighborhood": "Northside & Foothills",
     "distance": 3.7,
+    "price": "$$$",
+    "notes": "Upscale wine bar featuring local Arizona vintages, artisanal charcuterie boards, and a sophisticated ambiance.",
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Westbound",
+    "cuisine": "Bar, Pub & Brewery",
+    "neighborhood": "Urban Core",
+    "distance": 3.7,
     "price": "$$",
-    "notes": "Popular neighborhood destination featuring fresh bar, pub & brewery specialties.",
-    "isLocal": true
+    "notes": "Stylish bar with inventive cocktails, local beers, and a curated menu of elevated snacks.",
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Kukai",
+    "cuisine": "Asian & Sushi",
+    "neighborhood": "Urban Core",
+    "distance": 3.7,
+    "price": "$$$",
+    "notes": "Intimate spot for fresh, high-quality sushi rolls and traditional Japanese dishes.",
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Beaut Burger",
+    "cuisine": "Healthy, Vegan & Plant-Based",
+    "neighborhood": "Urban Core",
+    "distance": 3.7,
+    "price": "$$",
+    "notes": "All-vegan burger joint offering creative plant-based burgers, fries, and shakes.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Whole Slvce Pizza",
@@ -4436,7 +5778,18 @@ export const restaurants: Restaurant[] = [
     "distance": 3.7,
     "price": "$$",
     "notes": "Popular neighborhood destination featuring fresh italian & pizza specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
+  },
+  {
+    "name": "McDonald's",
+    "cuisine": "Fast Food & Sandwiches",
+    "neighborhood": "Central & Midtown",
+    "distance": 3.7,
+    "price": "$",
+    "notes": "Iconic fast-food for dependable burgers, fries, and breakfast, perfect for a quick stop.",
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Decibel Coffee Works",
@@ -4445,7 +5798,8 @@ export const restaurants: Restaurant[] = [
     "distance": 3.7,
     "price": "$",
     "notes": "Popular neighborhood destination featuring fresh coffee & cafe specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Salad and Go",
@@ -4454,16 +5808,8 @@ export const restaurants: Restaurant[] = [
     "distance": 3.7,
     "price": "$",
     "notes": "Local favorite in Southside & Heritage serving classic healthy, vegan & plant-based options.",
-    "isLocal": true
-  },
-  {
-    "name": "Lovin' Spoonfuls",
-    "cuisine": "Healthy, Vegan & Plant-Based",
-    "neighborhood": "Central & Midtown",
-    "distance": 3.8,
-    "price": "$$",
-    "notes": "Local vegan institution; plant-based comfort food including vegan fried chicken dinners and creamsicle smoothies.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Desert Drifter Coffee",
@@ -4472,7 +5818,18 @@ export const restaurants: Restaurant[] = [
     "distance": 3.8,
     "price": "$",
     "notes": "Drive-thru hub; Presta beans, Danzeisen dairy milk, cold brews, and fresh morning pastries.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Lovin' Spoonfuls",
+    "cuisine": "Healthy, Vegan & Plant-Based",
+    "neighborhood": "Central & Midtown",
+    "distance": 3.8,
+    "price": "$$",
+    "notes": "Local vegan institution; plant-based comfort food including vegan fried chicken dinners and creamsicle smoothies.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Barrio Charro",
@@ -4481,7 +5838,8 @@ export const restaurants: Restaurant[] = [
     "distance": 3.8,
     "price": "$$",
     "notes": "Collaboration concept; artisan Barrio bread sandwiches stuffed with traditional Mexican carnitas and birria fillings.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Chef Wang",
@@ -4490,7 +5848,8 @@ export const restaurants: Restaurant[] = [
     "distance": 3.8,
     "price": "$$",
     "notes": "Authentic Northeast Chinese; serves cumin lamb, handmade dumplings, and spicy hot pots.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Yamato",
@@ -4499,7 +5858,8 @@ export const restaurants: Restaurant[] = [
     "distance": 3.8,
     "price": "$$",
     "notes": "Traditional sushi bar; serves fresh nigiri, hand rolls, and authentic Japanese appetizers.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Ikkyu",
@@ -4508,7 +5868,8 @@ export const restaurants: Restaurant[] = [
     "distance": 3.8,
     "price": "$",
     "notes": "Fast-casual Japanese; serves spicy tuna bowls, chicken teriyaki, and tempura udon.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Sushi on Oracle",
@@ -4517,7 +5878,8 @@ export const restaurants: Restaurant[] = [
     "distance": 3.8,
     "price": "$$",
     "notes": "Neighborhood sushi spot; serves creative rolls, sashimi platters, and bento boxes.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Contigo Latin Kitchen",
@@ -4526,7 +5888,8 @@ export const restaurants: Restaurant[] = [
     "distance": 3.8,
     "price": "$$$",
     "notes": "Upscale Latin dining; features Spanish tapas, paella, and South American wines.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Monterey Court",
@@ -4535,16 +5898,18 @@ export const restaurants: Restaurant[] = [
     "distance": 3.8,
     "price": "$$",
     "notes": "A great spot to enjoy delicious american & comfort in the Central & Midtown area.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Lucky Panda",
     "cuisine": "Asian & Sushi",
     "neighborhood": "Northside & Foothills",
     "distance": 3.8,
-    "price": "$$",
-    "notes": "A great spot to enjoy delicious asian & sushi in the Northside & Foothills area.",
-    "isLocal": true
+    "price": "$",
+    "notes": "Casual spot for flavorful Chinese-American classics, offering generous portions and quick, friendly service.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Presta Coffee Roasters",
@@ -4552,8 +5917,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Westside & Downtown",
     "distance": 3.8,
     "price": "$",
-    "notes": "A great spot to enjoy delicious coffee & cafe in the Westside & Downtown area.",
-    "isLocal": true
+    "notes": "Award-winning local roaster providing expertly crafted coffee, vibrant blends, and a bustling community hub.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Tanias 33",
@@ -4562,7 +5928,8 @@ export const restaurants: Restaurant[] = [
     "distance": 3.8,
     "price": "$$",
     "notes": "A great spot to enjoy delicious mexican & sonoran in the Westside & Downtown area.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Hogie House 22nd Street",
@@ -4570,8 +5937,19 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Central & Midtown",
     "distance": 3.8,
     "price": "$",
-    "notes": "Popular neighborhood destination featuring fresh fast food & sandwiches specialties.",
-    "isLocal": true
+    "notes": "Long-standing local favorite for hearty hoagies and classic American sandwiches.",
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Agustin Kitchen",
+    "cuisine": "American & Comfort",
+    "neighborhood": "Westside & Downtown",
+    "distance": 3.8,
+    "price": "$$",
+    "notes": "Local favorite in Westside & Downtown serving classic american & comfort options.",
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Beyond Bread",
@@ -4580,7 +5958,8 @@ export const restaurants: Restaurant[] = [
     "distance": 3.8,
     "price": "$",
     "notes": "Local favorite in Eastside & Vail serving classic fast food & sandwiches options.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Sweet Tomatoes",
@@ -4588,8 +5967,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Eastside & Vail",
     "distance": 3.8,
     "price": "$$",
-    "notes": "A great spot to enjoy delicious healthy, vegan & plant-based in the Eastside & Vail area.",
-    "isLocal": true
+    "notes": "Buffet-style restaurant offering an expansive salad bar, fresh soups, and wholesome baked goods.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Divine Bovine Burgers",
@@ -4597,8 +5977,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Eastside & Vail",
     "distance": 3.8,
     "price": "$",
-    "notes": "Popular neighborhood destination featuring fresh fast food & sandwiches specialties.",
-    "isLocal": true
+    "notes": "Gourmet burger joint crafting juicy patties with unique toppings and crispy, satisfying fries.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Lin's Grand Buffet",
@@ -4607,7 +5988,8 @@ export const restaurants: Restaurant[] = [
     "distance": 3.8,
     "price": "$$",
     "notes": "Local favorite in Southside & Heritage serving classic american & comfort options.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Kettle Restaurant",
@@ -4616,7 +5998,8 @@ export const restaurants: Restaurant[] = [
     "distance": 3.8,
     "price": "$$",
     "notes": "A great spot to enjoy delicious american & comfort in the Central & Midtown area.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "El Tarachi",
@@ -4625,7 +6008,8 @@ export const restaurants: Restaurant[] = [
     "distance": 3.8,
     "price": "$$",
     "notes": "Local favorite in Central & Midtown serving classic mexican & sonoran options.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Casa Molina",
@@ -4634,7 +6018,8 @@ export const restaurants: Restaurant[] = [
     "distance": 3.8,
     "price": "$$",
     "notes": "Popular neighborhood destination featuring fresh mexican & sonoran specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Frozen Delight",
@@ -4643,7 +6028,18 @@ export const restaurants: Restaurant[] = [
     "distance": 3.8,
     "price": "$$",
     "notes": "Local favorite in Eastside & Vail serving classic american & comfort options.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
+  },
+  {
+    "name": "Sachiko Sushi",
+    "cuisine": "Asian & Sushi",
+    "neighborhood": "Eastside & Vail",
+    "distance": 3.8,
+    "price": "$$",
+    "notes": "Popular neighborhood destination featuring fresh asian & sushi specialties.",
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Popeyes",
@@ -4652,7 +6048,8 @@ export const restaurants: Restaurant[] = [
     "distance": 3.8,
     "price": "$",
     "notes": "Local favorite in Southside & Heritage serving classic fast food & sandwiches options.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": false
   },
   {
     "name": "Taco Bell",
@@ -4661,7 +6058,8 @@ export const restaurants: Restaurant[] = [
     "distance": 3.8,
     "price": "$",
     "notes": "Popular neighborhood destination featuring fresh mexican & sonoran specialties.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": false
   },
   {
     "name": "Angie's Lobster",
@@ -4670,7 +6068,8 @@ export const restaurants: Restaurant[] = [
     "distance": 3.8,
     "price": "$",
     "notes": "Local favorite in Southside & Heritage serving classic seafood options.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Whataburger",
@@ -4679,7 +6078,8 @@ export const restaurants: Restaurant[] = [
     "distance": 3.8,
     "price": "$",
     "notes": "Popular neighborhood destination featuring fresh fast food & sandwiches specialties.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": false
   },
   {
     "name": "Miss Saigon",
@@ -4688,7 +6088,18 @@ export const restaurants: Restaurant[] = [
     "distance": 3.9,
     "price": "$",
     "notes": "Authentic slow-simmered pho, fresh spring rolls, vermicelli bowls, and a full tea bar.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "ZinBurger",
+    "cuisine": "American & Comfort",
+    "neighborhood": "Northside & Foothills",
+    "distance": 3.9,
+    "price": "$$",
+    "notes": "Upscale burger bar with gourmet patties, creative toppings, and delicious milkshakes.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Bonchon",
@@ -4696,26 +6107,39 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Eastside & Vail",
     "distance": 3.9,
     "price": "$$",
-    "notes": "Local favorite in Eastside & Vail serving classic asian & sushi options.",
-    "isLocal": true
+    "notes": "Famous for its crispy, double-fried Korean fried chicken and other delicious Asian comfort foods.",
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "LA Chaiteria",
+    "cuisine": "Mexican & Sonoran",
+    "neighborhood": "Westside & Downtown",
+    "distance": 3.9,
+    "price": "$",
+    "notes": "Popular for refreshing aguas frescas, Mexican snacks, and unique fruit preparations.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Bisbee Breakfast Club",
-    "cuisine": "Coffee & Cafe",
+    "cuisine": "Breakfast & Diner",
     "neighborhood": "Eastside & Vail",
     "distance": 3.9,
-    "price": "$",
-    "notes": "Popular neighborhood destination featuring fresh coffee & cafe specialties.",
-    "isLocal": true
+    "price": "$$",
+    "notes": "Popular breakfast and lunch spot known for generous portions and delicious homemade comfort food.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "El Taco Tote",
     "cuisine": "Mexican & Sonoran",
     "neighborhood": "Eastside & Vail",
     "distance": 3.9,
-    "price": "$$",
-    "notes": "Local favorite in Eastside & Vail serving classic mexican & sonoran options.",
-    "isLocal": true
+    "price": "$",
+    "notes": "Fresh, authentic Sonoran-style tacos with a vibrant salsa bar, perfect for a quick bite.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Dave & Buster's",
@@ -4723,8 +6147,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Southside & Heritage",
     "distance": 3.9,
     "price": "$$",
-    "notes": "Local favorite in Southside & Heritage serving classic american & comfort options.",
-    "isLocal": true
+    "notes": "Arcade fun meets casual dining, offering burgers, wings, and games for all.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Waffle House",
@@ -4733,7 +6158,8 @@ export const restaurants: Restaurant[] = [
     "distance": 3.9,
     "price": "$$",
     "notes": "Popular neighborhood destination featuring fresh breakfast & diner specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Blake's Lotaburger",
@@ -4742,7 +6168,8 @@ export const restaurants: Restaurant[] = [
     "distance": 3.9,
     "price": "$",
     "notes": "Popular neighborhood destination featuring fresh fast food & sandwiches specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "UnCork'd Kitchen & Cocktails",
@@ -4751,7 +6178,8 @@ export const restaurants: Restaurant[] = [
     "distance": 3.9,
     "price": "$$",
     "notes": "Local favorite in Eastside & Vail serving classic bar, pub & brewery options.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Noodleholics",
@@ -4760,7 +6188,8 @@ export const restaurants: Restaurant[] = [
     "distance": 3.9,
     "price": "$$",
     "notes": "Local favorite in Eastside & Vail serving classic american & comfort options.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Sonic",
@@ -4769,7 +6198,8 @@ export const restaurants: Restaurant[] = [
     "distance": 3.9,
     "price": "$",
     "notes": "A great spot to enjoy delicious fast food & sandwiches in the Westside & Downtown area.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Dao's Tai Pans Restaurant",
@@ -4778,7 +6208,8 @@ export const restaurants: Restaurant[] = [
     "distance": 3.9,
     "price": "$$",
     "notes": "Popular neighborhood destination featuring fresh asian & sushi specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Kahu Hawaiian BBQ",
@@ -4787,7 +6218,18 @@ export const restaurants: Restaurant[] = [
     "distance": 3.9,
     "price": "$$",
     "notes": "Popular neighborhood destination featuring fresh steakhouse & bbq specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
+  },
+  {
+    "name": "Cafe Santa Rosa",
+    "cuisine": "Coffee & Cafe",
+    "neighborhood": "Southside & Heritage",
+    "distance": 3.9,
+    "price": "$",
+    "notes": "A great spot to enjoy delicious coffee & cafe in the Southside & Heritage area.",
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Sonoran Delights",
@@ -4796,7 +6238,8 @@ export const restaurants: Restaurant[] = [
     "distance": 3.9,
     "price": "$",
     "notes": "A great spot to enjoy delicious mexican & sonoran in the Westside & Downtown area.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Los Olivos",
@@ -4805,7 +6248,8 @@ export const restaurants: Restaurant[] = [
     "distance": 3.9,
     "price": "$$",
     "notes": "A great spot to enjoy delicious italian & pizza in the Westside & Downtown area.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Little Caesars",
@@ -4814,7 +6258,8 @@ export const restaurants: Restaurant[] = [
     "distance": 3.9,
     "price": "$",
     "notes": "A great spot to enjoy delicious italian & pizza in the Westside & Downtown area.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": false
   },
   {
     "name": "Dairy Queen",
@@ -4823,7 +6268,8 @@ export const restaurants: Restaurant[] = [
     "distance": 3.9,
     "price": "$",
     "notes": "Local favorite in Northside & Foothills serving classic dessert & bakery options.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": false
   },
   {
     "name": "Barista Del Barrio",
@@ -4832,16 +6278,8 @@ export const restaurants: Restaurant[] = [
     "distance": 3.9,
     "price": "$",
     "notes": "Popular neighborhood destination featuring fresh coffee & cafe specialties.",
-    "isLocal": true
-  },
-  {
-    "name": "Sachiko Sushi",
-    "cuisine": "Asian & Sushi",
-    "neighborhood": "Eastside & Vail",
-    "distance": 4,
-    "price": "$$",
-    "notes": "Highly rated traditional sushi spot; serves authentic nigiri, fresh sashimi, and classic Japanese rolls.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Teresa's Mosaic Cafe",
@@ -4850,7 +6288,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4,
     "price": "$$",
     "notes": "Authentic Sonoran and Oaxacan style dishes; famous for house-made tortillas and rich breakfast huevos.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Amy's Donuts",
@@ -4859,7 +6298,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4,
     "price": "$",
     "notes": "Features over 120 custom donut flavors ranging from classic glaze to extreme cereal and candy toppings.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Moonstone",
@@ -4868,7 +6308,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4,
     "price": "$$$",
     "notes": "Rooftop views at Graduate Tucson; serves craft cocktails, elevated bar snacks, and shareable plates.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Saigon Pho",
@@ -4877,7 +6318,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4,
     "price": "$",
     "notes": "Family-owned; traditional pho noodle soup with rich beef broth, fresh basil, and jalapeños.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Gentle Ben's Brewing",
@@ -4886,7 +6328,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4,
     "price": "$$",
     "notes": "Legacy brewery near campus; family-friendly with kids menu, hearty pub burgers, and local draft beers.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Illegal Pete's",
@@ -4895,7 +6338,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4,
     "price": "$",
     "notes": "Full bar and live music; massive mission-style burritos built to order with fresh salsas and queso.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Fuku Sushi",
@@ -4904,7 +6348,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4,
     "price": "$$",
     "notes": "Late-night DJs and modern classic rolls; serves spicy tuna, tempura rolls, and sake bombs.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "The Buffalo Spot",
@@ -4913,7 +6358,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4,
     "price": "$",
     "notes": "Famous for Buffalo Fries; fast casual dining featuring chicken tenders smothered in custom sauces.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Frog & Firkin",
@@ -4922,7 +6368,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4,
     "price": "$$",
     "notes": "\"Famous pizza\" and English pub fare; offers massive deep-dish style pizzas and 100+ beers.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "No Anchovies",
@@ -4931,7 +6378,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4,
     "price": "$$",
     "notes": "10,000 sq ft venue; 50+ big screens; serves giant pizza slices, wings, and college-bar staples.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Turkish Kebab House",
@@ -4940,7 +6388,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4,
     "price": "$$",
     "notes": "Authentic Turkish flavors; features spit-roasted doner, skewered kebabs, and fresh Mediterranean salads.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Geronimo Restaurant",
@@ -4949,7 +6398,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4,
     "price": "$$",
     "notes": "Authentic sausage plates and unique flavors; an elevated dining experience with a focused wine list.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Agave House",
@@ -4958,7 +6408,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4,
     "price": "$$",
     "notes": "Tequila bar and upscale street food; features short rib tacos, queso fundido, and signature margaritas.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Saguaro Grill",
@@ -4967,7 +6418,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4,
     "price": "$$$",
     "notes": "Located in Marriott University Park Hotel; offers refined Southwestern hotel dining and breakfast buffets.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Kababeque Indian",
@@ -4976,7 +6428,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4,
     "price": "$$",
     "notes": "Tandoori grilled meats and diverse curries; serves quick-service chicken tikka and fresh naan.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Jimmy's Pita & Poke",
@@ -4985,7 +6438,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4,
     "price": "$",
     "notes": "Pita wraps and made-to-order poke bowls; fresh raw fish, healthy grains, and customizable toppings.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Woops! Bakeshop",
@@ -4994,7 +6448,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4,
     "price": "$",
     "notes": "Specialized macarons and artisanal pastries; offers colorful French cookies and premium espresso.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Dragoon Brewing Company",
@@ -5003,7 +6458,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4,
     "price": "$$",
     "notes": "Established popular microbrewery; famous for Dragoon IPA and rotating local food truck pairings.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Noodies",
@@ -5012,7 +6468,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4,
     "price": "$$",
     "notes": "Hand-crafted fresh pasta and Italian fare; offers quick-service bowls of rich, scratch-made pasta.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Starbucks (University)",
@@ -5021,7 +6478,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4,
     "price": "$",
     "notes": "Corporate coffee chain near campus; serves Frappuccinos, espresso drinks, and standard cafe pastries.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Little Anthony's",
@@ -5030,7 +6488,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4,
     "price": "$",
     "notes": "50s-themed diner; home of Gaslight Theatre; serves classic milkshakes, burgers, and greasy-spoon fries.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "The Quesadillas",
@@ -5039,7 +6498,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4,
     "price": "$",
     "notes": "Counter-service charcoal grilled meats; serves perfectly crisped tortillas stuffed with carne asada.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Nick's Sari-Sari",
@@ -5048,7 +6508,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4,
     "price": "$",
     "notes": "Integrated Filipino market and restaurant; serves authentic adobo, lumpia, and sweet ube treats.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Salsa Verde",
@@ -5057,7 +6518,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4,
     "price": "$$",
     "notes": "Traditional Mexican plates and fresh salsas; serves vibrant, zesty street tacos and enchiladas.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Halong Bay",
@@ -5066,7 +6528,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4,
     "price": "$$",
     "notes": "Vietnamese pho and volcano appetizer sampler; famous for its Fried Banana dessert and fresh spring rolls.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Fora",
@@ -5075,7 +6538,18 @@ export const restaurants: Restaurant[] = [
     "distance": 4,
     "price": "$$",
     "notes": "Artisan pizza and handmade pasta; serves elegant, rustic Italian dishes in a refined setting.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Sachiko Sushi",
+    "cuisine": "Asian & Sushi",
+    "neighborhood": "Eastside & Vail",
+    "distance": 4,
+    "price": "$$",
+    "notes": "Highly rated traditional sushi spot; serves authentic nigiri, fresh sashimi, and classic Japanese rolls.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Savaya Coffee Market",
@@ -5084,7 +6558,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4,
     "price": "$",
     "notes": "Freshly roasted specialty coffee; recognized globally; serves meticulous pour-overs and single-origin brews.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Sushi Garden",
@@ -5093,7 +6568,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4,
     "price": "$$",
     "notes": "Quality neighborhood sushi spot; offers a massive lunch buffet featuring tempura, salmon, and rolls.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Old Peking",
@@ -5102,7 +6578,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4,
     "price": "$",
     "notes": "Chinese comfort classics; serves traditional sweet and sour pork, lo mein, and egg drop soup.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Espressoul Café",
@@ -5111,7 +6588,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4,
     "price": "$",
     "notes": "Local cafe and espresso lounge; offers Persian-inspired coffee drinks and fresh cafe pastries.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Wendy's (Bway)",
@@ -5120,7 +6598,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4,
     "price": "$",
     "notes": "Fast food burger chain; famous for square beef patties, chili, and chocolate Frosty desserts.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Domino's (Kolb)",
@@ -5129,7 +6608,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4,
     "price": "$",
     "notes": "Pizza delivery chain; serves garlic-crusted pizzas, cheesy bread, and oven-baked sandwiches.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Eegee's (Kolb)",
@@ -5138,7 +6618,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4,
     "price": "$",
     "notes": "Famous fruit slushes and subs; serves icy frozen fruit drinks and crinkle-cut Ranch Fries.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Carl's Jr (Broadway)",
@@ -5147,7 +6628,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4,
     "price": "$",
     "notes": "Fast food and thickburgers; serves massive charbroiled burgers and crispy onion rings.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Jack in the Box (Kolb)",
@@ -5156,7 +6638,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4,
     "price": "$",
     "notes": "Burger and taco chain; serves Jumbo Jacks, curly fries, and late-night deep-fried tacos.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "KFC (Broadway)",
@@ -5165,7 +6648,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4,
     "price": "$",
     "notes": "Standard fried chicken; serves buckets of original recipe chicken, mashed potatoes, and biscuits.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Raising Cane's (Bway)",
@@ -5174,7 +6658,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4,
     "price": "$",
     "notes": "Chicken fingers and toast; serves crispy chicken strips, crinkle fries, and signature Cane's Sauce.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Jimmy John's (Kolb)",
@@ -5183,7 +6668,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4,
     "price": "$",
     "notes": "Fast delivery sandwiches; serves cold cut subs on fresh-baked French bread with provolone.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Trattoria Pina",
@@ -5192,7 +6678,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4,
     "price": "$$$",
     "notes": "Independent legacy; upscale Italian serving rich pasta, veal preparations, and elegant desserts.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Taco Bell (Campbell)",
@@ -5201,25 +6688,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4,
     "price": "$",
     "notes": "Fast food Mexican; serves crunchy tacos, bean burritos, and Baja Blast freezes.",
-    "isLocal": false
-  },
-  {
-    "name": "Eegee's (Campbell)",
-    "cuisine": "Fast Food & Sandwiches",
-    "neighborhood": "Northside & Foothills",
-    "distance": 4,
-    "price": "$",
-    "notes": "Tucson classic; serves frozen fruit slushes, grinders, and ranch fries.",
-    "isLocal": true
-  },
-  {
-    "name": "Jack in the Box (First)",
-    "cuisine": "Fast Food & Sandwiches",
-    "neighborhood": "Northside & Foothills",
-    "distance": 4,
-    "price": "$",
-    "notes": "Fast food variety; serves tacos, sourdough jacks, and curly fries.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "St. Mary's Mexican Food",
@@ -5228,7 +6698,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4,
     "price": "$",
     "notes": "Tucson institution; famous for red chile beef burritos and handmade tortillas.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Seis Kitchen",
@@ -5236,8 +6707,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Northside & Foothills",
     "distance": 4,
     "price": "$$",
-    "notes": "Local favorite in Northside & Foothills serving classic mexican & sonoran options.",
-    "isLocal": true
+    "notes": "Vibrant Mexican eatery known for creative tacos and flavorful Sonoran-style cuisine. Always delicious.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "L&L Hawaiian Barbecue",
@@ -5245,8 +6717,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Northside & Foothills",
     "distance": 4,
     "price": "$",
-    "notes": "A great spot to enjoy delicious steakhouse & bbq in the Northside & Foothills area.",
-    "isLocal": true
+    "notes": "Authentic Hawaiian plate lunches, spam musubi, and delicious BBQ. A taste of the islands.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Dunkin'",
@@ -5254,8 +6727,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Southside & Heritage",
     "distance": 4,
     "price": "$",
-    "notes": "Popular neighborhood destination featuring fresh coffee & cafe specialties.",
-    "isLocal": false
+    "notes": "Grab-and-go coffee, delicious donuts, and breakfast sandwiches for a quick start.",
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Dao's Tai Pan's",
@@ -5264,7 +6738,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4,
     "price": "$$",
     "notes": "Local favorite in Northside & Foothills serving classic asian & sushi options.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Whataburger",
@@ -5272,8 +6747,29 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Westside & Downtown",
     "distance": 4,
     "price": "$",
+    "notes": "Texas-sized burgers, classic shakes, and a menu with unique, delicious fast-food favorites.",
+    "isLocal": false,
+    "enriched": true
+  },
+  {
+    "name": "Wienerschnitzel",
+    "cuisine": "Fast Food & Sandwiches",
+    "neighborhood": "Central & Midtown",
+    "distance": 4,
+    "price": "$",
     "notes": "Popular neighborhood destination featuring fresh fast food & sandwiches specialties.",
-    "isLocal": false
+    "isLocal": true,
+    "enriched": false
+  },
+  {
+    "name": "In-N-Out Burger",
+    "cuisine": "Fast Food & Sandwiches",
+    "neighborhood": "Southside & Heritage",
+    "distance": 4,
+    "price": "$",
+    "notes": "Popular neighborhood destination featuring fresh fast food & sandwiches specialties.",
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Burger King",
@@ -5281,17 +6777,19 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Eastside & Vail",
     "distance": 4,
     "price": "$",
-    "notes": "Popular neighborhood destination featuring fresh fast food & sandwiches specialties.",
-    "isLocal": false
+    "notes": "Home of the Whopper, offering flame-grilled burgers and classic fast-food staples.",
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Angie's Lobster",
     "cuisine": "Seafood",
     "neighborhood": "Eastside & Vail",
     "distance": 4,
-    "price": "$",
-    "notes": "Local favorite in Eastside & Vail serving classic seafood options.",
-    "isLocal": true
+    "price": "$$",
+    "notes": "Quick-service spot for fresh, delicious lobster rolls and seafood-focused casual bites.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "McDonald's",
@@ -5299,17 +6797,39 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Southside & Heritage",
     "distance": 4,
     "price": "$",
-    "notes": "Local favorite in Southside & Heritage serving classic fast food & sandwiches options.",
-    "isLocal": false
+    "notes": "Global fast-food icon serving burgers, fries, and breakfast favorites quickly and affordably.",
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Great Wall China",
     "cuisine": "Asian & Sushi",
     "neighborhood": "Southside & Heritage",
     "distance": 4,
-    "price": "$$",
-    "notes": "Local favorite in Southside & Heritage serving classic asian & sushi options.",
-    "isLocal": true
+    "price": "$",
+    "notes": "Reliable spot for classic Chinese-American dishes, known for generous portions and consistent flavors.",
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Texas Roadhouse",
+    "cuisine": "Boba Tea & Beverages",
+    "neighborhood": "Eastside & Vail",
+    "distance": 4,
+    "price": "$",
+    "notes": "Popular neighborhood destination featuring fresh boba tea & beverages specialties.",
+    "isLocal": false,
+    "enriched": false
+  },
+  {
+    "name": "The Cork Tucson",
+    "cuisine": "Boba Tea & Beverages",
+    "neighborhood": "Eastside & Vail",
+    "distance": 4,
+    "price": "$",
+    "notes": "Popular neighborhood destination featuring fresh boba tea & beverages specialties.",
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Costa Vida",
@@ -5318,7 +6838,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4,
     "price": "$$",
     "notes": "Popular neighborhood destination featuring fresh mexican & sonoran specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Sushi Zona",
@@ -5327,7 +6848,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4,
     "price": "$$",
     "notes": "A great spot to enjoy delicious asian & sushi in the Northside & Foothills area.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Time Market",
@@ -5336,7 +6858,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4.1,
     "price": "$",
     "notes": "Legacy organic market; serves artisan wood-fired pizza, freshly baked breads, and curated espresso drinks.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Oriental Express",
@@ -5345,7 +6868,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4.1,
     "price": "$",
     "notes": "Diverse international flavors; student favorite for quick, affordable Chinese-American stir-fries and noodles.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Snakes & Lattes",
@@ -5354,7 +6878,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4.1,
     "price": "$$",
     "notes": "Board game library with full food and bar; serves loaded fries, casual sandwiches, and themed cocktails.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Pelio Grill",
@@ -5363,7 +6888,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4.1,
     "price": "$$",
     "notes": "Traditional Greek platters; features fresh chicken souvlaki, Greek salads, and tzatziki dips.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "IHOP (Broadway)",
@@ -5372,7 +6898,38 @@ export const restaurants: Restaurant[] = [
     "distance": 4.1,
     "price": "$$",
     "notes": "24-hour service at Pantano intersection; famous for stacked pancake plates and heavy omelettes.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
+  },
+  {
+    "name": "Denny's",
+    "cuisine": "Breakfast & Diner",
+    "neighborhood": "Eastside & Vail",
+    "distance": 4.1,
+    "price": "$",
+    "notes": "The classic American diner, open 24/7 for Grand Slams, burgers, and comfort food.",
+    "isLocal": false,
+    "enriched": true
+  },
+  {
+    "name": "Zio Peppe",
+    "cuisine": "Italian & Pizza",
+    "neighborhood": "Eastside & Vail",
+    "distance": 4.1,
+    "price": "$$",
+    "notes": "A great spot to enjoy delicious italian & pizza in the Eastside & Vail area.",
+    "isLocal": true,
+    "enriched": false
+  },
+  {
+    "name": "MOD Pizza",
+    "cuisine": "Italian & Pizza",
+    "neighborhood": "Eastside & Vail",
+    "distance": 4.1,
+    "price": "$",
+    "notes": "Popular neighborhood destination featuring fresh italian & pizza specialties.",
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Rudy's Country Store and Bar-B-Q",
@@ -5381,7 +6938,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4.1,
     "price": "$$",
     "notes": "Popular neighborhood destination featuring fresh steakhouse & bbq specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "First Watch (Campbell)",
@@ -5390,7 +6948,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4.2,
     "price": "$$",
     "notes": "Modernized morning dining hub near University district; elevated pancakes and breakfast skillets.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "The Saddle",
@@ -5399,7 +6958,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4.2,
     "price": "$",
     "notes": "\"Only country dive bar\" on University Blvd; serves cold beer and standard pub grub.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "The Blind Pig",
@@ -5408,7 +6968,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4.2,
     "price": "$$",
     "notes": "Premiere BBQ and Happy Hour food hub; serves smoked pulled pork, ribs, and loaded nachos.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Bacio Italiano",
@@ -5417,7 +6978,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4.2,
     "price": "$$",
     "notes": "Neapolitan-NY style; approachable Italian fare including brick-oven pizzas and hearty pasta bowls.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Baja Cafe",
@@ -5426,7 +6988,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4.2,
     "price": "$$",
     "notes": "Nationally ranked; Eggs Benedict specialists offering creative toppings like the Blueberry Pancake.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "La Frida Mexican",
@@ -5435,7 +6998,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4.2,
     "price": "$$$",
     "notes": "37-ingredient mole; upscale family-owned serving sophisticated regional Mexican and fresh seafood.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "El Corral",
@@ -5444,7 +7008,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4.2,
     "price": "$$$",
     "notes": "Historic 1926 ranch house; famous for thick-cut prime rib, tamale pie, and Adobe Mud Pie.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Domino's",
@@ -5453,25 +7018,28 @@ export const restaurants: Restaurant[] = [
     "distance": 4.2,
     "price": "$",
     "notes": "Local favorite in Northside & Foothills serving classic italian & pizza options.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": false
   },
   {
     "name": "Tony's New York Style Italian Deli",
-    "cuisine": "American & Comfort",
+    "cuisine": "Fast Food & Sandwiches",
     "neighborhood": "Eastside & Vail",
     "distance": 4.2,
     "price": "$$",
-    "notes": "A great spot to enjoy delicious american & comfort in the Eastside & Vail area.",
-    "isLocal": true
+    "notes": "Authentic Italian deli sandwiches, a taste of the Big Apple's classic comfort.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Prep & Pastry",
     "cuisine": "Coffee & Cafe",
     "neighborhood": "Eastside & Vail",
     "distance": 4.2,
-    "price": "$",
-    "notes": "Local favorite in Eastside & Vail serving classic coffee & cafe options.",
-    "isLocal": true
+    "price": "$$",
+    "notes": "Upscale brunch destination with delectable pastries, creative dishes, and artisan coffee.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Red Captain Coffee Company",
@@ -5479,8 +7047,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Northside & Foothills",
     "distance": 4.2,
     "price": "$",
-    "notes": "Local favorite in Northside & Foothills serving classic coffee & cafe options.",
-    "isLocal": true
+    "notes": "Local roaster offering exceptional coffee blends, specialty drinks, and a cozy spot to relax.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "NYPD New York Pizza Department",
@@ -5488,8 +7057,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Eastside & Vail",
     "distance": 4.2,
     "price": "$$",
-    "notes": "Popular neighborhood destination featuring fresh italian & pizza specialties.",
-    "isLocal": true
+    "notes": "Authentic New York style pizza slices and whole pies, boasting classic chewy crust.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Starbucks",
@@ -5497,17 +7067,19 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Eastside & Vail",
     "distance": 4.2,
     "price": "$",
-    "notes": "A great spot to enjoy delicious coffee & cafe in the Eastside & Vail area.",
-    "isLocal": false
+    "notes": "Reliable spot for favorite coffee drinks, pastries, and a quick breakfast grab.",
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Pinnacle Peak Steakhouse",
-    "cuisine": "Boba Tea & Beverages",
+    "cuisine": "Steakhouse & BBQ",
     "neighborhood": "Eastside & Vail",
     "distance": 4.2,
-    "price": "$",
-    "notes": "A great spot to enjoy delicious boba tea & beverages in the Eastside & Vail area.",
-    "isLocal": true
+    "price": "$$$",
+    "notes": "Iconic Old West steakhouse known for mesquite-grilled steaks and lively, casual dining experience.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Dakota",
@@ -5515,8 +7087,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Eastside & Vail",
     "distance": 4.2,
     "price": "$",
-    "notes": "Popular neighborhood destination featuring fresh fast food & sandwiches specialties.",
-    "isLocal": true
+    "notes": "Quick and convenient spot for classic American fast food, perfect for a speedy lunch.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Sakura",
@@ -5524,17 +7097,19 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Eastside & Vail",
     "distance": 4.2,
     "price": "$$",
-    "notes": "Local favorite in Eastside & Vail serving classic asian & sushi options.",
-    "isLocal": true
+    "notes": "Enjoy fresh sushi rolls and savory Japanese dishes in a relaxed, family-friendly setting.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Panda One",
     "cuisine": "Asian & Sushi",
     "neighborhood": "Northside & Foothills",
     "distance": 4.2,
-    "price": "$$",
-    "notes": "Popular neighborhood destination featuring fresh asian & sushi specialties.",
-    "isLocal": true
+    "price": "$",
+    "notes": "Local spot for classic Chinese take-out dishes, including flavorful stir-fries and satisfying noodle options.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "KFC",
@@ -5543,7 +7118,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4.2,
     "price": "$",
     "notes": "Popular neighborhood destination featuring fresh fast food & sandwiches specialties.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": false
   },
   {
     "name": "Cowpony Bar",
@@ -5552,7 +7128,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4.2,
     "price": "$$",
     "notes": "A great spot to enjoy delicious bar, pub & brewery in the Eastside & Vail area.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Seis Kitchen",
@@ -5561,7 +7138,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4.2,
     "price": "$$",
     "notes": "Local favorite in Eastside & Vail serving classic mexican & sonoran options.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Angry Crab & BBQ",
@@ -5570,16 +7148,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4.2,
     "price": "$$",
     "notes": "Local favorite in Westside & Downtown serving classic steakhouse & bbq options.",
-    "isLocal": true
-  },
-  {
-    "name": "Union Public House",
-    "cuisine": "Bar, Pub & Brewery",
-    "neighborhood": "Northside & Foothills",
-    "distance": 4.3,
-    "price": "$$",
-    "notes": "Scratch-made comfort; 30 beers on tap serving elevated pub burgers and loaded mac and cheese.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Sullivan's",
@@ -5588,7 +7158,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4.3,
     "price": "$$$",
     "notes": "Near St Philip's; hand-cut steaks, live music, and classic steakhouse sides like creamed spinach.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Reforma",
@@ -5597,7 +7168,18 @@ export const restaurants: Restaurant[] = [
     "distance": 4.3,
     "price": "$$",
     "notes": "Arizona's largest tequila selection; house salsas, upscale tacos, and sophisticated Mexican plates.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Union Public House",
+    "cuisine": "Bar, Pub & Brewery",
+    "neighborhood": "Northside & Foothills",
+    "distance": 4.3,
+    "price": "$$",
+    "notes": "Scratch-made comfort; 30 beers on tap serving elevated pub burgers and loaded mac and cheese.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Proof Artisanal",
@@ -5606,7 +7188,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4.3,
     "price": "$$",
     "notes": "Italian double-zero flour; outdoor dining serving perfectly blistered Neapolitan-style pizzas.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Ren Coffeehouse",
@@ -5615,7 +7198,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4.3,
     "price": "$",
     "notes": "Locally roasted; scratch-made pastries, rich espresso, and light, healthy cafe breakfast options.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "AZ Wine Collective",
@@ -5624,7 +7208,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4.3,
     "price": "$$",
     "notes": "Curated Arizona wines and local draft beers; serves artisan cheese boards and light snacks.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Pure Love Juice",
@@ -5633,7 +7218,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4.3,
     "price": "$",
     "notes": "Holistic healing through raw nutrients; serves organic cold-pressed juices and acai bowls.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Ren Bakery",
@@ -5642,7 +7228,18 @@ export const restaurants: Restaurant[] = [
     "distance": 4.3,
     "price": "$",
     "notes": "Specialized second location for Ren brand; offers flaky croissants, fresh bread, and lattes.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Taco Bell",
+    "cuisine": "Mexican & Sonoran",
+    "neighborhood": "Eastside & Vail",
+    "distance": 4.3,
+    "price": "$",
+    "notes": "Popular neighborhood destination featuring fresh mexican & sonoran specialties.",
+    "isLocal": false,
+    "enriched": false
   },
   {
     "name": "eegee",
@@ -5650,8 +7247,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Northside & Foothills",
     "distance": 4.3,
     "price": "$",
-    "notes": "Local favorite in Northside & Foothills serving classic fast food & sandwiches options.",
-    "isLocal": true
+    "notes": "Tucson's beloved spot for unique eegee's drinks, delicious subs, and crinkle-cut fries.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Arby's",
@@ -5659,8 +7257,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Northside & Foothills",
     "distance": 4.3,
     "price": "$",
-    "notes": "Local favorite in Northside & Foothills serving classic fast food & sandwiches options.",
-    "isLocal": false
+    "notes": "Fast-food chain famous for its slow-roasted beef sandwiches, curly fries, and unique milkshakes.",
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Filiberto's",
@@ -5668,8 +7267,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Northside & Foothills",
     "distance": 4.3,
     "price": "$",
-    "notes": "Popular neighborhood destination featuring fresh mexican & sonoran specialties.",
-    "isLocal": true
+    "notes": "Casual, late-night Mexican spot serving generous portions of Sonoran-style burritos and tacos.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Applebee's",
@@ -5677,17 +7277,19 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Northside & Foothills",
     "distance": 4.3,
     "price": "$$",
-    "notes": "A great spot to enjoy delicious american & comfort in the Northside & Foothills area.",
-    "isLocal": false
+    "notes": "Neighborhood grill and bar offering classic American comfort food, steaks, and casual dining.",
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Los Betos",
     "cuisine": "Mexican & Sonoran",
     "neighborhood": "Northside & Foothills",
     "distance": 4.3,
-    "price": "$$",
-    "notes": "Local favorite in Northside & Foothills serving classic mexican & sonoran options.",
-    "isLocal": true
+    "price": "$",
+    "notes": "Drive-thru favorite for generous portions of authentic Sonoran Mexican food, open late.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Waffle House",
@@ -5696,7 +7298,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4.3,
     "price": "$$",
     "notes": "Popular neighborhood destination featuring fresh breakfast & diner specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Panda Express",
@@ -5705,7 +7308,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4.3,
     "price": "$",
     "notes": "Popular neighborhood destination featuring fresh asian & sushi specialties.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": false
   },
   {
     "name": "Jack in the Box",
@@ -5714,7 +7318,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4.3,
     "price": "$",
     "notes": "A great spot to enjoy delicious fast food & sandwiches in the Southside & Heritage area.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": false
   },
   {
     "name": "Scented Leaf Tea House - Tanque Verde",
@@ -5723,7 +7328,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4.3,
     "price": "$",
     "notes": "Popular neighborhood destination featuring fresh boba tea & beverages specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Chicken nuevo",
@@ -5732,16 +7338,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4.3,
     "price": "$$",
     "notes": "A great spot to enjoy delicious mexican & sonoran in the Westside & Downtown area.",
-    "isLocal": true
-  },
-  {
-    "name": "Zinburger",
-    "cuisine": "Fast Food & Sandwiches",
-    "neighborhood": "Northside & Foothills",
-    "distance": 4.4,
-    "price": "$$",
-    "notes": "Gourmet burgers and milkshakes; serves Kobe beef patties, truffle fries, and decadent desserts.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Corbett's",
@@ -5750,7 +7348,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4.4,
     "price": "$$",
     "notes": "Massive complex; pickleball, music, and food; features gourmet burgers, fresh salads, and craft cocktails.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Villa Peru",
@@ -5759,7 +7358,18 @@ export const restaurants: Restaurant[] = [
     "distance": 4.4,
     "price": "$$$",
     "notes": "Authentic Oaxacan and coastal influences; serves Lomo Saltado, fresh ceviche, and Pollo A La Brasa.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Zinburger",
+    "cuisine": "Fast Food & Sandwiches",
+    "neighborhood": "Northside & Foothills",
+    "distance": 4.4,
+    "price": "$$",
+    "notes": "Gourmet burgers and milkshakes; serves Kobe beef patties, truffle fries, and decadent desserts.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Seis Kitchen (JV)",
@@ -5768,7 +7378,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4.4,
     "price": "$$",
     "notes": "Award-winning street food from 6 regions; serves massive burritos, adobo steak, and house-made tortillas.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Sauce (JV)",
@@ -5777,7 +7388,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4.4,
     "price": "$$",
     "notes": "Hand-stretched pizzas and pasta bowls; serves fast-casual thin-crust pies and fresh chopped salads.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Beyond Bread (JV)",
@@ -5786,7 +7398,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4.4,
     "price": "$$",
     "notes": "Local legacy bakery; extensive sandwich menu featuring artisan breads and thick chocolate chip cookies.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Teaspoon",
@@ -5795,7 +7408,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4.4,
     "price": "$$",
     "notes": "Contemporary breakfast and specialty coffee; serves scratch-made cafe items and loaded avocado toast.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Bubbe's Bagels",
@@ -5804,7 +7418,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4.4,
     "price": "$",
     "notes": "Traditional boiled and baked bagels; serves authentic Jewish deli-style bagel sandwiches and lox.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Starbucks",
@@ -5812,17 +7427,19 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Northside & Foothills",
     "distance": 4.4,
     "price": "$",
-    "notes": "A great spot to enjoy delicious coffee & cafe in the Northside & Foothills area.",
-    "isLocal": false
+    "notes": "Popular coffeehouse chain for classic espresso drinks, pastries, and convenient on-the-go refreshments.",
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Pizza Hut",
     "cuisine": "Italian & Pizza",
     "neighborhood": "Northside & Foothills",
     "distance": 4.4,
-    "price": "$$",
-    "notes": "Popular neighborhood destination featuring fresh italian & pizza specialties.",
-    "isLocal": false
+    "price": "$",
+    "notes": "Popular chain for classic pan pizzas, breadsticks, and family-friendly dining options.",
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Mike's Pizza",
@@ -5830,8 +7447,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Eastside & Vail",
     "distance": 4.4,
     "price": "$$",
-    "notes": "A great spot to enjoy delicious italian & pizza in the Eastside & Vail area.",
-    "isLocal": true
+    "notes": "Local favorite for classic, cheesy pizzas and hearty Italian American comfort food.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Jamba",
@@ -5839,17 +7457,29 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Eastside & Vail",
     "distance": 4.4,
     "price": "$",
-    "notes": "A great spot to enjoy delicious boba tea & beverages in the Eastside & Vail area.",
-    "isLocal": true
+    "notes": "Refreshing smoothies, juices, and bowls perfect for a healthy, quick, energizing boost.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Samurai Japanese Restaurant",
-    "cuisine": "American & Comfort",
+    "cuisine": "Asian & Sushi",
     "neighborhood": "Northside & Foothills",
     "distance": 4.4,
     "price": "$$",
-    "notes": "Local favorite in Northside & Foothills serving classic american & comfort options.",
-    "isLocal": true
+    "notes": "Traditional Japanese restaurant, offering fresh sushi, teppanyaki grills, and a vibrant dining experience.",
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "McDonald's",
+    "cuisine": "Fast Food & Sandwiches",
+    "neighborhood": "Eastside & Vail",
+    "distance": 4.4,
+    "price": "$",
+    "notes": "Local favorite in Eastside & Vail serving classic fast food & sandwiches options.",
+    "isLocal": false,
+    "enriched": false
   },
   {
     "name": "Wendy's",
@@ -5858,7 +7488,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4.4,
     "price": "$",
     "notes": "A great spot to enjoy delicious fast food & sandwiches in the Eastside & Vail area.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": false
   },
   {
     "name": "Chipotle",
@@ -5867,70 +7498,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4.4,
     "price": "$",
     "notes": "Popular neighborhood destination featuring fresh mexican & sonoran specialties.",
-    "isLocal": false
-  },
-  {
-    "name": "Opa's Grill",
-    "cuisine": "Mediterranean & Global",
-    "neighborhood": "Urban Core",
-    "distance": 4.5,
-    "price": "$$",
-    "notes": "Authentic Greek-American; best spit-roasted gyros, fresh tzatziki, and warm pita in the urban center.",
-    "isLocal": true
-  },
-  {
-    "name": "Che's Lounge",
-    "cuisine": "Bar, Pub & Brewery",
-    "neighborhood": "Urban Core",
-    "distance": 4.5,
-    "price": "$",
-    "notes": "Iconic Fourth Avenue dive bar; offers a legendary jukebox, strong drinks, and a vibrant local art scene.",
-    "isLocal": true
-  },
-  {
-    "name": "Lemongrass",
-    "cuisine": "Asian & Sushi",
-    "neighborhood": "Urban Core",
-    "distance": 4.5,
-    "price": "$$",
-    "notes": "Eastern Asian health food; vibrant flavors featuring fresh curries, vegetable stir-fries, and fragrant rice.",
-    "isLocal": true
-  },
-  {
-    "name": "La Yaquesita",
-    "cuisine": "Mexican & Sonoran",
-    "neighborhood": "Urban Core",
-    "distance": 4.5,
-    "price": "$",
-    "notes": "Authentic regional Mexican; daily specials featuring the massive Yaqueburro loaded with birria and cheese.",
-    "isLocal": true
-  },
-  {
-    "name": "Exo Roast Co.",
-    "cuisine": "Coffee & Cafe",
-    "neighborhood": "Urban Core",
-    "distance": 4.5,
-    "price": "$",
-    "notes": "Artisan coffee and mezcal bar dual concept; features chiltepín cold brew, mesquite lattes, and Bar Crisol.",
-    "isLocal": true
-  },
-  {
-    "name": "Tap & Bottle",
-    "cuisine": "Bar, Pub & Brewery",
-    "neighborhood": "Urban Core",
-    "distance": 4.5,
-    "price": "$$",
-    "notes": "Premier craft beer bottle shop and tasting room; offers an extensive rotating draft list, local wines, and food truck pairings.",
-    "isLocal": true
-  },
-  {
-    "name": "La Chaiteria",
-    "cuisine": "Healthy, Vegan & Plant-Based",
-    "neighborhood": "Westside & Downtown",
-    "distance": 4.5,
-    "price": "$$",
-    "notes": "Plant-based Latin kitchen by the chef of Tumerico; serves vegan jackfruit tacos, healthy bowls, and fresh lattes.",
-    "isLocal": true
+    "isLocal": false,
+    "enriched": false
   },
   {
     "name": "BOCA Tacos y Tequila",
@@ -5939,7 +7508,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4.5,
     "price": "$$",
     "notes": "Chef Maria Mazon; inventive daily salsas like mango habanero; famous for the Macho Taco and Puerco Verde.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Bawker Bawker Cider",
@@ -5948,7 +7518,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4.5,
     "price": "$$",
     "notes": "Unfiltered ciders; no-TV conversation policy; serves rotating seasonal fruit ciders in a relaxed environment.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Ermanos Bar",
@@ -5957,7 +7528,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4.5,
     "price": "$$",
     "notes": "Premier gastropub; craft beers and gourmet dishes including elevated mac and cheese and artisan sandwiches.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Cafe Passe",
@@ -5966,7 +7538,28 @@ export const restaurants: Restaurant[] = [
     "distance": 4.5,
     "price": "$$",
     "notes": "European-style cafe with quirky hidden patio; famous for pesto bagels, strong Americanos, and light pastries.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Opa's Grill",
+    "cuisine": "Mediterranean & Global",
+    "neighborhood": "Urban Core",
+    "distance": 4.5,
+    "price": "$$",
+    "notes": "Authentic Greek-American; best spit-roasted gyros, fresh tzatziki, and warm pita in the urban center.",
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Lemongrass",
+    "cuisine": "Asian & Sushi",
+    "neighborhood": "Urban Core",
+    "distance": 4.5,
+    "price": "$$",
+    "notes": "Eastern Asian health food; vibrant flavors featuring fresh curries, vegetable stir-fries, and fragrant rice.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Black Iris Cafe",
@@ -5975,7 +7568,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4.5,
     "price": "$$",
     "notes": "Hidden gem with local flavors; artistic vibe serving specialized coffee blends and house-baked vegan treats.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "4th Avenue Deli",
@@ -5984,7 +7578,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4.5,
     "price": "$",
     "notes": "Locally owned; hearty meatball subs, Tucson Tuna sandwiches, Chicago-style hot dogs, and vegan options.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Coop by Cowpig",
@@ -5993,7 +7588,18 @@ export const restaurants: Restaurant[] = [
     "distance": 4.5,
     "price": "$$",
     "notes": "Elevated chicken concepts; modern service featuring crispy chicken sandwiches and loaded seasoned fries.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "La Yaquesita",
+    "cuisine": "Mexican & Sonoran",
+    "neighborhood": "Urban Core",
+    "distance": 4.5,
+    "price": "$",
+    "notes": "Authentic regional Mexican; daily specials featuring the massive Yaqueburro loaded with birria and cheese.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Quesos on 4th",
@@ -6002,7 +7608,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4.5,
     "price": "$$",
     "notes": "Late-night hub (until 2:30am Thu-Sat); serves heavy cheese-focused bar bites and melted comfort food.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Zyka Twist",
@@ -6011,7 +7618,18 @@ export const restaurants: Restaurant[] = [
     "distance": 4.5,
     "price": "$$",
     "notes": "Innovative Indian cuisine on the avenue; serves rich butter chicken, garlic naan, and vegetarian curries.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Exo Roast Co.",
+    "cuisine": "Coffee & Cafe",
+    "neighborhood": "Urban Core",
+    "distance": 4.5,
+    "price": "$",
+    "notes": "Artisan coffee and mezcal bar dual concept; features chiltepín cold brew, mesquite lattes, and Bar Crisol.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Presta Coffee",
@@ -6020,7 +7638,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4.5,
     "price": "$",
     "notes": "High-quality local roaster specialty shop; serves meticulous pour-overs and seasonal autumn espresso drinks.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Surly Wench Pub",
@@ -6029,7 +7648,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4.5,
     "price": "$$",
     "notes": "Alternative bar with a solid grill menu; famous for dark ambiance, strong drinks, and heavy pub burgers.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "The Hut Tucson",
@@ -6038,7 +7658,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4.5,
     "price": "$$",
     "notes": "Moai-themed outdoor venue; late night hours serving tropical drinks and casual bar snacks.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Sky Bar",
@@ -6047,7 +7668,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4.5,
     "price": "$$",
     "notes": "Astronomy-themed bar with telescope nights; serves solar-powered pizza imported from Brooklyn Pizza Co.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "REVEL",
@@ -6056,7 +7678,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4.5,
     "price": "$$",
     "notes": "Sophisticated wine and cheese board lounge; hosts specialized wine dinners with expert chef pairings.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Crooked Tooth",
@@ -6065,7 +7688,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4.5,
     "price": "$$",
     "notes": "\"Sonoran Sours\" and wood-fired pizza events; known for mushroom beer releases and creative brewing.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "daddyburger",
@@ -6074,7 +7698,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4.5,
     "price": "$",
     "notes": "Inside The Boxyard; premium smash burgers with crispy edges, special sauces, and golden fries.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Nhu Lan Vietnamese",
@@ -6083,7 +7708,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4.5,
     "price": "$",
     "notes": "Inside The Boxyard; fresh crusty banh mi sandwiches, chilled spring rolls, and light vermicelli.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Los Perches",
@@ -6092,7 +7718,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4.5,
     "price": "$",
     "notes": "Inside The Boxyard; authentic street-style tacos, rich birria, and fresh house-made salsas.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "snack.",
@@ -6101,7 +7728,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4.5,
     "price": "$",
     "notes": "Inside The Boxyard; quick artisanal snacks, unique bar bites, and shareable appetizer plates.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "St. Mary's Mexican Food",
@@ -6110,7 +7738,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4.5,
     "price": "$",
     "notes": "Cheap but excellent traditional Mexican food; features massive combination plates and fresh tortillas.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "La Indita",
@@ -6119,7 +7748,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4.5,
     "price": "$",
     "notes": "Authentic indigenous Mexican; famous for popover fry bread topped with beans, beef, and red chili.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Cariño",
@@ -6128,7 +7758,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4.5,
     "price": "$",
     "notes": "Highly rated work-friendly cafe; offers quality roasts, comfortable seating, and casual lunch bites.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Subway (Congress)",
@@ -6137,7 +7768,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4.5,
     "price": "$",
     "notes": "Quick service sandwiches; standard customizable submarine sandwiches and freshly baked cookies.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Filiberto's (Bway)",
@@ -6146,7 +7778,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4.5,
     "price": "$",
     "notes": "24-hour; near Pantano intersection; serves heavy breakfast burritos and classic Sonoran fast food.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Quisty's Sandwiches",
@@ -6155,7 +7788,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4.5,
     "price": "$$",
     "notes": "Contemporary shop; famous for the Hot Honey Turkey and premium, artisan deli constructions.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Pizza Luna",
@@ -6164,7 +7798,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4.5,
     "price": "$$",
     "notes": "Craft pizza with high-quality ingredients; serves perfectly blistered crusts and fresh mozzarella.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Solid Grindz",
@@ -6173,7 +7808,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4.5,
     "price": "$",
     "notes": "Authentic island plates and comfort food; serves rich Hawaiian macaroni salad and kalua pork.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Sakura Teppan",
@@ -6182,7 +7818,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4.5,
     "price": "$$$",
     "notes": "Hibachi grill and fresh seafood; features entertaining tabletop cooking of steak, shrimp, and fried rice.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Taco Bell (22nd St)",
@@ -6191,7 +7828,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4.5,
     "price": "$",
     "notes": "Drive-thru Mexican inspired; serves Crunchwrap Supremes, bean burritos, and late-night snacks.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Papa Johns (22nd St)",
@@ -6200,7 +7838,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4.5,
     "price": "$",
     "notes": "Pizza carryout and delivery; features signature garlic dipping sauce and fresh-dough pies.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Arby's (22nd St)",
@@ -6209,7 +7848,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4.5,
     "price": "$",
     "notes": "Sandwich fast food; serves towering roast beef sandwiches, curly fries, and Jamocha shakes.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Dutch Bros (22nd St)",
@@ -6218,7 +7858,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4.5,
     "price": "$",
     "notes": "High energy coffee drive-thru; serves ultra-sweet blended coffees and Rebel energy drinks.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Popeyes (22nd St)",
@@ -6227,7 +7868,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4.5,
     "price": "$",
     "notes": "Louisiana style chicken; serves spicy fried chicken sandwiches, red beans, and rice.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Scordato's Pizzeria",
@@ -6236,7 +7878,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4.5,
     "price": "$$",
     "notes": "Artisan pizza; known for unique crusts and high-quality toppings like house-made sausage.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "IHOP (Oracle)",
@@ -6245,7 +7888,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4.5,
     "price": "$$",
     "notes": "24-hour breakfast chain; serves Rooty Tooty Fresh 'N Fruity pancakes and stuffed French toast.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Little Caesar's (Or.)",
@@ -6254,16 +7898,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4.5,
     "price": "$",
     "notes": "Hot-N-Ready pizza; serves pepperoni pies, Crazy Bread, and deep dish options.",
-    "isLocal": false
-  },
-  {
-    "name": "Arby's (Oracle)",
-    "cuisine": "Fast Food & Sandwiches",
-    "neighborhood": "Northside & Foothills",
-    "distance": 4.5,
-    "price": "$",
-    "notes": "Roast beef sandwiches; serves curly fries, beef 'n cheddar, and jamocha shakes.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Dunkin' (Oracle)",
@@ -6272,7 +7908,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4.5,
     "price": "$",
     "notes": "Donuts and coffee; serves glazed donuts, iced coffee, and breakfast sandwiches.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "KFC (Oracle)",
@@ -6281,7 +7918,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4.5,
     "price": "$",
     "notes": "Fried chicken buckets; serves original recipe chicken, mashed potatoes, and biscuits.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Teresa's Mosaic Cafe",
@@ -6290,7 +7928,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4.5,
     "price": "$$",
     "notes": "Huevos rancheros featured on Food Network; serves authentic Sonoran breakfast and lunch.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Prep & Pastry (Campbell)",
@@ -6299,7 +7938,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4.5,
     "price": "$$",
     "notes": "Modern brunch; serves cronuts, cast-iron duck confit, and mimosas.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Blue Willow",
@@ -6308,7 +7948,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4.5,
     "price": "$$",
     "notes": "Historic restaurant and gift shop; serves omelettes, salads, and patio dining.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Kingfisher",
@@ -6317,7 +7958,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4.5,
     "price": "$$$",
     "notes": "Classic American grill; famous for fresh oysters, seafood dishes, and late-night menu.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Dante's Fire",
@@ -6326,7 +7968,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4.5,
     "price": "$$$",
     "notes": "Chef-driven gastropub; serves foie gras, craft cocktails, and late-night happy hour.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Culinary Dropout",
@@ -6335,7 +7978,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4.5,
     "price": "$$",
     "notes": "Gastropub and event space; serves pretzel bites, fried chicken, and live music.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Postino (Campbell)",
@@ -6344,7 +7988,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4.5,
     "price": "$$",
     "notes": "Wine cafe; serves bruschetta boards, paninis, and approachable wines.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Flower Child",
@@ -6353,7 +7998,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4.5,
     "price": "$$",
     "notes": "Healthy fast-casual; serves grain bowls, wraps, and organic salads.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Zinburger",
@@ -6362,7 +8008,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4.5,
     "price": "$$",
     "notes": "Gourmet burger bar; serves truffle fries, shakes, and wine pairings.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Blanco Tacos",
@@ -6371,7 +8018,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4.5,
     "price": "$$",
     "notes": "Modern Mexican; serves street tacos, cheese crisps, and tequila flights.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "North Italia",
@@ -6380,7 +8028,18 @@ export const restaurants: Restaurant[] = [
     "distance": 4.5,
     "price": "$$",
     "notes": "Modern Italian; serves handmade pasta, pizza, and craft cocktails.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
+  },
+  {
+    "name": "Tap & Bottle",
+    "cuisine": "Bar, Pub & Brewery",
+    "neighborhood": "Urban Core",
+    "distance": 4.5,
+    "price": "$$",
+    "notes": "Premier craft beer bottle shop and tasting room; offers an extensive rotating draft list, local wines, and food truck pairings.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "The Dutch Eatery & Refuge",
@@ -6389,7 +8048,18 @@ export const restaurants: Restaurant[] = [
     "distance": 4.5,
     "price": "$$",
     "notes": "European-inspired cafe; serves modern Dutch classics, savory breakfast hashes, and craft cocktails.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Che's Lounge",
+    "cuisine": "Bar, Pub & Brewery",
+    "neighborhood": "Urban Core",
+    "distance": 4.5,
+    "price": "$",
+    "notes": "Iconic Fourth Avenue dive bar; offers a legendary jukebox, strong drinks, and a vibrant local art scene.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Portal Cocktails",
@@ -6398,7 +8068,18 @@ export const restaurants: Restaurant[] = [
     "distance": 4.5,
     "price": "$$",
     "notes": "Immersive cosmic-themed speakeasy; serves expertly crafted artisan cocktails, rare spirits, and moody ambiance.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "La Chaiteria",
+    "cuisine": "Healthy, Vegan & Plant-Based",
+    "neighborhood": "Westside & Downtown",
+    "distance": 4.5,
+    "price": "$$",
+    "notes": "Plant-based Latin kitchen by the chef of Tumerico; serves vegan jackfruit tacos, healthy bowls, and fresh lattes.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "The B Line",
@@ -6407,16 +8088,18 @@ export const restaurants: Restaurant[] = [
     "distance": 4.5,
     "price": "$$",
     "notes": "Casual Fourth Avenue bistro; serves hearty pastas, fresh salads, savory burritos, and a massive dessert case.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Cappy's Breakfast Cafe",
-    "cuisine": "Coffee & Cafe",
+    "cuisine": "Breakfast & Diner",
     "neighborhood": "Westside & Downtown",
     "distance": 4.5,
-    "price": "$",
-    "notes": "Popular neighborhood destination featuring fresh coffee & cafe specialties.",
-    "isLocal": true
+    "price": "$$",
+    "notes": "Classic neighborhood breakfast spot with generous portions and friendly service. Delicious morning staples.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Qdoba",
@@ -6425,25 +8108,28 @@ export const restaurants: Restaurant[] = [
     "distance": 4.5,
     "price": "$",
     "notes": "A great spot to enjoy delicious mexican & sonoran in the Southside & Heritage area.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "New Delhi Palace",
-    "cuisine": "Asian & Sushi",
+    "cuisine": "Mediterranean & Global",
     "neighborhood": "Eastside & Vail",
     "distance": 4.5,
     "price": "$$",
-    "notes": "Popular neighborhood destination featuring fresh asian & sushi specialties.",
-    "isLocal": true
+    "notes": "Flavorful Indian cuisine with traditional curries, tandoori specialties, and warm naan bread.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Peter Piper Pizza",
     "cuisine": "Italian & Pizza",
     "neighborhood": "Northside & Foothills",
     "distance": 4.5,
-    "price": "$$",
-    "notes": "Local favorite in Northside & Foothills serving classic italian & pizza options.",
-    "isLocal": true
+    "price": "$",
+    "notes": "Family-friendly pizza parlor with classic pies, arcade games, and fun for all ages.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Church's Chicken",
@@ -6452,7 +8138,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4.5,
     "price": "$",
     "notes": "Popular neighborhood destination featuring fresh fast food & sandwiches specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Burger King",
@@ -6461,7 +8148,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4.5,
     "price": "$",
     "notes": "Popular neighborhood destination featuring fresh fast food & sandwiches specialties.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": false
   },
   {
     "name": "Caruso's Italian",
@@ -6470,7 +8158,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4.6,
     "price": "$$",
     "notes": "Established 1938; old-school Italian patio serving heavy lasagna, eggplant parmesan, and rich marinara.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Martins Comida",
@@ -6479,7 +8168,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4.6,
     "price": "$$",
     "notes": "Culinary tradition; unique earthy mole, griddle-crisped burritos, and authentic plant-based Mexican options.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "The Buffet Bar",
@@ -6488,16 +8178,18 @@ export const restaurants: Restaurant[] = [
     "distance": 4.6,
     "price": "$",
     "notes": "Historic dive bar established in 1934; famous for cheap drinks, late-night hot dogs, and a legendary shuffleboard table.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "La Reyna Hot Dog",
-    "cuisine": "Fast Food & Sandwiches",
+    "cuisine": "Mexican & Sonoran",
     "neighborhood": "Westside & Downtown",
     "distance": 4.6,
     "price": "$",
-    "notes": "Popular neighborhood destination featuring fresh fast food & sandwiches specialties.",
-    "isLocal": true
+    "notes": "Serves up classic Sonoran hot dogs and other quick, flavorful Mexican street food items.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Einstein Bros. Bagels",
@@ -6505,8 +8197,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Northside & Foothills",
     "distance": 4.6,
     "price": "$",
-    "notes": "Popular neighborhood destination featuring fresh fast food & sandwiches specialties.",
-    "isLocal": true
+    "notes": "Freshly baked bagels, delicious schmears, and breakfast sandwiches for a quick, satisfying start.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Sushi III",
@@ -6514,8 +8207,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Northside & Foothills",
     "distance": 4.6,
     "price": "$$",
-    "notes": "A great spot to enjoy delicious asian & sushi in the Northside & Foothills area.",
-    "isLocal": true
+    "notes": "Freshly prepared sushi rolls, savory Japanese entrees, and a serene dining atmosphere.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Whataburger",
@@ -6523,8 +8217,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Eastside & Vail",
     "distance": 4.6,
     "price": "$",
-    "notes": "Popular neighborhood destination featuring fresh fast food & sandwiches specialties.",
-    "isLocal": false
+    "notes": "Texas-sized burgers, classic shakes, and a menu with unique, delicious fast-food favorites.",
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "4 Seasons",
@@ -6533,16 +8228,18 @@ export const restaurants: Restaurant[] = [
     "distance": 4.6,
     "price": "$$",
     "notes": "Local favorite in Westside & Downtown serving classic asian & sushi options.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Del Taco",
-    "cuisine": "Mexican & Sonoran",
+    "cuisine": "Fast Food & Sandwiches",
     "neighborhood": "Westside & Downtown",
     "distance": 4.6,
     "price": "$",
-    "notes": "A great spot to enjoy delicious mexican & sonoran in the Westside & Downtown area.",
-    "isLocal": true
+    "notes": "Fast food blending Mexican and American favorites, famous for fresh ingredients.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Starbucks",
@@ -6551,7 +8248,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4.6,
     "price": "$",
     "notes": "A great spot to enjoy delicious coffee & cafe in the Southside & Heritage area.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": false
   },
   {
     "name": "Sushi Zuzu",
@@ -6560,7 +8258,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4.6,
     "price": "$$",
     "notes": "Local favorite in Westside & Downtown serving classic asian & sushi options.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "IBT's Bar & Food",
@@ -6569,7 +8268,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4.7,
     "price": "$$",
     "notes": "Historic LGBTQ+ bar with full kitchen; serves reliable late-night grill food and strong cocktails.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Mountain Mike's",
@@ -6577,8 +8277,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Northside & Foothills",
     "distance": 4.7,
     "price": "$$",
-    "notes": "Local favorite in Northside & Foothills serving classic italian & pizza options.",
-    "isLocal": true
+    "notes": "Family-friendly pizza joint known for its crispy crusts and mountain-sized topping options.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "MOD Pizza",
@@ -6586,17 +8287,19 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Northside & Foothills",
     "distance": 4.7,
     "price": "$",
-    "notes": "Popular neighborhood destination featuring fresh italian & pizza specialties.",
-    "isLocal": true
+    "notes": "Build-your-own pizzas with fresh ingredients, quick and customizable for everyone's taste.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Churrasco de Brazil",
-    "cuisine": "Boba Tea & Beverages",
+    "cuisine": "Steakhouse & BBQ",
     "neighborhood": "Northside & Foothills",
     "distance": 4.7,
-    "price": "$",
-    "notes": "Local favorite in Northside & Foothills serving classic boba tea & beverages options.",
-    "isLocal": true
+    "price": "$$$",
+    "notes": "Authentic Brazilian steakhouse experience with endless skewers of perfectly grilled meats and vibrant sides.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "BJ's",
@@ -6605,7 +8308,18 @@ export const restaurants: Restaurant[] = [
     "distance": 4.7,
     "price": "$$",
     "notes": "Local favorite in Northside & Foothills serving classic american & comfort options.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
+  },
+  {
+    "name": "Wendy's",
+    "cuisine": "Fast Food & Sandwiches",
+    "neighborhood": "Northside & Foothills",
+    "distance": 4.7,
+    "price": "$",
+    "notes": "A great spot to enjoy delicious fast food & sandwiches in the Northside & Foothills area.",
+    "isLocal": false,
+    "enriched": false
   },
   {
     "name": "Chipotle",
@@ -6613,8 +8327,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Northside & Foothills",
     "distance": 4.7,
     "price": "$",
-    "notes": "Popular neighborhood destination featuring fresh mexican & sonoran specialties.",
-    "isLocal": false
+    "notes": "Build-your-own burritos and bowls with fresh ingredients. A fast-casual favorite.",
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "The Cheesecake Factory",
@@ -6622,8 +8337,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Northside & Foothills",
     "distance": 4.7,
     "price": "$$",
-    "notes": "A great spot to enjoy delicious american & comfort in the Northside & Foothills area.",
-    "isLocal": false
+    "notes": "Expansive menu of American favorites, decadent cheesecakes, and generous portions in a lively atmosphere.",
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Jamba",
@@ -6631,17 +8347,19 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Northside & Foothills",
     "distance": 4.7,
     "price": "$",
-    "notes": "A great spot to enjoy delicious boba tea & beverages in the Northside & Foothills area.",
-    "isLocal": true
+    "notes": "Fresh fruit smoothies, vibrant juices, and healthy bowls for a refreshing and energetic boost.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "The Taco Spot",
     "cuisine": "Mexican & Sonoran",
     "neighborhood": "Northside & Foothills",
     "distance": 4.7,
-    "price": "$$",
-    "notes": "Popular neighborhood destination featuring fresh mexican & sonoran specialties.",
-    "isLocal": true
+    "price": "$",
+    "notes": "Casual spot for street-style tacos, loaded burritos, and authentic Mexican flavors.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Culver's",
@@ -6649,8 +8367,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Northside & Foothills",
     "distance": 4.7,
     "price": "$",
-    "notes": "Popular neighborhood destination featuring fresh fast food & sandwiches specialties.",
-    "isLocal": true
+    "notes": "Known for butterburgers, fresh frozen custard, and friendly service in a family-friendly atmosphere.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Coffee X Change",
@@ -6659,7 +8378,18 @@ export const restaurants: Restaurant[] = [
     "distance": 4.7,
     "price": "$",
     "notes": "A great spot to enjoy delicious coffee & cafe in the Eastside & Vail area.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
+  },
+  {
+    "name": "Tacos Apson",
+    "cuisine": "Mexican & Sonoran",
+    "neighborhood": "Southside & Heritage",
+    "distance": 4.7,
+    "price": "$$",
+    "notes": "A great spot to enjoy delicious mexican & sonoran in the Southside & Heritage area.",
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Charquita's Mexican Food",
@@ -6668,7 +8398,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4.7,
     "price": "$$",
     "notes": "Popular neighborhood destination featuring fresh mexican & sonoran specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Panda Express",
@@ -6677,43 +8408,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4.7,
     "price": "$",
     "notes": "Popular neighborhood destination featuring fresh asian & sushi specialties.",
-    "isLocal": false
-  },
-  {
-    "name": "1702",
-    "cuisine": "Italian & Pizza",
-    "neighborhood": "Central & University",
-    "distance": 4.8,
-    "price": "$$",
-    "notes": "Craft beer and pizza haven; serves massive New York-style slices, unique specialty pies, and dozens of beers on tap.",
-    "isLocal": true
-  },
-  {
-    "name": "Cup Cafe",
-    "cuisine": "American & Comfort",
-    "neighborhood": "Urban Core",
-    "distance": 4.8,
-    "price": "$$",
-    "notes": "Historic Hotel Congress fixture; famous for Cast Iron Baked Eggs, Mission Street tacos, and decadent desserts.",
-    "isLocal": true
-  },
-  {
-    "name": "Anello",
-    "cuisine": "Italian & Pizza",
-    "neighborhood": "Urban Core",
-    "distance": 4.8,
-    "price": "$$",
-    "notes": "Renowned sourdough pizza perfection; serves the Verde and Bianca pizzas alongside Almond Olive Oil Cake.",
-    "isLocal": true
-  },
-  {
-    "name": "Tiger's Tap Room",
-    "cuisine": "Bar, Pub & Brewery",
-    "neighborhood": "Urban Core",
-    "distance": 4.8,
-    "price": "$",
-    "notes": "Historic Tap Room attached to Hotel Congress; famous for cold pints and old-school Tucson ambiance.",
-    "isLocal": true
+    "isLocal": false,
+    "enriched": false
   },
   {
     "name": "47 Scott",
@@ -6722,7 +8418,18 @@ export const restaurants: Restaurant[] = [
     "distance": 4.8,
     "price": "$$",
     "notes": "Modern American comfort food; brick patio serving stacked brunch sandwiches, refined salads, and craft cocktails.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Cup Cafe",
+    "cuisine": "American & Comfort",
+    "neighborhood": "Urban Core",
+    "distance": 4.8,
+    "price": "$$",
+    "notes": "Historic Hotel Congress fixture; famous for Cast Iron Baked Eggs, Mission Street tacos, and decadent desserts.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "BATA",
@@ -6731,7 +8438,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4.8,
     "price": "$$$",
     "notes": "Wood-fired; focuses on 90% extreme local sourcing; offers a vegetable-forward tasting menu including Green Cabbage & Potatoes.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "barbata",
@@ -6740,7 +8448,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4.8,
     "price": "$$",
     "notes": "Basement speakeasy below BATA; serves European small plates, beef tartare, and the Kitt Peak Old Fashioned.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Cornish Pasty Co",
@@ -6749,7 +8458,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4.8,
     "price": "$$",
     "notes": "Hand-held pot pies with basement and top floor bars; serves dense, savory British-style baked pasties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "The Century Room",
@@ -6758,7 +8468,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4.8,
     "price": "$$",
     "notes": "Jazz club and mezcal lounge in Hotel Congress; serves premium agave spirits and elegant small plates.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Club Congress",
@@ -6767,7 +8478,18 @@ export const restaurants: Restaurant[] = [
     "distance": 4.8,
     "price": "$$",
     "notes": "Historic music venue with attached kitchen fare; offers late-night bites, pizza, and legendary concerts.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Tiger's Tap Room",
+    "cuisine": "Bar, Pub & Brewery",
+    "neighborhood": "Urban Core",
+    "distance": 4.8,
+    "price": "$",
+    "notes": "Historic Tap Room attached to Hotel Congress; famous for cold pints and old-school Tucson ambiance.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Alejandro Serious Mexican",
@@ -6776,7 +8498,18 @@ export const restaurants: Restaurant[] = [
     "distance": 4.8,
     "price": "$$",
     "notes": "Highly popular fusion and mariscos; serves rich birria, massive burritos, and fresh seafood.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Anello",
+    "cuisine": "Italian & Pizza",
+    "neighborhood": "Urban Core",
+    "distance": 4.8,
+    "price": "$$",
+    "notes": "Renowned sourdough pizza perfection; serves the Verde and Bianca pizzas alongside Almond Olive Oil Cake.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Obon Sushi Bar Ramen",
@@ -6785,7 +8518,18 @@ export const restaurants: Restaurant[] = [
     "distance": 4.8,
     "price": "$$",
     "notes": "Modern Japanese eatery; serves innovative sushi rolls, rich tonkotsu ramen, steam buns, and craft cocktails.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "1702",
+    "cuisine": "Italian & Pizza",
+    "neighborhood": "Central & University",
+    "distance": 4.8,
+    "price": "$$",
+    "notes": "Craft beer and pizza haven; serves massive New York-style slices, unique specialty pies, and dozens of beers on tap.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Sbarro",
@@ -6794,7 +8538,18 @@ export const restaurants: Restaurant[] = [
     "distance": 4.8,
     "price": "$",
     "notes": "Popular neighborhood destination featuring fresh italian & pizza specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
+  },
+  {
+    "name": "McDonald's",
+    "cuisine": "Fast Food & Sandwiches",
+    "neighborhood": "Southside & Heritage",
+    "distance": 4.8,
+    "price": "$",
+    "notes": "Classic American fast food, perfect for quick cravings and family-friendly meals.",
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Jimmy John's",
@@ -6802,8 +8557,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Northside & Foothills",
     "distance": 4.8,
     "price": "$",
-    "notes": "Popular neighborhood destination featuring fresh fast food & sandwiches specialties.",
-    "isLocal": false
+    "notes": "Freaky fast gourmet sandwiches, made with fresh ingredients for a quick, satisfying meal.",
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Olive Garden",
@@ -6812,7 +8568,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4.8,
     "price": "$$",
     "notes": "Popular neighborhood destination featuring fresh italian & pizza specialties.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": false
   },
   {
     "name": "Tesoro",
@@ -6821,16 +8578,38 @@ export const restaurants: Restaurant[] = [
     "distance": 4.8,
     "price": "$$",
     "notes": "Local favorite in Northside & Foothills serving classic american & comfort options.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Buffalo Wild Wings",
-    "cuisine": "Fast Food & Sandwiches",
+    "cuisine": "Bar, Pub & Brewery",
     "neighborhood": "Northside & Foothills",
     "distance": 4.8,
+    "price": "$$",
+    "notes": "Lively sports bar specializing in countless wing flavors, cold beer, and game-day excitement.",
+    "isLocal": false,
+    "enriched": true
+  },
+  {
+    "name": "Whataburger",
+    "cuisine": "Fast Food & Sandwiches",
+    "neighborhood": "Southside & Heritage",
+    "distance": 4.8,
     "price": "$",
-    "notes": "A great spot to enjoy delicious fast food & sandwiches in the Northside & Foothills area.",
-    "isLocal": false
+    "notes": "Texas-sized burgers, classic shakes, and a menu with unique, delicious fast-food favorites.",
+    "isLocal": false,
+    "enriched": true
+  },
+  {
+    "name": "Baja Cafe",
+    "cuisine": "Breakfast & Diner",
+    "neighborhood": "Eastside & Vail",
+    "distance": 4.8,
+    "price": "$$",
+    "notes": "Beloved for vibrant Sonoran-style breakfast and brunch, famous for unique Benedicts and chilaquiles.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Grandma Tony's Pizza",
@@ -6839,7 +8618,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4.8,
     "price": "$",
     "notes": "Popular neighborhood destination featuring fresh italian & pizza specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Little Anthony's Diner",
@@ -6848,7 +8628,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4.8,
     "price": "$$",
     "notes": "Popular neighborhood destination featuring fresh breakfast & diner specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Liquor Barrel Saloon",
@@ -6857,7 +8638,18 @@ export const restaurants: Restaurant[] = [
     "distance": 4.8,
     "price": "$$",
     "notes": "Local favorite in Eastside & Vail serving classic bar, pub & brewery options.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
+  },
+  {
+    "name": "Pizza Hut",
+    "cuisine": "Italian & Pizza",
+    "neighborhood": "Eastside & Vail",
+    "distance": 4.8,
+    "price": "$$",
+    "notes": "Popular neighborhood destination featuring fresh italian & pizza specialties.",
+    "isLocal": false,
+    "enriched": false
   },
   {
     "name": "Young Donut Shop",
@@ -6866,16 +8658,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4.8,
     "price": "$$",
     "notes": "Popular neighborhood destination featuring fresh american & comfort specialties.",
-    "isLocal": true
-  },
-  {
-    "name": "Bison Witches",
-    "cuisine": "Fast Food & Sandwiches",
-    "neighborhood": "Urban Core",
-    "distance": 4.9,
-    "price": "$",
-    "notes": "Gourmet sandwiches piled high with deli meats, served alongside signature bread-bowl soups.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Brooklyn Pizza Co",
@@ -6884,7 +8668,18 @@ export const restaurants: Restaurant[] = [
     "distance": 4.9,
     "price": "$",
     "notes": "Solar-powered; traditional NY-style large slices, garlic knots, and Italian ice in a casual setting.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Bison Witches",
+    "cuisine": "Fast Food & Sandwiches",
+    "neighborhood": "Urban Core",
+    "distance": 4.9,
+    "price": "$",
+    "notes": "Gourmet sandwiches piled high with deli meats, served alongside signature bread-bowl soups.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Lindy's on 4th",
@@ -6893,7 +8688,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4.9,
     "price": "$",
     "notes": "Iconic extreme burgers including the Donkey Punch Burger, street-style fusion sides, and loaded fries.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Reilly Craft Pizza",
@@ -6902,7 +8698,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4.9,
     "price": "$$",
     "notes": "Modern industrial setting; wood-fired artisan pizza, fresh pasta, and a dedicated craft beer bar.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Nathan's Famous",
@@ -6911,16 +8708,28 @@ export const restaurants: Restaurant[] = [
     "distance": 4.9,
     "price": "$",
     "notes": "Iconic NY dogs and fast-casual lunch; serves classic crinkle-cut fries and grilled hot dogs.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Poco & Mom's Cantina",
-    "cuisine": "American & Comfort",
+    "cuisine": "Mexican & Sonoran",
     "neighborhood": "Eastside & Vail",
     "distance": 4.9,
     "price": "$$",
-    "notes": "Popular neighborhood destination featuring fresh american & comfort specialties.",
-    "isLocal": true
+    "notes": "Hearty Sonoran Mexican comfort food with a lively atmosphere. A local institution.",
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Penelope Pizza",
+    "cuisine": "Italian & Pizza",
+    "neighborhood": "Eastside & Vail",
+    "distance": 4.9,
+    "price": "$$",
+    "notes": "Neighborhood pizzeria crafting delicious, traditional pies with fresh toppings and a perfect crust.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Donut Wheel",
@@ -6928,8 +8737,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Southside & Heritage",
     "distance": 4.9,
     "price": "$",
-    "notes": "Popular neighborhood destination featuring fresh dessert & bakery specialties.",
-    "isLocal": true
+    "notes": "Beloved local spot serving fresh, classic donuts and pastries daily, perfect with coffee.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Guadalajara Fiesta Mexican Grill",
@@ -6938,16 +8748,18 @@ export const restaurants: Restaurant[] = [
     "distance": 4.9,
     "price": "$$",
     "notes": "A great spot to enjoy delicious mexican & sonoran in the Eastside & Vail area.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "LongHorn Steakhouse",
-    "cuisine": "Boba Tea & Beverages",
+    "cuisine": "Steakhouse & BBQ",
     "neighborhood": "Northside & Foothills",
     "distance": 4.9,
-    "price": "$",
-    "notes": "A great spot to enjoy delicious boba tea & beverages in the Northside & Foothills area.",
-    "isLocal": true
+    "price": "$$",
+    "notes": "Casual steakhouse experience featuring grilled steaks, ribs, and classic American sides.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Waffle House",
@@ -6956,7 +8768,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4.9,
     "price": "$$",
     "notes": "Popular neighborhood destination featuring fresh breakfast & diner specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Filberto's",
@@ -6965,7 +8778,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4.9,
     "price": "$$",
     "notes": "Popular neighborhood destination featuring fresh american & comfort specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Arizona Beer House",
@@ -6974,7 +8788,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4.9,
     "price": "$$",
     "notes": "Local favorite in Eastside & Vail serving classic american & comfort options.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Papa John's",
@@ -6983,61 +8798,8 @@ export const restaurants: Restaurant[] = [
     "distance": 4.9,
     "price": "$",
     "notes": "Popular neighborhood destination featuring fresh italian & pizza specialties.",
-    "isLocal": false
-  },
-  {
-    "name": "Illegal Pete's",
-    "cuisine": "Mexican & Sonoran",
-    "neighborhood": "Central & University",
-    "distance": 5,
-    "price": "$",
-    "notes": "Fast-casual burritos; serves mission-style burritos, bowls, and has a full bar.",
-    "isLocal": false
-  },
-  {
-    "name": "Cobra Arcade Bar",
-    "cuisine": "Bar, Pub & Brewery",
-    "neighborhood": "Urban Core",
-    "distance": 5,
-    "price": "$$",
-    "notes": "Vintage arcade games and bar; serves high-energy themed cocktails in a neon-lit environment.",
-    "isLocal": true
-  },
-  {
-    "name": "The Monica",
-    "cuisine": "Mexican & Sonoran",
-    "neighborhood": "Urban Core",
-    "distance": 5,
-    "price": "$$",
-    "notes": "Honors legacy of Monica Flin; elevated fast-casual serving artisan pizzas, salads, and local bread.",
-    "isLocal": true
-  },
-  {
-    "name": "Monsoon Room",
-    "cuisine": "Bar, Pub & Brewery",
-    "neighborhood": "Urban Core",
-    "distance": 5,
-    "price": "$$",
-    "notes": "Atmospheric downtown lounge; serves craft cocktails inspired by the Sonoran desert rainstorms.",
-    "isLocal": true
-  },
-  {
-    "name": "Dandelion Cafe",
-    "cuisine": "Coffee & Cafe",
-    "neighborhood": "Urban Core",
-    "distance": 5,
-    "price": "$",
-    "notes": "Pastries and cafe beverages; serves delicate baked goods and morning espresso in a bright setting.",
-    "isLocal": true
-  },
-  {
-    "name": "Agustin Kitchen",
-    "cuisine": "American & Comfort",
-    "neighborhood": "Westside & Downtown",
-    "distance": 5,
-    "price": "$$$",
-    "notes": "Mercado San Agustin; upscale bistro serving French-inspired American cuisine.",
-    "isLocal": true
+    "isLocal": false,
+    "enriched": false
   },
   {
     "name": "Antojitos",
@@ -7046,7 +8808,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5,
     "price": "$",
     "notes": "Urban quick bites and traditional Mexican snacks, sweet chamoy fruit cups, and street-style corn.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Baggin's Gourmet",
@@ -7055,7 +8818,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5,
     "price": "$$",
     "notes": "Locally owned chain; Downtown location serving premium meats, homemade breads, and signature cookies.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Basqueria",
@@ -7064,7 +8828,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5,
     "price": "$$",
     "notes": "Authentic Spanish pintxos, tapas plates, imported cured meats, and a dedicated sangria bar.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Berry Greens Acai",
@@ -7073,7 +8838,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5,
     "price": "$",
     "notes": "Fresh acai bowls loaded with fruit and granola, alongside organic green smoothies and wellness shots.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "The Board Room",
@@ -7082,7 +8848,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5,
     "price": "$$",
     "notes": "Casual dining with numerous screens; offers standard sports bar fare including wings, nachos, and sliders.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Urban Fresh",
@@ -7091,7 +8858,18 @@ export const restaurants: Restaurant[] = [
     "distance": 5,
     "price": "$$",
     "notes": "100% plant-based organic lunch offering vibrant salads, healthy wraps, and fresh-pressed daily juices.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "The Monica",
+    "cuisine": "Mexican & Sonoran",
+    "neighborhood": "Urban Core",
+    "distance": 5,
+    "price": "$$",
+    "notes": "Honors legacy of Monica Flin; elevated fast-casual serving artisan pizzas, salads, and local bread.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Penca",
@@ -7100,7 +8878,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5,
     "price": "$$",
     "notes": "Central Mexican cuisine in a stylish setting; features elevated tacos, complex moles, and craft mezcal.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "John Henry's",
@@ -7109,7 +8888,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5,
     "price": "$$",
     "notes": "Downtown bar with drinks and snacks; a local hangout offering standard spirits and casual bar bites.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Owls Club",
@@ -7118,7 +8898,18 @@ export const restaurants: Restaurant[] = [
     "distance": 5,
     "price": "$$",
     "notes": "Elegant bar in a historic building; focuses on whiskey, classic cocktails, and a dark, moody ambiance.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Cobra Arcade Bar",
+    "cuisine": "Bar, Pub & Brewery",
+    "neighborhood": "Urban Core",
+    "distance": 5,
+    "price": "$$",
+    "notes": "Vintage arcade games and bar; serves high-energy themed cocktails in a neon-lit environment.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Tough Luck Club",
@@ -7127,7 +8918,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5,
     "price": "$$",
     "notes": "Basement cocktail bar; offers expertly mixed craft drinks in a subterranean, intimate setting.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Katsu House",
@@ -7136,7 +8928,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5,
     "price": "$$",
     "notes": "Japanese-inspired dishes; serves crispy breaded pork cutlets (katsu), curry, and fluffy rice.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "The Treasury 1929",
@@ -7145,7 +8938,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5,
     "price": "$$",
     "notes": "Newly opened upscale lounge; features refined appetizers and classic cocktails in a historic bank building.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "LUST",
@@ -7154,7 +8948,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5,
     "price": "$$",
     "notes": "Downtown bar experience; modern cocktail lounge with vibrant energy and specialty drinks.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Prohibición",
@@ -7163,7 +8958,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5,
     "price": "$$",
     "notes": "Themed craft cocktail lounge; focuses on prohibition-era drinks and sophisticated mixology.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Proper Shops Bar",
@@ -7172,7 +8968,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5,
     "price": "$$",
     "notes": "Retail-integrated bar service; grab a craft beer or wine while browsing local artisan goods.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "R Bar",
@@ -7181,7 +8978,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5,
     "price": "$$",
     "notes": "Arts district modern lounge; serves eclectic cocktails in a chic space attached to the Rialto Theatre.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "The Screening Room",
@@ -7190,7 +8988,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5,
     "price": "$",
     "notes": "Entertainment venue with bar concessions; offers local beer and classic movie theater popcorn.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Stage Left",
@@ -7199,7 +8998,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5,
     "price": "$$",
     "notes": "Casual drinks near local theaters; serves quick pre-show cocktails and light bar snacks.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Vertigo Wines",
@@ -7208,7 +9008,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5,
     "price": "$$",
     "notes": "Curated wine selections in Toole Ave arts district; offers boutique bottles and tasting flights.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Zion City",
@@ -7217,7 +9018,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5,
     "price": "$",
     "notes": "Emerging cafe space downtown; provides artisan coffee, espresso, and locally sourced pastries.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Gibson Food Hall & Market",
@@ -7226,7 +9028,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5,
     "price": "$$",
     "notes": "Market-style dining destination; offers a variety of quick-service global foods under one roof.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Studio Janos",
@@ -7235,7 +9038,18 @@ export const restaurants: Restaurant[] = [
     "distance": 5,
     "price": "$$$",
     "notes": "Boutique dining experience; features highly curated, seasonal multi-course menus by a legendary chef.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Monsoon Room",
+    "cuisine": "Bar, Pub & Brewery",
+    "neighborhood": "Urban Core",
+    "distance": 5,
+    "price": "$$",
+    "notes": "Atmospheric downtown lounge; serves craft cocktails inspired by the Sonoran desert rainstorms.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Dean's Public House",
@@ -7244,7 +9058,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5,
     "price": "$$",
     "notes": "Craft ales and Copper Brothel connections; serves elevated pub grub and independent beers.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Playground Bar & Lounge",
@@ -7253,7 +9068,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5,
     "price": "$$",
     "notes": "Multi-level rooftop and modern bar food; serves sliders, loaded fries, and high-energy drinks.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Cafe Crisol",
@@ -7262,7 +9078,18 @@ export const restaurants: Restaurant[] = [
     "distance": 5,
     "price": "$",
     "notes": "Historic building cafe; famous for classic Americanos, homemade tamales, and a strict no-wifi policy.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Dandelion Cafe",
+    "cuisine": "Coffee & Cafe",
+    "neighborhood": "Urban Core",
+    "distance": 5,
+    "price": "$",
+    "notes": "Pastries and cafe beverages; serves delicate baked goods and morning espresso in a bright setting.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Tanias 33",
@@ -7271,7 +9098,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5,
     "price": "$",
     "notes": "Famous for massive, arm-sized burritos and extensive vegan options like the Coliflor & Everything burrito.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Divine Bovine",
@@ -7280,7 +9108,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5,
     "price": "$$",
     "notes": "Inventive gourmet burgers; features the Funny Farm Hand Burger loaded with extreme toppings.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Wings Over Broadway",
@@ -7289,7 +9118,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5,
     "price": "$",
     "notes": "Classic wings and casual sports viewing; serves crispy chicken tossed in a variety of spicy sauces.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Filiberto's (Tanque)",
@@ -7298,7 +9128,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5,
     "price": "$",
     "notes": "24-hour service; traditional fast-food staples including chimichangas and carne asada.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Slice & Ice (Tanque V.)",
@@ -7307,7 +9138,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5,
     "price": "$",
     "notes": "Second location; Italian ice and fast-fired pizza; occupies former eegee's space serving quick snacks.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Piazza Gavi",
@@ -7316,7 +9148,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5,
     "price": "$$",
     "notes": "Family-style Italian; massive menu featuring seafood linguine, lasagna, and complimentary bread.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Vero Amore",
@@ -7325,7 +9158,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5,
     "price": "$$",
     "notes": "Certified authentic Neapolitan pizza; serves wood-fired pies and fresh mozzarella caprese.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "La Placita Café",
@@ -7334,7 +9168,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5,
     "price": "$$",
     "notes": "Upscale traditional Mexican; features Oaxacan mole, chiles en nogada, and patio dining.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Trident Grill II",
@@ -7343,7 +9178,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5,
     "price": "$$",
     "notes": "Sports bar favorite; serves Maryland crab cakes, clam chowder, and cold draft beers.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Flying Leap",
@@ -7352,7 +9188,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5,
     "price": "$$",
     "notes": "Arizona wine tasting room; features local estate-grown wines and art gallery ambiance.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Subway (Swan)",
@@ -7361,7 +9198,18 @@ export const restaurants: Restaurant[] = [
     "distance": 5,
     "price": "$",
     "notes": "Sub sandwich chain; serves custom footlongs, fresh salads, and cookies.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
+  },
+  {
+    "name": "Agustin Kitchen",
+    "cuisine": "American & Comfort",
+    "neighborhood": "Westside & Downtown",
+    "distance": 5,
+    "price": "$$$",
+    "notes": "Mercado San Agustin; upscale bistro serving French-inspired American cuisine.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Seis Kitchen (Mercado)",
@@ -7370,7 +9218,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5,
     "price": "$$",
     "notes": "Regional Mexican street food; serves cochinito pibil and crispy avocado tacos.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "La Estrella Bakery",
@@ -7379,7 +9228,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5,
     "price": "$",
     "notes": "Legendary Mexican bakery; famous for fresh donuts, pan dulce, and tortillas.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Mariscos Chihuahua",
@@ -7388,7 +9238,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5,
     "price": "$$",
     "notes": "Seafood specialist; serves fresh ceviche, shrimp cocktails, and culichi style dishes.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Pat's Chili Dogs",
@@ -7397,7 +9248,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5,
     "price": "$",
     "notes": "Historic roadside stand; serves spicy chili dogs and massive baskets of fries.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Time Market",
@@ -7406,7 +9258,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5,
     "price": "$$",
     "notes": "Market and deli; serves artisan pizza, sandwiches on house-baked bread, and biodynamic wines.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "The Shanty",
@@ -7415,7 +9268,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5,
     "price": "$",
     "notes": "Oldest liquor license in Tucson; serves imported beers and features a copper bar.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Gentle Ben's",
@@ -7424,7 +9278,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5,
     "price": "$$",
     "notes": "University favorite; serves brewing company beers, burgers, and nachos on a patio.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Frog & Firkin",
@@ -7433,7 +9288,18 @@ export const restaurants: Restaurant[] = [
     "distance": 5,
     "price": "$$",
     "notes": "British-style pub; serves deep dish pizza, fish and chips, and import beers.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Illegal Pete's",
+    "cuisine": "Mexican & Sonoran",
+    "neighborhood": "Central & University",
+    "distance": 5,
+    "price": "$",
+    "notes": "Fast-casual burritos; serves mission-style burritos, bowls, and has a full bar.",
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Pasco Kitchen",
@@ -7442,16 +9308,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5,
     "price": "$$",
     "notes": "Urban farm-to-table; serves seasonal comfort food and craft cocktails.",
-    "isLocal": true
-  },
-  {
-    "name": "Urban Fresh",
-    "cuisine": "Healthy, Vegan & Plant-Based",
-    "neighborhood": "Central & University",
-    "distance": 5,
-    "price": "$$",
-    "notes": "Plant-based kitchen; serves raw tacos, smoothies, and daily vegan specials.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Wildflower",
@@ -7460,7 +9318,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5,
     "price": "$$$",
     "notes": "New American cuisine; serves fresh seafood, pasta, and seasonal desserts.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Calle Tepa",
@@ -7469,7 +9328,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5,
     "price": "$$",
     "notes": "Vibrant casual Mexican dining; serves flavorful street tacos, massive burritos, and an extensive fresh salsa bar.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Nico's Taco Shop",
@@ -7477,8 +9337,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Eastside & Vail",
     "distance": 5,
     "price": "$",
-    "notes": "Popular neighborhood destination featuring fresh mexican & sonoran specialties.",
-    "isLocal": true
+    "notes": "Late-night favorite for authentic, no-frills Sonoran tacos and burritos. Delicious and quick.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Panda Express",
@@ -7486,8 +9347,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Eastside & Vail",
     "distance": 5,
     "price": "$",
-    "notes": "Popular neighborhood destination featuring fresh asian & sushi specialties.",
-    "isLocal": false
+    "notes": "Fast-casual Chinese-American dishes, perfect for a quick and satisfying meal. Orange chicken reigns!",
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Eclectic Cafe",
@@ -7495,17 +9357,29 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Eastside & Vail",
     "distance": 5,
     "price": "$",
-    "notes": "A great spot to enjoy delicious coffee & cafe in the Eastside & Vail area.",
-    "isLocal": true
+    "notes": "Charming cafe offering delicious coffee, light bites, and a welcoming, artistic ambiance.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Renee's",
     "cuisine": "Italian & Pizza",
     "neighborhood": "Eastside & Vail",
     "distance": 5,
+    "price": "$$$",
+    "notes": "Upscale Italian dining with classic pasta dishes, fine wines, and an elegant atmosphere.",
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Marco's Pizza",
+    "cuisine": "Italian & Pizza",
+    "neighborhood": "Eastside & Vail",
+    "distance": 5,
     "price": "$$",
-    "notes": "A great spot to enjoy delicious italian & pizza in the Eastside & Vail area.",
-    "isLocal": true
+    "notes": "Known for its fresh ingredients and classic pizza recipes, offering quick and satisfying meals.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "In-N-Out Burger",
@@ -7514,25 +9388,48 @@ export const restaurants: Restaurant[] = [
     "distance": 5,
     "price": "$",
     "notes": "Popular neighborhood destination featuring fresh fast food & sandwiches specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Freddy's",
-    "cuisine": "Dessert & Bakery",
+    "cuisine": "Fast Food & Sandwiches",
     "neighborhood": "Eastside & Vail",
     "distance": 5,
     "price": "$",
-    "notes": "A great spot to enjoy delicious dessert & bakery in the Eastside & Vail area.",
-    "isLocal": true
+    "notes": "Retro diner known for its thin, crispy steakburgers, shoestring fries, and delicious frozen custard.",
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Eegee's",
+    "cuisine": "Fast Food & Sandwiches",
+    "neighborhood": "Eastside & Vail",
+    "distance": 5,
+    "price": "$",
+    "notes": "Tucson's favorite for refreshing eegee's drinks, satisfying subs, and famous crinkle-cut fries.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "El Taco Tote",
     "cuisine": "Mexican & Sonoran",
     "neighborhood": "Northside & Foothills",
     "distance": 5,
-    "price": "$$",
-    "notes": "Local favorite in Northside & Foothills serving classic mexican & sonoran options.",
-    "isLocal": true
+    "price": "$",
+    "notes": "Authentic Sonoran-style tacos, flavorful carne asada, fresh salsas, and generous toppings.",
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Burger King",
+    "cuisine": "Fast Food & Sandwiches",
+    "neighborhood": "Southside & Heritage",
+    "distance": 5,
+    "price": "$",
+    "notes": "Home of the Whopper, offering flame-grilled burgers, fries, and shakes for a quick meal.",
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Famous Sam's Sports Grill",
@@ -7540,8 +9437,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Southside & Heritage",
     "distance": 5,
     "price": "$$",
-    "notes": "Popular neighborhood destination featuring fresh american & comfort specialties.",
-    "isLocal": true
+    "notes": "Lively sports grill with classic American pub fare, burgers, wings, and full bar.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "First Watch",
@@ -7550,7 +9448,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5,
     "price": "$$",
     "notes": "Popular neighborhood destination featuring fresh breakfast & diner specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Jack in the Box",
@@ -7559,16 +9458,28 @@ export const restaurants: Restaurant[] = [
     "distance": 5,
     "price": "$",
     "notes": "A great spot to enjoy delicious fast food & sandwiches in the Eastside & Vail area.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": false
   },
   {
     "name": "The Oink Cafe",
+    "cuisine": "Breakfast & Diner",
+    "neighborhood": "Eastside & Vail",
+    "distance": 5,
+    "price": "$$",
+    "notes": "Lively spot famous for creative breakfast and brunch dishes, especially bacon-centric specialties.",
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Dunkin'",
     "cuisine": "Coffee & Cafe",
     "neighborhood": "Eastside & Vail",
     "distance": 5,
     "price": "$",
     "notes": "Popular neighborhood destination featuring fresh coffee & cafe specialties.",
-    "isLocal": true
+    "isLocal": false,
+    "enriched": false
   },
   {
     "name": "Fresh Pho and Sushi",
@@ -7577,7 +9488,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5,
     "price": "$$",
     "notes": "A great spot to enjoy delicious asian & sushi in the Eastside & Vail area.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Brooklyn's Beer & Burgers",
@@ -7586,7 +9498,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5,
     "price": "$",
     "notes": "A great spot to enjoy delicious fast food & sandwiches in the Southside & Heritage area.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Little Caesars",
@@ -7595,7 +9508,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5,
     "price": "$",
     "notes": "A great spot to enjoy delicious italian & pizza in the Southside & Heritage area.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": false
   },
   {
     "name": "Viva Burrito",
@@ -7604,16 +9518,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5,
     "price": "$$",
     "notes": "Popular neighborhood destination featuring fresh mexican & sonoran specialties.",
-    "isLocal": true
-  },
-  {
-    "name": "Caffe Luce",
-    "cuisine": "Coffee & Cafe",
-    "neighborhood": "Urban Core",
-    "distance": 5.1,
-    "price": "$",
-    "notes": "Brightly lit urban coffee hub serving house-roasted espresso, cold brews, and casual cafe pastries.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Bombolé",
@@ -7622,7 +9528,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.1,
     "price": "$",
     "notes": "Pastry empanadas and Indian fusion; features Aloo Matar Samosas and Curried Lentils with a Latin twist.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Café 54",
@@ -7631,7 +9538,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.1,
     "price": "$",
     "notes": "Supporting mental health recovery employment; rotating lunch menu of fresh salads, sandwiches, and soups.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Café à la C'Art",
@@ -7640,7 +9548,18 @@ export const restaurants: Restaurant[] = [
     "distance": 5.1,
     "price": "$$",
     "notes": "Located within the Tucson Museum of Art; serves chilaquiles, refined cafe lunches, and features a massive pastry case.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Caffe Luce",
+    "cuisine": "Coffee & Cafe",
+    "neighborhood": "Urban Core",
+    "distance": 5.1,
+    "price": "$",
+    "notes": "Brightly lit urban coffee hub serving house-roasted espresso, cold brews, and casual cafe pastries.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Cartel Roasting Co",
@@ -7649,7 +9568,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.1,
     "price": "$",
     "notes": "Premier local roaster and community space; high-acid specialty coffees and fresh local baked goods.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Blue Front",
@@ -7658,7 +9578,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.1,
     "price": "$$",
     "notes": "Restoration of historic storefront; serves modernized American classics, hearty sandwiches, and salads.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Sushi Cortaro on River",
@@ -7667,25 +9588,48 @@ export const restaurants: Restaurant[] = [
     "distance": 5.1,
     "price": "$$",
     "notes": "Local favorite in Northside & Foothills serving classic asian & sushi options.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
+  },
+  {
+    "name": "Taco Bell",
+    "cuisine": "Fast Food & Sandwiches",
+    "neighborhood": "Southside & Heritage",
+    "distance": 5.1,
+    "price": "$",
+    "notes": "Your go-to for budget-friendly, quick Mexican-inspired food and drive-thru convenience.",
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Nattha's Bann Thai Asian",
-    "cuisine": "Coffee & Cafe",
+    "cuisine": "Asian & Sushi",
     "neighborhood": "Eastside & Vail",
     "distance": 5.1,
-    "price": "$",
-    "notes": "Popular neighborhood destination featuring fresh coffee & cafe specialties.",
-    "isLocal": true
+    "price": "$$",
+    "notes": "Authentic Thai dishes with vibrant flavors, fresh ingredients, and a cozy dining experience.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Hooters",
-    "cuisine": "Fast Food & Sandwiches",
+    "cuisine": "Bar, Pub & Brewery",
     "neighborhood": "Eastside & Vail",
     "distance": 5.1,
-    "price": "$",
-    "notes": "Popular neighborhood destination featuring fresh fast food & sandwiches specialties.",
-    "isLocal": true
+    "price": "$$",
+    "notes": "Lively sports bar atmosphere, famous for its chicken wings, casual American fare, and cold beer.",
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Scordato's Pizzeria",
+    "cuisine": "Italian & Pizza",
+    "neighborhood": "Northside & Foothills",
+    "distance": 5.1,
+    "price": "$$",
+    "notes": "Upscale pizzeria offering gourmet pizzas, classic Italian dishes, and a sophisticated dining experience.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Sunny Daze Café",
@@ -7693,8 +9637,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Southside & Heritage",
     "distance": 5.1,
     "price": "$",
-    "notes": "A great spot to enjoy delicious coffee & cafe in the Southside & Heritage area.",
-    "isLocal": true
+    "notes": "Bright and cheerful café offering delightful coffee, pastries, and light bites.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Music Box Lounge",
@@ -7703,7 +9648,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.1,
     "price": "$$",
     "notes": "A great spot to enjoy delicious bar, pub & brewery in the Eastside & Vail area.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Hamburger Stand",
@@ -7712,16 +9658,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.1,
     "price": "$",
     "notes": "Popular neighborhood destination featuring fresh fast food & sandwiches specialties.",
-    "isLocal": true
-  },
-  {
-    "name": "Cafe Desta",
-    "cuisine": "Mediterranean & Global",
-    "neighborhood": "Urban Core",
-    "distance": 5.2,
-    "price": "$",
-    "notes": "Authentic independent Ethiopian; communal dining featuring Shorba, Misir, and Tikil Gomen on injera.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "CERES",
@@ -7730,7 +9668,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.2,
     "price": "$$",
     "notes": "Freshly made pasta and imported ingredients; walk-up window serving authentic Italian street food and espresso.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Chela's Latin Cuisine",
@@ -7739,7 +9678,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.2,
     "price": "$$",
     "notes": "Vibrant mural; transforms into dance floor at night; serves hearty Latin platters and strong margaritas.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "CRUDA Mariscos",
@@ -7748,7 +9688,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.2,
     "price": "$$$",
     "notes": "Upscale mariscos and raw bar; serves coastal Mexican ceviches, fresh oysters, and premium seafood towers.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "De Novo Market",
@@ -7757,7 +9698,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.2,
     "price": "$",
     "notes": "Curated market and craft taps; offers grab-and-go artisan snacks, local beers, and boutique wines.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Sonora Moonshine Co",
@@ -7766,7 +9708,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.2,
     "price": "$$",
     "notes": "Specialized moonshine and Sonoran cuisine; features smoked meats, unique tacos, and strong spirits.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "TABU Restaurant",
@@ -7775,7 +9718,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.2,
     "price": "$$",
     "notes": "Sleek new entry in 2024; Latin-inspired brunch featuring Chilaquiles Panzones and Omelettes of Chorizo.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Snake & Barrel",
@@ -7784,7 +9728,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.2,
     "price": "$$",
     "notes": "Speakeasy basement bar below Batch; serves expertly crafted vintage cocktails and premium bourbon flights.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "5 Points Market",
@@ -7793,7 +9738,18 @@ export const restaurants: Restaurant[] = [
     "distance": 5.2,
     "price": "$",
     "notes": "Organic market and brunch; famous for the Smoked Beet Sandwich, Kale Caesar, and Huevos Rancheros.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Cafe Desta",
+    "cuisine": "Mediterranean & Global",
+    "neighborhood": "Urban Core",
+    "distance": 5.2,
+    "price": "$",
+    "notes": "Authentic independent Ethiopian; communal dining featuring Shorba, Misir, and Tikil Gomen on injera.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Bazil's",
@@ -7802,7 +9758,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.2,
     "price": "$$",
     "notes": "Chicago-style eatery; serves hearty Italian beef sandwiches, deep dish pizza, and pasta.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Fiamme Pizza",
@@ -7811,7 +9768,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.2,
     "price": "$$",
     "notes": "Napoletana certified; serves authentic wood-fired pizzas with imported San Marzano tomatoes.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Bisbee Breakfast (Sun.)",
@@ -7820,7 +9778,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.2,
     "price": "$$",
     "notes": "Mining-town themed breakfast; serves massive pancakes and copper-miner sized omelettes.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Ermanos Bar",
@@ -7829,7 +9788,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.2,
     "price": "$$",
     "notes": "Craft beer and wine bar; serves elevated pub food and fermented goods.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Boca Tacos",
@@ -7838,7 +9798,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.2,
     "price": "$$",
     "notes": "Gourmet tacos; features exotic salsas, grilled octopus, and veggie options.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Crooked Tooth Brewing",
@@ -7847,7 +9808,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.2,
     "price": "$$",
     "notes": "Sour beer specialist; serves unique brews in a relaxed warehouse setting.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Pueblo Vida Brewing",
@@ -7856,7 +9818,18 @@ export const restaurants: Restaurant[] = [
     "distance": 5.2,
     "price": "$$",
     "notes": "Downtown brewery; famous for hazy IPAs and a cycling-friendly atmosphere.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Starbucks",
+    "cuisine": "Coffee & Cafe",
+    "neighborhood": "Northside & Foothills",
+    "distance": 5.2,
+    "price": "$",
+    "notes": "Popular coffeehouse chain for classic espresso drinks, pastries, and convenient on-the-go refreshments.",
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "BBQ Rush",
@@ -7865,7 +9838,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.2,
     "price": "$$",
     "notes": "Local favorite in Southside & Heritage serving classic steakhouse & bbq options.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Papa Murphy's",
@@ -7873,8 +9847,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Eastside & Vail",
     "distance": 5.2,
     "price": "$",
-    "notes": "Popular neighborhood destination featuring fresh italian & pizza specialties.",
-    "isLocal": true
+    "notes": "Take-and-bake pizza for a fresh, convenient meal at home. Customize your perfect pie.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Subway",
@@ -7882,17 +9857,19 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Eastside & Vail",
     "distance": 5.2,
     "price": "$",
-    "notes": "Popular neighborhood destination featuring fresh fast food & sandwiches specialties.",
-    "isLocal": false
+    "notes": "Build-your-own sandwiches with fresh ingredients, a reliable choice for a quick meal.",
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Brush Fire Barbeque",
-    "cuisine": "American & Comfort",
+    "cuisine": "Steakhouse & BBQ",
     "neighborhood": "Eastside & Vail",
     "distance": 5.2,
     "price": "$$",
-    "notes": "A great spot to enjoy delicious american & comfort in the Eastside & Vail area.",
-    "isLocal": true
+    "notes": "Mouth-watering slow-smoked BBQ meats with classic sides. A true taste of the South.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Mandarin Buffet",
@@ -7900,17 +9877,19 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Southside & Heritage",
     "distance": 5.2,
     "price": "$$",
-    "notes": "Local favorite in Southside & Heritage serving classic asian & sushi options.",
-    "isLocal": true
+    "notes": "Extensive buffet featuring a wide array of Chinese and Asian dishes, great for families.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Filibertos",
     "cuisine": "Mexican & Sonoran",
     "neighborhood": "Southside & Heritage",
     "distance": 5.2,
-    "price": "$$",
-    "notes": "Popular neighborhood destination featuring fresh mexican & sonoran specialties.",
-    "isLocal": true
+    "price": "$",
+    "notes": "Late-night favorite for no-frills, authentic Sonoran-style burritos, tacos, and loaded quesadillas.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Ba Dar",
@@ -7919,7 +9898,18 @@ export const restaurants: Restaurant[] = [
     "distance": 5.2,
     "price": "$$",
     "notes": "Local favorite in Eastside & Vail serving classic asian & sushi options.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
+  },
+  {
+    "name": "McDonald's",
+    "cuisine": "Fast Food & Sandwiches",
+    "neighborhood": "Eastside & Vail",
+    "distance": 5.2,
+    "price": "$",
+    "notes": "Local favorite in Eastside & Vail serving classic fast food & sandwiches options.",
+    "isLocal": false,
+    "enriched": false
   },
   {
     "name": "Salad and Go",
@@ -7928,16 +9918,18 @@ export const restaurants: Restaurant[] = [
     "distance": 5.2,
     "price": "$",
     "notes": "Local favorite in Eastside & Vail serving classic healthy, vegan & plant-based options.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Kolb Road Lounge",
     "cuisine": "Bar, Pub & Brewery",
     "neighborhood": "Eastside & Vail",
     "distance": 5.2,
-    "price": "$$",
-    "notes": "Local favorite in Eastside & Vail serving classic bar, pub & brewery options.",
-    "isLocal": true
+    "price": "$",
+    "notes": "Neighborhood watering hole offering classic bar bites, drinks, and a relaxed ambiance.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "El Brunch Bistro",
@@ -7946,7 +9938,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.2,
     "price": "$$",
     "notes": "Popular neighborhood destination featuring fresh american & comfort specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Ha Long Bay",
@@ -7955,16 +9948,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.2,
     "price": "$$",
     "notes": "Popular neighborhood destination featuring fresh asian & sushi specialties.",
-    "isLocal": true
-  },
-  {
-    "name": "Jimmy John's",
-    "cuisine": "Fast Food & Sandwiches",
-    "neighborhood": "Urban Core",
-    "distance": 5.3,
-    "price": "$",
-    "notes": "Fast-casual chain; serves rapidly prepared cold cut sub sandwiches on freshly baked French bread.",
-    "isLocal": false
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "El Mezquite Grill",
@@ -7973,7 +9958,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.3,
     "price": "$$",
     "notes": "Traditional mesquite grilling; serves smoky carne asada, fresh tortillas, and classic Sonoran combination plates.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Eleven Café",
@@ -7982,7 +9968,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.3,
     "price": "$",
     "notes": "Quick service urban coffee shop; provides fast espresso drinks, teas, and light morning grab-and-go items.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "HeeMee Coffee + Bakery",
@@ -7991,7 +9978,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.3,
     "price": "$",
     "notes": "Specialized Asian pastries and coffee; features fluffy milk bread, matcha lattes, and Korean-inspired baked goods.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Ike's Coffee & Tea",
@@ -8000,7 +9988,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.3,
     "price": "$",
     "notes": "Relaxed setting for robust tea and espresso, offering a quiet atmosphere and standard coffeehouse pastries.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Jaime's Pizza Kitchen",
@@ -8009,7 +9998,18 @@ export const restaurants: Restaurant[] = [
     "distance": 5.3,
     "price": "$$",
     "notes": "Classic pizza preparations; family-rooted craft pies with high-quality cheese blends and fresh crusts.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Jimmy John's",
+    "cuisine": "Fast Food & Sandwiches",
+    "neighborhood": "Urban Core",
+    "distance": 5.3,
+    "price": "$",
+    "notes": "Fast-casual chain; serves rapidly prepared cold cut sub sandwiches on freshly baked French bread.",
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "The Delta",
@@ -8018,7 +10018,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.3,
     "price": "$$$",
     "notes": "Elevated Southern and Lowcountry cuisine; features rich gumbos, seafood boils, and premium whiskies.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Forbes Meat Company",
@@ -8027,7 +10028,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.3,
     "price": "$$",
     "notes": "Craft meats, steaks, and gelato; offers a stellar surf and turf combo of premium burgers and fresh oysters.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Maynards",
@@ -8036,7 +10038,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.3,
     "price": "$$$",
     "notes": "Historic train depot setting; regional ingredients focusing on seasonally-inspired New American fine dining.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Commoner & Co.",
@@ -8045,7 +10048,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.3,
     "price": "$$$",
     "notes": "Upscale comfort dining; features braised short ribs, craft cocktails, and a cozy atmosphere.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Inca's Peruvian",
@@ -8054,7 +10058,28 @@ export const restaurants: Restaurant[] = [
     "distance": 5.3,
     "price": "$$",
     "notes": "Authentic Peruvian cuisine; serves Lomo Saltado, fresh ceviche, and Pisco Sours.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Einstein Bros. Bagels",
+    "cuisine": "Fast Food & Sandwiches",
+    "neighborhood": "Northside & Foothills",
+    "distance": 5.3,
+    "price": "$",
+    "notes": "Freshly baked bagels, schmears, and coffee perfect for a quick breakfast or lunch.",
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Popeyes",
+    "cuisine": "Fast Food & Sandwiches",
+    "neighborhood": "Eastside & Vail",
+    "distance": 5.3,
+    "price": "$",
+    "notes": "Local favorite in Eastside & Vail serving classic fast food & sandwiches options.",
+    "isLocal": false,
+    "enriched": false
   },
   {
     "name": "Coronado's",
@@ -8063,7 +10088,18 @@ export const restaurants: Restaurant[] = [
     "distance": 5.3,
     "price": "$",
     "notes": "Local favorite in Eastside & Vail serving classic mexican & sonoran options.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
+  },
+  {
+    "name": "Trattoria Pina",
+    "cuisine": "Italian & Pizza",
+    "neighborhood": "Northside & Foothills",
+    "distance": 5.3,
+    "price": "$$",
+    "notes": "A great spot to enjoy delicious italian & pizza in the Northside & Foothills area.",
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Wienerschnitzel",
@@ -8072,16 +10108,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.3,
     "price": "$",
     "notes": "Popular neighborhood destination featuring fresh fast food & sandwiches specialties.",
-    "isLocal": true
-  },
-  {
-    "name": "Raptor Canyon Cafe",
-    "cuisine": "Breakfast & Diner",
-    "neighborhood": "Urban Core",
-    "distance": 5.4,
-    "price": "$",
-    "notes": "Highly rated egg biscuits; downtown favorite for quick, scratch-made breakfast sandwiches and hot coffee.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Jojo's Café & Bakery",
@@ -8090,7 +10118,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.4,
     "price": "$$",
     "notes": "Historic courtyard setting; live music and brunch serving elevated egg dishes, pancakes, and fresh bread.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Kaiju Burger",
@@ -8099,7 +10128,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.4,
     "price": "$$",
     "notes": "Japanese-inspired wagyu smash burgers; crispy edges, signature umami sauces, and loaded fries.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Nook",
@@ -8108,7 +10138,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.4,
     "price": "$$",
     "notes": "Breakfast crumpets and artistic showcase; artsy vibe serving creative morning dishes and fresh brunch cocktails.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Perche' No",
@@ -8117,7 +10148,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.4,
     "price": "$$",
     "notes": "Bright Italian flavors and traditional dining; serves classic pasta plates, rich sauces, and seafood preparations.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "The Pink Scoop",
@@ -8126,7 +10158,18 @@ export const restaurants: Restaurant[] = [
     "distance": 5.4,
     "price": "$",
     "notes": "Vibrant dessert parlor; offers massive ice cream scoops, creative sundaes, and colorful sweet treats.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Raptor Canyon Cafe",
+    "cuisine": "Breakfast & Diner",
+    "neighborhood": "Urban Core",
+    "distance": 5.4,
+    "price": "$",
+    "notes": "Highly rated egg biscuits; downtown favorite for quick, scratch-made breakfast sandwiches and hot coffee.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Raspaderia El Sahuaro",
@@ -8135,7 +10178,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.4,
     "price": "$",
     "notes": "Shaved ice and fruit snacks; traditional Mexican raspados, chamoyadas, and fresh pico de gallo fruit cups.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Roadrunner Coffee Co",
@@ -8144,7 +10188,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.4,
     "price": "$",
     "notes": "Local coffee provider; serves reliable drip coffee, espresso variations, and casual cafe breakfast items.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Scented Leaf Tea",
@@ -8153,7 +10198,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.4,
     "price": "$",
     "notes": "Extensive tea menu and lounge; features innovative \"teas-on-tap,\" loose leaf varieties, and freshly baked brownies.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "The Screamery",
@@ -8162,7 +10208,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.4,
     "price": "$",
     "notes": "Local ingredient-focused; handcrafted ice cream flavors like Sweet Cream Honeycomb and Orange Dreamsicle.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Ursa",
@@ -8171,7 +10218,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.4,
     "price": "$$$",
     "notes": "Zero-waste focus; desert-inspired fine dining tasting menus utilizing highly seasonal local ingredients.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Kintoki Sushi House",
@@ -8180,7 +10228,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.4,
     "price": "$$$",
     "notes": "High-quality creative rolls and cocktail program; fresh sashimi and elevated Japanese fusion.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Renee's Tucson",
@@ -8189,7 +10238,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.4,
     "price": "$$",
     "notes": "Locally owned; focuses on organic/GF; famous for the Spinach Dip Calzone and the Everything Pizza.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "313 Detroit Pizza",
@@ -8198,7 +10248,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.4,
     "price": "$$",
     "notes": "Take-out only; authentic Detroit squares serving deep, cheesy pan pizzas and the Double Dog Deal.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Shogun Japanese Restaurant",
@@ -8207,16 +10258,18 @@ export const restaurants: Restaurant[] = [
     "distance": 5.4,
     "price": "$$",
     "notes": "Popular neighborhood destination featuring fresh asian & sushi specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Denny's",
-    "cuisine": "American & Comfort",
+    "cuisine": "Breakfast & Diner",
     "neighborhood": "Northside & Foothills",
     "distance": 5.4,
-    "price": "$$",
-    "notes": "A great spot to enjoy delicious american & comfort in the Northside & Foothills area.",
-    "isLocal": false
+    "price": "$",
+    "notes": "The classic American diner, open 24/7 for Grand Slams, burgers, and comfort food.",
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Arby's",
@@ -8225,7 +10278,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.4,
     "price": "$",
     "notes": "Local favorite in Eastside & Vail serving classic fast food & sandwiches options.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": false
   },
   {
     "name": "Jack in the Box",
@@ -8234,34 +10288,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.4,
     "price": "$",
     "notes": "A great spot to enjoy delicious fast food & sandwiches in the Northside & Foothills area.",
-    "isLocal": false
-  },
-  {
-    "name": "Westbound",
-    "cuisine": "Bar, Pub & Brewery",
-    "neighborhood": "Urban Core",
-    "distance": 5.5,
-    "price": "$$",
-    "notes": "Tap-only bar; draft cocktails, extensive craft beer selections, and curated wines in the MSA Annex.",
-    "isLocal": true
-  },
-  {
-    "name": "Kukai",
-    "cuisine": "Asian & Sushi",
-    "neighborhood": "Urban Core",
-    "distance": 5.5,
-    "price": "$$",
-    "notes": "Traditional onigiri, spicy miso ramen, and deep-fried potato korokke in an open-air market setting.",
-    "isLocal": true
-  },
-  {
-    "name": "Beaut Burger",
-    "cuisine": "Healthy, Vegan & Plant-Based",
-    "neighborhood": "Urban Core",
-    "distance": 5.5,
-    "price": "$$",
-    "notes": "House-made grain/nut patties; down-to-earth vegan burgers served on specialized buns with crispy fries.",
-    "isLocal": true
+    "isLocal": false,
+    "enriched": false
   },
   {
     "name": "National",
@@ -8270,7 +10298,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.5,
     "price": "$$$",
     "notes": "High-concept new entry (2024); previously offered upscale downtown dining before closing in late 2025.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "St. Cruz Restaurant",
@@ -8279,7 +10308,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.5,
     "price": "$$",
     "notes": "Integrated restaurant in Leo Kent Hotel; serves elevated Southwestern bar food and craft cocktails.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Sunshine Wine",
@@ -8288,7 +10318,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.5,
     "price": "$$",
     "notes": "Adobe home setting; evolves constantly; features natural wines and small plates like Confit Squash Tartine.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Talega Coffee Co",
@@ -8297,7 +10328,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.5,
     "price": "$",
     "notes": "Boutique coffee and espresso; minimalist approach focusing on high-quality single-origin pours.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Tucson Chocolate",
@@ -8306,7 +10338,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.5,
     "price": "$$",
     "notes": "Artisanal chocolates; hand-crafted truffles, rich cacao treats, and beautifully designed confection boxes.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "YBC by Yellow Brick",
@@ -8315,7 +10348,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.5,
     "price": "$",
     "notes": "Housed in the historic courthouse; serves top-tier coffee, Banana Toast, and Green Smoothies.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Agustin Kitchen",
@@ -8324,7 +10358,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.5,
     "price": "$$$",
     "notes": "Upscale casual bistro; features the best Sourdough Pancakes, Chickories Salad, and Pommes Frites.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Dolce Pastello",
@@ -8333,7 +10368,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.5,
     "price": "$",
     "notes": "Award-winning Mexican and European cakes; famous for tres leches and beautifully decorated custom cakes.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "El Zumitos",
@@ -8342,7 +10378,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.5,
     "price": "$",
     "notes": "Fresh juices, superfood smoothies, and traditional Mexican aguas frescas in a vibrant setting.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Seis Kitchen",
@@ -8351,7 +10388,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.5,
     "price": "$$",
     "notes": "Scratch kitchen with whole ingredients; serves massive regional burritos, adobo steak, and handmade tortillas.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Bōs Burger",
@@ -8360,7 +10398,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.5,
     "price": "$$",
     "notes": "Wagyu beef smash burgers cooked in a shipping container; features premium beef and decadent toppings.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Decibel Coffee",
@@ -8369,7 +10408,18 @@ export const restaurants: Restaurant[] = [
     "distance": 5.5,
     "price": "$",
     "notes": "Eco-conscious roaster with fresh-baked pastries; highlights quality beans and local Maya Tea.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Kukai",
+    "cuisine": "Asian & Sushi",
+    "neighborhood": "Urban Core",
+    "distance": 5.5,
+    "price": "$$",
+    "notes": "Traditional onigiri, spicy miso ramen, and deep-fried potato korokke in an open-air market setting.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Rollies Mexican (MSA)",
@@ -8378,7 +10428,28 @@ export const restaurants: Restaurant[] = [
     "distance": 5.5,
     "price": "$$",
     "notes": "Award-winning rolled tacos, rich birria ramen, and unique concha ice cream sandwiches.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Westbound",
+    "cuisine": "Bar, Pub & Brewery",
+    "neighborhood": "Urban Core",
+    "distance": 5.5,
+    "price": "$$",
+    "notes": "Tap-only bar; draft cocktails, extensive craft beer selections, and curated wines in the MSA Annex.",
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Beaut Burger",
+    "cuisine": "Healthy, Vegan & Plant-Based",
+    "neighborhood": "Urban Core",
+    "distance": 5.5,
+    "price": "$$",
+    "notes": "House-made grain/nut patties; down-to-earth vegan burgers served on specialized buns with crispy fries.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Whole Slvce Pizza",
@@ -8387,7 +10458,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.5,
     "price": "$$",
     "notes": "18\" whole pies and NY-style slices; offers massive foldable slices and dedicated vegan pizza options.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Hidden Hearth",
@@ -8396,7 +10468,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.5,
     "price": "$",
     "notes": "Pickup window; whole-grain artisan breads baked fresh daily with a focus on local heritage grains.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Brandylion",
@@ -8405,7 +10478,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.5,
     "price": "$$",
     "notes": "Brandy-focused concept in historic Presidio; serves crafted cocktails and sophisticated small bites.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Barrio Brewing Company",
@@ -8414,7 +10488,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.5,
     "price": "$$",
     "notes": "State's oldest brewery; full food menu featuring the Diane Burger and a unique Sonoran Dog.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Los Milics Tasting Room",
@@ -8423,7 +10498,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.5,
     "price": "$$",
     "notes": "Estate-grown AZ wine room downtown; features Basque Cheese Cake and premium grass-fed burgers.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Adis Aguas Frescas",
@@ -8432,7 +10508,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.5,
     "price": "$",
     "notes": "Traditional fruit waters and snacks; offers refreshing horchata, jamaica, and chamoy treats.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Salad and Go (Kino)",
@@ -8441,7 +10518,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.5,
     "price": "$",
     "notes": "Drive-thru healthy fast food at Kino Pkwy; serves organic salads and affordable breakfast wraps.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Gyro Shack",
@@ -8450,7 +10528,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.5,
     "price": "$",
     "notes": "Quick service gyros in Kino commercial zone; features spit-roasted lamb, tzatziki, and pita.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Eclectic Café",
@@ -8459,7 +10538,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.5,
     "price": "$$",
     "notes": "Legacy independent; homemade desserts, fresh cafe salads, and comforting American lunch plates.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Holy Smokin Butts",
@@ -8468,7 +10548,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.5,
     "price": "$$",
     "notes": "Authentic smoked meats and turkey; serves thick-cut brisket, pulled pork, and traditional BBQ sides.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Queen Sheba",
@@ -8477,7 +10558,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.5,
     "price": "$$",
     "notes": "Traditional stews and injera bread; serves rich, heavily spiced Ethiopian comfort food.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Filiberto's (Golf L)",
@@ -8486,7 +10568,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.5,
     "price": "$",
     "notes": "24-hour service; near Davis-Monthan AFB; serves massive Arizona burritos and late-night Mexican.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "McDonald's (Golf L.)",
@@ -8495,7 +10578,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.5,
     "price": "$",
     "notes": "Fast food burgers; serves classic Quarter Pounders, crispy chicken sandwiches, and golden fries.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Little Caesar's (Golf L.)",
@@ -8504,7 +10588,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.5,
     "price": "$",
     "notes": "Takeout pizza options; serves Hot-N-Ready pepperoni pizzas and signature Crazy Bread.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Burger King (Golf L.)",
@@ -8513,7 +10598,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.5,
     "price": "$",
     "notes": "Standard burger drive-thru; famous for the flame-grilled Whopper and crispy chicken fries.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Dunkin' (Golf Links)",
@@ -8522,7 +10608,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.5,
     "price": "$",
     "notes": "Drive-thru donuts and coffee; serves iced caramel coffees, munchkins, and breakfast sandwiches.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Sonic Drive-In (Golf L.)",
@@ -8531,7 +10618,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.5,
     "price": "$",
     "notes": "Classic carhop service; serves cherry limeades, tater tots, and griddled cheeseburgers.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Fini's Landing",
@@ -8540,16 +10628,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.5,
     "price": "$$",
     "notes": "Beach-themed casual spot; serves fish tacos, island burgers, and tropical cocktails.",
-    "isLocal": true
-  },
-  {
-    "name": "Filiberto's (Wetm.)",
-    "cuisine": "Mexican & Sonoran",
-    "neighborhood": "Northside & Foothills",
-    "distance": 5.5,
-    "price": "$",
-    "notes": "24-hour drive-thru; serves massive carne asada burritos, rolled tacos, and horchata.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Fleming's Prime",
@@ -8558,7 +10638,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.5,
     "price": "$$$",
     "notes": "High-end steakhouse; features USDA Prime beef, lobster tails, and an extensive wine list.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Vivace",
@@ -8567,7 +10648,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.5,
     "price": "$$$",
     "notes": "Top-rated fine dining; serves exquisite Northern Italian dishes, fresh seafood, and handmade pasta.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Wild Garlic Grill",
@@ -8576,7 +10658,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.5,
     "price": "$$$",
     "notes": "Chef-driven concept; features garlic-infused dishes, fresh seafood, and California-French fusion.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Cheesecake Factory",
@@ -8585,7 +10668,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.5,
     "price": "$$",
     "notes": "Massive menu; famous for avocado egg rolls, glamburgers, and over 30 flavors of cheesecake.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "California Pizza",
@@ -8594,7 +10678,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.5,
     "price": "$$",
     "notes": "Innovative pizza chain; serves Original BBQ Chicken Pizza, Thai Crunch Salad, and hearth-baked pies.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Red Robin",
@@ -8603,7 +10688,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.5,
     "price": "$$",
     "notes": "Gourmet burgers and brews; famous for Bottomless Steak Fries and towering burger creations.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Domino's (Skyline)",
@@ -8612,7 +10698,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.5,
     "price": "$",
     "notes": "Pizza delivery; serves hot pizzas, pasta bowls, and parmesan bread bites.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "El Charro (Downtown)",
@@ -8621,7 +10708,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.5,
     "price": "$$",
     "notes": "The original 1922 location; birthplace of the chimichanga; serves carne seca platters.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Reilly Craft Pizza",
@@ -8630,7 +10718,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.5,
     "price": "$$",
     "notes": "Modern Italian in a historic funeral home; serves artisan pizza and craft cocktails.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "The Hub",
@@ -8639,7 +10728,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.5,
     "price": "$$",
     "notes": "Downtown hotspot; famous for pot roast, lobster mac, and homemade ice cream.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Playground",
@@ -8648,7 +10738,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.5,
     "price": "$$",
     "notes": "Rooftop bar and lounge; serves fancy cocktails, tacos, and late-night bites.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Hotel Congress (Cup Cafe)",
@@ -8657,7 +10748,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.5,
     "price": "$$",
     "notes": "Historic hotel dining; famous for cast iron baked eggs and ghost stories.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Maynards",
@@ -8666,7 +10758,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.5,
     "price": "$$$",
     "notes": "Train depot market and kitchen; serves seasonal, locally sourced fine dining.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "47 Scott",
@@ -8675,7 +10768,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.5,
     "price": "$$",
     "notes": "Intimate bistro; serves stacked grilled cheese, mac and cheese, and craft cocktails.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Elliott's on Congress",
@@ -8684,7 +10778,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.5,
     "price": "$$",
     "notes": "Infused vodka bar; serves duck sliders, jalapeno poppers, and creative drinks.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Miss Saigon (Downtown)",
@@ -8693,7 +10788,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.5,
     "price": "$$",
     "notes": "Vietnamese favorite; serves large bowls of pho, vermicelli, and spring rolls.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Penca",
@@ -8702,7 +10798,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.5,
     "price": "$$$",
     "notes": "Central Mexican cuisine; features mezcal bar, turkey tacos, and ceviche.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Bata",
@@ -8711,7 +10808,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.5,
     "price": "$$$",
     "notes": "Fire-focused fine dining; serves vegetable-forward dishes cooked over oak embers.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "The Monica",
@@ -8720,7 +10818,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.5,
     "price": "$$",
     "notes": "Charro family concept; serves breakfast pizza, albondigas, and cocktails on the patio.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Charro Steak",
@@ -8729,7 +10828,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.5,
     "price": "$$$",
     "notes": "Ranch-to-table steakhouse; serves mesquite-grilled steaks and prickly pear margaritas.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Empire Pizza",
@@ -8738,7 +10838,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.5,
     "price": "$",
     "notes": "New York style pizza by the slice; serves huge slices, garlic knots, and beer.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "La Chingada",
@@ -8747,7 +10848,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.5,
     "price": "$$",
     "notes": "Lively Mexican kitchen; serves massive burritos, chilaquiles, and micheladas.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "The Little One",
@@ -8756,7 +10858,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.5,
     "price": "$",
     "notes": "Cash-only lunch spot; serves rotating specials, fresh juices, and free hugs.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "El Minuto Cafe",
@@ -8765,7 +10868,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.5,
     "price": "$$",
     "notes": "Traditional Sonoran food; serves cheese crisps, carne seca, and menudo since 1936.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Cafe a la C'Art",
@@ -8774,7 +10878,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.5,
     "price": "$$",
     "notes": "Museum cafe; famous for giant cake slices, brunch, and charming patio.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Borderlands Brewing",
@@ -8783,7 +10888,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.5,
     "price": "$$",
     "notes": "Historic warehouse brewery; serves German and Mexican style beers.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Ten55 Brewing",
@@ -8792,7 +10898,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.5,
     "price": "$$",
     "notes": "Sausage house and brewery; serves house-made sausages and Belgian style ales.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Rocco's Little Chicago",
@@ -8801,7 +10908,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.5,
     "price": "$$",
     "notes": "Deep dish pizza specialist; serves authentic Chicago-style pies and hot wings.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Falora",
@@ -8810,7 +10918,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.5,
     "price": "$$",
     "notes": "Wood-fired artisan pizza; serves creative toppings and kale salads.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Zemam's",
@@ -8819,7 +10928,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.5,
     "price": "$$",
     "notes": "Authentic Ethiopian cuisine; serves spicy stews and injera bread for sharing.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Tumerico",
@@ -8828,7 +10938,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.5,
     "price": "$$",
     "notes": "Plant-based Mexican; serves jackfruit carnitas, mole, and fresh lattes.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Bisbee Breakfast Club (Broadway)",
@@ -8837,7 +10948,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.5,
     "price": "$$",
     "notes": "Hearty breakfast spot; serves chicken fried steak and massive pancakes.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Guero Canelo",
@@ -8846,7 +10958,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.5,
     "price": "$",
     "notes": "Home of the Sonoran Dog; serves award-winning hot dogs and carne asada.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "BK Tacos",
@@ -8855,7 +10968,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.5,
     "price": "$",
     "notes": "Taco shop rival; serves Sonoran hot dogs, tacos, and seafood cocktails.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Churrasco de Brasil",
@@ -8864,7 +10978,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.5,
     "price": "$$$",
     "notes": "Authentic Brazilian steakhouse; features continuous tableside service of grilled meats, an extensive salad bar, and caipirinhas.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "El Taco Rustico",
@@ -8873,7 +10988,18 @@ export const restaurants: Restaurant[] = [
     "distance": 5.5,
     "price": "$",
     "notes": "Rustic Mexican street food; serves charcoal-grilled ribs, tender quesabirria, and flavorful carne asada.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Bazil's",
+    "cuisine": "Bar, Pub & Brewery",
+    "neighborhood": "Northside & Foothills",
+    "distance": 5.5,
+    "price": "$$",
+    "notes": "Lively pub atmosphere with diverse craft beers and classic bar bites. Great for unwinding.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Culver's",
@@ -8882,7 +11008,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.5,
     "price": "$",
     "notes": "Popular neighborhood destination featuring fresh fast food & sandwiches specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Red Lobster",
@@ -8891,7 +11018,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.5,
     "price": "$$",
     "notes": "Popular neighborhood destination featuring fresh seafood specialties.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": false
   },
   {
     "name": "First Watch",
@@ -8900,7 +11028,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.5,
     "price": "$$",
     "notes": "Popular neighborhood destination featuring fresh breakfast & diner specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Food Street Kitchen",
@@ -8909,7 +11038,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.5,
     "price": "$$",
     "notes": "Local favorite in Northside & Foothills serving classic american & comfort options.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Chicken Nuevo",
@@ -8918,7 +11048,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.5,
     "price": "$",
     "notes": "Popular neighborhood destination featuring fresh fast food & sandwiches specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Mosaic",
@@ -8927,7 +11058,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.5,
     "price": "$$",
     "notes": "A great spot to enjoy delicious mexican & sonoran in the Westside & Downtown area.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "The Neighborhood",
@@ -8936,7 +11068,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.6,
     "price": "$$",
     "notes": "Vibrant nightlife and casual bites; offers heavy bar snacks, loaded fries, and late-night drink specials.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Zeke's Pizza & Coffee",
@@ -8945,7 +11078,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.6,
     "price": "$",
     "notes": "Hybrid pizza and coffee concept; offers quick artisan slices alongside fresh espresso pulls.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Empire Pizza & Pub",
@@ -8954,7 +11088,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.6,
     "price": "$$",
     "notes": "Innovative elote pizza; authentic NY-style massive slices, cold pub beers, and casual sports viewing.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "HighWire",
@@ -8963,7 +11098,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.6,
     "price": "$$",
     "notes": "Vibrant nightlife and casual bites; famous for molecular mixology, pearl shots, and late-night food.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Iguana Cafe & Bar",
@@ -8972,7 +11108,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.6,
     "price": "$$",
     "notes": "Relaxed environment for drinks and light food; serves casual Southwestern appetizers and cold beers.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Barista Del Barrio",
@@ -8981,7 +11118,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.6,
     "price": "$",
     "notes": "Family-owned; top-rated Breakfast Burrito with Soyrizo and unique Horchesso (horchata espresso) lattes.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "The Grill",
@@ -8990,7 +11128,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.6,
     "price": "$$$",
     "notes": "Hacienda Del Sol; award-winning wine list; serves prime cuts and locally sourced ingredients with views.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Terraza Garden",
@@ -8999,25 +11138,38 @@ export const restaurants: Restaurant[] = [
     "distance": 5.6,
     "price": "$$",
     "notes": "Patio dining at Hacienda Del Sol; features live music, craft cocktails, and upscale bistro fare.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "La Luz Restaurant",
-    "cuisine": "American & Comfort",
+    "cuisine": "Mexican & Sonoran",
     "neighborhood": "Northside & Foothills",
     "distance": 5.6,
-    "price": "$$",
-    "notes": "Local favorite in Northside & Foothills serving classic american & comfort options.",
-    "isLocal": true
+    "price": "$",
+    "notes": "Homestyle Mexican-American breakfast and lunch, beloved for its comforting, classic dishes.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Casa 71 Tequila Lounge",
-    "cuisine": "American & Comfort",
+    "cuisine": "Bar, Pub & Brewery",
     "neighborhood": "Northside & Foothills",
     "distance": 5.6,
+    "price": "$$$",
+    "notes": "Chic lounge offering an extensive tequila selection, craft cocktails, and sophisticated small bites.",
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Papa Murphy's",
+    "cuisine": "Italian & Pizza",
+    "neighborhood": "Eastside & Vail",
+    "distance": 5.6,
     "price": "$$",
-    "notes": "Popular neighborhood destination featuring fresh american & comfort specialties.",
-    "isLocal": true
+    "notes": "Take-and-bake pizza experience, offering fresh ingredients for cooking at home. Convenient and fun!",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Joe's Pancake House",
@@ -9025,8 +11177,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Eastside & Vail",
     "distance": 5.6,
     "price": "$$",
-    "notes": "A great spot to enjoy delicious breakfast & diner in the Eastside & Vail area.",
-    "isLocal": true
+    "notes": "Classic diner serving hearty breakfasts, fluffy pancakes, and American comfort food all day.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Church's Chicken",
@@ -9035,7 +11188,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.6,
     "price": "$",
     "notes": "Popular neighborhood destination featuring fresh fast food & sandwiches specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Jerry Bob's Restaurant",
@@ -9044,16 +11198,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.6,
     "price": "$$",
     "notes": "Local favorite in Eastside & Vail serving classic american & comfort options.",
-    "isLocal": true
-  },
-  {
-    "name": "JA Ramen",
-    "cuisine": "Asian & Sushi",
-    "neighborhood": "Urban Core",
-    "distance": 5.7,
-    "price": "$$",
-    "notes": "Authentic ramen preparations; rich pork broths, perfectly soft-boiled eggs, and fresh noodles.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "La Chingada Cocina",
@@ -9062,7 +11208,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.7,
     "price": "$$",
     "notes": "Highly stylized modern Mexican; famous for the award-winning Taco Vaquero and extravagant cocktails.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "La Estrella Bakery",
@@ -9071,7 +11218,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.7,
     "price": "$",
     "notes": "Traditional Mexican pan dulce; serves authentic conchas, empanadas, freshly made tortillas, and tamales.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Le Macaron",
@@ -9080,7 +11228,18 @@ export const restaurants: Restaurant[] = [
     "distance": 5.7,
     "price": "$",
     "notes": "Authentic macarons and French desserts; delicate almond-flour cookies in diverse, colorful flavor profiles.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "JA Ramen",
+    "cuisine": "Asian & Sushi",
+    "neighborhood": "Urban Core",
+    "distance": 5.7,
+    "price": "$$",
+    "notes": "Authentic ramen preparations; rich pork broths, perfectly soft-boiled eggs, and fresh noodles.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "The Kava Den",
@@ -9089,7 +11248,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.7,
     "price": "$",
     "notes": "Alternative beverage lounge; serves relaxing kava root teas and botanical drinks in a chill atmosphere.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Little Caesars",
@@ -9097,8 +11257,19 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Eastside & Vail",
     "distance": 5.7,
     "price": "$",
-    "notes": "A great spot to enjoy delicious italian & pizza in the Eastside & Vail area.",
-    "isLocal": false
+    "notes": "Hot-N-Ready pizzas offer a quick, affordable option for family pizza night.",
+    "isLocal": false,
+    "enriched": true
+  },
+  {
+    "name": "Starbucks",
+    "cuisine": "Coffee & Cafe",
+    "neighborhood": "Eastside & Vail",
+    "distance": 5.7,
+    "price": "$",
+    "notes": "A great spot to enjoy delicious coffee & cafe in the Eastside & Vail area.",
+    "isLocal": false,
+    "enriched": false
   },
   {
     "name": "Los Beto's Mexican Food",
@@ -9107,7 +11278,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.7,
     "price": "$$",
     "notes": "A great spot to enjoy delicious mexican & sonoran in the Eastside & Vail area.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "The Edge A Tucson Bar",
@@ -9116,7 +11288,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.7,
     "price": "$$",
     "notes": "A great spot to enjoy delicious bar, pub & brewery in the Northwest & Marana area.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "The Coronet",
@@ -9125,7 +11298,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.8,
     "price": "$$$",
     "notes": "Creative menu in a chic historic setting; features European-inspired dishes like Smoked Trumpet Mushroom Sashimi.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Firebirds Wood",
@@ -9134,7 +11308,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.8,
     "price": "$$$",
     "notes": "Polished casual dining; serves wood-fired steaks, fresh seafood, and signature cocktails.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "North Italia",
@@ -9143,7 +11318,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.8,
     "price": "$$",
     "notes": "Handmade pasta daily; serves modern Italian favorites like Bolognese and white truffle garlic bread.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "True Food Kitchen",
@@ -9152,7 +11328,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.8,
     "price": "$$",
     "notes": "Anti-inflammatory diet focus; serves nutrient-dense bowls, salads, and refreshing kale juices.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "RA Sushi",
@@ -9161,7 +11338,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.8,
     "price": "$$",
     "notes": "Upbeat sushi bar; features creative specialty rolls, sashimi, and vibrant nightlife atmosphere.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Blanco Cocina",
@@ -9170,7 +11348,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.8,
     "price": "$$",
     "notes": "Modern Mexican; serves fresh guacamole, cheese crisps, and slow-cooked meat tacos.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Frost Gelato",
@@ -9179,7 +11358,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.8,
     "price": "$",
     "notes": "Authentic Italian gelato; serves intense flavors like Dark Chocolate and Sea Salt Caramel.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "AJ's Fine Foods",
@@ -9188,7 +11368,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.8,
     "price": "$$",
     "notes": "Upscale grocer patio; serves wood-fired pizzas, gourmet sandwiches, and sushi from the deli.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "El Charro (Sunrise)",
@@ -9197,7 +11378,18 @@ export const restaurants: Restaurant[] = [
     "distance": 5.8,
     "price": "$$",
     "notes": "Historic family recipes; famous for inventing the chimichanga and sun-dried carne seca.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Lucky Wishbone",
+    "cuisine": "American & Comfort",
+    "neighborhood": "Southside & Heritage",
+    "distance": 5.8,
+    "price": "$",
+    "notes": "A Tucson institution known for delicious fried chicken, fish, and classic comfort food.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Carl's Jr.",
@@ -9205,8 +11397,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Eastside & Vail",
     "distance": 5.8,
     "price": "$",
-    "notes": "Popular neighborhood destination featuring fresh fast food & sandwiches specialties.",
-    "isLocal": true
+    "notes": "Classic charbroiled burgers and crispy crinkle fries for a quick, satisfying meal.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "El Potosino",
@@ -9215,7 +11408,18 @@ export const restaurants: Restaurant[] = [
     "distance": 5.8,
     "price": "$$",
     "notes": "Local favorite in Eastside & Vail serving classic mexican & sonoran options.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
+  },
+  {
+    "name": "Burger King",
+    "cuisine": "Fast Food & Sandwiches",
+    "neighborhood": "Eastside & Vail",
+    "distance": 5.8,
+    "price": "$",
+    "notes": "Popular neighborhood destination featuring fresh fast food & sandwiches specialties.",
+    "isLocal": false,
+    "enriched": false
   },
   {
     "name": "BZ's Italian Kitchen",
@@ -9224,7 +11428,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.9,
     "price": "$$",
     "notes": "Popular neighborhood destination featuring fresh italian & pizza specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "IHOP",
@@ -9233,7 +11438,38 @@ export const restaurants: Restaurant[] = [
     "distance": 5.9,
     "price": "$",
     "notes": "A great spot to enjoy delicious dessert & bakery in the Eastside & Vail area.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": false
+  },
+  {
+    "name": "Salsa Verde",
+    "cuisine": "Mexican & Sonoran",
+    "neighborhood": "Eastside & Vail",
+    "distance": 5.9,
+    "price": "$$",
+    "notes": "Popular neighborhood destination featuring fresh mexican & sonoran specialties.",
+    "isLocal": true,
+    "enriched": false
+  },
+  {
+    "name": "Jack in the Box",
+    "cuisine": "Fast Food & Sandwiches",
+    "neighborhood": "Eastside & Vail",
+    "distance": 5.9,
+    "price": "$",
+    "notes": "A great spot to enjoy delicious fast food & sandwiches in the Eastside & Vail area.",
+    "isLocal": false,
+    "enriched": false
+  },
+  {
+    "name": "Arby's",
+    "cuisine": "Fast Food & Sandwiches",
+    "neighborhood": "Eastside & Vail",
+    "distance": 5.9,
+    "price": "$",
+    "notes": "Local favorite in Eastside & Vail serving classic fast food & sandwiches options.",
+    "isLocal": false,
+    "enriched": false
   },
   {
     "name": "Cattletown Steakhouse & Saloon",
@@ -9242,7 +11478,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.9,
     "price": "$",
     "notes": "Popular neighborhood destination featuring fresh boba tea & beverages specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Red Robin",
@@ -9251,7 +11488,8 @@ export const restaurants: Restaurant[] = [
     "distance": 5.9,
     "price": "$",
     "notes": "Popular neighborhood destination featuring fresh fast food & sandwiches specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Filiberto's (Camp.)",
@@ -9260,7 +11498,8 @@ export const restaurants: Restaurant[] = [
     "distance": 6,
     "price": "$",
     "notes": "24-hour service; serving airport and south corridor with massive carne asada burritos and tacos.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "American Eat Co.",
@@ -9269,7 +11508,8 @@ export const restaurants: Restaurant[] = [
     "distance": 6,
     "price": "$$",
     "notes": "7 restaurants, full bar, and arcade; offers everything from pizza to the Death Free Foodie Roll.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Cafe Con Leche",
@@ -9278,7 +11518,8 @@ export const restaurants: Restaurant[] = [
     "distance": 6,
     "price": "$",
     "notes": "Specialized Mexican coffee and pan dulce; serves traditional sweet breads and rich morning brews.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "El Tacoson",
@@ -9287,7 +11528,8 @@ export const restaurants: Restaurant[] = [
     "distance": 6,
     "price": "$",
     "notes": "Traditional and street-style tacos; features freshly grilled carne asada and homemade salsas.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Monster Sonoran",
@@ -9296,7 +11538,8 @@ export const restaurants: Restaurant[] = [
     "distance": 6,
     "price": "$",
     "notes": "Modern Sonoran dogs and toppings; serves extreme bacon-wrapped hot dogs with loaded condiments.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Walter's Pizzeria",
@@ -9305,7 +11548,8 @@ export const restaurants: Restaurant[] = [
     "distance": 6,
     "price": "$",
     "notes": "Authentic local pizzeria in the food court; serves hot, cheesy slices and garlic knots.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Fatboy Sandos",
@@ -9314,7 +11558,8 @@ export const restaurants: Restaurant[] = [
     "distance": 6,
     "price": "$",
     "notes": "Gourmet deli sandwiches; famous for Negi Miso Chili Crisp Onigiri and Japanese-inspired sandos.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Kitchen 86",
@@ -9323,7 +11568,8 @@ export const restaurants: Restaurant[] = [
     "distance": 6,
     "price": "$$",
     "notes": "Modern comfort food and regional dishes; serves elevated classic plates in a casual setting.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "El Torero",
@@ -9332,7 +11578,8 @@ export const restaurants: Restaurant[] = [
     "distance": 6,
     "price": "$$",
     "notes": "Historic landmark; original Lerua green corn tamales, Mahi Mahi Tacos, and savory burritos.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Maico Restaurant",
@@ -9341,7 +11588,8 @@ export const restaurants: Restaurant[] = [
     "distance": 6,
     "price": "$",
     "notes": "Authentic walk-up window serving a legendary Chile Relleno Burrito and hearty breakfast options.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Taqueria Pico de Gallo",
@@ -9350,7 +11598,8 @@ export const restaurants: Restaurant[] = [
     "distance": 6,
     "price": "$",
     "notes": "Freshly made thick corn tortillas, incredible fish tacos, and authentic fresh fruit cups.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Panda Express (South)",
@@ -9359,7 +11608,8 @@ export const restaurants: Restaurant[] = [
     "distance": 6,
     "price": "$",
     "notes": "Standard Chinese-American fare at 6th and I-10; famous for sweet Orange Chicken and chow mein.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Deliciocho",
@@ -9368,7 +11618,8 @@ export const restaurants: Restaurant[] = [
     "distance": 6,
     "price": "$",
     "notes": "Tacos and churro-based ice cream sandwiches; offers creative, decadent Mexican-inspired dessert fusions.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Samurai Sombrero",
@@ -9377,7 +11628,8 @@ export const restaurants: Restaurant[] = [
     "distance": 6,
     "price": "$$",
     "notes": "Fusion sushi located inside American Eat Co.; features the unique vegan Death Free Foodie Roll.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Gus Balon's",
@@ -9386,7 +11638,8 @@ export const restaurants: Restaurant[] = [
     "distance": 6,
     "price": "$",
     "notes": "Classic family diner established 1965; serves old-school breakfast plates and homestyle pies.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Alloro D.O.C.",
@@ -9395,7 +11648,8 @@ export const restaurants: Restaurant[] = [
     "distance": 6,
     "price": "$$$",
     "notes": "Upscale chophouse and Italian fare; features premium steaks and delicate handmade pasta dishes.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Subway (Harrison)",
@@ -9404,7 +11658,8 @@ export const restaurants: Restaurant[] = [
     "distance": 6,
     "price": "$",
     "notes": "Sandwich franchise; serves customizable footlong subs with fresh vegetables and cold cuts.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Pizza Hut (Harrison)",
@@ -9413,7 +11668,8 @@ export const restaurants: Restaurant[] = [
     "distance": 6,
     "price": "$",
     "notes": "Chain pizza favorites; serves original Pan Pizza, stuffed crusts, and crispy chicken wings.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Canyon's Crown",
@@ -9422,7 +11678,8 @@ export const restaurants: Restaurant[] = [
     "distance": 6,
     "price": "$$",
     "notes": "British-style pub; serves fish and chips, bangers and mash, and scotch eggs with pints.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Giacomo's",
@@ -9431,7 +11688,8 @@ export const restaurants: Restaurant[] = [
     "distance": 6,
     "price": "$$",
     "notes": "Homestyle Italian; serves generous portions of lasagna, chicken piccata, and garlic rolls.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "China Sunrise",
@@ -9440,7 +11698,8 @@ export const restaurants: Restaurant[] = [
     "distance": 6,
     "price": "$$",
     "notes": "Traditional Chinese banquet hall; serves Peking duck, dim sum, and spicy Szechuan dishes.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Sunrise Cafe",
@@ -9449,7 +11708,8 @@ export const restaurants: Restaurant[] = [
     "distance": 6,
     "price": "$",
     "notes": "Local breakfast favorite; serves fluffy pancakes, chorizo and eggs, and bottomless coffee.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Ginza",
@@ -9458,7 +11718,8 @@ export const restaurants: Restaurant[] = [
     "distance": 6,
     "price": "$$",
     "notes": "Authentic Japanese sushi bar; serves fresh nigiri, chirashi bowls, and udon noodle soups.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "McDonald's (Sunrise)",
@@ -9467,7 +11728,8 @@ export const restaurants: Restaurant[] = [
     "distance": 6,
     "price": "$",
     "notes": "Fast food burgers; serves classic Big Macs, McNuggets, and breakfast McMuffins.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Papa Johns (Ina)",
@@ -9476,7 +11738,8 @@ export const restaurants: Restaurant[] = [
     "distance": 6,
     "price": "$",
     "notes": "Pizza chain; serves fresh dough pizzas, garlic knots, and papadias.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Burger King (Ina)",
@@ -9485,7 +11748,8 @@ export const restaurants: Restaurant[] = [
     "distance": 6,
     "price": "$",
     "notes": "Flame-grilled burgers; serves Whoppers, chicken fries, and onion rings.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Starbucks (Sunrise)",
@@ -9494,7 +11758,8 @@ export const restaurants: Restaurant[] = [
     "distance": 6,
     "price": "$",
     "notes": "Coffeehouse chain; serves espresso drinks, refreshers, and pastries.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Dutch Bros (Ina)",
@@ -9503,16 +11768,8 @@ export const restaurants: Restaurant[] = [
     "distance": 6,
     "price": "$",
     "notes": "Drive-thru coffee; serves Rebel energy drinks, freezes, and custom lattes.",
-    "isLocal": false
-  },
-  {
-    "name": "Filiberto's (Ina)",
-    "cuisine": "Mexican & Sonoran",
-    "neighborhood": "Northside & Foothills",
-    "distance": 6,
-    "price": "$",
-    "notes": "24-hour fast food; serves carne asada burritos, rolled tacos, and horchata.",
-    "isLocal": true
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "MotoSonora Brewing",
@@ -9521,7 +11778,8 @@ export const restaurants: Restaurant[] = [
     "distance": 6,
     "price": "$$",
     "notes": "Motorcycle-themed brewery; features a beer garden and dog park.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Barrio Brewing",
@@ -9530,7 +11788,8 @@ export const restaurants: Restaurant[] = [
     "distance": 6,
     "price": "$$",
     "notes": "Oldest brewery in Tucson; serves Barrio Blonde and pub fare near the tracks.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Tucson Hop Shop",
@@ -9539,7 +11798,8 @@ export const restaurants: Restaurant[] = [
     "distance": 6,
     "price": "$$",
     "notes": "Urban beer garden in the Metal Arts Village; features curated craft ales, patio seating, and a relaxed, dog-friendly environment.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Mariscos San Juan",
@@ -9548,7 +11808,8 @@ export const restaurants: Restaurant[] = [
     "distance": 6,
     "price": "$$",
     "notes": "Authentic Mexican seafood joint; famous for refreshing shrimp cocktails, tostadas de ceviche, and whole fried fish.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Main Event",
@@ -9556,17 +11817,19 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Westside & Downtown",
     "distance": 6,
     "price": "$$",
-    "notes": "Popular neighborhood destination featuring fresh american & comfort specialties.",
-    "isLocal": true
+    "notes": "Fun entertainment center offering casual American fare, drinks, and a lively atmosphere.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Texas Roadhouse",
-    "cuisine": "Boba Tea & Beverages",
+    "cuisine": "Steakhouse & BBQ",
     "neighborhood": "Southside & Heritage",
     "distance": 6,
-    "price": "$",
-    "notes": "Popular neighborhood destination featuring fresh boba tea & beverages specialties.",
-    "isLocal": false
+    "price": "$$",
+    "notes": "Lively steakhouse known for hand-cut steaks, fall-off-the-bone ribs, and country music.",
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Ojos Locos Sports Cantina",
@@ -9575,7 +11838,8 @@ export const restaurants: Restaurant[] = [
     "distance": 6,
     "price": "$$",
     "notes": "Popular neighborhood destination featuring fresh american & comfort specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Tavolino Ristorante Italiano",
@@ -9584,7 +11848,8 @@ export const restaurants: Restaurant[] = [
     "distance": 6.1,
     "price": "$$",
     "notes": "Popular neighborhood destination featuring fresh italian & pizza specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "First Watch",
@@ -9593,7 +11858,8 @@ export const restaurants: Restaurant[] = [
     "distance": 6.1,
     "price": "$$",
     "notes": "Popular neighborhood destination featuring fresh breakfast & diner specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Uptown Burger",
@@ -9601,8 +11867,19 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Northside & Foothills",
     "distance": 6.1,
     "price": "$",
-    "notes": "A great spot to enjoy delicious fast food & sandwiches in the Northside & Foothills area.",
-    "isLocal": true
+    "notes": "Classic American burgers and fries, perfect for a quick, satisfying meal.",
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Church's Chicken",
+    "cuisine": "Fast Food & Sandwiches",
+    "neighborhood": "Eastside & Vail",
+    "distance": 6.1,
+    "price": "$",
+    "notes": "Popular neighborhood destination featuring fresh fast food & sandwiches specialties.",
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Whataburger",
@@ -9610,8 +11887,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Northwest & Marana",
     "distance": 6.1,
     "price": "$",
-    "notes": "Popular neighborhood destination featuring fresh fast food & sandwiches specialties.",
-    "isLocal": false
+    "notes": "Texas-sized burgers and customizable options available 24/7. A beloved late-night destination.",
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "El Pollo Loco",
@@ -9620,7 +11898,8 @@ export const restaurants: Restaurant[] = [
     "distance": 6.1,
     "price": "$",
     "notes": "A great spot to enjoy delicious mexican & sonoran in the Westside & Downtown area.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": false
   },
   {
     "name": "Eegee's",
@@ -9629,7 +11908,8 @@ export const restaurants: Restaurant[] = [
     "distance": 6.1,
     "price": "$",
     "notes": "Popular neighborhood destination featuring fresh fast food & sandwiches specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Taqueria Jason",
@@ -9638,7 +11918,8 @@ export const restaurants: Restaurant[] = [
     "distance": 6.2,
     "price": "$",
     "notes": "Award-winning Sonoran dogs and fruit raspados; features classic bacon-wrapped franks and salsas.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Flying V",
@@ -9647,7 +11928,8 @@ export const restaurants: Restaurant[] = [
     "distance": 6.2,
     "price": "$$$",
     "notes": "Loews Ventana Canyon; famous for tableside guacamole and upscale Southwestern grill fare.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Cascade Lounge",
@@ -9656,7 +11938,8 @@ export const restaurants: Restaurant[] = [
     "distance": 6.2,
     "price": "$$",
     "notes": "Resort lounge with views; serves craft cocktails, light appetizers, and live evening music.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "The Canyon Club",
@@ -9665,7 +11948,8 @@ export const restaurants: Restaurant[] = [
     "distance": 6.2,
     "price": "$$$",
     "notes": "Exclusive resort dining; features seasonal American cuisine, fresh seafood, and mountain views.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Vista Barista",
@@ -9674,7 +11958,8 @@ export const restaurants: Restaurant[] = [
     "distance": 6.2,
     "price": "$",
     "notes": "Resort coffee shop; serves Starbucks coffee, fresh pastries, and grab-and-go breakfast items.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Bill's Grill",
@@ -9683,7 +11968,8 @@ export const restaurants: Restaurant[] = [
     "distance": 6.2,
     "price": "$$",
     "notes": "Poolside dining at Loews; serves grilled burgers, fresh salads, and frozen tropical drinks.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Ventana Bar & Grill",
@@ -9692,7 +11978,18 @@ export const restaurants: Restaurant[] = [
     "distance": 6.2,
     "price": "$$",
     "notes": "Casual resort grill; features club sandwiches, quesadillas, and local craft beers on tap.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Vivace",
+    "cuisine": "Italian & Pizza",
+    "neighborhood": "Northside & Foothills",
+    "distance": 6.2,
+    "price": "$$$",
+    "notes": "Elegant Italian dining with exquisite pasta dishes, fine wines, and stunning city views.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "MOD Pizza",
@@ -9701,7 +11998,8 @@ export const restaurants: Restaurant[] = [
     "distance": 6.2,
     "price": "$",
     "notes": "Popular neighborhood destination featuring fresh italian & pizza specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Jersey Mike's Subs",
@@ -9710,7 +12008,8 @@ export const restaurants: Restaurant[] = [
     "distance": 6.2,
     "price": "$",
     "notes": "Local favorite in Westside & Downtown serving classic fast food & sandwiches options.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": false
   },
   {
     "name": "The Habit Burger Grill",
@@ -9719,16 +12018,18 @@ export const restaurants: Restaurant[] = [
     "distance": 6.2,
     "price": "$",
     "notes": "Popular neighborhood destination featuring fresh fast food & sandwiches specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Taco Bell",
-    "cuisine": "Mexican & Sonoran",
+    "cuisine": "Fast Food & Sandwiches",
     "neighborhood": "Westside & Downtown",
     "distance": 6.2,
     "price": "$",
-    "notes": "Popular neighborhood destination featuring fresh mexican & sonoran specialties.",
-    "isLocal": false
+    "notes": "Fast-food chain serving inventive Tex-Mex favorites like tacos, burritos, and Crunchwraps.",
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Chipotle",
@@ -9736,8 +12037,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Westside & Downtown",
     "distance": 6.2,
     "price": "$",
-    "notes": "Popular neighborhood destination featuring fresh mexican & sonoran specialties.",
-    "isLocal": false
+    "notes": "Build-your-own burritos and bowls with fresh, high-quality ingredients in a fast-casual setting.",
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Oregano's Pizza Bistro",
@@ -9745,8 +12047,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Westside & Downtown",
     "distance": 6.2,
     "price": "$$",
-    "notes": "A great spot to enjoy delicious italian & pizza in the Westside & Downtown area.",
-    "isLocal": true
+    "notes": "Chicago-style deep-dish pizza, famous stuffed pizzas, and classic Italian-American comfort food.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "In-N-Out Burger",
@@ -9755,7 +12058,8 @@ export const restaurants: Restaurant[] = [
     "distance": 6.2,
     "price": "$",
     "notes": "Popular neighborhood destination featuring fresh fast food & sandwiches specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Chick-fil-A",
@@ -9764,7 +12068,8 @@ export const restaurants: Restaurant[] = [
     "distance": 6.2,
     "price": "$",
     "notes": "A great spot to enjoy delicious fast food & sandwiches in the Westside & Downtown area.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": false
   },
   {
     "name": "Krispy Kreme",
@@ -9773,7 +12078,8 @@ export const restaurants: Restaurant[] = [
     "distance": 6.2,
     "price": "$",
     "notes": "A great spot to enjoy delicious dessert & bakery in the Westside & Downtown area.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Néktər",
@@ -9782,7 +12088,8 @@ export const restaurants: Restaurant[] = [
     "distance": 6.3,
     "price": "$",
     "notes": "A great spot to enjoy delicious coffee & cafe in the Northside & Foothills area.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Blanco's",
@@ -9790,8 +12097,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Northside & Foothills",
     "distance": 6.3,
     "price": "$$",
-    "notes": "A great spot to enjoy delicious american & comfort in the Northside & Foothills area.",
-    "isLocal": true
+    "notes": "Classic American fare with a modern twist, perfect for a casual lunch or dinner.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "McDonald's",
@@ -9800,7 +12108,18 @@ export const restaurants: Restaurant[] = [
     "distance": 6.3,
     "price": "$",
     "notes": "Local favorite in Westside & Downtown serving classic fast food & sandwiches options.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": false
+  },
+  {
+    "name": "North Italia",
+    "cuisine": "Italian & Pizza",
+    "neighborhood": "Northside & Foothills",
+    "distance": 6.3,
+    "price": "$$",
+    "notes": "Popular neighborhood destination featuring fresh italian & pizza specialties.",
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Firebirds",
@@ -9809,52 +12128,58 @@ export const restaurants: Restaurant[] = [
     "distance": 6.3,
     "price": "$$",
     "notes": "A great spot to enjoy delicious american & comfort in the Northside & Foothills area.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
+  },
+  {
+    "name": "RA Sushi",
+    "cuisine": "Asian & Sushi",
+    "neighborhood": "Northside & Foothills",
+    "distance": 6.3,
+    "price": "$$",
+    "notes": "A great spot to enjoy delicious asian & sushi in the Northside & Foothills area.",
+    "isLocal": true,
+    "enriched": false
+  },
+  {
+    "name": "True Food Kitchen",
+    "cuisine": "American & Comfort",
+    "neighborhood": "Northside & Foothills",
+    "distance": 6.3,
+    "price": "$$",
+    "notes": "A great spot to enjoy delicious american & comfort in the Northside & Foothills area.",
+    "isLocal": true,
+    "enriched": false
+  },
+  {
+    "name": "Starbucks",
+    "cuisine": "Coffee & Cafe",
+    "neighborhood": "Northside & Foothills",
+    "distance": 6.4,
+    "price": "$",
+    "notes": "Your reliable stop for consistent coffee, espresso drinks, and quick grab-and-go bites.",
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Carniceria El Sentimental",
     "cuisine": "Mexican & Sonoran",
     "neighborhood": "Northside & Foothills",
     "distance": 6.4,
-    "price": "$$",
-    "notes": "Local favorite in Northside & Foothills serving classic mexican & sonoran options.",
-    "isLocal": true
-  },
-  {
-    "name": "In-N-Out Burger",
-    "cuisine": "Fast Food & Sandwiches",
-    "neighborhood": "Southside & Heritage",
-    "distance": 6.5,
     "price": "$",
-    "notes": "Iconic burger chain; Ajo Way location serving Double-Doubles, fresh fries, and Neapolitan shakes.",
-    "isLocal": false
+    "notes": "Authentic Mexican carniceria offering fresh meats, groceries, and delicious Sonoran-style prepared foods.",
+    "isLocal": true,
+    "enriched": true
   },
   {
-    "name": "The Cork Tucson",
-    "cuisine": "American & Comfort",
-    "neighborhood": "Eastside & Vail",
-    "distance": 6.5,
-    "price": "$$$",
-    "notes": "Vintage 1966 vibe; adobe brick setting; serves Angus filet mignon, bison, and Kangaroo tenderloin.",
-    "isLocal": true
-  },
-  {
-    "name": "Zio Peppe",
-    "cuisine": "Italian & Pizza",
-    "neighborhood": "Eastside & Vail",
-    "distance": 6.5,
-    "price": "$$",
-    "notes": "Innovative fusion; figgy stardust pizza, quesabirria pizza, and famous elote arancini.",
-    "isLocal": true
-  },
-  {
-    "name": "Penelope Pizza",
-    "cuisine": "Italian & Pizza",
-    "neighborhood": "Eastside & Vail",
-    "distance": 6.5,
-    "price": "$$",
-    "notes": "Located inside Cartel; Yelp Top 100; features artisan wood-fired pies and fluffy chocolate tiramisu.",
-    "isLocal": true
+    "name": "Dairy Queen",
+    "cuisine": "Dessert & Bakery",
+    "neighborhood": "Northside & Foothills",
+    "distance": 6.4,
+    "price": "$",
+    "notes": "Local favorite in Northside & Foothills serving classic dessert & bakery options.",
+    "isLocal": false,
+    "enriched": false
   },
   {
     "name": "Mi Nidito",
@@ -9863,7 +12188,8 @@ export const restaurants: Restaurant[] = [
     "distance": 6.5,
     "price": "$$",
     "notes": "Presidential landmark; \"President's Plate\" features a massive combination of enchiladas, tamales, and chile rellenos.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Micha's Restaurant",
@@ -9872,7 +12198,8 @@ export const restaurants: Restaurant[] = [
     "distance": 6.5,
     "price": "$$",
     "notes": "Serving South Tucson for over 50 years; famous for classic chimichangas and heavy Mexican breakfasts.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Bada Bing Bada Boom",
@@ -9881,7 +12208,8 @@ export const restaurants: Restaurant[] = [
     "distance": 6.5,
     "price": "$$",
     "notes": "Family arcade; serves hot pizza, wings, mozzarella sticks, and features a full bar.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Crossroads",
@@ -9890,7 +12218,18 @@ export const restaurants: Restaurant[] = [
     "distance": 6.5,
     "price": "$$",
     "notes": "Long-standing community Mexican landmark; offers a massive Sonoran-style rotating buffet and classic plates.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "In-N-Out Burger",
+    "cuisine": "Fast Food & Sandwiches",
+    "neighborhood": "Southside & Heritage",
+    "distance": 6.5,
+    "price": "$",
+    "notes": "Iconic burger chain; Ajo Way location serving Double-Doubles, fresh fries, and Neapolitan shakes.",
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Mariscos Chihuahua",
@@ -9899,7 +12238,8 @@ export const restaurants: Restaurant[] = [
     "distance": 6.5,
     "price": "$$",
     "notes": "Famous for Camarones Culichi (creamy green chile shrimp), fresh ceviche tostadas, and fried octopus.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Karichimaka",
@@ -9908,7 +12248,8 @@ export const restaurants: Restaurant[] = [
     "distance": 6.5,
     "price": "$$",
     "notes": "Over 70 years old; stellar classic Mexican food featuring fresh house-made tortillas and rich sauces.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Luna y Sol",
@@ -9917,7 +12258,8 @@ export const restaurants: Restaurant[] = [
     "distance": 6.5,
     "price": "$",
     "notes": "New cafe space in South Tucson; serves specialized espresso drinks and fresh local baked goods.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Domino's (6th Ave)",
@@ -9926,7 +12268,38 @@ export const restaurants: Restaurant[] = [
     "distance": 6.5,
     "price": "$",
     "notes": "Delivery pizza chain; serves garlic-seasoned crusts, loaded specialty pizzas, and cheesy bread.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
+  },
+  {
+    "name": "The Cork Tucson",
+    "cuisine": "American & Comfort",
+    "neighborhood": "Eastside & Vail",
+    "distance": 6.5,
+    "price": "$$$",
+    "notes": "Vintage 1966 vibe; adobe brick setting; serves Angus filet mignon, bison, and Kangaroo tenderloin.",
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Zio Peppe",
+    "cuisine": "Italian & Pizza",
+    "neighborhood": "Eastside & Vail",
+    "distance": 6.5,
+    "price": "$$",
+    "notes": "Innovative fusion; figgy stardust pizza, quesabirria pizza, and famous elote arancini.",
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Penelope Pizza",
+    "cuisine": "Italian & Pizza",
+    "neighborhood": "Eastside & Vail",
+    "distance": 6.5,
+    "price": "$$",
+    "notes": "Located inside Cartel; Yelp Top 100; features artisan wood-fired pies and fluffy chocolate tiramisu.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Cafe Francais",
@@ -9935,7 +12308,8 @@ export const restaurants: Restaurant[] = [
     "distance": 6.5,
     "price": "$$",
     "notes": "Authentic French bakery and pastries; famous for the Cardamon Brioche Roll and Twice Baked Almond Croissant.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "UnCork'd Kitchen",
@@ -9944,7 +12318,8 @@ export const restaurants: Restaurant[] = [
     "distance": 6.5,
     "price": "$$",
     "notes": "Eastside cocktail bar with late-night kitchen; serves Steak Frites, Nom Nom Balls, and craft drinks.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Catalina Dining",
@@ -9953,7 +12328,8 @@ export const restaurants: Restaurant[] = [
     "distance": 6.5,
     "price": "$$",
     "notes": "Miraval resort dining; focuses on balanced, mindful cuisine with locally sourced ingredients.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Sauce (NW)",
@@ -9962,7 +12338,8 @@ export const restaurants: Restaurant[] = [
     "distance": 6.5,
     "price": "$$",
     "notes": "Fast-casual pizza and wine; serves thin-crust artisan pies, fresh salads, and panini.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "The Parish",
@@ -9971,7 +12348,8 @@ export const restaurants: Restaurant[] = [
     "distance": 6.5,
     "price": "$$",
     "notes": "Southern fusion gastropub; famous for the Drunken Angel pasta and bacon popcorn.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Tucson Tamale",
@@ -9980,7 +12358,8 @@ export const restaurants: Restaurant[] = [
     "distance": 6.5,
     "price": "$",
     "notes": "Specialty tamale shop; serves dozens of varieties including green corn, chipotle beef, and vegan options.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Asian Spice",
@@ -9989,7 +12368,8 @@ export const restaurants: Restaurant[] = [
     "distance": 6.5,
     "price": "$$",
     "notes": "Authentic Chinese cuisine; serves spicy Szechuan dishes, handmade dumplings, and hot pots.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Baggin's (Marana)",
@@ -9998,7 +12378,8 @@ export const restaurants: Restaurant[] = [
     "distance": 6.5,
     "price": "$$",
     "notes": "Local sandwich chain; serves The Unforgettable, Cowboy Club, and signature chocolate chip cookies.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Barro's Pizza",
@@ -10007,7 +12388,8 @@ export const restaurants: Restaurant[] = [
     "distance": 6.5,
     "price": "$$",
     "notes": "Family-owned pizza chain; serves thick crust pies, wings, and pasta bowls.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "BarDown Fitness",
@@ -10016,7 +12398,8 @@ export const restaurants: Restaurant[] = [
     "distance": 6.5,
     "price": "$$",
     "notes": "Fitness-focused cafe; serves protein shakes, healthy bowls, and meal prep options.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Chick-Fil-A",
@@ -10025,7 +12408,8 @@ export const restaurants: Restaurant[] = [
     "distance": 6.5,
     "price": "$",
     "notes": "Chicken sandwich chain; serves original chicken sandwiches, waffle fries, and lemonade.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Chili's Grill",
@@ -10034,7 +12418,8 @@ export const restaurants: Restaurant[] = [
     "distance": 6.5,
     "price": "$$",
     "notes": "Casual dining chain; serves baby back ribs, burgers, and fajitas.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Dave's Hot Chicken",
@@ -10043,7 +12428,8 @@ export const restaurants: Restaurant[] = [
     "distance": 6.5,
     "price": "$$",
     "notes": "Nashville hot chicken; serves spicy tenders, sliders, and kale slaw.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Mod Pizza",
@@ -10052,7 +12438,8 @@ export const restaurants: Restaurant[] = [
     "distance": 6.5,
     "price": "$",
     "notes": "Fast-casual pizza; serves customizable individual artisan-style pizzas and salads.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Old Father Inn",
@@ -10061,16 +12448,18 @@ export const restaurants: Restaurant[] = [
     "distance": 6.5,
     "price": "$$",
     "notes": "Historic dive bar; serves classic pub fare, burgers, and cold beer.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Mr. An's Teppan Steak & Seafood",
     "cuisine": "Asian & Sushi",
     "neighborhood": "Northside & Foothills",
     "distance": 6.5,
-    "price": "$$",
-    "notes": "Local favorite in Northside & Foothills serving classic asian & sushi options.",
-    "isLocal": true
+    "price": "$$$",
+    "notes": "Exciting hibachi shows, fresh sushi, and delicious teppanyaki dishes for a fun experience.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Putney's Pitstop Sports Bar & Grill",
@@ -10078,8 +12467,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Northside & Foothills",
     "distance": 6.5,
     "price": "$$",
-    "notes": "Local favorite in Northside & Foothills serving classic bar, pub & brewery options.",
-    "isLocal": true
+    "notes": "Classic sports bar with hearty pub fare, cold beers, and multiple screens for games.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Eegee's",
@@ -10088,7 +12478,8 @@ export const restaurants: Restaurant[] = [
     "distance": 6.6,
     "price": "$",
     "notes": "Popular neighborhood destination featuring fresh fast food & sandwiches specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Red Lobster",
@@ -10096,8 +12487,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Westside & Downtown",
     "distance": 6.6,
     "price": "$$",
-    "notes": "Popular neighborhood destination featuring fresh seafood specialties.",
-    "isLocal": false
+    "notes": "Popular chain offering fresh seafood, famous cheddar bay biscuits, and surf-and-turf options.",
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Sonic",
@@ -10106,16 +12498,18 @@ export const restaurants: Restaurant[] = [
     "distance": 6.6,
     "price": "$",
     "notes": "A great spot to enjoy delicious fast food & sandwiches in the Eastside & Vail area.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Guisos",
     "cuisine": "Mexican & Sonoran",
     "neighborhood": "Northwest & Marana",
     "distance": 6.7,
-    "price": "$",
-    "notes": "A great spot to enjoy delicious mexican & sonoran in the Northwest & Marana area.",
-    "isLocal": true
+    "price": "$$",
+    "notes": "Traditional Sonoran flavors, handcrafted tortillas, and rich stews create an unforgettable culinary experience.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Wienerschnitzel",
@@ -10124,7 +12518,8 @@ export const restaurants: Restaurant[] = [
     "distance": 6.7,
     "price": "$",
     "notes": "Popular neighborhood destination featuring fresh fast food & sandwiches specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Cafe Santa Rosa",
@@ -10133,16 +12528,8 @@ export const restaurants: Restaurant[] = [
     "distance": 6.8,
     "price": "$",
     "notes": "Native American comfort food; famous for Fry bread popovers, red chili beef, and Banana Pancakes.",
-    "isLocal": true
-  },
-  {
-    "name": "Tacos Apson",
-    "cuisine": "Mexican & Sonoran",
-    "neighborhood": "Southside & Heritage",
-    "distance": 6.8,
-    "price": "$",
-    "notes": "Rock-and-roll themed; freshly grilled meats, legendary ribs, and authentic street-style carne asada tacos.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "El Sur Mexican",
@@ -10151,7 +12538,18 @@ export const restaurants: Restaurant[] = [
     "distance": 6.8,
     "price": "$",
     "notes": "Traditional tacos, rice, and beans; casual dining with affordable, massive combination plates.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Tacos Apson",
+    "cuisine": "Mexican & Sonoran",
+    "neighborhood": "Southside & Heritage",
+    "distance": 6.8,
+    "price": "$",
+    "notes": "Rock-and-roll themed; freshly grilled meats, legendary ribs, and authentic street-style carne asada tacos.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Mama Louisa's",
@@ -10160,7 +12558,8 @@ export const restaurants: Restaurant[] = [
     "distance": 6.8,
     "price": "$$",
     "notes": "Serving since 1956; 3rd gen legacy; famous for Joe's Special, Chicken Parmigiana, and Trash Can Fries.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Slice & Ice",
@@ -10169,7 +12568,8 @@ export const restaurants: Restaurant[] = [
     "distance": 6.8,
     "price": "$",
     "notes": "Fast-fired pizza and value snack boxes; serves quick artisan slices alongside refreshing Italian ice.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Tohono Chul Bistro",
@@ -10178,7 +12578,8 @@ export const restaurants: Restaurant[] = [
     "distance": 6.8,
     "price": "$$",
     "notes": "Botanical garden dining; serves prickly pear margaritas and fresh, seasonal brunch on the patio.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Bisbee Breakfast",
@@ -10187,7 +12588,8 @@ export const restaurants: Restaurant[] = [
     "distance": 6.8,
     "price": "$$",
     "notes": "Mining-town themed breakfast; serves massive pancakes and copper-miner sized omelettes.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Button Brew House",
@@ -10196,7 +12598,8 @@ export const restaurants: Restaurant[] = [
     "distance": 6.8,
     "price": "$$",
     "notes": "Local craft brewery; features rotating taps, outdoor patio, and food truck partnerships.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Chicken Nuevo",
@@ -10205,7 +12608,8 @@ export const restaurants: Restaurant[] = [
     "distance": 6.8,
     "price": "$",
     "notes": "Fast-casual Mexican chicken; serves grilled chicken, burritos, and quesadillas.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Copper Creek Cookies",
@@ -10214,7 +12618,8 @@ export const restaurants: Restaurant[] = [
     "distance": 6.8,
     "price": "$$",
     "notes": "Gourmet cookie shop; serves thick, soft-baked cookies in various flavors.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Filiberto's (Cort.)",
@@ -10223,7 +12628,8 @@ export const restaurants: Restaurant[] = [
     "distance": 6.8,
     "price": "$",
     "notes": "24-hour drive-thru; serves massive breakfast burritos, carne asada fries, and rolled tacos.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Oregano's",
@@ -10232,16 +12638,38 @@ export const restaurants: Restaurant[] = [
     "distance": 6.8,
     "price": "$$",
     "notes": "Popular neighborhood destination featuring fresh italian & pizza specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
+  },
+  {
+    "name": "Kampai Sushi",
+    "cuisine": "Asian & Sushi",
+    "neighborhood": "Northside & Foothills",
+    "distance": 6.8,
+    "price": "$$",
+    "notes": "Popular neighborhood destination featuring fresh asian & sushi specialties.",
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Ramiro's",
     "cuisine": "Mexican & Sonoran",
     "neighborhood": "Eastside & Vail",
     "distance": 6.8,
+    "price": "$$",
+    "notes": "Classic Sonoran Mexican cuisine with hearty portions and a friendly, welcoming neighborhood vibe.",
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Taco Bell",
+    "cuisine": "Mexican & Sonoran",
+    "neighborhood": "Eastside & Vail",
+    "distance": 6.8,
     "price": "$",
-    "notes": "A great spot to enjoy delicious mexican & sonoran in the Eastside & Vail area.",
-    "isLocal": true
+    "notes": "Popular neighborhood destination featuring fresh mexican & sonoran specialties.",
+    "isLocal": false,
+    "enriched": false
   },
   {
     "name": "Riley's Irish Travern",
@@ -10249,8 +12677,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Northwest & Marana",
     "distance": 6.8,
     "price": "$$",
-    "notes": "A great spot to enjoy delicious bar, pub & brewery in the Northwest & Marana area.",
-    "isLocal": true
+    "notes": "Authentic Irish pub serving hearty comfort food, a great pint, and lively conversation.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Bahama Buck’s",
@@ -10259,7 +12688,8 @@ export const restaurants: Restaurant[] = [
     "distance": 6.8,
     "price": "$",
     "notes": "Popular neighborhood destination featuring fresh dessert & bakery specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Piazza Gavi Italian Restaurant",
@@ -10268,7 +12698,28 @@ export const restaurants: Restaurant[] = [
     "distance": 6.8,
     "price": "$$",
     "notes": "A great spot to enjoy delicious italian & pizza in the Northside & Foothills area.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
+  },
+  {
+    "name": "Domino's",
+    "cuisine": "Italian & Pizza",
+    "neighborhood": "Northside & Foothills",
+    "distance": 6.9,
+    "price": "$",
+    "notes": "Convenient chain pizza for quick weeknight dinners, perfect for delivery and classic toppings.",
+    "isLocal": false,
+    "enriched": true
+  },
+  {
+    "name": "Sushi on Oracle",
+    "cuisine": "Asian & Sushi",
+    "neighborhood": "Northside & Foothills",
+    "distance": 6.9,
+    "price": "$$",
+    "notes": "Local favorite in Northside & Foothills serving classic asian & sushi options.",
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Golden Dragon Restaurant",
@@ -10276,17 +12727,29 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Northside & Foothills",
     "distance": 6.9,
     "price": "$$",
-    "notes": "Popular neighborhood destination featuring fresh asian & sushi specialties.",
-    "isLocal": true
+    "notes": "Classic spot for reliable Chinese favorites and fresh sushi rolls. Authentic flavors.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Tacos del Rancho",
     "cuisine": "Mexican & Sonoran",
     "neighborhood": "Northside & Foothills",
     "distance": 6.9,
-    "price": "$$",
-    "notes": "Local favorite in Northside & Foothills serving classic mexican & sonoran options.",
-    "isLocal": true
+    "price": "$",
+    "notes": "Authentic Sonoran tacos with handmade tortillas and savory carne asada. A local gem.",
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "The Parish",
+    "cuisine": "American & Comfort",
+    "neighborhood": "Northside & Foothills",
+    "distance": 6.9,
+    "price": "$$$",
+    "notes": "Southern-inspired gastropub with craft cocktails and elevated comfort food. Lively ambiance.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Baggin's",
@@ -10294,26 +12757,29 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Southside & Heritage",
     "distance": 6.9,
     "price": "$",
-    "notes": "Local favorite in Southside & Heritage serving classic fast food & sandwiches options.",
-    "isLocal": true
+    "notes": "Popular local spot for gourmet sandwiches, fresh salads, and delectable homemade desserts.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "The Hills Tucson",
     "cuisine": "American & Comfort",
     "neighborhood": "Northside & Foothills",
     "distance": 6.9,
-    "price": "$$",
-    "notes": "Local favorite in Northside & Foothills serving classic american & comfort options.",
-    "isLocal": true
+    "price": "$$$",
+    "notes": "Upscale American eatery with creative dishes, craft cocktails, and a stylish, modern ambiance.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Flaps and Racks",
-    "cuisine": "Fast Food & Sandwiches",
+    "cuisine": "American & Comfort",
     "neighborhood": "Southside & Heritage",
     "distance": 6.9,
-    "price": "$",
-    "notes": "Popular neighborhood destination featuring fresh fast food & sandwiches specialties.",
-    "isLocal": true
+    "price": "$$",
+    "notes": "Specializes in wings and ribs, offering hearty portions and a casual, flavorful experience.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Your Mom’s House",
@@ -10322,7 +12788,8 @@ export const restaurants: Restaurant[] = [
     "distance": 6.9,
     "price": "$$",
     "notes": "A great spot to enjoy delicious bar, pub & brewery in the Eastside & Vail area.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "El Charro Cafe",
@@ -10331,7 +12798,18 @@ export const restaurants: Restaurant[] = [
     "distance": 6.9,
     "price": "$",
     "notes": "Local favorite in Northside & Foothills serving classic coffee & cafe options.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
+  },
+  {
+    "name": "Waffle House",
+    "cuisine": "Breakfast & Diner",
+    "neighborhood": "Southside & Heritage",
+    "distance": 6.9,
+    "price": "$$",
+    "notes": "Popular neighborhood destination featuring fresh breakfast & diner specialties.",
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Los Betos",
@@ -10340,7 +12818,8 @@ export const restaurants: Restaurant[] = [
     "distance": 6.9,
     "price": "$",
     "notes": "Local favorite in Southside & Heritage serving classic mexican & sonoran options.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Jimmy John's",
@@ -10349,7 +12828,8 @@ export const restaurants: Restaurant[] = [
     "distance": 6.9,
     "price": "$",
     "notes": "Popular neighborhood destination featuring fresh fast food & sandwiches specialties.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": false
   },
   {
     "name": "Wendy's",
@@ -10358,7 +12838,8 @@ export const restaurants: Restaurant[] = [
     "distance": 6.9,
     "price": "$",
     "notes": "A great spot to enjoy delicious fast food & sandwiches in the Southside & Heritage area.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": false
   },
   {
     "name": "Rosita's",
@@ -10367,7 +12848,8 @@ export const restaurants: Restaurant[] = [
     "distance": 6.9,
     "price": "$",
     "notes": "Local favorite in Southside & Heritage serving classic mexican & sonoran options.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Oasis Fruit Cones",
@@ -10376,7 +12858,8 @@ export const restaurants: Restaurant[] = [
     "distance": 7,
     "price": "$",
     "notes": "Shaved ice (raspados) and tropical syrups; features real fruit chunks and sweet condensed milk.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Carnitas La Yoca",
@@ -10385,7 +12868,8 @@ export const restaurants: Restaurant[] = [
     "distance": 7,
     "price": "$",
     "notes": "Specializes in slow-cooked Sonoran pork; serves tender carnitas tacos with fresh cilantro and onion.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "El Sinaloense",
@@ -10394,7 +12878,8 @@ export const restaurants: Restaurant[] = [
     "distance": 7,
     "price": "$",
     "notes": "Highly regarded local hot dog cart; serves classic Sonoran dogs with perfectly grilled bacon.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Cocteleria La Palma",
@@ -10403,7 +12888,8 @@ export const restaurants: Restaurant[] = [
     "distance": 7,
     "price": "$",
     "notes": "Stellar seafood from a desert food truck; famous for fresh shrimp cocktails and vibrant ceviche.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Taco Rico",
@@ -10412,7 +12898,8 @@ export const restaurants: Restaurant[] = [
     "distance": 7,
     "price": "$",
     "notes": "Top 100 Yelp Taco spot; serves deeply marinated al pastor and traditional street-style carne asada.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Juanitos",
@@ -10421,7 +12908,8 @@ export const restaurants: Restaurant[] = [
     "distance": 7,
     "price": "$",
     "notes": "Highly recommended classic taqueria; famous for the Al Pastor Burrito and tender cabeza meat.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "McDonald's (Ajo)",
@@ -10430,7 +12918,8 @@ export const restaurants: Restaurant[] = [
     "distance": 7,
     "price": "$",
     "notes": "Quick service burgers and fries; classic Big Macs, McNuggets, and breakfast McMuffins.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Taco Bell (12th Ave)",
@@ -10439,7 +12928,8 @@ export const restaurants: Restaurant[] = [
     "distance": 7,
     "price": "$",
     "notes": "Fast food tacos and burritos; features Crunchwrap Supremes and late-night Mexican-inspired snacks.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Little Caesar's (12th Ave)",
@@ -10448,7 +12938,8 @@ export const restaurants: Restaurant[] = [
     "distance": 7,
     "price": "$",
     "notes": "\"Hot-N-Ready\" takeout pizza; quick service pepperoni pies and Crazy Bread.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Pizza Hut (Ajo)",
@@ -10457,7 +12948,8 @@ export const restaurants: Restaurant[] = [
     "distance": 7,
     "price": "$",
     "notes": "Classic pizza chain location; famous for deep-dish Pan Pizzas, breadsticks, and hot wings.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Eegee's (12th Ave)",
@@ -10466,7 +12958,8 @@ export const restaurants: Restaurant[] = [
     "distance": 7,
     "price": "$",
     "notes": "Tucson exclusive fruit slush chain; serves iconic frozen drinks, crinkle-cut fries, and deli subs.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Carl's Jr (Ajo)",
@@ -10475,7 +12968,8 @@ export const restaurants: Restaurant[] = [
     "distance": 7,
     "price": "$",
     "notes": "Fast food burgers and shakes; features massive charbroiled Thickburgers and crisscut fries.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Jack in the Box (12th Ave)",
@@ -10484,7 +12978,8 @@ export const restaurants: Restaurant[] = [
     "distance": 7,
     "price": "$",
     "notes": "Late night drive-thru option; serves diverse items from sourdough burgers to deep-fried tacos.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Mama’s Famous Pizza",
@@ -10493,7 +12988,8 @@ export const restaurants: Restaurant[] = [
     "distance": 7,
     "price": "$",
     "notes": "Massive slices; family-sized options serving heavy NY-style pizza and garlic cheese bread.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Poco & Mom's",
@@ -10502,7 +12998,8 @@ export const restaurants: Restaurant[] = [
     "distance": 7,
     "price": "$$",
     "notes": "Authentic Hatch green chile specialties; serves spicy New Mexican enchiladas and stuffed sopaipillas.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Janet & Ray's",
@@ -10511,7 +13008,8 @@ export const restaurants: Restaurant[] = [
     "distance": 7,
     "price": "$$",
     "notes": "Authentic island food; bold flavor featuring Caribbean-soul dishes, jerk chicken, and plantains.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Kazoku Sushi",
@@ -10520,7 +13018,8 @@ export const restaurants: Restaurant[] = [
     "distance": 7,
     "price": "$$",
     "notes": "Western-style sushi and fresh sashimi; serves generous bento boxes and spicy tuna rolls.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Peppersauce Kitchen",
@@ -10529,7 +13028,8 @@ export const restaurants: Restaurant[] = [
     "distance": 7,
     "price": "$$",
     "notes": "Casual scratch kitchen; serves hearty burgers, sandwiches, and homemade soups.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Wildflower",
@@ -10538,7 +13038,8 @@ export const restaurants: Restaurant[] = [
     "distance": 7,
     "price": "$$$",
     "notes": "Fox Restaurant Concept; serves New American cuisine, fresh seafood, and decadent desserts.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Charro Steak North",
@@ -10547,7 +13048,8 @@ export const restaurants: Restaurant[] = [
     "distance": 7,
     "price": "$$$",
     "notes": "Ranch-to-table steakhouse; features grass-fed beef, mesquite-grilled cuts, and family-style sides.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Charro Vida",
@@ -10556,7 +13058,8 @@ export const restaurants: Restaurant[] = [
     "distance": 7,
     "price": "$$",
     "notes": "Plant-forward Mexican; serves sustainable seafood, hemp tamales, and jackfruit carnitas.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Legends Bar And Grill",
@@ -10565,7 +13068,8 @@ export const restaurants: Restaurant[] = [
     "distance": 7,
     "price": "$$",
     "notes": "Omni Tucson National; upscale sports bar serving burgers, wings, and cold beers with golf views.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Angela's Mexican",
@@ -10574,7 +13078,8 @@ export const restaurants: Restaurant[] = [
     "distance": 7,
     "price": "$$",
     "notes": "Family-owned Mexican; serves authentic enchiladas, chile rellenos, and homemade salsa.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Caps & Corks",
@@ -10583,7 +13088,8 @@ export const restaurants: Restaurant[] = [
     "distance": 7,
     "price": "$$",
     "notes": "Craft beer bottle shop and taproom; features rotating local taps and a dog-friendly patio.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Casa Marana",
@@ -10592,7 +13098,8 @@ export const restaurants: Restaurant[] = [
     "distance": 7,
     "price": "$$",
     "notes": "Craft beer and wine bar; serves Neapolitan-style pizza and hosts local food trucks.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Catalina Brewing Co.",
@@ -10601,7 +13108,8 @@ export const restaurants: Restaurant[] = [
     "distance": 7,
     "price": "$$",
     "notes": "Microbrewery with cycling theme; serves prickly pear wheat and mesquite smoked ales.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Nana's Kitchen",
@@ -10610,16 +13118,18 @@ export const restaurants: Restaurant[] = [
     "distance": 7,
     "price": "$$",
     "notes": "Authentic Sonoran cuisine; serves albondigas soup, red chile beef, and handmade tortillas.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Panda Express",
-    "cuisine": "Asian & Sushi",
+    "cuisine": "Fast Food & Sandwiches",
     "neighborhood": "Northwest & Marana",
     "distance": 7,
     "price": "$",
-    "notes": "Popular neighborhood destination featuring fresh asian & sushi specialties.",
-    "isLocal": false
+    "notes": "Fast-casual Chinese-American comfort food, famous for orange chicken and quick, customizable plates.",
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Subway",
@@ -10627,8 +13137,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Northwest & Marana",
     "distance": 7,
     "price": "$",
-    "notes": "Popular neighborhood destination featuring fresh fast food & sandwiches specialties.",
-    "isLocal": false
+    "notes": "Customizable submarine sandwiches, fresh ingredients, and a quick, reliable option for a casual meal.",
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Famous Sam's",
@@ -10636,8 +13147,19 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Northwest & Marana",
     "distance": 7,
     "price": "$",
-    "notes": "Popular neighborhood destination featuring fresh fast food & sandwiches specialties.",
-    "isLocal": true
+    "notes": "Local favorite for hearty burgers, classic diner fare, and a lively sports bar ambiance.",
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Serial Grillers",
+    "cuisine": "Italian & Pizza",
+    "neighborhood": "Northwest & Marana",
+    "distance": 7,
+    "price": "$$",
+    "notes": "Local favorite in Northwest & Marana serving classic italian & pizza options.",
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Burger King",
@@ -10646,7 +13168,8 @@ export const restaurants: Restaurant[] = [
     "distance": 7,
     "price": "$",
     "notes": "Popular neighborhood destination featuring fresh fast food & sandwiches specialties.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": false
   },
   {
     "name": "Schlotzsky's",
@@ -10654,8 +13177,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Southside & Heritage",
     "distance": 7,
     "price": "$",
-    "notes": "A great spot to enjoy delicious fast food & sandwiches in the Southside & Heritage area.",
-    "isLocal": true
+    "notes": "Famous for original round sandwiches, gourmet pizzas, and fresh baked bread.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Jethro's Cafe & Tavern",
@@ -10664,7 +13188,8 @@ export const restaurants: Restaurant[] = [
     "distance": 7,
     "price": "$",
     "notes": "Local favorite in Eastside & Vail serving classic coffee & cafe options.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Chique Nuevo",
@@ -10673,7 +13198,8 @@ export const restaurants: Restaurant[] = [
     "distance": 7,
     "price": "$",
     "notes": "Local favorite in Southside & Heritage serving classic fast food & sandwiches options.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Jerry Bob's Family Restaurant",
@@ -10682,7 +13208,8 @@ export const restaurants: Restaurant[] = [
     "distance": 7,
     "price": "$$",
     "notes": "Local favorite in Southside & Heritage serving classic american & comfort options.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Sachiko Sushi",
@@ -10691,7 +13218,8 @@ export const restaurants: Restaurant[] = [
     "distance": 7,
     "price": "$$",
     "notes": "Popular neighborhood destination featuring fresh asian & sushi specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Starbucks",
@@ -10699,8 +13227,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Northwest & Marana",
     "distance": 7.1,
     "price": "$",
-    "notes": "A great spot to enjoy delicious coffee & cafe in the Northwest & Marana area.",
-    "isLocal": false
+    "notes": "Popular coffeehouse chain for classic espresso drinks, pastries, and convenient on-the-go refreshments.",
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Viva Burrito",
@@ -10708,17 +13237,19 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Northwest & Marana",
     "distance": 7.1,
     "price": "$",
-    "notes": "Popular neighborhood destination featuring fresh mexican & sonoran specialties.",
-    "isLocal": true
+    "notes": "Authentic Sonoran-style burritos, tacos, and flavorful Mexican comfort food, perfect for quick bites.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Rosati's",
     "cuisine": "Italian & Pizza",
     "neighborhood": "Eastside & Vail",
     "distance": 7.1,
-    "price": "$",
-    "notes": "Local favorite in Eastside & Vail serving classic italian & pizza options.",
-    "isLocal": true
+    "price": "$$",
+    "notes": "Authentic Chicago-style pizza and Italian classics in a cozy, family-friendly setting.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Amigos Burgers and Beer",
@@ -10727,7 +13258,8 @@ export const restaurants: Restaurant[] = [
     "distance": 7.1,
     "price": "$",
     "notes": "Popular neighborhood destination featuring fresh fast food & sandwiches specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Salad and Go",
@@ -10736,7 +13268,8 @@ export const restaurants: Restaurant[] = [
     "distance": 7.1,
     "price": "$",
     "notes": "Local favorite in Northwest & Marana serving classic healthy, vegan & plant-based options.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Juice n' Fruit",
@@ -10745,7 +13278,8 @@ export const restaurants: Restaurant[] = [
     "distance": 7.2,
     "price": "$",
     "notes": "Natural and medicinal juices; serves fresh \"pico de gallo\" fruit cups and health smoothies.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "HiFalutin",
@@ -10754,7 +13288,8 @@ export const restaurants: Restaurant[] = [
     "distance": 7.2,
     "price": "$$",
     "notes": "Western-style fine dining; serves cowboy steaks, meatloaf, and signature margaritas.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Barnfire Mesquite",
@@ -10763,7 +13298,8 @@ export const restaurants: Restaurant[] = [
     "distance": 7.2,
     "price": "$$",
     "notes": "Mesquite-grilled BBQ; serves ribs, brisket, and burgers with a smoky flavor.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Boba Cuecue",
@@ -10772,7 +13308,8 @@ export const restaurants: Restaurant[] = [
     "distance": 7.2,
     "price": "$",
     "notes": "Bubble tea shop; serves milk teas, fruit teas, and smoothies with various toppings.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Del Rancho",
@@ -10781,7 +13318,8 @@ export const restaurants: Restaurant[] = [
     "distance": 7.2,
     "price": "$",
     "notes": "Fast-casual Mexican; serves carne asada burritos, tacos, and quesadillas.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Denny's",
@@ -10790,7 +13328,8 @@ export const restaurants: Restaurant[] = [
     "distance": 7.2,
     "price": "$",
     "notes": "24-hour diner; serves Grand Slam breakfasts, burgers, and late-night appetizers.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Dream Dinners",
@@ -10799,7 +13338,8 @@ export const restaurants: Restaurant[] = [
     "distance": 7.2,
     "price": "$$",
     "notes": "Meal prep service; offers pre-assembled dinners to cook at home.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Filiberto's (Silv.)",
@@ -10808,7 +13348,8 @@ export const restaurants: Restaurant[] = [
     "distance": 7.2,
     "price": "$",
     "notes": "24-hour drive-thru; serves massive carne asada burritos, rolled tacos, and horchata.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Jerry Bobs Family Restaurant",
@@ -10816,8 +13357,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Northwest & Marana",
     "distance": 7.2,
     "price": "$$",
-    "notes": "Local favorite in Northwest & Marana serving classic american & comfort options.",
-    "isLocal": true
+    "notes": "Classic family diner, generous portions of American comfort food, and friendly, bustling breakfast vibes.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Tandem American Eatery",
@@ -10825,8 +13367,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Eastside & Vail",
     "distance": 7.2,
     "price": "$$",
-    "notes": "A great spot to enjoy delicious american & comfort in the Eastside & Vail area.",
-    "isLocal": true
+    "notes": "Modern American dishes with a focus on fresh, local ingredients. Casual yet refined dining.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "McDonald's",
@@ -10834,8 +13377,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Northwest & Marana",
     "distance": 7.2,
     "price": "$",
-    "notes": "Local favorite in Northwest & Marana serving classic fast food & sandwiches options.",
-    "isLocal": false
+    "notes": "Global fast-food giant offering classic burgers, fries, and quick, convenient meal options.",
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Taco Bell",
@@ -10843,8 +13387,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Northwest & Marana",
     "distance": 7.2,
     "price": "$",
-    "notes": "Popular neighborhood destination featuring fresh mexican & sonoran specialties.",
-    "isLocal": false
+    "notes": "Fast-food chain with a unique spin on Mexican-inspired dishes, perfect for quick cravings.",
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Crossroads Coffee Co",
@@ -10853,7 +13398,8 @@ export const restaurants: Restaurant[] = [
     "distance": 7.2,
     "price": "$",
     "notes": "A great spot to enjoy delicious coffee & cafe in the Eastside & Vail area.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Arizona Pizza Company",
@@ -10862,7 +13408,8 @@ export const restaurants: Restaurant[] = [
     "distance": 7.2,
     "price": "$$",
     "notes": "A great spot to enjoy delicious italian & pizza in the Northside & Foothills area.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Dunkin'",
@@ -10871,7 +13418,8 @@ export const restaurants: Restaurant[] = [
     "distance": 7.2,
     "price": "$",
     "notes": "Popular neighborhood destination featuring fresh coffee & cafe specialties.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": false
   },
   {
     "name": "Rollie's Mexican",
@@ -10880,7 +13428,8 @@ export const restaurants: Restaurant[] = [
     "distance": 7.3,
     "price": "$$",
     "notes": "Birria ramen, award-winning rolled tacos, and unique concha ice cream sandwiches.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Figs Oven + Enoteca",
@@ -10889,7 +13438,8 @@ export const restaurants: Restaurant[] = [
     "distance": 7.3,
     "price": "$$",
     "notes": "Scratch cooking; charred Brussels sprouts, artisan wood-fired pizzas, and curated wine pairings.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Nico's Mexican Food",
@@ -10898,7 +13448,8 @@ export const restaurants: Restaurant[] = [
     "distance": 7.3,
     "price": "$$",
     "notes": "Popular neighborhood destination featuring fresh mexican & sonoran specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "The Flight Grill",
@@ -10907,7 +13458,8 @@ export const restaurants: Restaurant[] = [
     "distance": 7.3,
     "price": "$",
     "notes": "A great spot to enjoy delicious coffee & cafe in the Southside & Heritage area.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Dairy Queen",
@@ -10915,8 +13467,19 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Eastside & Vail",
     "distance": 7.3,
     "price": "$",
-    "notes": "Local favorite in Eastside & Vail serving classic dessert & bakery options.",
-    "isLocal": false
+    "notes": "Classic spot for soft-serve ice cream, Blizzards, burgers, and satisfying sweet treats.",
+    "isLocal": false,
+    "enriched": true
+  },
+  {
+    "name": "Eegee's",
+    "cuisine": "Fast Food & Sandwiches",
+    "neighborhood": "Eastside & Vail",
+    "distance": 7.3,
+    "price": "$",
+    "notes": "Popular neighborhood destination featuring fresh fast food & sandwiches specialties.",
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Three Canyon Beer and Wine Garden",
@@ -10925,7 +13488,18 @@ export const restaurants: Restaurant[] = [
     "distance": 7.3,
     "price": "$$",
     "notes": "A great spot to enjoy delicious american & comfort in the Northside & Foothills area.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
+  },
+  {
+    "name": "Jack in the Box",
+    "cuisine": "Fast Food & Sandwiches",
+    "neighborhood": "Southside & Heritage",
+    "distance": 7.3,
+    "price": "$",
+    "notes": "A great spot to enjoy delicious fast food & sandwiches in the Southside & Heritage area.",
+    "isLocal": false,
+    "enriched": false
   },
   {
     "name": "Los Jarritos",
@@ -10934,7 +13508,8 @@ export const restaurants: Restaurant[] = [
     "distance": 7.4,
     "price": "$",
     "notes": "Moist green corn tamales and house chorizo; serves excellent traditional Mexican breakfast plates.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "What A Burro",
@@ -10943,7 +13518,8 @@ export const restaurants: Restaurant[] = [
     "distance": 7.4,
     "price": "$",
     "notes": "Stationary truck; Hermosillo-style \"Italian\" burritos stuffed with unique, rich meat and cheese fillings.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Tacos El Cuate",
@@ -10952,16 +13528,18 @@ export const restaurants: Restaurant[] = [
     "distance": 7.4,
     "price": "$",
     "notes": "Specialized in charcoal-grilled ribeye tacos, offering premium cuts in a casual street setting.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Primo",
     "cuisine": "Italian & Pizza",
     "neighborhood": "Westside & Downtown",
     "distance": 7.4,
-    "price": "$$",
-    "notes": "Local favorite in Westside & Downtown serving classic italian & pizza options.",
-    "isLocal": true
+    "price": "$$$",
+    "notes": "Upscale Italian dining, exquisite pasta, fine wines, and a sophisticated ambiance perfect for special occasions.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Domino's",
@@ -10970,7 +13548,8 @@ export const restaurants: Restaurant[] = [
     "distance": 7.4,
     "price": "$",
     "notes": "Local favorite in Eastside & Vail serving classic italian & pizza options.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": false
   },
   {
     "name": "Sonic",
@@ -10979,7 +13558,8 @@ export const restaurants: Restaurant[] = [
     "distance": 7.4,
     "price": "$",
     "notes": "A great spot to enjoy delicious fast food & sandwiches in the Southside & Heritage area.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Baja Mar",
@@ -10988,7 +13568,8 @@ export const restaurants: Restaurant[] = [
     "distance": 7.5,
     "price": "$$",
     "notes": "Coastal Mexican cuisine; famous for 99-cent fish tacos and fresh, lime-cured shrimp ceviche.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Monkey Burger",
@@ -10997,7 +13578,8 @@ export const restaurants: Restaurant[] = [
     "distance": 7.5,
     "price": "$$",
     "notes": "Custom burgers; zesty ranch fries and massive milkshakes in a casual, family-friendly setting.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "The Horseshoe Grill",
@@ -11006,7 +13588,8 @@ export const restaurants: Restaurant[] = [
     "distance": 7.5,
     "price": "$$",
     "notes": "Mesquite-fired meats; western aesthetic serving smoky steaks, ribs, and loaded baked potatoes.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "BZ's Pizza",
@@ -11015,7 +13598,8 @@ export const restaurants: Restaurant[] = [
     "distance": 7.5,
     "price": "$$",
     "notes": "Traditional Italian kitchen; serves hot, cheesy pizzas, classic spaghetti, and garlic knots.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Toro Loco",
@@ -11024,7 +13608,8 @@ export const restaurants: Restaurant[] = [
     "distance": 7.5,
     "price": "$",
     "notes": "Creative taco combinations; features fresh, modern Mexican street food and zesty salsas.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Putney's Pitstop",
@@ -11033,7 +13618,8 @@ export const restaurants: Restaurant[] = [
     "distance": 7.5,
     "price": "$$",
     "notes": "Neighborhood sports bar; serves classic pub fare, burgers, and wings with plenty of TVs.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Coco's Bakery",
@@ -11042,7 +13628,8 @@ export const restaurants: Restaurant[] = [
     "distance": 7.5,
     "price": "$$",
     "notes": "Classic bakery diner; famous for fresh-baked pies, harvest salads, and all-day breakfast.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Victoria Cocina",
@@ -11051,7 +13638,8 @@ export const restaurants: Restaurant[] = [
     "distance": 7.5,
     "price": "$$",
     "notes": "Family-owned Mexican; serves authentic chiles rellenos, enchiladas, and homemade salsa.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Fentonelli's",
@@ -11060,7 +13648,8 @@ export const restaurants: Restaurant[] = [
     "distance": 7.5,
     "price": "$$",
     "notes": "New York style Italian; serves massive calzones, garlic knots, and classic spaghetti and meatballs.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Pei Wei",
@@ -11069,7 +13658,8 @@ export const restaurants: Restaurant[] = [
     "distance": 7.5,
     "price": "$$",
     "notes": "Fast-casual Asian; serves wok-fired dishes like Kung Pao Chicken and Mongolian Beef.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Crema Coffee",
@@ -11078,7 +13668,8 @@ export const restaurants: Restaurant[] = [
     "distance": 7.5,
     "price": "$",
     "notes": "Specialty coffee roaster; serves precision pour-overs, cold brew, and espresso drinks.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Crying Onion Cafe",
@@ -11087,7 +13678,8 @@ export const restaurants: Restaurant[] = [
     "distance": 7.5,
     "price": "$$",
     "notes": "Local breakfast spot; serves fluffy pancakes, omelettes, and classic diner fare.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Donut Wheel",
@@ -11096,7 +13688,8 @@ export const restaurants: Restaurant[] = [
     "distance": 7.5,
     "price": "$",
     "notes": "Classic donut shop; serves fresh glazed donuts, apple fritters, and coffee.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "El Molinito",
@@ -11105,7 +13698,8 @@ export const restaurants: Restaurant[] = [
     "distance": 7.5,
     "price": "$$",
     "notes": "Family-style Mexican; serves chimichangas, fajitas, and margaritas.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Frankie's Cheese",
@@ -11114,7 +13708,8 @@ export const restaurants: Restaurant[] = [
     "distance": 7.5,
     "price": "$$",
     "notes": "Philly cheesesteaks and pizza; serves authentic east coast subs and wings.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "German Food Station",
@@ -11123,7 +13718,8 @@ export const restaurants: Restaurant[] = [
     "distance": 7.5,
     "price": "$$",
     "notes": "Authentic German cuisine; serves bratwurst, schnitzel, and pretzels.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Growler's Taphouse",
@@ -11132,7 +13728,8 @@ export const restaurants: Restaurant[] = [
     "distance": 7.5,
     "price": "$$",
     "notes": "Craft beer bar; features rotating local taps and pub snacks.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Home Plate Marana",
@@ -11141,7 +13738,8 @@ export const restaurants: Restaurant[] = [
     "distance": 7.5,
     "price": "$$",
     "notes": "Sports bar and grill; serves burgers, wings, and cold beer with batting cages.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Cracker Barrel",
@@ -11150,7 +13748,8 @@ export const restaurants: Restaurant[] = [
     "distance": 7.5,
     "price": "$$",
     "notes": "Southern country theme; serves chicken n' dumplings, meatloaf, and all-day breakfast.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Culvers",
@@ -11159,7 +13758,8 @@ export const restaurants: Restaurant[] = [
     "distance": 7.5,
     "price": "$$",
     "notes": "ButterBurgers and frozen custard; serves Wisconsin cheese curds and concrete mixers.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Dickey's BBQ",
@@ -11168,7 +13768,8 @@ export const restaurants: Restaurant[] = [
     "distance": 7.5,
     "price": "$$",
     "notes": "Pit-smoked BBQ chain; serves brisket, pulled pork, and homestyle sides.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Dirty Dough",
@@ -11177,7 +13778,8 @@ export const restaurants: Restaurant[] = [
     "distance": 7.5,
     "price": "$$",
     "notes": "Stuffed cookies; features thick, gooey cookies with various fillings and toppings.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Dominick's Italian",
@@ -11186,7 +13788,8 @@ export const restaurants: Restaurant[] = [
     "distance": 7.5,
     "price": "$$",
     "notes": "Real Italian cuisine; serves homemade lasagna, pizza, and cannoli.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Just Breakfast",
@@ -11195,7 +13798,8 @@ export const restaurants: Restaurant[] = [
     "distance": 7.5,
     "price": "$$",
     "notes": "Classic breakfast joint; serves eggs benedict, pancakes, and biscuits and gravy.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Putter's Grill",
@@ -11204,7 +13808,8 @@ export const restaurants: Restaurant[] = [
     "distance": 7.5,
     "price": "$$",
     "notes": "Golf course grill; serves burgers, sandwiches, and salads with patio seating.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Starbucks",
@@ -11212,17 +13817,29 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Westside & Downtown",
     "distance": 7.5,
     "price": "$",
-    "notes": "A great spot to enjoy delicious coffee & cafe in the Westside & Downtown area.",
-    "isLocal": false
+    "notes": "Reliable global coffee chain, classic lattes, various pastries, and a familiar, convenient atmosphere.",
+    "isLocal": false,
+    "enriched": true
+  },
+  {
+    "name": "McDonald's",
+    "cuisine": "Fast Food & Sandwiches",
+    "neighborhood": "Eastside & Vail",
+    "distance": 7.5,
+    "price": "$",
+    "notes": "Iconic fast-food chain offering burgers, fries, shakes, and quick, convenient meal options.",
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Viva Burrito Co.",
     "cuisine": "Mexican & Sonoran",
     "neighborhood": "Eastside & Vail",
     "distance": 7.5,
-    "price": "$$",
-    "notes": "Local favorite in Eastside & Vail serving classic mexican & sonoran options.",
-    "isLocal": true
+    "price": "$",
+    "notes": "Beloved local spot for huge, delicious burritos, authentic Sonoran flavors, and quick service.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "BK Carne Asada",
@@ -11231,7 +13848,8 @@ export const restaurants: Restaurant[] = [
     "distance": 7.6,
     "price": "$",
     "notes": "Legendary salsa bar and Sonoran hot dogs; serves massive, smoky carne asada tacos and micheladas.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Alejandro's Tortilla",
@@ -11240,25 +13858,28 @@ export const restaurants: Restaurant[] = [
     "distance": 7.6,
     "price": "$",
     "notes": "Carnicería and takeaway; famous for fresh, pillowy flour tortillas and marinated taco meats.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Honey Baked Ham",
     "cuisine": "Fast Food & Sandwiches",
     "neighborhood": "Northside & Foothills",
     "distance": 7.6,
-    "price": "$",
-    "notes": "Popular neighborhood destination featuring fresh fast food & sandwiches specialties.",
-    "isLocal": true
+    "price": "$$",
+    "notes": "Signature honey-baked ham sandwiches, delightful sides, and delicious desserts perfect for any meal.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Pita Jungle - Tucson Oracle",
-    "cuisine": "American & Comfort",
+    "cuisine": "Mediterranean & Global",
     "neighborhood": "Northside & Foothills",
     "distance": 7.6,
     "price": "$$",
-    "notes": "Local favorite in Northside & Foothills serving classic american & comfort options.",
-    "isLocal": true
+    "notes": "Fresh, healthy Mediterranean-inspired dishes, pitas, and salads in a vibrant, casual setting.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Le Buzz Café",
@@ -11266,8 +13887,29 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Eastside & Vail",
     "distance": 7.6,
     "price": "$",
-    "notes": "Local favorite in Eastside & Vail serving classic coffee & cafe options.",
-    "isLocal": true
+    "notes": "Popular cycling cafe with gourmet coffee, fresh pastries, and scenic views.",
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Whataburger",
+    "cuisine": "Fast Food & Sandwiches",
+    "neighborhood": "Southside & Heritage",
+    "distance": 7.6,
+    "price": "$",
+    "notes": "Texas-sized burgers, classic shakes, and a menu with unique, delicious fast-food favorites.",
+    "isLocal": false,
+    "enriched": true
+  },
+  {
+    "name": "Jack in the Box",
+    "cuisine": "Fast Food & Sandwiches",
+    "neighborhood": "Southside & Heritage",
+    "distance": 7.6,
+    "price": "$",
+    "notes": "A great spot to enjoy delicious fast food & sandwiches in the Southside & Heritage area.",
+    "isLocal": false,
+    "enriched": false
   },
   {
     "name": "Sauce Pizza and Wine",
@@ -11275,35 +13917,29 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Northside & Foothills",
     "distance": 7.7,
     "price": "$$",
-    "notes": "Popular neighborhood destination featuring fresh italian & pizza specialties.",
-    "isLocal": true
+    "notes": "Modern pizzeria offering artisan pizzas, fresh salads, and a curated wine selection.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Beyond Bread",
     "cuisine": "Fast Food & Sandwiches",
     "neighborhood": "Northside & Foothills",
     "distance": 7.7,
-    "price": "$",
-    "notes": "Local favorite in Northside & Foothills serving classic fast food & sandwiches options.",
-    "isLocal": true
+    "price": "$$",
+    "notes": "Tucson staple for artisanal breads, gourmet sandwiches, and delicious pastries. Perfect for lunch.",
+    "isLocal": true,
+    "enriched": true
   },
   {
-    "name": "Kampai Sushi",
-    "cuisine": "Asian & Sushi",
+    "name": "Teaspoon",
+    "cuisine": "Boba Tea & Beverages",
     "neighborhood": "Northside & Foothills",
-    "distance": 7.8,
-    "price": "$$",
-    "notes": "Traditional Japanese sushi; serves fresh sashimi platters, tempura udon, and sake flights.",
-    "isLocal": true
-  },
-  {
-    "name": "Serial Grillers",
-    "cuisine": "American & Comfort",
-    "neighborhood": "Northwest & Marana",
-    "distance": 7.8,
-    "price": "$$",
-    "notes": "Horror-movie themed; serves gourmet cheesesteaks, burgers, and craft beer.",
-    "isLocal": true
+    "distance": 7.7,
+    "price": "$",
+    "notes": "A vibrant spot for refreshing boba tea, fruit teas, and trendy specialty beverages.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "El Guero Canelo",
@@ -11312,7 +13948,8 @@ export const restaurants: Restaurant[] = [
     "distance": 7.8,
     "price": "$",
     "notes": "James Beard winner; Sonoran dog pioneer serving bacon-wrapped franks and giant carne asada burritos.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "El Chivo de Oro",
@@ -11321,7 +13958,8 @@ export const restaurants: Restaurant[] = [
     "distance": 7.8,
     "price": "$",
     "notes": "Famous for rich goat birria and $1 hot dogs on Thursdays; utilizes fresh, house-made tortillas.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Perfecto's Mexican",
@@ -11330,7 +13968,8 @@ export const restaurants: Restaurant[] = [
     "distance": 7.8,
     "price": "$",
     "notes": "No-frills spot; excellent beef tamales, albondigas soup, and traditional Sonoran combination plates.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "El Merendero",
@@ -11339,7 +13978,8 @@ export const restaurants: Restaurant[] = [
     "distance": 7.8,
     "price": "$$",
     "notes": "Sit-down dinner; serves crispy milanesa, fresh oysters, and garlic-butter shrimp preparations.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Com Tam Thuan Kieu",
@@ -11348,7 +13988,18 @@ export const restaurants: Restaurant[] = [
     "distance": 7.8,
     "price": "$",
     "notes": "Authentic Vietnamese broken rice; serves grilled pork chops, egg quiche, and pickled vegetables.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Kampai Sushi",
+    "cuisine": "Asian & Sushi",
+    "neighborhood": "Northside & Foothills",
+    "distance": 7.8,
+    "price": "$$",
+    "notes": "Traditional Japanese sushi; serves fresh sashimi platters, tempura udon, and sake flights.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Pappoule's",
@@ -11357,7 +14008,8 @@ export const restaurants: Restaurant[] = [
     "distance": 7.8,
     "price": "$",
     "notes": "Fast-casual Greek; serves authentic gyro platters, spanakopita, and Greek salads.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Bing's Boba Tea",
@@ -11366,7 +14018,8 @@ export const restaurants: Restaurant[] = [
     "distance": 7.8,
     "price": "$",
     "notes": "Taiwanese bubble tea shop; serves milk teas, fruit slushes, and popcorn chicken snacks.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Desert Farmer",
@@ -11375,7 +14028,8 @@ export const restaurants: Restaurant[] = [
     "distance": 7.8,
     "price": "$$",
     "notes": "Farm-to-table focus; serves seasonal salads, grain bowls, and locally sourced vegetable dishes.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Tio Ben's",
@@ -11384,7 +14038,8 @@ export const restaurants: Restaurant[] = [
     "distance": 7.8,
     "price": "$$",
     "notes": "Neighborhood Mexican spot; serves carne asada plates, chimichangas, and margaritas.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Mantis Chinese",
@@ -11393,7 +14048,8 @@ export const restaurants: Restaurant[] = [
     "distance": 7.8,
     "price": "$$",
     "notes": "Gourmet Chinese; serves honey walnut shrimp, mongolian beef, and sizzling rice soup.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Native Grill",
@@ -11402,7 +14058,8 @@ export const restaurants: Restaurant[] = [
     "distance": 7.8,
     "price": "$$",
     "notes": "Sports bar chain; serves award-winning wings, pizza, and burgers.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "New Town Buffet",
@@ -11411,7 +14068,8 @@ export const restaurants: Restaurant[] = [
     "distance": 7.8,
     "price": "$$",
     "notes": "All-you-can-eat Asian buffet; features sushi, seafood, and traditional Chinese dishes.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Newton Pho",
@@ -11420,7 +14078,8 @@ export const restaurants: Restaurant[] = [
     "distance": 7.8,
     "price": "$$",
     "notes": "Vietnamese noodle house; serves authentic pho, banh mi, and spring rolls.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Nicos Taco Shop",
@@ -11429,7 +14088,18 @@ export const restaurants: Restaurant[] = [
     "distance": 7.8,
     "price": "$",
     "notes": "Fast Mexican food; serves carne asada burritos, tacos, and quesadillas.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Serial Grillers",
+    "cuisine": "American & Comfort",
+    "neighborhood": "Northwest & Marana",
+    "distance": 7.8,
+    "price": "$$",
+    "notes": "Horror-movie themed; serves gourmet cheesesteaks, burgers, and craft beer.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Taco Giro",
@@ -11438,7 +14108,8 @@ export const restaurants: Restaurant[] = [
     "distance": 7.8,
     "price": "$$",
     "notes": "Authentic Mexican grill; serves street tacos, margaritas, and fresh salsa bar.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "The Black Top Grill",
@@ -11447,7 +14118,8 @@ export const restaurants: Restaurant[] = [
     "distance": 7.8,
     "price": "$$",
     "notes": "Gourmet burgers and hot dogs; serves creative toppings and loaded fries.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Tap + Bottle",
@@ -11455,8 +14127,49 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Northside & Foothills",
     "distance": 7.8,
     "price": "$$",
-    "notes": "A great spot to enjoy delicious bar, pub & brewery in the Northside & Foothills area.",
-    "isLocal": true
+    "notes": "Premier craft beer bar with an extensive tap list and bottle shop. A beer lover's paradise.",
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Fentonelli's",
+    "cuisine": "American & Comfort",
+    "neighborhood": "Northside & Foothills",
+    "distance": 7.8,
+    "price": "$$",
+    "notes": "Classic American diner experience with hearty breakfasts, burgers, and comfort food favorites.",
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Sonic",
+    "cuisine": "Fast Food & Sandwiches",
+    "neighborhood": "Eastside & Vail",
+    "distance": 7.8,
+    "price": "$",
+    "notes": "A great spot to enjoy delicious fast food & sandwiches in the Eastside & Vail area.",
+    "isLocal": true,
+    "enriched": false
+  },
+  {
+    "name": "Starbucks",
+    "cuisine": "Coffee & Cafe",
+    "neighborhood": "Northside & Foothills",
+    "distance": 7.8,
+    "price": "$$",
+    "notes": "Popular coffeehouse chain offering a wide array of beverages, pastries, and light snacks.",
+    "isLocal": false,
+    "enriched": true
+  },
+  {
+    "name": "Pei Wei",
+    "cuisine": "Asian & Sushi",
+    "neighborhood": "Northside & Foothills",
+    "distance": 7.8,
+    "price": "$$",
+    "notes": "Popular neighborhood destination featuring fresh asian & sushi specialties.",
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Hi-Way Chef",
@@ -11465,7 +14178,8 @@ export const restaurants: Restaurant[] = [
     "distance": 7.9,
     "price": "$$",
     "notes": "Local favorite in Southside & Heritage serving classic american & comfort options.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Bruegger's Bagels",
@@ -11473,8 +14187,19 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Southside & Heritage",
     "distance": 7.9,
     "price": "$",
-    "notes": "Popular neighborhood destination featuring fresh fast food & sandwiches specialties.",
-    "isLocal": true
+    "notes": "Freshly baked bagels, delicious cream cheese spreads, and hearty breakfast sandwiches for a quick start.",
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Dunkin'",
+    "cuisine": "Coffee & Cafe",
+    "neighborhood": "Southside & Heritage",
+    "distance": 7.9,
+    "price": "$",
+    "notes": "Go-to for classic coffee, espresso drinks, and a wide variety of freshly made donuts.",
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Thunder Canyon Brewstillery",
@@ -11482,8 +14207,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Southside & Heritage",
     "distance": 7.9,
     "price": "$$",
-    "notes": "A great spot to enjoy delicious bar, pub & brewery in the Southside & Heritage area.",
-    "isLocal": true
+    "notes": "Craft brewery and distillery offering unique beers, spirits, and pub-style food.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "El Charro",
@@ -11491,8 +14217,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Southside & Heritage",
     "distance": 7.9,
     "price": "$$",
-    "notes": "Local favorite in Southside & Heritage serving classic mexican & sonoran options.",
-    "isLocal": true
+    "notes": "Tucson's iconic, historic restaurant, serving authentic Sonoran Mexican cuisine since 1922.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "THE BAGEL JOINT",
@@ -11500,26 +14227,39 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Northside & Foothills",
     "distance": 7.9,
     "price": "$",
-    "notes": "A great spot to enjoy delicious fast food & sandwiches in the Northside & Foothills area.",
-    "isLocal": true
+    "notes": "Authentic New York-style bagels, schmears, and delicious breakfast sandwiches made fresh daily.",
+    "isLocal": true,
+    "enriched": true
   },
   {
-    "name": "One Stop Nutrition",
-    "cuisine": "American & Comfort",
+    "name": "Tucson Tamale",
+    "cuisine": "Mexican & Sonoran",
     "neighborhood": "Northside & Foothills",
     "distance": 7.9,
     "price": "$$",
-    "notes": "Popular neighborhood destination featuring fresh american & comfort specialties.",
-    "isLocal": true
+    "notes": "Famous for gourmet tamales with diverse fillings, a delicious staple of Sonoran cuisine.",
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "One Stop Nutrition",
+    "cuisine": "Healthy, Vegan & Plant-Based",
+    "neighborhood": "Northside & Foothills",
+    "distance": 7.9,
+    "price": "$",
+    "notes": "Health-focused spot offering nutrient-packed shakes, smoothies, and wellness products. Fuel your day.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Truland",
     "cuisine": "American & Comfort",
     "neighborhood": "Northside & Foothills",
     "distance": 7.9,
-    "price": "$$",
-    "notes": "A great spot to enjoy delicious american & comfort in the Northside & Foothills area.",
-    "isLocal": true
+    "price": "$$$",
+    "notes": "Modern American restaurant with seasonal menus, elegant presentation, and an inviting atmosphere.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Guadalajara",
@@ -11528,7 +14268,8 @@ export const restaurants: Restaurant[] = [
     "distance": 7.9,
     "price": "$$",
     "notes": "Local favorite in Northside & Foothills serving classic mexican & sonoran options.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Barrio Brewing Company",
@@ -11537,16 +14278,8 @@ export const restaurants: Restaurant[] = [
     "distance": 7.9,
     "price": "$$",
     "notes": "A great spot to enjoy delicious bar, pub & brewery in the Southside & Heritage area.",
-    "isLocal": true
-  },
-  {
-    "name": "Lucky Wishbone",
-    "cuisine": "Fast Food & Sandwiches",
-    "neighborhood": "Southside & Heritage",
-    "distance": 8,
-    "price": "$",
-    "notes": "Legacy local chain; famous for crispy fried chicken, steak fingers, and thick garlic toast.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Sue's Fish & Chips",
@@ -11555,7 +14288,18 @@ export const restaurants: Restaurant[] = [
     "distance": 8,
     "price": "$",
     "notes": "Historic local landmark; casual seafood serving crispy battered fish, tartar sauce, and thick-cut fries.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Lucky Wishbone",
+    "cuisine": "Fast Food & Sandwiches",
+    "neighborhood": "Southside & Heritage",
+    "distance": 8,
+    "price": "$",
+    "notes": "Legacy local chain; famous for crispy fried chicken, steak fingers, and thick garlic toast.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Tiny's Saloon & Steakhouse",
@@ -11564,7 +14308,8 @@ export const restaurants: Restaurant[] = [
     "distance": 8,
     "price": "$$",
     "notes": "Beloved burgers and fat, crispy wings served in a traditional western saloon atmosphere.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Casa Valencia",
@@ -11573,7 +14318,8 @@ export const restaurants: Restaurant[] = [
     "distance": 8,
     "price": "$$",
     "notes": "Southside seafood institution; serves massive mariscos platters, whole fried fish, and shrimp tacos.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Wendy's (Irvington)",
@@ -11582,7 +14328,8 @@ export const restaurants: Restaurant[] = [
     "distance": 8,
     "price": "$",
     "notes": "Quick service burgers; famous for square beef patties, spicy chicken nuggets, and Frosty desserts.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Papa Johns (Irvington)",
@@ -11591,7 +14338,8 @@ export const restaurants: Restaurant[] = [
     "distance": 8,
     "price": "$",
     "notes": "Delivery and carryout; features signature garlic dipping sauce and fresh-dough pizzas.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Burger King (Irvington)",
@@ -11600,7 +14348,8 @@ export const restaurants: Restaurant[] = [
     "distance": 8,
     "price": "$",
     "notes": "Drive-thru burgers; famous for the flame-grilled Whopper and crispy onion rings.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Pinnacle Peak",
@@ -11609,7 +14358,8 @@ export const restaurants: Restaurant[] = [
     "distance": 8,
     "price": "$$$",
     "notes": "Trail Dust Town; strict \"no tie\" code; serves cowboy-style mesquite-grilled steaks and cowboy beans.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "The Barnyard",
@@ -11618,7 +14368,8 @@ export const restaurants: Restaurant[] = [
     "distance": 8,
     "price": "$$",
     "notes": "Local favorite with patio dining; serves elevated comfort food, burgers, and craft cocktails.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Starbucks (Houghton)",
@@ -11627,7 +14378,8 @@ export const restaurants: Restaurant[] = [
     "distance": 8,
     "price": "$",
     "notes": "Corporate coffee chain; serves Frappuccinos, seasonal lattes, and warmed breakfast sandwiches.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Ole' Mexican Grill",
@@ -11636,7 +14388,8 @@ export const restaurants: Restaurant[] = [
     "distance": 8,
     "price": "$$",
     "notes": "Family-run grill; features authentic mole, enchiladas suizas, and homemade flan.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Snooze",
@@ -11645,7 +14398,8 @@ export const restaurants: Restaurant[] = [
     "distance": 8,
     "price": "$$",
     "notes": "Creative breakfast eatery; serves pineapple upside-down pancakes and breakfast pot pie.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Handel's",
@@ -11654,7 +14408,8 @@ export const restaurants: Restaurant[] = [
     "distance": 8,
     "price": "$",
     "notes": "Homemade ice cream since 1945; serves over 45 flavors made fresh daily on-site.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Jade Garden",
@@ -11663,7 +14418,8 @@ export const restaurants: Restaurant[] = [
     "distance": 8,
     "price": "$$",
     "notes": "Traditional Chinese; serves family-style dinners, sizzling platters, and lo mein.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Jimmy's Pita & Poke",
@@ -11672,7 +14428,8 @@ export const restaurants: Restaurant[] = [
     "distance": 8,
     "price": "$$",
     "notes": "Fusion concept; serves fresh poke bowls and customizable pita wraps.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "La Carreta",
@@ -11681,7 +14438,8 @@ export const restaurants: Restaurant[] = [
     "distance": 8,
     "price": "$",
     "notes": "Taco truck favorite; serves authentic street tacos, burritos, and quesadillas.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "La Olla Mexican",
@@ -11690,7 +14448,8 @@ export const restaurants: Restaurant[] = [
     "distance": 8,
     "price": "$$",
     "notes": "Chef-driven Mexican; serves chimichangas, carne asada, and specialty margaritas.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Sodalicious",
@@ -11699,7 +14458,8 @@ export const restaurants: Restaurant[] = [
     "distance": 8,
     "price": "$",
     "notes": "Custom soda shop; serves mixed sodas with syrups, creams, and fresh fruit.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Sushi Cortaro",
@@ -11708,7 +14468,8 @@ export const restaurants: Restaurant[] = [
     "distance": 8,
     "price": "$$",
     "notes": "Neighborhood sushi joint; serves fresh rolls, tempura, and teriyaki bowls.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "The Screamery (Marana)",
@@ -11717,7 +14478,8 @@ export const restaurants: Restaurant[] = [
     "distance": 8,
     "price": "$",
     "notes": "Handcrafted ice cream; serves pasteurized-on-site flavors like Sweet Cream Honeycomb.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Top Golf",
@@ -11726,7 +14488,8 @@ export const restaurants: Restaurant[] = [
     "distance": 8,
     "price": "$$",
     "notes": "Entertainment venue dining; serves shareable appetizers, burgers, and donut holes.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Twin Peaks Pizzeria",
@@ -11735,7 +14498,8 @@ export const restaurants: Restaurant[] = [
     "distance": 8,
     "price": "$$",
     "notes": "Local pizza spot; serves New York style pies, calzones, and wings.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Vero Amore (Dove Mtn)",
@@ -11744,7 +14508,8 @@ export const restaurants: Restaurant[] = [
     "distance": 8,
     "price": "$$",
     "notes": "Authentic Neapolitan pizza; serves certified wood-fired pies and homemade mozzarella.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Villa's Market",
@@ -11753,7 +14518,8 @@ export const restaurants: Restaurant[] = [
     "distance": 8,
     "price": "$",
     "notes": "Mexican market and deli; serves fresh carnitas, burritos, and menudo.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Waffle House (Marana)",
@@ -11762,7 +14528,8 @@ export const restaurants: Restaurant[] = [
     "distance": 8,
     "price": "$",
     "notes": "24-hour breakfast chain; serves waffles, hashbrowns scattered and smothered.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Wingstop (Marana)",
@@ -11771,7 +14538,8 @@ export const restaurants: Restaurant[] = [
     "distance": 8,
     "price": "$",
     "notes": "Chicken wing chain; serves classic and boneless wings with various sauces.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Chinese Combo Thai",
@@ -11780,7 +14548,8 @@ export const restaurants: Restaurant[] = [
     "distance": 8,
     "price": "$$",
     "notes": "Local favorite in Northwest & Marana serving classic asian & sushi options.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Garden Bistro",
@@ -11789,7 +14558,18 @@ export const restaurants: Restaurant[] = [
     "distance": 8,
     "price": "$$",
     "notes": "A great spot to enjoy delicious american & comfort in the Northwest & Marana area.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
+  },
+  {
+    "name": "Taco Bell",
+    "cuisine": "Mexican & Sonoran",
+    "neighborhood": "Southside & Heritage",
+    "distance": 8,
+    "price": "$",
+    "notes": "Popular neighborhood destination featuring fresh mexican & sonoran specialties.",
+    "isLocal": false,
+    "enriched": false
   },
   {
     "name": "Subway",
@@ -11798,7 +14578,8 @@ export const restaurants: Restaurant[] = [
     "distance": 8,
     "price": "$",
     "notes": "Popular neighborhood destination featuring fresh fast food & sandwiches specialties.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": false
   },
   {
     "name": "Sir Veza's",
@@ -11807,7 +14588,8 @@ export const restaurants: Restaurant[] = [
     "distance": 8,
     "price": "$",
     "notes": "Local favorite in Southside & Heritage serving classic mexican & sonoran options.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Beyond Bread",
@@ -11816,7 +14598,8 @@ export const restaurants: Restaurant[] = [
     "distance": 8,
     "price": "$",
     "notes": "Local favorite in Southside & Heritage serving classic fast food & sandwiches options.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Empire Pizza",
@@ -11825,7 +14608,8 @@ export const restaurants: Restaurant[] = [
     "distance": 8,
     "price": "$",
     "notes": "A great spot to enjoy delicious italian & pizza in the Southside & Heritage area.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "The Maverick",
@@ -11834,7 +14618,8 @@ export const restaurants: Restaurant[] = [
     "distance": 8,
     "price": "$$",
     "notes": "Popular neighborhood destination featuring fresh bar, pub & brewery specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Ikkyu",
@@ -11843,7 +14628,8 @@ export const restaurants: Restaurant[] = [
     "distance": 8.1,
     "price": "$$",
     "notes": "Local favorite in Northwest & Marana serving classic asian & sushi options.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Olé Mexican Grill",
@@ -11852,7 +14638,8 @@ export const restaurants: Restaurant[] = [
     "distance": 8.1,
     "price": "$$",
     "notes": "A great spot to enjoy delicious mexican & sonoran in the Northwest & Marana area.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Village Inn",
@@ -11861,7 +14648,8 @@ export const restaurants: Restaurant[] = [
     "distance": 8.1,
     "price": "$$",
     "notes": "A great spot to enjoy delicious american & comfort in the Eastside & Vail area.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Peter Piper Pizza",
@@ -11870,7 +14658,18 @@ export const restaurants: Restaurant[] = [
     "distance": 8.1,
     "price": "$$",
     "notes": "Local favorite in Eastside & Vail serving classic italian & pizza options.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
+  },
+  {
+    "name": "Firehouse Subs",
+    "cuisine": "Fast Food & Sandwiches",
+    "neighborhood": "Eastside & Vail",
+    "distance": 8.1,
+    "price": "$",
+    "notes": "Local favorite in Eastside & Vail serving classic fast food & sandwiches options.",
+    "isLocal": false,
+    "enriched": false
   },
   {
     "name": "Golden Corral",
@@ -11879,7 +14678,8 @@ export const restaurants: Restaurant[] = [
     "distance": 8.1,
     "price": "$$",
     "notes": "Popular neighborhood destination featuring fresh american & comfort specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Chef Alisah's",
@@ -11888,7 +14688,8 @@ export const restaurants: Restaurant[] = [
     "distance": 8.2,
     "price": "$$",
     "notes": "Authentic Bosnian cuisine; serves cevapi sausages, goulash, and stuffed cabbage rolls.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Teaspoon (Oracle)",
@@ -11897,7 +14698,8 @@ export const restaurants: Restaurant[] = [
     "distance": 8.2,
     "price": "$$",
     "notes": "Modern brunch spot; features bubble waffles, benedicts, and artisan coffee drinks.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Pita Jungle (Ina)",
@@ -11906,7 +14708,18 @@ export const restaurants: Restaurant[] = [
     "distance": 8.2,
     "price": "$$",
     "notes": "Healthy Mediterranean; serves hummus trios, wood-fired pizzas, and fresh fish dishes.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
+  },
+  {
+    "name": "Panda Express",
+    "cuisine": "Asian & Sushi",
+    "neighborhood": "Westside & Downtown",
+    "distance": 8.2,
+    "price": "$",
+    "notes": "Popular neighborhood destination featuring fresh asian & sushi specialties.",
+    "isLocal": false,
+    "enriched": false
   },
   {
     "name": "Blake's Lotaburger",
@@ -11914,8 +14727,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Westside & Downtown",
     "distance": 8.2,
     "price": "$",
-    "notes": "Popular neighborhood destination featuring fresh fast food & sandwiches specialties.",
-    "isLocal": true
+    "notes": "New Mexico's iconic green chile cheeseburgers, a beloved Southwestern fast-food tradition.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Dutch Bros. Coffee",
@@ -11924,16 +14738,18 @@ export const restaurants: Restaurant[] = [
     "distance": 8.2,
     "price": "$",
     "notes": "Popular neighborhood destination featuring fresh coffee & cafe specialties.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": false
   },
   {
     "name": "Saffron Indian Bistro",
-    "cuisine": "Asian & Sushi",
+    "cuisine": "Mediterranean & Global",
     "neighborhood": "Northside & Foothills",
     "distance": 8.3,
     "price": "$$",
-    "notes": "A great spot to enjoy delicious asian & sushi in the Northside & Foothills area.",
-    "isLocal": true
+    "notes": "Authentic Indian flavors, aromatic curries, and warm hospitality create a delightful culinary journey.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Smashburger",
@@ -11941,8 +14757,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Northside & Foothills",
     "distance": 8.3,
     "price": "$",
-    "notes": "Local favorite in Northside & Foothills serving classic fast food & sandwiches options.",
-    "isLocal": true
+    "notes": "Quick-service spot for customizable smashed burgers, crispy fries, and delicious milkshakes.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Carrabba's Italian Grill",
@@ -11950,8 +14767,19 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Northside & Foothills",
     "distance": 8.3,
     "price": "$$",
-    "notes": "A great spot to enjoy delicious italian & pizza in the Northside & Foothills area.",
-    "isLocal": true
+    "notes": "Casual chain serving classic Italian dishes, wood-fired pizzas, and hearty pasta.",
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Taco Bell",
+    "cuisine": "Mexican & Sonoran",
+    "neighborhood": "Eastside & Vail",
+    "distance": 8.3,
+    "price": "$",
+    "notes": "Popular neighborhood destination featuring fresh mexican & sonoran specialties.",
+    "isLocal": false,
+    "enriched": false
   },
   {
     "name": "El Charro Café",
@@ -11959,8 +14787,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Northside & Foothills",
     "distance": 8.4,
     "price": "$$",
-    "notes": "Local favorite in Northside & Foothills serving classic mexican & sonoran options.",
-    "isLocal": true
+    "notes": "Iconic, historic restaurant serving award-winning, authentic Sonoran Mexican cuisine since 1922.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Wow Wow",
@@ -11969,7 +14798,8 @@ export const restaurants: Restaurant[] = [
     "distance": 8.4,
     "price": "$",
     "notes": "Local favorite in Northside & Foothills serving classic boba tea & beverages options.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Raising Cane's",
@@ -11977,8 +14807,29 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Westside & Downtown",
     "distance": 8.4,
     "price": "$",
-    "notes": "Local favorite in Westside & Downtown serving classic fast food & sandwiches options.",
-    "isLocal": true
+    "notes": "Famous for perfectly crispy, juicy chicken fingers and the irresistible Cane's sauce.",
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Starbucks",
+    "cuisine": "Coffee & Cafe",
+    "neighborhood": "Westside & Downtown",
+    "distance": 8.4,
+    "price": "$$",
+    "notes": "Global coffee giant offering artisanal beverages, pastries, and light breakfast/lunch options.",
+    "isLocal": false,
+    "enriched": true
+  },
+  {
+    "name": "McDonald's",
+    "cuisine": "Fast Food & Sandwiches",
+    "neighborhood": "Eastside & Vail",
+    "distance": 8.4,
+    "price": "$",
+    "notes": "Local favorite in Eastside & Vail serving classic fast food & sandwiches options.",
+    "isLocal": false,
+    "enriched": false
   },
   {
     "name": "Los Nopales",
@@ -11987,7 +14838,8 @@ export const restaurants: Restaurant[] = [
     "distance": 8.4,
     "price": "$$",
     "notes": "Local favorite in Eastside & Vail serving classic mexican & sonoran options.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Silver Saddle",
@@ -11996,7 +14848,8 @@ export const restaurants: Restaurant[] = [
     "distance": 8.5,
     "price": "$$$",
     "notes": "Mesquite-grilled steakhouse; cowboy atmosphere serving thick prime rib and classic baked potatoes.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Bear Canyon Pizza",
@@ -12005,7 +14858,8 @@ export const restaurants: Restaurant[] = [
     "distance": 8.5,
     "price": "$$",
     "notes": "Taproom and family-friendly joint; serves heavily topped craft pizzas and a massive local draft list.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Cheng's Beijing",
@@ -12014,7 +14868,8 @@ export const restaurants: Restaurant[] = [
     "distance": 8.5,
     "price": "$$",
     "notes": "Authentic Chinese cuisine; serves Beijing duck, spicy boiled fish, and hand-pulled noodles.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Village Bakehouse",
@@ -12023,7 +14878,8 @@ export const restaurants: Restaurant[] = [
     "distance": 8.5,
     "price": "$$",
     "notes": "Artisan bakery and cafe; serves fresh breads, pastries, and gourmet sandwiches.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Carrabba's",
@@ -12032,7 +14888,8 @@ export const restaurants: Restaurant[] = [
     "distance": 8.5,
     "price": "$$",
     "notes": "Italian grill chain; serves Chicken Bryan, Pollo Rosa Maria, and wood-fired pizzas.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Presta (Sunrise)",
@@ -12041,7 +14898,8 @@ export const restaurants: Restaurant[] = [
     "distance": 8.5,
     "price": "$",
     "notes": "Specialty coffee roaster; serves precision pour-overs, cold brew, and espresso drinks.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Cayton's Burger Bistro",
@@ -12050,7 +14908,8 @@ export const restaurants: Restaurant[] = [
     "distance": 8.5,
     "price": "$$$",
     "notes": "Ritz-Carlton dining; serves gourmet burgers and milkshakes with golf course views.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Core Kitchen & Wine Bar",
@@ -12059,7 +14918,8 @@ export const restaurants: Restaurant[] = [
     "distance": 8.5,
     "price": "$$$",
     "notes": "Upscale resort dining; features seasonal Sonoran cuisine and an extensive wine list.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Dove Mountain Brewing",
@@ -12068,7 +14928,8 @@ export const restaurants: Restaurant[] = [
     "distance": 8.5,
     "price": "$$",
     "notes": "Local brewery and kitchen; serves craft beers and elevated pub food.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Ignite",
@@ -12077,7 +14938,8 @@ export const restaurants: Restaurant[] = [
     "distance": 8.5,
     "price": "$$$",
     "notes": "Ritz-Carlton lobby lounge; serves sushi, gastropub fare, and fire-pit cocktails.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Turquesa Latin Grill",
@@ -12086,7 +14948,8 @@ export const restaurants: Restaurant[] = [
     "distance": 8.5,
     "price": "$$",
     "notes": "Poolside resort grill; serves Latin-inspired street food and tequila cocktails.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Wild Burro",
@@ -12095,7 +14958,8 @@ export const restaurants: Restaurant[] = [
     "distance": 8.5,
     "price": "$$",
     "notes": "Resort pub; serves casual American fare, burgers, and local drafts.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Bob's Steak & Chop House",
@@ -12104,7 +14968,8 @@ export const restaurants: Restaurant[] = [
     "distance": 8.5,
     "price": "$$$",
     "notes": "Upscale traditional steakhouse located at Omni Tucson National; serves prime cuts, giant glazed carrots, and fine wines.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Noodleholics",
@@ -12113,7 +14978,18 @@ export const restaurants: Restaurant[] = [
     "distance": 8.5,
     "price": "$$",
     "notes": "Local favorite in Northside & Foothills serving classic asian & sushi options.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
+  },
+  {
+    "name": "Pizza Hut",
+    "cuisine": "Italian & Pizza",
+    "neighborhood": "Eastside & Vail",
+    "distance": 8.5,
+    "price": "$$",
+    "notes": "Popular neighborhood destination featuring fresh italian & pizza specialties.",
+    "isLocal": false,
+    "enriched": false
   },
   {
     "name": "Dunkin'",
@@ -12121,17 +14997,29 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Northside & Foothills",
     "distance": 8.5,
     "price": "$",
-    "notes": "Popular neighborhood destination featuring fresh coffee & cafe specialties.",
-    "isLocal": false
+    "notes": "Go-to spot for classic donuts, breakfast sandwiches, and a variety of coffee drinks.",
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Tania's Mexican Food",
     "cuisine": "Mexican & Sonoran",
     "neighborhood": "Westside & Downtown",
     "distance": 8.5,
-    "price": "$$",
-    "notes": "Local favorite in Westside & Downtown serving classic mexican & sonoran options.",
-    "isLocal": true
+    "price": "$",
+    "notes": "Beloved local spot for authentic Sonoran Mexican food, especially their incredible breakfast burritos.",
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "KFC",
+    "cuisine": "Fast Food & Sandwiches",
+    "neighborhood": "Northside & Foothills",
+    "distance": 8.5,
+    "price": "$",
+    "notes": "Finger-lickin' good fried chicken, mashed potatoes, and coleslaw for a classic comfort meal.",
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Panda Express",
@@ -12140,7 +15028,8 @@ export const restaurants: Restaurant[] = [
     "distance": 8.5,
     "price": "$",
     "notes": "Popular neighborhood destination featuring fresh asian & sushi specialties.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": false
   },
   {
     "name": "Culver's",
@@ -12149,7 +15038,8 @@ export const restaurants: Restaurant[] = [
     "distance": 8.5,
     "price": "$",
     "notes": "Popular neighborhood destination featuring fresh fast food & sandwiches specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Jerry Bob's Family Restaurant",
@@ -12158,16 +15048,28 @@ export const restaurants: Restaurant[] = [
     "distance": 8.6,
     "price": "$",
     "notes": "Local favorite in Northside & Foothills serving classic coffee & cafe options.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Taco Bell",
-    "cuisine": "Mexican & Sonoran",
+    "cuisine": "Fast Food & Sandwiches",
     "neighborhood": "Northside & Foothills",
     "distance": 8.6,
     "price": "$",
-    "notes": "Popular neighborhood destination featuring fresh mexican & sonoran specialties.",
-    "isLocal": false
+    "notes": "Fast, customizable Mexican-inspired menu items for a quick and convenient bite.",
+    "isLocal": false,
+    "enriched": true
+  },
+  {
+    "name": "Eegee's",
+    "cuisine": "Fast Food & Sandwiches",
+    "neighborhood": "Northside & Foothills",
+    "distance": 8.6,
+    "price": "$",
+    "notes": "Tucson staple for refreshing eegee's drinks, grinder sandwiches, and delicious crinkle-cut fries.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Mama's Famous Pizza & Heros",
@@ -12176,16 +15078,28 @@ export const restaurants: Restaurant[] = [
     "distance": 8.7,
     "price": "$$",
     "notes": "Local favorite in Northside & Foothills serving classic italian & pizza options.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
+  },
+  {
+    "name": "Arby's",
+    "cuisine": "Fast Food & Sandwiches",
+    "neighborhood": "Northside & Foothills",
+    "distance": 8.7,
+    "price": "$",
+    "notes": "Local favorite in Northside & Foothills serving classic fast food & sandwiches options.",
+    "isLocal": false,
+    "enriched": false
   },
   {
     "name": "Bottega Michelangelo",
     "cuisine": "Italian & Pizza",
     "neighborhood": "Northside & Foothills",
     "distance": 8.7,
-    "price": "$$",
-    "notes": "A great spot to enjoy delicious italian & pizza in the Northside & Foothills area.",
-    "isLocal": true
+    "price": "$$$",
+    "notes": "Elegant Italian dining with exquisite pasta, fresh seafood, and a refined atmosphere.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Three Canyon",
@@ -12194,7 +15108,8 @@ export const restaurants: Restaurant[] = [
     "distance": 8.8,
     "price": "$$",
     "notes": "Neighborhood beer garden; features extensive local taps, live music, and food truck rotation.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Hidden Grill",
@@ -12203,7 +15118,8 @@ export const restaurants: Restaurant[] = [
     "distance": 8.8,
     "price": "$$",
     "notes": "Casual patio dining; serves grilled burgers, fresh salads, and craft beers.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Wilhelm Vineyards",
@@ -12212,7 +15128,8 @@ export const restaurants: Restaurant[] = [
     "distance": 8.8,
     "price": "$$",
     "notes": "Local wine tasting room; features Arizona-grown varietals and Spanish tapas.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Cabali",
@@ -12221,7 +15138,28 @@ export const restaurants: Restaurant[] = [
     "distance": 8.8,
     "price": "$",
     "notes": "European-style cafe; serves artisan coffee, pastries, and light lunch fare.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "McDonald's",
+    "cuisine": "Fast Food & Sandwiches",
+    "neighborhood": "Eastside & Vail",
+    "distance": 8.8,
+    "price": "$",
+    "notes": "Local favorite in Eastside & Vail serving classic fast food & sandwiches options.",
+    "isLocal": false,
+    "enriched": false
+  },
+  {
+    "name": "The Landing",
+    "cuisine": "American & Comfort",
+    "neighborhood": "Northside & Foothills",
+    "distance": 8.9,
+    "price": "$$",
+    "notes": "Laid-back spot offering classic American comfort food, burgers, and a full bar.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Applebee's",
@@ -12230,7 +15168,8 @@ export const restaurants: Restaurant[] = [
     "distance": 8.9,
     "price": "$$",
     "notes": "A great spot to enjoy delicious american & comfort in the Northwest & Marana area.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": false
   },
   {
     "name": "PY Steakhouse",
@@ -12239,7 +15178,8 @@ export const restaurants: Restaurant[] = [
     "distance": 9,
     "price": "$$$",
     "notes": "Flagship Casino Del Sol restaurant; features premium dry-aged steaks and an extensive wine list.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Festa International Buffet",
@@ -12248,7 +15188,8 @@ export const restaurants: Restaurant[] = [
     "distance": 9,
     "price": "$$",
     "notes": "Array of international casino fare; offers everything from carved meats to Asian stir-fry.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "SweetScape Desserts",
@@ -12257,7 +15198,8 @@ export const restaurants: Restaurant[] = [
     "distance": 9,
     "price": "$",
     "notes": "Gelato and doughnut shop at Casino Del Sol; serves rich Italian ice cream and sweet pastries.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Subway (Valencia)",
@@ -12266,7 +15208,8 @@ export const restaurants: Restaurant[] = [
     "distance": 9,
     "price": "$",
     "notes": "Custom-built sub sandwiches; offers freshly baked bread, cold cuts, and healthy veggie options.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Arby's (Valencia)",
@@ -12275,7 +15218,8 @@ export const restaurants: Restaurant[] = [
     "distance": 9,
     "price": "$",
     "notes": "Roast beef and curly fries; serves towering meat sandwiches and classic Jamocha shakes.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Popeyes (Valencia)",
@@ -12284,7 +15228,8 @@ export const restaurants: Restaurant[] = [
     "distance": 9,
     "price": "$",
     "notes": "Southern fried chicken chain; serves crispy Louisiana-style chicken, red beans, and warm biscuits.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Le Buzz Caffe",
@@ -12293,7 +15238,8 @@ export const restaurants: Restaurant[] = [
     "distance": 9,
     "price": "$",
     "notes": "Gateway to Mt Lemmon; pastries; famous for the Tamale Benedict, fresh juices, and a daily Cortado.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Saffron Indian",
@@ -12302,7 +15248,8 @@ export const restaurants: Restaurant[] = [
     "distance": 9,
     "price": "$$",
     "notes": "Upscale Indian bistro; serves chicken tikka masala, lamb vindaloo, and fresh naan.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Gourmet Girls",
@@ -12311,7 +15258,8 @@ export const restaurants: Restaurant[] = [
     "distance": 9,
     "price": "$$",
     "notes": "Gluten-free bakery and cafe; serves safe, delicious pastries, sandwiches, and pizzas.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Sonkissed Kitchen",
@@ -12320,7 +15268,8 @@ export const restaurants: Restaurant[] = [
     "distance": 9,
     "price": "$$",
     "notes": "Keto and health-focused; serves low-carb bowls, sugar-free desserts, and bulletproof coffee.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Just Kabab",
@@ -12329,7 +15278,8 @@ export const restaurants: Restaurant[] = [
     "distance": 9,
     "price": "$",
     "notes": "Middle Eastern street food; serves authentic shawarma, falafel wraps, and hummus.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Whiskey Roads",
@@ -12338,7 +15288,8 @@ export const restaurants: Restaurant[] = [
     "distance": 9,
     "price": "$$",
     "notes": "Popular neighborhood destination featuring fresh american & comfort specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "A&W",
@@ -12347,7 +15298,8 @@ export const restaurants: Restaurant[] = [
     "distance": 9,
     "price": "$",
     "notes": "A great spot to enjoy delicious fast food & sandwiches in the Eastside & Vail area.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Sonic",
@@ -12356,7 +15308,8 @@ export const restaurants: Restaurant[] = [
     "distance": 9,
     "price": "$",
     "notes": "A great spot to enjoy delicious fast food & sandwiches in the Northwest & Marana area.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Pappoule's",
@@ -12364,8 +15317,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Northwest & Marana",
     "distance": 9.1,
     "price": "$$",
-    "notes": "Popular neighborhood destination featuring fresh mediterranean & global specialties.",
-    "isLocal": true
+    "notes": "Authentic Greek family recipes, generous portions of gyros, and delicious Mediterranean favorites.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Ding Tea",
@@ -12373,8 +15327,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Northwest & Marana",
     "distance": 9.2,
     "price": "$",
-    "notes": "A great spot to enjoy delicious boba tea & beverages in the Northwest & Marana area.",
-    "isLocal": true
+    "notes": "Popular spot for customizable boba teas, fresh fruit drinks, and refreshing, sweet concoctions.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Chipotle",
@@ -12382,8 +15337,19 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Northwest & Marana",
     "distance": 9.2,
     "price": "$",
-    "notes": "Popular neighborhood destination featuring fresh mexican & sonoran specialties.",
-    "isLocal": false
+    "notes": "Fast-casual Mexican grill featuring customizable burritos, bowls, and fresh, wholesome ingredients.",
+    "isLocal": false,
+    "enriched": true
+  },
+  {
+    "name": "Subway",
+    "cuisine": "Fast Food & Sandwiches",
+    "neighborhood": "Northwest & Marana",
+    "distance": 9.2,
+    "price": "$",
+    "notes": "Custom-built submarine sandwiches with fresh ingredients. A quick and easy meal.",
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Sushi Garden",
@@ -12392,7 +15358,18 @@ export const restaurants: Restaurant[] = [
     "distance": 9.2,
     "price": "$$",
     "notes": "Local favorite in Northwest & Marana serving classic asian & sushi options.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
+  },
+  {
+    "name": "Burger King",
+    "cuisine": "Fast Food & Sandwiches",
+    "neighborhood": "Eastside & Vail",
+    "distance": 9.2,
+    "price": "$",
+    "notes": "Popular neighborhood destination featuring fresh fast food & sandwiches specialties.",
+    "isLocal": false,
+    "enriched": false
   },
   {
     "name": "Champps",
@@ -12401,7 +15378,18 @@ export const restaurants: Restaurant[] = [
     "distance": 9.2,
     "price": "$$",
     "notes": "Popular neighborhood destination featuring fresh american & comfort specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
+  },
+  {
+    "name": "Starbucks",
+    "cuisine": "Coffee & Cafe",
+    "neighborhood": "Westside & Downtown",
+    "distance": 9.2,
+    "price": "$",
+    "notes": "A great spot to enjoy delicious coffee & cafe in the Westside & Downtown area.",
+    "isLocal": false,
+    "enriched": false
   },
   {
     "name": "Wendy's",
@@ -12409,8 +15397,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Northwest & Marana",
     "distance": 9.3,
     "price": "$",
-    "notes": "A great spot to enjoy delicious fast food & sandwiches in the Northwest & Marana area.",
-    "isLocal": false
+    "notes": "Classic square burgers, crispy fries, and Frosty treats for a quick and satisfying meal.",
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Ni's Asian Bistro & Sushi Bar",
@@ -12418,8 +15407,19 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Northwest & Marana",
     "distance": 9.3,
     "price": "$$",
-    "notes": "A great spot to enjoy delicious asian & sushi in the Northwest & Marana area.",
-    "isLocal": true
+    "notes": "Fresh, artfully prepared sushi rolls and a diverse menu of popular Asian dishes.",
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Crying Onion Cafe",
+    "cuisine": "Coffee & Cafe",
+    "neighborhood": "Northwest & Marana",
+    "distance": 9.3,
+    "price": "$",
+    "notes": "Local favorite in Northwest & Marana serving classic coffee & cafe options.",
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Little Mexico Steakhouse",
@@ -12428,7 +15428,8 @@ export const restaurants: Restaurant[] = [
     "distance": 9.3,
     "price": "$",
     "notes": "Popular neighborhood destination featuring fresh boba tea & beverages specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Firehouse Subs",
@@ -12437,7 +15438,8 @@ export const restaurants: Restaurant[] = [
     "distance": 9.3,
     "price": "$",
     "notes": "Local favorite in Northwest & Marana serving classic fast food & sandwiches options.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": false
   },
   {
     "name": "Freddie's Steakburger",
@@ -12446,7 +15448,18 @@ export const restaurants: Restaurant[] = [
     "distance": 9.3,
     "price": "$",
     "notes": "Local favorite in Northwest & Marana serving classic fast food & sandwiches options.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
+  },
+  {
+    "name": "McDonald's",
+    "cuisine": "Fast Food & Sandwiches",
+    "neighborhood": "Westside & Downtown",
+    "distance": 9.3,
+    "price": "$",
+    "notes": "Local favorite in Westside & Downtown serving classic fast food & sandwiches options.",
+    "isLocal": false,
+    "enriched": false
   },
   {
     "name": "KFC",
@@ -12455,7 +15468,8 @@ export const restaurants: Restaurant[] = [
     "distance": 9.3,
     "price": "$",
     "notes": "Popular neighborhood destination featuring fresh fast food & sandwiches specialties.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": false
   },
   {
     "name": "Tandem Eatery",
@@ -12464,7 +15478,8 @@ export const restaurants: Restaurant[] = [
     "distance": 9.5,
     "price": "$$",
     "notes": "Locally owned; fresh creative fare; serves gourmet burgers and decadent Bacon Loaded Fries.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Mulligan's",
@@ -12473,7 +15488,8 @@ export const restaurants: Restaurant[] = [
     "distance": 9.5,
     "price": "$$",
     "notes": "Neighborhood sports bar and grill; serves cold pints, hot wings, and hearty pub sandwiches.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Epazote Kitchen",
@@ -12482,7 +15498,8 @@ export const restaurants: Restaurant[] = [
     "distance": 9.5,
     "price": "$$$",
     "notes": "El Conquistador resort dining; features regional Southwestern ingredients and agave spirits.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "The Overlook",
@@ -12491,7 +15508,8 @@ export const restaurants: Restaurant[] = [
     "distance": 9.5,
     "price": "$$",
     "notes": "Golf course dining; serves classic club sandwiches, burgers, and salads with mountain views.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Colibri Lounge",
@@ -12500,7 +15518,8 @@ export const restaurants: Restaurant[] = [
     "distance": 9.5,
     "price": "$$",
     "notes": "Resort lobby bar; features craft cocktails, tapas, and panoramic Pusch Ridge views.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Sundance Cafe",
@@ -12509,7 +15528,8 @@ export const restaurants: Restaurant[] = [
     "distance": 9.5,
     "price": "$$",
     "notes": "Casual resort breakfast; serves buffet staples, omelettes, and fresh fruit platters.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "China Valley",
@@ -12518,7 +15538,8 @@ export const restaurants: Restaurant[] = [
     "distance": 9.5,
     "price": "$",
     "notes": "Neighborhood Chinese takeout; serves generous portions of kung pao chicken and fried rice.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "OV Pizza & Pints",
@@ -12527,7 +15548,8 @@ export const restaurants: Restaurant[] = [
     "distance": 9.5,
     "price": "$$",
     "notes": "Family pizza joint; serves specialty pies, wings, and a rotating selection of craft beers.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Breadsmith",
@@ -12536,7 +15558,8 @@ export const restaurants: Restaurant[] = [
     "distance": 9.5,
     "price": "$",
     "notes": "Kosher bakery; specializes in crusty European-style hearth breads and soft rolls.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Noble Hops",
@@ -12545,7 +15568,8 @@ export const restaurants: Restaurant[] = [
     "distance": 9.5,
     "price": "$$",
     "notes": "Gastropub with mountain views; serves craft beer flights, pretzel bites, and gourmet burgers.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "DiBella's Brunch",
@@ -12554,7 +15578,8 @@ export const restaurants: Restaurant[] = [
     "distance": 9.5,
     "price": "$$",
     "notes": "Weekend brunch spot; features mimosa flights, eggs benedict, and savory breakfast skillets.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Nautical Bowls",
@@ -12563,7 +15588,8 @@ export const restaurants: Restaurant[] = [
     "distance": 9.5,
     "price": "$$",
     "notes": "Superfood bowls; serves gluten-free, dairy-free acai and sorbet bowls loaded with toppings.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Chipotle (OV)",
@@ -12572,7 +15598,8 @@ export const restaurants: Restaurant[] = [
     "distance": 9.5,
     "price": "$",
     "notes": "Fast-casual burritos; serves customizable bowls with cilantro-lime rice and grilled meats.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "San Giorgi's Coffee",
@@ -12580,8 +15607,19 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Northwest & Marana",
     "distance": 9.5,
     "price": "$",
-    "notes": "Local favorite in Northwest & Marana serving classic coffee & cafe options.",
-    "isLocal": true
+    "notes": "Cozy coffee shop brewing artisanal espresso, refreshing teas, and delicious pastries. Relaxed ambiance.",
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Subway",
+    "cuisine": "Fast Food & Sandwiches",
+    "neighborhood": "Northwest & Marana",
+    "distance": 9.5,
+    "price": "$",
+    "notes": "Build-your-own sandwiches with fresh ingredients, perfect for a customizable, quick, and easy meal.",
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Sgt. Pepporoni's Pizza",
@@ -12589,8 +15627,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Northwest & Marana",
     "distance": 9.5,
     "price": "$$",
-    "notes": "Popular neighborhood destination featuring fresh italian & pizza specialties.",
-    "isLocal": true
+    "notes": "Fun, family-friendly pizzeria serving up delicious classic and specialty pies in a vibrant setting.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Trident Grill IV",
@@ -12598,17 +15637,19 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Northwest & Marana",
     "distance": 9.5,
     "price": "$$",
-    "notes": "A great spot to enjoy delicious american & comfort in the Northwest & Marana area.",
-    "isLocal": true
+    "notes": "Local favorite offering hearty American pub fare, great burgers, and a lively sports bar atmosphere.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Einstein Bros. Bagels",
-    "cuisine": "Fast Food & Sandwiches",
+    "cuisine": "Breakfast & Diner",
     "neighborhood": "Northwest & Marana",
     "distance": 9.5,
     "price": "$",
-    "notes": "Popular neighborhood destination featuring fresh fast food & sandwiches specialties.",
-    "isLocal": true
+    "notes": "Popular spot for freshly baked bagels, schmears, and breakfast sandwiches to start your day.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Filiberto's",
@@ -12617,7 +15658,8 @@ export const restaurants: Restaurant[] = [
     "distance": 9.5,
     "price": "$",
     "notes": "Popular neighborhood destination featuring fresh mexican & sonoran specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Grumpy's Grill",
@@ -12625,8 +15667,19 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Northwest & Marana",
     "distance": 9.6,
     "price": "$$",
-    "notes": "A great spot to enjoy delicious american & comfort in the Northwest & Marana area.",
-    "isLocal": true
+    "notes": "Beloved local spot serving hearty American classics, famous for delicious burgers and friendly atmosphere.",
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "McDonald's",
+    "cuisine": "Fast Food & Sandwiches",
+    "neighborhood": "Westside & Downtown",
+    "distance": 9.6,
+    "price": "$",
+    "notes": "Local favorite in Westside & Downtown serving classic fast food & sandwiches options.",
+    "isLocal": false,
+    "enriched": false
   },
   {
     "name": "Taco Apson",
@@ -12634,8 +15687,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Northwest & Marana",
     "distance": 9.7,
     "price": "$",
-    "notes": "Local favorite in Northwest & Marana serving classic mexican & sonoran options.",
-    "isLocal": true
+    "notes": "Authentic Sonoran hot dogs and carne asada, a Tucson favorite for delicious street food.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Little Caesars",
@@ -12643,8 +15697,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Northwest & Marana",
     "distance": 9.7,
     "price": "$",
-    "notes": "A great spot to enjoy delicious italian & pizza in the Northwest & Marana area.",
-    "isLocal": false
+    "notes": "Quick, affordable \"Hot-N-Ready\" pizzas for families on the go. Perfect for a fast meal.",
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Luke's",
@@ -12652,8 +15707,19 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Northwest & Marana",
     "distance": 9.7,
     "price": "$",
-    "notes": "Local favorite in Northwest & Marana serving classic fast food & sandwiches options.",
-    "isLocal": true
+    "notes": "Classic American fast food, known for burgers and fries. A reliable, casual spot.",
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Dave's Hot Chicken",
+    "cuisine": "Fast Food & Sandwiches",
+    "neighborhood": "Northwest & Marana",
+    "distance": 9.7,
+    "price": "$",
+    "notes": "A great spot to enjoy delicious fast food & sandwiches in the Northwest & Marana area.",
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Saguaro Corners",
@@ -12662,7 +15728,8 @@ export const restaurants: Restaurant[] = [
     "distance": 9.8,
     "price": "$$",
     "notes": "Tucson comfort staple since 1956; features the John Wayne Burger, baby back ribs, and Carnitas Mac.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Caffe Torino",
@@ -12671,7 +15738,8 @@ export const restaurants: Restaurant[] = [
     "distance": 9.8,
     "price": "$$",
     "notes": "Northern Italian cuisine; serves creamy risottos, polenta, and hearty meat sauces.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Goyita's Mexican",
@@ -12680,7 +15748,8 @@ export const restaurants: Restaurant[] = [
     "distance": 9.8,
     "price": "$$",
     "notes": "New Mexican style; features red and green chile sauces, stuffed sopaipillas, and enchiladas.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Dragon Village",
@@ -12689,7 +15758,8 @@ export const restaurants: Restaurant[] = [
     "distance": 9.8,
     "price": "$",
     "notes": "Classic Chinese takeout; serves sesame chicken, pork fried rice, and crispy egg rolls.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Sushi Valley",
@@ -12698,7 +15768,8 @@ export const restaurants: Restaurant[] = [
     "distance": 9.8,
     "price": "$$",
     "notes": "Neighborhood sushi bar; serves fresh rolls, teriyaki bowls, and tempura appetizers.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Bruegger's Bagels",
@@ -12707,7 +15778,8 @@ export const restaurants: Restaurant[] = [
     "distance": 9.8,
     "price": "$",
     "notes": "New York-style bagels; serves kettle-boiled bagels with various cream cheese spreads.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Denny's (OV)",
@@ -12716,7 +15788,8 @@ export const restaurants: Restaurant[] = [
     "distance": 9.8,
     "price": "$",
     "notes": "24-hour diner; serves Grand Slam breakfasts, burgers, and late-night appetizers.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Golden Coral",
@@ -12724,8 +15797,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Northwest & Marana",
     "distance": 9.8,
     "price": "$$",
-    "notes": "Popular neighborhood destination featuring fresh american & comfort specialties.",
-    "isLocal": true
+    "notes": "All-you-can-eat buffet with extensive American comfort food options for the whole family.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "McGraw's Cantina Restaurant",
@@ -12734,7 +15808,8 @@ export const restaurants: Restaurant[] = [
     "distance": 9.8,
     "price": "$$",
     "notes": "Local favorite in Eastside & Vail serving classic american & comfort options.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Panda House Stir Fry",
@@ -12742,8 +15817,19 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Northwest & Marana",
     "distance": 9.9,
     "price": "$$",
-    "notes": "A great spot to enjoy delicious asian & sushi in the Northwest & Marana area.",
-    "isLocal": true
+    "notes": "Build-your-own stir-fry bowls with fresh ingredients and various sauces. Quick, satisfying.",
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Crema Coffee",
+    "cuisine": "Coffee & Cafe",
+    "neighborhood": "Northwest & Marana",
+    "distance": 9.9,
+    "price": "$",
+    "notes": "Local favorite in Northwest & Marana serving classic coffee & cafe options.",
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Culver's",
@@ -12751,17 +15837,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Northwest & Marana",
     "distance": 9.9,
     "price": "$",
-    "notes": "Popular neighborhood destination featuring fresh fast food & sandwiches specialties.",
-    "isLocal": true
-  },
-  {
-    "name": "The Landing",
-    "cuisine": "American & Comfort",
-    "neighborhood": "Northside & Foothills",
-    "distance": 10,
-    "price": "$$",
-    "notes": "Seafood-focused casual dining; features fresh fish tacos, clam chowder, and patio seating.",
-    "isLocal": true
+    "notes": "Known for ButterBurgers, frozen custard, and other American comfort food favorites.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Aqui Con El Nene",
@@ -12770,7 +15848,18 @@ export const restaurants: Restaurant[] = [
     "distance": 10,
     "price": "$",
     "notes": "Chipilón-style dogs and authentic Yaqui tacos cooked over a mesquite grill; massive salsa bar.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "The Landing",
+    "cuisine": "American & Comfort",
+    "neighborhood": "Northside & Foothills",
+    "distance": 10,
+    "price": "$$",
+    "notes": "Seafood-focused casual dining; features fresh fish tacos, clam chowder, and patio seating.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Lookout Bar",
@@ -12779,7 +15868,8 @@ export const restaurants: Restaurant[] = [
     "distance": 10,
     "price": "$$",
     "notes": "Westward Look resort; panoramic sunset views; serves craft cocktails and upscale bar bites.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Savaya Coffee",
@@ -12788,7 +15878,8 @@ export const restaurants: Restaurant[] = [
     "distance": 10,
     "price": "$",
     "notes": "Organic, fair-trade coffee; serves science-forward pour-overs and Turkish coffee.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Oasis Nutrition",
@@ -12797,7 +15888,8 @@ export const restaurants: Restaurant[] = [
     "distance": 10,
     "price": "$",
     "notes": "Energy tea and shake bar; serves protein-packed smoothies and metabolism-boosting teas.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Stacks Book Club",
@@ -12806,7 +15898,18 @@ export const restaurants: Restaurant[] = [
     "distance": 10,
     "price": "$",
     "notes": "Bookstore cafe; serves literary-themed lattes and pastries in a cozy reading environment.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Subway",
+    "cuisine": "Fast Food & Sandwiches",
+    "neighborhood": "Northwest & Marana",
+    "distance": 10,
+    "price": "$",
+    "notes": "Customizable sub sandwiches with fresh ingredients, perfect for a quick, healthier lunch. Always reliable.",
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Peter Piper Pizza",
@@ -12814,17 +15917,29 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Northwest & Marana",
     "distance": 10,
     "price": "$$",
-    "notes": "Local favorite in Northwest & Marana serving classic italian & pizza options.",
-    "isLocal": true
+    "notes": "Family-friendly pizza and arcade. Perfect for parties and classic pepperoni pies. Fun for all.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Wingstop",
     "cuisine": "Fast Food & Sandwiches",
     "neighborhood": "Northwest & Marana",
     "distance": 10,
-    "price": "$",
-    "notes": "A great spot to enjoy delicious fast food & sandwiches in the Northwest & Marana area.",
-    "isLocal": true
+    "price": "$$",
+    "notes": "Go-to for perfectly sauced wings in bold flavors. Takeout favorite for game day.",
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "El Molinito",
+    "cuisine": "American & Comfort",
+    "neighborhood": "Northwest & Marana",
+    "distance": 10,
+    "price": "$$",
+    "notes": "Popular neighborhood destination featuring fresh american & comfort specialties.",
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Eegee's",
@@ -12833,7 +15948,28 @@ export const restaurants: Restaurant[] = [
     "distance": 10,
     "price": "$",
     "notes": "Popular neighborhood destination featuring fresh fast food & sandwiches specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
+  },
+  {
+    "name": "Starbucks",
+    "cuisine": "Coffee & Cafe",
+    "neighborhood": "Northwest & Marana",
+    "distance": 10.1,
+    "price": "$$",
+    "notes": "Ubiquitous coffee chain for reliable lattes, frappuccinos, and a quick breakfast bite. Always consistent.",
+    "isLocal": false,
+    "enriched": true
+  },
+  {
+    "name": "Taco Bell",
+    "cuisine": "Mexican & Sonoran",
+    "neighborhood": "Northwest & Marana",
+    "distance": 10.1,
+    "price": "$",
+    "notes": "Popular neighborhood destination featuring fresh mexican & sonoran specialties.",
+    "isLocal": false,
+    "enriched": false
   },
   {
     "name": "El Pollo Loco",
@@ -12842,7 +15978,8 @@ export const restaurants: Restaurant[] = [
     "distance": 10.1,
     "price": "$",
     "notes": "A great spot to enjoy delicious mexican & sonoran in the Northwest & Marana area.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": false
   },
   {
     "name": "Carl's Jr. / Green Burrito",
@@ -12851,7 +15988,8 @@ export const restaurants: Restaurant[] = [
     "distance": 10.1,
     "price": "$",
     "notes": "Popular neighborhood destination featuring fresh mexican & sonoran specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Five Guys",
@@ -12860,7 +15998,18 @@ export const restaurants: Restaurant[] = [
     "distance": 10.1,
     "price": "$",
     "notes": "A great spot to enjoy delicious fast food & sandwiches in the Northwest & Marana area.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": false
+  },
+  {
+    "name": "Dickey's BBQ",
+    "cuisine": "Steakhouse & BBQ",
+    "neighborhood": "Northwest & Marana",
+    "distance": 10.1,
+    "price": "$",
+    "notes": "A great spot to enjoy delicious steakhouse & bbq in the Northwest & Marana area.",
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Harvest",
@@ -12869,7 +16018,8 @@ export const restaurants: Restaurant[] = [
     "distance": 10.2,
     "price": "$$",
     "notes": "Seasonal scratch cooking; features house-made pasta, braised meats, and craft cocktails.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Bottega Michel.",
@@ -12878,7 +16028,8 @@ export const restaurants: Restaurant[] = [
     "distance": 10.2,
     "price": "$$$",
     "notes": "Authentic Italian market and deli; serves imported cheeses, cured meats, and gelato.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Flavor of India",
@@ -12887,7 +16038,8 @@ export const restaurants: Restaurant[] = [
     "distance": 10.2,
     "price": "$$",
     "notes": "Traditional Northern Indian; serves rich curries, tandoori chicken, and vegetable samosas.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Mali Thai",
@@ -12896,7 +16048,8 @@ export const restaurants: Restaurant[] = [
     "distance": 10.2,
     "price": "$$",
     "notes": "Family-owned Thai; features spicy basil stir-fry, massaman curry, and thai iced tea.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Tuk Tuk Thai",
@@ -12905,7 +16058,8 @@ export const restaurants: Restaurant[] = [
     "distance": 10.2,
     "price": "$$",
     "notes": "Modern Thai street food; serves pad see ew, green curry, and crispy spring rolls.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "The Hoppy Vine",
@@ -12914,7 +16068,8 @@ export const restaurants: Restaurant[] = [
     "distance": 10.2,
     "price": "$$",
     "notes": "Craft beer and wine bar; offers a rotating tap list and retail bottle shop.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Cold Beers & Burgers",
@@ -12923,7 +16078,8 @@ export const restaurants: Restaurant[] = [
     "distance": 10.2,
     "price": "$$",
     "notes": "Sports bar chain; serves gourmet burgers, mac and cheese, and over 150 beers.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "GMG Chinese",
@@ -12932,7 +16088,8 @@ export const restaurants: Restaurant[] = [
     "distance": 10.2,
     "price": "$",
     "notes": "No-frills Chinese bistro; serves orange chicken, mongolian beef, and hot and sour soup.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Grain River Asian",
@@ -12941,16 +16098,48 @@ export const restaurants: Restaurant[] = [
     "distance": 10.2,
     "price": "$$",
     "notes": "Pan-Asian fusion; features sushi rolls, chinese wok dishes, and thai noodle plates.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "McDonald's",
+    "cuisine": "Fast Food & Sandwiches",
+    "neighborhood": "Northwest & Marana",
+    "distance": 10.2,
+    "price": "$",
+    "notes": "Global fast-food giant for classic burgers, fries, shakes. Perfect for quick, convenient meals.",
+    "isLocal": false,
+    "enriched": true
+  },
+  {
+    "name": "MOD Pizza",
+    "cuisine": "Italian & Pizza",
+    "neighborhood": "Northwest & Marana",
+    "distance": 10.2,
+    "price": "$",
+    "notes": "Build-your-own pizza spot with fast service and fresh ingredients. Perfect for a quick, customizable meal.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Coyote Cafe & Gift Shop",
     "cuisine": "Coffee & Cafe",
     "neighborhood": "Westside & Downtown",
     "distance": 10.2,
+    "price": "$$",
+    "notes": "Charming cafe offering coffee, light bites, and unique local gifts. Relaxing ambiance.",
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Chick-fil-A",
+    "cuisine": "Fast Food & Sandwiches",
+    "neighborhood": "Northwest & Marana",
+    "distance": 10.2,
     "price": "$",
-    "notes": "Popular neighborhood destination featuring fresh coffee & cafe specialties.",
-    "isLocal": true
+    "notes": "A great spot to enjoy delicious fast food & sandwiches in the Northwest & Marana area.",
+    "isLocal": false,
+    "enriched": false
   },
   {
     "name": "Lin Nam",
@@ -12958,8 +16147,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Northwest & Marana",
     "distance": 10.3,
     "price": "$$",
-    "notes": "A great spot to enjoy delicious asian & sushi in the Northwest & Marana area.",
-    "isLocal": true
+    "notes": "Long-standing local Chinese restaurant offering traditional dishes and a comfortable dining experience.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Los Nopales",
@@ -12968,7 +16158,8 @@ export const restaurants: Restaurant[] = [
     "distance": 10.4,
     "price": "$$",
     "notes": "Local favorite in Westside & Downtown serving classic american & comfort options.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Bisbee Breakfast Club",
@@ -12976,8 +16167,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Northwest & Marana",
     "distance": 10.4,
     "price": "$$",
-    "notes": "Popular neighborhood destination featuring fresh breakfast & diner specialties.",
-    "isLocal": true
+    "notes": "Cozy diner serving hearty breakfast and lunch classics with a nostalgic, welcoming atmosphere.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Mariscos Chihuahua",
@@ -12986,7 +16178,8 @@ export const restaurants: Restaurant[] = [
     "distance": 10.4,
     "price": "$$",
     "notes": "A great spot to enjoy delicious mexican & sonoran in the Northwest & Marana area.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Dairy Queen",
@@ -12995,7 +16188,18 @@ export const restaurants: Restaurant[] = [
     "distance": 10.4,
     "price": "$",
     "notes": "Local favorite in Northwest & Marana serving classic dessert & bakery options.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": false
+  },
+  {
+    "name": "Old Father Inn",
+    "cuisine": "American & Comfort",
+    "neighborhood": "Northwest & Marana",
+    "distance": 10.4,
+    "price": "$$",
+    "notes": "A great spot to enjoy delicious american & comfort in the Northwest & Marana area.",
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "IHOP (Valencia)",
@@ -13004,7 +16208,8 @@ export const restaurants: Restaurant[] = [
     "distance": 10.5,
     "price": "$$",
     "notes": "24-hour service near SS/Laos Transit Center; serves classic fluffy pancakes and breakfast combos.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "The Views",
@@ -13013,7 +16218,8 @@ export const restaurants: Restaurant[] = [
     "distance": 10.5,
     "price": "$$",
     "notes": "Oro Valley country club dining; serves prime rib, fresh seafood, and salads with mountain views.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Cheers to You!",
@@ -13022,7 +16228,8 @@ export const restaurants: Restaurant[] = [
     "distance": 10.5,
     "price": "$$",
     "notes": "Neighborhood dive bar; serves cold beer, karaoke nights, and basic pub snacks.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Fork & Fire",
@@ -13031,7 +16238,8 @@ export const restaurants: Restaurant[] = [
     "distance": 10.5,
     "price": "$$",
     "notes": "Smokehouse and taproom; features brisket mac and cheese, smoked wings, and local beers.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Kebab King",
@@ -13040,7 +16248,8 @@ export const restaurants: Restaurant[] = [
     "distance": 10.5,
     "price": "$",
     "notes": "Authentic Mediterranean grill; serves chicken shawarma, lamb kebabs, and greek salads.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "The Keg",
@@ -13049,7 +16258,8 @@ export const restaurants: Restaurant[] = [
     "distance": 10.5,
     "price": "$$$",
     "notes": "Upscale steakhouse chain; features prime rib, filet mignon, and escargot appetizers.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "El Charro (OV)",
@@ -13058,16 +16268,8 @@ export const restaurants: Restaurant[] = [
     "distance": 10.5,
     "price": "$$",
     "notes": "Oro Valley location; serves legendary carne seca, chimichangas, and handmade tamales.",
-    "isLocal": true
-  },
-  {
-    "name": "IHOP (Cerius)",
-    "cuisine": "Breakfast & Diner",
-    "neighborhood": "Northside & Foothills",
-    "distance": 10.5,
-    "price": "$$",
-    "notes": "Pancake house chain; serves breakfast samplers, crepes, and burgers all day.",
-    "isLocal": false
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Filiberto's (Oracle)",
@@ -13076,7 +16278,18 @@ export const restaurants: Restaurant[] = [
     "distance": 10.5,
     "price": "$",
     "notes": "24-hour Mexican fast food; serves super nachos, carne asada fries, and breakfast burritos.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Taco Giro",
+    "cuisine": "Mexican & Sonoran",
+    "neighborhood": "Northwest & Marana",
+    "distance": 10.5,
+    "price": "$",
+    "notes": "Authentic Sonoran-style tacos and burritos, packed with flavor and generous portions. Local gem.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Nico's Taco Shop",
@@ -13084,8 +16297,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Northwest & Marana",
     "distance": 10.5,
     "price": "$",
-    "notes": "Popular neighborhood destination featuring fresh mexican & sonoran specialties.",
-    "isLocal": true
+    "notes": "Popular late-night spot for classic Mexican street tacos, massive burritos, and quick meals.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Dutch Bros. Coffee",
@@ -13094,16 +16308,28 @@ export const restaurants: Restaurant[] = [
     "distance": 10.5,
     "price": "$",
     "notes": "Popular neighborhood destination featuring fresh coffee & cafe specialties.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": false
   },
   {
     "name": "La Parilla Suiza",
-    "cuisine": "American & Comfort",
+    "cuisine": "Mexican & Sonoran",
     "neighborhood": "Northwest & Marana",
     "distance": 10.6,
     "price": "$$",
-    "notes": "Local favorite in Northwest & Marana serving classic american & comfort options.",
-    "isLocal": true
+    "notes": "Tucson institution for delicious, traditional Sonoran Mexican cuisine. Famous for mesquite-grilled meats.",
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Seis Kitchen",
+    "cuisine": "Mexican & Sonoran",
+    "neighborhood": "Northside & Foothills",
+    "distance": 10.6,
+    "price": "$$",
+    "notes": "Vibrant eatery serving fresh, creative Mexican street food with a focus on Sonoran flavors.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "La Parrilla Suiza",
@@ -13111,17 +16337,19 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Northwest & Marana",
     "distance": 10.6,
     "price": "$$",
-    "notes": "Local favorite in Northwest & Marana serving classic mexican & sonoran options.",
-    "isLocal": true
+    "notes": "Renowned for delicious Swiss-style grilled meats and classic Sonoran Mexican specialties.",
+    "isLocal": true,
+    "enriched": true
   },
   {
-    "name": "Wendy's",
+    "name": "Sonic",
     "cuisine": "Fast Food & Sandwiches",
-    "neighborhood": "Northside & Foothills",
-    "distance": 10.8,
+    "neighborhood": "Northwest & Marana",
+    "distance": 10.7,
     "price": "$",
-    "notes": "Fast food burgers; serves spicy chicken sandwiches, baked potatoes, and Frosty desserts.",
-    "isLocal": false
+    "notes": "A great spot to enjoy delicious fast food & sandwiches in the Northwest & Marana area.",
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Catalina Craft Pizza",
@@ -13130,7 +16358,8 @@ export const restaurants: Restaurant[] = [
     "distance": 10.8,
     "price": "$$",
     "notes": "Pub-style pizza place; serves specialty pies, calzones, and a large selection of craft beers.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Charred Pie",
@@ -13139,7 +16368,8 @@ export const restaurants: Restaurant[] = [
     "distance": 10.8,
     "price": "$$",
     "notes": "Wood-fired pizza kitchen; features blistered crusts, fresh mozzarella, and italian wines.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "WHATABURGER",
@@ -13148,7 +16378,8 @@ export const restaurants: Restaurant[] = [
     "distance": 10.8,
     "price": "$",
     "notes": "Texas-based burger chain; serves large custom burgers, spicy ketchup, and honey butter chicken biscuits.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Vitality Bowls",
@@ -13157,7 +16388,18 @@ export const restaurants: Restaurant[] = [
     "distance": 10.8,
     "price": "$$",
     "notes": "Superfood cafe; specializes in thick acai bowls, fresh juice, and panini.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
+  },
+  {
+    "name": "Wendy's",
+    "cuisine": "Fast Food & Sandwiches",
+    "neighborhood": "Northside & Foothills",
+    "distance": 10.8,
+    "price": "$",
+    "notes": "Fast food burgers; serves spicy chicken sandwiches, baked potatoes, and Frosty desserts.",
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Chinese Combo",
@@ -13166,7 +16408,18 @@ export const restaurants: Restaurant[] = [
     "distance": 10.8,
     "price": "$$",
     "notes": "A great spot to enjoy delicious asian & sushi in the Eastside & Vail area.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
+  },
+  {
+    "name": "Donut Wheel",
+    "cuisine": "Dessert & Bakery",
+    "neighborhood": "Northwest & Marana",
+    "distance": 10.8,
+    "price": "$",
+    "notes": "Popular neighborhood destination featuring fresh dessert & bakery specialties.",
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Pour My Coffee Co.",
@@ -13175,7 +16428,28 @@ export const restaurants: Restaurant[] = [
     "distance": 10.9,
     "price": "$",
     "notes": "Local favorite in Eastside & Vail serving classic coffee & cafe options.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
+  },
+  {
+    "name": "McDonald's",
+    "cuisine": "Fast Food & Sandwiches",
+    "neighborhood": "Eastside & Vail",
+    "distance": 10.9,
+    "price": "$",
+    "notes": "Local favorite in Eastside & Vail serving classic fast food & sandwiches options.",
+    "isLocal": false,
+    "enriched": false
+  },
+  {
+    "name": "Little Caesars",
+    "cuisine": "Italian & Pizza",
+    "neighborhood": "Eastside & Vail",
+    "distance": 10.9,
+    "price": "$",
+    "notes": "A great spot to enjoy delicious italian & pizza in the Eastside & Vail area.",
+    "isLocal": false,
+    "enriched": false
   },
   {
     "name": "Toss",
@@ -13184,7 +16458,8 @@ export const restaurants: Restaurant[] = [
     "distance": 11,
     "price": "$$",
     "notes": "Fried chicken and ramen; serves crispy Korean-style wings and rich pork broth soups.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Bubb's Grub",
@@ -13193,7 +16468,8 @@ export const restaurants: Restaurant[] = [
     "distance": 11,
     "price": "$$",
     "notes": "Texas-style BBQ; features smoked brisket, pulled pork, and sports bar atmosphere.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "China Valley Restraunt",
@@ -13202,16 +16478,28 @@ export const restaurants: Restaurant[] = [
     "distance": 11,
     "price": "$$",
     "notes": "Local favorite in Northside & Foothills serving classic asian & sushi options.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
+  },
+  {
+    "name": "Subway",
+    "cuisine": "Fast Food & Sandwiches",
+    "neighborhood": "Northwest & Marana",
+    "distance": 11.1,
+    "price": "$",
+    "notes": "Customizable sub sandwiches with fresh ingredients, perfect for a quick, healthier lunch. Always reliable.",
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Dominic's Real Italian",
-    "cuisine": "American & Comfort",
+    "cuisine": "Italian & Pizza",
     "neighborhood": "Northwest & Marana",
     "distance": 11.1,
-    "price": "$$",
-    "notes": "Local favorite in Northwest & Marana serving classic american & comfort options.",
-    "isLocal": true
+    "price": "$$$",
+    "notes": "Authentic Italian dining with classic pasta dishes, savory sauces, and cozy ambiance. Neighborhood gem.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Mama's Hawiian BBQ",
@@ -13219,17 +16507,19 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Northwest & Marana",
     "distance": 11.1,
     "price": "$$",
-    "notes": "A great spot to enjoy delicious steakhouse & bbq in the Northwest & Marana area.",
-    "isLocal": true
+    "notes": "Taste of the islands with delicious Hawaiian BBQ plates, kalua pig. Generous portions.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Colt's Taste of Texas",
-    "cuisine": "American & Comfort",
+    "cuisine": "Steakhouse & BBQ",
     "neighborhood": "Northwest & Marana",
     "distance": 11.1,
     "price": "$$",
-    "notes": "Popular neighborhood destination featuring fresh american & comfort specialties.",
-    "isLocal": true
+    "notes": "Authentic Texas BBQ experience with slow-smoked meats and savory sides. Rustic atmosphere.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Casa Sanchez Mexican",
@@ -13237,17 +16527,19 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Northwest & Marana",
     "distance": 11.1,
     "price": "$$",
-    "notes": "Popular neighborhood destination featuring fresh mexican & sonoran specialties.",
-    "isLocal": true
+    "notes": "Classic Sonoran Mexican cuisine in a vibrant setting, known for flavorful dishes and margaritas.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Jerry Bob's",
-    "cuisine": "American & Comfort",
+    "cuisine": "Breakfast & Diner",
     "neighborhood": "Northwest & Marana",
     "distance": 11.1,
-    "price": "$$",
-    "notes": "A great spot to enjoy delicious american & comfort in the Northwest & Marana area.",
-    "isLocal": true
+    "price": "$",
+    "notes": "Beloved local diner serving hearty breakfast platters and classic American comfort food. Great value.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "El Molinito",
@@ -13256,7 +16548,28 @@ export const restaurants: Restaurant[] = [
     "distance": 11.1,
     "price": "$$",
     "notes": "Popular neighborhood destination featuring fresh mexican & sonoran specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
+  },
+  {
+    "name": "Denny's",
+    "cuisine": "American & Comfort",
+    "neighborhood": "Northwest & Marana",
+    "distance": 11.1,
+    "price": "$$",
+    "notes": "A great spot to enjoy delicious american & comfort in the Northwest & Marana area.",
+    "isLocal": false,
+    "enriched": false
+  },
+  {
+    "name": "Domino's",
+    "cuisine": "Italian & Pizza",
+    "neighborhood": "Eastside & Vail",
+    "distance": 11.4,
+    "price": "$",
+    "notes": "Local favorite in Eastside & Vail serving classic italian & pizza options.",
+    "isLocal": false,
+    "enriched": false
   },
   {
     "name": "Rubio's",
@@ -13265,16 +16578,28 @@ export const restaurants: Restaurant[] = [
     "distance": 11.4,
     "price": "$",
     "notes": "A great spot to enjoy delicious mexican & sonoran in the Northside & Foothills area.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Panera Bread",
-    "cuisine": "Dessert & Bakery",
+    "cuisine": "Coffee & Cafe",
+    "neighborhood": "Northside & Foothills",
+    "distance": 11.5,
+    "price": "$$",
+    "notes": "Freshly baked bread, pastries, and comforting soups. A reliable spot for quick, healthy options.",
+    "isLocal": false,
+    "enriched": true
+  },
+  {
+    "name": "Chipotle",
+    "cuisine": "Mexican & Sonoran",
     "neighborhood": "Northside & Foothills",
     "distance": 11.5,
     "price": "$",
-    "notes": "Popular neighborhood destination featuring fresh dessert & bakery specialties.",
-    "isLocal": false
+    "notes": "Customizable burritos, bowls, and tacos with fresh ingredients. Fast-casual, always reliable.",
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Jersey Mike's Subs",
@@ -13282,8 +16607,39 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Northside & Foothills",
     "distance": 11.5,
     "price": "$",
+    "notes": "Freshly sliced cold subs and hot subs. Quality ingredients make delicious sandwiches.",
+    "isLocal": false,
+    "enriched": true
+  },
+  {
+    "name": "MOD Pizza",
+    "cuisine": "Italian & Pizza",
+    "neighborhood": "Northside & Foothills",
+    "distance": 11.5,
+    "price": "$",
+    "notes": "Build-your-own pizzas and salads with unlimited toppings for one price. Fast, fresh.",
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Nautical Bowls",
+    "cuisine": "Fast Food & Sandwiches",
+    "neighborhood": "Northside & Foothills",
+    "distance": 11.5,
+    "price": "$",
     "notes": "Local favorite in Northside & Foothills serving classic fast food & sandwiches options.",
-    "isLocal": false
+    "isLocal": true,
+    "enriched": false
+  },
+  {
+    "name": "Filiberto's",
+    "cuisine": "Mexican & Sonoran",
+    "neighborhood": "Northside & Foothills",
+    "distance": 11.5,
+    "price": "$",
+    "notes": "Popular neighborhood destination featuring fresh mexican & sonoran specialties.",
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Saguaro Corners Resteraunt and Bar",
@@ -13292,7 +16648,18 @@ export const restaurants: Restaurant[] = [
     "distance": 11.5,
     "price": "$$",
     "notes": "A great spot to enjoy delicious american & comfort in the Eastside & Vail area.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
+  },
+  {
+    "name": "Sushi Valley",
+    "cuisine": "Asian & Sushi",
+    "neighborhood": "Northside & Foothills",
+    "distance": 11.5,
+    "price": "$$",
+    "notes": "A great spot to enjoy delicious asian & sushi in the Northside & Foothills area.",
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Which Wich?",
@@ -13301,7 +16668,48 @@ export const restaurants: Restaurant[] = [
     "distance": 11.5,
     "price": "$",
     "notes": "Popular neighborhood destination featuring fresh fast food & sandwiches specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
+  },
+  {
+    "name": "First Watch",
+    "cuisine": "Breakfast & Diner",
+    "neighborhood": "Northside & Foothills",
+    "distance": 11.5,
+    "price": "$$",
+    "notes": "Popular neighborhood destination featuring fresh breakfast & diner specialties.",
+    "isLocal": true,
+    "enriched": false
+  },
+  {
+    "name": "Papa Locos",
+    "cuisine": "Mexican & Sonoran",
+    "neighborhood": "Eastside & Vail",
+    "distance": 11.6,
+    "price": "$$",
+    "notes": "Authentic Sonoran Mexican cuisine, flavorful tacos, hearty burritos, and a lively family atmosphere.",
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Pizza Hut",
+    "cuisine": "Italian & Pizza",
+    "neighborhood": "Northside & Foothills",
+    "distance": 11.6,
+    "price": "$$",
+    "notes": "Popular neighborhood destination featuring fresh italian & pizza specialties.",
+    "isLocal": false,
+    "enriched": false
+  },
+  {
+    "name": "Starbucks",
+    "cuisine": "Coffee & Cafe",
+    "neighborhood": "Northside & Foothills",
+    "distance": 11.6,
+    "price": "$",
+    "notes": "A great spot to enjoy delicious coffee & cafe in the Northside & Foothills area.",
+    "isLocal": false,
+    "enriched": false
   },
   {
     "name": "Street Taco & Beer Co.",
@@ -13310,7 +16718,8 @@ export const restaurants: Restaurant[] = [
     "distance": 11.7,
     "price": "$$",
     "notes": "Local favorite in Northside & Foothills serving classic mexican & sonoran options.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Fruit Shack Smoothies & Yogurt",
@@ -13319,7 +16728,8 @@ export const restaurants: Restaurant[] = [
     "distance": 11.7,
     "price": "$",
     "notes": "Popular neighborhood destination featuring fresh boba tea & beverages specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Papa John's",
@@ -13328,7 +16738,18 @@ export const restaurants: Restaurant[] = [
     "distance": 11.7,
     "price": "$",
     "notes": "Popular neighborhood destination featuring fresh italian & pizza specialties.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": false
+  },
+  {
+    "name": "Taco Bell",
+    "cuisine": "Mexican & Sonoran",
+    "neighborhood": "Northside & Foothills",
+    "distance": 11.7,
+    "price": "$",
+    "notes": "Popular neighborhood destination featuring fresh mexican & sonoran specialties.",
+    "isLocal": false,
+    "enriched": false
   },
   {
     "name": "McDonald's",
@@ -13337,34 +16758,38 @@ export const restaurants: Restaurant[] = [
     "distance": 11.7,
     "price": "$",
     "notes": "Local favorite in Northside & Foothills serving classic fast food & sandwiches options.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": false
   },
   {
     "name": "Caffe Torino",
     "cuisine": "Italian & Pizza",
     "neighborhood": "Northwest & Marana",
     "distance": 11.8,
-    "price": "$$",
-    "notes": "Popular neighborhood destination featuring fresh italian & pizza specialties.",
-    "isLocal": true
+    "price": "$$$",
+    "notes": "Upscale Italian dining with classic pasta dishes and exquisite entrees. Romantic, elegant ambiance.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Harvest",
     "cuisine": "American & Comfort",
     "neighborhood": "Northwest & Marana",
     "distance": 11.8,
-    "price": "$$",
-    "notes": "A great spot to enjoy delicious american & comfort in the Northwest & Marana area.",
-    "isLocal": true
+    "price": "$$$",
+    "notes": "Farm-to-table focus with seasonal American comfort food. Fresh, flavorful, and sophisticated.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Noble Hops",
-    "cuisine": "American & Comfort",
+    "cuisine": "Bar, Pub & Brewery",
     "neighborhood": "Northwest & Marana",
     "distance": 11.8,
     "price": "$$",
-    "notes": "Popular neighborhood destination featuring fresh american & comfort specialties.",
-    "isLocal": true
+    "notes": "Craft beer bar with elevated pub fare and gastropub favorites. Great ambiance and selection.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "GMG Chinese Bistro",
@@ -13372,8 +16797,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Northwest & Marana",
     "distance": 11.8,
     "price": "$$",
-    "notes": "Popular neighborhood destination featuring fresh asian & sushi specialties.",
-    "isLocal": true
+    "notes": "Modern Chinese bistro with classic dishes and a sleek, contemporary dining experience.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Papa Murphy's",
@@ -13381,8 +16807,19 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Northwest & Marana",
     "distance": 11.8,
     "price": "$",
-    "notes": "Popular neighborhood destination featuring fresh italian & pizza specialties.",
-    "isLocal": true
+    "notes": "Take-and-bake pizzas for fresh, homemade convenience. Perfect for family pizza night.",
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Subway",
+    "cuisine": "Fast Food & Sandwiches",
+    "neighborhood": "Northwest & Marana",
+    "distance": 11.8,
+    "price": "$",
+    "notes": "Popular neighborhood destination featuring fresh fast food & sandwiches specialties.",
+    "isLocal": false,
+    "enriched": false
   },
   {
     "name": "Tropical Smoothie Cafe",
@@ -13391,7 +16828,8 @@ export const restaurants: Restaurant[] = [
     "distance": 11.8,
     "price": "$",
     "notes": "A great spot to enjoy delicious boba tea & beverages in the Northwest & Marana area.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Domino's",
@@ -13400,7 +16838,8 @@ export const restaurants: Restaurant[] = [
     "distance": 11.9,
     "price": "$",
     "notes": "Local favorite in Northwest & Marana serving classic italian & pizza options.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": false
   },
   {
     "name": "Just Kabab",
@@ -13409,7 +16848,8 @@ export const restaurants: Restaurant[] = [
     "distance": 11.9,
     "price": "$$",
     "notes": "A great spot to enjoy delicious american & comfort in the Northwest & Marana area.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Goyita's",
@@ -13418,7 +16858,8 @@ export const restaurants: Restaurant[] = [
     "distance": 11.9,
     "price": "$$",
     "notes": "A great spot to enjoy delicious mexican & sonoran in the Northwest & Marana area.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Tanque Verde Ranch",
@@ -13427,7 +16868,8 @@ export const restaurants: Restaurant[] = [
     "distance": 12,
     "price": "$$$",
     "notes": "Elevated Sonoran Ranch cuisine; serves upscale cowboy fare, grilled steaks, and fresh prickly pear treats.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Dog House Saloon",
@@ -13436,7 +16878,8 @@ export const restaurants: Restaurant[] = [
     "distance": 12,
     "price": "$$",
     "notes": "Prickly pear margaritas at resort ranch; offers casual bar snacks and Southwestern drinks.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Bowld",
@@ -13445,7 +16888,8 @@ export const restaurants: Restaurant[] = [
     "distance": 12,
     "price": "$$",
     "notes": "Acai and superfood bowls in Rita Ranch; serves blended fruit bases topped with fresh berries and granola.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Pilot Pizza",
@@ -13454,7 +16898,8 @@ export const restaurants: Restaurant[] = [
     "distance": 12,
     "price": "$",
     "notes": "Reliable Rita Ranch pizza delivery; serves thick-crust pies loaded with pepperoni and Italian sausage.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Claire's Cafe",
@@ -13463,7 +16908,8 @@ export const restaurants: Restaurant[] = [
     "distance": 12,
     "price": "$$",
     "notes": "Catalina local favorite; serves homestyle cinnamon rolls, country fried steak, and pies.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Jerry Bob's Family Restaurant",
@@ -13472,7 +16918,8 @@ export const restaurants: Restaurant[] = [
     "distance": 12,
     "price": "$$",
     "notes": "Local favorite in Northwest & Marana serving classic breakfast & diner options.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Marco's Pizza",
@@ -13481,7 +16928,8 @@ export const restaurants: Restaurant[] = [
     "distance": 12,
     "price": "$",
     "notes": "A great spot to enjoy delicious italian & pizza in the Northwest & Marana area.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Baggin's",
@@ -13490,7 +16938,8 @@ export const restaurants: Restaurant[] = [
     "distance": 12,
     "price": "$",
     "notes": "Local favorite in Northside & Foothills serving classic fast food & sandwiches options.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Chili's",
@@ -13498,8 +16947,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Northside & Foothills",
     "distance": 12,
     "price": "$$",
-    "notes": "A great spot to enjoy delicious american & comfort in the Northside & Foothills area.",
-    "isLocal": false
+    "notes": "Lively chain restaurant serving Southwestern-inspired American favorites, margaritas, and sizzling fajitas.",
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Buddy's Grill",
@@ -13508,7 +16958,8 @@ export const restaurants: Restaurant[] = [
     "distance": 12,
     "price": "$$",
     "notes": "Popular neighborhood destination featuring fresh american & comfort specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Persian Room",
@@ -13517,16 +16968,18 @@ export const restaurants: Restaurant[] = [
     "distance": 12.1,
     "price": "$$",
     "notes": "Local favorite in Northwest & Marana serving classic american & comfort options.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Big Jake's Bar-B-Q",
-    "cuisine": "American & Comfort",
+    "cuisine": "Steakhouse & BBQ",
     "neighborhood": "Westside & Downtown",
     "distance": 12.1,
     "price": "$$",
-    "notes": "Popular neighborhood destination featuring fresh american & comfort specialties.",
-    "isLocal": true
+    "notes": "Mouth-watering smoked meats, tender brisket, and classic BBQ sides, a true Southern delight.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Freddy's",
@@ -13535,7 +16988,8 @@ export const restaurants: Restaurant[] = [
     "distance": 12.1,
     "price": "$",
     "notes": "A great spot to enjoy delicious dessert & bakery in the Northside & Foothills area.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Chuy's Mesquite Broiler",
@@ -13543,8 +16997,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Eastside & Vail",
     "distance": 12.2,
     "price": "$$",
-    "notes": "A great spot to enjoy delicious mexican & sonoran in the Eastside & Vail area.",
-    "isLocal": true
+    "notes": "Tucson favorite for mesquite-broiled chicken, carne asada, and authentic Sonoran Mexican flavors.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Pony Express Pizza, Wing & More",
@@ -13553,34 +17008,18 @@ export const restaurants: Restaurant[] = [
     "distance": 12.2,
     "price": "$$",
     "notes": "Popular neighborhood destination featuring fresh italian & pizza specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "The Overlook",
     "cuisine": "American & Comfort",
     "neighborhood": "Northwest & Marana",
     "distance": 12.4,
-    "price": "$$",
-    "notes": "Local favorite in Northwest & Marana serving classic american & comfort options.",
-    "isLocal": true
-  },
-  {
-    "name": "Taco Bell",
-    "cuisine": "Mexican & Sonoran",
-    "neighborhood": "Eastside & Vail",
-    "distance": 12.5,
-    "price": "$",
-    "notes": "Fast food breakfast and late night; features Doritos Locos Tacos and cheesy bean burritos.",
-    "isLocal": false
-  },
-  {
-    "name": "Firehouse Subs",
-    "cuisine": "Fast Food & Sandwiches",
-    "neighborhood": "Eastside & Vail",
-    "distance": 12.5,
-    "price": "$",
-    "notes": "Hot specialty subs near Old Vail Rd; serves steamed meats and melted cheeses on toasted rolls.",
-    "isLocal": false
+    "price": "$$$",
+    "notes": "Scenic restaurant with panoramic views, serving upscale American fare and delightful cocktails.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Baggin's Gourmet (Rita)",
@@ -13589,7 +17028,28 @@ export const restaurants: Restaurant[] = [
     "distance": 12.5,
     "price": "$$",
     "notes": "Premium sandwiches; fresh-baked bread, roasted turkey, and signature chocolate chip cookies.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Firehouse Subs",
+    "cuisine": "Fast Food & Sandwiches",
+    "neighborhood": "Eastside & Vail",
+    "distance": 12.5,
+    "price": "$",
+    "notes": "Hot specialty subs near Old Vail Rd; serves steamed meats and melted cheeses on toasted rolls.",
+    "isLocal": false,
+    "enriched": true
+  },
+  {
+    "name": "Taco Bell",
+    "cuisine": "Mexican & Sonoran",
+    "neighborhood": "Eastside & Vail",
+    "distance": 12.5,
+    "price": "$",
+    "notes": "Fast food breakfast and late night; features Doritos Locos Tacos and cheesy bean burritos.",
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Filiberto's (Old V.)",
@@ -13598,7 +17058,8 @@ export const restaurants: Restaurant[] = [
     "distance": 12.5,
     "price": "$",
     "notes": "24-hour service; near Vail corridor; serves quick, filling Sonoran fast food and breakfast burritos.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Roadrunner Coffee",
@@ -13607,7 +17068,58 @@ export const restaurants: Restaurant[] = [
     "distance": 12.5,
     "price": "$",
     "notes": "A great spot to enjoy delicious coffee & cafe in the Northwest & Marana area.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
+  },
+  {
+    "name": "Nico's Taco Shop",
+    "cuisine": "Mexican & Sonoran",
+    "neighborhood": "Northwest & Marana",
+    "distance": 12.5,
+    "price": "$",
+    "notes": "Popular neighborhood destination featuring fresh mexican & sonoran specialties.",
+    "isLocal": true,
+    "enriched": false
+  },
+  {
+    "name": "Subway",
+    "cuisine": "Fast Food & Sandwiches",
+    "neighborhood": "Northwest & Marana",
+    "distance": 12.5,
+    "price": "$",
+    "notes": "Popular neighborhood destination featuring fresh fast food & sandwiches specialties.",
+    "isLocal": false,
+    "enriched": false
+  },
+  {
+    "name": "McDonald's",
+    "cuisine": "Fast Food & Sandwiches",
+    "neighborhood": "Northwest & Marana",
+    "distance": 12.5,
+    "price": "$",
+    "notes": "Global fast-food giant for classic burgers, fries, and quick, consistent meals.",
+    "isLocal": false,
+    "enriched": true
+  },
+  {
+    "name": "Starbucks",
+    "cuisine": "Coffee & Cafe",
+    "neighborhood": "Eastside & Vail",
+    "distance": 12.5,
+    "price": "$",
+    "notes": "A great spot to enjoy delicious coffee & cafe in the Eastside & Vail area.",
+    "isLocal": false,
+    "enriched": false
+  },
+  {
+    "name": "In-N-Out Burger",
+    "cuisine": "Fast Food & Sandwiches",
+    "neighborhood": "Northside & Foothills",
+    "distance": 12.5,
+    "price": "$",
+    "notes": "Popular neighborhood destination featuring fresh fast food & sandwiches specialties.",
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Luckie's Thai Asian Cousine",
@@ -13616,7 +17128,38 @@ export const restaurants: Restaurant[] = [
     "distance": 12.5,
     "price": "$$",
     "notes": "Local favorite in Eastside & Vail serving classic asian & sushi options.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
+  },
+  {
+    "name": "Pizza Hut",
+    "cuisine": "Italian & Pizza",
+    "neighborhood": "Eastside & Vail",
+    "distance": 12.5,
+    "price": "$$",
+    "notes": "Popular neighborhood destination featuring fresh italian & pizza specialties.",
+    "isLocal": false,
+    "enriched": false
+  },
+  {
+    "name": "Burger King",
+    "cuisine": "Fast Food & Sandwiches",
+    "neighborhood": "Eastside & Vail",
+    "distance": 12.5,
+    "price": "$",
+    "notes": "Popular neighborhood destination featuring fresh fast food & sandwiches specialties.",
+    "isLocal": false,
+    "enriched": false
+  },
+  {
+    "name": "Carl's Jr.",
+    "cuisine": "Fast Food & Sandwiches",
+    "neighborhood": "Eastside & Vail",
+    "distance": 12.6,
+    "price": "$",
+    "notes": "Premium fast food burgers, chicken sandwiches, and thick-cut fries for hearty appetites.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Spice Garden",
@@ -13624,8 +17167,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Northwest & Marana",
     "distance": 12.7,
     "price": "$$",
-    "notes": "Local favorite in Northwest & Marana serving classic asian & sushi options.",
-    "isLocal": true
+    "notes": "Diverse Asian menu with flavorful curries, noodle dishes, and fresh sushi rolls.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Papa John's",
@@ -13634,7 +17178,18 @@ export const restaurants: Restaurant[] = [
     "distance": 12.7,
     "price": "$",
     "notes": "Popular neighborhood destination featuring fresh italian & pizza specialties.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": false
+  },
+  {
+    "name": "Subway",
+    "cuisine": "Fast Food & Sandwiches",
+    "neighborhood": "Northwest & Marana",
+    "distance": 12.8,
+    "price": "$",
+    "notes": "Popular neighborhood destination featuring fresh fast food & sandwiches specialties.",
+    "isLocal": false,
+    "enriched": false
   },
   {
     "name": "Baggin's",
@@ -13643,7 +17198,18 @@ export const restaurants: Restaurant[] = [
     "distance": 12.8,
     "price": "$",
     "notes": "Local favorite in Northwest & Marana serving classic fast food & sandwiches options.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
+  },
+  {
+    "name": "McDonald's",
+    "cuisine": "Fast Food & Sandwiches",
+    "neighborhood": "Northwest & Marana",
+    "distance": 12.8,
+    "price": "$",
+    "notes": "Global fast-food giant for classic burgers, fries, shakes. Perfect for quick, convenient meals.",
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Bruegger's Bagels",
@@ -13652,7 +17218,8 @@ export const restaurants: Restaurant[] = [
     "distance": 12.8,
     "price": "$",
     "notes": "Popular neighborhood destination featuring fresh fast food & sandwiches specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "zpizza",
@@ -13661,7 +17228,18 @@ export const restaurants: Restaurant[] = [
     "distance": 12.8,
     "price": "$$",
     "notes": "Popular neighborhood destination featuring fresh italian & pizza specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
+  },
+  {
+    "name": "Nico's Taco Shop",
+    "cuisine": "Mexican & Sonoran",
+    "neighborhood": "Northwest & Marana",
+    "distance": 12.8,
+    "price": "$$",
+    "notes": "Popular neighborhood destination featuring fresh mexican & sonoran specialties.",
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Serial Grillers Express",
@@ -13670,25 +17248,48 @@ export const restaurants: Restaurant[] = [
     "distance": 12.8,
     "price": "$",
     "notes": "A great spot to enjoy delicious fast food & sandwiches in the Northwest & Marana area.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "IHOP",
-    "cuisine": "Dessert & Bakery",
+    "cuisine": "Breakfast & Diner",
     "neighborhood": "Northwest & Marana",
     "distance": 12.8,
     "price": "$",
-    "notes": "A great spot to enjoy delicious dessert & bakery in the Northwest & Marana area.",
-    "isLocal": false
+    "notes": "Beloved diner serving fluffy pancakes, classic breakfast platters, and comforting American favorites.",
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Happy Joe's Pizza",
     "cuisine": "Italian & Pizza",
     "neighborhood": "Northside & Foothills",
     "distance": 12.8,
+    "price": "$",
+    "notes": "Fun family pizza joint, known for specialty pizzas and a lively, casual atmosphere.",
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Wendy's",
+    "cuisine": "Fast Food & Sandwiches",
+    "neighborhood": "Northwest & Marana",
+    "distance": 12.8,
+    "price": "$",
+    "notes": "Classic fast food known for square burgers, fresh never frozen beef, and frosty treats.",
+    "isLocal": false,
+    "enriched": true
+  },
+  {
+    "name": "Barro's Pizza",
+    "cuisine": "Italian & Pizza",
+    "neighborhood": "Northwest & Marana",
+    "distance": 12.8,
     "price": "$$",
-    "notes": "Popular neighborhood destination featuring fresh italian & pizza specialties.",
-    "isLocal": true
+    "notes": "Family-friendly pizzeria serving classic Italian-American pizzas, wings, and hearty pasta dishes.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Guadalajara Original Grill",
@@ -13697,7 +17298,8 @@ export const restaurants: Restaurant[] = [
     "distance": 12.8,
     "price": "$$",
     "notes": "Popular neighborhood destination featuring fresh mexican & sonoran specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Baggin's Gourmet Sandwiches",
@@ -13706,7 +17308,18 @@ export const restaurants: Restaurant[] = [
     "distance": 12.8,
     "price": "$",
     "notes": "Local favorite in Northwest & Marana serving classic fast food & sandwiches options.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
+  },
+  {
+    "name": "Chipotle",
+    "cuisine": "Mexican & Sonoran",
+    "neighborhood": "Northwest & Marana",
+    "distance": 12.9,
+    "price": "$",
+    "notes": "Popular neighborhood destination featuring fresh mexican & sonoran specialties.",
+    "isLocal": false,
+    "enriched": false
   },
   {
     "name": "Mantis Asian Cuisine",
@@ -13715,7 +17328,18 @@ export const restaurants: Restaurant[] = [
     "distance": 12.9,
     "price": "$$",
     "notes": "Local favorite in Northwest & Marana serving classic asian & sushi options.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
+  },
+  {
+    "name": "Domino's",
+    "cuisine": "Italian & Pizza",
+    "neighborhood": "Northwest & Marana",
+    "distance": 12.9,
+    "price": "$",
+    "notes": "Local favorite in Northwest & Marana serving classic italian & pizza options.",
+    "isLocal": false,
+    "enriched": false
   },
   {
     "name": "Arby's",
@@ -13724,7 +17348,28 @@ export const restaurants: Restaurant[] = [
     "distance": 12.9,
     "price": "$",
     "notes": "Local favorite in Northwest & Marana serving classic fast food & sandwiches options.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": false
+  },
+  {
+    "name": "Filiberto's",
+    "cuisine": "Mexican & Sonoran",
+    "neighborhood": "Northwest & Marana",
+    "distance": 12.9,
+    "price": "$",
+    "notes": "Popular 24/7 drive-thru for authentic, quick, and satisfying Sonoran-style Mexican food.",
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Fork & Fire",
+    "cuisine": "American & Comfort",
+    "neighborhood": "Northside & Foothills",
+    "distance": 12.9,
+    "price": "$$",
+    "notes": "Local favorite in Northside & Foothills serving classic american & comfort options.",
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "In-N-Out Burger",
@@ -13732,8 +17377,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Northwest & Marana",
     "distance": 12.9,
     "price": "$",
-    "notes": "Popular neighborhood destination featuring fresh fast food & sandwiches specialties.",
-    "isLocal": true
+    "notes": "Iconic West Coast burger joint known for its fresh, simple menu and secret \"Animal Style.\"",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "KFC",
@@ -13741,8 +17387,19 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Northwest & Marana",
     "distance": 12.9,
     "price": "$",
-    "notes": "Popular neighborhood destination featuring fresh fast food & sandwiches specialties.",
-    "isLocal": false
+    "notes": "Finger-lickin' good fried chicken, mashed potatoes, and coleslaw for a classic comfort meal.",
+    "isLocal": false,
+    "enriched": true
+  },
+  {
+    "name": "Starbucks",
+    "cuisine": "Coffee & Cafe",
+    "neighborhood": "Northwest & Marana",
+    "distance": 12.9,
+    "price": "$",
+    "notes": "A great spot to enjoy delicious coffee & cafe in the Northwest & Marana area.",
+    "isLocal": false,
+    "enriched": false
   },
   {
     "name": "Dutch Bros. Coffee",
@@ -13751,7 +17408,8 @@ export const restaurants: Restaurant[] = [
     "distance": 12.9,
     "price": "$",
     "notes": "Popular neighborhood destination featuring fresh coffee & cafe specialties.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": false
   },
   {
     "name": "Chili's",
@@ -13760,61 +17418,28 @@ export const restaurants: Restaurant[] = [
     "distance": 12.9,
     "price": "$$",
     "notes": "A great spot to enjoy delicious american & comfort in the Northwest & Marana area.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": false
   },
   {
-    "name": "Denny's",
-    "cuisine": "Breakfast & Diner",
-    "neighborhood": "Eastside & Vail",
-    "distance": 13,
+    "name": "Taco Bell",
+    "cuisine": "Mexican & Sonoran",
+    "neighborhood": "Northwest & Marana",
+    "distance": 12.9,
     "price": "$",
-    "notes": "24-hour diner staples; features the Grand Slam breakfast, Moons Over My Hammy, and coffee.",
-    "isLocal": false
+    "notes": "Popular neighborhood destination featuring fresh mexican & sonoran specialties.",
+    "isLocal": false,
+    "enriched": false
   },
   {
-    "name": "MOD Pizza",
-    "cuisine": "Italian & Pizza",
-    "neighborhood": "Eastside & Vail",
-    "distance": 13,
-    "price": "$",
-    "notes": "Custom individual-sized pizzas; fast-casual artisan pies baked in minutes with unlimited toppings.",
-    "isLocal": false
-  },
-  {
-    "name": "McDonald's",
+    "name": "Burger King",
     "cuisine": "Fast Food & Sandwiches",
-    "neighborhood": "Eastside & Vail",
-    "distance": 13,
+    "neighborhood": "Northwest & Marana",
+    "distance": 12.9,
     "price": "$",
-    "notes": "Standard fast-food burgers and fries; serves Big Macs, Quarter Pounders, and breakfast sandwiches.",
-    "isLocal": false
-  },
-  {
-    "name": "eegee's",
-    "cuisine": "Fast Food & Sandwiches",
-    "neighborhood": "Eastside & Vail",
-    "distance": 13,
-    "price": "$",
-    "notes": "Iconic Tucson fruit slushes; serves frozen lemon and strawberry treats alongside Ranch Fries.",
-    "isLocal": true
-  },
-  {
-    "name": "Dunkin'",
-    "cuisine": "Coffee & Cafe",
-    "neighborhood": "Eastside & Vail",
-    "distance": 13,
-    "price": "$",
-    "notes": "Standard coffee and pastry chain; serves glazed donuts, Munchkins, and iced caramel coffees.",
-    "isLocal": false
-  },
-  {
-    "name": "Popeyes",
-    "cuisine": "Fast Food & Sandwiches",
-    "neighborhood": "Eastside & Vail",
-    "distance": 13,
-    "price": "$",
-    "notes": "Louisiana-style fried chicken; serves spicy breaded poultry, cajun fries, and red beans.",
-    "isLocal": false
+    "notes": "Popular neighborhood destination featuring fresh fast food & sandwiches specialties.",
+    "isLocal": false,
+    "enriched": false
   },
   {
     "name": "Panda Express (Hough.)",
@@ -13823,7 +17448,8 @@ export const restaurants: Restaurant[] = [
     "distance": 13,
     "price": "$",
     "notes": "Crowd-pleasing classics; Orange Chicken, sweet fire chicken breast, and fried rice.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Papa Murphy’s",
@@ -13832,7 +17458,8 @@ export const restaurants: Restaurant[] = [
     "distance": 13,
     "price": "$",
     "notes": "Take ‘N’ Bake fresh pizza; offers customizable, unbaked pizzas to be cooked hot at home.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Jersey Mike's Subs",
@@ -13841,7 +17468,8 @@ export const restaurants: Restaurant[] = [
     "distance": 13,
     "price": "$",
     "notes": "Fresh sliced/grilled sub sandwiches; famous for East Coast-style cold cuts served \"Mike's Way\".",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Native Grill",
@@ -13850,7 +17478,8 @@ export const restaurants: Restaurant[] = [
     "distance": 13,
     "price": "$$",
     "notes": "Family-style wings and sports viewing; serves crispy chicken strips, pizza, and loaded potato skins.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Freddy's Burgers",
@@ -13859,7 +17488,18 @@ export const restaurants: Restaurant[] = [
     "distance": 13,
     "price": "$",
     "notes": "Steakburgers and frozen custard; serves smashed patties with crispy edges and shoestring fries.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
+  },
+  {
+    "name": "MOD Pizza",
+    "cuisine": "Italian & Pizza",
+    "neighborhood": "Eastside & Vail",
+    "distance": 13,
+    "price": "$",
+    "notes": "Custom individual-sized pizzas; fast-casual artisan pies baked in minutes with unlimited toppings.",
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Crumbl Cookies",
@@ -13868,7 +17508,48 @@ export const restaurants: Restaurant[] = [
     "distance": 13,
     "price": "$",
     "notes": "Gourmet cookies; specialty rotating menu featuring massive, warm, frosting-heavy cookie creations.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
+  },
+  {
+    "name": "Popeyes",
+    "cuisine": "Fast Food & Sandwiches",
+    "neighborhood": "Eastside & Vail",
+    "distance": 13,
+    "price": "$",
+    "notes": "Louisiana-style fried chicken; serves spicy breaded poultry, cajun fries, and red beans.",
+    "isLocal": false,
+    "enriched": true
+  },
+  {
+    "name": "Denny's",
+    "cuisine": "Breakfast & Diner",
+    "neighborhood": "Eastside & Vail",
+    "distance": 13,
+    "price": "$",
+    "notes": "24-hour diner staples; features the Grand Slam breakfast, Moons Over My Hammy, and coffee.",
+    "isLocal": false,
+    "enriched": true
+  },
+  {
+    "name": "McDonald's",
+    "cuisine": "Fast Food & Sandwiches",
+    "neighborhood": "Eastside & Vail",
+    "distance": 13,
+    "price": "$",
+    "notes": "Standard fast-food burgers and fries; serves Big Macs, Quarter Pounders, and breakfast sandwiches.",
+    "isLocal": false,
+    "enriched": true
+  },
+  {
+    "name": "eegee's",
+    "cuisine": "Fast Food & Sandwiches",
+    "neighborhood": "Eastside & Vail",
+    "distance": 13,
+    "price": "$",
+    "notes": "Iconic Tucson fruit slushes; serves frozen lemon and strawberry treats alongside Ranch Fries.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Tropical Smoothie",
@@ -13877,7 +17558,8 @@ export const restaurants: Restaurant[] = [
     "distance": 13,
     "price": "$",
     "notes": "Healthy fast food options; serves fruit and vegetable smoothies and toasted flatbread wraps.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Cold Stone",
@@ -13886,7 +17568,8 @@ export const restaurants: Restaurant[] = [
     "distance": 13,
     "price": "$",
     "notes": "Hand-mixed ice cream creations; offers rich ice cream folded with brownies, candy, and fruit on granite.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Jeremiah's Ice",
@@ -13895,7 +17578,8 @@ export const restaurants: Restaurant[] = [
     "distance": 13,
     "price": "$",
     "notes": "Layers of gelati and soft serve; features vibrant Italian ice swirled with thick, creamy soft serve.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Surf Thru Express",
@@ -13904,16 +17588,138 @@ export const restaurants: Restaurant[] = [
     "distance": 13,
     "price": "$",
     "notes": "Quick service refreshments; a drive-thru offering fast energy drinks, sodas, and light snacks.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Dunkin'",
+    "cuisine": "Coffee & Cafe",
+    "neighborhood": "Eastside & Vail",
+    "distance": 13,
+    "price": "$",
+    "notes": "Standard coffee and pastry chain; serves glazed donuts, Munchkins, and iced caramel coffees.",
+    "isLocal": false,
+    "enriched": true
+  },
+  {
+    "name": "Nico's Taco Shop",
+    "cuisine": "Mexican & Sonoran",
+    "neighborhood": "Northwest & Marana",
+    "distance": 13,
+    "price": "$",
+    "notes": "Popular neighborhood destination featuring fresh mexican & sonoran specialties.",
+    "isLocal": true,
+    "enriched": false
+  },
+  {
+    "name": "Little Caesars",
+    "cuisine": "Italian & Pizza",
+    "neighborhood": "Northwest & Marana",
+    "distance": 13,
+    "price": "$",
+    "notes": "A great spot to enjoy delicious italian & pizza in the Northwest & Marana area.",
+    "isLocal": false,
+    "enriched": false
+  },
+  {
+    "name": "Asian Spice",
+    "cuisine": "Asian & Sushi",
+    "neighborhood": "Northwest & Marana",
+    "distance": 13,
+    "price": "$$",
+    "notes": "Local spot for flavorful Asian cuisine, including sushi and stir-fries. A neighborhood favorite.",
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Jerry Bob's",
+    "cuisine": "Breakfast & Diner",
+    "neighborhood": "Northwest & Marana",
+    "distance": 13,
+    "price": "$",
+    "notes": "Beloved local diner serving hearty breakfast platters and classic American comfort food. Great value.",
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Olive Garden",
+    "cuisine": "Italian & Pizza",
+    "neighborhood": "Northside & Foothills",
+    "distance": 13,
+    "price": "$$",
+    "notes": "Family-friendly spot serving endless pasta bowls and classic Italian-American comfort food.",
+    "isLocal": false,
+    "enriched": true
+  },
+  {
+    "name": "Sushi Cortaro",
+    "cuisine": "Asian & Sushi",
+    "neighborhood": "Northwest & Marana",
+    "distance": 13.1,
+    "price": "$$",
+    "notes": "Popular neighborhood destination featuring fresh asian & sushi specialties.",
+    "isLocal": true,
+    "enriched": false
+  },
+  {
+    "name": "Nana's Kitchen",
+    "cuisine": "Mexican & Sonoran",
+    "neighborhood": "Northwest & Marana",
+    "distance": 13.1,
+    "price": "$$",
+    "notes": "Local favorite in Northwest & Marana serving classic mexican & sonoran options.",
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "The Keg Steakhouse & Bar",
     "cuisine": "Steakhouse & BBQ",
     "neighborhood": "Northside & Foothills",
     "distance": 13.1,
+    "price": "$$$",
+    "notes": "Upscale steakhouse offering perfectly grilled steaks, fresh seafood, and an elegant dining experience.",
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Cracker Barrel",
+    "cuisine": "American & Comfort",
+    "neighborhood": "Northwest & Marana",
+    "distance": 13.1,
     "price": "$$",
-    "notes": "Popular neighborhood destination featuring fresh steakhouse & bbq specialties.",
-    "isLocal": true
+    "notes": "Southern comfort food, homestyle meals, and a charming country store for unique finds.",
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Salad and Go",
+    "cuisine": "Healthy, Vegan & Plant-Based",
+    "neighborhood": "Eastside & Vail",
+    "distance": 13.1,
+    "price": "$",
+    "notes": "Local favorite in Eastside & Vail serving classic healthy, vegan & plant-based options.",
+    "isLocal": true,
+    "enriched": false
+  },
+  {
+    "name": "Charred Pie",
+    "cuisine": "Italian & Pizza",
+    "neighborhood": "Northside & Foothills",
+    "distance": 13.2,
+    "price": "$$",
+    "notes": "Neapolitan-style pizzas with perfectly charred crusts, fresh ingredients, and a cozy, modern pizzeria feel.",
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "New Town Buffet",
+    "cuisine": "Asian & Sushi",
+    "neighborhood": "Northwest & Marana",
+    "distance": 13.2,
+    "price": "$$",
+    "notes": "A great spot to enjoy delicious asian & sushi in the Northwest & Marana area.",
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "La Hacienda",
@@ -13922,16 +17728,88 @@ export const restaurants: Restaurant[] = [
     "distance": 13.2,
     "price": "$$",
     "notes": "Popular neighborhood destination featuring fresh mexican & sonoran specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
+  },
+  {
+    "name": "Tuk Tuk Thai",
+    "cuisine": "Asian & Sushi",
+    "neighborhood": "Northside & Foothills",
+    "distance": 13.2,
+    "price": "$$",
+    "notes": "Popular neighborhood destination featuring fresh asian & sushi specialties.",
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Texas Roadhouse",
-    "cuisine": "Boba Tea & Beverages",
+    "cuisine": "Steakhouse & BBQ",
     "neighborhood": "Northwest & Marana",
     "distance": 13.2,
+    "price": "$$",
+    "notes": "Lively steakhouse with hand-cut steaks, legendary rolls, and a fun, country-western atmosphere.",
+    "isLocal": false,
+    "enriched": true
+  },
+  {
+    "name": "Arby's",
+    "cuisine": "Fast Food & Sandwiches",
+    "neighborhood": "Eastside & Vail",
+    "distance": 13.2,
     "price": "$",
-    "notes": "Popular neighborhood destination featuring fresh boba tea & beverages specialties.",
-    "isLocal": false
+    "notes": "Local favorite in Eastside & Vail serving classic fast food & sandwiches options.",
+    "isLocal": false,
+    "enriched": false
+  },
+  {
+    "name": "Dutch Bros. Coffee",
+    "cuisine": "Coffee & Cafe",
+    "neighborhood": "Eastside & Vail",
+    "distance": 13.2,
+    "price": "$",
+    "notes": "Popular neighborhood destination featuring fresh coffee & cafe specialties.",
+    "isLocal": false,
+    "enriched": false
+  },
+  {
+    "name": "Wienerschnitzel",
+    "cuisine": "Fast Food & Sandwiches",
+    "neighborhood": "Eastside & Vail",
+    "distance": 13.3,
+    "price": "$",
+    "notes": "Famous for its diverse hot dog menu, chili cheese dogs, and American fast food.",
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Taco Bell",
+    "cuisine": "Mexican & Sonoran",
+    "neighborhood": "Eastside & Vail",
+    "distance": 13.3,
+    "price": "$",
+    "notes": "Popular neighborhood destination featuring fresh mexican & sonoran specialties.",
+    "isLocal": false,
+    "enriched": false
+  },
+  {
+    "name": "Freddy's",
+    "cuisine": "Dessert & Bakery",
+    "neighborhood": "Eastside & Vail",
+    "distance": 13.3,
+    "price": "$",
+    "notes": "A great spot to enjoy delicious dessert & bakery in the Eastside & Vail area.",
+    "isLocal": true,
+    "enriched": false
+  },
+  {
+    "name": "Eegee's",
+    "cuisine": "Fast Food & Sandwiches",
+    "neighborhood": "Eastside & Vail",
+    "distance": 13.3,
+    "price": "$",
+    "notes": "Popular neighborhood destination featuring fresh fast food & sandwiches specialties.",
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Filiberto's",
@@ -13940,7 +17818,8 @@ export const restaurants: Restaurant[] = [
     "distance": 13.4,
     "price": "$$",
     "notes": "Popular neighborhood destination featuring fresh mexican & sonoran specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Tropical Smoothie Cafe",
@@ -13949,7 +17828,28 @@ export const restaurants: Restaurant[] = [
     "distance": 13.4,
     "price": "$",
     "notes": "A great spot to enjoy delicious boba tea & beverages in the Eastside & Vail area.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
+  },
+  {
+    "name": "Jersey Mike's Subs",
+    "cuisine": "Fast Food & Sandwiches",
+    "neighborhood": "Eastside & Vail",
+    "distance": 13.4,
+    "price": "$",
+    "notes": "Offers fresh-sliced, fresh-grilled submarine sandwiches made with quality ingredients. A reliable choice.",
+    "isLocal": false,
+    "enriched": true
+  },
+  {
+    "name": "Dunkin'",
+    "cuisine": "Coffee & Cafe",
+    "neighborhood": "Eastside & Vail",
+    "distance": 13.4,
+    "price": "$",
+    "notes": "Grab your favorite coffee, donuts, and breakfast sandwiches for a quick start.",
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Native Grill & Wings",
@@ -13958,25 +17858,8 @@ export const restaurants: Restaurant[] = [
     "distance": 13.4,
     "price": "$$",
     "notes": "Popular neighborhood destination featuring fresh italian & pizza specialties.",
-    "isLocal": true
-  },
-  {
-    "name": "Pizza Hut",
-    "cuisine": "Italian & Pizza",
-    "neighborhood": "Eastside & Vail",
-    "distance": 13.5,
-    "price": "$",
-    "notes": "Classic pizza, pasta, and wings; serves thick Pan Pizzas and cheese-stuffed crusts.",
-    "isLocal": false
-  },
-  {
-    "name": "Marco's Pizza",
-    "cuisine": "Italian & Pizza",
-    "neighborhood": "Eastside & Vail",
-    "distance": 13.5,
-    "price": "$",
-    "notes": "Delivery and carry-out favorites; serves classic Italian pies with signature thick pepperoni.",
-    "isLocal": false
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Taqueria 2 Hermanos",
@@ -13985,7 +17868,8 @@ export const restaurants: Restaurant[] = [
     "distance": 13.5,
     "price": "$",
     "notes": "Highly rated taco shop; serves authentic carne asada, fresh cilantro, and warm tortillas.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Papa Johns Pizza",
@@ -13994,7 +17878,18 @@ export const restaurants: Restaurant[] = [
     "distance": 13.5,
     "price": "$",
     "notes": "Delivery and takeout favorite; features garlic butter dipping sauce and large pepperoni pizzas.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": true
+  },
+  {
+    "name": "Pizza Hut",
+    "cuisine": "Italian & Pizza",
+    "neighborhood": "Eastside & Vail",
+    "distance": 13.5,
+    "price": "$",
+    "notes": "Classic pizza, pasta, and wings; serves thick Pan Pizzas and cheese-stuffed crusts.",
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Happy Wok",
@@ -14003,7 +17898,78 @@ export const restaurants: Restaurant[] = [
     "distance": 13.5,
     "price": "$",
     "notes": "Dine-in/carry-out Asian-fusion; serves massive portions of sweet and sour chicken and lo mein.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Marco's Pizza",
+    "cuisine": "Italian & Pizza",
+    "neighborhood": "Eastside & Vail",
+    "distance": 13.5,
+    "price": "$",
+    "notes": "Delivery and carry-out favorites; serves classic Italian pies with signature thick pepperoni.",
+    "isLocal": false,
+    "enriched": true
+  },
+  {
+    "name": "Dragon Village",
+    "cuisine": "Asian & Sushi",
+    "neighborhood": "Northside & Foothills",
+    "distance": 13.5,
+    "price": "$$",
+    "notes": "Reliable spot for classic Chinese-American dishes, known for generous portions and family-friendly dining.",
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "MOD Pizza",
+    "cuisine": "Italian & Pizza",
+    "neighborhood": "Eastside & Vail",
+    "distance": 13.5,
+    "price": "$",
+    "notes": "Build-your-own pizza experience with unlimited toppings for a personalized, quick meal.",
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Panda Express",
+    "cuisine": "Asian & Sushi",
+    "neighborhood": "Eastside & Vail",
+    "distance": 13.5,
+    "price": "$",
+    "notes": "Popular fast-casual chain for American Chinese cuisine, featuring orange chicken and various wok entrees.",
+    "isLocal": false,
+    "enriched": true
+  },
+  {
+    "name": "McDonald's",
+    "cuisine": "Fast Food & Sandwiches",
+    "neighborhood": "Eastside & Vail",
+    "distance": 13.5,
+    "price": "$",
+    "notes": "Local favorite in Eastside & Vail serving classic fast food & sandwiches options.",
+    "isLocal": false,
+    "enriched": false
+  },
+  {
+    "name": "Popeyes",
+    "cuisine": "Fast Food & Sandwiches",
+    "neighborhood": "Eastside & Vail",
+    "distance": 13.6,
+    "price": "$",
+    "notes": "Local favorite in Eastside & Vail serving classic fast food & sandwiches options.",
+    "isLocal": false,
+    "enriched": false
+  },
+  {
+    "name": "Denny's",
+    "cuisine": "American & Comfort",
+    "neighborhood": "Eastside & Vail",
+    "distance": 13.6,
+    "price": "$$",
+    "notes": "A great spot to enjoy delicious american & comfort in the Eastside & Vail area.",
+    "isLocal": false,
+    "enriched": false
   },
   {
     "name": "The Station Pub and Grill",
@@ -14011,8 +17977,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Northwest & Marana",
     "distance": 13.9,
     "price": "$$",
-    "notes": "A great spot to enjoy delicious bar, pub & brewery in the Northwest & Marana area.",
-    "isLocal": true
+    "notes": "Lively neighborhood pub with great burgers, craft beers, and a casual, friendly atmosphere.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Hotrods Old Vail",
@@ -14021,7 +17988,18 @@ export const restaurants: Restaurant[] = [
     "distance": 13.9,
     "price": "$$",
     "notes": "A great spot to enjoy delicious american & comfort in the Eastside & Vail area.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
+  },
+  {
+    "name": "Growler's Taphouse",
+    "cuisine": "Bar, Pub & Brewery",
+    "neighborhood": "Northwest & Marana",
+    "distance": 14,
+    "price": "$$",
+    "notes": "Bustling taproom with a rotating selection of craft beers, ciders, and a lively atmosphere.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Ironwood Terraces",
@@ -14030,7 +18008,8 @@ export const restaurants: Restaurant[] = [
     "distance": 14.2,
     "price": "$$",
     "notes": "Popular neighborhood destination featuring fresh american & comfort specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Wetzel's Pretzels",
@@ -14038,8 +18017,19 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Northwest & Marana",
     "distance": 14.2,
     "price": "$",
-    "notes": "A great spot to enjoy delicious fast food & sandwiches in the Northwest & Marana area.",
-    "isLocal": true
+    "notes": "Soft, warm pretzels with various toppings. A perfect snack for mall visitors.",
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Dairy Queen",
+    "cuisine": "Dessert & Bakery",
+    "neighborhood": "Northwest & Marana",
+    "distance": 14.2,
+    "price": "$",
+    "notes": "Classic soft-serve ice cream and Blizzards. A nostalgic spot for sweet treats.",
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Orange Julius",
@@ -14047,17 +18037,19 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Northwest & Marana",
     "distance": 14.2,
     "price": "$",
-    "notes": "Local favorite in Northwest & Marana serving classic boba tea & beverages options.",
-    "isLocal": true
+    "notes": "Frothy fruit smoothies and refreshing blended beverages. A cool, fruity escape.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Famous Wok",
     "cuisine": "Asian & Sushi",
     "neighborhood": "Northwest & Marana",
     "distance": 14.2,
-    "price": "$$",
-    "notes": "Popular neighborhood destination featuring fresh asian & sushi specialties.",
-    "isLocal": true
+    "price": "$",
+    "notes": "Quick-service Chinese cuisine with stir-fries and classics. A convenient mall food option.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Charleys Philly Steaks",
@@ -14065,17 +18057,19 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Northwest & Marana",
     "distance": 14.2,
     "price": "$",
-    "notes": "Local favorite in Northwest & Marana serving classic fast food & sandwiches options.",
-    "isLocal": true
+    "notes": "Authentic Philly cheesesteaks piled high with steak and cheese. Hearty, satisfying.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Duke's Delicious Pizza",
     "cuisine": "Italian & Pizza",
     "neighborhood": "Northwest & Marana",
     "distance": 14.2,
-    "price": "$",
-    "notes": "Popular neighborhood destination featuring fresh italian & pizza specialties.",
-    "isLocal": true
+    "price": "$$",
+    "notes": "Locally loved pizzeria serving up classic pies with generous toppings. Casual family spot.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Ol' Pot Hole",
@@ -14083,8 +18077,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Northwest & Marana",
     "distance": 14.2,
     "price": "$",
-    "notes": "Popular neighborhood destination featuring fresh fast food & sandwiches specialties.",
-    "isLocal": true
+    "notes": "Quirky local joint serving up unique, hearty sandwiches and comforting, quick-serve meals.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "All The Buzz Cafe",
@@ -14092,8 +18087,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Northside & Foothills",
     "distance": 14.3,
     "price": "$",
-    "notes": "Popular neighborhood destination featuring fresh coffee & cafe specialties.",
-    "isLocal": true
+    "notes": "Vibrant cafe, specialty coffees, light bites, and a lively atmosphere perfect for a morning treat.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Lil' Abner's",
@@ -14102,7 +18098,8 @@ export const restaurants: Restaurant[] = [
     "distance": 14.3,
     "price": "$$",
     "notes": "Local favorite in Northwest & Marana serving classic american & comfort options.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Phoebe’s Coffee Bar",
@@ -14111,7 +18108,8 @@ export const restaurants: Restaurant[] = [
     "distance": 14.3,
     "price": "$",
     "notes": "Local favorite in Westside & Downtown serving classic coffee & cafe options.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "The Cottonwood",
@@ -14120,16 +18118,18 @@ export const restaurants: Restaurant[] = [
     "distance": 14.3,
     "price": "$",
     "notes": "A great spot to enjoy delicious coffee & cafe in the Westside & Downtown area.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Grain River Asian Bistro",
     "cuisine": "Asian & Sushi",
     "neighborhood": "Northside & Foothills",
     "distance": 14.4,
-    "price": "$$",
-    "notes": "Local favorite in Northside & Foothills serving classic asian & sushi options.",
-    "isLocal": true
+    "price": "$$$",
+    "notes": "Elegant Asian bistro, fresh sushi, flavorful stir-fries, and a sophisticated, inviting dining experience.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "La Olla",
@@ -14138,7 +18138,48 @@ export const restaurants: Restaurant[] = [
     "distance": 14.4,
     "price": "$$",
     "notes": "Local favorite in Northwest & Marana serving classic mexican & sonoran options.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
+  },
+  {
+    "name": "Just Breakfast",
+    "cuisine": "Breakfast & Diner",
+    "neighborhood": "Northwest & Marana",
+    "distance": 14.5,
+    "price": "$$",
+    "notes": "A great spot to enjoy delicious breakfast & diner in the Northwest & Marana area.",
+    "isLocal": true,
+    "enriched": false
+  },
+  {
+    "name": "Home Plate Marana",
+    "cuisine": "American & Comfort",
+    "neighborhood": "Northwest & Marana",
+    "distance": 14.5,
+    "price": "$$",
+    "notes": "Local favorite in Northwest & Marana serving classic american & comfort options.",
+    "isLocal": true,
+    "enriched": false
+  },
+  {
+    "name": "Subway",
+    "cuisine": "Fast Food & Sandwiches",
+    "neighborhood": "Northwest & Marana",
+    "distance": 14.9,
+    "price": "$",
+    "notes": "Reliable chain for custom subs, fresh toppings, and a quick, healthy option for a meal.",
+    "isLocal": false,
+    "enriched": true
+  },
+  {
+    "name": "McDonald's",
+    "cuisine": "Fast Food & Sandwiches",
+    "neighborhood": "Northwest & Marana",
+    "distance": 14.9,
+    "price": "$",
+    "notes": "Global fast-food icon, classic burgers, crispy fries, and quick, convenient service for all ages.",
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Bianchi's Italian",
@@ -14147,16 +18188,8 @@ export const restaurants: Restaurant[] = [
     "distance": 14.9,
     "price": "$$",
     "notes": "Local favorite in Northwest & Marana serving classic italian & pizza options.",
-    "isLocal": true
-  },
-  {
-    "name": "Papa Locos",
-    "cuisine": "Mexican & Sonoran",
-    "neighborhood": "Eastside & Vail",
-    "distance": 15,
-    "price": "$",
-    "notes": "Creative breakfast enchiladas; serves hearty Mexican morning plates and classic burritos.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Pub 1922",
@@ -14165,7 +18198,8 @@ export const restaurants: Restaurant[] = [
     "distance": 15,
     "price": "$$",
     "notes": "Sahuarita-based bar and grill; serves craft beers, juicy burgers, and loaded pub appetizers.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Argenziano's",
@@ -14174,7 +18208,8 @@ export const restaurants: Restaurant[] = [
     "distance": 15,
     "price": "$$",
     "notes": "Authentic family Italian; taco pizza; serves hearty pastas, garlic bread, and unique fusion pies.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Sa-Ing Thai",
@@ -14183,7 +18218,8 @@ export const restaurants: Restaurant[] = [
     "distance": 15,
     "price": "$$",
     "notes": "Officially certified as authentic Thai; serves intensely flavorful curries, fresh papaya salad, and pad thai.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Luckie's Thai",
@@ -14192,7 +18228,18 @@ export const restaurants: Restaurant[] = [
     "distance": 15,
     "price": "$$",
     "notes": "Thai classics and Vietnamese pho; serves spicy drunken noodles alongside rich, herbaceous beef broths.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Papa Locos",
+    "cuisine": "Mexican & Sonoran",
+    "neighborhood": "Eastside & Vail",
+    "distance": 15,
+    "price": "$",
+    "notes": "Creative breakfast enchiladas; serves hearty Mexican morning plates and classic burritos.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Triple T Truck Stop",
@@ -14201,7 +18248,8 @@ export const restaurants: Restaurant[] = [
     "distance": 15,
     "price": "$",
     "notes": "Historic truck stop diner fare; famous for massive chicken fried steaks and bottomless coffee.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Del Lago Golf Club",
@@ -14210,7 +18258,38 @@ export const restaurants: Restaurant[] = [
     "distance": 15,
     "price": "$$",
     "notes": "Comforting patio dining at the club; serves upscale sandwiches, crisp salads, and cold beers.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Domino's",
+    "cuisine": "Italian & Pizza",
+    "neighborhood": "Northwest & Marana",
+    "distance": 15,
+    "price": "$",
+    "notes": "Go-to for quick delivery pizza, classic toppings, cheesy bread, and convenient, satisfying meals.",
+    "isLocal": false,
+    "enriched": true
+  },
+  {
+    "name": "Starbucks",
+    "cuisine": "Coffee & Cafe",
+    "neighborhood": "Northwest & Marana",
+    "distance": 15,
+    "price": "$",
+    "notes": "A great spot to enjoy delicious coffee & cafe in the Northwest & Marana area.",
+    "isLocal": false,
+    "enriched": false
+  },
+  {
+    "name": "Dairy Queen",
+    "cuisine": "Dessert & Bakery",
+    "neighborhood": "Northwest & Marana",
+    "distance": 15,
+    "price": "$",
+    "notes": "Iconic spot for classic soft-serve ice cream, Blizzards, and satisfying sweet treats.",
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Hungry Howie's",
@@ -14219,7 +18298,28 @@ export const restaurants: Restaurant[] = [
     "distance": 15.3,
     "price": "$",
     "notes": "Popular neighborhood destination featuring fresh italian & pizza specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
+  },
+  {
+    "name": "Angela's Mexican",
+    "cuisine": "Mexican & Sonoran",
+    "neighborhood": "Northwest & Marana",
+    "distance": 15.3,
+    "price": "$$",
+    "notes": "Local favorite in Northwest & Marana serving classic mexican & sonoran options.",
+    "isLocal": true,
+    "enriched": false
+  },
+  {
+    "name": "Twin Peaks Pizzeria",
+    "cuisine": "Italian & Pizza",
+    "neighborhood": "Northwest & Marana",
+    "distance": 15.3,
+    "price": "$$",
+    "notes": "Classic pizzeria with a lively atmosphere, serving up delicious pies and hearty Italian favorites.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Rancho Rustico",
@@ -14228,7 +18328,8 @@ export const restaurants: Restaurant[] = [
     "distance": 15.5,
     "price": "$$",
     "notes": "Specializes in the molcajete; serves bubbling cauldrons of meat, cheese, and cactus in rich salsa.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "La Herradura",
@@ -14237,7 +18338,18 @@ export const restaurants: Restaurant[] = [
     "distance": 15.5,
     "price": "$$",
     "notes": "Sazón El Cebo-yon style; serves authentic, deeply marinated Mexican meats and fresh tortillas.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Subway",
+    "cuisine": "Fast Food & Sandwiches",
+    "neighborhood": "Northwest & Marana",
+    "distance": 15.7,
+    "price": "$",
+    "notes": "Popular neighborhood destination featuring fresh fast food & sandwiches specialties.",
+    "isLocal": false,
+    "enriched": false
   },
   {
     "name": "Fortune Cookie",
@@ -14246,7 +18358,38 @@ export const restaurants: Restaurant[] = [
     "distance": 15.7,
     "price": "$$",
     "notes": "Popular neighborhood destination featuring fresh asian & sushi specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
+  },
+  {
+    "name": "Starbucks",
+    "cuisine": "Coffee & Cafe",
+    "neighborhood": "Northwest & Marana",
+    "distance": 15.7,
+    "price": "$",
+    "notes": "A great spot to enjoy delicious coffee & cafe in the Northwest & Marana area.",
+    "isLocal": false,
+    "enriched": false
+  },
+  {
+    "name": "Sodalicious",
+    "cuisine": "Boba Tea & Beverages",
+    "neighborhood": "Northwest & Marana",
+    "distance": 15.7,
+    "price": "$",
+    "notes": "Custom mixed sodas and sweet treats. A fun, refreshing stop for unique drinks.",
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Filiberto's",
+    "cuisine": "Mexican & Sonoran",
+    "neighborhood": "Northwest & Marana",
+    "distance": 15.7,
+    "price": "$",
+    "notes": "Popular neighborhood destination featuring fresh mexican & sonoran specialties.",
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "The Views Restaurant",
@@ -14255,7 +18398,8 @@ export const restaurants: Restaurant[] = [
     "distance": 15.8,
     "price": "$$",
     "notes": "Local favorite in Northside & Foothills serving classic american & comfort options.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "The Views Lounge",
@@ -14264,7 +18408,8 @@ export const restaurants: Restaurant[] = [
     "distance": 15.8,
     "price": "$$",
     "notes": "Local favorite in Northside & Foothills serving classic bar, pub & brewery options.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Montgomery's",
@@ -14273,7 +18418,8 @@ export const restaurants: Restaurant[] = [
     "distance": 16,
     "price": "$$",
     "notes": "Neighborhood bar and grill favorites; serves loaded pub burgers, crispy wings, and draft beers.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Arizona Pizza Co",
@@ -14282,7 +18428,8 @@ export const restaurants: Restaurant[] = [
     "distance": 16,
     "price": "$",
     "notes": "Huge pizza slices and calzones; serves classic New York-style foldable slices with savory marinara.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Kachina Lounge",
@@ -14291,7 +18438,8 @@ export const restaurants: Restaurant[] = [
     "distance": 16,
     "price": "$$",
     "notes": "Popular neighborhood destination featuring fresh bar, pub & brewery specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Vero Amore",
@@ -14300,7 +18448,8 @@ export const restaurants: Restaurant[] = [
     "distance": 16.1,
     "price": "$$",
     "notes": "Popular neighborhood destination featuring fresh italian & pizza specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Richie's Cafe",
@@ -14308,8 +18457,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Westside & Downtown",
     "distance": 16.2,
     "price": "$",
-    "notes": "Local favorite in Westside & Downtown serving classic coffee & cafe options.",
-    "isLocal": true
+    "notes": "Local favorite for classic diner coffee, hearty breakfasts, and friendly, bustling morning atmosphere.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Tay's BBQ",
@@ -14318,7 +18468,8 @@ export const restaurants: Restaurant[] = [
     "distance": 16.5,
     "price": "$$",
     "notes": "Brisket and pulled pork plates; serves slow-smoked Texas-style meats with traditional sides.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Roadrunner Market",
@@ -14327,7 +18478,8 @@ export const restaurants: Restaurant[] = [
     "distance": 17,
     "price": "$",
     "notes": "Casual market grill items; offers quick-service sandwiches, hot dogs, and convenience snacks.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Omar's Hi-Way Chef",
@@ -14336,16 +18488,18 @@ export const restaurants: Restaurant[] = [
     "distance": 17,
     "price": "$",
     "notes": "Traditional highway dining; serves massive omelettes, pancakes, and classic diner burgers.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Iron Door Restaurant",
     "cuisine": "American & Comfort",
     "neighborhood": "Eastside & Vail",
     "distance": 17,
-    "price": "$$",
-    "notes": "Local favorite in Eastside & Vail serving classic american & comfort options.",
-    "isLocal": true
+    "price": "$$$",
+    "notes": "Rustic charm meets delicious American cuisine, featuring steaks and homestyle dishes.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Butler Hall",
@@ -14354,7 +18508,8 @@ export const restaurants: Restaurant[] = [
     "distance": 17,
     "price": "$",
     "notes": "A great spot to enjoy delicious fast food & sandwiches in the Eastside & Vail area.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "The Highlands Bar & Grille",
@@ -14362,8 +18517,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Northwest & Marana",
     "distance": 17.1,
     "price": "$$",
-    "notes": "Local favorite in Northwest & Marana serving classic bar, pub & brewery options.",
-    "isLocal": true
+    "notes": "Upscale bar and grille, delicious pub classics, craft cocktails, and a sophisticated, relaxed ambiance.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Nico's Taco Shop",
@@ -14372,16 +18528,18 @@ export const restaurants: Restaurant[] = [
     "distance": 17.2,
     "price": "$$",
     "notes": "Popular neighborhood destination featuring fresh mexican & sonoran specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Mt. Lemmon Cookie Cabin",
-    "cuisine": "Coffee & Cafe",
+    "cuisine": "Dessert & Bakery",
     "neighborhood": "Eastside & Vail",
     "distance": 17.2,
     "price": "$",
-    "notes": "Popular neighborhood destination featuring fresh coffee & cafe specialties.",
-    "isLocal": true
+    "notes": "Quaint mountain retreat for giant, warm cookies and hot cocoa after scenic drives.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Chuys Mesquite Broiler",
@@ -14390,7 +18548,18 @@ export const restaurants: Restaurant[] = [
     "distance": 17.3,
     "price": "$$",
     "notes": "A great spot to enjoy delicious steakhouse & bbq in the Northside & Foothills area.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
+  },
+  {
+    "name": "Domino's",
+    "cuisine": "Italian & Pizza",
+    "neighborhood": "Northside & Foothills",
+    "distance": 17.3,
+    "price": "$",
+    "notes": "Local favorite in Northside & Foothills serving classic italian & pizza options.",
+    "isLocal": false,
+    "enriched": false
   },
   {
     "name": "Burger King",
@@ -14398,8 +18567,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Northside & Foothills",
     "distance": 17.3,
     "price": "$",
-    "notes": "Popular neighborhood destination featuring fresh fast food & sandwiches specialties.",
-    "isLocal": false
+    "notes": "Global fast-food giant, home of the flame-grilled Whopper and quick, satisfying meals.",
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Sawmill Run",
@@ -14407,8 +18577,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Eastside & Vail",
     "distance": 17.4,
     "price": "$$",
-    "notes": "Popular neighborhood destination featuring fresh american & comfort specialties.",
-    "isLocal": true
+    "notes": "Casual neighborhood spot for American fare, burgers, and pub-style comfort food.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Mt Lemmon Coffee and Tea",
@@ -14417,7 +18588,8 @@ export const restaurants: Restaurant[] = [
     "distance": 17.4,
     "price": "$",
     "notes": "A great spot to enjoy delicious boba tea & beverages in the Eastside & Vail area.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Fito's Taco Shop",
@@ -14426,16 +18598,28 @@ export const restaurants: Restaurant[] = [
     "distance": 17.5,
     "price": "$",
     "notes": "Standard taco shop favorites; serves fast-casual carne asada fries and rolled tacos.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Sunnyside Up",
-    "cuisine": "American & Comfort",
+    "cuisine": "Breakfast & Diner",
     "neighborhood": "Northside & Foothills",
     "distance": 17.9,
     "price": "$$",
-    "notes": "Local favorite in Northside & Foothills serving classic american & comfort options.",
-    "isLocal": true
+    "notes": "Cheerful breakfast spot with creative egg dishes, hearty omelets, and a vibrant morning atmosphere.",
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Fito's Taco Shop",
+    "cuisine": "Mexican & Sonoran",
+    "neighborhood": "Eastside & Vail",
+    "distance": 17.9,
+    "price": "$",
+    "notes": "Popular neighborhood destination featuring fresh mexican & sonoran specialties.",
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Mama's Kitchen",
@@ -14444,7 +18628,8 @@ export const restaurants: Restaurant[] = [
     "distance": 18,
     "price": "$$",
     "notes": "Green Valley authentic dishes; traditional homestyle Mexican enchiladas, tacos, and fresh salsas.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Marti's Bistro",
@@ -14453,7 +18638,8 @@ export const restaurants: Restaurant[] = [
     "distance": 18,
     "price": "$$",
     "notes": "Comfortable Green Valley dining; serves elevated American bistro plates, fresh salads, and sandwiches.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Coach's All American",
@@ -14462,7 +18648,8 @@ export const restaurants: Restaurant[] = [
     "distance": 18,
     "price": "$$",
     "notes": "Bar and grill located in Green Valley; offers classic sports bar fare including wings and nachos.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Canoa Ranch Golf Club",
@@ -14471,7 +18658,8 @@ export const restaurants: Restaurant[] = [
     "distance": 18,
     "price": "$$",
     "notes": "Golf course dining in Southern Pima; serves refined American grill dishes with scenic patio views.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Arizona Family Restaurant",
@@ -14480,7 +18668,8 @@ export const restaurants: Restaurant[] = [
     "distance": 18,
     "price": "$",
     "notes": "Known for classic homestyle plates in Green Valley; serves hearty meatloaf, potatoes, and pies.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Two Girls Pizzeria",
@@ -14489,7 +18678,8 @@ export const restaurants: Restaurant[] = [
     "distance": 18,
     "price": "$$",
     "notes": "Local Green Valley pizza favorite; serves hand-tossed artisan pies with fresh, heavy toppings.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Ragazzi Italian Restaurant",
@@ -14498,7 +18688,8 @@ export const restaurants: Restaurant[] = [
     "distance": 18,
     "price": "$$",
     "notes": "Authentic pastas down south; serves rich fettuccine, chicken parmesan, and garlic bread.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Montgomery Bar and Grill",
@@ -14506,8 +18697,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Eastside & Vail",
     "distance": 18,
     "price": "$$",
-    "notes": "Local favorite in Eastside & Vail serving classic american & comfort options.",
-    "isLocal": true
+    "notes": "A classic spot for hearty American fare, juicy burgers, and a lively bar scene.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Quiznos",
@@ -14515,8 +18707,19 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Eastside & Vail",
     "distance": 18,
     "price": "$",
-    "notes": "Popular neighborhood destination featuring fresh fast food & sandwiches specialties.",
-    "isLocal": true
+    "notes": "Toasted sub sandwiches with premium ingredients, perfect for a quick and satisfying lunch.",
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Dairy Queen",
+    "cuisine": "Dessert & Bakery",
+    "neighborhood": "Eastside & Vail",
+    "distance": 18,
+    "price": "$",
+    "notes": "Iconic spot for delicious soft-serve ice cream, Blizzards, and classic American treats.",
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Carlota's Authentic Mexican",
@@ -14524,8 +18727,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Northside & Foothills",
     "distance": 18,
     "price": "$$",
-    "notes": "Popular neighborhood destination featuring fresh mexican & sonoran specialties.",
-    "isLocal": true
+    "notes": "Truly authentic Mexican flavors, homemade tortillas, savory carne asada, and a warm family feel.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "It's Greek to Me",
@@ -14533,8 +18737,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Northside & Foothills",
     "distance": 18,
     "price": "$$",
-    "notes": "Local favorite in Northside & Foothills serving classic mediterranean & global options.",
-    "isLocal": true
+    "notes": "Delicious Greek specialties, fresh gyros, flavorful souvlaki, and a welcoming, casual dining experience.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "AZ Pizza Co",
@@ -14543,16 +18748,28 @@ export const restaurants: Restaurant[] = [
     "distance": 18,
     "price": "$",
     "notes": "Popular neighborhood destination featuring fresh italian & pizza specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
+  },
+  {
+    "name": "McDonald's",
+    "cuisine": "Fast Food & Sandwiches",
+    "neighborhood": "Northside & Foothills",
+    "distance": 18,
+    "price": "$",
+    "notes": "Global fast-food giant offering classic burgers, fries, and quick, convenient meal options.",
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Bubb's Grubb",
-    "cuisine": "American & Comfort",
+    "cuisine": "Breakfast & Diner",
     "neighborhood": "Northside & Foothills",
     "distance": 18.1,
-    "price": "$$",
-    "notes": "A great spot to enjoy delicious american & comfort in the Northside & Foothills area.",
-    "isLocal": true
+    "price": "$",
+    "notes": "Hearty diner serving classic breakfast, lunch, and comfort food favorites in a laid-back setting.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Horseshoe",
@@ -14561,16 +18778,28 @@ export const restaurants: Restaurant[] = [
     "distance": 18.3,
     "price": "$$",
     "notes": "Popular neighborhood destination featuring fresh american & comfort specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Claire's Cafe & Art Gallery",
     "cuisine": "Coffee & Cafe",
     "neighborhood": "Northside & Foothills",
     "distance": 18.3,
+    "price": "$$",
+    "notes": "Charming cafe with an art gallery, serving delicious breakfast, lunch, and homemade desserts.",
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Subway",
+    "cuisine": "Fast Food & Sandwiches",
+    "neighborhood": "Northwest & Marana",
+    "distance": 18.4,
     "price": "$",
-    "notes": "Popular neighborhood destination featuring fresh coffee & cafe specialties.",
-    "isLocal": true
+    "notes": "Popular neighborhood destination featuring fresh fast food & sandwiches specialties.",
+    "isLocal": false,
+    "enriched": false
   },
   {
     "name": "Mi Tierra",
@@ -14578,8 +18807,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Northside & Foothills",
     "distance": 18.4,
     "price": "$$",
-    "notes": "A great spot to enjoy delicious mexican & sonoran in the Northside & Foothills area.",
-    "isLocal": true
+    "notes": "Homestyle Mexican cooking, comforting enchiladas, flavorful tacos, and vibrant family-friendly atmosphere.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Country Wide RV Service",
@@ -14587,8 +18817,19 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Eastside & Vail",
     "distance": 18.6,
     "price": "$",
-    "notes": "A great spot to enjoy delicious coffee & cafe in the Eastside & Vail area.",
-    "isLocal": true
+    "notes": "Unassuming spot offering simple, satisfying coffee, quick bites, and a no-frills, friendly vibe.",
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Arby's",
+    "cuisine": "Fast Food & Sandwiches",
+    "neighborhood": "Northside & Foothills",
+    "distance": 18.6,
+    "price": "$",
+    "notes": "Local favorite in Northside & Foothills serving classic fast food & sandwiches options.",
+    "isLocal": false,
+    "enriched": false
   },
   {
     "name": "Sammy's",
@@ -14597,7 +18838,8 @@ export const restaurants: Restaurant[] = [
     "distance": 18.8,
     "price": "$",
     "notes": "A great spot to enjoy delicious mexican & sonoran in the Northside & Foothills area.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Toro Bravo",
@@ -14606,7 +18848,8 @@ export const restaurants: Restaurant[] = [
     "distance": 18.9,
     "price": "$$",
     "notes": "A great spot to enjoy delicious mexican & sonoran in the Eastside & Vail area.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Pub 22",
@@ -14615,7 +18858,8 @@ export const restaurants: Restaurant[] = [
     "distance": 19.2,
     "price": "$$",
     "notes": "A great spot to enjoy delicious bar, pub & brewery in the Southside & Heritage area.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Frozen Yogurt by PAB",
@@ -14624,7 +18868,18 @@ export const restaurants: Restaurant[] = [
     "distance": 19.2,
     "price": "$",
     "notes": "A great spot to enjoy delicious dessert & bakery in the Southside & Heritage area.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
+  },
+  {
+    "name": "Subway",
+    "cuisine": "Fast Food & Sandwiches",
+    "neighborhood": "Southside & Heritage",
+    "distance": 19.3,
+    "price": "$",
+    "notes": "Popular neighborhood destination featuring fresh fast food & sandwiches specialties.",
+    "isLocal": false,
+    "enriched": false
   },
   {
     "name": "Tania's Mexican Food",
@@ -14633,7 +18888,18 @@ export const restaurants: Restaurant[] = [
     "distance": 19.3,
     "price": "$$",
     "notes": "Local favorite in Southside & Heritage serving classic mexican & sonoran options.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
+  },
+  {
+    "name": "Dunkin'",
+    "cuisine": "Coffee & Cafe",
+    "neighborhood": "Southside & Heritage",
+    "distance": 19.3,
+    "price": "$",
+    "notes": "Go-to for classic coffee, espresso drinks, and a wide variety of freshly made donuts.",
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Arby's",
@@ -14642,7 +18908,18 @@ export const restaurants: Restaurant[] = [
     "distance": 19.3,
     "price": "$",
     "notes": "Local favorite in Southside & Heritage serving classic fast food & sandwiches options.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": false
+  },
+  {
+    "name": "Starbucks",
+    "cuisine": "Coffee & Cafe",
+    "neighborhood": "Northwest & Marana",
+    "distance": 19.3,
+    "price": "$",
+    "notes": "A great spot to enjoy delicious coffee & cafe in the Northwest & Marana area.",
+    "isLocal": false,
+    "enriched": false
   },
   {
     "name": "Cayton’s Restaurant",
@@ -14651,7 +18928,38 @@ export const restaurants: Restaurant[] = [
     "distance": 19.4,
     "price": "$$",
     "notes": "A great spot to enjoy delicious american & comfort in the Northwest & Marana area.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
+  },
+  {
+    "name": "McDonald's",
+    "cuisine": "Fast Food & Sandwiches",
+    "neighborhood": "Southside & Heritage",
+    "distance": 19.4,
+    "price": "$",
+    "notes": "Local favorite in Southside & Heritage serving classic fast food & sandwiches options.",
+    "isLocal": false,
+    "enriched": false
+  },
+  {
+    "name": "Taco Bell",
+    "cuisine": "Mexican & Sonoran",
+    "neighborhood": "Southside & Heritage",
+    "distance": 19.4,
+    "price": "$",
+    "notes": "Popular neighborhood destination featuring fresh mexican & sonoran specialties.",
+    "isLocal": false,
+    "enriched": false
+  },
+  {
+    "name": "Panda Express",
+    "cuisine": "Asian & Sushi",
+    "neighborhood": "Southside & Heritage",
+    "distance": 19.4,
+    "price": "$",
+    "notes": "Popular neighborhood destination featuring fresh asian & sushi specialties.",
+    "isLocal": false,
+    "enriched": false
   },
   {
     "name": "MountainView Bar and Grill",
@@ -14660,16 +18968,18 @@ export const restaurants: Restaurant[] = [
     "distance": 20.1,
     "price": "$$",
     "notes": "A great spot to enjoy delicious american & comfort in the Northside & Foothills area.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "American Legion",
     "cuisine": "Bar, Pub & Brewery",
     "neighborhood": "Eastside & Vail",
     "distance": 20.6,
-    "price": "$$",
-    "notes": "A great spot to enjoy delicious bar, pub & brewery in the Eastside & Vail area.",
-    "isLocal": true
+    "price": "$",
+    "notes": "Classic Legion hall offering cold drinks and a laid-back, community-focused atmosphere.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Rincon John's Fresh Air Café",
@@ -14677,8 +18987,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Eastside & Vail",
     "distance": 20.7,
     "price": "$$",
-    "notes": "Popular neighborhood destination featuring fresh american & comfort specialties.",
-    "isLocal": true
+    "notes": "Cozy spot for classic comfort food, generous portions, and a friendly atmosphere.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Roadrunner Grill",
@@ -14686,8 +18997,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Eastside & Vail",
     "distance": 20.8,
     "price": "$",
-    "notes": "A great spot to enjoy delicious fast food & sandwiches in the Eastside & Vail area.",
-    "isLocal": true
+    "notes": "Quick bites, juicy burgers, and crispy fries perfect for a speedy, satisfying meal.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Sky Rider Cafe",
@@ -14696,7 +19008,18 @@ export const restaurants: Restaurant[] = [
     "distance": 20.8,
     "price": "$",
     "notes": "Popular neighborhood destination featuring fresh coffee & cafe specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
+  },
+  {
+    "name": "Argenziano's",
+    "cuisine": "Italian & Pizza",
+    "neighborhood": "Eastside & Vail",
+    "distance": 20.9,
+    "price": "$$",
+    "notes": "A great spot to enjoy delicious italian & pizza in the Eastside & Vail area.",
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Jersey Mike's Subs",
@@ -14704,8 +19027,29 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Northwest & Marana",
     "distance": 21.1,
     "price": "$",
-    "notes": "Local favorite in Northwest & Marana serving classic fast food & sandwiches options.",
-    "isLocal": false
+    "notes": "Offers fresh-sliced, fresh-grilled submarine sandwiches made with quality ingredients. A reliable choice.",
+    "isLocal": false,
+    "enriched": true
+  },
+  {
+    "name": "Domino's",
+    "cuisine": "Italian & Pizza",
+    "neighborhood": "Northwest & Marana",
+    "distance": 21.1,
+    "price": "$",
+    "notes": "Global chain providing classic pizzas, pasta, and wings for quick and convenient delivery.",
+    "isLocal": false,
+    "enriched": true
+  },
+  {
+    "name": "Chipotle",
+    "cuisine": "Mexican & Sonoran",
+    "neighborhood": "Northwest & Marana",
+    "distance": 21.3,
+    "price": "$",
+    "notes": "Popular for customizable burritos, bowls, and tacos with fresh, quality ingredients. Quick and healthy.",
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Black Rock Coffee",
@@ -14713,8 +19057,19 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Northwest & Marana",
     "distance": 21.3,
     "price": "$",
-    "notes": "Local favorite in Northwest & Marana serving classic coffee & cafe options.",
-    "isLocal": true
+    "notes": "Drive-thru coffee spot known for energetic service and specialty coffee drinks.",
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "McDonald's",
+    "cuisine": "Fast Food & Sandwiches",
+    "neighborhood": "Northwest & Marana",
+    "distance": 21.3,
+    "price": "$",
+    "notes": "Local favorite in Northwest & Marana serving classic fast food & sandwiches options.",
+    "isLocal": false,
+    "enriched": false
   },
   {
     "name": "Lupe’s",
@@ -14723,16 +19078,18 @@ export const restaurants: Restaurant[] = [
     "distance": 22.1,
     "price": "$$",
     "notes": "Popular neighborhood destination featuring fresh mexican & sonoran specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Rigoberto's",
     "cuisine": "Mexican & Sonoran",
     "neighborhood": "Southside & Heritage",
     "distance": 22.6,
-    "price": "$$",
-    "notes": "Local favorite in Southside & Heritage serving classic mexican & sonoran options.",
-    "isLocal": true
+    "price": "$",
+    "notes": "Popular spot for authentic, hearty Mexican burritos, tacos, and flavorful Sonoran specialties.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Jersey Mike's Subs",
@@ -14740,8 +19097,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Southside & Heritage",
     "distance": 22.6,
     "price": "$",
-    "notes": "Local favorite in Southside & Heritage serving classic fast food & sandwiches options.",
-    "isLocal": false
+    "notes": "Freshly sliced meats and cheeses on delicious subs, \"Mike's Way\" for ultimate flavor.",
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Carl's Jr.",
@@ -14750,7 +19108,8 @@ export const restaurants: Restaurant[] = [
     "distance": 22.6,
     "price": "$",
     "notes": "Popular neighborhood destination featuring fresh fast food & sandwiches specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "MOD Pizza",
@@ -14759,7 +19118,18 @@ export const restaurants: Restaurant[] = [
     "distance": 22.7,
     "price": "$",
     "notes": "Popular neighborhood destination featuring fresh italian & pizza specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
+  },
+  {
+    "name": "Popeyes",
+    "cuisine": "Fast Food & Sandwiches",
+    "neighborhood": "Southside & Heritage",
+    "distance": 22.7,
+    "price": "$",
+    "notes": "Famous for spicy fried chicken, flavorful biscuits, and Louisiana-inspired sides. A quick, satisfying meal.",
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Dutch Bros",
@@ -14768,16 +19138,18 @@ export const restaurants: Restaurant[] = [
     "distance": 22.7,
     "price": "$",
     "notes": "Local favorite in Southside & Heritage serving classic coffee & cafe options.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": false
   },
   {
     "name": "El Bebos",
     "cuisine": "Mexican & Sonoran",
     "neighborhood": "Northwest & Marana",
     "distance": 22.8,
-    "price": "$",
-    "notes": "A great spot to enjoy delicious mexican & sonoran in the Northwest & Marana area.",
-    "isLocal": true
+    "price": "$$",
+    "notes": "Authentic Sonoran Mexican cuisine serving delicious menudo, carne seca, and other regional favorites.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Pizza Hut",
@@ -14786,7 +19158,18 @@ export const restaurants: Restaurant[] = [
     "distance": 22.8,
     "price": "$$",
     "notes": "Popular neighborhood destination featuring fresh italian & pizza specialties.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": false
+  },
+  {
+    "name": "Culver's",
+    "cuisine": "Fast Food & Sandwiches",
+    "neighborhood": "Southside & Heritage",
+    "distance": 22.8,
+    "price": "$",
+    "notes": "Popular neighborhood destination featuring fresh fast food & sandwiches specialties.",
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Denny's",
@@ -14795,7 +19178,38 @@ export const restaurants: Restaurant[] = [
     "distance": 22.9,
     "price": "$$",
     "notes": "A great spot to enjoy delicious american & comfort in the Southside & Heritage area.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": false
+  },
+  {
+    "name": "Taco Bell",
+    "cuisine": "Mexican & Sonoran",
+    "neighborhood": "Westside & Downtown",
+    "distance": 23,
+    "price": "$",
+    "notes": "Popular neighborhood destination featuring fresh mexican & sonoran specialties.",
+    "isLocal": false,
+    "enriched": false
+  },
+  {
+    "name": "Dairy Queen",
+    "cuisine": "Dessert & Bakery",
+    "neighborhood": "Northwest & Marana",
+    "distance": 23,
+    "price": "$",
+    "notes": "Local favorite in Northwest & Marana serving classic dessert & bakery options.",
+    "isLocal": false,
+    "enriched": false
+  },
+  {
+    "name": "McDonald's",
+    "cuisine": "Fast Food & Sandwiches",
+    "neighborhood": "Northwest & Marana",
+    "distance": 23.1,
+    "price": "$",
+    "notes": "Local favorite in Northwest & Marana serving classic fast food & sandwiches options.",
+    "isLocal": false,
+    "enriched": false
   },
   {
     "name": "Two Girls Pizzeria & Bistro",
@@ -14803,8 +19217,19 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Westside & Downtown",
     "distance": 23.1,
     "price": "$$",
-    "notes": "Local favorite in Westside & Downtown serving classic italian & pizza options.",
-    "isLocal": true
+    "notes": "Cozy pizzeria and bistro offering delicious pizzas, pastas, and a warm, inviting atmosphere.",
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "Starbucks",
+    "cuisine": "Coffee & Cafe",
+    "neighborhood": "Northwest & Marana",
+    "distance": 23.1,
+    "price": "$$",
+    "notes": "Ubiquitous coffeehouse for espresso drinks, pastries, and a comfortable spot to work.",
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Tumbleweed Lounge",
@@ -14813,7 +19238,8 @@ export const restaurants: Restaurant[] = [
     "distance": 23.1,
     "price": "$$",
     "notes": "Popular neighborhood destination featuring fresh bar, pub & brewery specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "R&R Pizza Express",
@@ -14822,7 +19248,38 @@ export const restaurants: Restaurant[] = [
     "distance": 23.1,
     "price": "$$",
     "notes": "Popular neighborhood destination featuring fresh italian & pizza specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
+  },
+  {
+    "name": "Panda Express",
+    "cuisine": "Asian & Sushi",
+    "neighborhood": "Northwest & Marana",
+    "distance": 23.1,
+    "price": "$",
+    "notes": "Popular neighborhood destination featuring fresh asian & sushi specialties.",
+    "isLocal": false,
+    "enriched": false
+  },
+  {
+    "name": "Dutch Bros. Coffee",
+    "cuisine": "Coffee & Cafe",
+    "neighborhood": "Northwest & Marana",
+    "distance": 23.1,
+    "price": "$",
+    "notes": "Popular neighborhood destination featuring fresh coffee & cafe specialties.",
+    "isLocal": false,
+    "enriched": false
+  },
+  {
+    "name": "Dunkin'",
+    "cuisine": "Coffee & Cafe",
+    "neighborhood": "Northwest & Marana",
+    "distance": 23.1,
+    "price": "$",
+    "notes": "Popular neighborhood destination featuring fresh coffee & cafe specialties.",
+    "isLocal": false,
+    "enriched": false
   },
   {
     "name": "Nico's Mexican Food",
@@ -14831,7 +19288,8 @@ export const restaurants: Restaurant[] = [
     "distance": 23.2,
     "price": "$$",
     "notes": "Popular neighborhood destination featuring fresh mexican & sonoran specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Jack in the Box",
@@ -14840,7 +19298,8 @@ export const restaurants: Restaurant[] = [
     "distance": 23.2,
     "price": "$",
     "notes": "A great spot to enjoy delicious fast food & sandwiches in the Northwest & Marana area.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": false
   },
   {
     "name": "Burger King",
@@ -14849,7 +19308,8 @@ export const restaurants: Restaurant[] = [
     "distance": 23.2,
     "price": "$",
     "notes": "Popular neighborhood destination featuring fresh fast food & sandwiches specialties.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": false
   },
   {
     "name": "Papa Murphy's",
@@ -14857,8 +19317,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Westside & Downtown",
     "distance": 23.3,
     "price": "$",
-    "notes": "Popular neighborhood destination featuring fresh italian & pizza specialties.",
-    "isLocal": true
+    "notes": "Take-and-bake pizza chain, customizing your fresh pizza to bake perfectly at home.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Dairy Queen",
@@ -14866,8 +19327,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Westside & Downtown",
     "distance": 23.3,
     "price": "$",
-    "notes": "Local favorite in Westside & Downtown serving classic dessert & bakery options.",
-    "isLocal": false
+    "notes": "A classic for iconic Blizzards, soft-serve cones, and quick sweet treats. Family favorite.",
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Arby's",
@@ -14876,7 +19338,8 @@ export const restaurants: Restaurant[] = [
     "distance": 23.3,
     "price": "$",
     "notes": "Local favorite in Westside & Downtown serving classic fast food & sandwiches options.",
-    "isLocal": false
+    "isLocal": false,
+    "enriched": false
   },
   {
     "name": "Papa John's",
@@ -14884,8 +19347,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Westside & Downtown",
     "distance": 23.4,
     "price": "$",
-    "notes": "Popular neighborhood destination featuring fresh italian & pizza specialties.",
-    "isLocal": false
+    "notes": "Reliable chain for consistently good pizza, offering a variety of toppings and signature garlic sauce.",
+    "isLocal": false,
+    "enriched": true
   },
   {
     "name": "Nico's Taco Shop",
@@ -14894,7 +19358,8 @@ export const restaurants: Restaurant[] = [
     "distance": 23.9,
     "price": "$",
     "notes": "Popular neighborhood destination featuring fresh mexican & sonoran specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Big Nose Kate's Saloon",
@@ -14903,7 +19368,8 @@ export const restaurants: Restaurant[] = [
     "distance": 25,
     "price": "$$",
     "notes": "Historic Tombstone saloon and eatery; serves hearty Western bar food, burgers, and cold draft beer.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "The Longhorn",
@@ -14912,25 +19378,28 @@ export const restaurants: Restaurant[] = [
     "distance": 25,
     "price": "$$$",
     "notes": "Historic Tombstone steakhouse; serves thick-cut steaks, smoked ribs, and classic cowboy beans.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "The WaterHole",
     "cuisine": "Bar, Pub & Brewery",
     "neighborhood": "Northwest & Marana",
     "distance": 25.2,
-    "price": "$$",
-    "notes": "A great spot to enjoy delicious bar, pub & brewery in the Northwest & Marana area.",
-    "isLocal": true
+    "price": "$",
+    "notes": "Neighborhood watering hole, friendly service, classic pub fare, and a relaxed, unpretentious vibe.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Peppersauce Kitchen",
     "cuisine": "Fast Food & Sandwiches",
     "neighborhood": "Eastside & Vail",
     "distance": 25.2,
-    "price": "$",
-    "notes": "A great spot to enjoy delicious fast food & sandwiches in the Eastside & Vail area.",
-    "isLocal": true
+    "price": "$$",
+    "notes": "A focus on unique hot sauces and flavorful, gourmet sandwiches. Bold and delicious.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Three Points Restaurant",
@@ -14939,7 +19408,8 @@ export const restaurants: Restaurant[] = [
     "distance": 25.3,
     "price": "$$",
     "notes": "Popular neighborhood destination featuring fresh american & comfort specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Arizona Family Restaurant",
@@ -14948,16 +19418,18 @@ export const restaurants: Restaurant[] = [
     "distance": 25.4,
     "price": "$$",
     "notes": "Local favorite in Westside & Downtown serving classic american & comfort options.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Marti's Bistro",
     "cuisine": "Coffee & Cafe",
     "neighborhood": "Westside & Downtown",
     "distance": 25.5,
-    "price": "$",
-    "notes": "Popular neighborhood destination featuring fresh coffee & cafe specialties.",
-    "isLocal": true
+    "price": "$$",
+    "notes": "Charming bistro serving delightful sandwiches, salads, and pastries in a relaxed European setting.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Ragazzi",
@@ -14966,7 +19438,8 @@ export const restaurants: Restaurant[] = [
     "distance": 25.6,
     "price": "$$",
     "notes": "Popular neighborhood destination featuring fresh italian & pizza specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Mario McGee's Pizza",
@@ -14974,17 +19447,19 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Westside & Downtown",
     "distance": 25.6,
     "price": "$$",
-    "notes": "Popular neighborhood destination featuring fresh italian & pizza specialties.",
-    "isLocal": true
+    "notes": "Local favorite for classic pizzas, pasta dishes, and satisfying Italian-American comfort food.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Moqah Coffee & Beyond",
     "cuisine": "Coffee & Cafe",
     "neighborhood": "Westside & Downtown",
     "distance": 25.6,
-    "price": "$",
-    "notes": "Popular neighborhood destination featuring fresh coffee & cafe specialties.",
-    "isLocal": true
+    "price": "$$",
+    "notes": "Upscale coffee house offering specialty brews, unique pastries, and a sophisticated, inviting ambiance.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "19th Hole Bar & Grille",
@@ -14992,8 +19467,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Westside & Downtown",
     "distance": 25.6,
     "price": "$$",
-    "notes": "A great spot to enjoy delicious bar, pub & brewery in the Westside & Downtown area.",
-    "isLocal": true
+    "notes": "Relaxed spot for casual dining, cold drinks, and pub favorites near the golf course.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Snack Shack",
@@ -15002,7 +19478,8 @@ export const restaurants: Restaurant[] = [
     "distance": 25.8,
     "price": "$",
     "notes": "A great spot to enjoy delicious fast food & sandwiches in the Northwest & Marana area.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "The Feedlot Cafe",
@@ -15011,7 +19488,8 @@ export const restaurants: Restaurant[] = [
     "distance": 26,
     "price": "$",
     "notes": "Popular neighborhood destination featuring fresh boba tea & beverages specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Circle S Saloon",
@@ -15020,7 +19498,8 @@ export const restaurants: Restaurant[] = [
     "distance": 26.2,
     "price": "$$",
     "notes": "Popular neighborhood destination featuring fresh bar, pub & brewery specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Nandi's Sonoran HotDogs",
@@ -15028,17 +19507,19 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Southside & Heritage",
     "distance": 26.2,
     "price": "$",
-    "notes": "A great spot to enjoy delicious fast food & sandwiches in the Southside & Heritage area.",
-    "isLocal": true
+    "notes": "Iconic Sonoran hot dogs, bacon-wrapped perfection with all the traditional toppings, truly authentic.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Gelato Shop",
-    "cuisine": "Coffee & Cafe",
+    "cuisine": "Dessert & Bakery",
     "neighborhood": "Southside & Heritage",
     "distance": 26.4,
     "price": "$",
-    "notes": "Popular neighborhood destination featuring fresh coffee & cafe specialties.",
-    "isLocal": true
+    "notes": "Delightful artisanal gelato with a rotating selection of creamy, authentic Italian flavors.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Pauline's Cafe",
@@ -15047,16 +19528,38 @@ export const restaurants: Restaurant[] = [
     "distance": 26.5,
     "price": "$",
     "notes": "Popular neighborhood destination featuring fresh coffee & cafe specialties.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Mama's Kitchen",
     "cuisine": "American & Comfort",
     "neighborhood": "Westside & Downtown",
     "distance": 26.7,
-    "price": "$$",
-    "notes": "A great spot to enjoy delicious american & comfort in the Westside & Downtown area.",
-    "isLocal": true
+    "price": "$",
+    "notes": "Homey spot for classic comfort food, serving generous portions of American breakfast and lunch.",
+    "isLocal": true,
+    "enriched": true
+  },
+  {
+    "name": "McDonald's",
+    "cuisine": "Fast Food & Sandwiches",
+    "neighborhood": "Westside & Downtown",
+    "distance": 26.7,
+    "price": "$",
+    "notes": "Local favorite in Westside & Downtown serving classic fast food & sandwiches options.",
+    "isLocal": false,
+    "enriched": false
+  },
+  {
+    "name": "KFC",
+    "cuisine": "Fast Food & Sandwiches",
+    "neighborhood": "Westside & Downtown",
+    "distance": 26.7,
+    "price": "$",
+    "notes": "Popular neighborhood destination featuring fresh fast food & sandwiches specialties.",
+    "isLocal": false,
+    "enriched": false
   },
   {
     "name": "Riot Grill",
@@ -15064,8 +19567,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Eastside & Vail",
     "distance": 27.5,
     "price": "$$",
-    "notes": "A great spot to enjoy delicious american & comfort in the Eastside & Vail area.",
-    "isLocal": true
+    "notes": "Casual American spot offering grilled favorites, juicy burgers, and hearty comfort dishes.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Oracle Inn",
@@ -15073,8 +19577,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Eastside & Vail",
     "distance": 27.5,
     "price": "$",
-    "notes": "Popular neighborhood destination featuring fresh boba tea & beverages specialties.",
-    "isLocal": true
+    "notes": "Quaint spot offering refreshing boba tea and unique blended drinks. A hidden gem.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Way of Bean Coffee Club",
@@ -15082,8 +19587,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Eastside & Vail",
     "distance": 27.5,
     "price": "$",
-    "notes": "Popular neighborhood destination featuring fresh coffee & cafe specialties.",
-    "isLocal": true
+    "notes": "Artisan coffee roaster focused on quality beans and expertly crafted espresso drinks. Coffee lover's paradise.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Oracle Patio Cafe",
@@ -15091,8 +19597,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Eastside & Vail",
     "distance": 27.6,
     "price": "$",
-    "notes": "Popular neighborhood destination featuring fresh coffee & cafe specialties.",
-    "isLocal": true
+    "notes": "Relaxing patio cafe with delicious coffee, pastries, and light breakfast bites. Inviting atmosphere.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "De Marcos Pizzeria",
@@ -15101,7 +19608,8 @@ export const restaurants: Restaurant[] = [
     "distance": 27.6,
     "price": "$$",
     "notes": "Local favorite in Eastside & Vail serving classic italian & pizza options.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Casa Rivera's Taco Express",
@@ -15110,7 +19618,8 @@ export const restaurants: Restaurant[] = [
     "distance": 27.6,
     "price": "$",
     "notes": "A great spot to enjoy delicious mexican & sonoran in the Eastside & Vail area.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "Nonna Maria'a Pizza",
@@ -15118,8 +19627,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Eastside & Vail",
     "distance": 27.7,
     "price": "$$",
-    "notes": "Local favorite in Eastside & Vail serving classic italian & pizza options.",
-    "isLocal": true
+    "notes": "Authentic Neapolitan-style pizzas and traditional Italian pasta dishes, crafted with love and fresh ingredients.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Ore House Hilltop Tavern",
@@ -15128,7 +19638,8 @@ export const restaurants: Restaurant[] = [
     "distance": 27.7,
     "price": "$$",
     "notes": "Local favorite in Eastside & Vail serving classic bar, pub & brewery options.",
-    "isLocal": true
+    "isLocal": true,
+    "enriched": false
   },
   {
     "name": "La Casita Cafe",
@@ -15136,8 +19647,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Eastside & Vail",
     "distance": 30.5,
     "price": "$",
-    "notes": "A great spot to enjoy delicious coffee & cafe in the Eastside & Vail area.",
-    "isLocal": true
+    "notes": "Charming cafe serving Mexican-inspired breakfast and lunch, alongside great coffee and pastries.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "Mel's Drive-In",
@@ -15145,8 +19657,9 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Eastside & Vail",
     "distance": 30.5,
     "price": "$",
-    "notes": "Local favorite in Eastside & Vail serving classic fast food & sandwiches options.",
-    "isLocal": true
+    "notes": "Classic drive-in experience with burgers, fries, shakes, and old-fashioned American comfort food.",
+    "isLocal": true,
+    "enriched": true
   },
   {
     "name": "San Pedro Valley Pizza",
@@ -15154,7 +19667,8 @@ export const restaurants: Restaurant[] = [
     "neighborhood": "Eastside & Vail",
     "distance": 30.6,
     "price": "$$",
-    "notes": "Popular neighborhood destination featuring fresh italian & pizza specialties.",
-    "isLocal": true
+    "notes": "Local pizzeria crafting delicious, traditional pizzas with fresh ingredients, perfect for a casual night.",
+    "isLocal": true,
+    "enriched": true
   }
 ];

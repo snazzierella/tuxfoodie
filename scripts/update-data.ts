@@ -213,14 +213,36 @@ function findDuplicate(scrapedName: string, scrapedDistance: number, list: Resta
   return undefined;
 }
 
+const sleep = (ms: number) => new Promise(resolve => setTimeout(resolve, ms));
+
 async function enrichWithGemini(apiKey: string, newRestaurants: any[]) {
   const ai = new GoogleGenAI({ apiKey });
   
   const results: any[] = [];
   const batchSize = 30;
+  let consecutiveRateLimits = 0;
+  let aborted = false;
   
   for (let i = 0; i < newRestaurants.length; i += batchSize) {
     const batch = newRestaurants.slice(i, i + batchSize);
+    
+    if (aborted) {
+      console.log(`Aborted. Skipping batch ${i / batchSize + 1} of ${Math.ceil(newRestaurants.length / batchSize)}...`);
+      for (const item of batch) {
+        results.push({
+          name: item.name,
+          cuisine: item.cuisine,
+          neighborhood: item.neighborhood,
+          distance: item.distance,
+          price: item.price,
+          notes: getFallbackNote(item.name, item.cuisine, item.neighborhood),
+          isLocal: item.isLocal,
+          enriched: false
+        });
+      }
+      continue;
+    }
+
     console.log(`Enriching batch ${i / batchSize + 1} of ${Math.ceil(newRestaurants.length / batchSize)} (size: ${batch.length})...`);
     
     const prompt = `You are a native Tucson food critic. Review the following restaurants and produce a JSON array. 
@@ -256,48 +278,97 @@ Return ONLY a JSON array in the schema:
   }
 ]`;
 
-    try {
-      const response = await ai.models.generateContent({
-        model: 'gemini-2.5-flash',
-        contents: prompt,
-        config: {
-          responseMimeType: 'application/json',
-          responseSchema: {
-            type: 'ARRAY',
-            items: {
-              type: 'OBJECT',
-              properties: {
-                id: { type: 'INTEGER' },
-                notes: { type: 'STRING' },
-                price: { type: 'STRING' },
-                cuisine: { type: 'STRING' }
-              },
-              required: ['id', 'notes', 'price', 'cuisine']
+    let response = null;
+    let attempts = 0;
+    const maxAttempts = 6;
+    let success = false;
+
+    while (attempts < maxAttempts && !success) {
+      attempts++;
+      try {
+        response = await ai.models.generateContent({
+          model: 'gemini-2.5-flash',
+          contents: prompt,
+          config: {
+            responseMimeType: 'application/json',
+            responseSchema: {
+              type: 'ARRAY',
+              items: {
+                type: 'OBJECT',
+                properties: {
+                  id: { type: 'INTEGER' },
+                  notes: { type: 'STRING' },
+                  price: { type: 'STRING' },
+                  cuisine: { type: 'STRING' }
+                },
+                required: ['id', 'notes', 'price', 'cuisine']
+              }
             }
           }
-        }
-      });
-
-      const responseText = response.text || '[]';
-      const enrichedBatch = JSON.parse(responseText);
-      
-      for (const item of enrichedBatch) {
-        const original = batch[item.id];
-        if (original) {
-          results.push({
-            name: original.name,
-            cuisine: item.cuisine,
-            neighborhood: original.neighborhood,
-            distance: original.distance,
-            price: item.price,
-            notes: item.notes,
-            isLocal: original.isLocal
-          });
+        });
+        success = true;
+        consecutiveRateLimits = 0; // Reset on successful response
+      } catch (err: any) {
+        const isRateLimit = err.status === 429 || 
+                            (err.message && err.message.includes('429')) || 
+                            (err.message && err.message.toLowerCase().includes('quota exceeded')) ||
+                            (err.message && err.message.toLowerCase().includes('rate limit'));
+                            
+        if (isRateLimit) {
+          consecutiveRateLimits++;
+          if (consecutiveRateLimits >= 3) {
+            console.warn(`Hit consecutive rate limits ${consecutiveRateLimits} times. Aborting Gemini requests to save daily quota.`);
+            aborted = true;
+            break;
+          }
+          
+          if (attempts < maxAttempts) {
+            // Parse retry delay from error if present (usually around 30-40 seconds)
+            let delayMs = Math.pow(2, attempts) * 2000 + Math.random() * 1000;
+            if (err.message && err.message.includes('retry in')) {
+              const match = err.message.match(/retry in ([\d\.]+)s/);
+              if (match && match[1]) {
+                delayMs = (parseFloat(match[1]) + 2) * 1000;
+              }
+            }
+            console.warn(`Rate limit hit (429). Retrying in ${(delayMs / 1000).toFixed(1)} seconds... (Attempt ${attempts}/${maxAttempts})`);
+            await sleep(delayMs);
+          }
+        } else {
+          console.error(`Gemini API call failed for batch (Attempt ${attempts}/${maxAttempts}):`, err.message || err);
+          break;
         }
       }
-    } catch (err) {
-      console.error("Gemini API call failed, falling back to local defaults for this batch:", err);
-      // Fallback for failed batch
+    }
+
+    if (success && response) {
+      try {
+        const responseText = response.text || '[]';
+        const enrichedBatch = JSON.parse(responseText);
+        
+        for (const item of enrichedBatch) {
+          const original = batch[item.id];
+          if (original) {
+            results.push({
+              name: original.name,
+              cuisine: item.cuisine,
+              neighborhood: original.neighborhood,
+              distance: original.distance,
+              price: item.price,
+              notes: item.notes,
+              isLocal: original.isLocal,
+              enriched: true
+            });
+          }
+        }
+      } catch (jsonErr) {
+        console.error("Failed to parse Gemini JSON response for batch:", jsonErr);
+        success = false;
+      }
+    }
+
+    if (!success) {
+      console.log(`Using fallback heuristics for batch ${i / batchSize + 1}...`);
       for (const item of batch) {
         results.push({
           name: item.name,
@@ -306,13 +377,28 @@ Return ONLY a JSON array in the schema:
           distance: item.distance,
           price: item.price,
           notes: getFallbackNote(item.name, item.cuisine, item.neighborhood),
-          isLocal: item.isLocal
+          isLocal: item.isLocal,
+          enriched: false
         });
       }
+    }
+
+    // Add a small 2-second delay between successful batches to respect Rate Limits
+    if (i + batchSize < newRestaurants.length && success) {
+      await sleep(2000);
     }
   }
 
   return results;
+}
+
+function isFallbackNote(note: string, cuisine: string, neighborhood: string): boolean {
+  const lowerNote = note.toLowerCase();
+  return (
+    (lowerNote.includes('local favorite in') && lowerNote.includes('serving classic')) ||
+    (lowerNote.includes('a great spot to enjoy delicious') && lowerNote.includes('area')) ||
+    (lowerNote.includes('popular neighborhood destination featuring') && lowerNote.includes('specialties'))
+  );
 }
 
 async function main() {
@@ -320,7 +406,16 @@ async function main() {
     const rawElements = await fetchFromOverpass();
     console.log(`Fetched ${rawElements.length} elements from OpenStreetMap.`);
 
-    // 1. Map to raw restaurants and deduplicate against raw scraped elements
+    // 1. Normalize existing database, evaluating their 'enriched' status
+    const existingList: Restaurant[] = existingRestaurants.map(r => {
+      const isEnriched = r.enriched === true && !isFallbackNote(r.notes, r.cuisine, r.neighborhood);
+      return {
+        ...r,
+        enriched: isEnriched
+      };
+    });
+
+    // 2. Map to raw restaurants and deduplicate against raw scraped elements
     const scrapedList: any[] = [];
     for (const el of rawElements) {
       const name = el.tags?.name;
@@ -367,53 +462,105 @@ async function main() {
     
     console.log(`After internal OSM deduplication: ${uniqueScraped.length} unique restaurants.`);
 
-    // 2. Separate into "already existing" and "new" by comparing with data.ts
-    const finalRestaurants: Restaurant[] = [...existingRestaurants];
-    const newToProcess: any[] = [];
+    // 3. Compare scraped list against existing database to identify new and unenriched restaurants
+    const updatedDatabase: Restaurant[] = [];
+    const toEnrichMap = new Map<string, any>();
 
     for (const item of uniqueScraped) {
-      const dup = findDuplicate(item.name, item.distance, existingRestaurants);
-      if (!dup) {
-        newToProcess.push(item);
+      const dup = findDuplicate(item.name, item.distance, existingList);
+      const key = `${normalizeName(item.name)}-${item.distance.toFixed(1)}`;
+      
+      if (dup) {
+        // If it already exists, make sure we keep it, but queue it for enrichment if it's not yet enriched
+        if (!dup.enriched) {
+          toEnrichMap.set(key, {
+            name: dup.name,
+            cuisine: dup.cuisine,
+            neighborhood: dup.neighborhood,
+            distance: dup.distance,
+            price: dup.price,
+            isLocal: dup.isLocal
+          });
+        }
+      } else {
+        // Brand new restaurant! Add to database with fallback notes and queue for enrichment
+        const newEntry: Restaurant = {
+          name: item.name,
+          cuisine: item.cuisine,
+          neighborhood: item.neighborhood,
+          distance: item.distance,
+          price: item.price,
+          notes: getFallbackNote(item.name, item.cuisine, item.neighborhood),
+          isLocal: item.isLocal,
+          enriched: false
+        };
+        updatedDatabase.push(newEntry);
+        
+        toEnrichMap.set(key, {
+          name: item.name,
+          cuisine: item.cuisine,
+          neighborhood: item.neighborhood,
+          distance: item.distance,
+          price: item.price,
+          isLocal: item.isLocal
+        });
       }
     }
 
-    console.log(`Found ${newToProcess.length} new restaurants to add.`);
-
-    // Apply limit if specified
-    let newToEnrich = newToProcess;
-    if (limit !== undefined) {
-      console.log(`CLI --limit set: Only processing the first ${limit} new restaurants.`);
-      newToEnrich = newToProcess.slice(0, limit);
+    // Copy over all existing database items that weren't already added
+    for (const r of existingList) {
+      const key = `${normalizeName(r.name)}-${r.distance.toFixed(1)}`;
+      const alreadyInDB = updatedDatabase.some(u => `${normalizeName(u.name)}-${u.distance.toFixed(1)}` === key);
+      if (!alreadyInDB) {
+        updatedDatabase.push(r);
+      }
     }
 
-    // 3. Enrich the new items
+    const toEnrichList = Array.from(toEnrichMap.values());
+    console.log(`Total unenriched/new restaurants in database: ${toEnrichList.length}`);
+
+    // Capping at 18 calls (safety margin below 20 requests/day limit)
     const apiKey = process.env.GEMINI_API_KEY;
-    let enrichedNew: Restaurant[] = [];
+    const MAX_GEMINI_CALLS = 18;
+    const batchSize = 30;
+    const maxToEnrich = MAX_GEMINI_CALLS * batchSize; // 540 restaurants
 
-    if (apiKey && apiKey !== 'MY_GEMINI_API_KEY') {
-      console.log(`Gemini API Key found. Initiating AI enrichment...`);
-      enrichedNew = await enrichWithGemini(apiKey, newToEnrich);
+    let toProcess = toEnrichList;
+    if (limit !== undefined) {
+      console.log(`CLI --limit set: Only processing the first ${limit} unenriched restaurants.`);
+      toProcess = toEnrichList.slice(0, limit);
     } else {
-      console.log(`No Gemini API Key found (or template placeholder). Using local heuristics...`);
-      enrichedNew = newToEnrich.map(item => ({
-        name: item.name,
-        cuisine: item.cuisine,
-        neighborhood: item.neighborhood,
-        distance: item.distance,
-        price: item.price,
-        notes: getFallbackNote(item.name, item.cuisine, item.neighborhood),
-        isLocal: item.isLocal
-      }));
+      console.log(`Daily enrichment limit: Processing first ${Math.min(toProcess.length, maxToEnrich)} of ${toProcess.length} unenriched restaurants.`);
+      toProcess = toEnrichList.slice(0, maxToEnrich);
     }
 
-    // Add enriched items to final list
-    finalRestaurants.push(...enrichedNew);
+    let enrichedResults: Restaurant[] = [];
+
+    if (apiKey && apiKey !== 'MY_GEMINI_API_KEY' && toProcess.length > 0) {
+      console.log(`Gemini API Key found. Initiating AI enrichment...`);
+      enrichedResults = await enrichWithGemini(apiKey, toProcess);
+    } else if (toProcess.length > 0) {
+      console.log(`No Gemini API Key found (or template placeholder). Leaving fallback descriptions...`);
+    }
+
+    // Merge enriched results back into the updated database
+    for (const enriched of enrichedResults) {
+      const key = `${normalizeName(enriched.name)}-${enriched.distance.toFixed(1)}`;
+      const dbEntry = updatedDatabase.find(u => `${normalizeName(u.name)}-${u.distance.toFixed(1)}` === key);
+      if (dbEntry) {
+        dbEntry.notes = enriched.notes;
+        dbEntry.price = enriched.price;
+        dbEntry.cuisine = enriched.cuisine;
+        dbEntry.enriched = enriched.enriched;
+      }
+    }
 
     // Sort final list by distance (ascending) to keep data.ts organized
-    finalRestaurants.sort((a, b) => a.distance - b.distance);
+    updatedDatabase.sort((a, b) => a.distance - b.distance);
 
-    console.log(`Total restaurants in final database: ${finalRestaurants.length}`);
+    console.log(`Total restaurants in final database: ${updatedDatabase.length}`);
+    const totalEnriched = updatedDatabase.filter(r => r.enriched).length;
+    console.log(`Progress: ${totalEnriched} / ${updatedDatabase.length} restaurants are fully enriched with Gemini descriptions (${(totalEnriched / updatedDatabase.length * 100).toFixed(1)}%).`);
 
     // 4. Write output back to src/data.ts safely using temporary file
     const dataFilePath = path.join(process.cwd(), 'src/data.ts');
@@ -421,7 +568,7 @@ async function main() {
 
     const fileContent = `import { Restaurant } from './types';
 
-export const restaurants: Restaurant[] = ${JSON.stringify(finalRestaurants, null, 2)};
+export const restaurants: Restaurant[] = ${JSON.stringify(updatedDatabase, null, 2)};
 `;
 
     fs.writeFileSync(tempFilePath, fileContent, 'utf-8');
