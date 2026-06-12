@@ -468,22 +468,9 @@ async function main() {
 
     for (const item of uniqueScraped) {
       const dup = findDuplicate(item.name, item.distance, existingList);
-      const key = `${normalizeName(item.name)}-${item.distance.toFixed(1)}`;
       
-      if (dup) {
-        // If it already exists, make sure we keep it, but queue it for enrichment if it's not yet enriched
-        if (!dup.enriched) {
-          toEnrichMap.set(key, {
-            name: dup.name,
-            cuisine: dup.cuisine,
-            neighborhood: dup.neighborhood,
-            distance: dup.distance,
-            price: dup.price,
-            isLocal: dup.isLocal
-          });
-        }
-      } else {
-        // Brand new restaurant! Add to database with fallback notes and queue for enrichment
+      if (!dup) {
+        // Brand new restaurant! Add to database with fallback notes
         const newEntry: Restaurant = {
           name: item.name,
           cuisine: item.cuisine,
@@ -495,15 +482,6 @@ async function main() {
           enriched: false
         };
         updatedDatabase.push(newEntry);
-        
-        toEnrichMap.set(key, {
-          name: item.name,
-          cuisine: item.cuisine,
-          neighborhood: item.neighborhood,
-          distance: item.distance,
-          price: item.price,
-          isLocal: item.isLocal
-        });
       }
     }
 
@@ -513,6 +491,21 @@ async function main() {
       const alreadyInDB = updatedDatabase.some(u => `${normalizeName(u.name)}-${u.distance.toFixed(1)}` === key);
       if (!alreadyInDB) {
         updatedDatabase.push(r);
+      }
+    }
+
+    // Populate toEnrichMap from updatedDatabase (ensuring all unenriched items are queued)
+    for (const r of updatedDatabase) {
+      if (!r.enriched) {
+        const key = `${normalizeName(r.name)}-${r.distance.toFixed(1)}`;
+        toEnrichMap.set(key, {
+          name: r.name,
+          cuisine: r.cuisine,
+          neighborhood: r.neighborhood,
+          distance: r.distance,
+          price: r.price,
+          isLocal: r.isLocal
+        });
       }
     }
 

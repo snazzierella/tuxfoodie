@@ -19,6 +19,7 @@ import {
   AlertTriangle,
   ArrowUpDown,
   Sparkles,
+  ChevronDown,
   Sunrise,
   Moon,
   Sun,
@@ -57,7 +58,7 @@ const ACHIEVEMENTS = [
 ];
 
 // --- Helpers ---
-const getRestaurantId = (r: Restaurant) => `${r.name}-${r.neighborhood}`;
+const getRestaurantId = (r: Restaurant) => `${r.name}-${r.neighborhood}-${r.distance}`;
 const getGoogleSearchUrl = (r: Restaurant) => `https://www.google.com/search?q=${encodeURIComponent(`${r.name} restaurant Tucson ${r.neighborhood}`)}`;
 const getPriceValue = (price: string) => price.length;
 
@@ -125,7 +126,6 @@ const RestaurantCard: FC<RestaurantCardProps> = ({
 }) => {
   return (
     <motion.div 
-      layout
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       exit={{ opacity: 0, scale: 0.95 }}
@@ -411,6 +411,8 @@ export default function App() {
   });
 
   const [search, setSearch] = useState('');
+  const [visibleCount, setVisibleCount] = useState(30);
+
   const [selectedNeighborhood, setSelectedNeighborhood] = useState('All');
   const [selectedCuisine, setSelectedCuisine] = useState('All');
   const [selectedPrice, setSelectedPrice] = useState('All');
@@ -435,6 +437,21 @@ export default function App() {
     }
     return false;
   });
+
+  // Reset visible count when search query or filters change
+  useEffect(() => {
+    setVisibleCount(30);
+  }, [
+    search,
+    selectedNeighborhood,
+    selectedCuisine,
+    selectedPrice,
+    maxDistance,
+    visitedFilter,
+    favoritesOnly,
+    sortBy,
+    localFilter
+  ]);
 
   const stats = useMemo(() => {
     const total = restaurants.length;
@@ -509,7 +526,9 @@ export default function App() {
     return restaurants.filter(r => {
       const id = getRestaurantId(r);
       const matchesSearch = r.name.toLowerCase().includes(search.toLowerCase()) || 
-                          r.notes.toLowerCase().includes(search.toLowerCase());
+                          (r.notes || '').toLowerCase().includes(search.toLowerCase()) ||
+                          r.cuisine.toLowerCase().includes(search.toLowerCase()) ||
+                          r.neighborhood.toLowerCase().includes(search.toLowerCase());
       const matchesNeighborhood = selectedNeighborhood === 'All' || r.neighborhood === selectedNeighborhood;
       const matchesCuisine = selectedCuisine === 'All' || r.cuisine === selectedCuisine;
       const matchesPrice = selectedPrice === 'All' || r.price === selectedPrice;
@@ -689,7 +708,7 @@ export default function App() {
               return (
                 <div 
                   key={achievement.id}
-                  className={`relative group flex flex-col items-center transition-all duration-500 cursor-default ${isUnlocked ? 'opacity-100 scale-100' : 'opacity-30 scale-90 grayscale'}`}
+                  className={`relative group flex flex-col items-center transition-all duration-500 cursor-default ${isUnlocked ? 'opacity-100 scale-100' : 'opacity-30 scale-90'}`}
                 >
                   <div className={`text-xl mb-1 transition-transform ${isUnlocked ? 'group-hover:scale-125 group-hover:rotate-12' : ''}`}>
                     {achievement.icon}
@@ -892,19 +911,39 @@ export default function App() {
               <p className="text-slate-400 text-sm mt-2">Try adjusting your filters to find more treats.</p>
             </div>
           ) : (
-            filteredRestaurants.map(r => (
-              <RestaurantCard 
-                key={getRestaurantId(r)} 
-                restaurant={r} 
-                isVisited={visited.has(getRestaurantId(r))}
-                isFavorite={favorites.has(getRestaurantId(r))}
-                isNotInterested={notInterested.has(getRestaurantId(r))}
-                isDarkMode={isDarkMode}
-                onToggleVisited={toggleVisited}
-                onToggleFavorite={toggleFavorite}
-                onToggleNotInterested={toggleNotInterested}
-              />
-            ))
+            <>
+              {filteredRestaurants.slice(0, visibleCount).map(r => (
+                <RestaurantCard 
+                  key={getRestaurantId(r)} 
+                  restaurant={r} 
+                  isVisited={visited.has(getRestaurantId(r))}
+                  isFavorite={favorites.has(getRestaurantId(r))}
+                  isNotInterested={notInterested.has(getRestaurantId(r))}
+                  isDarkMode={isDarkMode}
+                  onToggleVisited={toggleVisited}
+                  onToggleFavorite={toggleFavorite}
+                  onToggleNotInterested={toggleNotInterested}
+                />
+              ))}
+              
+              {filteredRestaurants.length > visibleCount && (
+                <div className="flex justify-center pt-4 pb-8">
+                  <motion.button
+                    whileHover={{ scale: 1.05 }}
+                    whileTap={{ scale: 0.95 }}
+                    onClick={() => setVisibleCount(prev => prev + 30)}
+                    className={`px-8 py-3.5 rounded-full font-bold shadow-md transition-all border-2 flex items-center gap-2 ${
+                      isDarkMode 
+                        ? 'bg-slate-800 border-slate-700 text-rose-400 hover:text-rose-300 shadow-slate-950 hover:border-rose-500/50' 
+                        : 'bg-white border-rose-100 text-rose-500 hover:text-rose-600 shadow-rose-50 hover:border-rose-200'
+                    }`}
+                  >
+                    <ChevronDown className="w-5 h-5" />
+                    Load More Yummy Spots ({filteredRestaurants.length - visibleCount} remaining)
+                  </motion.button>
+                </div>
+              )}
+            </>
           )}
         </div>
       </main>
