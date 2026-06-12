@@ -11032,6 +11032,16 @@ export const restaurants: Restaurant[] = [
     "enriched": true
   },
   {
+    "name": "Wok & Roll",
+    "cuisine": "Asian & Sushi",
+    "neighborhood": "Northwest & Marana",
+    "distance": 9.8,
+    "price": "$$",
+    "notes": "Popular all-you-can-eat buffet featuring fresh sushi, classic Chinese entrees, and seafood specialties.",
+    "isLocal": true,
+    "enriched": true
+  },
+  {
     "name": "Denny's (OV)",
     "cuisine": "Breakfast & Diner",
     "neighborhood": "Northside & Foothills",
