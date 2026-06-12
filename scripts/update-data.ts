@@ -198,15 +198,19 @@ async function fetchFromOverpass() {
 
 function findDuplicate(scrapedName: string, scrapedDistance: number, list: Restaurant[]): Restaurant | undefined {
   const normScraped = normalizeName(scrapedName);
+  const isChain = checkIfChain(scrapedName);
   for (const existing of list) {
     const normExisting = normalizeName(existing.name);
     // If names are highly similar
-    const nameMatches = normScraped.includes(normExisting) || normExisting.includes(normScraped);
+    const nameMatches = normScraped === normExisting || normScraped.includes(normExisting) || normExisting.includes(normScraped);
     if (nameMatches) {
-      // Check if distance projection is close (within 0.15 miles)
       const distDiff = Math.abs(scrapedDistance - existing.distance);
-      if (distDiff < 0.15) {
-        return existing;
+      // For national chains, keep separate if they are more than 0.25 miles apart (separate branches)
+      // For local restaurants, merge if they are within 1.5 miles and in the same neighborhood
+      if (isChain) {
+        if (distDiff < 0.25) return existing;
+      } else {
+        if (distDiff <= 1.5) return existing;
       }
     }
   }
