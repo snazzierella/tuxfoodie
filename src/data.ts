@@ -463,13 +463,13 @@ export const restaurants: Restaurant[] = [
     "isLocal": true,
     "enriched": true,
     "hours": {
-      "Monday": "7:00 AM - 7:00 PM",
-      "Tuesday": "7:00 AM - 7:00 PM",
-      "Wednesday": "7:00 AM - 7:00 PM",
-      "Thursday": "7:00 AM - 7:00 PM",
-      "Friday": "7:00 AM - 7:00 PM",
-      "Saturday": "7:00 AM - 7:00 PM",
-      "Sunday": "7:00 AM - 7:00 PM"
+      "Monday": "8:00 AM - 6:00 PM",
+      "Tuesday": "8:00 AM - 12:00 AM",
+      "Wednesday": "8:00 AM - 12:00 AM",
+      "Thursday": "8:00 AM - 12:00 AM",
+      "Friday": "8:00 AM - 12:00 AM",
+      "Saturday": "8:00 AM - 12:00 AM",
+      "Sunday": "8:00 AM - 12:00 AM"
     }
   },
   {
@@ -2506,25 +2506,6 @@ export const restaurants: Restaurant[] = [
     }
   },
   {
-    "name": "Flora's Market Run",
-    "cuisine": "American & Comfort",
-    "neighborhood": "Central & Midtown",
-    "distance": 2,
-    "price": "$$",
-    "notes": "Neighborhood market and restaurant; serves wood-fired pizzas, hearty sandwiches, and fresh brunch plates.",
-    "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "7:00 AM - 7:00 PM",
-      "Tuesday": "7:00 AM - 7:00 PM",
-      "Wednesday": "7:00 AM - 7:00 PM",
-      "Thursday": "7:00 AM - 7:00 PM",
-      "Friday": "7:00 AM - 7:00 PM",
-      "Saturday": "7:00 AM - 7:00 PM",
-      "Sunday": "7:00 AM - 7:00 PM"
-    }
-  },
-  {
     "name": "Woops!",
     "cuisine": "Dessert & Bakery",
     "neighborhood": "Central & University",
@@ -2838,13 +2819,13 @@ export const restaurants: Restaurant[] = [
     "isLocal": true,
     "enriched": true,
     "hours": {
-      "Monday": "6:00 AM - 12:00 AM",
-      "Tuesday": "6:00 AM - 12:00 AM",
-      "Wednesday": "6:00 AM - 12:00 AM",
-      "Thursday": "6:00 AM - 12:00 AM",
-      "Friday": "6:00 AM - 12:00 AM",
-      "Saturday": "6:00 AM - 12:00 AM",
-      "Sunday": "6:00 AM - 12:00 AM"
+      "Monday": "8:30 AM - 12:30 AM",
+      "Tuesday": "8:30 AM - 12:30 AM",
+      "Wednesday": "8:30 AM - 1:30 AM",
+      "Thursday": "8:30 AM - 1:30 AM",
+      "Friday": "8:30 AM - 1:30 AM",
+      "Saturday": "10:00 AM - 1:30 AM",
+      "Sunday": "9:00 AM - 12:30 AM"
     }
   },
   {
@@ -3237,13 +3218,13 @@ export const restaurants: Restaurant[] = [
     "isLocal": true,
     "enriched": true,
     "hours": {
-      "Monday": "6:00 AM - 2:00 PM",
-      "Tuesday": "6:00 AM - 2:00 PM",
-      "Wednesday": "6:00 AM - 2:00 PM",
-      "Thursday": "6:00 AM - 2:00 PM",
-      "Friday": "6:00 AM - 2:00 PM",
-      "Saturday": "6:00 AM - 2:00 PM",
-      "Sunday": "6:00 AM - 2:00 PM"
+      "Monday": "7:00 AM - 1:00 PM",
+      "Tuesday": "7:00 AM - 1:00 PM",
+      "Wednesday": "7:00 AM - 1:00 PM",
+      "Thursday": "7:00 AM - 1:00 PM",
+      "Friday": "7:00 AM - 1:00 PM",
+      "Saturday": "7:00 AM - 1:00 PM",
+      "Sunday": "7:00 AM - 1:00 PM"
     }
   },
   {
@@ -4547,25 +4528,6 @@ export const restaurants: Restaurant[] = [
       "Friday": "10:30 AM - 10:00 PM",
       "Saturday": "10:30 AM - 10:00 PM",
       "Sunday": "10:30 AM - 10:00 PM"
-    }
-  },
-  {
-    "name": "Hatch",
-    "cuisine": "Coffee & Cafe",
-    "neighborhood": "Urban Core",
-    "distance": 2.8,
-    "price": "$",
-    "notes": "Trendy cafe serving artisanal coffee, creative breakfast burritos, and vibrant morning ambiance.",
-    "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "6:30 AM - 3:00 PM",
-      "Tuesday": "6:30 AM - 3:00 PM",
-      "Wednesday": "6:30 AM - 3:00 PM",
-      "Thursday": "6:30 AM - 3:00 PM",
-      "Friday": "6:30 AM - 3:00 PM",
-      "Saturday": "7:00 AM - 2:00 PM",
-      "Sunday": "Closed"
     }
   },
   {
