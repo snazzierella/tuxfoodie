@@ -13,6 +13,7 @@ import {
   Trophy,
   X,
   Heart,
+  Clock,
   EyeOff,
   Eye,
   Trash2,
@@ -61,6 +62,83 @@ const ACHIEVEMENTS = [
 const getRestaurantId = (r: Restaurant) => `${r.name}-${r.neighborhood}-${r.distance}`;
 const getGoogleSearchUrl = (r: Restaurant) => `https://www.google.com/search?q=${encodeURIComponent(`${r.name} restaurant Tucson ${r.neighborhood}`)}`;
 const getPriceValue = (price: string) => price.length;
+
+const parseTimeToMinutes = (timeStr: string): number => {
+  const match = timeStr.trim().match(/^(\d+)(?::(\d+))?\s*(AM|PM)$/i);
+  if (!match) return 0;
+  let hoursVal = parseInt(match[1], 10);
+  const minutesVal = match[2] ? parseInt(match[2], 10) : 0;
+  const ampm = match[3].toUpperCase();
+  
+  if (ampm === 'PM' && hoursVal < 12) {
+    hoursVal += 12;
+  } else if (ampm === 'AM' && hoursVal === 12) {
+    hoursVal = 0;
+  }
+  return hoursVal * 60 + minutesVal;
+};
+
+const isOpenNow = (hours: { [day: string]: string }): boolean => {
+  if (!hours) return false;
+  
+  const now = new Date();
+  const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+  const todayIdx = now.getDay();
+  const currentDay = days[todayIdx];
+  const currentHoursStr = hours[currentDay];
+  
+  const currentMinutes = now.getHours() * 60 + now.getMinutes();
+  
+  // 1. Check today's hours
+  if (currentHoursStr && currentHoursStr !== 'Closed') {
+    if (currentHoursStr.toLowerCase() === '24 hours') {
+      return true;
+    }
+    const ranges = currentHoursStr.split(',');
+    for (const range of ranges) {
+      const parts = range.split('-');
+      if (parts.length !== 2) continue;
+      const startMins = parseTimeToMinutes(parts[0]);
+      const endMins = parseTimeToMinutes(parts[1]);
+      
+      if (endMins < startMins) {
+        if (currentMinutes >= startMins || currentMinutes <= endMins) {
+          return true;
+        }
+      } else {
+        if (currentMinutes >= startMins && currentMinutes <= endMins) {
+          return true;
+        }
+      }
+    }
+  }
+  
+  // 2. Check yesterday's hours for cross-midnight coverage
+  const yesterdayIdx = (todayIdx - 1 + 7) % 7;
+  const yesterdayDay = days[yesterdayIdx];
+  const yesterdayHoursStr = hours[yesterdayDay];
+  
+  if (yesterdayHoursStr && yesterdayHoursStr !== 'Closed') {
+    if (yesterdayHoursStr.toLowerCase() === '24 hours') {
+      return true;
+    }
+    const ranges = yesterdayHoursStr.split(',');
+    for (const range of ranges) {
+      const parts = range.split('-');
+      if (parts.length !== 2) continue;
+      const startMins = parseTimeToMinutes(parts[0]);
+      const endMins = parseTimeToMinutes(parts[1]);
+      
+      if (endMins < startMins) {
+        if (currentMinutes <= endMins) {
+          return true;
+        }
+      }
+    }
+  }
+  
+  return false;
+};
 
 const getCuisineIcon = (cuisine: string) => {
   if (cuisine.includes('Dessert') || cuisine.includes('Bakery')) return <IceCream className="w-3.5 h-3.5" />;
@@ -199,6 +277,42 @@ const RestaurantCard: FC<RestaurantCardProps> = ({
             <span className={`flex items-center gap-1 px-3 py-1 rounded-full border ${getPriceColor(restaurant.price || '', isDarkMode)}`}>
               {restaurant.price || 'N/A'}
             </span>
+          </div>
+          
+          {/* Operating Hours indicator */}
+          <div className={`mt-3 flex flex-wrap items-center gap-2 text-xs font-semibold ${isNotInterested ? 'opacity-50' : ''}`}>
+            {restaurant.hours ? (() => {
+              const open = isOpenNow(restaurant.hours);
+              const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+              const todayHours = restaurant.hours[days[new Date().getDay()]];
+              return (
+                <>
+                  <span className={`flex items-center gap-1.5 px-2.5 py-1 rounded-full border ${
+                    open 
+                      ? isDarkMode ? 'bg-emerald-950/40 border-emerald-800 text-emerald-400' : 'bg-emerald-50 border-emerald-100 text-emerald-600'
+                      : isDarkMode ? 'bg-rose-950/40 border-rose-800/80 text-rose-400' : 'bg-rose-50 border-rose-100 text-rose-500'
+                  }`}>
+                    <span className={`w-1.5 h-1.5 rounded-full ${open ? 'bg-emerald-400 animate-pulse' : 'bg-rose-400'}`}></span>
+                    {open ? 'Open Now' : 'Closed'}
+                  </span>
+                  {todayHours && (
+                    <span className={`flex items-center gap-1.5 px-2.5 py-1 rounded-full border ${
+                      isDarkMode ? 'bg-slate-900 border-slate-700 text-slate-400' : 'bg-slate-50 border-rose-100 text-slate-500'
+                    }`}>
+                      <Clock className="w-3 h-3 text-rose-300" />
+                      {todayHours}
+                    </span>
+                  )}
+                </>
+              );
+            })() : (
+              <span className={`flex items-center gap-1.5 px-2.5 py-1 rounded-full border ${
+                isDarkMode ? 'bg-slate-900 border-slate-800 text-slate-500' : 'bg-slate-50 border-slate-100 text-slate-400'
+              }`}>
+                <Clock className="w-3 h-3 opacity-50" />
+                Hours coming soon
+              </span>
+            )}
           </div>
           
           {restaurant.notes && (
@@ -419,6 +533,7 @@ export default function App() {
   const [localFilter, setLocalFilter] = useState('All'); // All, Local, National
   const [visitedFilter, setVisitedFilter] = useState('All'); // All, Visited, Not Visited, Hidden
   const [favoritesOnly, setFavoritesOnly] = useState(false);
+  const [openNowOnly, setOpenNowOnly] = useState(false);
   const [sortBy, setSortBy] = useState('distance-asc'); // distance-asc, distance-desc, price-asc, price-desc
   const [maxDistance, setMaxDistance] = useState(30);
   const [showFilters, setShowFilters] = useState(false);
@@ -449,6 +564,7 @@ export default function App() {
     maxDistance,
     visitedFilter,
     favoritesOnly,
+    openNowOnly,
     sortBy,
     localFilter
   ]);
@@ -548,7 +664,12 @@ export default function App() {
       if (localFilter === 'Local') matchesLocal = r.isLocal !== false; // Default to local if undefined
       else if (localFilter === 'National') matchesLocal = r.isLocal === false;
 
-      return matchesSearch && matchesNeighborhood && matchesCuisine && matchesPrice && matchesDistance && matchesVisited && matchesFavorites && matchesLocal;
+      let matchesOpenNow = true;
+      if (openNowOnly) {
+        matchesOpenNow = r.hours ? isOpenNow(r.hours) : false;
+      }
+
+      return matchesSearch && matchesNeighborhood && matchesCuisine && matchesPrice && matchesDistance && matchesVisited && matchesFavorites && matchesLocal && matchesOpenNow;
     }).sort((a, b) => {
       switch (sortBy) {
         case 'distance-desc':
@@ -562,7 +683,7 @@ export default function App() {
           return a.distance - b.distance;
       }
     });
-  }, [search, selectedNeighborhood, selectedCuisine, selectedPrice, maxDistance, visitedFilter, favoritesOnly, sortBy, visited, favorites, notInterested, localFilter]);
+  }, [search, selectedNeighborhood, selectedCuisine, selectedPrice, maxDistance, visitedFilter, favoritesOnly, openNowOnly, sortBy, visited, favorites, notInterested, localFilter]);
 
   // Handlers
   const toggleVisited = (id: string) => {
@@ -832,6 +953,20 @@ export default function App() {
                       Favorites Only
                     </button>
                   </div>
+                  <div className="flex flex-col gap-2">
+                    <label className={`text-xs font-bold uppercase tracking-wider ml-1 ${isDarkMode ? 'text-slate-500' : 'text-rose-300'}`}>Availability</label>
+                    <button
+                      onClick={() => setOpenNowOnly(!openNowOnly)}
+                      className={`flex items-center gap-2 px-5 py-2.5 text-xs font-bold rounded-2xl border-2 transition-all h-[42px] ${
+                        openNowOnly
+                          ? isDarkMode ? 'bg-rose-900/30 border-rose-800 text-rose-400' : 'bg-rose-100 border-rose-200 text-rose-500'
+                          : isDarkMode ? 'bg-slate-900 border-slate-700 text-slate-500 hover:border-rose-800' : 'bg-white border-rose-100 text-slate-400 hover:border-rose-200'
+                      }`}
+                    >
+                      <Clock className="w-4 h-4" />
+                      Open Now Only
+                    </button>
+                  </div>
                 </div>
 
                 {/* Sort & Range */}
@@ -899,6 +1034,18 @@ export default function App() {
             </motion.div>
           )}
         </AnimatePresence>
+
+        {/* Helper message for Open Now Only filter */}
+        {openNowOnly && (
+          <div className={`p-4 mb-5 rounded-2xl flex items-start gap-2 border text-xs font-semibold ${
+            isDarkMode 
+              ? 'bg-amber-950/20 border-amber-900/40 text-amber-300' 
+              : 'bg-amber-50 border-amber-100 text-amber-700'
+          }`}>
+            <AlertTriangle className="w-4 h-4 shrink-0 mt-0.5" />
+            <span>Showing only restaurants that have hours populated and are currently open. Restaurants with hours pending ("Hours coming soon") are excluded from these results.</span>
+          </div>
+        )}
 
         {/* List */}
         <div className="space-y-5">

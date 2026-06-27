@@ -28,6 +28,82 @@ const NATIONAL_CHAINS = new Set([
   'pfchangs', 'panera', 'subway', 'jersey_mikes', 'jerseymikes', 'firehousesubs'
 ]);
 
+const CLOSED_RESTAURANTS = new Set([
+  "house of bards",
+  "brother john's restaurant",
+  "brother john’s beer, bourbon, and bbq",
+  "brother john's beer, bourbon, and bbq",
+  "ermanos bar",
+  "charro vida",
+  "fatboy sandos",
+  "black iris cafe",
+  "claire's cafe",
+  "claire's cafe & art gallery",
+  "the delta",
+  "bentley's breakfast",
+  "café poca cosa",
+  "cafe poca cosa",
+  "el charro café (el con)",
+  "el charro cafe (el con)",
+  "may's counter",
+  "chef alisah's",
+  "tucson tamale",
+  "pasco kitchen and lounge",
+  "welcome diner",
+  "sausage deli",
+  "pastiche modern eatery"
+]);
+
+function getDefaultHours(cuisine: string): { [day: string]: string } {
+  const weekdays = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
+  
+  if (cuisine === "Breakfast & Diner") {
+    return weekdays.reduce((acc, day) => {
+      acc[day] = "6:00 AM - 2:00 PM";
+      return acc;
+    }, {} as any);
+  }
+  
+  if (cuisine === "Coffee & Cafe" || cuisine === "Boba Tea & Beverages" || cuisine === "Dessert & Bakery") {
+    return weekdays.reduce((acc, day) => {
+      acc[day] = "7:00 AM - 6:00 PM";
+      return acc;
+    }, {} as any);
+  }
+  
+  if (cuisine === "Bar, Pub & Brewery") {
+    const hours: { [day: string]: string } = {};
+    weekdays.forEach(day => {
+      if (day === "Friday" || day === "Saturday") {
+        hours[day] = "12:00 PM - 2:00 AM";
+      } else if (day === "Sunday") {
+        hours[day] = "12:00 PM - 10:00 PM";
+      } else {
+        hours[day] = "3:00 PM - 12:00 AM";
+      }
+    });
+    return hours;
+  }
+  
+  if (cuisine === "Fast Food & Sandwiches") {
+    return weekdays.reduce((acc, day) => {
+      acc[day] = "10:00 AM - 10:00 PM";
+      return acc;
+    }, {} as any);
+  }
+  
+  // Standard restaurant hours for other cuisines
+  const hours: { [day: string]: string } = {};
+  weekdays.forEach(day => {
+    if (day === "Friday" || day === "Saturday") {
+      hours[day] = "11:00 AM - 10:00 PM";
+    } else {
+      hours[day] = "11:00 AM - 9:00 PM";
+    }
+  });
+  return hours;
+}
+
 function normalizeName(name: string): string {
   return name
     .toLowerCase()
@@ -268,6 +344,7 @@ For each restaurant:
    - "Healthy, Vegan & Plant-Based"
    - "Seafood"
    - "Coffee & Cafe"
+4. Provide the actual weekly operating hours. If actual hours are not known, make a highly accurate estimate based on its category. Return an hours object containing fields for each day of the week: "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday". Format should be "11:00 AM - 9:00 PM", "Closed", or "24 Hours".
 
 Input:
 ${JSON.stringify(batch.map((r, index) => ({ id: index, name: r.name, cuisineSuggestion: r.cuisine, neighborhood: r.neighborhood })))}
@@ -278,7 +355,16 @@ Return ONLY a JSON array in the schema:
     "id": number,
     "notes": string,
     "price": string,
-    "cuisine": string
+    "cuisine": string,
+    "hours": {
+      "Monday": string,
+      "Tuesday": string,
+      "Wednesday": string,
+      "Thursday": string,
+      "Friday": string,
+      "Saturday": string,
+      "Sunday": string
+    }
   }
 ]`;
 
@@ -303,9 +389,22 @@ Return ONLY a JSON array in the schema:
                   id: { type: 'INTEGER' },
                   notes: { type: 'STRING' },
                   price: { type: 'STRING' },
-                  cuisine: { type: 'STRING' }
+                  cuisine: { type: 'STRING' },
+                  hours: {
+                    type: 'OBJECT',
+                    properties: {
+                      Monday: { type: 'STRING' },
+                      Tuesday: { type: 'STRING' },
+                      Wednesday: { type: 'STRING' },
+                      Thursday: { type: 'STRING' },
+                      Friday: { type: 'STRING' },
+                      Saturday: { type: 'STRING' },
+                      Sunday: { type: 'STRING' }
+                    },
+                    required: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
+                  }
                 },
-                required: ['id', 'notes', 'price', 'cuisine']
+                required: ['id', 'notes', 'price', 'cuisine', 'hours']
               }
             }
           }
@@ -361,7 +460,8 @@ Return ONLY a JSON array in the schema:
               price: item.price,
               notes: item.notes,
               isLocal: original.isLocal,
-              enriched: true
+              enriched: true,
+              hours: item.hours
             });
           }
         }
@@ -382,7 +482,8 @@ Return ONLY a JSON array in the schema:
           price: item.price,
           notes: getFallbackNote(item.name, item.cuisine, item.neighborhood),
           isLocal: item.isLocal,
-          enriched: false
+          enriched: false,
+          hours: getDefaultHours(item.cuisine)
         });
       }
     }
@@ -407,6 +508,9 @@ function isFallbackNote(note: string, cuisine: string, neighborhood: string): bo
 
 async function main() {
   try {
+    const apiKey = process.env.GEMINI_API_KEY;
+    const ai = apiKey ? new GoogleGenAI({ apiKey }) : null;
+
     const rawElements = await fetchFromOverpass();
     console.log(`Fetched ${rawElements.length} elements from OpenStreetMap.`);
 
@@ -424,6 +528,10 @@ async function main() {
     for (const el of rawElements) {
       const name = el.tags?.name;
       if (!name) continue;
+      
+      if (CLOSED_RESTAURANTS.has(name.toLowerCase().trim())) {
+        continue;
+      }
 
       const lat = el.lat !== undefined ? el.lat : el.center?.lat;
       const lon = el.lon !== undefined ? el.lon : el.center?.lon;
@@ -489,11 +597,87 @@ async function main() {
       }
     }
 
-    // Copy over all existing database items that weren't already added
+    // Collect database items that are missing from the fresh OSM scrape
+    const missingFromScrape: Restaurant[] = [];
     for (const r of existingList) {
+      if (r.manuallyAdded) {
+        // Keep manually added ones automatically, no need to check
+        const key = `${normalizeName(r.name)}-${r.distance.toFixed(1)}`;
+        const alreadyInDB = updatedDatabase.some(u => `${normalizeName(u.name)}-${u.distance.toFixed(1)}` === key);
+        if (!alreadyInDB) {
+          updatedDatabase.push(r);
+        }
+      } else {
+        const key = `${normalizeName(r.name)}-${r.distance.toFixed(1)}`;
+        const alreadyInDB = updatedDatabase.some(u => `${normalizeName(u.name)}-${u.distance.toFixed(1)}` === key);
+        if (!alreadyInDB) {
+          missingFromScrape.push(r);
+        }
+      }
+    }
+
+    const closedKeys = new Set<string>();
+    if (apiKey && apiKey !== 'MY_GEMINI_API_KEY' && ai && missingFromScrape.length > 0) {
+      console.log(`Checking status of ${missingFromScrape.length} restaurants missing from OSM scrape...`);
+      // Query Gemini in batches of 30 to see if they are closed.
+      const verifyBatchSize = 30;
+      for (let j = 0; j < missingFromScrape.length; j += verifyBatchSize) {
+        const verifyBatch = missingFromScrape.slice(j, j + verifyBatchSize);
+        try {
+          const verifyPrompt = `You are a local Tucson dining assistant. Review the following restaurants in Tucson, Arizona.
+For each restaurant, determine if it has permanently closed or if it is still open as of 2026.
+Return a JSON array of objects with the exact "id" and a "closed" boolean (true if permanently closed, false if open/active).
+
+Input:
+${JSON.stringify(verifyBatch.map((r, index) => ({ id: index, name: r.name, cuisine: r.cuisine, neighborhood: r.neighborhood, distance: r.distance })))}
+
+Schema:
+[
+  {
+    "id": number,
+    "closed": boolean
+  }
+]`;
+          const verificationResponse = await ai.models.generateContent({
+            model: 'gemini-2.5-flash',
+            contents: verifyPrompt,
+            config: {
+              responseMimeType: 'application/json',
+              responseSchema: {
+                type: 'ARRAY',
+                items: {
+                  type: 'OBJECT',
+                  properties: {
+                    id: { type: 'INTEGER' },
+                    closed: { type: 'BOOLEAN' }
+                  },
+                  required: ['id', 'closed']
+                }
+              }
+            }
+          });
+          const verificationResults = JSON.parse(verificationResponse.text || '[]');
+          for (const item of verificationResults) {
+            const original = verifyBatch[item.id];
+            if (original && item.closed) {
+              const key = `${normalizeName(original.name)}-${original.distance.toFixed(1)}`;
+              closedKeys.add(key);
+              console.log(`Gemini confirmed closed: ${original.name} (${original.neighborhood})`);
+            }
+          }
+        } catch (err: any) {
+          console.error("Failed to verify closure status with Gemini:", err.message || err);
+        }
+      }
+    }
+
+    // Now, push missing items back to updatedDatabase ONLY if they are NOT verified closed
+    for (const r of missingFromScrape) {
       const key = `${normalizeName(r.name)}-${r.distance.toFixed(1)}`;
-      const alreadyInDB = updatedDatabase.some(u => `${normalizeName(u.name)}-${u.distance.toFixed(1)}` === key);
-      if (!alreadyInDB) {
+      if (closedKeys.has(key)) {
+        console.log(`Removing verified permanently closed restaurant: ${r.name}`);
+      } else {
+        // Retain since Gemini didn't confirm closed (or API call failed)
         updatedDatabase.push(r);
       }
     }
@@ -517,7 +701,6 @@ async function main() {
     console.log(`Total unenriched/new restaurants in database: ${toEnrichList.length}`);
 
     // Capping at 18 calls (safety margin below 20 requests/day limit)
-    const apiKey = process.env.GEMINI_API_KEY;
     const MAX_GEMINI_CALLS = 18;
     const batchSize = 30;
     const maxToEnrich = MAX_GEMINI_CALLS * batchSize; // 540 restaurants
@@ -549,6 +732,7 @@ async function main() {
         dbEntry.price = enriched.price;
         dbEntry.cuisine = enriched.cuisine;
         dbEntry.enriched = enriched.enriched;
+        dbEntry.hours = enriched.hours;
       }
     }
 

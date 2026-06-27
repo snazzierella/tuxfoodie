@@ -7,4 +7,6 @@ export interface Restaurant {
   notes: string;
   isLocal?: boolean;
   enriched?: boolean;
+  hours?: { [day: string]: string };
+  manuallyAdded?: boolean;
 }
