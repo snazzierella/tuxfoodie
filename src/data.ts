@@ -309,16 +309,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Classic college-town dive bar with cheap drinks and lively atmosphere.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 2:00 AM",
-      "Tuesday": "11:00 AM - 2:00 AM",
-      "Wednesday": "11:00 AM - 2:00 AM",
-      "Thursday": "11:00 AM - 2:00 AM",
-      "Friday": "11:00 AM - 2:00 AM",
-      "Saturday": "9:00 AM - 2:00 AM",
-      "Sunday": "9:00 AM - 2:00 AM"
-    }
+    "enriched": true
   },
   {
     "name": "Ombre Coffee",
@@ -328,16 +319,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Stylish cafe known for specialty coffee drinks and a cozy, artistic atmosphere perfect for relaxation.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "7:00 AM - 6:00 PM",
-      "Tuesday": "7:00 AM - 6:00 PM",
-      "Wednesday": "7:00 AM - 6:00 PM",
-      "Thursday": "7:00 AM - 6:00 PM",
-      "Friday": "7:00 AM - 6:00 PM",
-      "Saturday": "8:00 AM - 5:00 PM",
-      "Sunday": "8:00 AM - 5:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Locale Italian",
@@ -347,16 +329,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Family-owned; large bocce court and garden patio; serves handmade pastas, wood-fired pizzas, and antipasti.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "Closed",
-      "Tuesday": "5:00 PM - 9:00 PM",
-      "Wednesday": "5:00 PM - 9:00 PM",
-      "Thursday": "5:00 PM - 9:00 PM",
-      "Friday": "5:00 PM - 10:00 PM",
-      "Saturday": "5:00 PM - 10:00 PM",
-      "Sunday": "Closed"
-    }
+    "enriched": true
   },
   {
     "name": "Tito & Pep",
@@ -366,16 +339,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Mesquite-fired modern Sonoran style; Yelp Top 100; features grilled baja striped bass and mayacoba beans.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "Closed",
-      "Tuesday": "5:00 PM - 9:00 PM",
-      "Wednesday": "5:00 PM - 9:00 PM",
-      "Thursday": "5:00 PM - 9:00 PM",
-      "Friday": "5:00 PM - 10:00 PM",
-      "Saturday": "5:00 PM - 10:00 PM",
-      "Sunday": "Closed"
-    }
+    "enriched": true
   },
   {
     "name": "BLVCK Boba Tea",
@@ -385,16 +349,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Modern boba house; signature milk teas, brown sugar boba, fruit-infused teas, and blended ice beverages.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 9:00 PM",
-      "Tuesday": "11:00 AM - 9:00 PM",
-      "Wednesday": "11:00 AM - 9:00 PM",
-      "Thursday": "11:00 AM - 9:00 PM",
-      "Friday": "11:00 AM - 9:00 PM",
-      "Saturday": "11:00 AM - 9:00 PM",
-      "Sunday": "11:00 AM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Panda Express",
@@ -404,16 +359,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Fast-casual spot for Americanized Chinese classics like Orange Chicken. Quick, satisfying flavors.",
     "isLocal": false,
-    "enriched": true,
-    "hours": {
-      "Monday": "10:30 AM - 9:30 PM",
-      "Tuesday": "10:30 AM - 9:30 PM",
-      "Wednesday": "10:30 AM - 9:30 PM",
-      "Thursday": "10:30 AM - 9:30 PM",
-      "Friday": "10:30 AM - 9:30 PM",
-      "Saturday": "10:30 AM - 9:30 PM",
-      "Sunday": "11:00 AM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Rocco's Little Chicago",
@@ -423,16 +369,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Authentic Chicago-style deep dish pizza and Italian-American classics in a lively atmosphere.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 9:00 PM",
-      "Tuesday": "11:00 AM - 9:00 PM",
-      "Wednesday": "11:00 AM - 9:00 PM",
-      "Thursday": "11:00 AM - 9:00 PM",
-      "Friday": "11:00 AM - 10:00 PM",
-      "Saturday": "11:00 AM - 10:00 PM",
-      "Sunday": "11:00 AM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "The Broadway",
@@ -442,16 +379,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Lively pub known for its diverse beer selection, pub grub, and friendly atmosphere.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "10:00 AM - 2:00 AM",
-      "Tuesday": "10:00 AM - 2:00 AM",
-      "Wednesday": "10:00 AM - 2:00 AM",
-      "Thursday": "10:00 AM - 2:00 AM",
-      "Friday": "10:00 AM - 2:00 AM",
-      "Saturday": "10:00 AM - 2:00 AM",
-      "Sunday": "10:00 AM - 2:00 AM"
-    }
+    "enriched": true
   },
   {
     "name": "Black Crown Coffee",
@@ -480,16 +408,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "24/7 drive-thru; famous for loaded breakfast burritos, carne asada fries, and rolled tacos; formerly Nico's.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "Closed",
-      "Tuesday": "11:00 AM - 8:00 PM",
-      "Wednesday": "11:00 AM - 8:00 PM",
-      "Thursday": "11:00 AM - 8:00 PM",
-      "Friday": "11:00 AM - 8:00 PM",
-      "Saturday": "11:00 AM - 8:00 PM",
-      "Sunday": "Closed"
-    }
+    "enriched": true
   },
   {
     "name": "Bashful Bandit BBQ",
@@ -499,16 +418,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Historic bar-turned-BBQ; serves Texas-style dry-rubbed brisket, smoked jackfruit sandwiches, and Crack Pie.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "Closed",
-      "Tuesday": "11:00 AM - 8:00 PM",
-      "Wednesday": "11:00 AM - 8:00 PM",
-      "Thursday": "11:00 AM - 8:00 PM",
-      "Friday": "11:00 AM - 9:00 PM",
-      "Saturday": "11:00 AM - 9:00 PM",
-      "Sunday": "11:00 AM - 8:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Chipotle",
@@ -518,16 +428,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Build-your-own bowls, massive burritos, fresh guacamole, and grilled proteins wrapped in flour tortillas.",
     "isLocal": false,
-    "enriched": true,
-    "hours": {
-      "Monday": "10:45 AM - 10:00 PM",
-      "Tuesday": "10:45 AM - 10:00 PM",
-      "Wednesday": "10:45 AM - 10:00 PM",
-      "Thursday": "10:45 AM - 10:00 PM",
-      "Friday": "10:45 AM - 10:00 PM",
-      "Saturday": "10:45 AM - 10:00 PM",
-      "Sunday": "10:45 AM - 10:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Gee's Garden",
@@ -537,16 +438,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Legacy family-owned; destination for weekend dim sum featuring har gow, siu mai, and baked BBQ pork buns.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 9:00 PM",
-      "Tuesday": "11:00 AM - 9:00 PM",
-      "Wednesday": "11:00 AM - 9:00 PM",
-      "Thursday": "11:00 AM - 9:00 PM",
-      "Friday": "11:00 AM - 9:00 PM",
-      "Saturday": "11:00 AM - 9:00 PM",
-      "Sunday": "11:00 AM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "First Watch (Grant)",
@@ -556,16 +448,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Health-focused; known for Million Dollar Bacon, avocado toast, fresh juices, and elevated egg scrambles.",
     "isLocal": false,
-    "enriched": true,
-    "hours": {
-      "Monday": "7:00 AM - 2:30 PM",
-      "Tuesday": "7:00 AM - 2:30 PM",
-      "Wednesday": "7:00 AM - 2:30 PM",
-      "Thursday": "7:00 AM - 2:30 PM",
-      "Friday": "7:00 AM - 2:30 PM",
-      "Saturday": "7:00 AM - 2:30 PM",
-      "Sunday": "7:00 AM - 2:30 PM"
-    }
+    "enriched": true
   },
   {
     "name": "IHOP (Grant)",
@@ -575,16 +458,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "24-hour service; world-famous buttermilk pancakes, stuffed omelettes, and classic diner burger platters.",
     "isLocal": false,
-    "enriched": true,
-    "hours": {
-      "Monday": "24 Hours",
-      "Tuesday": "24 Hours",
-      "Wednesday": "24 Hours",
-      "Thursday": "24 Hours",
-      "Friday": "24 Hours",
-      "Saturday": "24 Hours",
-      "Sunday": "24 Hours"
-    }
+    "enriched": true
   },
   {
     "name": "Wings and Rice",
@@ -594,16 +468,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Local favorite for crispy chicken wings tossed in signature sauces and hearty hibachi-style fried rice.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 9:00 PM",
-      "Tuesday": "11:00 AM - 9:00 PM",
-      "Wednesday": "11:00 AM - 9:00 PM",
-      "Thursday": "11:00 AM - 9:00 PM",
-      "Friday": "11:00 AM - 9:00 PM",
-      "Saturday": "11:00 AM - 9:00 PM",
-      "Sunday": "12:00 PM - 8:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Trident Grill",
@@ -613,16 +478,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Nautical theme; famous for fresh seafood, fish and chips, clam chowder, and hearty sports bar burgers.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 2:00 AM",
-      "Tuesday": "11:00 AM - 2:00 AM",
-      "Wednesday": "11:00 AM - 2:00 AM",
-      "Thursday": "11:00 AM - 2:00 AM",
-      "Friday": "11:00 AM - 2:00 AM",
-      "Saturday": "9:00 AM - 2:00 AM",
-      "Sunday": "9:00 AM - 2:00 AM"
-    }
+    "enriched": true
   },
   {
     "name": "Main Dining Room",
@@ -632,16 +488,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$$",
     "notes": "Elegant dining experience with seasonal menus, exceptional service, and sophisticated American dishes.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "7:00 AM - 2:00 PM, 5:00 PM - 9:00 PM",
-      "Tuesday": "7:00 AM - 2:00 PM, 5:00 PM - 9:00 PM",
-      "Wednesday": "7:00 AM - 2:00 PM, 5:00 PM - 9:00 PM",
-      "Thursday": "7:00 AM - 2:00 PM, 5:00 PM - 9:00 PM",
-      "Friday": "7:00 AM - 2:00 PM, 5:00 PM - 9:00 PM",
-      "Saturday": "7:00 AM - 2:00 PM, 5:00 PM - 9:00 PM",
-      "Sunday": "7:00 AM - 2:00 PM, 5:00 PM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Audubon Bar & Patio",
@@ -651,16 +498,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Relaxed spot with a charming patio, serving classic American comfort food and refreshing drinks.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "4:00 PM - 10:00 PM",
-      "Tuesday": "4:00 PM - 10:00 PM",
-      "Wednesday": "4:00 PM - 10:00 PM",
-      "Thursday": "4:00 PM - 10:00 PM",
-      "Friday": "4:00 PM - 12:00 AM",
-      "Saturday": "4:00 PM - 12:00 AM",
-      "Sunday": "4:00 PM - 10:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Pizza Hut",
@@ -670,16 +508,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Classic chain for pan pizzas, breadsticks, and wings. Familiar, family-friendly fare.",
     "isLocal": false,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 10:00 PM",
-      "Tuesday": "11:00 AM - 10:00 PM",
-      "Wednesday": "11:00 AM - 10:00 PM",
-      "Thursday": "11:00 AM - 10:00 PM",
-      "Friday": "11:00 AM - 11:00 PM",
-      "Saturday": "11:00 AM - 11:00 PM",
-      "Sunday": "11:00 AM - 10:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "WXYZ Lounge",
@@ -689,16 +518,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Trendy hotel bar offering craft cocktails, light bites, and a chic, relaxed ambiance.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "4:00 PM - 11:00 PM",
-      "Tuesday": "4:00 PM - 11:00 PM",
-      "Wednesday": "4:00 PM - 11:00 PM",
-      "Thursday": "4:00 PM - 11:00 PM",
-      "Friday": "4:00 PM - 12:00 AM",
-      "Saturday": "4:00 PM - 12:00 AM",
-      "Sunday": "4:00 PM - 11:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Aspasia Middle Eastern Restaurant",
@@ -708,16 +528,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Authentic Middle Eastern flavors, serving delicious kebabs, falafel, and hummus.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "Closed",
-      "Tuesday": "11:00 AM - 9:00 PM",
-      "Wednesday": "11:00 AM - 9:00 PM",
-      "Thursday": "11:00 AM - 9:00 PM",
-      "Friday": "11:00 AM - 9:00 PM",
-      "Saturday": "11:00 AM - 9:00 PM",
-      "Sunday": "11:00 AM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Raspados El Chikitin",
@@ -727,16 +538,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Iconic spot for refreshing, vibrant raspados and mangonadas, a Tucson essential.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 9:00 PM",
-      "Tuesday": "11:00 AM - 9:00 PM",
-      "Wednesday": "11:00 AM - 9:00 PM",
-      "Thursday": "11:00 AM - 9:00 PM",
-      "Friday": "11:00 AM - 9:00 PM",
-      "Saturday": "11:00 AM - 9:00 PM",
-      "Sunday": "11:00 AM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Barrio Bread",
@@ -746,16 +548,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "James Beard Award-winning artisan bakery; famous for heritage grain loaves, crusty baguettes, and the iconic Sonoran wheat pan epi.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "Closed",
-      "Tuesday": "9:00 AM - 2:00 PM",
-      "Wednesday": "9:00 AM - 2:00 PM",
-      "Thursday": "9:00 AM - 2:00 PM",
-      "Friday": "9:00 AM - 2:00 PM",
-      "Saturday": "9:00 AM - 2:00 PM",
-      "Sunday": "Closed"
-    }
+    "enriched": true
   },
   {
     "name": "Dedicated Bakery",
@@ -765,16 +558,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "100% GF facility; famous for Jalapeño Cheddar bagels, gluten-free artisan breads, and dietary-friendly pastries.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "Closed",
-      "Tuesday": "Closed",
-      "Wednesday": "8:00 AM - 3:00 PM",
-      "Thursday": "8:00 AM - 3:00 PM",
-      "Friday": "8:00 AM - 3:00 PM",
-      "Saturday": "8:00 AM - 3:00 PM",
-      "Sunday": "Closed"
-    }
+    "enriched": true
   },
   {
     "name": "Outback Steakhouse",
@@ -784,16 +568,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$$",
     "notes": "Consistent family-friendly Australian-themed steaks, signature Bloomin' Onion, and heavily seasoned prime rib.",
     "isLocal": false,
-    "enriched": true,
-    "hours": {
-      "Monday": "4:00 PM - 10:00 PM",
-      "Tuesday": "4:00 PM - 10:00 PM",
-      "Wednesday": "4:00 PM - 10:00 PM",
-      "Thursday": "4:00 PM - 10:00 PM",
-      "Friday": "4:00 PM - 11:00 PM",
-      "Saturday": "11:00 AM - 11:00 PM",
-      "Sunday": "11:00 AM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Happy Lemon",
@@ -803,16 +578,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Salted cheese tea, signature bubble waffles, fresh fruit smoothies, and distinctively layered boba drinks.",
     "isLocal": false,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 9:00 PM",
-      "Tuesday": "11:00 AM - 9:00 PM",
-      "Wednesday": "11:00 AM - 9:00 PM",
-      "Thursday": "11:00 AM - 9:00 PM",
-      "Friday": "11:00 AM - 9:00 PM",
-      "Saturday": "11:00 AM - 9:00 PM",
-      "Sunday": "11:00 AM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Salad and Go (Speedway)",
@@ -822,16 +588,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Drive-thru organic salads, healthy breakfast wraps, and fresh-brewed iced teas with sustainable sourcing.",
     "isLocal": false,
-    "enriched": true,
-    "hours": {
-      "Monday": "6:00 AM - 9:00 PM",
-      "Tuesday": "6:00 AM - 9:00 PM",
-      "Wednesday": "6:00 AM - 9:00 PM",
-      "Thursday": "6:00 AM - 9:00 PM",
-      "Friday": "6:00 AM - 9:00 PM",
-      "Saturday": "7:00 AM - 8:00 PM",
-      "Sunday": "7:00 AM - 8:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Panera Bread",
@@ -841,16 +598,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Casual dining; freshly baked breads, broccoli cheddar soup in bread bowls, and healthy composed salads.",
     "isLocal": false,
-    "enriched": true,
-    "hours": {
-      "Monday": "6:00 AM - 9:00 PM",
-      "Tuesday": "6:00 AM - 9:00 PM",
-      "Wednesday": "6:00 AM - 9:00 PM",
-      "Thursday": "6:00 AM - 9:00 PM",
-      "Friday": "6:00 AM - 9:00 PM",
-      "Saturday": "6:00 AM - 9:00 PM",
-      "Sunday": "6:00 AM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Go Dim Sum",
@@ -860,16 +608,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Prepared-to-order dim sum, Portuguese Egg Tarts, Salt & Pepper Tofu, mushroom dumplings, and boba tea.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "Closed",
-      "Tuesday": "11:00 AM - 9:00 PM",
-      "Wednesday": "11:00 AM - 9:00 PM",
-      "Thursday": "11:00 AM - 9:00 PM",
-      "Friday": "11:00 AM - 9:00 PM",
-      "Saturday": "11:00 AM - 9:00 PM",
-      "Sunday": "11:00 AM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Ni Hao Tea",
@@ -879,16 +618,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Quality freshly brewed tea; chewy boba, signature milk teas, fresh taro smoothies, and custom blends.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 9:00 PM",
-      "Tuesday": "11:00 AM - 9:00 PM",
-      "Wednesday": "11:00 AM - 9:00 PM",
-      "Thursday": "11:00 AM - 9:00 PM",
-      "Friday": "11:00 AM - 10:00 PM",
-      "Saturday": "11:00 AM - 10:00 PM",
-      "Sunday": "11:00 AM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Miss Saigon",
@@ -898,16 +628,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Authentic Vietnamese cuisine, renowned for flavorful pho, fresh spring rolls, and spicy curries.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 3:00 PM, 5:00 PM - 9:00 PM",
-      "Tuesday": "11:00 AM - 3:00 PM, 5:00 PM - 9:00 PM",
-      "Wednesday": "11:00 AM - 3:00 PM, 5:00 PM - 9:00 PM",
-      "Thursday": "11:00 AM - 3:00 PM, 5:00 PM - 9:00 PM",
-      "Friday": "11:00 AM - 3:00 PM, 5:00 PM - 10:00 PM",
-      "Saturday": "11:00 AM - 10:00 PM",
-      "Sunday": "11:00 AM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Wendy's",
@@ -917,16 +638,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Classic fast-food chain, famous for square burgers, crispy fries, and delicious Frosty desserts.",
     "isLocal": false,
-    "enriched": true,
-    "hours": {
-      "Monday": "10:00 AM - 1:00 AM",
-      "Tuesday": "10:00 AM - 1:00 AM",
-      "Wednesday": "10:00 AM - 1:00 AM",
-      "Thursday": "10:00 AM - 1:00 AM",
-      "Friday": "10:00 AM - 2:00 AM",
-      "Saturday": "10:00 AM - 2:00 AM",
-      "Sunday": "10:00 AM - 1:00 AM"
-    }
+    "enriched": true
   },
   {
     "name": "Bay Horse Tavern",
@@ -936,16 +648,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Historic local watering hole offering cold drinks, good company, and classic tavern vibes.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "3:00 PM - 2:00 AM",
-      "Tuesday": "3:00 PM - 2:00 AM",
-      "Wednesday": "3:00 PM - 2:00 AM",
-      "Thursday": "3:00 PM - 2:00 AM",
-      "Friday": "3:00 PM - 2:00 AM",
-      "Saturday": "12:00 PM - 2:00 AM",
-      "Sunday": "12:00 PM - 2:00 AM"
-    }
+    "enriched": true
   },
   {
     "name": "Kazoku Sushi",
@@ -955,16 +658,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$$",
     "notes": "Fresh, artfully prepared sushi rolls, sashimi, and Japanese cuisine in a modern setting.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "Closed",
-      "Tuesday": "11:30 AM - 2:00 PM, 4:30 PM - 9:00 PM",
-      "Wednesday": "11:30 AM - 2:00 PM, 4:30 PM - 9:00 PM",
-      "Thursday": "11:30 AM - 2:00 PM, 4:30 PM - 9:00 PM",
-      "Friday": "11:30 AM - 2:00 PM, 4:30 PM - 10:00 PM",
-      "Saturday": "4:30 PM - 10:00 PM",
-      "Sunday": "4:30 PM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Azian",
@@ -974,16 +668,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Modern spot for creative sushi rolls and diverse Asian-fusion dishes in a chic setting.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 9:00 PM",
-      "Tuesday": "11:00 AM - 9:00 PM",
-      "Wednesday": "11:00 AM - 9:00 PM",
-      "Thursday": "11:00 AM - 9:00 PM",
-      "Friday": "11:00 AM - 10:00 PM",
-      "Saturday": "11:00 AM - 10:00 PM",
-      "Sunday": "12:00 PM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Benny's Mexican Food",
@@ -993,16 +678,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Hearty, homestyle Mexican dishes and classic Sonoran comfort food favorites await you.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "7:00 AM - 9:00 PM",
-      "Tuesday": "7:00 AM - 9:00 PM",
-      "Wednesday": "7:00 AM - 9:00 PM",
-      "Thursday": "7:00 AM - 9:00 PM",
-      "Friday": "7:00 AM - 10:00 PM",
-      "Saturday": "7:00 AM - 10:00 PM",
-      "Sunday": "7:00 AM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Dirtbags",
@@ -1012,16 +688,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Popular university bar with pub fare, lively atmosphere, and great deals on drinks.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 2:00 AM",
-      "Tuesday": "11:00 AM - 2:00 AM",
-      "Wednesday": "11:00 AM - 2:00 AM",
-      "Thursday": "11:00 AM - 2:00 AM",
-      "Friday": "11:00 AM - 2:00 AM",
-      "Saturday": "11:00 AM - 2:00 AM",
-      "Sunday": "11:00 AM - 2:00 AM"
-    }
+    "enriched": true
   },
   {
     "name": "Roberts restaurant",
@@ -1031,16 +698,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Unpretentious local diner serving classic American breakfast and lunch staples.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "6:00 AM - 2:00 PM",
-      "Tuesday": "6:00 AM - 2:00 PM",
-      "Wednesday": "6:00 AM - 2:00 PM",
-      "Thursday": "6:00 AM - 2:00 PM",
-      "Friday": "6:00 AM - 2:00 PM",
-      "Saturday": "6:00 AM - 2:00 PM",
-      "Sunday": "6:00 AM - 2:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Cheba Hut",
@@ -1050,16 +708,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Toasted \"dank\" subs with unique names and a chill, cannabis-themed vibe.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "10:00 AM - 10:00 PM",
-      "Tuesday": "10:00 AM - 10:00 PM",
-      "Wednesday": "10:00 AM - 10:00 PM",
-      "Thursday": "10:00 AM - 10:00 PM",
-      "Friday": "10:00 AM - 11:00 PM",
-      "Saturday": "10:00 AM - 11:00 PM",
-      "Sunday": "10:00 AM - 10:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "China Szechwan",
@@ -1069,16 +718,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Traditional Szechuan specialties with bold spice, including Mongolian Tofu, Chong Qi Spicy Tofu, and water-boiled fish.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 9:00 PM",
-      "Tuesday": "11:00 AM - 9:00 PM",
-      "Wednesday": "11:00 AM - 9:00 PM",
-      "Thursday": "11:00 AM - 9:00 PM",
-      "Friday": "11:00 AM - 10:00 PM",
-      "Saturday": "11:00 AM - 10:00 PM",
-      "Sunday": "12:00 PM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Kon Tiki",
@@ -1088,16 +728,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Iconic 1963 landmark; famous for \"Monkey Sticks\", pupu platters, ribs, and tropical rum-based tiki cocktails.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "4:00 PM - 12:00 AM",
-      "Tuesday": "4:00 PM - 12:00 AM",
-      "Wednesday": "4:00 PM - 12:00 AM",
-      "Thursday": "4:00 PM - 12:00 AM",
-      "Friday": "4:00 PM - 1:00 AM",
-      "Saturday": "4:00 PM - 1:00 AM",
-      "Sunday": "4:00 PM - 12:00 AM"
-    }
+    "enriched": true
   },
   {
     "name": "Redbird Scratch Kitchen",
@@ -1107,16 +738,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Locally owned; inventive comfort food including smash burgers, elote nachos, honey soy wings, and cocktails.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "Closed",
-      "Tuesday": "4:00 PM - 9:00 PM",
-      "Wednesday": "4:00 PM - 9:00 PM",
-      "Thursday": "4:00 PM - 9:00 PM",
-      "Friday": "11:00 AM - 10:00 PM",
-      "Saturday": "11:00 AM - 10:00 PM",
-      "Sunday": "11:00 AM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Angie's Prime Grill",
@@ -1126,16 +748,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Rapid-service grill featuring high-quality steak bowls, grilled chicken salads, and fresh-cut vegetables.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 9:00 PM",
-      "Tuesday": "11:00 AM - 9:00 PM",
-      "Wednesday": "11:00 AM - 9:00 PM",
-      "Thursday": "11:00 AM - 9:00 PM",
-      "Friday": "11:00 AM - 10:00 PM",
-      "Saturday": "11:00 AM - 10:00 PM",
-      "Sunday": "11:00 AM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Pho Ngan",
@@ -1145,16 +758,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Authentic family-owned; signature Bun Bo Hue, traditional beef Pho, fresh spring rolls, and broken rice.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "10:00 AM - 9:00 PM",
-      "Tuesday": "10:00 AM - 9:00 PM",
-      "Wednesday": "10:00 AM - 9:00 PM",
-      "Thursday": "10:00 AM - 9:00 PM",
-      "Friday": "10:00 AM - 9:30 PM",
-      "Saturday": "10:00 AM - 9:30 PM",
-      "Sunday": "10:00 AM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Culinary Dropout",
@@ -1164,16 +768,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "\"Refined rebellion\" venue; features 36-hour slow-cooked pork ribs, soft pretzels with provolone fondue.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 10:00 PM",
-      "Tuesday": "11:00 AM - 10:00 PM",
-      "Wednesday": "11:00 AM - 10:00 PM",
-      "Thursday": "11:00 AM - 10:00 PM",
-      "Friday": "11:00 AM - 12:00 AM",
-      "Saturday": "11:00 AM - 12:00 AM",
-      "Sunday": "11:00 AM - 10:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Momo's",
@@ -1183,16 +778,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Neighborhood eatery and beverage stand known for friendly atmosphere and refreshing Mexican drinks.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 9:00 PM",
-      "Tuesday": "11:00 AM - 9:00 PM",
-      "Wednesday": "11:00 AM - 9:00 PM",
-      "Thursday": "11:00 AM - 9:00 PM",
-      "Friday": "11:00 AM - 10:00 PM",
-      "Saturday": "11:00 AM - 10:00 PM",
-      "Sunday": "11:00 AM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Serial Grillers",
@@ -1202,16 +788,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Movie-themed menu; inventive cheesesteaks, loaded specialty pizzas, and craft beer selections.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 10:00 PM",
-      "Tuesday": "11:00 AM - 10:00 PM",
-      "Wednesday": "11:00 AM - 10:00 PM",
-      "Thursday": "11:00 AM - 10:00 PM",
-      "Friday": "11:00 AM - 11:00 PM",
-      "Saturday": "11:00 AM - 11:00 PM",
-      "Sunday": "11:00 AM - 10:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "néktər",
@@ -1221,16 +798,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Fresh, healthy juices, invigorating smoothies, and wholesome acai bowls for a wellness boost.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "7:00 AM - 7:00 PM",
-      "Tuesday": "7:00 AM - 7:00 PM",
-      "Wednesday": "7:00 AM - 7:00 PM",
-      "Thursday": "7:00 AM - 7:00 PM",
-      "Friday": "7:00 AM - 7:00 PM",
-      "Saturday": "8:00 AM - 6:00 PM",
-      "Sunday": "8:00 AM - 6:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "McDonald's",
@@ -1240,16 +808,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Classic golden arches for quick, familiar burgers, fries, and shakes. Consistently reliable.",
     "isLocal": false,
-    "enriched": true,
-    "hours": {
-      "Monday": "24 Hours",
-      "Tuesday": "24 Hours",
-      "Wednesday": "24 Hours",
-      "Thursday": "24 Hours",
-      "Friday": "24 Hours",
-      "Saturday": "24 Hours",
-      "Sunday": "24 Hours"
-    }
+    "enriched": true
   },
   {
     "name": "Greek House",
@@ -1259,16 +818,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Authentic Mediterranean flavors with gyros, souvlaki, and fresh salads. A taste of Greece.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 9:00 PM",
-      "Tuesday": "11:00 AM - 9:00 PM",
-      "Wednesday": "11:00 AM - 9:00 PM",
-      "Thursday": "11:00 AM - 9:00 PM",
-      "Friday": "11:00 AM - 10:00 PM",
-      "Saturday": "11:00 AM - 10:00 PM",
-      "Sunday": "11:00 AM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Snooze",
@@ -1278,16 +828,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Vibrant breakfast and brunch spot with creative pancake flights and innovative Benedicts.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "6:30 AM - 2:30 PM",
-      "Tuesday": "6:30 AM - 2:30 PM",
-      "Wednesday": "6:30 AM - 2:30 PM",
-      "Thursday": "6:30 AM - 2:30 PM",
-      "Friday": "6:30 AM - 2:30 PM",
-      "Saturday": "6:30 AM - 2:30 PM",
-      "Sunday": "6:30 AM - 2:30 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Sonic",
@@ -1297,16 +838,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Drive-in classic with diverse menu, signature slushes, and satisfying all-day eats.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "6:00 AM - 11:00 PM",
-      "Tuesday": "6:00 AM - 11:00 PM",
-      "Wednesday": "6:00 AM - 11:00 PM",
-      "Thursday": "6:00 AM - 11:00 PM",
-      "Friday": "6:00 AM - 12:00 AM",
-      "Saturday": "6:00 AM - 12:00 AM",
-      "Sunday": "6:00 AM - 11:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Gear Shifters",
@@ -1316,16 +848,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Quirky, local coffee shop with excellent brews and a unique automotive-themed ambiance.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "7:00 AM - 4:00 PM",
-      "Tuesday": "7:00 AM - 4:00 PM",
-      "Wednesday": "7:00 AM - 4:00 PM",
-      "Thursday": "7:00 AM - 4:00 PM",
-      "Friday": "7:00 AM - 4:00 PM",
-      "Saturday": "8:00 AM - 3:00 PM",
-      "Sunday": "Closed"
-    }
+    "enriched": true
   },
   {
     "name": "Taco Plus",
@@ -1335,16 +858,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Local favorite for authentic Sonoran-style tacos, burritos, and Mexican comfort food.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "6:00 AM - 10:00 PM",
-      "Tuesday": "6:00 AM - 10:00 PM",
-      "Wednesday": "6:00 AM - 10:00 PM",
-      "Thursday": "6:00 AM - 10:00 PM",
-      "Friday": "6:00 AM - 11:00 PM",
-      "Saturday": "6:00 AM - 11:00 PM",
-      "Sunday": "6:00 AM - 10:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Noodleholics",
@@ -1354,16 +868,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Specializes in authentic dumplings, hand-pulled Guilin-style noodles, and signature Sizzling Garlic Noodles.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 9:00 PM",
-      "Tuesday": "11:00 AM - 9:00 PM",
-      "Wednesday": "11:00 AM - 9:00 PM",
-      "Thursday": "11:00 AM - 9:00 PM",
-      "Friday": "11:00 AM - 9:30 PM",
-      "Saturday": "11:00 AM - 9:30 PM",
-      "Sunday": "11:00 AM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Hungry Howie's Pizza",
@@ -1373,16 +878,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Home of original flavored crust pizza; serves standard pepperoni pies, baked subs, and garlic cheese bread.",
     "isLocal": false,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 10:00 PM",
-      "Tuesday": "11:00 AM - 10:00 PM",
-      "Wednesday": "11:00 AM - 10:00 PM",
-      "Thursday": "11:00 AM - 10:00 PM",
-      "Friday": "11:00 AM - 11:00 PM",
-      "Saturday": "11:00 AM - 11:00 PM",
-      "Sunday": "12:00 PM - 10:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Tuxon Chix",
@@ -1392,16 +888,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Locally owned; jumbo crispy chicken tenders, seasoned fries, thick-cut toast, and signature \"Tuxon Sauce\".",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 9:00 PM",
-      "Tuesday": "11:00 AM - 9:00 PM",
-      "Wednesday": "11:00 AM - 9:00 PM",
-      "Thursday": "11:00 AM - 9:00 PM",
-      "Friday": "11:00 AM - 10:00 PM",
-      "Saturday": "11:00 AM - 10:00 PM",
-      "Sunday": "11:00 AM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Guadalajara Grill",
@@ -1411,16 +898,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Tableside salsa and mariachis; features the massive Burro Panzon, sizzling fajitas, and fresh guacamole.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 9:00 PM",
-      "Tuesday": "11:00 AM - 9:00 PM",
-      "Wednesday": "11:00 AM - 9:00 PM",
-      "Thursday": "11:00 AM - 9:00 PM",
-      "Friday": "11:00 AM - 10:00 PM",
-      "Saturday": "11:00 AM - 10:00 PM",
-      "Sunday": "11:00 AM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Bobo's Restaurant",
@@ -1430,16 +908,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Legacy diner; famous for giant banana pancakes, hash browns, and classic greasy-spoon breakfast plates.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "Closed",
-      "Tuesday": "6:30 AM - 2:30 PM",
-      "Wednesday": "6:30 AM - 2:30 PM",
-      "Thursday": "6:30 AM - 2:30 PM",
-      "Friday": "6:30 AM - 2:30 PM",
-      "Saturday": "6:30 AM - 2:30 PM",
-      "Sunday": "6:30 AM - 2:30 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Opa's Best",
@@ -1449,16 +918,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Authentic Mediterranean; housemade baklava, falafel, chicken souvlaki, and large Greek salad platters.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 8:00 PM",
-      "Tuesday": "11:00 AM - 8:00 PM",
-      "Wednesday": "11:00 AM - 8:00 PM",
-      "Thursday": "11:00 AM - 8:00 PM",
-      "Friday": "11:00 AM - 8:00 PM",
-      "Saturday": "11:00 AM - 8:00 PM",
-      "Sunday": "Closed"
-    }
+    "enriched": true
   },
   {
     "name": "Amelia's (Grant)",
@@ -1468,16 +928,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Family-owned; award-winning salsas, tangy mole veggie enchiladas, and traditional carne asada plates.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "9:00 AM - 9:00 PM",
-      "Tuesday": "9:00 AM - 9:00 PM",
-      "Wednesday": "9:00 AM - 9:00 PM",
-      "Thursday": "9:00 AM - 9:00 PM",
-      "Friday": "9:00 AM - 9:00 PM",
-      "Saturday": "9:00 AM - 9:00 PM",
-      "Sunday": "9:00 AM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Raijin Ramen",
@@ -1487,16 +938,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Authentic ramen house; famous for spicy miso broth, perfectly cooked noodles, and crispy pork gyoza.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 9:00 PM",
-      "Tuesday": "11:00 AM - 9:00 PM",
-      "Wednesday": "11:00 AM - 9:00 PM",
-      "Thursday": "11:00 AM - 9:00 PM",
-      "Friday": "11:00 AM - 9:00 PM",
-      "Saturday": "11:00 AM - 9:00 PM",
-      "Sunday": "11:00 AM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Cupbop (Grant/Swan)",
@@ -1506,16 +948,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Fast-casual Korean BBQ served in a cup; features sweet potato noodles, spicy pork, and fried mandu.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 9:00 PM",
-      "Tuesday": "11:00 AM - 9:00 PM",
-      "Wednesday": "11:00 AM - 9:00 PM",
-      "Thursday": "11:00 AM - 9:00 PM",
-      "Friday": "11:00 AM - 9:00 PM",
-      "Saturday": "11:00 AM - 9:00 PM",
-      "Sunday": "11:00 AM - 8:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Truland Burgers",
@@ -1525,16 +958,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Premium smashed burgers on brioche buns, fresh-cut fries, truffle aioli, and hand-spun milkshakes.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 8:00 PM",
-      "Tuesday": "11:00 AM - 8:00 PM",
-      "Wednesday": "11:00 AM - 8:00 PM",
-      "Thursday": "11:00 AM - 8:00 PM",
-      "Friday": "11:00 AM - 9:00 PM",
-      "Saturday": "11:00 AM - 9:00 PM",
-      "Sunday": "11:00 AM - 8:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Sexy Grilled Cheese",
@@ -1544,16 +968,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Chef-driven artisan cheese melts, loaded mac & cheese bowls, and rich tomato bisque.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "Closed",
-      "Tuesday": "11:00 AM - 7:00 PM",
-      "Wednesday": "11:00 AM - 7:00 PM",
-      "Thursday": "11:00 AM - 7:00 PM",
-      "Friday": "11:00 AM - 7:00 PM",
-      "Saturday": "11:00 AM - 7:00 PM",
-      "Sunday": "Closed"
-    }
+    "enriched": true
   },
   {
     "name": "IQ",
@@ -1563,16 +978,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Innovative spot for healthy, build-your-own bowls and fresh, nutritious options. Quick and customizable.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "7:00 AM - 7:00 PM",
-      "Tuesday": "7:00 AM - 7:00 PM",
-      "Wednesday": "7:00 AM - 7:00 PM",
-      "Thursday": "7:00 AM - 7:00 PM",
-      "Friday": "7:00 AM - 7:00 PM",
-      "Saturday": "8:00 AM - 5:00 PM",
-      "Sunday": "8:00 AM - 4:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Saffron Bites",
@@ -1582,16 +988,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Flavorful Indian cuisine featuring aromatic curries, tandoori specialties, and fresh, handmade naan.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 8:00 PM",
-      "Tuesday": "11:00 AM - 8:00 PM",
-      "Wednesday": "11:00 AM - 8:00 PM",
-      "Thursday": "11:00 AM - 8:00 PM",
-      "Friday": "11:00 AM - 8:00 PM",
-      "Saturday": "11:00 AM - 8:00 PM",
-      "Sunday": "Closed"
-    }
+    "enriched": true
   },
   {
     "name": "Panda Express",
@@ -1601,16 +998,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Fast-casual Chinese-American comfort food, famous for orange chicken and quick, customizable plates.",
     "isLocal": false,
-    "enriched": true,
-    "hours": {
-      "Monday": "10:30 AM - 9:30 PM",
-      "Tuesday": "10:30 AM - 9:30 PM",
-      "Wednesday": "10:30 AM - 9:30 PM",
-      "Thursday": "10:30 AM - 9:30 PM",
-      "Friday": "10:30 AM - 9:30 PM",
-      "Saturday": "10:30 AM - 9:30 PM",
-      "Sunday": "11:00 AM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Mojo Cuban Kitchen",
@@ -1620,16 +1008,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Vibrant Cuban flavors with authentic ropa vieja and fantastic Cubano sandwiches. A taste of Havana.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 9:00 PM",
-      "Tuesday": "11:00 AM - 9:00 PM",
-      "Wednesday": "11:00 AM - 9:00 PM",
-      "Thursday": "11:00 AM - 9:00 PM",
-      "Friday": "11:00 AM - 9:00 PM",
-      "Saturday": "11:00 AM - 9:00 PM",
-      "Sunday": "11:00 AM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Karuna",
@@ -1639,16 +1018,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Serene Pan-Asian dining offering flavorful vegan and vegetarian dishes with mindful ingredients.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 8:00 PM",
-      "Tuesday": "11:00 AM - 8:00 PM",
-      "Wednesday": "11:00 AM - 8:00 PM",
-      "Thursday": "11:00 AM - 8:00 PM",
-      "Friday": "11:00 AM - 8:00 PM",
-      "Saturday": "11:00 AM - 8:00 PM",
-      "Sunday": "Closed"
-    }
+    "enriched": true
   },
   {
     "name": "Papa John's",
@@ -1658,16 +1028,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Dependable pizza chain offering classic and specialty pizzas with a focus on fresh ingredients.",
     "isLocal": false,
-    "enriched": true,
-    "hours": {
-      "Monday": "10:00 AM - 11:00 PM",
-      "Tuesday": "10:00 AM - 11:00 PM",
-      "Wednesday": "10:00 AM - 11:00 PM",
-      "Thursday": "10:00 AM - 11:00 PM",
-      "Friday": "10:00 AM - 12:00 AM",
-      "Saturday": "10:00 AM - 12:00 AM",
-      "Sunday": "10:00 AM - 11:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Chick-fil-A",
@@ -1677,16 +1038,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Beloved for its signature chicken sandwiches, waffle fries, and consistently friendly service.",
     "isLocal": false,
-    "enriched": true,
-    "hours": {
-      "Monday": "6:00 AM - 10:00 PM",
-      "Tuesday": "6:00 AM - 10:00 PM",
-      "Wednesday": "6:00 AM - 10:00 PM",
-      "Thursday": "6:00 AM - 10:00 PM",
-      "Friday": "6:00 AM - 10:00 PM",
-      "Saturday": "6:00 AM - 10:00 PM",
-      "Sunday": "Closed"
-    }
+    "enriched": true
   },
   {
     "name": "Alafia West African",
@@ -1696,16 +1048,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Family-owned; authentic egusi soup, fufu, fried plantains, goat soup, and spicy ginger juice.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "Closed",
-      "Tuesday": "11:00 AM - 9:00 PM",
-      "Wednesday": "11:00 AM - 9:00 PM",
-      "Thursday": "11:00 AM - 9:00 PM",
-      "Friday": "11:00 AM - 9:00 PM",
-      "Saturday": "11:00 AM - 9:00 PM",
-      "Sunday": "Closed"
-    }
+    "enriched": true
   },
   {
     "name": "Sabor",
@@ -1715,16 +1058,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Flavorful Sonoran Mexican cuisine with traditional dishes and a lively, welcoming ambiance.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 9:00 PM",
-      "Tuesday": "11:00 AM - 9:00 PM",
-      "Wednesday": "11:00 AM - 9:00 PM",
-      "Thursday": "11:00 AM - 9:00 PM",
-      "Friday": "11:00 AM - 9:00 PM",
-      "Saturday": "11:00 AM - 9:00 PM",
-      "Sunday": "11:00 AM - 8:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Core",
@@ -1734,16 +1068,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$$",
     "notes": "Modern eatery focusing on locally sourced ingredients for elevated American comfort dishes.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "7:00 AM - 9:00 PM",
-      "Tuesday": "7:00 AM - 9:00 PM",
-      "Wednesday": "7:00 AM - 9:00 PM",
-      "Thursday": "7:00 AM - 9:00 PM",
-      "Friday": "7:00 AM - 9:00 PM",
-      "Saturday": "7:00 AM - 9:00 PM",
-      "Sunday": "7:00 AM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Nrich Urban Market",
@@ -1753,16 +1078,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Modern urban market offering fresh, healthy grab-and-go options and artisanal sandwiches.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "9:00 AM - 7:00 PM",
-      "Tuesday": "9:00 AM - 7:00 PM",
-      "Wednesday": "9:00 AM - 7:00 PM",
-      "Thursday": "9:00 AM - 7:00 PM",
-      "Friday": "9:00 AM - 7:00 PM",
-      "Saturday": "9:00 AM - 5:00 PM",
-      "Sunday": "Closed"
-    }
+    "enriched": true
   },
   {
     "name": "Mama's Famous Pizza & Heros",
@@ -1772,16 +1088,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "A local favorite serving up delicious New York-style pizzas and generously sized heroes.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "10:30 AM - 9:00 PM",
-      "Tuesday": "10:30 AM - 9:00 PM",
-      "Wednesday": "10:30 AM - 9:00 PM",
-      "Thursday": "10:30 AM - 9:00 PM",
-      "Friday": "10:30 AM - 10:00 PM",
-      "Saturday": "10:30 AM - 10:00 PM",
-      "Sunday": "11:00 AM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Upper Crust Pizza",
@@ -1791,16 +1098,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Gourmet pizzas featuring unique toppings and a crispy crust, perfect for pizza lovers.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 9:00 PM",
-      "Tuesday": "11:00 AM - 9:00 PM",
-      "Wednesday": "11:00 AM - 9:00 PM",
-      "Thursday": "11:00 AM - 9:00 PM",
-      "Friday": "11:00 AM - 9:00 PM",
-      "Saturday": "11:00 AM - 9:00 PM",
-      "Sunday": "11:00 AM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Cactus Grill",
@@ -1810,16 +1108,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Casual eatery serving up classic Italian pasta dishes and delicious gourmet pizzas.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 9:00 PM",
-      "Tuesday": "11:00 AM - 9:00 PM",
-      "Wednesday": "11:00 AM - 9:00 PM",
-      "Thursday": "11:00 AM - 9:00 PM",
-      "Friday": "11:00 AM - 9:00 PM",
-      "Saturday": "11:00 AM - 9:00 PM",
-      "Sunday": "11:00 AM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "On Deck",
@@ -1829,16 +1118,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Casual sports bar with classic pub fare, juicy burgers, and plenty of big screens.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 1:00 AM",
-      "Tuesday": "11:00 AM - 1:00 AM",
-      "Wednesday": "11:00 AM - 1:00 AM",
-      "Thursday": "11:00 AM - 1:00 AM",
-      "Friday": "11:00 AM - 1:00 AM",
-      "Saturday": "10:00 AM - 1:00 AM",
-      "Sunday": "10:00 AM - 1:00 AM"
-    }
+    "enriched": true
   },
   {
     "name": "Goodness",
@@ -1848,16 +1128,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Fresh, wholesome eats specializing in customizable bowls, salads, and healthy, vibrant, plant-forward meals.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "7:00 AM - 4:00 PM",
-      "Tuesday": "7:00 AM - 4:00 PM",
-      "Wednesday": "7:00 AM - 4:00 PM",
-      "Thursday": "7:00 AM - 4:00 PM",
-      "Friday": "7:00 AM - 4:00 PM",
-      "Saturday": "8:00 AM - 2:00 PM",
-      "Sunday": "8:00 AM - 2:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Postino Grant",
@@ -1867,16 +1138,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Bruschetta boards with toppings like brie and apple, panini sandwiches, and extensive lunch wine specials.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 11:00 PM",
-      "Tuesday": "11:00 AM - 11:00 PM",
-      "Wednesday": "11:00 AM - 11:00 PM",
-      "Thursday": "11:00 AM - 11:00 PM",
-      "Friday": "11:00 AM - 12:00 AM",
-      "Saturday": "9:00 AM - 12:00 AM",
-      "Sunday": "9:00 AM - 10:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Starbucks",
@@ -1886,16 +1148,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Ubiquitous coffee chain for reliable lattes, frappuccinos, and a quick breakfast bite. Always consistent.",
     "isLocal": false,
-    "enriched": true,
-    "hours": {
-      "Monday": "5:00 AM - 9:00 PM",
-      "Tuesday": "5:00 AM - 9:00 PM",
-      "Wednesday": "5:00 AM - 9:00 PM",
-      "Thursday": "5:00 AM - 9:00 PM",
-      "Friday": "5:00 AM - 9:00 PM",
-      "Saturday": "6:00 AM - 8:00 PM",
-      "Sunday": "6:00 AM - 8:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Eegee's",
@@ -1905,16 +1158,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Tucson icon famous for refreshing fruit eegee drinks and delicious grinder sandwiches. A local favorite.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "10:00 AM - 10:00 PM",
-      "Tuesday": "10:00 AM - 10:00 PM",
-      "Wednesday": "10:00 AM - 10:00 PM",
-      "Thursday": "10:00 AM - 10:00 PM",
-      "Friday": "10:00 AM - 10:00 PM",
-      "Saturday": "10:00 AM - 10:00 PM",
-      "Sunday": "10:00 AM - 10:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Blackjack Pizza",
@@ -1924,16 +1168,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Reliable pizza place offering classic and specialty pies for pickup or delivery. Casual and convenient.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "10:00 AM - 11:00 PM",
-      "Tuesday": "10:00 AM - 11:00 PM",
-      "Wednesday": "10:00 AM - 11:00 PM",
-      "Thursday": "10:00 AM - 11:00 PM",
-      "Friday": "10:00 AM - 12:00 AM",
-      "Saturday": "10:00 AM - 12:00 AM",
-      "Sunday": "11:00 AM - 11:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Bing's Boba Tea",
@@ -1943,16 +1178,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Charming tea shop specializing in refreshing boba teas, milk teas, and creative fruit concoctions.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 9:00 PM",
-      "Tuesday": "11:00 AM - 9:00 PM",
-      "Wednesday": "11:00 AM - 9:00 PM",
-      "Thursday": "11:00 AM - 9:00 PM",
-      "Friday": "11:00 AM - 9:00 PM",
-      "Saturday": "11:00 AM - 9:00 PM",
-      "Sunday": "11:00 AM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Caravan Grill",
@@ -1962,16 +1188,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Savor flavorful Mediterranean kebabs, fresh hummus, and aromatic rice dishes in a cozy setting.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 8:00 PM",
-      "Tuesday": "11:00 AM - 8:00 PM",
-      "Wednesday": "11:00 AM - 8:00 PM",
-      "Thursday": "11:00 AM - 8:00 PM",
-      "Friday": "11:00 AM - 8:00 PM",
-      "Saturday": "11:00 AM - 8:00 PM",
-      "Sunday": "Closed"
-    }
+    "enriched": true
   },
   {
     "name": "Radicchio",
@@ -1981,16 +1198,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Cozy Italian eatery serving traditional pasta, pizzas, and hearty entrees in a warm setting.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "Closed",
-      "Tuesday": "11:00 AM - 9:00 PM",
-      "Wednesday": "11:00 AM - 9:00 PM",
-      "Thursday": "11:00 AM - 9:00 PM",
-      "Friday": "11:00 AM - 10:00 PM",
-      "Saturday": "11:00 AM - 10:00 PM",
-      "Sunday": "11:00 AM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Selena’s Salvadorian Restaurant",
@@ -2000,16 +1208,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Authentic Salvadorian flavors, famous for delicious pupusas and hearty, traditional dishes.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 8:00 PM",
-      "Tuesday": "11:00 AM - 8:00 PM",
-      "Wednesday": "11:00 AM - 8:00 PM",
-      "Thursday": "11:00 AM - 8:00 PM",
-      "Friday": "11:00 AM - 8:00 PM",
-      "Saturday": "11:00 AM - 8:00 PM",
-      "Sunday": "Closed"
-    }
+    "enriched": true
   },
   {
     "name": "Jason's Deli",
@@ -2019,16 +1218,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Massive salad bar, healthy options, muffalettas, and free soft-serve ice cream with meals.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "10:00 AM - 9:00 PM",
-      "Tuesday": "10:00 AM - 9:00 PM",
-      "Wednesday": "10:00 AM - 9:00 PM",
-      "Thursday": "10:00 AM - 9:00 PM",
-      "Friday": "10:00 AM - 9:00 PM",
-      "Saturday": "10:00 AM - 9:00 PM",
-      "Sunday": "10:00 AM - 8:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Highland Market",
@@ -2038,16 +1228,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Casual spot for delicious sandwiches, salads, and hearty American fare. Perfect for lunch.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "7:00 AM - 10:00 PM",
-      "Tuesday": "7:00 AM - 10:00 PM",
-      "Wednesday": "7:00 AM - 10:00 PM",
-      "Thursday": "7:00 AM - 10:00 PM",
-      "Friday": "7:00 AM - 10:00 PM",
-      "Saturday": "9:00 AM - 8:00 PM",
-      "Sunday": "9:00 AM - 8:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Zoofari Market",
@@ -2057,16 +1238,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Casual market and deli offering fresh sandwiches, salads, and picnic essentials.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "10:00 AM - 8:00 PM",
-      "Tuesday": "10:00 AM - 8:00 PM",
-      "Wednesday": "10:00 AM - 8:00 PM",
-      "Thursday": "10:00 AM - 8:00 PM",
-      "Friday": "10:00 AM - 8:00 PM",
-      "Saturday": "10:00 AM - 8:00 PM",
-      "Sunday": "10:00 AM - 8:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Cork n' Craft",
@@ -2076,16 +1248,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Craft beers and elevated American pub fare in a relaxed, social atmosphere.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 9:00 PM",
-      "Tuesday": "11:00 AM - 9:00 PM",
-      "Wednesday": "11:00 AM - 9:00 PM",
-      "Thursday": "11:00 AM - 9:00 PM",
-      "Friday": "11:00 AM - 10:00 PM",
-      "Saturday": "11:00 AM - 10:00 PM",
-      "Sunday": "11:00 AM - 8:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Dany Hot Dogs",
@@ -2095,16 +1258,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Highly-rated local Sonoran dog truck; bacon-wrapped franks with pinto beans, grilled onions, and jalapeño salsa.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "5:00 PM - 1:00 AM",
-      "Tuesday": "5:00 PM - 1:00 AM",
-      "Wednesday": "5:00 PM - 1:00 AM",
-      "Thursday": "5:00 PM - 1:00 AM",
-      "Friday": "5:00 PM - 1:00 AM",
-      "Saturday": "5:00 PM - 1:00 AM",
-      "Sunday": "5:00 PM - 1:00 AM"
-    }
+    "enriched": true
   },
   {
     "name": "Two Hands Corn Dogs",
@@ -2114,16 +1268,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Korean-style street food with unique toppings like crispy rice and potato cubes around mozzarella and sausage.",
     "isLocal": false,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:30 AM - 9:00 PM",
-      "Tuesday": "11:30 AM - 9:00 PM",
-      "Wednesday": "11:30 AM - 9:00 PM",
-      "Thursday": "11:30 AM - 9:00 PM",
-      "Friday": "11:30 AM - 9:30 PM",
-      "Saturday": "11:30 AM - 9:30 PM",
-      "Sunday": "11:30 AM - 8:30 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Frankie's CheeseSteaks",
@@ -2133,16 +1278,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Authentic Philadelphia-style cheesesteaks loaded with tender meat and melted cheese. A satisfying indulgence.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 8:00 PM",
-      "Tuesday": "11:00 AM - 8:00 PM",
-      "Wednesday": "11:00 AM - 8:00 PM",
-      "Thursday": "11:00 AM - 8:00 PM",
-      "Friday": "11:00 AM - 8:00 PM",
-      "Saturday": "11:00 AM - 8:00 PM",
-      "Sunday": "Closed"
-    }
+    "enriched": true
   },
   {
     "name": "Blue Willow",
@@ -2152,16 +1288,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Charming diner renowned for delicious breakfasts, comforting American classics, and delightful homemade pies.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "7:00 AM - 2:00 PM",
-      "Tuesday": "7:00 AM - 2:00 PM",
-      "Wednesday": "7:00 AM - 2:00 PM",
-      "Thursday": "7:00 AM - 2:00 PM",
-      "Friday": "7:00 AM - 2:00 PM",
-      "Saturday": "7:00 AM - 2:00 PM",
-      "Sunday": "7:00 AM - 2:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Toast 101",
@@ -2171,16 +1298,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Modern cafe specializing in gourmet toasts, unique breakfast creations, and artisan coffee. Brunch favorite.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "7:00 AM - 2:00 PM",
-      "Tuesday": "7:00 AM - 2:00 PM",
-      "Wednesday": "7:00 AM - 2:00 PM",
-      "Thursday": "7:00 AM - 2:00 PM",
-      "Friday": "7:00 AM - 2:00 PM",
-      "Saturday": "7:00 AM - 2:00 PM",
-      "Sunday": "7:00 AM - 2:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Portillo's Hot Dogs",
@@ -2190,16 +1308,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Chicago-style Italian beef sandwiches, snappy hot dogs, crinkle-cut fries, and chocolate cake shakes.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "10:30 AM - 10:30 PM",
-      "Tuesday": "10:30 AM - 10:30 PM",
-      "Wednesday": "10:30 AM - 10:30 PM",
-      "Thursday": "10:30 AM - 10:30 PM",
-      "Friday": "10:30 AM - 11:00 PM",
-      "Saturday": "10:30 AM - 11:00 PM",
-      "Sunday": "10:30 AM - 10:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Ike's Love and Sandwiches",
@@ -2209,16 +1318,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Creative, huge sandwiches with unique flavor combinations, perfect for a quick, satisfying meal.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 9:00 PM",
-      "Tuesday": "11:00 AM - 9:00 PM",
-      "Wednesday": "11:00 AM - 9:00 PM",
-      "Thursday": "11:00 AM - 9:00 PM",
-      "Friday": "11:00 AM - 9:00 PM",
-      "Saturday": "11:00 AM - 9:00 PM",
-      "Sunday": "11:00 AM - 8:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Guilin",
@@ -2228,16 +1328,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Traditional Chinese restaurant offering a wide range of classic dishes, stir-fries, and dim sum.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 9:30 PM",
-      "Tuesday": "11:00 AM - 9:30 PM",
-      "Wednesday": "11:00 AM - 9:30 PM",
-      "Thursday": "11:00 AM - 9:30 PM",
-      "Friday": "11:00 AM - 10:00 PM",
-      "Saturday": "12:00 PM - 10:00 PM",
-      "Sunday": "12:00 PM - 9:30 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Prep & Pastry",
@@ -2247,16 +1338,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Trendy brunch spot featuring creative breakfast dishes, delectable pastries, and refreshing craft cocktails.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "8:00 AM - 2:00 PM",
-      "Tuesday": "8:00 AM - 2:00 PM",
-      "Wednesday": "8:00 AM - 2:00 PM",
-      "Thursday": "8:00 AM - 2:00 PM",
-      "Friday": "8:00 AM - 2:00 PM",
-      "Saturday": "8:00 AM - 2:00 PM",
-      "Sunday": "8:00 AM - 2:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Slot Canyon Cafe",
@@ -2266,16 +1348,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Cozy cafe offering artisan coffee, fresh pastries, and light breakfast/lunch options in a relaxed setting.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "7:00 AM - 6:00 PM",
-      "Tuesday": "7:00 AM - 6:00 PM",
-      "Wednesday": "7:00 AM - 6:00 PM",
-      "Thursday": "7:00 AM - 6:00 PM",
-      "Friday": "7:00 AM - 6:00 PM",
-      "Saturday": "8:00 AM - 4:00 PM",
-      "Sunday": "8:00 AM - 4:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "The Taco Shop Co.",
@@ -2285,16 +1358,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Modern take on classic tacos, offering innovative fillings and fresh, vibrant ingredients.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "10:00 AM - 10:00 PM",
-      "Tuesday": "10:00 AM - 10:00 PM",
-      "Wednesday": "10:00 AM - 10:00 PM",
-      "Thursday": "10:00 AM - 10:00 PM",
-      "Friday": "10:00 AM - 1:00 AM",
-      "Saturday": "10:00 AM - 1:00 AM",
-      "Sunday": "10:00 AM - 10:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Panera Bread",
@@ -2304,16 +1368,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Freshly baked bread, comforting soups, and healthy sandwiches in a casual, airy setting.",
     "isLocal": false,
-    "enriched": true,
-    "hours": {
-      "Monday": "7:00 AM - 8:00 PM",
-      "Tuesday": "7:00 AM - 8:00 PM",
-      "Wednesday": "7:00 AM - 8:00 PM",
-      "Thursday": "7:00 AM - 8:00 PM",
-      "Friday": "7:00 AM - 8:00 PM",
-      "Saturday": "8:00 AM - 7:00 PM",
-      "Sunday": "8:00 AM - 7:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Jack in the Box",
@@ -2323,16 +1378,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Late-night favorite for diverse fast food options, from burgers to tacos and milkshakes.",
     "isLocal": false,
-    "enriched": true,
-    "hours": {
-      "Monday": "24 Hours",
-      "Tuesday": "24 Hours",
-      "Wednesday": "24 Hours",
-      "Thursday": "24 Hours",
-      "Friday": "24 Hours",
-      "Saturday": "24 Hours",
-      "Sunday": "24 Hours"
-    }
+    "enriched": true
   },
   {
     "name": "Crave Coffee Bar",
@@ -2342,16 +1388,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Chic coffee bar with artisanal espresso drinks, pastries, and a cozy study environment.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "6:00 AM - 5:00 PM",
-      "Tuesday": "6:00 AM - 5:00 PM",
-      "Wednesday": "6:00 AM - 5:00 PM",
-      "Thursday": "6:00 AM - 5:00 PM",
-      "Friday": "6:00 AM - 5:00 PM",
-      "Saturday": "7:00 AM - 3:00 PM",
-      "Sunday": "7:00 AM - 3:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Vila Thai",
@@ -2361,16 +1398,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Authentic Thai dishes, from spicy curries to fragrant noodle soups. A local favorite!",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 3:00 PM, 5:00 PM - 9:00 PM",
-      "Tuesday": "11:00 AM - 3:00 PM, 5:00 PM - 9:00 PM",
-      "Wednesday": "11:00 AM - 3:00 PM, 5:00 PM - 9:00 PM",
-      "Thursday": "11:00 AM - 3:00 PM, 5:00 PM - 9:00 PM",
-      "Friday": "11:00 AM - 3:00 PM, 5:00 PM - 9:30 PM",
-      "Saturday": "12:00 PM - 9:30 PM",
-      "Sunday": "12:00 PM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "China Pasta",
@@ -2380,16 +1408,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Authentic Chinese noodle dishes and handmade dumplings offer a true taste of Asia.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 9:00 PM",
-      "Tuesday": "11:00 AM - 9:00 PM",
-      "Wednesday": "11:00 AM - 9:00 PM",
-      "Thursday": "11:00 AM - 9:00 PM",
-      "Friday": "11:00 AM - 9:00 PM",
-      "Saturday": "11:00 AM - 9:00 PM",
-      "Sunday": "11:00 AM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Jimmy John's",
@@ -2399,16 +1418,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Freaky fast delivery for classic subs and sandwiches. Simple, quick, and reliable.",
     "isLocal": false,
-    "enriched": true,
-    "hours": {
-      "Monday": "10:30 AM - 9:00 PM",
-      "Tuesday": "10:30 AM - 9:00 PM",
-      "Wednesday": "10:30 AM - 9:00 PM",
-      "Thursday": "10:30 AM - 9:00 PM",
-      "Friday": "10:30 AM - 9:00 PM",
-      "Saturday": "10:30 AM - 9:00 PM",
-      "Sunday": "10:30 AM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Shake Smart",
@@ -2418,16 +1428,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Healthy, delicious protein shakes and acai bowls perfect for a post-workout treat.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "8:00 AM - 8:00 PM",
-      "Tuesday": "8:00 AM - 8:00 PM",
-      "Wednesday": "8:00 AM - 8:00 PM",
-      "Thursday": "8:00 AM - 8:00 PM",
-      "Friday": "8:00 AM - 8:00 PM",
-      "Saturday": "10:00 AM - 6:00 PM",
-      "Sunday": "10:00 AM - 6:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Smoothie Factory",
@@ -2437,16 +1438,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Healthy spot for custom smoothies, fresh juices, and energy-boosting acai bowls.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "9:00 AM - 8:00 PM",
-      "Tuesday": "9:00 AM - 8:00 PM",
-      "Wednesday": "9:00 AM - 8:00 PM",
-      "Thursday": "9:00 AM - 8:00 PM",
-      "Friday": "9:00 AM - 6:00 PM",
-      "Saturday": "10:00 AM - 5:00 PM",
-      "Sunday": "10:00 AM - 5:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Falora",
@@ -2456,16 +1448,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Artisan wood-fired pizza spot in Broadway Village; features Neapolitan pies, Cavatelli pasta, and fresh kale salads.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "Closed",
-      "Tuesday": "5:00 PM - 9:00 PM",
-      "Wednesday": "5:00 PM - 9:00 PM",
-      "Thursday": "5:00 PM - 9:00 PM",
-      "Friday": "5:00 PM - 9:00 PM",
-      "Saturday": "5:00 PM - 9:00 PM",
-      "Sunday": "Closed"
-    }
+    "enriched": true
   },
   {
     "name": "El Berraco",
@@ -2475,16 +1458,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Submarine-themed Latin seafood restaurant; serves vibrant ceviche, spicy aguachile, and unique seafood tacos.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 9:00 PM",
-      "Tuesday": "11:00 AM - 9:00 PM",
-      "Wednesday": "11:00 AM - 9:00 PM",
-      "Thursday": "11:00 AM - 9:00 PM",
-      "Friday": "11:00 AM - 10:00 PM",
-      "Saturday": "11:00 AM - 10:00 PM",
-      "Sunday": "11:00 AM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Cheddar's Scratch Kitchen",
@@ -2494,16 +1468,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Scratch-made American favorites including honey butter croissants, chicken tenders, and massive onion rings.",
     "isLocal": false,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 10:00 PM",
-      "Tuesday": "11:00 AM - 10:00 PM",
-      "Wednesday": "11:00 AM - 10:00 PM",
-      "Thursday": "11:00 AM - 10:00 PM",
-      "Friday": "11:00 AM - 11:00 PM",
-      "Saturday": "11:00 AM - 11:00 PM",
-      "Sunday": "11:00 AM - 10:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Woops!",
@@ -2513,16 +1478,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Delightful artisanal macarons, international pastries, and gourmet coffee in a chic, inviting atmosphere.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "9:00 AM - 6:00 PM",
-      "Tuesday": "9:00 AM - 6:00 PM",
-      "Wednesday": "9:00 AM - 6:00 PM",
-      "Thursday": "9:00 AM - 6:00 PM",
-      "Friday": "9:00 AM - 5:00 PM",
-      "Saturday": "10:00 AM - 4:00 PM",
-      "Sunday": "10:00 AM - 4:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Frog and Firkin",
@@ -2532,16 +1488,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Classic college pub offering hearty comfort food, a vast beer selection, and lively campus atmosphere.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 2:00 AM",
-      "Tuesday": "11:00 AM - 2:00 AM",
-      "Wednesday": "11:00 AM - 2:00 AM",
-      "Thursday": "11:00 AM - 2:00 AM",
-      "Friday": "11:00 AM - 2:00 AM",
-      "Saturday": "10:00 AM - 2:00 AM",
-      "Sunday": "10:00 AM - 2:00 AM"
-    }
+    "enriched": true
   },
   {
     "name": "Five Guys",
@@ -2551,16 +1498,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Freshly made burgers, hand-cut fries, and generous portions. A popular, satisfying fast-casual option.",
     "isLocal": false,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 10:00 PM",
-      "Tuesday": "11:00 AM - 10:00 PM",
-      "Wednesday": "11:00 AM - 10:00 PM",
-      "Thursday": "11:00 AM - 10:00 PM",
-      "Friday": "11:00 AM - 10:00 PM",
-      "Saturday": "11:00 AM - 10:00 PM",
-      "Sunday": "11:00 AM - 10:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Eat-a-Pita",
@@ -2570,16 +1508,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Quick and fresh pita sandwiches, flavorful falafel, and other delightful Mediterranean specialties.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "10:30 AM - 9:00 PM",
-      "Tuesday": "10:30 AM - 9:00 PM",
-      "Wednesday": "10:30 AM - 9:00 PM",
-      "Thursday": "10:30 AM - 9:00 PM",
-      "Friday": "10:30 AM - 9:00 PM",
-      "Saturday": "10:30 AM - 9:00 PM",
-      "Sunday": "11:00 AM - 8:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Wok Fire & Grill",
@@ -2589,16 +1518,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Freshly prepared stir-fries and sushi rolls offering customizable, quick, and tasty Asian fare.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 9:00 PM",
-      "Tuesday": "11:00 AM - 9:00 PM",
-      "Wednesday": "11:00 AM - 9:00 PM",
-      "Thursday": "11:00 AM - 9:00 PM",
-      "Friday": "11:00 AM - 9:00 PM",
-      "Saturday": "11:00 AM - 9:00 PM",
-      "Sunday": "12:00 PM - 8:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Original ChopShop",
@@ -2608,16 +1528,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Quick, health-focused bowls, protein shakes, fresh-pressed juices, and vibrant organic salads.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "7:00 AM - 8:00 PM",
-      "Tuesday": "7:00 AM - 8:00 PM",
-      "Wednesday": "7:00 AM - 8:00 PM",
-      "Thursday": "7:00 AM - 8:00 PM",
-      "Friday": "7:00 AM - 8:00 PM",
-      "Saturday": "7:00 AM - 7:00 PM",
-      "Sunday": "7:00 AM - 7:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Sultan Palace",
@@ -2627,16 +1538,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Elegant Middle Eastern spot offering delicious kebabs, falafel, and a warm, inviting ambiance.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 9:00 PM",
-      "Tuesday": "11:00 AM - 9:00 PM",
-      "Wednesday": "11:00 AM - 9:00 PM",
-      "Thursday": "11:00 AM - 9:00 PM",
-      "Friday": "11:00 AM - 9:00 PM",
-      "Saturday": "11:00 AM - 9:00 PM",
-      "Sunday": "11:00 AM - 8:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Pei Wei",
@@ -2646,16 +1548,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Fast-casual Asian kitchen with customizable stir-fries, noodle dishes, and fresh ingredients.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 9:00 PM",
-      "Tuesday": "11:00 AM - 9:00 PM",
-      "Wednesday": "11:00 AM - 9:00 PM",
-      "Thursday": "11:00 AM - 9:00 PM",
-      "Friday": "11:00 AM - 9:00 PM",
-      "Saturday": "11:00 AM - 9:00 PM",
-      "Sunday": "11:00 AM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Red's Smokehouse and Tap Room",
@@ -2665,16 +1558,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Rustic smokehouse and taproom offering savory BBQ, local craft beers, and lively atmosphere.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 10:00 PM",
-      "Tuesday": "11:00 AM - 10:00 PM",
-      "Wednesday": "11:00 AM - 10:00 PM",
-      "Thursday": "11:00 AM - 10:00 PM",
-      "Friday": "11:00 AM - 11:00 PM",
-      "Saturday": "11:00 AM - 11:00 PM",
-      "Sunday": "11:00 AM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Hungry Fox Restaurant & Country Store",
@@ -2684,16 +1568,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Quaint country store and diner serving classic American comfort food and homemade treats.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "6:00 AM - 2:00 PM",
-      "Tuesday": "6:00 AM - 2:00 PM",
-      "Wednesday": "6:00 AM - 2:00 PM",
-      "Thursday": "6:00 AM - 2:00 PM",
-      "Friday": "6:00 AM - 2:00 PM",
-      "Saturday": "6:00 AM - 2:00 PM",
-      "Sunday": "6:00 AM - 2:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Domino's",
@@ -2703,16 +1578,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Go-to for quick, classic pizzas, oven-baked sandwiches, and convenient delivery services.",
     "isLocal": false,
-    "enriched": true,
-    "hours": {
-      "Monday": "10:30 AM - 1:00 AM",
-      "Tuesday": "10:30 AM - 1:00 AM",
-      "Wednesday": "10:30 AM - 1:00 AM",
-      "Thursday": "10:30 AM - 1:00 AM",
-      "Friday": "10:30 AM - 2:00 AM",
-      "Saturday": "10:30 AM - 2:00 AM",
-      "Sunday": "10:30 AM - 12:00 AM"
-    }
+    "enriched": true
   },
   {
     "name": "Maru Plus Japanese Noodle, Onigiri & More",
@@ -2722,16 +1588,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Delicious Japanese noodles, fresh onigiri, and authentic small bites in a cozy setting.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 9:00 PM",
-      "Tuesday": "11:00 AM - 9:00 PM",
-      "Wednesday": "11:00 AM - 9:00 PM",
-      "Thursday": "11:00 AM - 9:00 PM",
-      "Friday": "11:00 AM - 9:00 PM",
-      "Saturday": "11:00 AM - 9:00 PM",
-      "Sunday": "Closed"
-    }
+    "enriched": true
   },
   {
     "name": "Silver Mine Subs",
@@ -2741,16 +1598,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Mining-themed sandwich shop offering hearty subs, salads, and fast, friendly service.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "10:00 AM - 3:00 AM",
-      "Tuesday": "10:00 AM - 3:00 AM",
-      "Wednesday": "10:00 AM - 3:00 AM",
-      "Thursday": "10:00 AM - 3:00 AM",
-      "Friday": "10:00 AM - 3:00 AM",
-      "Saturday": "10:00 AM - 3:00 AM",
-      "Sunday": "10:00 AM - 3:00 AM"
-    }
+    "enriched": true
   },
   {
     "name": "Chipotle",
@@ -2760,16 +1608,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Build-your-own burritos and bowls with fresh ingredients and customizable toppings.",
     "isLocal": false,
-    "enriched": true,
-    "hours": {
-      "Monday": "10:45 AM - 10:00 PM",
-      "Tuesday": "10:45 AM - 10:00 PM",
-      "Wednesday": "10:45 AM - 10:00 PM",
-      "Thursday": "10:45 AM - 10:00 PM",
-      "Friday": "10:45 AM - 10:00 PM",
-      "Saturday": "10:45 AM - 10:00 PM",
-      "Sunday": "10:45 AM - 10:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "The Rock",
@@ -2779,16 +1618,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Lively local spot for live music, pub grub, and a wide selection of craft beers.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "4:00 PM - 1:00 AM",
-      "Tuesday": "4:00 PM - 1:00 AM",
-      "Wednesday": "4:00 PM - 1:00 AM",
-      "Thursday": "4:00 PM - 1:00 AM",
-      "Friday": "4:00 PM - 2:00 AM",
-      "Saturday": "12:00 PM - 2:00 AM",
-      "Sunday": "12:00 PM - 12:00 AM"
-    }
+    "enriched": true
   },
   {
     "name": "Dunkin Donuts/Baskin Robbins",
@@ -2798,16 +1628,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Dual-brand stop for coffee, donuts, and a vast selection of ice cream flavors.",
     "isLocal": false,
-    "enriched": true,
-    "hours": {
-      "Monday": "5:00 AM - 9:00 PM",
-      "Tuesday": "5:00 AM - 9:00 PM",
-      "Wednesday": "5:00 AM - 9:00 PM",
-      "Thursday": "5:00 AM - 9:00 PM",
-      "Friday": "5:00 AM - 9:00 PM",
-      "Saturday": "5:00 AM - 9:00 PM",
-      "Sunday": "5:00 AM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Espresso Art",
@@ -2836,16 +1657,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Authentic Japanese dining offering fresh sushi rolls, sashimi, and classic izakaya-style small plates.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 2:30 PM, 4:30 PM - 9:00 PM",
-      "Tuesday": "11:00 AM - 2:30 PM, 4:30 PM - 9:00 PM",
-      "Wednesday": "11:00 AM - 2:30 PM, 4:30 PM - 9:00 PM",
-      "Thursday": "11:00 AM - 2:30 PM, 4:30 PM - 9:00 PM",
-      "Friday": "11:00 AM - 2:30 PM, 4:30 PM - 9:30 PM",
-      "Saturday": "12:00 PM - 9:30 PM",
-      "Sunday": "12:00 PM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Lucky Wishbone",
@@ -2855,16 +1667,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Long-standing Tucson institution for classic fried chicken, shrimp, and delectable crisp onion rings.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 9:00 PM",
-      "Tuesday": "11:00 AM - 9:00 PM",
-      "Wednesday": "11:00 AM - 9:00 PM",
-      "Thursday": "11:00 AM - 9:00 PM",
-      "Friday": "11:00 AM - 9:00 PM",
-      "Saturday": "11:00 AM - 9:00 PM",
-      "Sunday": "Closed"
-    }
+    "enriched": true
   },
   {
     "name": "Baja Grill",
@@ -2874,16 +1677,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Casual grill offering tasty burgers, tacos, and classic American comfort food. Laid-back atmosphere.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "7:00 AM - 2:00 PM",
-      "Tuesday": "7:00 AM - 2:00 PM",
-      "Wednesday": "7:00 AM - 2:00 PM",
-      "Thursday": "7:00 AM - 2:00 PM",
-      "Friday": "7:00 AM - 2:00 PM",
-      "Saturday": "7:00 AM - 2:00 PM",
-      "Sunday": "7:00 AM - 2:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Applebee's",
@@ -2893,16 +1687,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Casual neighborhood grill offering diverse American fare, burgers, and classic happy hour specials.",
     "isLocal": false,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 11:00 PM",
-      "Tuesday": "11:00 AM - 11:00 PM",
-      "Wednesday": "11:00 AM - 11:00 PM",
-      "Thursday": "11:00 AM - 11:00 PM",
-      "Friday": "11:00 AM - 12:00 AM",
-      "Saturday": "11:00 AM - 12:00 AM",
-      "Sunday": "11:00 AM - 10:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "DJ's Island Grill",
@@ -2912,16 +1697,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Experience authentic Hawaiian flavors with plate lunches and island-inspired comfort food delights.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 8:00 PM",
-      "Tuesday": "11:00 AM - 8:00 PM",
-      "Wednesday": "11:00 AM - 8:00 PM",
-      "Thursday": "11:00 AM - 8:00 PM",
-      "Friday": "11:00 AM - 8:00 PM",
-      "Saturday": "11:00 AM - 8:00 PM",
-      "Sunday": "Closed"
-    }
+    "enriched": true
   },
   {
     "name": "Jamba",
@@ -2931,16 +1707,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Vibrant spot for refreshing fruit smoothies, freshly squeezed juices, and energizing acai bowls.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "7:00 AM - 8:00 PM",
-      "Tuesday": "7:00 AM - 8:00 PM",
-      "Wednesday": "7:00 AM - 8:00 PM",
-      "Thursday": "7:00 AM - 8:00 PM",
-      "Friday": "7:00 AM - 8:00 PM",
-      "Saturday": "8:00 AM - 8:00 PM",
-      "Sunday": "9:00 AM - 7:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "East Coast Super Subs",
@@ -2950,16 +1717,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Authentic East Coast-style subs, packed with fresh ingredients and generous portions.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "10:30 AM - 8:00 PM",
-      "Tuesday": "10:30 AM - 8:00 PM",
-      "Wednesday": "10:30 AM - 8:00 PM",
-      "Thursday": "10:30 AM - 8:00 PM",
-      "Friday": "10:30 AM - 8:00 PM",
-      "Saturday": "10:30 AM - 8:00 PM",
-      "Sunday": "Closed"
-    }
+    "enriched": true
   },
   {
     "name": "Sinbad's",
@@ -2969,16 +1727,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Authentic flavors, generous portions of gyros, kebabs, and fresh salads.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 9:00 PM",
-      "Tuesday": "11:00 AM - 9:00 PM",
-      "Wednesday": "11:00 AM - 9:00 PM",
-      "Thursday": "11:00 AM - 9:00 PM",
-      "Friday": "11:00 AM - 9:00 PM",
-      "Saturday": "11:00 AM - 9:00 PM",
-      "Sunday": "11:00 AM - 8:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Govinda's Natural Foods Buffet",
@@ -2988,16 +1737,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Peaceful vegetarian oasis; serves an all-you-can-eat international vegetarian buffet, fresh salads, and vegan desserts.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:30 AM - 2:00 PM, 5:00 PM - 8:30 PM",
-      "Tuesday": "11:30 AM - 2:00 PM, 5:00 PM - 8:30 PM",
-      "Wednesday": "11:30 AM - 2:00 PM, 5:00 PM - 8:30 PM",
-      "Thursday": "11:30 AM - 2:00 PM, 5:00 PM - 8:30 PM",
-      "Friday": "11:30 AM - 2:00 PM, 5:00 PM - 8:30 PM",
-      "Saturday": "12:00 PM - 3:00 PM, 5:00 PM - 8:30 PM",
-      "Sunday": "12:00 PM - 3:00 PM, 5:00 PM - 8:30 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Casa Molina",
@@ -3007,16 +1747,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Long-standing family restaurant serving traditional Sonoran Mexican cuisine in a charming setting. Tucson tradition.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 9:00 PM",
-      "Tuesday": "11:00 AM - 9:00 PM",
-      "Wednesday": "11:00 AM - 9:00 PM",
-      "Thursday": "11:00 AM - 9:00 PM",
-      "Friday": "11:00 AM - 10:00 PM",
-      "Saturday": "11:00 AM - 10:00 PM",
-      "Sunday": "11:00 AM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Chick-fil-A (El Con)",
@@ -3026,16 +1757,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "High-efficiency institutional location; crispy chicken sandwiches, waffle fries, and signature dipping sauces.",
     "isLocal": false,
-    "enriched": true,
-    "hours": {
-      "Monday": "6:00 AM - 10:00 PM",
-      "Tuesday": "6:00 AM - 10:00 PM",
-      "Wednesday": "6:00 AM - 10:00 PM",
-      "Thursday": "6:00 AM - 10:00 PM",
-      "Friday": "6:00 AM - 10:00 PM",
-      "Saturday": "6:00 AM - 10:00 PM",
-      "Sunday": "Closed"
-    }
+    "enriched": true
   },
   {
     "name": "Tooley's Cafe",
@@ -3045,16 +1767,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Cozy neighborhood cafe known for delicious coffee, breakfast burritos, and friendly community atmosphere.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "7:00 AM - 3:00 PM",
-      "Tuesday": "7:00 AM - 3:00 PM",
-      "Wednesday": "7:00 AM - 3:00 PM",
-      "Thursday": "7:00 AM - 3:00 PM",
-      "Friday": "7:00 AM - 3:00 PM",
-      "Saturday": "8:00 AM - 2:00 PM",
-      "Sunday": "Closed"
-    }
+    "enriched": true
   },
   {
     "name": "Beyond Bread",
@@ -3064,16 +1777,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Artisanal bakery offering fresh-baked breads, gourmet sandwiches, and delightful pastries. A local gem.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "6:30 AM - 5:00 PM",
-      "Tuesday": "6:30 AM - 5:00 PM",
-      "Wednesday": "6:30 AM - 5:00 PM",
-      "Thursday": "6:30 AM - 5:00 PM",
-      "Friday": "6:30 AM - 5:00 PM",
-      "Saturday": "6:30 AM - 5:00 PM",
-      "Sunday": "7:00 AM - 4:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Nico's Taco Shop",
@@ -3083,16 +1787,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Authentic late-night Mexican food specializing in generous portions of street tacos and burritos.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "24 Hours",
-      "Tuesday": "24 Hours",
-      "Wednesday": "24 Hours",
-      "Thursday": "24 Hours",
-      "Friday": "24 Hours",
-      "Saturday": "24 Hours",
-      "Sunday": "24 Hours"
-    }
+    "enriched": true
   },
   {
     "name": "Rubio's Mexican",
@@ -3102,16 +1797,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Known for original beer-battered fish tacos, coastal Mexican bowls, and fresh citrus salsas.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "10:30 AM - 9:00 PM",
-      "Tuesday": "10:30 AM - 9:00 PM",
-      "Wednesday": "10:30 AM - 9:00 PM",
-      "Thursday": "10:30 AM - 9:00 PM",
-      "Friday": "10:30 AM - 9:00 PM",
-      "Saturday": "10:30 AM - 9:00 PM",
-      "Sunday": "10:30 AM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Ciao Down Pizza",
@@ -3121,16 +1807,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Serving up delicious pizzas with fresh toppings and a casual, friendly neighborhood vibe.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 9:00 PM",
-      "Tuesday": "11:00 AM - 9:00 PM",
-      "Wednesday": "11:00 AM - 9:00 PM",
-      "Thursday": "11:00 AM - 9:00 PM",
-      "Friday": "11:00 AM - 10:00 PM",
-      "Saturday": "11:00 AM - 10:00 PM",
-      "Sunday": "12:00 PM - 8:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Filiberto's",
@@ -3140,16 +1817,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Reliable late-night spot for classic Sonoran hot dogs, burritos, and quick Mexican bites.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "24 Hours",
-      "Tuesday": "24 Hours",
-      "Wednesday": "24 Hours",
-      "Thursday": "24 Hours",
-      "Friday": "24 Hours",
-      "Saturday": "24 Hours",
-      "Sunday": "24 Hours"
-    }
+    "enriched": true
   },
   {
     "name": "Del Taco",
@@ -3159,16 +1827,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Fast-food chain serving a mix of Mexican and American favorites, great for quick bites.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "10:00 AM - 1:00 AM",
-      "Tuesday": "10:00 AM - 1:00 AM",
-      "Wednesday": "10:00 AM - 1:00 AM",
-      "Thursday": "10:00 AM - 1:00 AM",
-      "Friday": "10:00 AM - 2:00 AM",
-      "Saturday": "10:00 AM - 2:00 AM",
-      "Sunday": "10:00 AM - 12:00 AM"
-    }
+    "enriched": true
   },
   {
     "name": "The Depot",
@@ -3178,16 +1837,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Historic spot offering hearty American comfort food, steaks, and a lively bar scene.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 10:00 PM",
-      "Tuesday": "11:00 AM - 10:00 PM",
-      "Wednesday": "11:00 AM - 10:00 PM",
-      "Thursday": "11:00 AM - 10:00 PM",
-      "Friday": "11:00 AM - 11:00 PM",
-      "Saturday": "11:00 AM - 11:00 PM",
-      "Sunday": "11:00 AM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Jimmy John's",
@@ -3197,16 +1847,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Freaky fast delivery of fresh-sliced subs, perfect for a quick lunch.",
     "isLocal": false,
-    "enriched": true,
-    "hours": {
-      "Monday": "10:30 AM - 9:00 PM",
-      "Tuesday": "10:30 AM - 9:00 PM",
-      "Wednesday": "10:30 AM - 9:00 PM",
-      "Thursday": "10:30 AM - 9:00 PM",
-      "Friday": "10:30 AM - 9:00 PM",
-      "Saturday": "10:30 AM - 9:00 PM",
-      "Sunday": "11:00 AM - 8:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Biscuits Country Cafe",
@@ -3235,16 +1876,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Casual spot for classic Sonoran Mexican dishes, known for delicious burritos and tacos. Quick, tasty.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "10:30 AM - 9:00 PM",
-      "Tuesday": "10:30 AM - 9:00 PM",
-      "Wednesday": "10:30 AM - 9:00 PM",
-      "Thursday": "10:30 AM - 9:00 PM",
-      "Friday": "10:30 AM - 9:30 PM",
-      "Saturday": "10:30 AM - 9:30 PM",
-      "Sunday": "10:30 AM - 8:30 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Smashburger",
@@ -3254,16 +1886,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Smashed-to-order burgers with unique toppings and delicious fries. A quality fast-casual choice.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 9:00 PM",
-      "Tuesday": "11:00 AM - 9:00 PM",
-      "Wednesday": "11:00 AM - 9:00 PM",
-      "Thursday": "11:00 AM - 9:00 PM",
-      "Friday": "11:00 AM - 9:30 PM",
-      "Saturday": "11:00 AM - 9:30 PM",
-      "Sunday": "11:00 AM - 8:30 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Midtown Vegan Deli & Market",
@@ -3273,16 +1896,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Innovative vegan deli serving delicious plant-based sandwiches, salads, and market provisions.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "Closed",
-      "Tuesday": "10:00 AM - 7:00 PM",
-      "Wednesday": "10:00 AM - 7:00 PM",
-      "Thursday": "10:00 AM - 7:00 PM",
-      "Friday": "10:00 AM - 7:00 PM",
-      "Saturday": "10:00 AM - 6:00 PM",
-      "Sunday": "10:00 AM - 5:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Yamato",
@@ -3292,16 +1906,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$$",
     "notes": "Fresh sushi, sashimi, and classic Japanese entrees in a sophisticated, inviting atmosphere.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "Closed",
-      "Tuesday": "11:00 AM - 9:30 PM",
-      "Wednesday": "11:00 AM - 9:30 PM",
-      "Thursday": "11:00 AM - 9:30 PM",
-      "Friday": "11:00 AM - 10:00 PM",
-      "Saturday": "11:00 AM - 10:00 PM",
-      "Sunday": "11:00 AM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Del Cielo Tamal",
@@ -3311,16 +1916,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Handcrafted Sonoran tamales bursting with traditional flavors. A true Tucson hidden gem.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "9:00 AM - 5:00 PM",
-      "Tuesday": "9:00 AM - 5:00 PM",
-      "Wednesday": "9:00 AM - 5:00 PM",
-      "Thursday": "9:00 AM - 5:00 PM",
-      "Friday": "9:00 AM - 5:00 PM",
-      "Saturday": "9:00 AM - 3:00 PM",
-      "Sunday": "Closed"
-    }
+    "enriched": true
   },
   {
     "name": "Kung Fu Noodle",
@@ -3330,16 +1926,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Experience authentic hand-pulled noodles and savory Chinese dishes bursting with flavor.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 9:00 PM",
-      "Tuesday": "11:00 AM - 9:00 PM",
-      "Wednesday": "11:00 AM - 9:00 PM",
-      "Thursday": "11:00 AM - 9:00 PM",
-      "Friday": "11:00 AM - 9:30 PM",
-      "Saturday": "11:00 AM - 9:30 PM",
-      "Sunday": "11:00 AM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "El Jefe Cat Lounge",
@@ -3349,16 +1936,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Relaxed cafe for cat lovers to enjoy coffee and pastries with adorable feline friends.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "9:00 AM - 6:00 PM",
-      "Tuesday": "9:00 AM - 6:00 PM",
-      "Wednesday": "9:00 AM - 6:00 PM",
-      "Thursday": "9:00 AM - 6:00 PM",
-      "Friday": "9:00 AM - 7:00 PM",
-      "Saturday": "9:00 AM - 7:00 PM",
-      "Sunday": "9:00 AM - 6:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Wienerschnitzel",
@@ -3368,16 +1946,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Classic hot dogs, chili cheese fries, and corn dogs for a quick, nostalgic treat.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "10:00 AM - 10:00 PM",
-      "Tuesday": "10:00 AM - 10:00 PM",
-      "Wednesday": "10:00 AM - 10:00 PM",
-      "Thursday": "10:00 AM - 10:00 PM",
-      "Friday": "10:00 AM - 11:00 PM",
-      "Saturday": "10:00 AM - 11:00 PM",
-      "Sunday": "10:00 AM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Golden Corral",
@@ -3387,16 +1956,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "All-you-can-eat buffet offering diverse American comfort food, carving stations, and fresh baked goods.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 9:00 PM",
-      "Tuesday": "11:00 AM - 9:00 PM",
-      "Wednesday": "11:00 AM - 9:00 PM",
-      "Thursday": "11:00 AM - 9:00 PM",
-      "Friday": "11:00 AM - 10:00 PM",
-      "Saturday": "7:00 AM - 10:00 PM",
-      "Sunday": "7:00 AM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Baggin's Gourmet Sandwiches",
@@ -3406,16 +1966,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Tucson's beloved sandwich shop, renowned for fresh ingredients and generously piled gourmet creations.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "10:30 AM - 7:00 PM",
-      "Tuesday": "10:30 AM - 7:00 PM",
-      "Wednesday": "10:30 AM - 7:00 PM",
-      "Thursday": "10:30 AM - 7:00 PM",
-      "Friday": "10:30 AM - 7:00 PM",
-      "Saturday": "10:30 AM - 6:00 PM",
-      "Sunday": "Closed"
-    }
+    "enriched": true
   },
   {
     "name": "Bisbee Breakfast Club",
@@ -3425,16 +1976,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Local favorite; homemade breakfast until 3 p.m. featuring Blue Wally Cakes, loaded hash, and pies.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "6:00 AM - 2:00 PM",
-      "Tuesday": "6:00 AM - 2:00 PM",
-      "Wednesday": "6:00 AM - 2:00 PM",
-      "Thursday": "6:00 AM - 2:00 PM",
-      "Friday": "6:00 AM - 2:00 PM",
-      "Saturday": "6:00 AM - 2:00 PM",
-      "Sunday": "6:00 AM - 2:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Kogi Korean BBQ",
@@ -3444,16 +1986,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Authentic Korean BBQ experience with sizzling bulgogi and delicious banchan. A lively atmosphere.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "Closed",
-      "Tuesday": "11:30 AM - 2:00 PM, 5:00 PM - 9:30 PM",
-      "Wednesday": "11:30 AM - 2:00 PM, 5:00 PM - 9:30 PM",
-      "Thursday": "11:30 AM - 2:00 PM, 5:00 PM - 9:30 PM",
-      "Friday": "11:30 AM - 2:00 PM, 5:00 PM - 10:00 PM",
-      "Saturday": "11:30 AM - 10:00 PM",
-      "Sunday": "11:30 AM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Sher-i Punjab",
@@ -3463,16 +1996,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Exquisite Punjabi dishes, renowned for authentic flavors, fragrant spices, and a cozy ambiance.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "Closed",
-      "Tuesday": "11:00 AM - 2:30 PM, 5:00 PM - 9:00 PM",
-      "Wednesday": "11:00 AM - 2:30 PM, 5:00 PM - 9:00 PM",
-      "Thursday": "11:00 AM - 2:30 PM, 5:00 PM - 9:00 PM",
-      "Friday": "11:00 AM - 2:30 PM, 5:00 PM - 9:30 PM",
-      "Saturday": "11:00 AM - 9:30 PM",
-      "Sunday": "11:00 AM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Hello Cafe",
@@ -3482,16 +2006,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Bright and airy spot for expertly brewed coffee, light bites, and a welcoming community vibe.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "7:00 AM - 4:00 PM",
-      "Tuesday": "7:00 AM - 4:00 PM",
-      "Wednesday": "7:00 AM - 4:00 PM",
-      "Thursday": "7:00 AM - 4:00 PM",
-      "Friday": "7:00 AM - 4:00 PM",
-      "Saturday": "8:00 AM - 3:00 PM",
-      "Sunday": "8:00 AM - 3:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Dolce Vita",
@@ -3501,16 +2016,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "A sweet escape offering delightful Italian-American comfort food. Perfect for a cozy evening.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "Closed",
-      "Tuesday": "11:00 AM - 9:00 PM",
-      "Wednesday": "11:00 AM - 9:00 PM",
-      "Thursday": "11:00 AM - 9:00 PM",
-      "Friday": "11:00 AM - 10:00 PM",
-      "Saturday": "11:00 AM - 10:00 PM",
-      "Sunday": "11:00 AM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Rosa's Mexican Food",
@@ -3520,16 +2026,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Homestyle Mexican cooking with generous portions, offering comforting, traditional flavors.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "10:00 AM - 9:00 PM",
-      "Tuesday": "10:00 AM - 9:00 PM",
-      "Wednesday": "10:00 AM - 9:00 PM",
-      "Thursday": "10:00 AM - 9:00 PM",
-      "Friday": "10:00 AM - 9:30 PM",
-      "Saturday": "10:00 AM - 9:30 PM",
-      "Sunday": "10:00 AM - 8:30 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Toss II Ramen",
@@ -3539,16 +2036,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Slurpable ramen bowls with rich broths and fresh ingredients, a comforting Asian escape.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 9:00 PM",
-      "Tuesday": "Closed",
-      "Wednesday": "11:00 AM - 9:00 PM",
-      "Thursday": "11:00 AM - 9:00 PM",
-      "Friday": "11:00 AM - 9:30 PM",
-      "Saturday": "11:00 AM - 9:30 PM",
-      "Sunday": "11:00 AM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Taqueria El Pueblito",
@@ -3558,16 +2046,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Casual spot for authentic, flavorful Mexican street tacos and classic Sonoran dishes.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "9:00 AM - 10:00 PM",
-      "Tuesday": "9:00 AM - 10:00 PM",
-      "Wednesday": "9:00 AM - 10:00 PM",
-      "Thursday": "9:00 AM - 10:00 PM",
-      "Friday": "9:00 AM - 11:00 PM",
-      "Saturday": "9:00 AM - 11:00 PM",
-      "Sunday": "9:00 AM - 10:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Umetea",
@@ -3577,16 +2056,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Refreshing boba teas and unique Asian-inspired beverages, a delightful sweet treat.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 9:00 PM",
-      "Tuesday": "11:00 AM - 9:00 PM",
-      "Wednesday": "11:00 AM - 9:00 PM",
-      "Thursday": "11:00 AM - 9:00 PM",
-      "Friday": "11:00 AM - 9:30 PM",
-      "Saturday": "11:00 AM - 9:30 PM",
-      "Sunday": "11:00 AM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Jun Dynasty",
@@ -3596,16 +2066,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Traditional Chinese dishes and stir fry; specializes in authentic Szechuan peppercorn preparations and spicy broths.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 9:30 PM",
-      "Tuesday": "11:00 AM - 9:30 PM",
-      "Wednesday": "11:00 AM - 9:30 PM",
-      "Thursday": "11:00 AM - 9:30 PM",
-      "Friday": "11:00 AM - 10:00 PM",
-      "Saturday": "11:00 AM - 10:00 PM",
-      "Sunday": "11:00 AM - 9:30 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Romano's Macaroni Grill",
@@ -3615,16 +2076,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Upscale-casual Italian restaurant with classic pasta dishes, wood-fired pizzas, and vibrant ambiance. Date night.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 9:00 PM",
-      "Tuesday": "11:00 AM - 9:00 PM",
-      "Wednesday": "11:00 AM - 9:00 PM",
-      "Thursday": "11:00 AM - 9:00 PM",
-      "Friday": "11:00 AM - 10:00 PM",
-      "Saturday": "11:00 AM - 10:00 PM",
-      "Sunday": "11:00 AM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Yoshimatsu",
@@ -3634,16 +2086,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Focus on healthy Japanese eating; transitioned into Maru Plus offering trendy onigiri, ramen, and vegan options.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "Closed",
-      "Tuesday": "11:00 AM - 2:00 PM, 4:30 PM - 9:00 PM",
-      "Wednesday": "11:00 AM - 2:00 PM, 4:30 PM - 9:00 PM",
-      "Thursday": "11:00 AM - 2:00 PM, 4:30 PM - 9:00 PM",
-      "Friday": "11:00 AM - 2:00 PM, 4:30 PM - 9:30 PM",
-      "Saturday": "11:00 AM - 9:30 PM",
-      "Sunday": "11:00 AM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Zemam's",
@@ -3653,16 +2096,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Traditional spicy Ethiopian cuisine; communal dining featuring injera bread, gomen wat, and spiced lamb strips.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "Closed",
-      "Tuesday": "Closed",
-      "Wednesday": "5:00 PM - 9:00 PM",
-      "Thursday": "5:00 PM - 9:00 PM",
-      "Friday": "5:00 PM - 9:30 PM",
-      "Saturday": "5:00 PM - 9:30 PM",
-      "Sunday": "5:00 PM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Fatman Kitchen",
@@ -3672,16 +2106,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Chinese indulgence featuring house-made Xian Oil Splashing Noodles, Spicy Lamb Noodle Soup, and Pan-Fried Lamb.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 9:00 PM",
-      "Tuesday": "11:00 AM - 9:00 PM",
-      "Wednesday": "11:00 AM - 9:00 PM",
-      "Thursday": "11:00 AM - 9:00 PM",
-      "Friday": "11:00 AM - 9:30 PM",
-      "Saturday": "11:00 AM - 9:30 PM",
-      "Sunday": "11:00 AM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Subway (Campbell)",
@@ -3691,16 +2116,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Fast food submarine sandwiches; offers freshly baked bread, customizable cold cuts, and healthy veggie options.",
     "isLocal": false,
-    "enriched": true,
-    "hours": {
-      "Monday": "7:00 AM - 10:00 PM",
-      "Tuesday": "7:00 AM - 10:00 PM",
-      "Wednesday": "7:00 AM - 10:00 PM",
-      "Thursday": "7:00 AM - 10:00 PM",
-      "Friday": "7:00 AM - 10:00 PM",
-      "Saturday": "8:00 AM - 9:00 PM",
-      "Sunday": "8:00 AM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Dante's Fire",
@@ -4310,16 +2726,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Neighborhood staple; affordable happy hour featuring riblets, spinach dip, and casual burgers.",
     "isLocal": false,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 11:00 PM",
-      "Tuesday": "11:00 AM - 11:00 PM",
-      "Wednesday": "11:00 AM - 11:00 PM",
-      "Thursday": "11:00 AM - 11:00 PM",
-      "Friday": "11:00 AM - 12:00 AM",
-      "Saturday": "11:00 AM - 12:00 AM",
-      "Sunday": "11:00 AM - 10:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Chef Wang",
@@ -4329,16 +2736,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Family-friendly spot serving classic Chinese-American dishes. A reliable choice for favorites.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 2:30 PM, 4:30 PM - 9:30 PM",
-      "Tuesday": "11:00 AM - 2:30 PM, 4:30 PM - 9:30 PM",
-      "Wednesday": "11:00 AM - 2:30 PM, 4:30 PM - 9:30 PM",
-      "Thursday": "11:00 AM - 2:30 PM, 4:30 PM - 9:30 PM",
-      "Friday": "11:00 AM - 2:30 PM, 4:30 PM - 10:00 PM",
-      "Saturday": "11:00 AM - 10:00 PM",
-      "Sunday": "12:00 PM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Shooters Bar and Grill",
@@ -4348,16 +2746,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Lively sports bar with pub grub, cold drinks, and a casual, friendly atmosphere. Great spot.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 1:00 AM",
-      "Tuesday": "11:00 AM - 1:00 AM",
-      "Wednesday": "11:00 AM - 1:00 AM",
-      "Thursday": "11:00 AM - 1:00 AM",
-      "Friday": "11:00 AM - 2:00 AM",
-      "Saturday": "11:00 AM - 2:00 AM",
-      "Sunday": "11:00 AM - 12:00 AM"
-    }
+    "enriched": true
   },
   {
     "name": "Whataburger",
@@ -4367,16 +2756,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Texas-sized burgers, classic shakes, and a menu with unique, delicious fast-food favorites.",
     "isLocal": false,
-    "enriched": true,
-    "hours": {
-      "Monday": "24 Hours",
-      "Tuesday": "24 Hours",
-      "Wednesday": "24 Hours",
-      "Thursday": "24 Hours",
-      "Friday": "24 Hours",
-      "Saturday": "24 Hours",
-      "Sunday": "24 Hours"
-    }
+    "enriched": true
   },
   {
     "name": "Venture-N",
@@ -4386,16 +2766,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Friendly neighborhood bar, perfect for unwinding with a cold drink and good conversation.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "3:00 PM - 1:00 AM",
-      "Tuesday": "3:00 PM - 1:00 AM",
-      "Wednesday": "3:00 PM - 1:00 AM",
-      "Thursday": "3:00 PM - 1:00 AM",
-      "Friday": "3:00 PM - 2:00 AM",
-      "Saturday": "3:00 PM - 2:00 AM",
-      "Sunday": "12:00 PM - 12:00 AM"
-    }
+    "enriched": true
   },
   {
     "name": "Panda Express (Mall)",
@@ -4405,16 +2776,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "American-Chinese crowd-pleasers; serves quick scoops of Orange Chicken and Beijing Beef.",
     "isLocal": false,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 8:00 PM",
-      "Tuesday": "11:00 AM - 8:00 PM",
-      "Wednesday": "11:00 AM - 8:00 PM",
-      "Thursday": "11:00 AM - 8:00 PM",
-      "Friday": "11:00 AM - 8:00 PM",
-      "Saturday": "11:00 AM - 8:00 PM",
-      "Sunday": "11:00 AM - 6:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Berry Greens Juice Bar",
@@ -4424,16 +2786,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Refreshing and healthy juices, smoothies, and acai bowls, perfect for a healthy boost.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "7:00 AM - 5:00 PM",
-      "Tuesday": "7:00 AM - 5:00 PM",
-      "Wednesday": "7:00 AM - 5:00 PM",
-      "Thursday": "7:00 AM - 5:00 PM",
-      "Friday": "7:00 AM - 5:00 PM",
-      "Saturday": "8:00 AM - 4:00 PM",
-      "Sunday": "Closed"
-    }
+    "enriched": true
   },
   {
     "name": "Girls Kitchen Mexican Food",
@@ -4443,16 +2796,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Homey spot for authentic Sonoran Mexican food, generous portions, and family recipes.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "10:00 AM - 8:00 PM",
-      "Tuesday": "10:00 AM - 8:00 PM",
-      "Wednesday": "10:00 AM - 8:00 PM",
-      "Thursday": "10:00 AM - 8:00 PM",
-      "Friday": "10:00 AM - 8:00 PM",
-      "Saturday": "10:00 AM - 8:00 PM",
-      "Sunday": "Closed"
-    }
+    "enriched": true
   },
   {
     "name": "Playground Bar and Lounge",
@@ -4462,16 +2806,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Downtown hotspot with rooftop views, lively DJ sets, and creative cocktails.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "4:00 PM - 1:00 AM",
-      "Tuesday": "4:00 PM - 1:00 AM",
-      "Wednesday": "4:00 PM - 1:00 AM",
-      "Thursday": "4:00 PM - 1:00 AM",
-      "Friday": "4:00 PM - 2:00 AM",
-      "Saturday": "11:00 AM - 2:00 AM",
-      "Sunday": "11:00 AM - 12:00 AM"
-    }
+    "enriched": true
   },
   {
     "name": "Grimaldi's Pizzeria",
@@ -4481,16 +2816,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Coal-fired brick oven pizza chain; serves traditional Brooklyn-style thin crusts, fresh mozzarella, and calzones.",
     "isLocal": false,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 9:00 PM",
-      "Tuesday": "11:00 AM - 9:00 PM",
-      "Wednesday": "11:00 AM - 9:00 PM",
-      "Thursday": "11:00 AM - 9:00 PM",
-      "Friday": "11:00 AM - 10:00 PM",
-      "Saturday": "11:00 AM - 10:00 PM",
-      "Sunday": "11:00 AM - 8:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Flower Child",
@@ -4500,16 +2826,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Modern health food; organic vegetables, Mother Earth bowls, sustainable salmon, and gluten-free wraps.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 9:00 PM",
-      "Tuesday": "11:00 AM - 9:00 PM",
-      "Wednesday": "11:00 AM - 9:00 PM",
-      "Thursday": "11:00 AM - 9:00 PM",
-      "Friday": "11:00 AM - 9:00 PM",
-      "Saturday": "11:00 AM - 9:00 PM",
-      "Sunday": "11:00 AM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Popeyes",
@@ -4519,16 +2836,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Spicy New Orleans-style fried chicken and famous buttermilk biscuits, a delicious fast food treat.",
     "isLocal": false,
-    "enriched": true,
-    "hours": {
-      "Monday": "10:30 AM - 10:00 PM",
-      "Tuesday": "10:30 AM - 10:00 PM",
-      "Wednesday": "10:30 AM - 10:00 PM",
-      "Thursday": "10:30 AM - 10:00 PM",
-      "Friday": "10:30 AM - 10:00 PM",
-      "Saturday": "10:30 AM - 10:00 PM",
-      "Sunday": "10:30 AM - 10:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Texas Roadhouse",
@@ -4538,16 +2846,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$$",
     "notes": "Family-style steakhouse; hand-cut steaks, fall-off-the-bone ribs, and fresh-baked yeast rolls.",
     "isLocal": false,
-    "enriched": true,
-    "hours": {
-      "Monday": "Closed",
-      "Tuesday": "3:00 PM - 10:00 PM",
-      "Wednesday": "3:00 PM - 10:00 PM",
-      "Thursday": "3:00 PM - 10:00 PM",
-      "Friday": "3:00 PM - 11:00 PM",
-      "Saturday": "11:00 AM - 11:00 PM",
-      "Sunday": "11:00 AM - 10:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Black Bear Diner",
@@ -4557,16 +2856,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Homestyle diner; \"big portions\" of chicken fried steak, massive pancakes, and thick-cut bacon.",
     "isLocal": false,
-    "enriched": true,
-    "hours": {
-      "Monday": "6:00 AM - 10:00 PM",
-      "Tuesday": "6:00 AM - 10:00 PM",
-      "Wednesday": "6:00 AM - 10:00 PM",
-      "Thursday": "6:00 AM - 10:00 PM",
-      "Friday": "6:00 AM - 10:00 PM",
-      "Saturday": "6:00 AM - 10:00 PM",
-      "Sunday": "6:00 AM - 10:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Red Lobster",
@@ -4576,16 +2866,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$$",
     "notes": "Known for Cheddar Bay Biscuits, Maine lobster tails, and massive crab-stuffed shrimp platters.",
     "isLocal": false,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 9:00 PM",
-      "Tuesday": "11:00 AM - 9:00 PM",
-      "Wednesday": "11:00 AM - 9:00 PM",
-      "Thursday": "11:00 AM - 9:00 PM",
-      "Friday": "11:00 AM - 10:00 PM",
-      "Saturday": "11:00 AM - 10:00 PM",
-      "Sunday": "11:00 AM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Govinda's Indian Eatery",
@@ -4595,16 +2876,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Vegetarian Indian buffet with a peaceful ambiance, flavorful curries, and traditional sweets.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:30 AM - 2:30 PM, 5:00 PM - 8:00 PM",
-      "Tuesday": "11:30 AM - 2:30 PM, 5:00 PM - 8:00 PM",
-      "Wednesday": "11:30 AM - 2:30 PM, 5:00 PM - 8:00 PM",
-      "Thursday": "11:30 AM - 2:30 PM, 5:00 PM - 8:00 PM",
-      "Friday": "11:30 AM - 2:30 PM, 5:00 PM - 8:00 PM",
-      "Saturday": "12:00 PM - 8:00 PM",
-      "Sunday": "Closed"
-    }
+    "enriched": true
   },
   {
     "name": "Indian Twist",
@@ -4614,16 +2886,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Offers vibrant and aromatic Indian dishes, bringing authentic flavors and spices to Tucson.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 2:30 PM, 5:00 PM - 9:00 PM",
-      "Tuesday": "11:00 AM - 2:30 PM, 5:00 PM - 9:00 PM",
-      "Wednesday": "11:00 AM - 2:30 PM, 5:00 PM - 9:00 PM",
-      "Thursday": "11:00 AM - 2:30 PM, 5:00 PM - 9:00 PM",
-      "Friday": "11:00 AM - 2:30 PM, 5:00 PM - 10:00 PM",
-      "Saturday": "11:00 AM - 2:30 PM, 5:00 PM - 10:00 PM",
-      "Sunday": "12:00 PM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Elliott's",
@@ -4633,16 +2896,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$$",
     "notes": "Upscale American restaurant featuring seasonal menus, craft cocktails, and elegant dining.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 10:00 PM",
-      "Tuesday": "11:00 AM - 10:00 PM",
-      "Wednesday": "11:00 AM - 10:00 PM",
-      "Thursday": "11:00 AM - 10:00 PM",
-      "Friday": "11:00 AM - 11:00 PM",
-      "Saturday": "11:00 AM - 11:00 PM",
-      "Sunday": "10:00 AM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Jimmy John's",
@@ -4652,16 +2906,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Freaky fast sandwiches with fresh ingredients, perfect for a quick, satisfying lunch.",
     "isLocal": false,
-    "enriched": true,
-    "hours": {
-      "Monday": "10:00 AM - 9:00 PM",
-      "Tuesday": "10:00 AM - 9:00 PM",
-      "Wednesday": "10:00 AM - 9:00 PM",
-      "Thursday": "10:00 AM - 9:00 PM",
-      "Friday": "10:00 AM - 9:00 PM",
-      "Saturday": "10:00 AM - 9:00 PM",
-      "Sunday": "10:00 AM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Borderlands Brewing Co.",
@@ -4671,16 +2916,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Local brewery crafting unique beers with a lively taproom and inviting outdoor patio.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "3:00 PM - 10:00 PM",
-      "Tuesday": "3:00 PM - 10:00 PM",
-      "Wednesday": "3:00 PM - 10:00 PM",
-      "Thursday": "3:00 PM - 10:00 PM",
-      "Friday": "12:00 PM - 11:00 PM",
-      "Saturday": "12:00 PM - 11:00 PM",
-      "Sunday": "12:00 PM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Salad and Go",
@@ -4690,16 +2926,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Drive-thru offering fresh, healthy salads and wraps quickly. Perfect for on-the-go.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "6:00 AM - 8:00 PM",
-      "Tuesday": "6:00 AM - 8:00 PM",
-      "Wednesday": "6:00 AM - 8:00 PM",
-      "Thursday": "6:00 AM - 8:00 PM",
-      "Friday": "6:00 AM - 8:00 PM",
-      "Saturday": "6:00 AM - 8:00 PM",
-      "Sunday": "6:00 AM - 8:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Bumsted's",
@@ -4709,16 +2936,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Casual sports bar serving hearty burgers, classic pub fare, and cold local beers.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "7:00 AM - 9:00 PM",
-      "Tuesday": "7:00 AM - 9:00 PM",
-      "Wednesday": "7:00 AM - 9:00 PM",
-      "Thursday": "7:00 AM - 9:00 PM",
-      "Friday": "7:00 AM - 9:00 PM",
-      "Saturday": "7:00 AM - 9:00 PM",
-      "Sunday": "7:00 AM - 2:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Med Cuisine",
@@ -4728,16 +2946,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Authentic Mediterranean flavors, featuring fresh kebabs, hummus, and flavorful falafel. A healthy choice.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 9:00 PM",
-      "Tuesday": "11:00 AM - 9:00 PM",
-      "Wednesday": "11:00 AM - 9:00 PM",
-      "Thursday": "11:00 AM - 9:00 PM",
-      "Friday": "11:00 AM - 9:30 PM",
-      "Saturday": "11:00 AM - 9:30 PM",
-      "Sunday": "Closed"
-    }
+    "enriched": true
   },
   {
     "name": "Wendy's",
@@ -4747,16 +2956,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Known for square patties, fresh never-frozen beef, and classic Frosty desserts. Quick, satisfying.",
     "isLocal": false,
-    "enriched": true,
-    "hours": {
-      "Monday": "10:00 AM - 11:00 PM",
-      "Tuesday": "10:00 AM - 11:00 PM",
-      "Wednesday": "10:00 AM - 11:00 PM",
-      "Thursday": "10:00 AM - 11:00 PM",
-      "Friday": "10:00 AM - 11:00 PM",
-      "Saturday": "10:00 AM - 11:00 PM",
-      "Sunday": "10:00 AM - 11:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "The Little One",
@@ -4766,16 +2966,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Tiny, cash-only spot serving authentic, delicious Mexican breakfast and lunch dishes. Must try!",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "Closed",
-      "Tuesday": "11:00 AM - 2:00 PM",
-      "Wednesday": "11:00 AM - 2:00 PM",
-      "Thursday": "11:00 AM - 2:00 PM",
-      "Friday": "11:00 AM - 2:00 PM",
-      "Saturday": "Closed",
-      "Sunday": "Closed"
-    }
+    "enriched": true
   },
   {
     "name": "Olive Garden",
@@ -4785,16 +2976,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Casual Italian chain known for unlimited breadsticks, garden salad, and classic pasta dishes.",
     "isLocal": false,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 10:00 PM",
-      "Tuesday": "11:00 AM - 10:00 PM",
-      "Wednesday": "11:00 AM - 10:00 PM",
-      "Thursday": "11:00 AM - 10:00 PM",
-      "Friday": "11:00 AM - 11:00 PM",
-      "Saturday": "11:00 AM - 11:00 PM",
-      "Sunday": "11:00 AM - 10:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Gemstone Cafe",
@@ -4804,16 +2986,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Hidden gem cafe, unique coffee creations, tasty pastries, and a serene, artsy environment.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "7:00 AM - 4:00 PM",
-      "Tuesday": "7:00 AM - 4:00 PM",
-      "Wednesday": "7:00 AM - 4:00 PM",
-      "Thursday": "7:00 AM - 4:00 PM",
-      "Friday": "7:00 AM - 4:00 PM",
-      "Saturday": "7:00 AM - 4:00 PM",
-      "Sunday": "8:00 AM - 3:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Subway",
@@ -4823,16 +2996,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Build-your-own sandwiches with fresh ingredients, quick service, and healthy options.",
     "isLocal": false,
-    "enriched": true,
-    "hours": {
-      "Monday": "9:00 AM - 9:00 PM",
-      "Tuesday": "9:00 AM - 9:00 PM",
-      "Wednesday": "9:00 AM - 9:00 PM",
-      "Thursday": "9:00 AM - 9:00 PM",
-      "Friday": "9:00 AM - 9:00 PM",
-      "Saturday": "9:00 AM - 9:00 PM",
-      "Sunday": "9:00 AM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "HeeMee Coffee + Bakery on Congress",
@@ -4842,16 +3006,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Charming urban cafe for specialty coffee drinks, delicate pastries, and light bites.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "6:00 AM - 6:00 PM",
-      "Tuesday": "6:00 AM - 6:00 PM",
-      "Wednesday": "6:00 AM - 6:00 PM",
-      "Thursday": "6:00 AM - 6:00 PM",
-      "Friday": "6:00 AM - 6:00 PM",
-      "Saturday": "7:00 AM - 5:00 PM",
-      "Sunday": "7:00 AM - 5:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "India Oven",
@@ -4861,16 +3016,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Long-standing midtown Indian dining; serves rich chicken tikka masala, garlic naan, and a traditional lunch buffet.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 2:30 PM, 5:00 PM - 9:30 PM",
-      "Tuesday": "11:00 AM - 2:30 PM, 5:00 PM - 9:30 PM",
-      "Wednesday": "11:00 AM - 2:30 PM, 5:00 PM - 9:30 PM",
-      "Thursday": "11:00 AM - 2:30 PM, 5:00 PM - 9:30 PM",
-      "Friday": "11:00 AM - 2:30 PM, 5:00 PM - 10:00 PM",
-      "Saturday": "11:00 AM - 2:30 PM, 5:00 PM - 10:00 PM",
-      "Sunday": "12:00 PM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Egg Connection",
@@ -4880,16 +3026,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Classic Western diner breakfast featuring griddle hash browns, fluffy omelettes, and bottomless drip coffee.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "6:00 AM - 2:00 PM",
-      "Tuesday": "6:00 AM - 2:00 PM",
-      "Wednesday": "6:00 AM - 2:00 PM",
-      "Thursday": "6:00 AM - 2:00 PM",
-      "Friday": "6:00 AM - 2:00 PM",
-      "Saturday": "6:00 AM - 2:00 PM",
-      "Sunday": "6:00 AM - 2:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Houlden's Rise Above",
@@ -4899,16 +3036,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Highly acclaimed local vegan pastries; offers decadent dairy-free cakes, muffins, and seasonal baked goods.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "Closed",
-      "Tuesday": "7:00 AM - 3:00 PM",
-      "Wednesday": "7:00 AM - 3:00 PM",
-      "Thursday": "7:00 AM - 3:00 PM",
-      "Friday": "7:00 AM - 3:00 PM",
-      "Saturday": "7:00 AM - 3:00 PM",
-      "Sunday": "8:00 AM - 2:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Les Rendez-vous",
@@ -4918,16 +3046,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$$",
     "notes": "Fine dining European and French influence; signature dishes include Beef Wellington, Grand Marnier Soufflé.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "Closed",
-      "Tuesday": "5:00 PM - 9:00 PM",
-      "Wednesday": "5:00 PM - 9:00 PM",
-      "Thursday": "5:00 PM - 9:00 PM",
-      "Friday": "5:00 PM - 10:00 PM",
-      "Saturday": "5:00 PM - 10:00 PM",
-      "Sunday": "Closed"
-    }
+    "enriched": true
   },
   {
     "name": "Sonoran Brunch Company",
@@ -4937,16 +3056,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Modern brunch offerings with Southwestern twists; features chorizo skillets and green chile eggs benedict.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "7:00 AM - 2:00 PM",
-      "Tuesday": "7:00 AM - 2:00 PM",
-      "Wednesday": "7:00 AM - 2:00 PM",
-      "Thursday": "7:00 AM - 2:00 PM",
-      "Friday": "7:00 AM - 2:00 PM",
-      "Saturday": "7:00 AM - 2:00 PM",
-      "Sunday": "7:00 AM - 2:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Smokey Mo's",
@@ -4956,16 +3066,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Celebrated local barbecue spot; features slow-smoked brisket, pulled pork, and traditional southern sides.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "Closed",
-      "Tuesday": "11:00 AM - 8:00 PM",
-      "Wednesday": "11:00 AM - 8:00 PM",
-      "Thursday": "11:00 AM - 8:00 PM",
-      "Friday": "11:00 AM - 9:00 PM",
-      "Saturday": "11:00 AM - 9:00 PM",
-      "Sunday": "11:00 AM - 7:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "The Shelter Cocktail Lounge",
@@ -4975,16 +3076,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Retro 1960s JFK-themed lounge; features vintage decor, classic martinis, and a laid-back dive atmosphere.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "4:00 PM - 2:00 AM",
-      "Tuesday": "4:00 PM - 2:00 AM",
-      "Wednesday": "4:00 PM - 2:00 AM",
-      "Thursday": "4:00 PM - 2:00 AM",
-      "Friday": "4:00 PM - 2:00 AM",
-      "Saturday": "4:00 PM - 2:00 AM",
-      "Sunday": "4:00 PM - 2:00 AM"
-    }
+    "enriched": true
   },
   {
     "name": "Jerry Bob's",
@@ -4994,16 +3086,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Classic diner serving hearty American breakfasts, burgers, and comfort food favorites. Local institution.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "6:00 AM - 2:00 PM",
-      "Tuesday": "6:00 AM - 2:00 PM",
-      "Wednesday": "6:00 AM - 2:00 PM",
-      "Thursday": "6:00 AM - 2:00 PM",
-      "Friday": "6:00 AM - 2:00 PM",
-      "Saturday": "6:00 AM - 2:00 PM",
-      "Sunday": "6:00 AM - 2:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Redbird Sam Hughes",
@@ -5013,16 +3096,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Custom mural and open bar; historic building serving smash burgers, chicken sandwiches, and craft beers.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "Closed",
-      "Tuesday": "11:00 AM - 9:00 PM",
-      "Wednesday": "11:00 AM - 9:00 PM",
-      "Thursday": "11:00 AM - 9:00 PM",
-      "Friday": "11:00 AM - 10:00 PM",
-      "Saturday": "11:00 AM - 10:00 PM",
-      "Sunday": "10:00 AM - 3:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Batey",
@@ -5032,16 +3106,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Puerto Rican flavors; Caribbean soul; features the massive Chuleta Kan Kan, mofongo, and seafood paella.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "Closed",
-      "Tuesday": "5:00 PM - 9:00 PM",
-      "Wednesday": "5:00 PM - 9:00 PM",
-      "Thursday": "5:00 PM - 9:00 PM",
-      "Friday": "5:00 PM - 10:00 PM",
-      "Saturday": "5:00 PM - 10:00 PM",
-      "Sunday": "Closed"
-    }
+    "enriched": true
   },
   {
     "name": "Red Garter Saloon",
@@ -5051,16 +3116,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Mom and pop bar since 1969; great burgers, classic club sandwiches, and traditional tavern appetizers.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "3:00 PM - 2:00 AM",
-      "Tuesday": "3:00 PM - 2:00 AM",
-      "Wednesday": "3:00 PM - 2:00 AM",
-      "Thursday": "3:00 PM - 2:00 AM",
-      "Friday": "3:00 PM - 2:00 AM",
-      "Saturday": "3:00 PM - 2:00 AM",
-      "Sunday": "3:00 PM - 2:00 AM"
-    }
+    "enriched": true
   },
   {
     "name": "Brawley's Restaurant",
@@ -5070,16 +3126,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Create your own classic breakfast diner meals with traditional bacon, eggs, hash browns, and pancakes.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "6:00 AM - 2:00 PM",
-      "Tuesday": "6:00 AM - 2:00 PM",
-      "Wednesday": "6:00 AM - 2:00 PM",
-      "Thursday": "6:00 AM - 2:00 PM",
-      "Friday": "6:00 AM - 2:00 PM",
-      "Saturday": "6:00 AM - 2:00 PM",
-      "Sunday": "6:00 AM - 2:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Ghini's French Caffe",
@@ -5089,16 +3136,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Charming French cafe serving delicious crepes, classic brunch, and exquisite European-inspired dishes.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "7:00 AM - 2:00 PM",
-      "Tuesday": "7:00 AM - 2:00 PM",
-      "Wednesday": "7:00 AM - 2:00 PM",
-      "Thursday": "7:00 AM - 2:00 PM",
-      "Friday": "7:00 AM - 2:00 PM",
-      "Saturday": "7:00 AM - 2:00 PM",
-      "Sunday": "7:00 AM - 2:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Cafe Desta",
@@ -5108,16 +3146,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Ethiopian coffee tradition, rich brews, and a welcoming atmosphere perfect for a morning pick-me-up.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "7:00 AM - 5:00 PM",
-      "Tuesday": "7:00 AM - 5:00 PM",
-      "Wednesday": "7:00 AM - 5:00 PM",
-      "Thursday": "7:00 AM - 5:00 PM",
-      "Friday": "7:00 AM - 5:00 PM",
-      "Saturday": "8:00 AM - 4:00 PM",
-      "Sunday": "8:00 AM - 4:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "La Cocina",
@@ -5127,16 +3156,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Enchanting historic courtyard setting, serving traditional Sonoran Mexican cuisine and live music.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 9:00 PM",
-      "Tuesday": "11:00 AM - 9:00 PM",
-      "Wednesday": "11:00 AM - 9:00 PM",
-      "Thursday": "11:00 AM - 9:00 PM",
-      "Friday": "11:00 AM - 10:00 PM",
-      "Saturday": "11:00 AM - 10:00 PM",
-      "Sunday": "11:00 AM - 8:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Monsoon Room",
@@ -5146,16 +3166,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$$",
     "notes": "Exclusive speakeasy bar with expertly crafted cocktails, intimate ambiance, and unique libations.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "4:00 PM - 2:00 AM",
-      "Tuesday": "4:00 PM - 2:00 AM",
-      "Wednesday": "4:00 PM - 2:00 AM",
-      "Thursday": "4:00 PM - 2:00 AM",
-      "Friday": "4:00 PM - 2:00 AM",
-      "Saturday": "4:00 PM - 2:00 AM",
-      "Sunday": "4:00 PM - 2:00 AM"
-    }
+    "enriched": true
   },
   {
     "name": "Dao's Tai Pan",
@@ -5165,16 +3176,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Excellent crispy Banh Mi sandwiches, hearty Vietnamese pho, and fresh vermicelli noodle salads.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 2:30 PM, 5:00 PM - 9:30 PM",
-      "Tuesday": "11:00 AM - 2:30 PM, 5:00 PM - 9:30 PM",
-      "Wednesday": "11:00 AM - 2:30 PM, 5:00 PM - 9:30 PM",
-      "Thursday": "11:00 AM - 2:30 PM, 5:00 PM - 9:30 PM",
-      "Friday": "11:00 AM - 2:30 PM, 5:00 PM - 10:00 PM",
-      "Saturday": "11:00 AM - 2:30 PM, 5:00 PM - 10:00 PM",
-      "Sunday": "12:00 PM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Brother's Noodles",
@@ -5184,16 +3186,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Delicious, authentic noodle dishes and savory Asian specialties. A cozy, flavorful experience.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 9:00 PM",
-      "Tuesday": "11:00 AM - 9:00 PM",
-      "Wednesday": "11:00 AM - 9:00 PM",
-      "Thursday": "11:00 AM - 9:00 PM",
-      "Friday": "11:00 AM - 9:00 PM",
-      "Saturday": "11:00 AM - 9:00 PM",
-      "Sunday": "11:00 AM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Crispy's Fries And Chips",
@@ -5203,16 +3196,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "A local favorite for craveable, perfectly crispy fries and comforting classic American snacks.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 8:00 PM",
-      "Tuesday": "11:00 AM - 8:00 PM",
-      "Wednesday": "11:00 AM - 8:00 PM",
-      "Thursday": "11:00 AM - 8:00 PM",
-      "Friday": "11:00 AM - 8:00 PM",
-      "Saturday": "11:00 AM - 8:00 PM",
-      "Sunday": "Closed"
-    }
+    "enriched": true
   },
   {
     "name": "¡Toma!",
@@ -5222,16 +3206,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Vibrant downtown eatery with modern Mexican small plates and creative, refreshing cocktails.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 9:00 PM",
-      "Tuesday": "11:00 AM - 9:00 PM",
-      "Wednesday": "11:00 AM - 9:00 PM",
-      "Thursday": "11:00 AM - 9:00 PM",
-      "Friday": "11:00 AM - 10:00 PM",
-      "Saturday": "11:00 AM - 10:00 PM",
-      "Sunday": "11:00 AM - 8:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "La Parrilla Suiza",
@@ -5241,16 +3216,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Excellent grilled meats and authentic Sonoran Mexican dishes in a family-friendly setting.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 9:00 PM",
-      "Tuesday": "11:00 AM - 9:00 PM",
-      "Wednesday": "11:00 AM - 9:00 PM",
-      "Thursday": "11:00 AM - 9:00 PM",
-      "Friday": "11:00 AM - 9:00 PM",
-      "Saturday": "11:00 AM - 9:00 PM",
-      "Sunday": "11:00 AM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Coffee House",
@@ -5260,16 +3226,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Cozy spot for artisanal coffee, delightful pastries, and a welcoming community ambiance.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "6:30 AM - 5:00 PM",
-      "Tuesday": "6:30 AM - 5:00 PM",
-      "Wednesday": "6:30 AM - 5:00 PM",
-      "Thursday": "6:30 AM - 5:00 PM",
-      "Friday": "6:30 AM - 5:00 PM",
-      "Saturday": "7:00 AM - 4:00 PM",
-      "Sunday": "7:00 AM - 4:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Miss Saigon",
@@ -5279,16 +3236,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Authentic Vietnamese cuisine, celebrated for its flavorful pho and fresh spring rolls.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 9:00 PM",
-      "Tuesday": "11:00 AM - 9:00 PM",
-      "Wednesday": "11:00 AM - 9:00 PM",
-      "Thursday": "11:00 AM - 9:00 PM",
-      "Friday": "11:00 AM - 9:00 PM",
-      "Saturday": "11:00 AM - 9:00 PM",
-      "Sunday": "11:00 AM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "El Charro Café",
@@ -5298,16 +3246,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Oldest family-run Mexican restaurant in the US. Iconic Sonoran cuisine, must-visit.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 9:00 PM",
-      "Tuesday": "11:00 AM - 9:00 PM",
-      "Wednesday": "11:00 AM - 9:00 PM",
-      "Thursday": "11:00 AM - 9:00 PM",
-      "Friday": "11:00 AM - 10:00 PM",
-      "Saturday": "11:00 AM - 10:00 PM",
-      "Sunday": "10:00 AM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "El Taquito King",
@@ -5317,16 +3256,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Go-to spot for crispy, flavorful taquitos and classic Sonoran Mexican comfort food.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "24 Hours",
-      "Tuesday": "24 Hours",
-      "Wednesday": "24 Hours",
-      "Thursday": "24 Hours",
-      "Friday": "24 Hours",
-      "Saturday": "24 Hours",
-      "Sunday": "24 Hours"
-    }
+    "enriched": true
   },
   {
     "name": "Baggin's Gourmet Sandwiches",
@@ -5336,16 +3266,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Known for creative sandwiches, fresh bread, and a wide selection of lunch options.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "10:30 AM - 4:00 PM",
-      "Tuesday": "10:30 AM - 4:00 PM",
-      "Wednesday": "10:30 AM - 4:00 PM",
-      "Thursday": "10:30 AM - 4:00 PM",
-      "Friday": "10:30 AM - 4:00 PM",
-      "Saturday": "10:30 AM - 4:00 PM",
-      "Sunday": "Closed"
-    }
+    "enriched": true
   },
   {
     "name": "Meet Rack Bar and Grill",
@@ -5355,16 +3276,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Lively bar and grill with pub favorites, cold beers, and a fun, casual atmosphere.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 1:00 AM",
-      "Tuesday": "11:00 AM - 1:00 AM",
-      "Wednesday": "11:00 AM - 1:00 AM",
-      "Thursday": "11:00 AM - 1:00 AM",
-      "Friday": "11:00 AM - 1:00 AM",
-      "Saturday": "11:00 AM - 1:00 AM",
-      "Sunday": "11:00 AM - 1:00 AM"
-    }
+    "enriched": true
   },
   {
     "name": "Potbelly",
@@ -5374,16 +3286,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Toasty sandwiches, fresh salads, and delicious milkshakes in a lively atmosphere.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "10:30 AM - 9:00 PM",
-      "Tuesday": "10:30 AM - 9:00 PM",
-      "Wednesday": "10:30 AM - 9:00 PM",
-      "Thursday": "10:30 AM - 9:00 PM",
-      "Friday": "10:30 AM - 9:00 PM",
-      "Saturday": "10:30 AM - 9:00 PM",
-      "Sunday": "10:30 AM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Island Plate Lunch",
@@ -5393,16 +3296,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Authentic Hawaiian comfort food, generous portions, and a laid-back island vibe.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 7:00 PM",
-      "Tuesday": "11:00 AM - 7:00 PM",
-      "Wednesday": "11:00 AM - 7:00 PM",
-      "Thursday": "11:00 AM - 7:00 PM",
-      "Friday": "11:00 AM - 7:00 PM",
-      "Saturday": "11:00 AM - 7:00 PM",
-      "Sunday": "Closed"
-    }
+    "enriched": true
   },
   {
     "name": "Street Taco and Beer Co",
@@ -5412,16 +3306,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Creative street tacos, local craft beers, and a vibrant, casual atmosphere.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 9:00 PM",
-      "Tuesday": "11:00 AM - 9:00 PM",
-      "Wednesday": "11:00 AM - 9:00 PM",
-      "Thursday": "11:00 AM - 10:00 PM",
-      "Friday": "11:00 AM - 10:00 PM",
-      "Saturday": "11:00 AM - 10:00 PM",
-      "Sunday": "11:00 AM - 8:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "5 Points Market & Resturant",
@@ -5431,16 +3316,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Charming market and cafe offering delicious breakfast, lunch, and locally sourced gourmet groceries.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "7:00 AM - 3:00 PM",
-      "Tuesday": "7:00 AM - 3:00 PM",
-      "Wednesday": "7:00 AM - 3:00 PM",
-      "Thursday": "7:00 AM - 3:00 PM",
-      "Friday": "7:00 AM - 3:00 PM",
-      "Saturday": "8:00 AM - 2:00 PM",
-      "Sunday": "8:00 AM - 2:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Guadalajara Grill",
@@ -5450,16 +3326,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Lively spot for authentic Sonoran Mexican food, famous for table-side salsa and margaritas.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 9:00 PM",
-      "Tuesday": "11:00 AM - 9:00 PM",
-      "Wednesday": "11:00 AM - 9:00 PM",
-      "Thursday": "11:00 AM - 9:00 PM",
-      "Friday": "11:00 AM - 10:00 PM",
-      "Saturday": "11:00 AM - 10:00 PM",
-      "Sunday": "11:00 AM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Boondocks",
@@ -5469,16 +3336,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Laid-back local bar offering live music, cold drinks, and a relaxed, friendly atmosphere.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "3:00 PM - 2:00 AM",
-      "Tuesday": "3:00 PM - 2:00 AM",
-      "Wednesday": "3:00 PM - 2:00 AM",
-      "Thursday": "3:00 PM - 2:00 AM",
-      "Friday": "3:00 PM - 2:00 AM",
-      "Saturday": "11:00 AM - 2:00 AM",
-      "Sunday": "11:00 AM - 2:00 AM"
-    }
+    "enriched": true
   },
   {
     "name": "Monsoon Chocolate",
@@ -5508,16 +3366,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Yelp Top 100; inventive plant-based Latin flavors including jackfruit carnitas and a renowned spinach salad.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "8:00 AM - 3:00 PM",
-      "Tuesday": "8:00 AM - 3:00 PM",
-      "Wednesday": "8:00 AM - 3:00 PM",
-      "Thursday": "8:00 AM - 3:00 PM",
-      "Friday": "8:00 AM - 3:00 PM",
-      "Saturday": "8:00 AM - 3:00 PM",
-      "Sunday": "Closed"
-    }
+    "enriched": true
   },
   {
     "name": "Graze Premium Burgers",
@@ -5527,16 +3376,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Gourmet burgers crafted with premium ingredients, inventive toppings, and delicious, satisfying sides.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 9:00 PM",
-      "Tuesday": "11:00 AM - 9:00 PM",
-      "Wednesday": "11:00 AM - 9:00 PM",
-      "Thursday": "11:00 AM - 9:00 PM",
-      "Friday": "11:00 AM - 9:00 PM",
-      "Saturday": "11:00 AM - 9:00 PM",
-      "Sunday": "11:00 AM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Filiberto's",
@@ -5546,16 +3386,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "24-hour service; Arizona's favorite fast-food offering massive carne asada burritos and rolled tacos.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "24 Hours",
-      "Tuesday": "24 Hours",
-      "Wednesday": "24 Hours",
-      "Thursday": "24 Hours",
-      "Friday": "24 Hours",
-      "Saturday": "24 Hours",
-      "Sunday": "24 Hours"
-    }
+    "enriched": true
   },
   {
     "name": "Five Guys",
@@ -5565,16 +3396,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Fresh burgers and peanut oil fries; offers double-patty cheeseburgers and free bulk peanuts.",
     "isLocal": false,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 10:00 PM",
-      "Tuesday": "11:00 AM - 10:00 PM",
-      "Wednesday": "11:00 AM - 10:00 PM",
-      "Thursday": "11:00 AM - 10:00 PM",
-      "Friday": "11:00 AM - 10:00 PM",
-      "Saturday": "11:00 AM - 10:00 PM",
-      "Sunday": "11:00 AM - 10:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "RJ's Replays",
@@ -5584,16 +3406,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "A lively sports bar with pub fare, cold drinks, and plenty of screens for game day.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "3:00 PM - 2:00 AM",
-      "Tuesday": "3:00 PM - 2:00 AM",
-      "Wednesday": "3:00 PM - 2:00 AM",
-      "Thursday": "3:00 PM - 2:00 AM",
-      "Friday": "3:00 PM - 2:00 AM",
-      "Saturday": "12:00 PM - 2:00 AM",
-      "Sunday": "12:00 PM - 2:00 AM"
-    }
+    "enriched": true
   },
   {
     "name": "El Molinito",
@@ -5603,16 +3416,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Classic Sonoran Mexican dishes, generous portions, and a vibrant, family-friendly dining experience.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 9:00 PM",
-      "Tuesday": "11:00 AM - 9:00 PM",
-      "Wednesday": "11:00 AM - 9:00 PM",
-      "Thursday": "11:00 AM - 9:00 PM",
-      "Friday": "11:00 AM - 10:00 PM",
-      "Saturday": "11:00 AM - 10:00 PM",
-      "Sunday": "11:00 AM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "El Torero",
@@ -5622,16 +3426,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Historic Tucson institution offering classic Sonoran Mexican dishes in a vibrant, festive setting.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 9:00 PM",
-      "Tuesday": "11:00 AM - 9:00 PM",
-      "Wednesday": "11:00 AM - 9:00 PM",
-      "Thursday": "11:00 AM - 9:00 PM",
-      "Friday": "11:00 AM - 10:00 PM",
-      "Saturday": "11:00 AM - 10:00 PM",
-      "Sunday": "11:00 AM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "LongHorn Steakhouse",
@@ -5641,16 +3436,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Hearty steaks grilled to perfection, classic American sides, and a welcoming, rustic atmosphere.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 10:00 PM",
-      "Tuesday": "11:00 AM - 10:00 PM",
-      "Wednesday": "11:00 AM - 10:00 PM",
-      "Thursday": "11:00 AM - 10:00 PM",
-      "Friday": "11:00 AM - 11:00 PM",
-      "Saturday": "11:00 AM - 11:00 PM",
-      "Sunday": "11:00 AM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "By the Bucket",
@@ -5660,16 +3446,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Takeout spaghetti and meatballs served in family-sized buckets with garlic bread and marinara.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 9:00 PM",
-      "Tuesday": "11:00 AM - 9:00 PM",
-      "Wednesday": "11:00 AM - 9:00 PM",
-      "Thursday": "11:00 AM - 9:00 PM",
-      "Friday": "11:00 AM - 10:00 PM",
-      "Saturday": "11:00 AM - 10:00 PM",
-      "Sunday": "11:00 AM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Anita's Street Market",
@@ -5679,16 +3456,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Beloved local market offering authentic Sonoran hot dogs, tamales, and menudo. A true gem.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "8:00 AM - 6:00 PM",
-      "Tuesday": "8:00 AM - 6:00 PM",
-      "Wednesday": "8:00 AM - 6:00 PM",
-      "Thursday": "8:00 AM - 6:00 PM",
-      "Friday": "8:00 AM - 6:00 PM",
-      "Saturday": "8:00 AM - 6:00 PM",
-      "Sunday": "Closed"
-    }
+    "enriched": true
   },
   {
     "name": "Shish Kebab House of Tucson",
@@ -5698,16 +3466,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Authentic flavors define this spot, famous for perfectly grilled shish kebabs and rich Mediterranean dishes.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 9:00 PM",
-      "Tuesday": "11:00 AM - 9:00 PM",
-      "Wednesday": "11:00 AM - 9:00 PM",
-      "Thursday": "11:00 AM - 9:00 PM",
-      "Friday": "11:00 AM - 9:00 PM",
-      "Saturday": "11:00 AM - 9:00 PM",
-      "Sunday": "Closed"
-    }
+    "enriched": true
   },
   {
     "name": "Gen Korean BBQ",
@@ -5717,16 +3476,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$$",
     "notes": "High-quality all-you-can-eat Korean grilling; premium cuts of beef, spicy pork, and traditional banchan.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:30 AM - 10:00 PM",
-      "Tuesday": "11:30 AM - 10:00 PM",
-      "Wednesday": "11:30 AM - 10:00 PM",
-      "Thursday": "11:30 AM - 10:00 PM",
-      "Friday": "11:30 AM - 11:00 PM",
-      "Saturday": "11:30 AM - 11:00 PM",
-      "Sunday": "11:30 AM - 10:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Baggin's Gourmet Sandwiches",
@@ -5736,16 +3486,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Locally owned; premium meats piled on freshly baked bread, alongside signature chocolate chip cookies.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "10:00 AM - 4:00 PM",
-      "Tuesday": "10:00 AM - 4:00 PM",
-      "Wednesday": "10:00 AM - 4:00 PM",
-      "Thursday": "10:00 AM - 4:00 PM",
-      "Friday": "10:00 AM - 4:00 PM",
-      "Saturday": "10:00 AM - 4:00 PM",
-      "Sunday": "Closed"
-    }
+    "enriched": true
   },
   {
     "name": "Lotus Garden",
@@ -5755,16 +3496,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Classic Chinese dishes, flavorful stir-fries, and comforting noodle soups in a relaxed setting.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 2:00 PM, 4:30 PM - 9:00 PM",
-      "Tuesday": "11:00 AM - 2:00 PM, 4:30 PM - 9:00 PM",
-      "Wednesday": "11:00 AM - 2:00 PM, 4:30 PM - 9:00 PM",
-      "Thursday": "11:00 AM - 2:00 PM, 4:30 PM - 9:00 PM",
-      "Friday": "11:00 AM - 2:00 PM, 4:30 PM - 10:00 PM",
-      "Saturday": "12:00 PM - 10:00 PM",
-      "Sunday": "12:00 PM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Viva Mexican Food",
@@ -5774,16 +3506,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Family-owned eatery serving classic Sonoran dishes, especially delicious breakfast burritos.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "10:00 AM - 9:00 PM",
-      "Tuesday": "10:00 AM - 9:00 PM",
-      "Wednesday": "10:00 AM - 9:00 PM",
-      "Thursday": "10:00 AM - 9:00 PM",
-      "Friday": "10:00 AM - 9:00 PM",
-      "Saturday": "10:00 AM - 9:00 PM",
-      "Sunday": "10:00 AM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Chicago Bar",
@@ -5793,16 +3516,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Classic dive bar with live music, cheap drinks, and a genuine, unpretentious atmosphere.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 2:00 AM",
-      "Tuesday": "11:00 AM - 2:00 AM",
-      "Wednesday": "11:00 AM - 2:00 AM",
-      "Thursday": "11:00 AM - 2:00 AM",
-      "Friday": "11:00 AM - 2:00 AM",
-      "Saturday": "11:00 AM - 2:00 AM",
-      "Sunday": "11:00 AM - 2:00 AM"
-    }
+    "enriched": true
   },
   {
     "name": "Dutch Bros. Coffee",
@@ -5812,16 +3526,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Drive-thru coffee experience with unique flavored drinks and friendly, energetic staff.",
     "isLocal": false,
-    "enriched": true,
-    "hours": {
-      "Monday": "5:00 AM - 10:00 PM",
-      "Tuesday": "5:00 AM - 10:00 PM",
-      "Wednesday": "5:00 AM - 10:00 PM",
-      "Thursday": "5:00 AM - 10:00 PM",
-      "Friday": "5:00 AM - 10:00 PM",
-      "Saturday": "5:00 AM - 10:00 PM",
-      "Sunday": "5:00 AM - 10:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "La Michoacana Ice Cream Shop Az",
@@ -5831,16 +3536,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Delightful spot for authentic Mexican paletas, aguas frescas, and delicious ice cream.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "12:00 PM - 9:00 PM",
-      "Tuesday": "12:00 PM - 9:00 PM",
-      "Wednesday": "12:00 PM - 9:00 PM",
-      "Thursday": "12:00 PM - 9:00 PM",
-      "Friday": "12:00 PM - 9:00 PM",
-      "Saturday": "12:00 PM - 9:00 PM",
-      "Sunday": "12:00 PM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Cafe Marcel Creperie and Espresso Bar",
@@ -5850,16 +3546,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Charming cafe serving delightful sweet and savory crepes, perfect with an espresso.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "7:00 AM - 3:00 PM",
-      "Tuesday": "7:00 AM - 3:00 PM",
-      "Wednesday": "7:00 AM - 3:00 PM",
-      "Thursday": "7:00 AM - 3:00 PM",
-      "Friday": "7:00 AM - 3:00 PM",
-      "Saturday": "7:00 AM - 3:00 PM",
-      "Sunday": "8:00 AM - 2:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Red Lobster",
@@ -5869,16 +3556,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Popular chain for fresh seafood, lobster feasts, and famous cheddar bay biscuits.",
     "isLocal": false,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 9:00 PM",
-      "Tuesday": "11:00 AM - 9:00 PM",
-      "Wednesday": "11:00 AM - 9:00 PM",
-      "Thursday": "11:00 AM - 9:00 PM",
-      "Friday": "11:00 AM - 10:00 PM",
-      "Saturday": "11:00 AM - 10:00 PM",
-      "Sunday": "11:00 AM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Chipotle",
@@ -5888,16 +3566,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Build-your-own burritos, bowls, and salads with fresh, customizable ingredients.",
     "isLocal": false,
-    "enriched": true,
-    "hours": {
-      "Monday": "10:45 AM - 10:00 PM",
-      "Tuesday": "10:45 AM - 10:00 PM",
-      "Wednesday": "10:45 AM - 10:00 PM",
-      "Thursday": "10:45 AM - 10:00 PM",
-      "Friday": "10:45 AM - 10:00 PM",
-      "Saturday": "10:45 AM - 10:00 PM",
-      "Sunday": "10:45 AM - 10:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "ATL Wings",
@@ -5907,16 +3576,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Go-to spot for flavorful, crispy wings with a huge variety of sauces.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 10:00 PM",
-      "Tuesday": "11:00 AM - 10:00 PM",
-      "Wednesday": "11:00 AM - 10:00 PM",
-      "Thursday": "11:00 AM - 10:00 PM",
-      "Friday": "11:00 AM - 10:00 PM",
-      "Saturday": "11:00 AM - 10:00 PM",
-      "Sunday": "11:00 AM - 10:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Takamatsu",
@@ -5926,16 +3586,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Korean barbecue and Japanese sushi house; features interactive tabletop grilling, fresh sashimi, and bibimbap.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 2:00 PM, 4:30 PM - 9:30 PM",
-      "Tuesday": "11:00 AM - 2:00 PM, 4:30 PM - 9:30 PM",
-      "Wednesday": "11:00 AM - 2:00 PM, 4:30 PM - 9:30 PM",
-      "Thursday": "11:00 AM - 2:00 PM, 4:30 PM - 9:30 PM",
-      "Friday": "11:00 AM - 2:00 PM, 4:30 PM - 10:00 PM",
-      "Saturday": "11:30 AM - 10:00 PM",
-      "Sunday": "12:00 PM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Buendia Breakfast",
@@ -5945,16 +3596,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Family-owned; highly ranked unique breakfast featuring chilaquiles, house-made tortillas, and strong coffee.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "6:00 AM - 2:00 PM",
-      "Tuesday": "6:00 AM - 2:00 PM",
-      "Wednesday": "6:00 AM - 2:00 PM",
-      "Thursday": "6:00 AM - 2:00 PM",
-      "Friday": "6:00 AM - 2:00 PM",
-      "Saturday": "6:00 AM - 2:00 PM",
-      "Sunday": "6:00 AM - 2:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Kneller's Delicatessen",
@@ -5964,16 +3606,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "East Coast-style deli; house-cured lox, fresh knishes, Jewish soul food, and stacked pastrami sandwiches.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "9:00 AM - 4:00 PM",
-      "Tuesday": "9:00 AM - 4:00 PM",
-      "Wednesday": "9:00 AM - 4:00 PM",
-      "Thursday": "9:00 AM - 4:00 PM",
-      "Friday": "9:00 AM - 4:00 PM",
-      "Saturday": "9:00 AM - 4:00 PM",
-      "Sunday": "Closed"
-    }
+    "enriched": true
   },
   {
     "name": "IHOP (22nd)",
@@ -5983,16 +3616,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "24-hour; located near Craycroft intersection; classic fluffy pancakes and late-night diner comfort food.",
     "isLocal": false,
-    "enriched": true,
-    "hours": {
-      "Monday": "24 Hours",
-      "Tuesday": "24 Hours",
-      "Wednesday": "24 Hours",
-      "Thursday": "24 Hours",
-      "Friday": "24 Hours",
-      "Saturday": "24 Hours",
-      "Sunday": "24 Hours"
-    }
+    "enriched": true
   },
   {
     "name": "El Sur",
@@ -6002,16 +3626,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Authentic Mexican dishes with flavorful specialties, offering a taste of regional culinary traditions.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 9:00 PM",
-      "Tuesday": "11:00 AM - 9:00 PM",
-      "Wednesday": "11:00 AM - 9:00 PM",
-      "Thursday": "11:00 AM - 9:00 PM",
-      "Friday": "11:00 AM - 10:00 PM",
-      "Saturday": "11:00 AM - 10:00 PM",
-      "Sunday": "11:00 AM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Bamboo Noodle House",
@@ -6021,16 +3636,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Authentic Asian-style noodle soups utilizing rich family recipes and fresh, hand-crafted ingredients.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 9:00 PM",
-      "Tuesday": "11:00 AM - 9:00 PM",
-      "Wednesday": "11:00 AM - 9:00 PM",
-      "Thursday": "11:00 AM - 9:00 PM",
-      "Friday": "11:00 AM - 10:00 PM",
-      "Saturday": "11:00 AM - 10:00 PM",
-      "Sunday": "11:00 AM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Taco Giro",
@@ -6040,16 +3646,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Authentic Sonoran street tacos, quesadillas, and savory antojitos, bursting with traditional flavors.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "10:00 AM - 10:00 PM",
-      "Tuesday": "10:00 AM - 10:00 PM",
-      "Wednesday": "10:00 AM - 10:00 PM",
-      "Thursday": "10:00 AM - 10:00 PM",
-      "Friday": "10:00 AM - 11:00 PM",
-      "Saturday": "9:00 AM - 11:00 PM",
-      "Sunday": "9:00 AM - 10:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Wooden Nickel",
@@ -6059,16 +3656,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Tavern serving famous crispy chicken wings since 1984, alongside cold beer and classic pub burgers.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "3:00 PM - 1:00 AM",
-      "Tuesday": "3:00 PM - 1:00 AM",
-      "Wednesday": "3:00 PM - 1:00 AM",
-      "Thursday": "3:00 PM - 1:00 AM",
-      "Friday": "12:00 PM - 2:00 AM",
-      "Saturday": "12:00 PM - 2:00 AM",
-      "Sunday": "12:00 PM - 12:00 AM"
-    }
+    "enriched": true
   },
   {
     "name": "Shake Shack",
@@ -6078,16 +3666,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Modern burger stand; serves ShackBurgers, crinkle-cut fries, and frozen custard concretes.",
     "isLocal": false,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 10:00 PM",
-      "Tuesday": "11:00 AM - 10:00 PM",
-      "Wednesday": "11:00 AM - 10:00 PM",
-      "Thursday": "11:00 AM - 10:00 PM",
-      "Friday": "11:00 AM - 11:00 PM",
-      "Saturday": "11:00 AM - 11:00 PM",
-      "Sunday": "11:00 AM - 10:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "BJ's Restaurant",
@@ -6097,16 +3676,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Signature deep dish and handcrafted beers; famous for the massive hot Pizookie dessert.",
     "isLocal": false,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 10:00 PM",
-      "Tuesday": "11:00 AM - 10:00 PM",
-      "Wednesday": "11:00 AM - 10:00 PM",
-      "Thursday": "11:00 AM - 10:00 PM",
-      "Friday": "11:00 AM - 11:00 PM",
-      "Saturday": "11:00 AM - 11:00 PM",
-      "Sunday": "11:00 AM - 10:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Mariscos Mi Mazatlán",
@@ -6116,16 +3686,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Authentic Mazatlán-style seafood, fresh ceviche, and vibrant Mexican coastal flavors.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "Closed",
-      "Tuesday": "11:00 AM - 9:00 PM",
-      "Wednesday": "11:00 AM - 9:00 PM",
-      "Thursday": "11:00 AM - 9:00 PM",
-      "Friday": "11:00 AM - 10:00 PM",
-      "Saturday": "11:00 AM - 10:00 PM",
-      "Sunday": "11:00 AM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Denny's",
@@ -6135,16 +3696,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Classic American diner, serving breakfast all day, comfort food, and late-night eats.",
     "isLocal": false,
-    "enriched": true,
-    "hours": {
-      "Monday": "24 Hours",
-      "Tuesday": "24 Hours",
-      "Wednesday": "24 Hours",
-      "Thursday": "24 Hours",
-      "Friday": "24 Hours",
-      "Saturday": "24 Hours",
-      "Sunday": "24 Hours"
-    }
+    "enriched": true
   },
   {
     "name": "Culver's",
@@ -6154,16 +3706,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Midwest charm with butterburgers, fresh frozen custard, and friendly, fast service.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "10:30 AM - 10:00 PM",
-      "Tuesday": "10:30 AM - 10:00 PM",
-      "Wednesday": "10:30 AM - 10:00 PM",
-      "Thursday": "10:30 AM - 10:00 PM",
-      "Friday": "10:30 AM - 11:00 PM",
-      "Saturday": "10:30 AM - 11:00 PM",
-      "Sunday": "10:30 AM - 10:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Yin Yang Express",
@@ -6173,16 +3716,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Quick and satisfying Chinese-American dishes, perfect for a fast, flavorful lunch.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 9:30 PM",
-      "Tuesday": "11:00 AM - 9:30 PM",
-      "Wednesday": "11:00 AM - 9:30 PM",
-      "Thursday": "11:00 AM - 9:30 PM",
-      "Friday": "11:00 AM - 10:00 PM",
-      "Saturday": "11:00 AM - 10:00 PM",
-      "Sunday": "11:00 AM - 9:30 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Nimbus Brewing Company",
@@ -6192,16 +3726,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Local brewery serving up craft beers on tap alongside hearty, delicious pub grub.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "Closed",
-      "Tuesday": "3:00 PM - 10:00 PM",
-      "Wednesday": "3:00 PM - 10:00 PM",
-      "Thursday": "3:00 PM - 11:00 PM",
-      "Friday": "12:00 PM - 12:00 AM",
-      "Saturday": "12:00 PM - 12:00 AM",
-      "Sunday": "12:00 PM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Seoul Shi",
@@ -6211,16 +3736,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Korean fusion; serves bulgogi tacos, kimchi fried rice, and spicy pork bowls.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:30 AM - 2:30 PM, 5:00 PM - 9:00 PM",
-      "Tuesday": "11:30 AM - 2:30 PM, 5:00 PM - 9:00 PM",
-      "Wednesday": "11:30 AM - 2:30 PM, 5:00 PM - 9:00 PM",
-      "Thursday": "11:30 AM - 2:30 PM, 5:00 PM - 9:00 PM",
-      "Friday": "11:30 AM - 2:30 PM, 5:00 PM - 10:00 PM",
-      "Saturday": "12:00 PM - 10:00 PM",
-      "Sunday": "12:00 PM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Jackrabbit Lounge",
@@ -6230,16 +3746,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Retro-style lounge; features craft cocktails, fondue, and a 70s vibe.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "4:00 PM - 1:00 AM",
-      "Tuesday": "4:00 PM - 1:00 AM",
-      "Wednesday": "4:00 PM - 1:00 AM",
-      "Thursday": "4:00 PM - 2:00 AM",
-      "Friday": "4:00 PM - 2:00 AM",
-      "Saturday": "4:00 PM - 2:00 AM",
-      "Sunday": "4:00 PM - 1:00 AM"
-    }
+    "enriched": true
   },
   {
     "name": "Panda Express",
@@ -6249,16 +3756,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Popular fast-casual chain offering Americanized Chinese staples like orange chicken and chow mein.",
     "isLocal": false,
-    "enriched": true,
-    "hours": {
-      "Monday": "10:30 AM - 9:30 PM",
-      "Tuesday": "10:30 AM - 9:30 PM",
-      "Wednesday": "10:30 AM - 9:30 PM",
-      "Thursday": "10:30 AM - 9:30 PM",
-      "Friday": "10:30 AM - 10:00 PM",
-      "Saturday": "10:30 AM - 10:00 PM",
-      "Sunday": "10:30 AM - 9:30 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Sonic",
@@ -6268,16 +3766,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Drive-in fast food known for customizable drinks, burgers, hot dogs, and roller-skating carhops.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "6:00 AM - 11:00 PM",
-      "Tuesday": "6:00 AM - 11:00 PM",
-      "Wednesday": "6:00 AM - 11:00 PM",
-      "Thursday": "6:00 AM - 11:00 PM",
-      "Friday": "6:00 AM - 12:00 AM",
-      "Saturday": "7:00 AM - 12:00 AM",
-      "Sunday": "7:00 AM - 11:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Chuck E. Cheese",
@@ -6287,16 +3776,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Family-friendly fun with arcade games, lively entertainment, and classic pizzas for all ages.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "Closed",
-      "Tuesday": "11:00 AM - 9:00 PM",
-      "Wednesday": "11:00 AM - 9:00 PM",
-      "Thursday": "11:00 AM - 9:00 PM",
-      "Friday": "11:00 AM - 10:00 PM",
-      "Saturday": "10:00 AM - 10:00 PM",
-      "Sunday": "10:00 AM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Costa Vida",
@@ -6306,16 +3786,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Fresh, fast-casual Mexican grill featuring customizable burritos, tacos, and salads.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 9:00 PM",
-      "Tuesday": "11:00 AM - 9:00 PM",
-      "Wednesday": "11:00 AM - 9:00 PM",
-      "Thursday": "11:00 AM - 9:00 PM",
-      "Friday": "11:00 AM - 9:30 PM",
-      "Saturday": "11:00 AM - 9:30 PM",
-      "Sunday": "11:00 AM - 8:30 PM"
-    }
+    "enriched": true
   },
   {
     "name": "El Chinito Gordo",
@@ -6325,16 +3796,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Authentic Sonoran hot dogs and street tacos, a local favorite for bold flavors.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "10:00 AM - 9:00 PM",
-      "Tuesday": "10:00 AM - 9:00 PM",
-      "Wednesday": "10:00 AM - 9:00 PM",
-      "Thursday": "10:00 AM - 9:00 PM",
-      "Friday": "10:00 AM - 10:00 PM",
-      "Saturday": "9:00 AM - 10:00 PM",
-      "Sunday": "9:00 AM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Arizona Wine Collective",
@@ -6344,16 +3806,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$$",
     "notes": "Upscale wine bar featuring local Arizona vintages, artisanal charcuterie boards, and a sophisticated ambiance.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "Closed",
-      "Tuesday": "Closed",
-      "Wednesday": "3:00 PM - 9:00 PM",
-      "Thursday": "3:00 PM - 9:00 PM",
-      "Friday": "1:00 PM - 10:00 PM",
-      "Saturday": "1:00 PM - 10:00 PM",
-      "Sunday": "1:00 PM - 8:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Level Bar & Lounge",
@@ -6363,16 +3816,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$$",
     "notes": "Trendy lounge offering craft cocktails, fine spirits, and a chic, sophisticated nightlife experience.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "5:00 PM - 1:00 AM",
-      "Tuesday": "5:00 PM - 1:00 AM",
-      "Wednesday": "5:00 PM - 1:00 AM",
-      "Thursday": "5:00 PM - 2:00 AM",
-      "Friday": "5:00 PM - 2:00 AM",
-      "Saturday": "5:00 PM - 2:00 AM",
-      "Sunday": "5:00 PM - 1:00 AM"
-    }
+    "enriched": true
   },
   {
     "name": "Salad and Go",
@@ -6382,16 +3826,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Fresh, quick, and healthy salads, wraps, and breakfast burritos. Perfect for on-the-go.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "6:00 AM - 8:00 PM",
-      "Tuesday": "6:00 AM - 8:00 PM",
-      "Wednesday": "6:00 AM - 8:00 PM",
-      "Thursday": "6:00 AM - 8:00 PM",
-      "Friday": "6:00 AM - 8:00 PM",
-      "Saturday": "7:00 AM - 7:00 PM",
-      "Sunday": "7:00 AM - 7:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Barrio Charro",
@@ -6401,16 +3836,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Collaboration concept; artisan Barrio bread sandwiches stuffed with traditional Mexican carnitas and birria fillings.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 9:00 PM",
-      "Tuesday": "11:00 AM - 9:00 PM",
-      "Wednesday": "11:00 AM - 9:00 PM",
-      "Thursday": "11:00 AM - 9:00 PM",
-      "Friday": "11:00 AM - 10:00 PM",
-      "Saturday": "11:00 AM - 10:00 PM",
-      "Sunday": "11:00 AM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Lovin' Spoonfuls",
@@ -6420,16 +3846,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Local vegan institution; plant-based comfort food including vegan fried chicken dinners and creamsicle smoothies.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "Closed",
-      "Tuesday": "11:00 AM - 8:00 PM",
-      "Wednesday": "11:00 AM - 8:00 PM",
-      "Thursday": "11:00 AM - 8:00 PM",
-      "Friday": "11:00 AM - 9:00 PM",
-      "Saturday": "11:00 AM - 9:00 PM",
-      "Sunday": "11:00 AM - 8:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Lucky Panda",
@@ -6439,16 +3856,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Casual spot for flavorful Chinese-American classics, offering generous portions and quick, friendly service.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 9:30 PM",
-      "Tuesday": "11:00 AM - 9:30 PM",
-      "Wednesday": "11:00 AM - 9:30 PM",
-      "Thursday": "11:00 AM - 9:30 PM",
-      "Friday": "11:00 AM - 10:00 PM",
-      "Saturday": "11:00 AM - 10:00 PM",
-      "Sunday": "11:00 AM - 9:30 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Presta Coffee Roasters",
@@ -6458,16 +3866,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Award-winning local roaster providing expertly crafted coffee, vibrant blends, and a bustling community hub.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "7:00 AM - 4:00 PM",
-      "Tuesday": "7:00 AM - 4:00 PM",
-      "Wednesday": "7:00 AM - 4:00 PM",
-      "Thursday": "7:00 AM - 4:00 PM",
-      "Friday": "7:00 AM - 4:00 PM",
-      "Saturday": "8:00 AM - 3:00 PM",
-      "Sunday": "8:00 AM - 3:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Monterey Court",
@@ -6477,16 +3876,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Historic courtyard venue offering live music, Southwestern-inspired American comfort food, and art.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 9:00 PM",
-      "Tuesday": "11:00 AM - 9:00 PM",
-      "Wednesday": "11:00 AM - 9:00 PM",
-      "Thursday": "11:00 AM - 10:00 PM",
-      "Friday": "11:00 AM - 11:00 PM",
-      "Saturday": "9:00 AM - 11:00 PM",
-      "Sunday": "9:00 AM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Kettle Restaurant",
@@ -6496,16 +3886,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Classic American diner offering dependable comfort food, breakfast favorites, and late-night eats.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "6:00 AM - 11:00 PM",
-      "Tuesday": "6:00 AM - 11:00 PM",
-      "Wednesday": "6:00 AM - 11:00 PM",
-      "Thursday": "6:00 AM - 11:00 PM",
-      "Friday": "6:00 AM - 12:00 AM",
-      "Saturday": "6:00 AM - 12:00 AM",
-      "Sunday": "6:00 AM - 11:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Sweet Tomatoes",
@@ -6515,16 +3896,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Buffet-style restaurant offering an expansive salad bar, fresh soups, and wholesome baked goods.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 9:00 PM",
-      "Tuesday": "11:00 AM - 9:00 PM",
-      "Wednesday": "11:00 AM - 9:00 PM",
-      "Thursday": "11:00 AM - 9:00 PM",
-      "Friday": "11:00 AM - 9:30 PM",
-      "Saturday": "11:00 AM - 9:30 PM",
-      "Sunday": "11:00 AM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Taco Bell",
@@ -6534,16 +3906,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Late-night favorite for inventive, budget-friendly tacos, burritos, and cheesy Gordita Crunches.",
     "isLocal": false,
-    "enriched": true,
-    "hours": {
-      "Monday": "7:00 AM - 1:00 AM",
-      "Tuesday": "7:00 AM - 1:00 AM",
-      "Wednesday": "7:00 AM - 1:00 AM",
-      "Thursday": "7:00 AM - 2:00 AM",
-      "Friday": "7:00 AM - 3:00 AM",
-      "Saturday": "7:00 AM - 3:00 AM",
-      "Sunday": "7:00 AM - 1:00 AM"
-    }
+    "enriched": true
   },
   {
     "name": "Divine Bovine Burgers",
@@ -6553,16 +3916,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Gourmet burger joint crafting juicy patties with unique toppings and crispy, satisfying fries.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 9:00 PM",
-      "Tuesday": "11:00 AM - 9:00 PM",
-      "Wednesday": "11:00 AM - 9:00 PM",
-      "Thursday": "11:00 AM - 9:00 PM",
-      "Friday": "11:00 AM - 10:00 PM",
-      "Saturday": "11:00 AM - 10:00 PM",
-      "Sunday": "11:00 AM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Angie's Lobster",
@@ -6572,16 +3926,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Affordable lobster rolls and seafood-focused dishes, bringing a taste of the coast to Tucson.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 9:00 PM",
-      "Tuesday": "11:00 AM - 9:00 PM",
-      "Wednesday": "11:00 AM - 9:00 PM",
-      "Thursday": "11:00 AM - 9:00 PM",
-      "Friday": "11:00 AM - 10:00 PM",
-      "Saturday": "11:00 AM - 10:00 PM",
-      "Sunday": "11:00 AM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Whataburger",
@@ -6591,16 +3936,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Texas-sized burgers, customizable options, and a loyal following for their classic fast food.",
     "isLocal": false,
-    "enriched": true,
-    "hours": {
-      "Monday": "24 Hours",
-      "Tuesday": "24 Hours",
-      "Wednesday": "24 Hours",
-      "Thursday": "24 Hours",
-      "Friday": "24 Hours",
-      "Saturday": "24 Hours",
-      "Sunday": "24 Hours"
-    }
+    "enriched": true
   },
   {
     "name": "El Tarachi",
@@ -6610,16 +3946,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Beloved spot for authentic Sonoran Mexican food, especially their savory mariscos and tacos.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "10:30 AM - 9:00 PM",
-      "Tuesday": "10:30 AM - 9:00 PM",
-      "Wednesday": "10:30 AM - 9:00 PM",
-      "Thursday": "10:30 AM - 9:00 PM",
-      "Friday": "10:30 AM - 9:00 PM",
-      "Saturday": "10:30 AM - 9:00 PM",
-      "Sunday": "10:30 AM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Desert Drifter Coffee",
@@ -6629,16 +3956,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Drive-thru hub; Presta beans, Danzeisen dairy milk, cold brews, and fresh morning pastries.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "7:00 AM - 5:00 PM",
-      "Tuesday": "7:00 AM - 5:00 PM",
-      "Wednesday": "7:00 AM - 5:00 PM",
-      "Thursday": "7:00 AM - 5:00 PM",
-      "Friday": "7:00 AM - 5:00 PM",
-      "Saturday": "7:00 AM - 5:00 PM",
-      "Sunday": "7:00 AM - 5:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Beyond Bread",
@@ -6648,16 +3966,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Beloved local bakery and cafe known for artisan breads, gourmet sandwiches, and pastries.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "6:30 AM - 7:00 PM",
-      "Tuesday": "6:30 AM - 7:00 PM",
-      "Wednesday": "6:30 AM - 7:00 PM",
-      "Thursday": "6:30 AM - 7:00 PM",
-      "Friday": "6:30 AM - 7:00 PM",
-      "Saturday": "6:30 AM - 7:00 PM",
-      "Sunday": "7:00 AM - 6:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Lin's Grand Buffet",
@@ -6667,16 +3976,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Extensive Chinese buffet offering a vast selection of classic dishes and sushi options.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 9:00 PM",
-      "Tuesday": "11:00 AM - 9:00 PM",
-      "Wednesday": "11:00 AM - 9:00 PM",
-      "Thursday": "11:00 AM - 9:00 PM",
-      "Friday": "11:00 AM - 9:30 PM",
-      "Saturday": "11:00 AM - 9:30 PM",
-      "Sunday": "11:00 AM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Ikkyu",
@@ -6686,16 +3986,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Fast-casual Japanese; serves spicy tuna bowls, chicken teriyaki, and tempura udon.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "Closed",
-      "Tuesday": "11:30 AM - 2:00 PM, 5:00 PM - 9:00 PM",
-      "Wednesday": "11:30 AM - 2:00 PM, 5:00 PM - 9:00 PM",
-      "Thursday": "11:30 AM - 2:00 PM, 5:00 PM - 9:00 PM",
-      "Friday": "11:30 AM - 2:00 PM, 5:00 PM - 10:00 PM",
-      "Saturday": "11:30 AM - 2:00 PM, 5:00 PM - 10:00 PM",
-      "Sunday": "5:00 PM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Hogie House 22nd Street",
@@ -6705,16 +3996,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Long-standing local favorite for hearty hoagies and classic American sandwiches.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "10:00 AM - 8:00 PM",
-      "Tuesday": "10:00 AM - 8:00 PM",
-      "Wednesday": "10:00 AM - 8:00 PM",
-      "Thursday": "10:00 AM - 8:00 PM",
-      "Friday": "10:00 AM - 8:00 PM",
-      "Saturday": "10:00 AM - 8:00 PM",
-      "Sunday": "Closed"
-    }
+    "enriched": true
   },
   {
     "name": "Popeyes",
@@ -6724,16 +4006,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Famous for its spicy Louisiana-style fried chicken and popular chicken sandwich.",
     "isLocal": false,
-    "enriched": true,
-    "hours": {
-      "Monday": "10:30 AM - 10:00 PM",
-      "Tuesday": "10:30 AM - 10:00 PM",
-      "Wednesday": "10:30 AM - 10:00 PM",
-      "Thursday": "10:30 AM - 10:00 PM",
-      "Friday": "10:30 AM - 10:00 PM",
-      "Saturday": "10:30 AM - 10:00 PM",
-      "Sunday": "10:30 AM - 10:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Contigo Latin Kitchen",
@@ -6743,16 +4016,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$$",
     "notes": "Upscale Latin dining; features Spanish tapas, paella, and South American wines.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "Closed",
-      "Tuesday": "4:00 PM - 9:00 PM",
-      "Wednesday": "4:00 PM - 9:00 PM",
-      "Thursday": "4:00 PM - 9:00 PM",
-      "Friday": "4:00 PM - 10:00 PM",
-      "Saturday": "4:00 PM - 10:00 PM",
-      "Sunday": "4:00 PM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Frozen Delight",
@@ -6762,16 +4026,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Sweet shop serving delightful frozen treats, ice cream, and custom sundaes.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "12:00 PM - 9:00 PM",
-      "Tuesday": "12:00 PM - 9:00 PM",
-      "Wednesday": "12:00 PM - 9:00 PM",
-      "Thursday": "12:00 PM - 9:00 PM",
-      "Friday": "12:00 PM - 9:00 PM",
-      "Saturday": "12:00 PM - 9:00 PM",
-      "Sunday": "12:00 PM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Taqueria Juanito's",
@@ -6801,16 +4056,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Authentic Hawaiian plate lunches, famous for generous portions of kalua pork and teriyaki chicken.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 8:30 PM",
-      "Tuesday": "11:00 AM - 8:30 PM",
-      "Wednesday": "11:00 AM - 8:30 PM",
-      "Thursday": "11:00 AM - 8:30 PM",
-      "Friday": "11:00 AM - 8:30 PM",
-      "Saturday": "11:00 AM - 8:30 PM",
-      "Sunday": "Closed"
-    }
+    "enriched": true
   },
   {
     "name": "Bonchon",
@@ -6820,16 +4066,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Famous for its crispy, double-fried Korean fried chicken and other delicious Asian comfort foods.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "Closed",
-      "Tuesday": "11:30 AM - 9:00 PM",
-      "Wednesday": "11:30 AM - 9:00 PM",
-      "Thursday": "11:30 AM - 9:00 PM",
-      "Friday": "11:30 AM - 10:00 PM",
-      "Saturday": "11:30 AM - 10:00 PM",
-      "Sunday": "11:30 AM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Bisbee Breakfast Club",
@@ -6839,16 +4076,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Popular breakfast and lunch spot known for generous portions and delicious homemade comfort food.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "6:00 AM - 2:00 PM",
-      "Tuesday": "6:00 AM - 2:00 PM",
-      "Wednesday": "6:00 AM - 2:00 PM",
-      "Thursday": "6:00 AM - 2:00 PM",
-      "Friday": "6:00 AM - 2:00 PM",
-      "Saturday": "6:00 AM - 2:00 PM",
-      "Sunday": "6:00 AM - 2:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Sonoran Delights",
@@ -6858,16 +4086,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Authentic Sonoran street food, featuring delicious hot dogs and unique regional specialties.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "8:00 AM - 8:00 PM",
-      "Tuesday": "8:00 AM - 8:00 PM",
-      "Wednesday": "8:00 AM - 8:00 PM",
-      "Thursday": "8:00 AM - 8:00 PM",
-      "Friday": "8:00 AM - 8:00 PM",
-      "Saturday": "8:00 AM - 8:00 PM",
-      "Sunday": "8:00 AM - 7:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Sonic",
@@ -6877,16 +4096,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Drive-in diner with retro charm, famous for unique drink combos and classic American fare.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "6:00 AM - 11:00 PM",
-      "Tuesday": "6:00 AM - 11:00 PM",
-      "Wednesday": "6:00 AM - 11:00 PM",
-      "Thursday": "6:00 AM - 11:00 PM",
-      "Friday": "6:00 AM - 11:00 PM",
-      "Saturday": "6:00 AM - 11:00 PM",
-      "Sunday": "6:00 AM - 11:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Waffle House",
@@ -6896,16 +4106,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Iconic Southern diner serving classic breakfast, waffles, and greasy spoon comfort 24/7.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "24 Hours",
-      "Tuesday": "24 Hours",
-      "Wednesday": "24 Hours",
-      "Thursday": "24 Hours",
-      "Friday": "24 Hours",
-      "Saturday": "24 Hours",
-      "Sunday": "24 Hours"
-    }
+    "enriched": true
   },
   {
     "name": "ZinBurger",
@@ -6915,16 +4116,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Upscale burger bar with gourmet patties, creative toppings, and delicious milkshakes.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 9:00 PM",
-      "Tuesday": "11:00 AM - 9:00 PM",
-      "Wednesday": "11:00 AM - 9:00 PM",
-      "Thursday": "11:00 AM - 9:00 PM",
-      "Friday": "11:00 AM - 10:00 PM",
-      "Saturday": "11:00 AM - 10:00 PM",
-      "Sunday": "11:00 AM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Dao's Tai Pans Restaurant",
@@ -6934,16 +4126,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Authentic Thai and Chinese dishes, specializing in flavorful curries and stir-fries.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "Closed",
-      "Tuesday": "11:00 AM - 2:00 PM, 4:30 PM - 9:00 PM",
-      "Wednesday": "11:00 AM - 2:00 PM, 4:30 PM - 9:00 PM",
-      "Thursday": "11:00 AM - 2:00 PM, 4:30 PM - 9:00 PM",
-      "Friday": "11:00 AM - 2:00 PM, 4:30 PM - 9:30 PM",
-      "Saturday": "11:00 AM - 2:00 PM, 4:30 PM - 9:30 PM",
-      "Sunday": "11:00 AM - 2:00 PM, 4:30 PM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Los Olivos",
@@ -6953,16 +4136,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Charming local spot for classic Italian dishes, known for homemade pasta and pizzas.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "Closed",
-      "Tuesday": "11:00 AM - 9:00 PM",
-      "Wednesday": "11:00 AM - 9:00 PM",
-      "Thursday": "11:00 AM - 9:00 PM",
-      "Friday": "11:00 AM - 10:00 PM",
-      "Saturday": "11:00 AM - 10:00 PM",
-      "Sunday": "11:00 AM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Dairy Queen",
@@ -6972,16 +4146,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Beloved for iconic Blizzards and soft-serve treats, a sweet stop for dessert.",
     "isLocal": false,
-    "enriched": true,
-    "hours": {
-      "Monday": "10:30 AM - 9:00 PM",
-      "Tuesday": "10:30 AM - 9:00 PM",
-      "Wednesday": "10:30 AM - 9:00 PM",
-      "Thursday": "10:30 AM - 9:00 PM",
-      "Friday": "10:30 AM - 9:00 PM",
-      "Saturday": "10:30 AM - 9:00 PM",
-      "Sunday": "10:30 AM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Dave & Buster's",
@@ -6991,16 +4156,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Arcade fun meets casual dining, offering burgers, wings, and games for all.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 11:00 PM",
-      "Tuesday": "11:00 AM - 11:00 PM",
-      "Wednesday": "11:00 AM - 11:00 PM",
-      "Thursday": "11:00 AM - 11:00 PM",
-      "Friday": "11:00 AM - 1:00 AM",
-      "Saturday": "11:00 AM - 1:00 AM",
-      "Sunday": "11:00 AM - 11:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Little Caesars",
@@ -7010,16 +4166,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Quick and affordable hot-n-ready pizzas, perfect for a fast family dinner.",
     "isLocal": false,
-    "enriched": true,
-    "hours": {
-      "Monday": "10:30 AM - 10:00 PM",
-      "Tuesday": "10:30 AM - 10:00 PM",
-      "Wednesday": "10:30 AM - 10:00 PM",
-      "Thursday": "10:30 AM - 10:00 PM",
-      "Friday": "10:30 AM - 11:00 PM",
-      "Saturday": "10:30 AM - 11:00 PM",
-      "Sunday": "10:30 AM - 10:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Savaya Coffee Market",
@@ -7029,16 +4176,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Freshly roasted specialty coffee; recognized globally; serves meticulous pour-overs and single-origin brews.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "6:00 AM - 4:00 PM",
-      "Tuesday": "6:00 AM - 4:00 PM",
-      "Wednesday": "6:00 AM - 4:00 PM",
-      "Thursday": "6:00 AM - 4:00 PM",
-      "Friday": "6:00 AM - 4:00 PM",
-      "Saturday": "6:00 AM - 4:00 PM",
-      "Sunday": "6:00 AM - 4:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Saguaro Grill",
@@ -7048,16 +4186,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$$",
     "notes": "Located in Marriott University Park Hotel; offers refined Southwestern hotel dining and breakfast buffets.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "6:00 AM - 10:00 PM",
-      "Tuesday": "6:00 AM - 10:00 PM",
-      "Wednesday": "6:00 AM - 10:00 PM",
-      "Thursday": "6:00 AM - 10:00 PM",
-      "Friday": "6:00 AM - 10:00 PM",
-      "Saturday": "6:00 AM - 10:00 PM",
-      "Sunday": "6:00 AM - 10:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Halong Bay",
@@ -7067,16 +4196,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Vietnamese pho and volcano appetizer sampler; famous for its Fried Banana dessert and fresh spring rolls.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "Closed",
-      "Tuesday": "11:00 AM - 2:30 PM, 4:30 PM - 9:00 PM",
-      "Wednesday": "11:00 AM - 2:30 PM, 4:30 PM - 9:00 PM",
-      "Thursday": "11:00 AM - 2:30 PM, 4:30 PM - 9:00 PM",
-      "Friday": "11:00 AM - 2:30 PM, 4:30 PM - 9:30 PM",
-      "Saturday": "11:00 AM - 2:30 PM, 4:30 PM - 9:30 PM",
-      "Sunday": "11:00 AM - 2:30 PM, 4:30 PM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Turkish Kebab House",
@@ -7086,16 +4206,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Authentic Turkish flavors; features spit-roasted doner, skewered kebabs, and fresh Mediterranean salads.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "Closed",
-      "Tuesday": "11:00 AM - 9:00 PM",
-      "Wednesday": "11:00 AM - 9:00 PM",
-      "Thursday": "11:00 AM - 9:00 PM",
-      "Friday": "11:00 AM - 10:00 PM",
-      "Saturday": "11:00 AM - 10:00 PM",
-      "Sunday": "11:00 AM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Sachiko Sushi",
@@ -7105,16 +4216,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Highly rated traditional sushi spot; serves authentic nigiri, fresh sashimi, and classic Japanese rolls.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "Closed",
-      "Tuesday": "11:30 AM - 2:00 PM, 5:00 PM - 9:00 PM",
-      "Wednesday": "11:30 AM - 2:00 PM, 5:00 PM - 9:00 PM",
-      "Thursday": "11:30 AM - 2:00 PM, 5:00 PM - 9:00 PM",
-      "Friday": "11:30 AM - 2:00 PM, 5:00 PM - 10:00 PM",
-      "Saturday": "11:30 AM - 2:00 PM, 5:00 PM - 10:00 PM",
-      "Sunday": "5:00 PM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Amy's Donuts",
@@ -7124,16 +4226,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Features over 120 custom donut flavors ranging from classic glaze to extreme cereal and candy toppings.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "24 Hours",
-      "Tuesday": "24 Hours",
-      "Wednesday": "24 Hours",
-      "Thursday": "24 Hours",
-      "Friday": "24 Hours",
-      "Saturday": "24 Hours",
-      "Sunday": "24 Hours"
-    }
+    "enriched": true
   },
   {
     "name": "Agave House",
@@ -7143,16 +4236,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Tequila bar and upscale street food; features short rib tacos, queso fundido, and signature margaritas.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 9:00 PM",
-      "Tuesday": "11:00 AM - 9:00 PM",
-      "Wednesday": "11:00 AM - 9:00 PM",
-      "Thursday": "11:00 AM - 9:00 PM",
-      "Friday": "11:00 AM - 10:00 PM",
-      "Saturday": "11:00 AM - 10:00 PM",
-      "Sunday": "11:00 AM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Little Anthony's",
@@ -7162,16 +4246,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "50s-themed diner; home of Gaslight Theatre; serves classic milkshakes, burgers, and greasy-spoon fries.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "6:00 AM - 9:00 PM",
-      "Tuesday": "6:00 AM - 9:00 PM",
-      "Wednesday": "6:00 AM - 9:00 PM",
-      "Thursday": "6:00 AM - 9:00 PM",
-      "Friday": "6:00 AM - 10:00 PM",
-      "Saturday": "6:00 AM - 10:00 PM",
-      "Sunday": "6:00 AM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Teresa's Mosaic Cafe",
@@ -7181,16 +4256,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Authentic Sonoran and Oaxacan style dishes; famous for house-made tortillas and rich breakfast huevos.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "7:00 AM - 3:00 PM",
-      "Tuesday": "7:00 AM - 3:00 PM",
-      "Wednesday": "7:00 AM - 3:00 PM",
-      "Thursday": "7:00 AM - 3:00 PM",
-      "Friday": "7:00 AM - 3:00 PM",
-      "Saturday": "7:00 AM - 2:00 PM",
-      "Sunday": "7:00 AM - 2:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Gentle Ben's Brewing",
@@ -7200,16 +4266,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Legacy brewery near campus; family-friendly with kids menu, hearty pub burgers, and local draft beers.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 10:00 PM",
-      "Tuesday": "11:00 AM - 10:00 PM",
-      "Wednesday": "11:00 AM - 10:00 PM",
-      "Thursday": "11:00 AM - 10:00 PM",
-      "Friday": "11:00 AM - 11:00 PM",
-      "Saturday": "11:00 AM - 11:00 PM",
-      "Sunday": "11:00 AM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Great Wall China",
@@ -7219,16 +4276,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Reliable spot for classic Chinese-American dishes, known for generous portions and consistent flavors.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 9:30 PM",
-      "Tuesday": "11:00 AM - 9:30 PM",
-      "Wednesday": "11:00 AM - 9:30 PM",
-      "Thursday": "11:00 AM - 9:30 PM",
-      "Friday": "11:00 AM - 10:00 PM",
-      "Saturday": "12:00 PM - 10:00 PM",
-      "Sunday": "12:00 PM - 9:30 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Starbucks",
@@ -7238,16 +4286,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Corporate coffee chain near campus; serves Frappuccinos, espresso drinks, and standard cafe pastries.",
     "isLocal": false,
-    "enriched": true,
-    "hours": {
-      "Monday": "5:00 AM - 9:00 PM",
-      "Tuesday": "5:00 AM - 9:00 PM",
-      "Wednesday": "5:00 AM - 9:00 PM",
-      "Thursday": "5:00 AM - 9:00 PM",
-      "Friday": "5:00 AM - 9:00 PM",
-      "Saturday": "6:00 AM - 9:00 PM",
-      "Sunday": "6:00 AM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Moonstone",
@@ -7257,16 +4296,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$$",
     "notes": "Rooftop views at Graduate Tucson; serves craft cocktails, elevated bar snacks, and shareable plates.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "Closed",
-      "Tuesday": "5:00 PM - 12:00 AM",
-      "Wednesday": "5:00 PM - 12:00 AM",
-      "Thursday": "5:00 PM - 12:00 AM",
-      "Friday": "5:00 PM - 2:00 AM",
-      "Saturday": "5:00 PM - 2:00 AM",
-      "Sunday": "5:00 PM - 12:00 AM"
-    }
+    "enriched": true
   },
   {
     "name": "Geronimo Restaurant",
@@ -7276,16 +4306,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Authentic sausage plates and unique flavors; an elevated dining experience with a focused wine list.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "Closed",
-      "Tuesday": "5:00 PM - 9:00 PM",
-      "Wednesday": "5:00 PM - 9:00 PM",
-      "Thursday": "5:00 PM - 9:00 PM",
-      "Friday": "5:00 PM - 10:00 PM",
-      "Saturday": "5:00 PM - 10:00 PM",
-      "Sunday": "Closed"
-    }
+    "enriched": true
   },
   {
     "name": "The Quesadillas",
@@ -7295,16 +4316,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Counter-service charcoal grilled meats; serves perfectly crisped tortillas stuffed with carne asada.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "10:00 AM - 9:00 PM",
-      "Tuesday": "10:00 AM - 9:00 PM",
-      "Wednesday": "10:00 AM - 9:00 PM",
-      "Thursday": "10:00 AM - 9:00 PM",
-      "Friday": "10:00 AM - 9:00 PM",
-      "Saturday": "10:00 AM - 9:00 PM",
-      "Sunday": "10:00 AM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Illegal Pete's",
@@ -7314,16 +4326,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Full bar and live music; massive mission-style burritos built to order with fresh salsas and queso.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 2:00 AM",
-      "Tuesday": "11:00 AM - 2:00 AM",
-      "Wednesday": "11:00 AM - 2:00 AM",
-      "Thursday": "11:00 AM - 2:00 AM",
-      "Friday": "11:00 AM - 2:00 AM",
-      "Saturday": "11:00 AM - 2:00 AM",
-      "Sunday": "11:00 AM - 2:00 AM"
-    }
+    "enriched": true
   },
   {
     "name": "Jimmy's Pita & Poke",
@@ -7333,16 +4336,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Pita wraps and made-to-order poke bowls; fresh raw fish, healthy grains, and customizable toppings.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 8:00 PM",
-      "Tuesday": "11:00 AM - 8:00 PM",
-      "Wednesday": "11:00 AM - 8:00 PM",
-      "Thursday": "11:00 AM - 8:00 PM",
-      "Friday": "11:00 AM - 8:00 PM",
-      "Saturday": "11:00 AM - 8:00 PM",
-      "Sunday": "11:00 AM - 6:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Raising Cane's (Bway)",
@@ -7352,16 +4346,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Chicken fingers and toast; serves crispy chicken strips, crinkle fries, and signature Cane's Sauce.",
     "isLocal": false,
-    "enriched": true,
-    "hours": {
-      "Monday": "10:00 AM - 11:00 PM",
-      "Tuesday": "10:00 AM - 11:00 PM",
-      "Wednesday": "10:00 AM - 11:00 PM",
-      "Thursday": "10:00 AM - 11:00 PM",
-      "Friday": "10:00 AM - 12:00 AM",
-      "Saturday": "10:00 AM - 12:00 AM",
-      "Sunday": "10:00 AM - 11:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "The Buffalo Spot",
@@ -7371,16 +4356,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Famous for Buffalo Fries; fast casual dining featuring chicken tenders smothered in custom sauces.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 10:00 PM",
-      "Tuesday": "11:00 AM - 10:00 PM",
-      "Wednesday": "11:00 AM - 10:00 PM",
-      "Thursday": "11:00 AM - 10:00 PM",
-      "Friday": "11:00 AM - 10:00 PM",
-      "Saturday": "11:00 AM - 10:00 PM",
-      "Sunday": "11:00 AM - 10:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Noodies",
@@ -7390,16 +4366,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Hand-crafted fresh pasta and Italian fare; offers quick-service bowls of rich, scratch-made pasta.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 9:00 PM",
-      "Tuesday": "11:00 AM - 9:00 PM",
-      "Wednesday": "11:00 AM - 9:00 PM",
-      "Thursday": "11:00 AM - 9:00 PM",
-      "Friday": "11:00 AM - 9:00 PM",
-      "Saturday": "12:00 PM - 9:00 PM",
-      "Sunday": "12:00 PM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "KFC (Broadway)",
@@ -7409,16 +4376,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Standard fried chicken; serves buckets of original recipe chicken, mashed potatoes, and biscuits.",
     "isLocal": false,
-    "enriched": true,
-    "hours": {
-      "Monday": "10:30 AM - 10:00 PM",
-      "Tuesday": "10:30 AM - 10:00 PM",
-      "Wednesday": "10:30 AM - 10:00 PM",
-      "Thursday": "10:30 AM - 10:00 PM",
-      "Friday": "10:30 AM - 10:00 PM",
-      "Saturday": "10:30 AM - 10:00 PM",
-      "Sunday": "10:30 AM - 10:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Dragoon Brewing Company",
@@ -7428,16 +4386,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Established popular microbrewery; famous for Dragoon IPA and rotating local food truck pairings.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "Closed",
-      "Tuesday": "3:00 PM - 9:00 PM",
-      "Wednesday": "3:00 PM - 9:00 PM",
-      "Thursday": "3:00 PM - 9:00 PM",
-      "Friday": "2:00 PM - 10:00 PM",
-      "Saturday": "12:00 PM - 10:00 PM",
-      "Sunday": "12:00 PM - 8:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Nick's Sari-Sari",
@@ -7447,16 +4396,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Integrated Filipino market and restaurant; serves authentic adobo, lumpia, and sweet ube treats.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 7:00 PM",
-      "Tuesday": "11:00 AM - 7:00 PM",
-      "Wednesday": "11:00 AM - 7:00 PM",
-      "Thursday": "11:00 AM - 7:00 PM",
-      "Friday": "11:00 AM - 7:00 PM",
-      "Saturday": "11:00 AM - 7:00 PM",
-      "Sunday": "Closed"
-    }
+    "enriched": true
   },
   {
     "name": "Trattoria Pina",
@@ -7466,16 +4406,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$$",
     "notes": "Independent legacy; upscale Italian serving rich pasta, veal preparations, and elegant desserts.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "Closed",
-      "Tuesday": "11:30 AM - 2:00 PM, 5:00 PM - 9:00 PM",
-      "Wednesday": "11:30 AM - 2:00 PM, 5:00 PM - 9:00 PM",
-      "Thursday": "11:30 AM - 2:00 PM, 5:00 PM - 9:00 PM",
-      "Friday": "11:30 AM - 2:00 PM, 5:00 PM - 9:00 PM",
-      "Saturday": "5:00 PM - 9:00 PM",
-      "Sunday": "Closed"
-    }
+    "enriched": true
   },
   {
     "name": "No Anchovies",
@@ -7485,16 +4416,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "10,000 sq ft venue; 50+ big screens; serves giant pizza slices, wings, and college-bar staples.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 12:00 AM",
-      "Tuesday": "11:00 AM - 12:00 AM",
-      "Wednesday": "11:00 AM - 12:00 AM",
-      "Thursday": "11:00 AM - 12:00 AM",
-      "Friday": "11:00 AM - 12:00 AM",
-      "Saturday": "11:00 AM - 12:00 AM",
-      "Sunday": "11:00 AM - 12:00 AM"
-    }
+    "enriched": true
   },
   {
     "name": "Salsa Verde",
@@ -7504,16 +4426,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Traditional Mexican plates and fresh salsas; serves vibrant, zesty street tacos and enchiladas.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "10:00 AM - 9:00 PM",
-      "Tuesday": "10:00 AM - 9:00 PM",
-      "Wednesday": "10:00 AM - 9:00 PM",
-      "Thursday": "10:00 AM - 9:00 PM",
-      "Friday": "10:00 AM - 9:00 PM",
-      "Saturday": "10:00 AM - 9:00 PM",
-      "Sunday": "10:00 AM - 8:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Kababeque Indian",
@@ -7523,16 +4436,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Tandoori grilled meats and diverse curries; serves quick-service chicken tikka and fresh naan.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 2:30 PM, 5:00 PM - 9:00 PM",
-      "Tuesday": "11:00 AM - 2:30 PM, 5:00 PM - 9:00 PM",
-      "Wednesday": "11:00 AM - 2:30 PM, 5:00 PM - 9:00 PM",
-      "Thursday": "11:00 AM - 2:30 PM, 5:00 PM - 9:00 PM",
-      "Friday": "11:00 AM - 2:30 PM, 5:00 PM - 9:00 PM",
-      "Saturday": "12:00 PM - 3:00 PM, 5:00 PM - 9:30 PM",
-      "Sunday": "12:00 PM - 3:00 PM, 5:00 PM - 9:30 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Espressoul Café",
@@ -7542,16 +4446,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Local cafe and espresso lounge; offers Persian-inspired coffee drinks and fresh cafe pastries.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "6:30 AM - 4:00 PM",
-      "Tuesday": "6:30 AM - 4:00 PM",
-      "Wednesday": "6:30 AM - 4:00 PM",
-      "Thursday": "6:30 AM - 4:00 PM",
-      "Friday": "6:30 AM - 4:00 PM",
-      "Saturday": "7:00 AM - 3:00 PM",
-      "Sunday": "7:00 AM - 2:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Fora",
@@ -7561,16 +4456,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Artisan pizza and handmade pasta; serves elegant, rustic Italian dishes in a refined setting.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 9:00 PM",
-      "Tuesday": "11:00 AM - 9:00 PM",
-      "Wednesday": "11:00 AM - 9:00 PM",
-      "Thursday": "11:00 AM - 9:00 PM",
-      "Friday": "11:00 AM - 10:00 PM",
-      "Saturday": "11:00 AM - 10:00 PM",
-      "Sunday": "12:00 PM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Old Peking",
@@ -7580,16 +4466,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Chinese comfort classics; serves traditional sweet and sour pork, lo mein, and egg drop soup.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 9:00 PM",
-      "Tuesday": "11:00 AM - 9:00 PM",
-      "Wednesday": "11:00 AM - 9:00 PM",
-      "Thursday": "11:00 AM - 9:00 PM",
-      "Friday": "11:00 AM - 9:30 PM",
-      "Saturday": "12:00 PM - 9:30 PM",
-      "Sunday": "12:00 PM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Wendy's (Bway)",
@@ -7599,16 +4476,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Fast food burger chain; famous for square beef patties, chili, and chocolate Frosty desserts.",
     "isLocal": false,
-    "enriched": true,
-    "hours": {
-      "Monday": "10:30 AM - 12:00 AM",
-      "Tuesday": "10:30 AM - 12:00 AM",
-      "Wednesday": "10:30 AM - 12:00 AM",
-      "Thursday": "10:30 AM - 12:00 AM",
-      "Friday": "10:30 AM - 12:00 AM",
-      "Saturday": "10:30 AM - 12:00 AM",
-      "Sunday": "10:30 AM - 12:00 AM"
-    }
+    "enriched": true
   },
   {
     "name": "McDonald's",
@@ -7618,16 +4486,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Global fast-food icon serving burgers, fries, and breakfast favorites quickly and affordably.",
     "isLocal": false,
-    "enriched": true,
-    "hours": {
-      "Monday": "24 Hours",
-      "Tuesday": "24 Hours",
-      "Wednesday": "24 Hours",
-      "Thursday": "24 Hours",
-      "Friday": "24 Hours",
-      "Saturday": "24 Hours",
-      "Sunday": "24 Hours"
-    }
+    "enriched": true
   },
   {
     "name": "Domino's (Kolb)",
@@ -7637,16 +4496,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Pizza delivery chain; serves garlic-crusted pizzas, cheesy bread, and oven-baked sandwiches.",
     "isLocal": false,
-    "enriched": true,
-    "hours": {
-      "Monday": "10:00 AM - 1:00 AM",
-      "Tuesday": "10:00 AM - 1:00 AM",
-      "Wednesday": "10:00 AM - 1:00 AM",
-      "Thursday": "10:00 AM - 1:00 AM",
-      "Friday": "10:00 AM - 2:00 AM",
-      "Saturday": "10:00 AM - 2:00 AM",
-      "Sunday": "10:00 AM - 1:00 AM"
-    }
+    "enriched": true
   },
   {
     "name": "Saigon Pho",
@@ -7656,16 +4506,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Family-owned; traditional pho noodle soup with rich beef broth, fresh basil, and jalapeños.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "10:30 AM - 9:00 PM",
-      "Tuesday": "10:30 AM - 9:00 PM",
-      "Wednesday": "10:30 AM - 9:00 PM",
-      "Thursday": "10:30 AM - 9:00 PM",
-      "Friday": "10:30 AM - 9:00 PM",
-      "Saturday": "10:30 AM - 9:00 PM",
-      "Sunday": "10:30 AM - 8:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Whataburger",
@@ -7675,16 +4516,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Texas-sized burgers, classic shakes, and a menu with unique, delicious fast-food favorites.",
     "isLocal": false,
-    "enriched": true,
-    "hours": {
-      "Monday": "24 Hours",
-      "Tuesday": "24 Hours",
-      "Wednesday": "24 Hours",
-      "Thursday": "24 Hours",
-      "Friday": "24 Hours",
-      "Saturday": "24 Hours",
-      "Sunday": "24 Hours"
-    }
+    "enriched": true
   },
   {
     "name": "Fuku Sushi",
@@ -7694,16 +4526,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Late-night DJs and modern classic rolls; serves spicy tuna, tempura rolls, and sake bombs.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:30 AM - 2:30 PM, 4:30 PM - 9:30 PM",
-      "Tuesday": "11:30 AM - 2:30 PM, 4:30 PM - 9:30 PM",
-      "Wednesday": "11:30 AM - 2:30 PM, 4:30 PM - 9:30 PM",
-      "Thursday": "11:30 AM - 2:30 PM, 4:30 PM - 9:30 PM",
-      "Friday": "11:30 AM - 2:30 PM, 4:30 PM - 9:30 PM",
-      "Saturday": "12:00 PM - 9:30 PM",
-      "Sunday": "Closed"
-    }
+    "enriched": true
   },
   {
     "name": "Frog & Firkin",
@@ -7713,16 +4536,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "\"Famous pizza\" and English pub fare; offers massive deep-dish style pizzas and 100+ beers.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 2:00 AM",
-      "Tuesday": "11:00 AM - 2:00 AM",
-      "Wednesday": "11:00 AM - 2:00 AM",
-      "Thursday": "11:00 AM - 2:00 AM",
-      "Friday": "11:00 AM - 2:00 AM",
-      "Saturday": "11:00 AM - 2:00 AM",
-      "Sunday": "11:00 AM - 2:00 AM"
-    }
+    "enriched": true
   },
   {
     "name": "Jimmy John's (Kolb)",
@@ -7732,16 +4546,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Fast delivery sandwiches; serves cold cut subs on fresh-baked French bread with provolone.",
     "isLocal": false,
-    "enriched": true,
-    "hours": {
-      "Monday": "10:00 AM - 9:00 PM",
-      "Tuesday": "10:00 AM - 9:00 PM",
-      "Wednesday": "10:00 AM - 9:00 PM",
-      "Thursday": "10:00 AM - 9:00 PM",
-      "Friday": "10:00 AM - 9:00 PM",
-      "Saturday": "10:00 AM - 9:00 PM",
-      "Sunday": "10:00 AM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "L&L Hawaiian Barbecue",
@@ -7751,16 +4556,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Authentic Hawaiian plate lunches, spam musubi, and delicious BBQ. A taste of the islands.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 9:00 PM",
-      "Tuesday": "11:00 AM - 9:00 PM",
-      "Wednesday": "11:00 AM - 9:00 PM",
-      "Thursday": "11:00 AM - 9:00 PM",
-      "Friday": "11:00 AM - 9:00 PM",
-      "Saturday": "11:00 AM - 9:00 PM",
-      "Sunday": "11:00 AM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Jack in the Box (Kolb)",
@@ -7770,16 +4566,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Burger and taco chain; serves Jumbo Jacks, curly fries, and late-night deep-fried tacos.",
     "isLocal": false,
-    "enriched": true,
-    "hours": {
-      "Monday": "24 Hours",
-      "Tuesday": "24 Hours",
-      "Wednesday": "24 Hours",
-      "Thursday": "24 Hours",
-      "Friday": "24 Hours",
-      "Saturday": "24 Hours",
-      "Sunday": "24 Hours"
-    }
+    "enriched": true
   },
   {
     "name": "Dunkin'",
@@ -7789,16 +4576,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Grab-and-go coffee, delicious donuts, and breakfast sandwiches for a quick start.",
     "isLocal": false,
-    "enriched": true,
-    "hours": {
-      "Monday": "5:00 AM - 8:00 PM",
-      "Tuesday": "5:00 AM - 8:00 PM",
-      "Wednesday": "5:00 AM - 8:00 PM",
-      "Thursday": "5:00 AM - 8:00 PM",
-      "Friday": "5:00 AM - 8:00 PM",
-      "Saturday": "5:00 AM - 8:00 PM",
-      "Sunday": "5:00 AM - 8:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Taco Bell (Campbell)",
@@ -7808,16 +4586,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Fast food Mexican; serves crunchy tacos, bean burritos, and Baja Blast freezes.",
     "isLocal": false,
-    "enriched": true,
-    "hours": {
-      "Monday": "9:00 AM - 1:00 AM",
-      "Tuesday": "9:00 AM - 1:00 AM",
-      "Wednesday": "9:00 AM - 1:00 AM",
-      "Thursday": "9:00 AM - 1:00 AM",
-      "Friday": "9:00 AM - 1:00 AM",
-      "Saturday": "9:00 AM - 1:00 AM",
-      "Sunday": "9:00 AM - 1:00 AM"
-    }
+    "enriched": true
   },
   {
     "name": "Sushi Zona",
@@ -7827,16 +4596,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$$",
     "notes": "Premier spot for fresh, creative sushi rolls and sashimi in a chic setting.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 9:00 PM",
-      "Tuesday": "11:00 AM - 9:00 PM",
-      "Wednesday": "11:00 AM - 9:00 PM",
-      "Thursday": "11:00 AM - 9:00 PM",
-      "Friday": "11:00 AM - 10:00 PM",
-      "Saturday": "11:00 AM - 10:00 PM",
-      "Sunday": "12:00 PM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Oriental Express",
@@ -7846,16 +4606,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Diverse international flavors; student favorite for quick, affordable Chinese-American stir-fries and noodles.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 9:30 PM",
-      "Tuesday": "11:00 AM - 9:30 PM",
-      "Wednesday": "11:00 AM - 9:30 PM",
-      "Thursday": "11:00 AM - 9:30 PM",
-      "Friday": "11:00 AM - 9:30 PM",
-      "Saturday": "11:00 AM - 9:30 PM",
-      "Sunday": "11:00 AM - 9:30 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Time Market",
@@ -7865,16 +4616,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Legacy organic market; serves artisan wood-fired pizza, freshly baked breads, and curated espresso drinks.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "7:00 AM - 9:00 PM",
-      "Tuesday": "7:00 AM - 9:00 PM",
-      "Wednesday": "7:00 AM - 9:00 PM",
-      "Thursday": "7:00 AM - 9:00 PM",
-      "Friday": "7:00 AM - 9:00 PM",
-      "Saturday": "7:00 AM - 9:00 PM",
-      "Sunday": "7:00 AM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Snakes & Lattes",
@@ -7884,16 +4626,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Board game library with full food and bar; serves loaded fries, casual sandwiches, and themed cocktails.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "Closed",
-      "Tuesday": "2:00 PM - 10:00 PM",
-      "Wednesday": "2:00 PM - 10:00 PM",
-      "Thursday": "2:00 PM - 10:00 PM",
-      "Friday": "2:00 PM - 12:00 AM",
-      "Saturday": "12:00 PM - 12:00 AM",
-      "Sunday": "12:00 PM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Zio Peppe",
@@ -7903,16 +4636,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$$",
     "notes": "Upscale Italian eatery crafting handmade pasta, wood-fired pizzas, and exquisite Mediterranean flavors.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "Closed",
-      "Tuesday": "4:00 PM - 9:00 PM",
-      "Wednesday": "4:00 PM - 9:00 PM",
-      "Thursday": "4:00 PM - 9:00 PM",
-      "Friday": "4:00 PM - 9:00 PM",
-      "Saturday": "4:00 PM - 9:00 PM",
-      "Sunday": "4:00 PM - 8:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "IHOP (Broadway)",
@@ -7922,16 +4646,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "24-hour service at Pantano intersection; famous for stacked pancake plates and heavy omelettes.",
     "isLocal": false,
-    "enriched": true,
-    "hours": {
-      "Monday": "24 Hours",
-      "Tuesday": "24 Hours",
-      "Wednesday": "24 Hours",
-      "Thursday": "24 Hours",
-      "Friday": "24 Hours",
-      "Saturday": "24 Hours",
-      "Sunday": "24 Hours"
-    }
+    "enriched": true
   },
   {
     "name": "Pelio Grill",
@@ -7941,16 +4656,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Traditional Greek platters; features fresh chicken souvlaki, Greek salads, and tzatziki dips.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 8:00 PM",
-      "Tuesday": "11:00 AM - 8:00 PM",
-      "Wednesday": "11:00 AM - 8:00 PM",
-      "Thursday": "11:00 AM - 8:00 PM",
-      "Friday": "11:00 AM - 8:00 PM",
-      "Saturday": "11:00 AM - 8:00 PM",
-      "Sunday": "11:00 AM - 8:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Denny's",
@@ -7960,16 +4666,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "The classic American diner, open 24/7 for Grand Slams, burgers, and comfort food.",
     "isLocal": false,
-    "enriched": true,
-    "hours": {
-      "Monday": "24 Hours",
-      "Tuesday": "24 Hours",
-      "Wednesday": "24 Hours",
-      "Thursday": "24 Hours",
-      "Friday": "24 Hours",
-      "Saturday": "24 Hours",
-      "Sunday": "24 Hours"
-    }
+    "enriched": true
   },
   {
     "name": "Rudy's Country Store and Bar-B-Q",
@@ -7979,16 +4676,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Authentic Texas BBQ experience with smoky brisket, ribs, and country-style sides.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "10:30 AM - 9:00 PM",
-      "Tuesday": "10:30 AM - 9:00 PM",
-      "Wednesday": "10:30 AM - 9:00 PM",
-      "Thursday": "10:30 AM - 9:00 PM",
-      "Friday": "10:30 AM - 9:00 PM",
-      "Saturday": "10:30 AM - 9:00 PM",
-      "Sunday": "10:30 AM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Panda One",
@@ -7998,16 +4686,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Local spot for classic Chinese take-out dishes, including flavorful stir-fries and satisfying noodle options.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 9:30 PM",
-      "Tuesday": "11:00 AM - 9:30 PM",
-      "Wednesday": "11:00 AM - 9:30 PM",
-      "Thursday": "11:00 AM - 9:30 PM",
-      "Friday": "11:00 AM - 9:30 PM",
-      "Saturday": "11:00 AM - 9:30 PM",
-      "Sunday": "11:00 AM - 9:30 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Bacio Italiano",
@@ -8017,16 +4696,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Neapolitan-NY style; approachable Italian fare including brick-oven pizzas and hearty pasta bowls.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 9:00 PM",
-      "Tuesday": "11:00 AM - 9:00 PM",
-      "Wednesday": "11:00 AM - 9:00 PM",
-      "Thursday": "11:00 AM - 9:00 PM",
-      "Friday": "11:00 AM - 10:00 PM",
-      "Saturday": "11:00 AM - 10:00 PM",
-      "Sunday": "12:00 PM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "La Frida Mexican",
@@ -8036,16 +4706,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$$",
     "notes": "37-ingredient mole; upscale family-owned serving sophisticated regional Mexican and fresh seafood.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 9:00 PM",
-      "Tuesday": "11:00 AM - 9:00 PM",
-      "Wednesday": "11:00 AM - 9:00 PM",
-      "Thursday": "11:00 AM - 9:00 PM",
-      "Friday": "11:00 AM - 9:00 PM",
-      "Saturday": "11:00 AM - 9:00 PM",
-      "Sunday": "11:00 AM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Red Captain Coffee Company",
@@ -8055,16 +4716,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Local roaster offering exceptional coffee blends, specialty drinks, and a cozy spot to relax.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "6:00 AM - 3:00 PM",
-      "Tuesday": "6:00 AM - 3:00 PM",
-      "Wednesday": "6:00 AM - 3:00 PM",
-      "Thursday": "6:00 AM - 3:00 PM",
-      "Friday": "6:00 AM - 3:00 PM",
-      "Saturday": "7:00 AM - 2:00 PM",
-      "Sunday": "7:00 AM - 2:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Domino's",
@@ -8074,16 +4726,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Dependable delivery for customizable pizzas, wings, and cheesy bread. Fast and convenient.",
     "isLocal": false,
-    "enriched": true,
-    "hours": {
-      "Monday": "10:30 AM - 12:00 AM",
-      "Tuesday": "10:30 AM - 12:00 AM",
-      "Wednesday": "10:30 AM - 12:00 AM",
-      "Thursday": "10:30 AM - 12:00 AM",
-      "Friday": "10:30 AM - 12:00 AM",
-      "Saturday": "10:30 AM - 12:00 AM",
-      "Sunday": "10:30 AM - 12:00 AM"
-    }
+    "enriched": true
   },
   {
     "name": "The Blind Pig",
@@ -8093,16 +4736,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Premiere BBQ and Happy Hour food hub; serves smoked pulled pork, ribs, and loaded nachos.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "Closed",
-      "Tuesday": "11:00 AM - 9:00 PM",
-      "Wednesday": "11:00 AM - 9:00 PM",
-      "Thursday": "11:00 AM - 9:00 PM",
-      "Friday": "11:00 AM - 10:00 PM",
-      "Saturday": "11:00 AM - 10:00 PM",
-      "Sunday": "11:00 AM - 8:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "El Corral",
@@ -8112,16 +4746,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$$",
     "notes": "Historic 1926 ranch house; famous for thick-cut prime rib, tamale pie, and Adobe Mud Pie.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "Closed",
-      "Tuesday": "Closed",
-      "Wednesday": "5:00 PM - 9:00 PM",
-      "Thursday": "5:00 PM - 9:00 PM",
-      "Friday": "5:00 PM - 9:00 PM",
-      "Saturday": "5:00 PM - 9:00 PM",
-      "Sunday": "5:00 PM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Prep & Pastry",
@@ -8131,16 +4756,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Upscale brunch destination with delectable pastries, creative dishes, and artisan coffee.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "7:00 AM - 2:00 PM",
-      "Tuesday": "7:00 AM - 2:00 PM",
-      "Wednesday": "7:00 AM - 2:00 PM",
-      "Thursday": "7:00 AM - 2:00 PM",
-      "Friday": "7:00 AM - 2:00 PM",
-      "Saturday": "7:00 AM - 2:00 PM",
-      "Sunday": "7:00 AM - 2:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Cowpony Bar",
@@ -8150,16 +4766,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "A classic dive bar experience, cheap drinks, and a genuine, no-frills local atmosphere.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "3:00 PM - 2:00 AM",
-      "Tuesday": "3:00 PM - 2:00 AM",
-      "Wednesday": "3:00 PM - 2:00 AM",
-      "Thursday": "3:00 PM - 2:00 AM",
-      "Friday": "3:00 PM - 2:00 AM",
-      "Saturday": "12:00 PM - 2:00 AM",
-      "Sunday": "12:00 PM - 2:00 AM"
-    }
+    "enriched": true
   },
   {
     "name": "Dakota",
@@ -8169,16 +4776,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Quick and convenient spot for classic American fast food, perfect for a speedy lunch.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "10:00 AM - 10:00 PM",
-      "Tuesday": "10:00 AM - 10:00 PM",
-      "Wednesday": "10:00 AM - 10:00 PM",
-      "Thursday": "10:00 AM - 10:00 PM",
-      "Friday": "10:00 AM - 10:00 PM",
-      "Saturday": "10:00 AM - 10:00 PM",
-      "Sunday": "10:00 AM - 10:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "The Saddle",
@@ -8188,16 +4786,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "\"Only country dive bar\" on University Blvd; serves cold beer and standard pub grub.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "3:00 PM - 2:00 AM",
-      "Tuesday": "3:00 PM - 2:00 AM",
-      "Wednesday": "3:00 PM - 2:00 AM",
-      "Thursday": "3:00 PM - 2:00 AM",
-      "Friday": "3:00 PM - 2:00 AM",
-      "Saturday": "12:00 PM - 2:00 AM",
-      "Sunday": "12:00 PM - 2:00 AM"
-    }
+    "enriched": true
   },
   {
     "name": "NYPD New York Pizza Department",
@@ -8207,16 +4796,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Authentic New York style pizza slices and whole pies, boasting classic chewy crust.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 10:00 PM",
-      "Tuesday": "11:00 AM - 10:00 PM",
-      "Wednesday": "11:00 AM - 10:00 PM",
-      "Thursday": "11:00 AM - 10:00 PM",
-      "Friday": "11:00 AM - 11:00 PM",
-      "Saturday": "11:00 AM - 11:00 PM",
-      "Sunday": "11:00 AM - 10:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Angry Crab & BBQ",
@@ -8226,16 +4806,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$$",
     "notes": "Messy, flavorful seafood boils and smoky BBQ platters, a fun culinary adventure.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "Closed",
-      "Tuesday": "3:00 PM - 9:00 PM",
-      "Wednesday": "3:00 PM - 9:00 PM",
-      "Thursday": "3:00 PM - 9:00 PM",
-      "Friday": "12:00 PM - 10:00 PM",
-      "Saturday": "12:00 PM - 10:00 PM",
-      "Sunday": "12:00 PM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Starbucks",
@@ -8245,16 +4816,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Reliable spot for favorite coffee drinks, pastries, and a quick breakfast grab.",
     "isLocal": false,
-    "enriched": true,
-    "hours": {
-      "Monday": "5:00 AM - 9:00 PM",
-      "Tuesday": "5:00 AM - 9:00 PM",
-      "Wednesday": "5:00 AM - 9:00 PM",
-      "Thursday": "5:00 AM - 9:00 PM",
-      "Friday": "5:00 AM - 9:00 PM",
-      "Saturday": "5:00 AM - 9:00 PM",
-      "Sunday": "5:00 AM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Tony's New York Style Italian Deli",
@@ -8264,16 +4826,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Authentic Italian deli sandwiches, a taste of the Big Apple's classic comfort.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "10:00 AM - 5:00 PM",
-      "Tuesday": "10:00 AM - 5:00 PM",
-      "Wednesday": "10:00 AM - 5:00 PM",
-      "Thursday": "10:00 AM - 5:00 PM",
-      "Friday": "10:00 AM - 5:00 PM",
-      "Saturday": "10:00 AM - 5:00 PM",
-      "Sunday": "Closed"
-    }
+    "enriched": true
   },
   {
     "name": "Reforma",
@@ -8283,16 +4836,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Arizona's largest tequila selection; house salsas, upscale tacos, and sophisticated Mexican plates.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 9:00 PM",
-      "Tuesday": "11:00 AM - 9:00 PM",
-      "Wednesday": "11:00 AM - 9:00 PM",
-      "Thursday": "11:00 AM - 9:00 PM",
-      "Friday": "11:00 AM - 11:00 PM",
-      "Saturday": "11:00 AM - 11:00 PM",
-      "Sunday": "10:00 AM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Sullivan's",
@@ -8302,16 +4846,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$$",
     "notes": "Near St Philip's; hand-cut steaks, live music, and classic steakhouse sides like creamed spinach.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "Closed",
-      "Tuesday": "4:00 PM - 10:00 PM",
-      "Wednesday": "4:00 PM - 10:00 PM",
-      "Thursday": "4:00 PM - 10:00 PM",
-      "Friday": "4:00 PM - 10:00 PM",
-      "Saturday": "4:00 PM - 10:00 PM",
-      "Sunday": "4:00 PM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Ren Coffeehouse",
@@ -8321,16 +4856,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Locally roasted; scratch-made pastries, rich espresso, and light, healthy cafe breakfast options.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "6:00 AM - 5:00 PM",
-      "Tuesday": "6:00 AM - 5:00 PM",
-      "Wednesday": "6:00 AM - 5:00 PM",
-      "Thursday": "6:00 AM - 5:00 PM",
-      "Friday": "6:00 AM - 5:00 PM",
-      "Saturday": "6:00 AM - 5:00 PM",
-      "Sunday": "6:00 AM - 5:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Arby's",
@@ -8340,16 +4866,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Fast-food chain famous for its slow-roasted beef sandwiches, curly fries, and unique milkshakes.",
     "isLocal": false,
-    "enriched": true,
-    "hours": {
-      "Monday": "10:00 AM - 10:00 PM",
-      "Tuesday": "10:00 AM - 10:00 PM",
-      "Wednesday": "10:00 AM - 10:00 PM",
-      "Thursday": "10:00 AM - 10:00 PM",
-      "Friday": "10:00 AM - 10:00 PM",
-      "Saturday": "10:00 AM - 10:00 PM",
-      "Sunday": "10:00 AM - 10:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Taco Bell",
@@ -8359,16 +4876,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Affordable and quick Mexican-inspired fast food, perfect for a late-night crunchy taco craving.",
     "isLocal": false,
-    "enriched": true,
-    "hours": {
-      "Monday": "10:00 AM - 1:00 AM",
-      "Tuesday": "10:00 AM - 1:00 AM",
-      "Wednesday": "10:00 AM - 1:00 AM",
-      "Thursday": "10:00 AM - 1:00 AM",
-      "Friday": "10:00 AM - 2:00 AM",
-      "Saturday": "10:00 AM - 2:00 AM",
-      "Sunday": "10:00 AM - 12:00 AM"
-    }
+    "enriched": true
   },
   {
     "name": "Proof Artisanal",
@@ -8378,16 +4886,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Italian double-zero flour; outdoor dining serving perfectly blistered Neapolitan-style pizzas.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "Closed",
-      "Tuesday": "11:00 AM - 9:00 PM",
-      "Wednesday": "11:00 AM - 9:00 PM",
-      "Thursday": "11:00 AM - 9:00 PM",
-      "Friday": "11:00 AM - 10:00 PM",
-      "Saturday": "11:00 AM - 10:00 PM",
-      "Sunday": "12:00 PM - 8:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Filiberto's",
@@ -8397,16 +4896,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Casual, late-night Mexican spot serving generous portions of Sonoran-style burritos and tacos.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "24 Hours",
-      "Tuesday": "24 Hours",
-      "Wednesday": "24 Hours",
-      "Thursday": "24 Hours",
-      "Friday": "24 Hours",
-      "Saturday": "24 Hours",
-      "Sunday": "24 Hours"
-    }
+    "enriched": true
   },
   {
     "name": "Union Public House",
@@ -8416,16 +4906,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Scratch-made comfort; 30 beers on tap serving elevated pub burgers and loaded mac and cheese.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 11:00 PM",
-      "Tuesday": "11:00 AM - 11:00 PM",
-      "Wednesday": "11:00 AM - 11:00 PM",
-      "Thursday": "11:00 AM - 11:00 PM",
-      "Friday": "11:00 AM - 1:00 AM",
-      "Saturday": "11:00 AM - 1:00 AM",
-      "Sunday": "10:00 AM - 10:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Applebee's",
@@ -8435,16 +4916,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Neighborhood grill and bar offering classic American comfort food, steaks, and casual dining.",
     "isLocal": false,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 11:00 PM",
-      "Tuesday": "11:00 AM - 11:00 PM",
-      "Wednesday": "11:00 AM - 11:00 PM",
-      "Thursday": "11:00 AM - 11:00 PM",
-      "Friday": "11:00 AM - 12:00 AM",
-      "Saturday": "11:00 AM - 12:00 AM",
-      "Sunday": "11:00 AM - 10:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Ren Bakery",
@@ -8454,16 +4926,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Specialized second location for Ren brand; offers flaky croissants, fresh bread, and lattes.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "6:00 AM - 4:00 PM",
-      "Tuesday": "6:00 AM - 4:00 PM",
-      "Wednesday": "6:00 AM - 4:00 PM",
-      "Thursday": "6:00 AM - 4:00 PM",
-      "Friday": "6:00 AM - 4:00 PM",
-      "Saturday": "6:00 AM - 4:00 PM",
-      "Sunday": "6:00 AM - 4:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "AZ Wine Collective",
@@ -8473,16 +4936,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Curated Arizona wines and local draft beers; serves artisan cheese boards and light snacks.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "Closed",
-      "Tuesday": "Closed",
-      "Wednesday": "3:00 PM - 9:00 PM",
-      "Thursday": "3:00 PM - 9:00 PM",
-      "Friday": "3:00 PM - 10:00 PM",
-      "Saturday": "3:00 PM - 10:00 PM",
-      "Sunday": "1:00 PM - 7:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Pure Love Juice",
@@ -8492,16 +4946,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Holistic healing through raw nutrients; serves organic cold-pressed juices and acai bowls.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "7:00 AM - 4:00 PM",
-      "Tuesday": "7:00 AM - 4:00 PM",
-      "Wednesday": "7:00 AM - 4:00 PM",
-      "Thursday": "7:00 AM - 4:00 PM",
-      "Friday": "7:00 AM - 4:00 PM",
-      "Saturday": "8:00 AM - 3:00 PM",
-      "Sunday": "8:00 AM - 3:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Panda Express",
@@ -8511,16 +4956,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Popular fast-casual spot for American Chinese classics like Orange Chicken and chow mein.",
     "isLocal": false,
-    "enriched": true,
-    "hours": {
-      "Monday": "10:30 AM - 9:30 PM",
-      "Tuesday": "10:30 AM - 9:30 PM",
-      "Wednesday": "10:30 AM - 9:30 PM",
-      "Thursday": "10:30 AM - 9:30 PM",
-      "Friday": "10:30 AM - 9:30 PM",
-      "Saturday": "10:30 AM - 9:30 PM",
-      "Sunday": "10:30 AM - 9:30 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Eegee's",
@@ -8530,16 +4966,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Tucson's beloved spot for unique eegee's drinks, delicious subs, and crinkle-cut fries.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "10:00 AM - 9:00 PM",
-      "Tuesday": "10:00 AM - 9:00 PM",
-      "Wednesday": "10:00 AM - 9:00 PM",
-      "Thursday": "10:00 AM - 9:00 PM",
-      "Friday": "10:00 AM - 10:00 PM",
-      "Saturday": "10:00 AM - 10:00 PM",
-      "Sunday": "10:00 AM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Chicken nuevo",
@@ -8549,16 +4976,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Flavorful Mexican-style chicken, offering quick, satisfying meals with authentic zest.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 9:00 PM",
-      "Tuesday": "11:00 AM - 9:00 PM",
-      "Wednesday": "11:00 AM - 9:00 PM",
-      "Thursday": "11:00 AM - 9:00 PM",
-      "Friday": "11:00 AM - 9:00 PM",
-      "Saturday": "11:00 AM - 9:00 PM",
-      "Sunday": "11:00 AM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Scented Leaf Tea House - Tanque Verde",
@@ -8568,16 +4986,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Serene tea house offering a vast selection of premium loose-leaf teas and boba.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "10:00 AM - 8:00 PM",
-      "Tuesday": "10:00 AM - 8:00 PM",
-      "Wednesday": "10:00 AM - 8:00 PM",
-      "Thursday": "10:00 AM - 8:00 PM",
-      "Friday": "10:00 AM - 8:00 PM",
-      "Saturday": "10:00 AM - 8:00 PM",
-      "Sunday": "10:00 AM - 8:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Jack in the Box",
@@ -8587,16 +4996,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Diverse fast-food menu from burgers and tacos to breakfast all day.",
     "isLocal": false,
-    "enriched": true,
-    "hours": {
-      "Monday": "24 Hours",
-      "Tuesday": "24 Hours",
-      "Wednesday": "24 Hours",
-      "Thursday": "24 Hours",
-      "Friday": "24 Hours",
-      "Saturday": "24 Hours",
-      "Sunday": "24 Hours"
-    }
+    "enriched": true
   },
   {
     "name": "Corbett's",
@@ -8606,16 +5006,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Massive complex; pickleball, music, and food; features gourmet burgers, fresh salads, and craft cocktails.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "Closed",
-      "Tuesday": "4:00 PM - 9:00 PM",
-      "Wednesday": "4:00 PM - 9:00 PM",
-      "Thursday": "4:00 PM - 9:00 PM",
-      "Friday": "4:00 PM - 10:00 PM",
-      "Saturday": "4:00 PM - 10:00 PM",
-      "Sunday": "10:00 AM - 2:00 PM, 4:00 PM - 8:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Samurai Japanese Restaurant",
@@ -8625,16 +5016,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Traditional Japanese restaurant, offering fresh sushi, teppanyaki grills, and a vibrant dining experience.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "Closed",
-      "Tuesday": "11:30 AM - 2:00 PM, 5:00 PM - 9:00 PM",
-      "Wednesday": "11:30 AM - 2:00 PM, 5:00 PM - 9:00 PM",
-      "Thursday": "11:30 AM - 2:00 PM, 5:00 PM - 9:00 PM",
-      "Friday": "11:30 AM - 2:00 PM, 5:00 PM - 10:00 PM",
-      "Saturday": "11:30 AM - 2:00 PM, 5:00 PM - 10:00 PM",
-      "Sunday": "12:00 PM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Beyond Bread (JV)",
@@ -8644,16 +5026,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Local legacy bakery; extensive sandwich menu featuring artisan breads and thick chocolate chip cookies.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "7:00 AM - 6:00 PM",
-      "Tuesday": "7:00 AM - 6:00 PM",
-      "Wednesday": "7:00 AM - 6:00 PM",
-      "Thursday": "7:00 AM - 6:00 PM",
-      "Friday": "7:00 AM - 6:00 PM",
-      "Saturday": "7:00 AM - 6:00 PM",
-      "Sunday": "7:00 AM - 6:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Starbucks",
@@ -8663,16 +5036,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Popular coffeehouse chain for classic espresso drinks, pastries, and convenient on-the-go refreshments.",
     "isLocal": false,
-    "enriched": true,
-    "hours": {
-      "Monday": "5:00 AM - 9:00 PM",
-      "Tuesday": "5:00 AM - 9:00 PM",
-      "Wednesday": "5:00 AM - 9:00 PM",
-      "Thursday": "5:00 AM - 9:00 PM",
-      "Friday": "5:00 AM - 9:00 PM",
-      "Saturday": "5:00 AM - 9:00 PM",
-      "Sunday": "5:00 AM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Teaspoon",
@@ -8682,16 +5046,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Contemporary breakfast and specialty coffee; serves scratch-made cafe items and loaded avocado toast.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "6:00 AM - 6:00 PM",
-      "Tuesday": "6:00 AM - 6:00 PM",
-      "Wednesday": "6:00 AM - 6:00 PM",
-      "Thursday": "6:00 AM - 6:00 PM",
-      "Friday": "6:00 AM - 6:00 PM",
-      "Saturday": "6:00 AM - 6:00 PM",
-      "Sunday": "6:00 AM - 6:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Villa Peru",
@@ -8701,16 +5056,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$$",
     "notes": "Authentic Oaxacan and coastal influences; serves Lomo Saltado, fresh ceviche, and Pollo A La Brasa.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "Closed",
-      "Tuesday": "11:00 AM - 2:00 PM, 5:00 PM - 9:00 PM",
-      "Wednesday": "11:00 AM - 2:00 PM, 5:00 PM - 9:00 PM",
-      "Thursday": "11:00 AM - 2:00 PM, 5:00 PM - 9:00 PM",
-      "Friday": "11:00 AM - 2:00 PM, 5:00 PM - 10:00 PM",
-      "Saturday": "11:00 AM - 2:00 PM, 5:00 PM - 10:00 PM",
-      "Sunday": "12:00 PM - 8:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Sauce (JV)",
@@ -8720,16 +5066,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Hand-stretched pizzas and pasta bowls; serves fast-casual thin-crust pies and fresh chopped salads.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 9:00 PM",
-      "Tuesday": "11:00 AM - 9:00 PM",
-      "Wednesday": "11:00 AM - 9:00 PM",
-      "Thursday": "11:00 AM - 9:00 PM",
-      "Friday": "11:00 AM - 10:00 PM",
-      "Saturday": "11:00 AM - 10:00 PM",
-      "Sunday": "11:00 AM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Bubbe's Bagels",
@@ -8739,16 +5076,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Traditional boiled and baked bagels; serves authentic Jewish deli-style bagel sandwiches and lox.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "6:00 AM - 2:00 PM",
-      "Tuesday": "6:00 AM - 2:00 PM",
-      "Wednesday": "6:00 AM - 2:00 PM",
-      "Thursday": "6:00 AM - 2:00 PM",
-      "Friday": "6:00 AM - 2:00 PM",
-      "Saturday": "6:00 AM - 2:00 PM",
-      "Sunday": "7:00 AM - 1:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Pizza Hut",
@@ -8758,16 +5086,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Popular chain for classic pan pizzas, breadsticks, and family-friendly dining options.",
     "isLocal": false,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 10:00 PM",
-      "Tuesday": "11:00 AM - 10:00 PM",
-      "Wednesday": "11:00 AM - 10:00 PM",
-      "Thursday": "11:00 AM - 10:00 PM",
-      "Friday": "11:00 AM - 11:00 PM",
-      "Saturday": "11:00 AM - 11:00 PM",
-      "Sunday": "11:00 AM - 10:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Chipotle",
@@ -8777,16 +5096,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Popular chain for customizable burritos, bowls, and fresh, fast-casual Mexican fare.",
     "isLocal": false,
-    "enriched": true,
-    "hours": {
-      "Monday": "10:45 AM - 10:00 PM",
-      "Tuesday": "10:45 AM - 10:00 PM",
-      "Wednesday": "10:45 AM - 10:00 PM",
-      "Thursday": "10:45 AM - 10:00 PM",
-      "Friday": "10:45 AM - 10:00 PM",
-      "Saturday": "10:45 AM - 10:00 PM",
-      "Sunday": "10:45 AM - 10:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Mike's Pizza",
@@ -8796,16 +5106,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Local favorite for classic, cheesy pizzas and hearty Italian American comfort food.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "Closed",
-      "Tuesday": "11:00 AM - 9:00 PM",
-      "Wednesday": "11:00 AM - 9:00 PM",
-      "Thursday": "11:00 AM - 9:00 PM",
-      "Friday": "11:00 AM - 10:00 PM",
-      "Saturday": "11:00 AM - 10:00 PM",
-      "Sunday": "12:00 PM - 8:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Tap & Bottle",
@@ -8815,16 +5116,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Premier craft beer bottle shop and tasting room; offers an extensive rotating draft list, local wines, and food truck pairings.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "Closed",
-      "Tuesday": "2:00 PM - 10:00 PM",
-      "Wednesday": "2:00 PM - 10:00 PM",
-      "Thursday": "2:00 PM - 10:00 PM",
-      "Friday": "12:00 PM - 12:00 AM",
-      "Saturday": "11:00 AM - 12:00 AM",
-      "Sunday": "11:00 AM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "La Chaiteria",
@@ -8834,16 +5126,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Plant-based Latin kitchen by the chef of Tumerico; serves vegan jackfruit tacos, healthy bowls, and fresh lattes.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "Closed",
-      "Tuesday": "Closed",
-      "Wednesday": "8:00 AM - 3:00 PM",
-      "Thursday": "8:00 AM - 3:00 PM",
-      "Friday": "8:00 AM - 3:00 PM",
-      "Saturday": "9:00 AM - 2:00 PM",
-      "Sunday": "9:00 AM - 2:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Portal Cocktails",
@@ -8853,16 +5136,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Immersive cosmic-themed speakeasy; serves expertly crafted artisan cocktails, rare spirits, and moody ambiance.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "Closed",
-      "Tuesday": "Closed",
-      "Wednesday": "5:00 PM - 12:00 AM",
-      "Thursday": "5:00 PM - 12:00 AM",
-      "Friday": "5:00 PM - 1:00 AM",
-      "Saturday": "5:00 PM - 1:00 AM",
-      "Sunday": "4:00 PM - 10:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Bawker Bawker Cider",
@@ -8872,16 +5146,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Unfiltered ciders; no-TV conversation policy; serves rotating seasonal fruit ciders in a relaxed environment.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "Closed",
-      "Tuesday": "Closed",
-      "Wednesday": "3:00 PM - 10:00 PM",
-      "Thursday": "3:00 PM - 10:00 PM",
-      "Friday": "2:00 PM - 11:00 PM",
-      "Saturday": "2:00 PM - 11:00 PM",
-      "Sunday": "12:00 PM - 8:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Cafe Passe",
@@ -8891,16 +5156,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "European-style cafe with quirky hidden patio; famous for pesto bagels, strong Americanos, and light pastries.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "7:00 AM - 6:00 PM",
-      "Tuesday": "7:00 AM - 6:00 PM",
-      "Wednesday": "7:00 AM - 6:00 PM",
-      "Thursday": "7:00 AM - 6:00 PM",
-      "Friday": "7:00 AM - 6:00 PM",
-      "Saturday": "7:00 AM - 6:00 PM",
-      "Sunday": "7:00 AM - 6:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "The B Line",
@@ -8910,16 +5166,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Casual Fourth Avenue bistro; serves hearty pastas, fresh salads, savory burritos, and a massive dessert case.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 9:00 PM",
-      "Tuesday": "11:00 AM - 9:00 PM",
-      "Wednesday": "11:00 AM - 9:00 PM",
-      "Thursday": "11:00 AM - 9:00 PM",
-      "Friday": "11:00 AM - 10:00 PM",
-      "Saturday": "11:00 AM - 10:00 PM",
-      "Sunday": "10:00 AM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Lemongrass",
@@ -8929,16 +5176,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Eastern Asian health food; vibrant flavors featuring fresh curries, vegetable stir-fries, and fragrant rice.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 3:00 PM, 5:00 PM - 9:30 PM",
-      "Tuesday": "11:00 AM - 3:00 PM, 5:00 PM - 9:30 PM",
-      "Wednesday": "11:00 AM - 3:00 PM, 5:00 PM - 9:30 PM",
-      "Thursday": "11:00 AM - 3:00 PM, 5:00 PM - 9:30 PM",
-      "Friday": "11:00 AM - 3:00 PM, 5:00 PM - 10:00 PM",
-      "Saturday": "12:00 PM - 10:00 PM",
-      "Sunday": "12:00 PM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Cappy's Breakfast Cafe",
@@ -8948,16 +5186,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Classic neighborhood breakfast spot with generous portions and friendly service. Delicious morning staples.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "7:00 AM - 2:00 PM",
-      "Tuesday": "7:00 AM - 2:00 PM",
-      "Wednesday": "7:00 AM - 2:00 PM",
-      "Thursday": "7:00 AM - 2:00 PM",
-      "Friday": "7:00 AM - 2:00 PM",
-      "Saturday": "7:00 AM - 2:00 PM",
-      "Sunday": "7:00 AM - 2:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "La Yaquesita",
@@ -8967,16 +5196,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Authentic regional Mexican; daily specials featuring the massive Yaqueburro loaded with birria and cheese.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "7:00 AM - 3:00 PM",
-      "Tuesday": "7:00 AM - 3:00 PM",
-      "Wednesday": "7:00 AM - 3:00 PM",
-      "Thursday": "7:00 AM - 3:00 PM",
-      "Friday": "7:00 AM - 3:00 PM",
-      "Saturday": "7:00 AM - 3:00 PM",
-      "Sunday": "7:00 AM - 3:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Exo Roast Co.",
@@ -8986,16 +5206,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Artisan coffee and mezcal bar dual concept; features chiltepín cold brew, mesquite lattes, and Bar Crisol.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "6:30 AM - 4:00 PM",
-      "Tuesday": "6:30 AM - 4:00 PM",
-      "Wednesday": "6:30 AM - 4:00 PM",
-      "Thursday": "6:30 AM - 4:00 PM",
-      "Friday": "6:30 AM - 4:00 PM",
-      "Saturday": "6:30 AM - 4:00 PM",
-      "Sunday": "6:30 AM - 4:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "BOCA Tacos y Tequila",
@@ -9005,16 +5216,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Chef Maria Mazon; inventive daily salsas like mango habanero; famous for the Macho Taco and Puerco Verde.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 9:00 PM",
-      "Tuesday": "11:00 AM - 9:00 PM",
-      "Wednesday": "11:00 AM - 9:00 PM",
-      "Thursday": "11:00 AM - 9:00 PM",
-      "Friday": "11:00 AM - 10:00 PM",
-      "Saturday": "11:00 AM - 10:00 PM",
-      "Sunday": "Closed"
-    }
+    "enriched": true
   },
   {
     "name": "Zyka Twist",
@@ -9024,16 +5226,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Innovative Indian cuisine on the avenue; serves rich butter chicken, garlic naan, and vegetarian curries.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 9:00 PM",
-      "Tuesday": "11:00 AM - 9:00 PM",
-      "Wednesday": "11:00 AM - 9:00 PM",
-      "Thursday": "11:00 AM - 9:00 PM",
-      "Friday": "11:00 AM - 9:00 PM",
-      "Saturday": "11:00 AM - 9:00 PM",
-      "Sunday": "Closed"
-    }
+    "enriched": true
   },
   {
     "name": "Sakura Teppan",
@@ -9043,16 +5236,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$$",
     "notes": "Hibachi grill and fresh seafood; features entertaining tabletop cooking of steak, shrimp, and fried rice.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:30 AM - 2:00 PM, 4:30 PM - 9:00 PM",
-      "Tuesday": "11:30 AM - 2:00 PM, 4:30 PM - 9:00 PM",
-      "Wednesday": "11:30 AM - 2:00 PM, 4:30 PM - 9:00 PM",
-      "Thursday": "11:30 AM - 2:00 PM, 4:30 PM - 9:00 PM",
-      "Friday": "11:30 AM - 2:00 PM, 4:30 PM - 10:00 PM",
-      "Saturday": "12:00 PM - 10:00 PM",
-      "Sunday": "12:00 PM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Coop by Cowpig",
@@ -9062,16 +5246,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Elevated chicken concepts; modern service featuring crispy chicken sandwiches and loaded seasoned fries.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 8:00 PM",
-      "Tuesday": "11:00 AM - 8:00 PM",
-      "Wednesday": "11:00 AM - 8:00 PM",
-      "Thursday": "11:00 AM - 8:00 PM",
-      "Friday": "11:00 AM - 8:00 PM",
-      "Saturday": "11:00 AM - 8:00 PM",
-      "Sunday": "11:00 AM - 8:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Surly Wench Pub",
@@ -9081,16 +5256,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Alternative bar with a solid grill menu; famous for dark ambiance, strong drinks, and heavy pub burgers.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "3:00 PM - 2:00 AM",
-      "Tuesday": "3:00 PM - 2:00 AM",
-      "Wednesday": "3:00 PM - 2:00 AM",
-      "Thursday": "3:00 PM - 2:00 AM",
-      "Friday": "3:00 PM - 2:00 AM",
-      "Saturday": "12:00 PM - 2:00 AM",
-      "Sunday": "12:00 PM - 2:00 AM"
-    }
+    "enriched": true
   },
   {
     "name": "Che's Lounge",
@@ -9100,16 +5266,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Iconic Fourth Avenue dive bar; offers a legendary jukebox, strong drinks, and a vibrant local art scene.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "4:00 PM - 2:00 AM",
-      "Tuesday": "4:00 PM - 2:00 AM",
-      "Wednesday": "4:00 PM - 2:00 AM",
-      "Thursday": "4:00 PM - 2:00 AM",
-      "Friday": "4:00 PM - 2:00 AM",
-      "Saturday": "4:00 PM - 2:00 AM",
-      "Sunday": "4:00 PM - 2:00 AM"
-    }
+    "enriched": true
   },
   {
     "name": "4th Avenue Deli",
@@ -9119,16 +5276,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Locally owned; hearty meatball subs, Tucson Tuna sandwiches, Chicago-style hot dogs, and vegan options.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "10:00 AM - 7:00 PM",
-      "Tuesday": "10:00 AM - 7:00 PM",
-      "Wednesday": "10:00 AM - 7:00 PM",
-      "Thursday": "10:00 AM - 7:00 PM",
-      "Friday": "10:00 AM - 7:00 PM",
-      "Saturday": "10:00 AM - 7:00 PM",
-      "Sunday": "Closed"
-    }
+    "enriched": true
   },
   {
     "name": "Sky Bar",
@@ -9138,16 +5286,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Astronomy-themed bar with telescope nights; serves solar-powered pizza imported from Brooklyn Pizza Co.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "5:00 PM - 2:00 AM",
-      "Tuesday": "5:00 PM - 2:00 AM",
-      "Wednesday": "5:00 PM - 2:00 AM",
-      "Thursday": "5:00 PM - 2:00 AM",
-      "Friday": "5:00 PM - 2:00 AM",
-      "Saturday": "5:00 PM - 2:00 AM",
-      "Sunday": "5:00 PM - 2:00 AM"
-    }
+    "enriched": true
   },
   {
     "name": "St. Mary's Mexican Food",
@@ -9157,16 +5296,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Cheap but excellent traditional Mexican food; features massive combination plates and fresh tortillas.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "7:00 AM - 8:00 PM",
-      "Tuesday": "7:00 AM - 8:00 PM",
-      "Wednesday": "7:00 AM - 8:00 PM",
-      "Thursday": "7:00 AM - 8:00 PM",
-      "Friday": "7:00 AM - 8:00 PM",
-      "Saturday": "7:00 AM - 8:00 PM",
-      "Sunday": "7:00 AM - 3:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Opa's Grill",
@@ -9176,16 +5306,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Authentic Greek-American; best spit-roasted gyros, fresh tzatziki, and warm pita in the urban center.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 8:00 PM",
-      "Tuesday": "11:00 AM - 8:00 PM",
-      "Wednesday": "11:00 AM - 8:00 PM",
-      "Thursday": "11:00 AM - 8:00 PM",
-      "Friday": "11:00 AM - 8:00 PM",
-      "Saturday": "11:00 AM - 8:00 PM",
-      "Sunday": "Closed"
-    }
+    "enriched": true
   },
   {
     "name": "Quesos on 4th",
@@ -9195,16 +5316,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Late-night hub (until 2:30am Thu-Sat); serves heavy cheese-focused bar bites and melted comfort food.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "4:00 PM - 12:00 AM",
-      "Tuesday": "4:00 PM - 12:00 AM",
-      "Wednesday": "4:00 PM - 12:00 AM",
-      "Thursday": "4:00 PM - 12:00 AM",
-      "Friday": "4:00 PM - 1:00 AM",
-      "Saturday": "12:00 PM - 1:00 AM",
-      "Sunday": "12:00 PM - 10:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "REVEL",
@@ -9214,16 +5326,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Sophisticated wine and cheese board lounge; hosts specialized wine dinners with expert chef pairings.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "Closed",
-      "Tuesday": "4:00 PM - 12:00 AM",
-      "Wednesday": "4:00 PM - 12:00 AM",
-      "Thursday": "4:00 PM - 12:00 AM",
-      "Friday": "4:00 PM - 1:00 AM",
-      "Saturday": "4:00 PM - 1:00 AM",
-      "Sunday": "Closed"
-    }
+    "enriched": true
   },
   {
     "name": "Cariño",
@@ -9233,16 +5336,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Highly rated work-friendly cafe; offers quality roasts, comfortable seating, and casual lunch bites.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "7:00 AM - 3:00 PM",
-      "Tuesday": "7:00 AM - 3:00 PM",
-      "Wednesday": "7:00 AM - 3:00 PM",
-      "Thursday": "7:00 AM - 3:00 PM",
-      "Friday": "7:00 AM - 3:00 PM",
-      "Saturday": "7:00 AM - 3:00 PM",
-      "Sunday": "Closed"
-    }
+    "enriched": true
   },
   {
     "name": "Crooked Tooth",
@@ -9252,16 +5346,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "\"Sonoran Sours\" and wood-fired pizza events; known for mushroom beer releases and creative brewing.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "3:00 PM - 10:00 PM",
-      "Tuesday": "3:00 PM - 10:00 PM",
-      "Wednesday": "3:00 PM - 10:00 PM",
-      "Thursday": "3:00 PM - 10:00 PM",
-      "Friday": "12:00 PM - 11:00 PM",
-      "Saturday": "12:00 PM - 11:00 PM",
-      "Sunday": "12:00 PM - 8:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "The Dutch Eatery & Refuge",
@@ -9271,16 +5356,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "European-inspired cafe; serves modern Dutch classics, savory breakfast hashes, and craft cocktails.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "Closed",
-      "Tuesday": "11:00 AM - 9:00 PM",
-      "Wednesday": "11:00 AM - 9:00 PM",
-      "Thursday": "11:00 AM - 9:00 PM",
-      "Friday": "11:00 AM - 10:00 PM",
-      "Saturday": "11:00 AM - 10:00 PM",
-      "Sunday": "10:00 AM - 3:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "La Indita",
@@ -9290,16 +5366,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Authentic indigenous Mexican; famous for popover fry bread topped with beans, beef, and red chili.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "Closed",
-      "Tuesday": "11:00 AM - 8:00 PM",
-      "Wednesday": "11:00 AM - 8:00 PM",
-      "Thursday": "11:00 AM - 8:00 PM",
-      "Friday": "11:00 AM - 8:00 PM",
-      "Saturday": "11:00 AM - 8:00 PM",
-      "Sunday": "Closed"
-    }
+    "enriched": true
   },
   {
     "name": "Filiberto's",
@@ -9309,16 +5376,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "24-hour; near Pantano intersection; serves heavy breakfast burritos and classic Sonoran fast food.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "24 Hours",
-      "Tuesday": "24 Hours",
-      "Wednesday": "24 Hours",
-      "Thursday": "24 Hours",
-      "Friday": "24 Hours",
-      "Saturday": "24 Hours",
-      "Sunday": "24 Hours"
-    }
+    "enriched": true
   },
   {
     "name": "Pizza Luna",
@@ -9328,16 +5386,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Craft pizza with high-quality ingredients; serves perfectly blistered crusts and fresh mozzarella.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "Closed",
-      "Tuesday": "4:00 PM - 9:00 PM",
-      "Wednesday": "4:00 PM - 9:00 PM",
-      "Thursday": "4:00 PM - 9:00 PM",
-      "Friday": "4:00 PM - 10:00 PM",
-      "Saturday": "4:00 PM - 10:00 PM",
-      "Sunday": "4:00 PM - 8:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Nhu Lan Vietnamese",
@@ -9347,16 +5396,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Inside The Boxyard; fresh crusty banh mi sandwiches, chilled spring rolls, and light vermicelli.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "10:00 AM - 9:00 PM",
-      "Tuesday": "10:00 AM - 9:00 PM",
-      "Wednesday": "10:00 AM - 9:00 PM",
-      "Thursday": "10:00 AM - 9:00 PM",
-      "Friday": "10:00 AM - 9:00 PM",
-      "Saturday": "10:00 AM - 9:00 PM",
-      "Sunday": "Closed"
-    }
+    "enriched": true
   },
   {
     "name": "Subway (Congress)",
@@ -9366,16 +5406,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Quick service sandwiches; standard customizable submarine sandwiches and freshly baked cookies.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "9:00 AM - 10:00 PM",
-      "Tuesday": "9:00 AM - 10:00 PM",
-      "Wednesday": "9:00 AM - 10:00 PM",
-      "Thursday": "9:00 AM - 10:00 PM",
-      "Friday": "9:00 AM - 10:00 PM",
-      "Saturday": "10:00 AM - 9:00 PM",
-      "Sunday": "10:00 AM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "daddyburger",
@@ -9385,16 +5416,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Inside The Boxyard; premium smash burgers with crispy edges, special sauces, and golden fries.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 8:00 PM",
-      "Tuesday": "11:00 AM - 8:00 PM",
-      "Wednesday": "11:00 AM - 8:00 PM",
-      "Thursday": "11:00 AM - 8:00 PM",
-      "Friday": "11:00 AM - 8:00 PM",
-      "Saturday": "11:00 AM - 8:00 PM",
-      "Sunday": "Closed"
-    }
+    "enriched": true
   },
   {
     "name": "IHOP (Oracle)",
@@ -9404,16 +5426,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "24-hour breakfast chain; serves Rooty Tooty Fresh 'N Fruity pancakes and stuffed French toast.",
     "isLocal": false,
-    "enriched": true,
-    "hours": {
-      "Monday": "24 Hours",
-      "Tuesday": "24 Hours",
-      "Wednesday": "24 Hours",
-      "Thursday": "24 Hours",
-      "Friday": "24 Hours",
-      "Saturday": "24 Hours",
-      "Sunday": "24 Hours"
-    }
+    "enriched": true
   },
   {
     "name": "snack.",
@@ -9423,16 +5436,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Inside The Boxyard; quick artisanal snacks, unique bar bites, and shareable appetizer plates.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 7:00 PM",
-      "Tuesday": "11:00 AM - 7:00 PM",
-      "Wednesday": "11:00 AM - 7:00 PM",
-      "Thursday": "11:00 AM - 7:00 PM",
-      "Friday": "11:00 AM - 7:00 PM",
-      "Saturday": "11:00 AM - 5:00 PM",
-      "Sunday": "Closed"
-    }
+    "enriched": true
   },
   {
     "name": "Solid Grindz",
@@ -9442,16 +5446,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Authentic island plates and comfort food; serves rich Hawaiian macaroni salad and kalua pork.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "Closed",
-      "Tuesday": "11:00 AM - 7:00 PM",
-      "Wednesday": "11:00 AM - 7:00 PM",
-      "Thursday": "11:00 AM - 7:00 PM",
-      "Friday": "11:00 AM - 7:00 PM",
-      "Saturday": "11:00 AM - 7:00 PM",
-      "Sunday": "Closed"
-    }
+    "enriched": true
   },
   {
     "name": "New Delhi Palace",
@@ -9461,16 +5456,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Flavorful Indian cuisine with traditional curries, tandoori specialties, and warm naan bread.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 2:30 PM, 5:00 PM - 9:00 PM",
-      "Tuesday": "11:00 AM - 2:30 PM, 5:00 PM - 9:00 PM",
-      "Wednesday": "11:00 AM - 2:30 PM, 5:00 PM - 9:00 PM",
-      "Thursday": "11:00 AM - 2:30 PM, 5:00 PM - 9:00 PM",
-      "Friday": "11:00 AM - 2:30 PM, 5:00 PM - 9:30 PM",
-      "Saturday": "12:00 PM - 9:30 PM",
-      "Sunday": "12:00 PM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Los Perches",
@@ -9480,16 +5466,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Inside The Boxyard; authentic street-style tacos, rich birria, and fresh house-made salsas.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "10:00 AM - 9:00 PM",
-      "Tuesday": "10:00 AM - 9:00 PM",
-      "Wednesday": "10:00 AM - 9:00 PM",
-      "Thursday": "10:00 AM - 9:00 PM",
-      "Friday": "10:00 AM - 10:00 PM",
-      "Saturday": "10:00 AM - 10:00 PM",
-      "Sunday": "10:00 AM - 8:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Quisty's Sandwiches",
@@ -9499,16 +5476,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Contemporary shop; famous for the Hot Honey Turkey and premium, artisan deli constructions.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "10:00 AM - 7:00 PM",
-      "Tuesday": "10:00 AM - 7:00 PM",
-      "Wednesday": "10:00 AM - 7:00 PM",
-      "Thursday": "10:00 AM - 7:00 PM",
-      "Friday": "10:00 AM - 7:00 PM",
-      "Saturday": "10:00 AM - 6:00 PM",
-      "Sunday": "Closed"
-    }
+    "enriched": true
   },
   {
     "name": "Arby's (22nd St)",
@@ -9518,16 +5486,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Sandwich fast food; serves towering roast beef sandwiches, curly fries, and Jamocha shakes.",
     "isLocal": false,
-    "enriched": true,
-    "hours": {
-      "Monday": "10:00 AM - 10:00 PM",
-      "Tuesday": "10:00 AM - 10:00 PM",
-      "Wednesday": "10:00 AM - 10:00 PM",
-      "Thursday": "10:00 AM - 10:00 PM",
-      "Friday": "10:00 AM - 10:00 PM",
-      "Saturday": "10:00 AM - 10:00 PM",
-      "Sunday": "10:00 AM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "The Hut Tucson",
@@ -9537,16 +5496,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Moai-themed outdoor venue; late night hours serving tropical drinks and casual bar snacks.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "4:00 PM - 2:00 AM",
-      "Tuesday": "4:00 PM - 2:00 AM",
-      "Wednesday": "4:00 PM - 2:00 AM",
-      "Thursday": "4:00 PM - 2:00 AM",
-      "Friday": "4:00 PM - 2:00 AM",
-      "Saturday": "12:00 PM - 2:00 AM",
-      "Sunday": "12:00 PM - 2:00 AM"
-    }
+    "enriched": true
   },
   {
     "name": "Papa John's",
@@ -9556,16 +5506,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Pizza carryout and delivery; features signature garlic dipping sauce and fresh-dough pies.",
     "isLocal": false,
-    "enriched": true,
-    "hours": {
-      "Monday": "10:00 AM - 11:00 PM",
-      "Tuesday": "10:00 AM - 11:00 PM",
-      "Wednesday": "10:00 AM - 11:00 PM",
-      "Thursday": "10:00 AM - 11:00 PM",
-      "Friday": "10:00 AM - 12:00 AM",
-      "Saturday": "10:00 AM - 12:00 AM",
-      "Sunday": "10:00 AM - 11:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Dutch Bros. Coffee",
@@ -9575,16 +5516,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "High energy coffee drive-thru; serves ultra-sweet blended coffees and Rebel energy drinks.",
     "isLocal": false,
-    "enriched": true,
-    "hours": {
-      "Monday": "5:00 AM - 10:00 PM",
-      "Tuesday": "5:00 AM - 10:00 PM",
-      "Wednesday": "5:00 AM - 10:00 PM",
-      "Thursday": "5:00 AM - 10:00 PM",
-      "Friday": "5:00 AM - 11:00 PM",
-      "Saturday": "5:00 AM - 11:00 PM",
-      "Sunday": "5:00 AM - 10:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "KFC (Oracle)",
@@ -9594,16 +5526,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Fried chicken buckets; serves original recipe chicken, mashed potatoes, and biscuits.",
     "isLocal": false,
-    "enriched": true,
-    "hours": {
-      "Monday": "10:30 AM - 10:00 PM",
-      "Tuesday": "10:30 AM - 10:00 PM",
-      "Wednesday": "10:30 AM - 10:00 PM",
-      "Thursday": "10:30 AM - 10:00 PM",
-      "Friday": "10:30 AM - 10:00 PM",
-      "Saturday": "10:30 AM - 10:00 PM",
-      "Sunday": "10:30 AM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Dunkin' (Oracle)",
@@ -9613,16 +5536,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Donuts and coffee; serves glazed donuts, iced coffee, and breakfast sandwiches.",
     "isLocal": false,
-    "enriched": true,
-    "hours": {
-      "Monday": "5:00 AM - 8:00 PM",
-      "Tuesday": "5:00 AM - 8:00 PM",
-      "Wednesday": "5:00 AM - 8:00 PM",
-      "Thursday": "5:00 AM - 8:00 PM",
-      "Friday": "5:00 AM - 8:00 PM",
-      "Saturday": "6:00 AM - 8:00 PM",
-      "Sunday": "6:00 AM - 8:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Qdoba",
@@ -9632,16 +5546,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Fast-casual Mexican spot for customizable burritos, bowls, and flavorful queso.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "10:45 AM - 9:00 PM",
-      "Tuesday": "10:45 AM - 9:00 PM",
-      "Wednesday": "10:45 AM - 9:00 PM",
-      "Thursday": "10:45 AM - 9:00 PM",
-      "Friday": "10:45 AM - 9:00 PM",
-      "Saturday": "10:45 AM - 9:00 PM",
-      "Sunday": "11:00 AM - 8:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Little Caesar's (Or.)",
@@ -9651,16 +5556,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Hot-N-Ready pizza; serves pepperoni pies, Crazy Bread, and deep dish options.",
     "isLocal": false,
-    "enriched": true,
-    "hours": {
-      "Monday": "10:30 AM - 10:00 PM",
-      "Tuesday": "10:30 AM - 10:00 PM",
-      "Wednesday": "10:30 AM - 10:00 PM",
-      "Thursday": "10:30 AM - 10:00 PM",
-      "Friday": "10:30 AM - 11:00 PM",
-      "Saturday": "10:30 AM - 11:00 PM",
-      "Sunday": "11:00 AM - 10:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Prep & Pastry (Campbell)",
@@ -9670,16 +5566,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Modern brunch; serves cronuts, cast-iron duck confit, and mimosas.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "7:00 AM - 2:00 PM",
-      "Tuesday": "7:00 AM - 2:00 PM",
-      "Wednesday": "7:00 AM - 2:00 PM",
-      "Thursday": "7:00 AM - 2:00 PM",
-      "Friday": "7:00 AM - 2:00 PM",
-      "Saturday": "7:00 AM - 2:00 PM",
-      "Sunday": "7:00 AM - 2:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "The Buffet Bar",
@@ -9689,16 +5576,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Historic dive bar established in 1934; famous for cheap drinks, late-night hot dogs, and a legendary shuffleboard table.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "12:00 PM - 2:00 AM",
-      "Tuesday": "12:00 PM - 2:00 AM",
-      "Wednesday": "12:00 PM - 2:00 AM",
-      "Thursday": "12:00 PM - 2:00 AM",
-      "Friday": "12:00 PM - 2:00 AM",
-      "Saturday": "12:00 PM - 2:00 AM",
-      "Sunday": "12:00 PM - 2:00 AM"
-    }
+    "enriched": true
   },
   {
     "name": "Martins Comida",
@@ -9708,16 +5586,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Culinary tradition; unique earthy mole, griddle-crisped burritos, and authentic plant-based Mexican options.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "Closed",
-      "Tuesday": "10:30 AM - 8:00 PM",
-      "Wednesday": "10:30 AM - 8:00 PM",
-      "Thursday": "10:30 AM - 8:00 PM",
-      "Friday": "10:30 AM - 8:00 PM",
-      "Saturday": "10:30 AM - 8:00 PM",
-      "Sunday": "Closed"
-    }
+    "enriched": true
   },
   {
     "name": "Einstein Bros. Bagels",
@@ -9727,16 +5596,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Freshly baked bagels, delicious schmears, and breakfast sandwiches for a quick, satisfying start.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "6:00 AM - 3:00 PM",
-      "Tuesday": "6:00 AM - 3:00 PM",
-      "Wednesday": "6:00 AM - 3:00 PM",
-      "Thursday": "6:00 AM - 3:00 PM",
-      "Friday": "6:00 AM - 3:00 PM",
-      "Saturday": "7:00 AM - 3:00 PM",
-      "Sunday": "7:00 AM - 3:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Whataburger",
@@ -9746,16 +5606,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Texas-sized burgers, classic shakes, and a menu with unique, delicious fast-food favorites.",
     "isLocal": false,
-    "enriched": true,
-    "hours": {
-      "Monday": "24 Hours",
-      "Tuesday": "24 Hours",
-      "Wednesday": "24 Hours",
-      "Thursday": "24 Hours",
-      "Friday": "24 Hours",
-      "Saturday": "24 Hours",
-      "Sunday": "24 Hours"
-    }
+    "enriched": true
   },
   {
     "name": "La Reyna Hot Dog",
@@ -9765,16 +5616,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Serves up classic Sonoran hot dogs and other quick, flavorful Mexican street food items.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "Closed",
-      "Tuesday": "6:00 PM - 1:00 AM",
-      "Wednesday": "6:00 PM - 1:00 AM",
-      "Thursday": "6:00 PM - 1:00 AM",
-      "Friday": "6:00 PM - 2:00 AM",
-      "Saturday": "6:00 PM - 2:00 AM",
-      "Sunday": "6:00 PM - 1:00 AM"
-    }
+    "enriched": true
   },
   {
     "name": "4 Seasons",
@@ -9784,16 +5626,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Diverse menu of Chinese and Asian specialties, offering a variety of flavorful options.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 2:30 PM, 4:30 PM - 9:30 PM",
-      "Tuesday": "11:00 AM - 2:30 PM, 4:30 PM - 9:30 PM",
-      "Wednesday": "11:00 AM - 2:30 PM, 4:30 PM - 9:30 PM",
-      "Thursday": "11:00 AM - 2:30 PM, 4:30 PM - 9:30 PM",
-      "Friday": "11:00 AM - 2:30 PM, 4:30 PM - 10:00 PM",
-      "Saturday": "12:00 PM - 10:00 PM",
-      "Sunday": "12:00 PM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Starbucks",
@@ -9803,16 +5636,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Popular global coffeehouse chain offering a wide range of beverages and light bites.",
     "isLocal": false,
-    "enriched": true,
-    "hours": {
-      "Monday": "5:00 AM - 9:00 PM",
-      "Tuesday": "5:00 AM - 9:00 PM",
-      "Wednesday": "5:00 AM - 9:00 PM",
-      "Thursday": "5:00 AM - 9:00 PM",
-      "Friday": "5:00 AM - 9:00 PM",
-      "Saturday": "5:30 AM - 9:00 PM",
-      "Sunday": "5:30 AM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Sushi Zuzu",
@@ -9822,16 +5646,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$$",
     "notes": "Fresh, well-crafted sushi rolls and sashimi, perfect for a casual Japanese meal.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:30 AM - 2:30 PM, 5:00 PM - 9:30 PM",
-      "Tuesday": "11:30 AM - 2:30 PM, 5:00 PM - 9:30 PM",
-      "Wednesday": "11:30 AM - 2:30 PM, 5:00 PM - 9:30 PM",
-      "Thursday": "11:30 AM - 2:30 PM, 5:00 PM - 9:30 PM",
-      "Friday": "11:30 AM - 2:30 PM, 5:00 PM - 10:00 PM",
-      "Saturday": "12:00 PM - 10:00 PM",
-      "Sunday": "12:00 PM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "The Cheesecake Factory",
@@ -9841,16 +5656,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Expansive menu of American favorites, decadent cheesecakes, and generous portions in a lively atmosphere.",
     "isLocal": false,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 10:00 PM",
-      "Tuesday": "11:00 AM - 10:00 PM",
-      "Wednesday": "11:00 AM - 10:00 PM",
-      "Thursday": "11:00 AM - 10:00 PM",
-      "Friday": "11:00 AM - 11:00 PM",
-      "Saturday": "10:00 AM - 11:00 PM",
-      "Sunday": "10:00 AM - 10:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Culver's",
@@ -9860,16 +5666,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Known for butterburgers, fresh frozen custard, and friendly service in a family-friendly atmosphere.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "10:30 AM - 10:00 PM",
-      "Tuesday": "10:30 AM - 10:00 PM",
-      "Wednesday": "10:30 AM - 10:00 PM",
-      "Thursday": "10:30 AM - 10:00 PM",
-      "Friday": "10:30 AM - 10:00 PM",
-      "Saturday": "10:30 AM - 10:00 PM",
-      "Sunday": "10:30 AM - 10:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "IBT's Bar & Food",
@@ -9879,16 +5676,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Historic LGBTQ+ bar with full kitchen; serves reliable late-night grill food and strong cocktails.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "2:00 PM - 2:00 AM",
-      "Tuesday": "2:00 PM - 2:00 AM",
-      "Wednesday": "2:00 PM - 2:00 AM",
-      "Thursday": "2:00 PM - 2:00 AM",
-      "Friday": "2:00 PM - 2:00 AM",
-      "Saturday": "11:00 AM - 2:00 AM",
-      "Sunday": "11:00 AM - 2:00 AM"
-    }
+    "enriched": true
   },
   {
     "name": "BJ's",
@@ -9898,16 +5686,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Casual chain offering a vast menu, including deep-dish pizzas, craft beers, and comfort food.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 11:00 PM",
-      "Tuesday": "11:00 AM - 11:00 PM",
-      "Wednesday": "11:00 AM - 11:00 PM",
-      "Thursday": "11:00 AM - 11:00 PM",
-      "Friday": "11:00 AM - 12:00 AM",
-      "Saturday": "11:00 AM - 12:00 AM",
-      "Sunday": "11:00 AM - 10:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Coffee X Change",
@@ -9917,16 +5696,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Bustling local cafe offering diverse coffee creations, pastries, and light breakfast options.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "6:00 AM - 6:00 PM",
-      "Tuesday": "6:00 AM - 6:00 PM",
-      "Wednesday": "6:00 AM - 6:00 PM",
-      "Thursday": "6:00 AM - 6:00 PM",
-      "Friday": "6:00 AM - 6:00 PM",
-      "Saturday": "7:00 AM - 5:00 PM",
-      "Sunday": "7:00 AM - 5:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Mountain Mike's",
@@ -9936,16 +5706,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Family-friendly pizza joint known for its crispy crusts and mountain-sized topping options.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 9:00 PM",
-      "Tuesday": "11:00 AM - 9:00 PM",
-      "Wednesday": "11:00 AM - 9:00 PM",
-      "Thursday": "11:00 AM - 9:00 PM",
-      "Friday": "11:00 AM - 10:00 PM",
-      "Saturday": "11:00 AM - 10:00 PM",
-      "Sunday": "11:00 AM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Wendy's",
@@ -9955,16 +5716,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Square patties, fresh ingredients, and iconic Frosty desserts make this fast food favorite.",
     "isLocal": false,
-    "enriched": true,
-    "hours": {
-      "Monday": "10:30 AM - 12:00 AM",
-      "Tuesday": "10:30 AM - 12:00 AM",
-      "Wednesday": "10:30 AM - 12:00 AM",
-      "Thursday": "10:30 AM - 12:00 AM",
-      "Friday": "10:30 AM - 12:00 AM",
-      "Saturday": "10:30 AM - 12:00 AM",
-      "Sunday": "10:30 AM - 12:00 AM"
-    }
+    "enriched": true
   },
   {
     "name": "Charquita's Mexican Food",
@@ -9974,16 +5726,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Authentic, no-frills Mexican food, known for hearty burritos and traditional flavors.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "7:00 AM - 8:00 PM",
-      "Tuesday": "7:00 AM - 8:00 PM",
-      "Wednesday": "7:00 AM - 8:00 PM",
-      "Thursday": "7:00 AM - 8:00 PM",
-      "Friday": "7:00 AM - 8:00 PM",
-      "Saturday": "7:00 AM - 8:00 PM",
-      "Sunday": "Closed"
-    }
+    "enriched": true
   },
   {
     "name": "The Taco Spot",
@@ -9993,16 +5736,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Casual spot for street-style tacos, loaded burritos, and authentic Mexican flavors.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "10:00 AM - 10:00 PM",
-      "Tuesday": "10:00 AM - 10:00 PM",
-      "Wednesday": "10:00 AM - 10:00 PM",
-      "Thursday": "10:00 AM - 10:00 PM",
-      "Friday": "10:00 AM - 11:00 PM",
-      "Saturday": "10:00 AM - 11:00 PM",
-      "Sunday": "10:00 AM - 10:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Panda Express",
@@ -10012,16 +5746,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Fast-casual Chinese-American staples, offering quick orange chicken and chow mein.",
     "isLocal": false,
-    "enriched": true,
-    "hours": {
-      "Monday": "10:30 AM - 9:30 PM",
-      "Tuesday": "10:30 AM - 9:30 PM",
-      "Wednesday": "10:30 AM - 9:30 PM",
-      "Thursday": "10:30 AM - 9:30 PM",
-      "Friday": "10:30 AM - 9:30 PM",
-      "Saturday": "10:30 AM - 9:30 PM",
-      "Sunday": "11:00 AM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Chipotle",
@@ -10031,16 +5756,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Build-your-own burritos and bowls with fresh ingredients. A fast-casual favorite.",
     "isLocal": false,
-    "enriched": true,
-    "hours": {
-      "Monday": "10:45 AM - 10:00 PM",
-      "Tuesday": "10:45 AM - 10:00 PM",
-      "Wednesday": "10:45 AM - 10:00 PM",
-      "Thursday": "10:45 AM - 10:00 PM",
-      "Friday": "10:45 AM - 10:00 PM",
-      "Saturday": "10:45 AM - 10:00 PM",
-      "Sunday": "10:45 AM - 10:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "BATA",
@@ -10050,16 +5766,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$$",
     "notes": "Wood-fired; focuses on 90% extreme local sourcing; offers a vegetable-forward tasting menu including Green Cabbage & Potatoes.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "Closed",
-      "Tuesday": "Closed",
-      "Wednesday": "5:00 PM - 9:00 PM",
-      "Thursday": "5:00 PM - 9:00 PM",
-      "Friday": "5:00 PM - 10:00 PM",
-      "Saturday": "5:00 PM - 10:00 PM",
-      "Sunday": "5:00 PM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "1702",
@@ -10069,16 +5776,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Craft beer and pizza haven; serves massive New York-style slices, unique specialty pies, and dozens of beers on tap.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 11:00 PM",
-      "Tuesday": "11:00 AM - 11:00 PM",
-      "Wednesday": "11:00 AM - 11:00 PM",
-      "Thursday": "11:00 AM - 11:00 PM",
-      "Friday": "11:00 AM - 12:00 AM",
-      "Saturday": "11:00 AM - 12:00 AM",
-      "Sunday": "11:00 AM - 10:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "47 Scott",
@@ -10088,16 +5786,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Modern American comfort food; brick patio serving stacked brunch sandwiches, refined salads, and craft cocktails.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "Closed",
-      "Tuesday": "5:00 PM - 9:00 PM",
-      "Wednesday": "5:00 PM - 9:00 PM",
-      "Thursday": "5:00 PM - 9:00 PM",
-      "Friday": "5:00 PM - 10:00 PM",
-      "Saturday": "5:00 PM - 10:00 PM",
-      "Sunday": "5:00 PM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Cup Cafe",
@@ -10107,16 +5796,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Historic Hotel Congress fixture; famous for Cast Iron Baked Eggs, Mission Street tacos, and decadent desserts.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "7:00 AM - 10:00 PM",
-      "Tuesday": "7:00 AM - 10:00 PM",
-      "Wednesday": "7:00 AM - 10:00 PM",
-      "Thursday": "7:00 AM - 10:00 PM",
-      "Friday": "7:00 AM - 11:00 PM",
-      "Saturday": "7:00 AM - 11:00 PM",
-      "Sunday": "7:00 AM - 10:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Obon Sushi Bar Ramen",
@@ -10126,16 +5806,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Modern Japanese eatery; serves innovative sushi rolls, rich tonkotsu ramen, steam buns, and craft cocktails.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:30 AM - 2:30 PM, 5:00 PM - 9:00 PM",
-      "Tuesday": "11:30 AM - 2:30 PM, 5:00 PM - 9:00 PM",
-      "Wednesday": "11:30 AM - 2:30 PM, 5:00 PM - 9:00 PM",
-      "Thursday": "11:30 AM - 2:30 PM, 5:00 PM - 9:00 PM",
-      "Friday": "11:30 AM - 2:30 PM, 5:00 PM - 10:00 PM",
-      "Saturday": "12:00 PM - 10:00 PM",
-      "Sunday": "12:00 PM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "barbata",
@@ -10145,16 +5816,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Basement speakeasy below BATA; serves European small plates, beef tartare, and the Kitt Peak Old Fashioned.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "Closed",
-      "Tuesday": "Closed",
-      "Wednesday": "5:00 PM - 11:00 PM",
-      "Thursday": "5:00 PM - 11:00 PM",
-      "Friday": "5:00 PM - 12:00 AM",
-      "Saturday": "5:00 PM - 12:00 AM",
-      "Sunday": "5:00 PM - 11:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Club Congress",
@@ -10164,16 +5826,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Historic music venue with attached kitchen fare; offers late-night bites, pizza, and legendary concerts.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "8:00 PM - 2:00 AM",
-      "Tuesday": "8:00 PM - 2:00 AM",
-      "Wednesday": "8:00 PM - 2:00 AM",
-      "Thursday": "8:00 PM - 2:00 AM",
-      "Friday": "8:00 PM - 2:00 AM",
-      "Saturday": "8:00 PM - 2:00 AM",
-      "Sunday": "8:00 PM - 2:00 AM"
-    }
+    "enriched": true
   },
   {
     "name": "Anello",
@@ -10183,16 +5836,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Renowned sourdough pizza perfection; serves the Verde and Bianca pizzas alongside Almond Olive Oil Cake.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "Closed",
-      "Tuesday": "5:00 PM - 9:00 PM",
-      "Wednesday": "5:00 PM - 9:00 PM",
-      "Thursday": "5:00 PM - 9:00 PM",
-      "Friday": "5:00 PM - 10:00 PM",
-      "Saturday": "5:00 PM - 10:00 PM",
-      "Sunday": "5:00 PM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Cornish Pasty Co",
@@ -10202,16 +5846,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Hand-held pot pies with basement and top floor bars; serves dense, savory British-style baked pasties.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 11:00 PM",
-      "Tuesday": "11:00 AM - 11:00 PM",
-      "Wednesday": "11:00 AM - 11:00 PM",
-      "Thursday": "11:00 AM - 11:00 PM",
-      "Friday": "11:00 AM - 1:00 AM",
-      "Saturday": "11:00 AM - 1:00 AM",
-      "Sunday": "11:00 AM - 10:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "The Century Room",
@@ -10221,16 +5856,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Jazz club and mezcal lounge in Hotel Congress; serves premium agave spirits and elegant small plates.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "Closed",
-      "Tuesday": "Closed",
-      "Wednesday": "5:00 PM - 11:00 PM",
-      "Thursday": "5:00 PM - 11:00 PM",
-      "Friday": "5:00 PM - 1:00 AM",
-      "Saturday": "5:00 PM - 1:00 AM",
-      "Sunday": "5:00 PM - 10:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Baja Cafe",
@@ -10240,16 +5866,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Beloved for vibrant Sonoran-style breakfast and brunch, famous for unique Benedicts and chilaquiles.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "7:00 AM - 2:00 PM",
-      "Tuesday": "7:00 AM - 2:00 PM",
-      "Wednesday": "7:00 AM - 2:00 PM",
-      "Thursday": "7:00 AM - 2:00 PM",
-      "Friday": "7:00 AM - 2:00 PM",
-      "Saturday": "7:00 AM - 2:00 PM",
-      "Sunday": "7:00 AM - 2:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Tiger's Tap Room",
@@ -10259,16 +5876,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Historic Tap Room attached to Hotel Congress; famous for cold pints and old-school Tucson ambiance.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "2:00 PM - 2:00 AM",
-      "Tuesday": "2:00 PM - 2:00 AM",
-      "Wednesday": "2:00 PM - 2:00 AM",
-      "Thursday": "2:00 PM - 2:00 AM",
-      "Friday": "2:00 PM - 2:00 AM",
-      "Saturday": "2:00 PM - 2:00 AM",
-      "Sunday": "2:00 PM - 2:00 AM"
-    }
+    "enriched": true
   },
   {
     "name": "Tesoro",
@@ -10278,16 +5886,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$$",
     "notes": "Upscale American dining with seasonal ingredients and sophisticated, comforting culinary creations.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 9:00 PM",
-      "Tuesday": "11:00 AM - 9:00 PM",
-      "Wednesday": "11:00 AM - 9:00 PM",
-      "Thursday": "11:00 AM - 9:00 PM",
-      "Friday": "11:00 AM - 10:00 PM",
-      "Saturday": "11:00 AM - 10:00 PM",
-      "Sunday": "11:00 AM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Buffalo Wild Wings",
@@ -10297,16 +5896,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Lively sports bar specializing in countless wing flavors, cold beer, and game-day excitement.",
     "isLocal": false,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 11:00 PM",
-      "Tuesday": "11:00 AM - 11:00 PM",
-      "Wednesday": "11:00 AM - 11:00 PM",
-      "Thursday": "11:00 AM - 11:00 PM",
-      "Friday": "11:00 AM - 12:00 AM",
-      "Saturday": "11:00 AM - 12:00 AM",
-      "Sunday": "11:00 AM - 11:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Alejandro Serious Mexican",
@@ -10316,16 +5906,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Highly popular fusion and mariscos; serves rich birria, massive burritos, and fresh seafood.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "8:00 AM - 12:00 AM",
-      "Tuesday": "8:00 AM - 12:00 AM",
-      "Wednesday": "8:00 AM - 12:00 AM",
-      "Thursday": "8:00 AM - 12:00 AM",
-      "Friday": "8:00 AM - 12:00 AM",
-      "Saturday": "8:00 AM - 12:00 AM",
-      "Sunday": "8:00 AM - 11:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Liquor Barrel Saloon",
@@ -10335,16 +5916,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Classic neighborhood saloon with friendly vibes, strong drinks, and occasional live music.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "10:00 AM - 2:00 AM",
-      "Tuesday": "10:00 AM - 2:00 AM",
-      "Wednesday": "10:00 AM - 2:00 AM",
-      "Thursday": "10:00 AM - 2:00 AM",
-      "Friday": "10:00 AM - 2:00 AM",
-      "Saturday": "10:00 AM - 2:00 AM",
-      "Sunday": "10:00 AM - 2:00 AM"
-    }
+    "enriched": true
   },
   {
     "name": "Jimmy John's",
@@ -10354,16 +5926,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Freaky fast gourmet sandwiches, made with fresh ingredients for a quick, satisfying meal.",
     "isLocal": false,
-    "enriched": true,
-    "hours": {
-      "Monday": "10:00 AM - 9:00 PM",
-      "Tuesday": "10:00 AM - 9:00 PM",
-      "Wednesday": "10:00 AM - 9:00 PM",
-      "Thursday": "10:00 AM - 9:00 PM",
-      "Friday": "10:00 AM - 9:00 PM",
-      "Saturday": "10:00 AM - 9:00 PM",
-      "Sunday": "10:00 AM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Olive Garden",
@@ -10373,16 +5936,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Familiar chain for unlimited breadsticks, salads, and comforting Italian-American dishes.",
     "isLocal": false,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 10:00 PM",
-      "Tuesday": "11:00 AM - 10:00 PM",
-      "Wednesday": "11:00 AM - 10:00 PM",
-      "Thursday": "11:00 AM - 10:00 PM",
-      "Friday": "11:00 AM - 11:00 PM",
-      "Saturday": "11:00 AM - 11:00 PM",
-      "Sunday": "11:00 AM - 10:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Grandma Tony's Pizza",
@@ -10392,16 +5946,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Family-owned pizzeria serving traditional, hearty Italian pies with fresh toppings.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 9:00 PM",
-      "Tuesday": "11:00 AM - 9:00 PM",
-      "Wednesday": "11:00 AM - 9:00 PM",
-      "Thursday": "11:00 AM - 9:00 PM",
-      "Friday": "11:00 AM - 10:00 PM",
-      "Saturday": "11:00 AM - 10:00 PM",
-      "Sunday": "12:00 PM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Sbarro",
@@ -10411,16 +5956,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Quick-service Italian chain offering New York-style pizza slices and pasta dishes.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 8:00 PM",
-      "Tuesday": "11:00 AM - 8:00 PM",
-      "Wednesday": "11:00 AM - 8:00 PM",
-      "Thursday": "11:00 AM - 8:00 PM",
-      "Friday": "11:00 AM - 8:00 PM",
-      "Saturday": "11:00 AM - 8:00 PM",
-      "Sunday": "11:00 AM - 6:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Young Donut Shop",
@@ -10430,16 +5966,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Local favorite for freshly baked donuts, pastries, and classic coffee pairings.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "5:00 AM - 1:00 PM",
-      "Tuesday": "5:00 AM - 1:00 PM",
-      "Wednesday": "5:00 AM - 1:00 PM",
-      "Thursday": "5:00 AM - 1:00 PM",
-      "Friday": "5:00 AM - 1:00 PM",
-      "Saturday": "5:00 AM - 1:00 PM",
-      "Sunday": "5:00 AM - 1:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Lindy's on 4th",
@@ -10449,16 +5976,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Iconic extreme burgers including the Donkey Punch Burger, street-style fusion sides, and loaded fries.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 10:00 PM",
-      "Tuesday": "11:00 AM - 10:00 PM",
-      "Wednesday": "11:00 AM - 10:00 PM",
-      "Thursday": "11:00 AM - 10:00 PM",
-      "Friday": "11:00 AM - 12:00 AM",
-      "Saturday": "11:00 AM - 12:00 AM",
-      "Sunday": "11:00 AM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Brooklyn Pizza Co",
@@ -10468,16 +5986,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Solar-powered; traditional NY-style large slices, garlic knots, and Italian ice in a casual setting.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 10:00 PM",
-      "Tuesday": "11:00 AM - 10:00 PM",
-      "Wednesday": "11:00 AM - 10:00 PM",
-      "Thursday": "11:00 AM - 10:00 PM",
-      "Friday": "11:00 AM - 11:00 PM",
-      "Saturday": "11:00 AM - 11:00 PM",
-      "Sunday": "11:00 AM - 10:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Reilly Craft Pizza",
@@ -10487,16 +5996,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Modern industrial setting; wood-fired artisan pizza, fresh pasta, and a dedicated craft beer bar.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 10:00 PM",
-      "Tuesday": "11:00 AM - 10:00 PM",
-      "Wednesday": "11:00 AM - 10:00 PM",
-      "Thursday": "11:00 AM - 10:00 PM",
-      "Friday": "11:00 AM - 11:00 PM",
-      "Saturday": "11:00 AM - 11:00 PM",
-      "Sunday": "11:00 AM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Guadalajara Grill",
@@ -10506,16 +6006,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Vibrant spot for classic Mexican dishes, lively atmosphere, and generous, flavorful portions.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 9:00 PM",
-      "Tuesday": "11:00 AM - 9:00 PM",
-      "Wednesday": "11:00 AM - 9:00 PM",
-      "Thursday": "11:00 AM - 9:00 PM",
-      "Friday": "11:00 AM - 10:00 PM",
-      "Saturday": "11:00 AM - 10:00 PM",
-      "Sunday": "11:00 AM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Nathan's Famous",
@@ -10525,16 +6016,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Iconic NY dogs and fast-casual lunch; serves classic crinkle-cut fries and grilled hot dogs.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 8:00 PM",
-      "Tuesday": "11:00 AM - 8:00 PM",
-      "Wednesday": "11:00 AM - 8:00 PM",
-      "Thursday": "11:00 AM - 8:00 PM",
-      "Friday": "11:00 AM - 8:00 PM",
-      "Saturday": "11:00 AM - 8:00 PM",
-      "Sunday": "11:00 AM - 6:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Bison Witches",
@@ -10544,16 +6026,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Gourmet sandwiches piled high with deli meats, served alongside signature bread-bowl soups.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 12:00 AM",
-      "Tuesday": "11:00 AM - 12:00 AM",
-      "Wednesday": "11:00 AM - 12:00 AM",
-      "Thursday": "11:00 AM - 12:00 AM",
-      "Friday": "11:00 AM - 1:00 AM",
-      "Saturday": "11:00 AM - 1:00 AM",
-      "Sunday": "11:00 AM - 12:00 AM"
-    }
+    "enriched": true
   },
   {
     "name": "Donut Wheel",
@@ -10563,16 +6036,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Beloved local spot serving fresh, classic donuts and pastries daily, perfect with coffee.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "5:00 AM - 1:00 PM",
-      "Tuesday": "5:00 AM - 1:00 PM",
-      "Wednesday": "5:00 AM - 1:00 PM",
-      "Thursday": "5:00 AM - 1:00 PM",
-      "Friday": "5:00 AM - 1:00 PM",
-      "Saturday": "5:00 AM - 1:00 PM",
-      "Sunday": "5:00 AM - 1:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Arizona Beer House",
@@ -10582,16 +6046,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Extensive craft beer selection paired with elevated pub grub in a relaxed atmosphere.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "2:00 PM - 10:00 PM",
-      "Tuesday": "2:00 PM - 10:00 PM",
-      "Wednesday": "2:00 PM - 10:00 PM",
-      "Thursday": "2:00 PM - 10:00 PM",
-      "Friday": "12:00 PM - 11:00 PM",
-      "Saturday": "11:00 AM - 11:00 PM",
-      "Sunday": "11:00 AM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Papa John's",
@@ -10601,16 +6056,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Reliable chain for classic pizzas, known for fresh dough and quality toppings.",
     "isLocal": false,
-    "enriched": true,
-    "hours": {
-      "Monday": "10:00 AM - 11:00 PM",
-      "Tuesday": "10:00 AM - 11:00 PM",
-      "Wednesday": "10:00 AM - 11:00 PM",
-      "Thursday": "10:00 AM - 11:00 PM",
-      "Friday": "10:00 AM - 12:00 AM",
-      "Saturday": "10:00 AM - 12:00 AM",
-      "Sunday": "10:00 AM - 11:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Calle Tepa",
@@ -10620,16 +6066,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Vibrant casual Mexican dining; serves flavorful street tacos, massive burritos, and an extensive fresh salsa bar.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 9:00 PM",
-      "Tuesday": "11:00 AM - 9:00 PM",
-      "Wednesday": "11:00 AM - 9:00 PM",
-      "Thursday": "11:00 AM - 9:00 PM",
-      "Friday": "11:00 AM - 10:00 PM",
-      "Saturday": "11:00 AM - 10:00 PM",
-      "Sunday": "11:00 AM - 8:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "The Treasury 1929",
@@ -10639,16 +6076,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Newly opened upscale lounge; features refined appetizers and classic cocktails in a historic bank building.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "Closed",
-      "Tuesday": "Closed",
-      "Wednesday": "5:00 PM - 9:00 PM",
-      "Thursday": "5:00 PM - 9:00 PM",
-      "Friday": "5:00 PM - 10:00 PM",
-      "Saturday": "5:00 PM - 10:00 PM",
-      "Sunday": "10:00 AM - 2:00 PM, 5:00 PM - 8:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "The Board Room",
@@ -10658,16 +6086,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Casual dining with numerous screens; offers standard sports bar fare including wings, nachos, and sliders.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "4:00 PM - 12:00 AM",
-      "Tuesday": "4:00 PM - 12:00 AM",
-      "Wednesday": "4:00 PM - 12:00 AM",
-      "Thursday": "4:00 PM - 12:00 AM",
-      "Friday": "4:00 PM - 1:00 AM",
-      "Saturday": "12:00 PM - 1:00 AM",
-      "Sunday": "12:00 PM - 10:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Tanias 33",
@@ -10677,16 +6096,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Famous for massive, arm-sized burritos and extensive vegan options like the Coliflor & Everything burrito.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "6:00 AM - 3:00 PM",
-      "Tuesday": "6:00 AM - 3:00 PM",
-      "Wednesday": "6:00 AM - 3:00 PM",
-      "Thursday": "6:00 AM - 3:00 PM",
-      "Friday": "6:00 AM - 3:00 PM",
-      "Saturday": "6:00 AM - 3:00 PM",
-      "Sunday": "Closed"
-    }
+    "enriched": true
   },
   {
     "name": "Penca",
@@ -10696,16 +6106,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Central Mexican cuisine in a stylish setting; features elevated tacos, complex moles, and craft mezcal.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "Closed",
-      "Tuesday": "11:00 AM - 2:00 PM, 5:00 PM - 9:00 PM",
-      "Wednesday": "11:00 AM - 2:00 PM, 5:00 PM - 9:00 PM",
-      "Thursday": "11:00 AM - 2:00 PM, 5:00 PM - 9:00 PM",
-      "Friday": "11:00 AM - 2:00 PM, 5:00 PM - 10:00 PM",
-      "Saturday": "5:00 PM - 10:00 PM",
-      "Sunday": "5:00 PM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Urban Fresh",
@@ -10715,16 +6116,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "100% plant-based organic lunch offering vibrant salads, healthy wraps, and fresh-pressed daily juices.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "10:00 AM - 7:00 PM",
-      "Tuesday": "10:00 AM - 7:00 PM",
-      "Wednesday": "10:00 AM - 7:00 PM",
-      "Thursday": "10:00 AM - 7:00 PM",
-      "Friday": "10:00 AM - 7:00 PM",
-      "Saturday": "10:00 AM - 7:00 PM",
-      "Sunday": "Closed"
-    }
+    "enriched": true
   },
   {
     "name": "Owls Club",
@@ -10734,16 +6126,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Elegant bar in a historic building; focuses on whiskey, classic cocktails, and a dark, moody ambiance.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "Closed",
-      "Tuesday": "5:00 PM - 12:00 AM",
-      "Wednesday": "5:00 PM - 12:00 AM",
-      "Thursday": "5:00 PM - 12:00 AM",
-      "Friday": "5:00 PM - 1:00 AM",
-      "Saturday": "5:00 PM - 1:00 AM",
-      "Sunday": "5:00 PM - 10:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "R Bar",
@@ -10753,16 +6136,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Arts district modern lounge; serves eclectic cocktails in a chic space attached to the Rialto Theatre.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "3:00 PM - 1:00 AM",
-      "Tuesday": "3:00 PM - 1:00 AM",
-      "Wednesday": "3:00 PM - 1:00 AM",
-      "Thursday": "3:00 PM - 1:00 AM",
-      "Friday": "3:00 PM - 1:00 AM",
-      "Saturday": "12:00 PM - 2:00 AM",
-      "Sunday": "12:00 PM - 12:00 AM"
-    }
+    "enriched": true
   },
   {
     "name": "Slice & Ice (Tanque V.)",
@@ -10772,16 +6146,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Second location; Italian ice and fast-fired pizza; occupies former eegee's space serving quick snacks.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 8:00 PM",
-      "Tuesday": "11:00 AM - 8:00 PM",
-      "Wednesday": "11:00 AM - 8:00 PM",
-      "Thursday": "11:00 AM - 8:00 PM",
-      "Friday": "11:00 AM - 8:00 PM",
-      "Saturday": "11:00 AM - 8:00 PM",
-      "Sunday": "11:00 AM - 7:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Baggin's Gourmet Sandwiches",
@@ -10791,16 +6156,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Locally owned chain; Downtown location serving premium meats, homemade breads, and signature cookies.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "10:00 AM - 4:00 PM",
-      "Tuesday": "10:00 AM - 4:00 PM",
-      "Wednesday": "10:00 AM - 4:00 PM",
-      "Thursday": "10:00 AM - 4:00 PM",
-      "Friday": "10:00 AM - 4:00 PM",
-      "Saturday": "10:00 AM - 4:00 PM",
-      "Sunday": "Closed"
-    }
+    "enriched": true
   },
   {
     "name": "Berry Greens Acai",
@@ -10810,16 +6166,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Fresh acai bowls loaded with fruit and granola, alongside organic green smoothies and wellness shots.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "8:00 AM - 4:00 PM",
-      "Tuesday": "8:00 AM - 4:00 PM",
-      "Wednesday": "8:00 AM - 4:00 PM",
-      "Thursday": "8:00 AM - 4:00 PM",
-      "Friday": "8:00 AM - 4:00 PM",
-      "Saturday": "8:00 AM - 4:00 PM",
-      "Sunday": "9:00 AM - 3:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Studio Janos",
@@ -10829,16 +6176,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$$",
     "notes": "Boutique dining experience; features highly curated, seasonal multi-course menus by a legendary chef.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "Closed",
-      "Tuesday": "Closed",
-      "Wednesday": "5:00 PM - 9:00 PM",
-      "Thursday": "5:00 PM - 9:00 PM",
-      "Friday": "5:00 PM - 9:00 PM",
-      "Saturday": "5:00 PM - 9:00 PM",
-      "Sunday": "Closed"
-    }
+    "enriched": true
   },
   {
     "name": "Cafe Crisol",
@@ -10848,16 +6186,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Historic building cafe; famous for classic Americanos, homemade tamales, and a strict no-wifi policy.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "7:00 AM - 4:00 PM",
-      "Tuesday": "7:00 AM - 4:00 PM",
-      "Wednesday": "7:00 AM - 4:00 PM",
-      "Thursday": "7:00 AM - 4:00 PM",
-      "Friday": "7:00 AM - 4:00 PM",
-      "Saturday": "8:00 AM - 3:00 PM",
-      "Sunday": "8:00 AM - 3:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "John Henry's",
@@ -10867,16 +6196,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Downtown bar with drinks and snacks; a local hangout offering standard spirits and casual bar bites.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "3:00 PM - 1:00 AM",
-      "Tuesday": "3:00 PM - 1:00 AM",
-      "Wednesday": "3:00 PM - 1:00 AM",
-      "Thursday": "3:00 PM - 1:00 AM",
-      "Friday": "3:00 PM - 1:00 AM",
-      "Saturday": "12:00 PM - 2:00 AM",
-      "Sunday": "12:00 PM - 12:00 AM"
-    }
+    "enriched": true
   },
   {
     "name": "Panda Express",
@@ -10886,16 +6206,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Fast-casual Chinese-American dishes, perfect for a quick and satisfying meal. Orange chicken reigns!",
     "isLocal": false,
-    "enriched": true,
-    "hours": {
-      "Monday": "10:30 AM - 9:30 PM",
-      "Tuesday": "10:30 AM - 9:30 PM",
-      "Wednesday": "10:30 AM - 9:30 PM",
-      "Thursday": "10:30 AM - 9:30 PM",
-      "Friday": "10:30 AM - 10:00 PM",
-      "Saturday": "10:30 AM - 10:00 PM",
-      "Sunday": "11:00 AM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Freddy's",
@@ -10905,16 +6216,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Retro diner known for its thin, crispy steakburgers, shoestring fries, and delicious frozen custard.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "10:30 AM - 10:00 PM",
-      "Tuesday": "10:30 AM - 10:00 PM",
-      "Wednesday": "10:30 AM - 10:00 PM",
-      "Thursday": "10:30 AM - 10:00 PM",
-      "Friday": "10:30 AM - 11:00 PM",
-      "Saturday": "10:30 AM - 11:00 PM",
-      "Sunday": "10:30 AM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "The Monica",
@@ -10924,16 +6226,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Honors legacy of Monica Flin; elevated fast-casual serving artisan pizzas, salads, and local bread.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 9:00 PM",
-      "Tuesday": "11:00 AM - 9:00 PM",
-      "Wednesday": "11:00 AM - 9:00 PM",
-      "Thursday": "11:00 AM - 9:00 PM",
-      "Friday": "11:00 AM - 10:00 PM",
-      "Saturday": "9:00 AM - 10:00 PM",
-      "Sunday": "9:00 AM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Wings Over Broadway",
@@ -10943,16 +6236,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Classic wings and casual sports viewing; serves crispy chicken tossed in a variety of spicy sauces.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 11:00 PM",
-      "Tuesday": "11:00 AM - 11:00 PM",
-      "Wednesday": "11:00 AM - 11:00 PM",
-      "Thursday": "11:00 AM - 11:00 PM",
-      "Friday": "11:00 AM - 12:00 AM",
-      "Saturday": "11:00 AM - 12:00 AM",
-      "Sunday": "11:00 AM - 10:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Dandelion Cafe",
@@ -10962,16 +6246,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Pastries and cafe beverages; serves delicate baked goods and morning espresso in a bright setting.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "7:00 AM - 5:00 PM",
-      "Tuesday": "7:00 AM - 5:00 PM",
-      "Wednesday": "7:00 AM - 5:00 PM",
-      "Thursday": "7:00 AM - 5:00 PM",
-      "Friday": "7:00 AM - 5:00 PM",
-      "Saturday": "8:00 AM - 3:00 PM",
-      "Sunday": "Closed"
-    }
+    "enriched": true
   },
   {
     "name": "The Oink Cafe",
@@ -10981,16 +6256,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Lively spot famous for creative breakfast and brunch dishes, especially bacon-centric specialties.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "6:30 AM - 2:00 PM",
-      "Tuesday": "6:30 AM - 2:00 PM",
-      "Wednesday": "6:30 AM - 2:00 PM",
-      "Thursday": "6:30 AM - 2:00 PM",
-      "Friday": "6:30 AM - 2:00 PM",
-      "Saturday": "6:30 AM - 2:00 PM",
-      "Sunday": "6:30 AM - 2:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Antojitos",
@@ -11000,16 +6266,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Urban quick bites and traditional Mexican snacks, sweet chamoy fruit cups, and street-style corn.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "12:00 PM - 8:00 PM",
-      "Tuesday": "12:00 PM - 8:00 PM",
-      "Wednesday": "12:00 PM - 8:00 PM",
-      "Thursday": "12:00 PM - 8:00 PM",
-      "Friday": "12:00 PM - 9:00 PM",
-      "Saturday": "12:00 PM - 9:00 PM",
-      "Sunday": "12:00 PM - 7:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Vertigo Wines",
@@ -11019,16 +6276,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Curated wine selections in Toole Ave arts district; offers boutique bottles and tasting flights.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "Closed",
-      "Tuesday": "4:00 PM - 9:00 PM",
-      "Wednesday": "4:00 PM - 9:00 PM",
-      "Thursday": "4:00 PM - 9:00 PM",
-      "Friday": "3:00 PM - 10:00 PM",
-      "Saturday": "3:00 PM - 10:00 PM",
-      "Sunday": "Closed"
-    }
+    "enriched": true
   },
   {
     "name": "Piazza Gavi",
@@ -11038,16 +6286,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Family-style Italian; massive menu featuring seafood linguine, lasagna, and complimentary bread.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 9:00 PM",
-      "Tuesday": "11:00 AM - 9:00 PM",
-      "Wednesday": "11:00 AM - 9:00 PM",
-      "Thursday": "11:00 AM - 9:00 PM",
-      "Friday": "11:00 AM - 10:00 PM",
-      "Saturday": "11:00 AM - 10:00 PM",
-      "Sunday": "12:00 PM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Gibson Food Hall & Market",
@@ -11057,16 +6296,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Market-style dining destination; offers a variety of quick-service global foods under one roof.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "9:00 AM - 9:00 PM",
-      "Tuesday": "9:00 AM - 9:00 PM",
-      "Wednesday": "9:00 AM - 9:00 PM",
-      "Thursday": "9:00 AM - 9:00 PM",
-      "Friday": "9:00 AM - 10:00 PM",
-      "Saturday": "9:00 AM - 10:00 PM",
-      "Sunday": "10:00 AM - 8:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Eegee's",
@@ -11076,16 +6306,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Tucson's favorite for refreshing eegee's drinks, satisfying subs, and famous crinkle-cut fries.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "10:00 AM - 10:00 PM",
-      "Tuesday": "10:00 AM - 10:00 PM",
-      "Wednesday": "10:00 AM - 10:00 PM",
-      "Thursday": "10:00 AM - 10:00 PM",
-      "Friday": "10:00 AM - 10:00 PM",
-      "Saturday": "10:00 AM - 10:00 PM",
-      "Sunday": "10:00 AM - 10:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Tough Luck Club",
@@ -11095,16 +6316,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Basement cocktail bar; offers expertly mixed craft drinks in a subterranean, intimate setting.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "5:00 PM - 2:00 AM",
-      "Tuesday": "5:00 PM - 2:00 AM",
-      "Wednesday": "5:00 PM - 2:00 AM",
-      "Thursday": "5:00 PM - 2:00 AM",
-      "Friday": "5:00 PM - 2:00 AM",
-      "Saturday": "5:00 PM - 2:00 AM",
-      "Sunday": "5:00 PM - 2:00 AM"
-    }
+    "enriched": true
   },
   {
     "name": "The Screening Room",
@@ -11114,16 +6326,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Entertainment venue with bar concessions; offers local beer and classic movie theater popcorn.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "Closed",
-      "Tuesday": "5:00 PM - 10:00 PM",
-      "Wednesday": "5:00 PM - 10:00 PM",
-      "Thursday": "5:00 PM - 10:00 PM",
-      "Friday": "5:00 PM - 11:00 PM",
-      "Saturday": "5:00 PM - 11:00 PM",
-      "Sunday": "2:00 PM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Zion City",
@@ -11133,16 +6336,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Emerging cafe space downtown; provides artisan coffee, espresso, and locally sourced pastries.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "7:00 AM - 3:00 PM",
-      "Tuesday": "7:00 AM - 3:00 PM",
-      "Wednesday": "7:00 AM - 3:00 PM",
-      "Thursday": "7:00 AM - 3:00 PM",
-      "Friday": "7:00 AM - 3:00 PM",
-      "Saturday": "8:00 AM - 2:00 PM",
-      "Sunday": "Closed"
-    }
+    "enriched": true
   },
   {
     "name": "Playground Bar & Lounge",
@@ -11152,16 +6346,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Multi-level rooftop and modern bar food; serves sliders, loaded fries, and high-energy drinks.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "Closed",
-      "Tuesday": "Closed",
-      "Wednesday": "4:00 PM - 12:00 AM",
-      "Thursday": "4:00 PM - 12:00 AM",
-      "Friday": "4:00 PM - 2:00 AM",
-      "Saturday": "11:00 AM - 2:00 AM",
-      "Sunday": "11:00 AM - 10:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Katsu House",
@@ -11171,16 +6356,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Japanese-inspired dishes; serves crispy breaded pork cutlets (katsu), curry, and fluffy rice.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 9:00 PM",
-      "Tuesday": "11:00 AM - 9:00 PM",
-      "Wednesday": "11:00 AM - 9:00 PM",
-      "Thursday": "11:00 AM - 9:00 PM",
-      "Friday": "11:00 AM - 9:30 PM",
-      "Saturday": "11:00 AM - 9:30 PM",
-      "Sunday": "11:00 AM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Cobra Arcade Bar",
@@ -11190,16 +6366,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Vintage arcade games and bar; serves high-energy themed cocktails in a neon-lit environment.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "5:00 PM - 12:00 AM",
-      "Tuesday": "5:00 PM - 1:00 AM",
-      "Wednesday": "5:00 PM - 1:00 AM",
-      "Thursday": "5:00 PM - 2:00 AM",
-      "Friday": "5:00 PM - 2:00 AM",
-      "Saturday": "12:00 PM - 2:00 AM",
-      "Sunday": "12:00 PM - 12:00 AM"
-    }
+    "enriched": true
   },
   {
     "name": "Proper Shops Bar",
@@ -11209,16 +6376,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Retail-integrated bar service; grab a craft beer or wine while browsing local artisan goods.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "Closed",
-      "Tuesday": "Closed",
-      "Wednesday": "Closed",
-      "Thursday": "4:00 PM - 10:00 PM",
-      "Friday": "4:00 PM - 11:00 PM",
-      "Saturday": "12:00 PM - 11:00 PM",
-      "Sunday": "12:00 PM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Basqueria",
@@ -11228,16 +6386,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Authentic Spanish pintxos, tapas plates, imported cured meats, and a dedicated sangria bar.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "Closed",
-      "Tuesday": "Closed",
-      "Wednesday": "5:00 PM - 9:00 PM",
-      "Thursday": "5:00 PM - 9:00 PM",
-      "Friday": "5:00 PM - 10:00 PM",
-      "Saturday": "5:00 PM - 10:00 PM",
-      "Sunday": "5:00 PM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Prohibición",
@@ -11247,16 +6396,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Themed craft cocktail lounge; focuses on prohibition-era drinks and sophisticated mixology.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "Closed",
-      "Tuesday": "5:00 PM - 12:00 AM",
-      "Wednesday": "5:00 PM - 12:00 AM",
-      "Thursday": "5:00 PM - 12:00 AM",
-      "Friday": "5:00 PM - 1:00 AM",
-      "Saturday": "5:00 PM - 1:00 AM",
-      "Sunday": "Closed"
-    }
+    "enriched": true
   },
   {
     "name": "Dean's Public House",
@@ -11266,16 +6406,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Craft ales and Copper Brothel connections; serves elevated pub grub and independent beers.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 12:00 AM",
-      "Tuesday": "11:00 AM - 12:00 AM",
-      "Wednesday": "11:00 AM - 12:00 AM",
-      "Thursday": "11:00 AM - 12:00 AM",
-      "Friday": "11:00 AM - 1:00 AM",
-      "Saturday": "11:00 AM - 1:00 AM",
-      "Sunday": "11:00 AM - 10:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Vero Amore",
@@ -11285,16 +6416,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Certified authentic Neapolitan pizza; serves wood-fired pies and fresh mozzarella caprese.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "Closed",
-      "Tuesday": "4:00 PM - 9:00 PM",
-      "Wednesday": "4:00 PM - 9:00 PM",
-      "Thursday": "4:00 PM - 9:00 PM",
-      "Friday": "4:00 PM - 10:00 PM",
-      "Saturday": "4:00 PM - 10:00 PM",
-      "Sunday": "4:00 PM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "El Taco Tote",
@@ -11304,16 +6426,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Authentic Sonoran-style tacos, flavorful carne asada, fresh salsas, and generous toppings.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "10:00 AM - 10:00 PM",
-      "Tuesday": "10:00 AM - 10:00 PM",
-      "Wednesday": "10:00 AM - 10:00 PM",
-      "Thursday": "10:00 AM - 10:00 PM",
-      "Friday": "10:00 AM - 10:00 PM",
-      "Saturday": "10:00 AM - 10:00 PM",
-      "Sunday": "10:00 AM - 10:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "LUST",
@@ -11323,16 +6436,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Downtown bar experience; modern cocktail lounge with vibrant energy and specialty drinks.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "Closed",
-      "Tuesday": "Closed",
-      "Wednesday": "8:00 PM - 1:00 AM",
-      "Thursday": "8:00 PM - 2:00 AM",
-      "Friday": "8:00 PM - 2:00 AM",
-      "Saturday": "8:00 PM - 2:00 AM",
-      "Sunday": "Closed"
-    }
+    "enriched": true
   },
   {
     "name": "Stage Left",
@@ -11342,16 +6446,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Casual drinks near local theaters; serves quick pre-show cocktails and light bar snacks.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "Closed",
-      "Tuesday": "Closed",
-      "Wednesday": "Closed",
-      "Thursday": "6:00 PM - 12:00 AM",
-      "Friday": "6:00 PM - 1:00 AM",
-      "Saturday": "6:00 PM - 1:00 AM",
-      "Sunday": "Closed"
-    }
+    "enriched": true
   },
   {
     "name": "Burger King",
@@ -11361,16 +6456,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Home of the Whopper, offering flame-grilled burgers, fries, and shakes for a quick meal.",
     "isLocal": false,
-    "enriched": true,
-    "hours": {
-      "Monday": "6:00 AM - 11:00 PM",
-      "Tuesday": "6:00 AM - 11:00 PM",
-      "Wednesday": "6:00 AM - 11:00 PM",
-      "Thursday": "6:00 AM - 11:00 PM",
-      "Friday": "6:00 AM - 12:00 AM",
-      "Saturday": "6:00 AM - 12:00 AM",
-      "Sunday": "6:00 AM - 11:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "La Placita Café",
@@ -11380,16 +6466,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Upscale traditional Mexican; features Oaxacan mole, chiles en nogada, and patio dining.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "7:00 AM - 3:00 PM",
-      "Tuesday": "7:00 AM - 3:00 PM",
-      "Wednesday": "7:00 AM - 3:00 PM",
-      "Thursday": "7:00 AM - 3:00 PM",
-      "Friday": "7:00 AM - 3:00 PM",
-      "Saturday": "7:00 AM - 3:00 PM",
-      "Sunday": "Closed"
-    }
+    "enriched": true
   },
   {
     "name": "Flying Leap",
@@ -11399,16 +6476,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Arizona wine tasting room; features local estate-grown wines and art gallery ambiance.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "Closed",
-      "Tuesday": "Closed",
-      "Wednesday": "1:00 PM - 6:00 PM",
-      "Thursday": "1:00 PM - 6:00 PM",
-      "Friday": "11:00 AM - 7:00 PM",
-      "Saturday": "11:00 AM - 7:00 PM",
-      "Sunday": "11:00 AM - 6:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Brooklyn's Beer & Burgers",
@@ -11418,16 +6486,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Hearty burgers and an impressive selection of craft beers define this local favorite.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 9:00 PM",
-      "Tuesday": "11:00 AM - 9:00 PM",
-      "Wednesday": "11:00 AM - 9:00 PM",
-      "Thursday": "11:00 AM - 10:00 PM",
-      "Friday": "11:00 AM - 11:00 PM",
-      "Saturday": "11:00 AM - 11:00 PM",
-      "Sunday": "11:00 AM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Trident Grill",
@@ -11437,16 +6496,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Sports bar favorite; serves Maryland crab cakes, clam chowder, and cold draft beers.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 12:00 AM",
-      "Tuesday": "11:00 AM - 12:00 AM",
-      "Wednesday": "11:00 AM - 12:00 AM",
-      "Thursday": "11:00 AM - 12:00 AM",
-      "Friday": "11:00 AM - 1:00 AM",
-      "Saturday": "11:00 AM - 1:00 AM",
-      "Sunday": "11:00 AM - 12:00 AM"
-    }
+    "enriched": true
   },
   {
     "name": "Fresh Pho and Sushi",
@@ -11456,16 +6506,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Authentic Vietnamese pho and fresh sushi rolls served in a cozy, inviting setting.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 9:00 PM",
-      "Tuesday": "11:00 AM - 9:00 PM",
-      "Wednesday": "11:00 AM - 9:00 PM",
-      "Thursday": "11:00 AM - 9:00 PM",
-      "Friday": "11:00 AM - 9:30 PM",
-      "Saturday": "11:00 AM - 9:30 PM",
-      "Sunday": "11:00 AM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Pat's Chili Dogs",
@@ -11475,16 +6516,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Historic roadside stand; serves spicy chili dogs and massive baskets of fries.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "10:00 AM - 8:00 PM",
-      "Tuesday": "10:00 AM - 8:00 PM",
-      "Wednesday": "10:00 AM - 8:00 PM",
-      "Thursday": "10:00 AM - 8:00 PM",
-      "Friday": "10:00 AM - 8:00 PM",
-      "Saturday": "10:00 AM - 8:00 PM",
-      "Sunday": "Closed"
-    }
+    "enriched": true
   },
   {
     "name": "Little Caesars",
@@ -11494,16 +6526,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Quick and affordable hot-n-ready pizzas, perfect for a fast family dinner.",
     "isLocal": false,
-    "enriched": true,
-    "hours": {
-      "Monday": "10:30 AM - 10:00 PM",
-      "Tuesday": "10:30 AM - 10:00 PM",
-      "Wednesday": "10:30 AM - 10:00 PM",
-      "Thursday": "10:30 AM - 10:00 PM",
-      "Friday": "10:30 AM - 11:00 PM",
-      "Saturday": "10:30 AM - 11:00 PM",
-      "Sunday": "11:00 AM - 10:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Subway (Swan)",
@@ -11513,16 +6536,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Sub sandwich chain; serves custom footlongs, fresh salads, and cookies.",
     "isLocal": false,
-    "enriched": true,
-    "hours": {
-      "Monday": "7:00 AM - 10:00 PM",
-      "Tuesday": "7:00 AM - 10:00 PM",
-      "Wednesday": "7:00 AM - 10:00 PM",
-      "Thursday": "7:00 AM - 10:00 PM",
-      "Friday": "7:00 AM - 10:00 PM",
-      "Saturday": "7:00 AM - 10:00 PM",
-      "Sunday": "8:00 AM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Café à la C'Art",
@@ -11532,16 +6546,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Located within the Tucson Museum of Art; serves chilaquiles, refined cafe lunches, and features a massive pastry case.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "Closed",
-      "Tuesday": "8:00 AM - 3:00 PM",
-      "Wednesday": "8:00 AM - 3:00 PM",
-      "Thursday": "8:00 AM - 3:00 PM",
-      "Friday": "8:00 AM - 3:00 PM",
-      "Saturday": "8:00 AM - 3:00 PM",
-      "Sunday": "9:00 AM - 2:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Café 54",
@@ -11551,16 +6556,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Supporting mental health recovery employment; rotating lunch menu of fresh salads, sandwiches, and soups.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "7:00 AM - 2:00 PM",
-      "Tuesday": "7:00 AM - 2:00 PM",
-      "Wednesday": "7:00 AM - 2:00 PM",
-      "Thursday": "7:00 AM - 2:00 PM",
-      "Friday": "7:00 AM - 2:00 PM",
-      "Saturday": "Closed",
-      "Sunday": "Closed"
-    }
+    "enriched": true
   },
   {
     "name": "Scordato's Pizzeria",
@@ -11570,16 +6566,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Upscale pizzeria offering gourmet pizzas, classic Italian dishes, and a sophisticated dining experience.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "Closed",
-      "Tuesday": "4:00 PM - 9:00 PM",
-      "Wednesday": "4:00 PM - 9:00 PM",
-      "Thursday": "4:00 PM - 9:00 PM",
-      "Friday": "4:00 PM - 10:00 PM",
-      "Saturday": "4:00 PM - 10:00 PM",
-      "Sunday": "4:00 PM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Bombolé",
@@ -11589,16 +6576,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Pastry empanadas and Indian fusion; features Aloo Matar Samosas and Curried Lentils with a Latin twist.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "8:00 AM - 9:00 PM",
-      "Tuesday": "8:00 AM - 9:00 PM",
-      "Wednesday": "8:00 AM - 9:00 PM",
-      "Thursday": "8:00 AM - 9:00 PM",
-      "Friday": "8:00 AM - 10:00 PM",
-      "Saturday": "8:00 AM - 10:00 PM",
-      "Sunday": "8:00 AM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Blue Front",
@@ -11608,16 +6586,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Restoration of historic storefront; serves modernized American classics, hearty sandwiches, and salads.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "Closed",
-      "Tuesday": "Closed",
-      "Wednesday": "4:00 PM - 2:00 AM",
-      "Thursday": "4:00 PM - 2:00 AM",
-      "Friday": "4:00 PM - 2:00 AM",
-      "Saturday": "4:00 PM - 2:00 AM",
-      "Sunday": "Closed"
-    }
+    "enriched": true
   },
   {
     "name": "Cartel Roasting Co",
@@ -11627,16 +6596,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Premier local roaster and community space; high-acid specialty coffees and fresh local baked goods.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "7:00 AM - 6:00 PM",
-      "Tuesday": "7:00 AM - 6:00 PM",
-      "Wednesday": "7:00 AM - 6:00 PM",
-      "Thursday": "7:00 AM - 6:00 PM",
-      "Friday": "7:00 AM - 6:00 PM",
-      "Saturday": "7:00 AM - 6:00 PM",
-      "Sunday": "7:00 AM - 6:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Sushi Cortaro on River",
@@ -11646,16 +6606,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Contemporary sushi bar offering creative rolls and fresh sashimi in a sleek, modern environment.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "Closed",
-      "Tuesday": "11:30 AM - 2:30 PM, 4:30 PM - 9:00 PM",
-      "Wednesday": "11:30 AM - 2:30 PM, 4:30 PM - 9:00 PM",
-      "Thursday": "11:30 AM - 2:30 PM, 4:30 PM - 9:00 PM",
-      "Friday": "11:30 AM - 2:30 PM, 4:30 PM - 9:30 PM",
-      "Saturday": "12:00 PM - 9:30 PM",
-      "Sunday": "12:00 PM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Hooters",
@@ -11665,16 +6616,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Lively sports bar atmosphere, famous for its chicken wings, casual American fare, and cold beer.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 11:00 PM",
-      "Tuesday": "11:00 AM - 11:00 PM",
-      "Wednesday": "11:00 AM - 11:00 PM",
-      "Thursday": "11:00 AM - 11:00 PM",
-      "Friday": "11:00 AM - 12:00 AM",
-      "Saturday": "11:00 AM - 12:00 AM",
-      "Sunday": "11:00 AM - 10:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Nattha's Bann Thai Asian",
@@ -11684,16 +6626,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Authentic Thai dishes with vibrant flavors, fresh ingredients, and a cozy dining experience.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "Closed",
-      "Tuesday": "11:00 AM - 2:30 PM, 4:30 PM - 8:30 PM",
-      "Wednesday": "11:00 AM - 2:30 PM, 4:30 PM - 8:30 PM",
-      "Thursday": "11:00 AM - 2:30 PM, 4:30 PM - 8:30 PM",
-      "Friday": "11:00 AM - 2:30 PM, 4:30 PM - 8:30 PM",
-      "Saturday": "12:00 PM - 8:30 PM",
-      "Sunday": "12:00 PM - 8:30 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Hamburger Stand",
@@ -11703,16 +6636,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Classic drive-thru offering simple, satisfying burgers, hot dogs, and crispy fries.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "10:00 AM - 10:00 PM",
-      "Tuesday": "10:00 AM - 10:00 PM",
-      "Wednesday": "10:00 AM - 10:00 PM",
-      "Thursday": "10:00 AM - 10:00 PM",
-      "Friday": "10:00 AM - 10:00 PM",
-      "Saturday": "10:00 AM - 10:00 PM",
-      "Sunday": "10:00 AM - 10:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Sunny Daze Café",
@@ -11722,16 +6646,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Bright and cheerful café offering delightful coffee, pastries, and light bites.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "6:00 AM - 2:00 PM",
-      "Tuesday": "6:00 AM - 2:00 PM",
-      "Wednesday": "6:00 AM - 2:00 PM",
-      "Thursday": "6:00 AM - 2:00 PM",
-      "Friday": "6:00 AM - 2:00 PM",
-      "Saturday": "7:00 AM - 1:00 PM",
-      "Sunday": "Closed"
-    }
+    "enriched": true
   },
   {
     "name": "Music Box Lounge",
@@ -11741,16 +6656,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Dive bar with live music, classic cocktails, and a lively, local vibe.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "4:00 PM - 1:00 AM",
-      "Tuesday": "4:00 PM - 1:00 AM",
-      "Wednesday": "4:00 PM - 1:00 AM",
-      "Thursday": "4:00 PM - 1:00 AM",
-      "Friday": "4:00 PM - 2:00 AM",
-      "Saturday": "4:00 PM - 2:00 AM",
-      "Sunday": "4:00 PM - 12:00 AM"
-    }
+    "enriched": true
   },
   {
     "name": "CERES",
@@ -11760,16 +6666,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Freshly made pasta and imported ingredients; walk-up window serving authentic Italian street food and espresso.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "Closed",
-      "Tuesday": "11:30 AM - 2:00 PM, 5:00 PM - 9:00 PM",
-      "Wednesday": "11:30 AM - 2:00 PM, 5:00 PM - 9:00 PM",
-      "Thursday": "11:30 AM - 2:00 PM, 5:00 PM - 9:00 PM",
-      "Friday": "11:30 AM - 2:00 PM, 5:00 PM - 10:00 PM",
-      "Saturday": "5:00 PM - 10:00 PM",
-      "Sunday": "5:00 PM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Snake & Barrel",
@@ -11779,16 +6676,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Speakeasy basement bar below Batch; serves expertly crafted vintage cocktails and premium bourbon flights.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "4:00 PM - 1:00 AM",
-      "Tuesday": "4:00 PM - 1:00 AM",
-      "Wednesday": "4:00 PM - 1:00 AM",
-      "Thursday": "4:00 PM - 1:00 AM",
-      "Friday": "4:00 PM - 2:00 AM",
-      "Saturday": "4:00 PM - 2:00 AM",
-      "Sunday": "4:00 PM - 12:00 AM"
-    }
+    "enriched": true
   },
   {
     "name": "CRUDA Mariscos",
@@ -11798,16 +6686,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$$",
     "notes": "Upscale mariscos and raw bar; serves coastal Mexican ceviches, fresh oysters, and premium seafood towers.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "Closed",
-      "Tuesday": "11:00 AM - 9:00 PM",
-      "Wednesday": "11:00 AM - 9:00 PM",
-      "Thursday": "11:00 AM - 9:00 PM",
-      "Friday": "11:00 AM - 10:00 PM",
-      "Saturday": "11:00 AM - 10:00 PM",
-      "Sunday": "11:00 AM - 8:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Chela's Latin Cuisine",
@@ -11817,16 +6696,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Vibrant mural; transforms into dance floor at night; serves hearty Latin platters and strong margaritas.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 9:00 PM",
-      "Tuesday": "11:00 AM - 9:00 PM",
-      "Wednesday": "11:00 AM - 9:00 PM",
-      "Thursday": "11:00 AM - 9:00 PM",
-      "Friday": "11:00 AM - 10:00 PM",
-      "Saturday": "11:00 AM - 10:00 PM",
-      "Sunday": "11:00 AM - 8:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "TABU Restaurant",
@@ -11836,16 +6706,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Sleek new entry in 2024; Latin-inspired brunch featuring Chilaquiles Panzones and Omelettes of Chorizo.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "Closed",
-      "Tuesday": "4:00 PM - 9:00 PM",
-      "Wednesday": "4:00 PM - 9:00 PM",
-      "Thursday": "4:00 PM - 9:00 PM",
-      "Friday": "4:00 PM - 10:00 PM",
-      "Saturday": "4:00 PM - 10:00 PM",
-      "Sunday": "10:00 AM - 2:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Sonora Moonshine Co",
@@ -11855,16 +6716,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Specialized moonshine and Sonoran cuisine; features smoked meats, unique tacos, and strong spirits.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "4:00 PM - 1:00 AM",
-      "Tuesday": "4:00 PM - 1:00 AM",
-      "Wednesday": "4:00 PM - 1:00 AM",
-      "Thursday": "4:00 PM - 1:00 AM",
-      "Friday": "4:00 PM - 2:00 AM",
-      "Saturday": "4:00 PM - 2:00 AM",
-      "Sunday": "4:00 PM - 12:00 AM"
-    }
+    "enriched": true
   },
   {
     "name": "Filiberto's",
@@ -11874,16 +6726,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Late-night favorite for no-frills, authentic Sonoran-style burritos, tacos, and loaded quesadillas.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "24 Hours",
-      "Tuesday": "24 Hours",
-      "Wednesday": "24 Hours",
-      "Thursday": "24 Hours",
-      "Friday": "24 Hours",
-      "Saturday": "24 Hours",
-      "Sunday": "24 Hours"
-    }
+    "enriched": true
   },
   {
     "name": "De Novo Market",
@@ -11893,16 +6736,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Curated market and craft taps; offers grab-and-go artisan snacks, local beers, and boutique wines.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "3:00 PM - 12:00 AM",
-      "Tuesday": "3:00 PM - 12:00 AM",
-      "Wednesday": "3:00 PM - 12:00 AM",
-      "Thursday": "3:00 PM - 12:00 AM",
-      "Friday": "3:00 PM - 1:00 AM",
-      "Saturday": "3:00 PM - 1:00 AM",
-      "Sunday": "12:00 PM - 10:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "El Brunch Bistro",
@@ -11912,16 +6746,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Trendy bistro serving elevated brunch dishes and modern American cuisine with fresh ingredients.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "Closed",
-      "Tuesday": "7:00 AM - 2:00 PM",
-      "Wednesday": "7:00 AM - 2:00 PM",
-      "Thursday": "7:00 AM - 2:00 PM",
-      "Friday": "7:00 AM - 2:00 PM",
-      "Saturday": "7:00 AM - 2:00 PM",
-      "Sunday": "7:00 AM - 2:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Fiamme Pizza",
@@ -11931,16 +6756,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Napoletana certified; serves authentic wood-fired pizzas with imported San Marzano tomatoes.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 9:00 PM",
-      "Tuesday": "11:00 AM - 9:00 PM",
-      "Wednesday": "11:00 AM - 9:00 PM",
-      "Thursday": "11:00 AM - 9:00 PM",
-      "Friday": "11:00 AM - 10:00 PM",
-      "Saturday": "11:00 AM - 10:00 PM",
-      "Sunday": "12:00 PM - 8:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Ba Dar",
@@ -11950,16 +6766,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Enjoy classic Chinese dishes and fresh sushi rolls in a relaxed, family-friendly setting.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 2:30 PM, 5:00 PM - 9:30 PM",
-      "Tuesday": "11:00 AM - 2:30 PM, 5:00 PM - 9:30 PM",
-      "Wednesday": "11:00 AM - 2:30 PM, 5:00 PM - 9:30 PM",
-      "Thursday": "11:00 AM - 2:30 PM, 5:00 PM - 9:30 PM",
-      "Friday": "11:00 AM - 2:30 PM, 5:00 PM - 10:00 PM",
-      "Saturday": "12:00 PM - 10:00 PM",
-      "Sunday": "12:00 PM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "BBQ Rush",
@@ -11969,16 +6776,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Fast and flavorful barbecue joint with tender brisket, ribs, and classic Southern sides.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "Closed",
-      "Tuesday": "11:00 AM - 8:00 PM",
-      "Wednesday": "11:00 AM - 8:00 PM",
-      "Thursday": "11:00 AM - 8:00 PM",
-      "Friday": "11:00 AM - 9:00 PM",
-      "Saturday": "11:00 AM - 9:00 PM",
-      "Sunday": "11:00 AM - 8:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Mandarin Buffet",
@@ -11988,16 +6786,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Extensive buffet featuring a wide array of Chinese and Asian dishes, great for families.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 9:00 PM",
-      "Tuesday": "11:00 AM - 9:00 PM",
-      "Wednesday": "11:00 AM - 9:00 PM",
-      "Thursday": "11:00 AM - 9:00 PM",
-      "Friday": "11:00 AM - 10:00 PM",
-      "Saturday": "11:00 AM - 10:00 PM",
-      "Sunday": "11:00 AM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Bisbee Breakfast Club",
@@ -12007,16 +6796,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Mining-town themed breakfast; serves massive pancakes and copper-miner sized omelettes.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "6:00 AM - 2:00 PM",
-      "Tuesday": "6:00 AM - 2:00 PM",
-      "Wednesday": "6:00 AM - 2:00 PM",
-      "Thursday": "6:00 AM - 2:00 PM",
-      "Friday": "6:00 AM - 2:00 PM",
-      "Saturday": "6:00 AM - 2:00 PM",
-      "Sunday": "6:00 AM - 2:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Kolb Road Lounge",
@@ -12026,16 +6806,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Neighborhood watering hole offering classic bar bites, drinks, and a relaxed ambiance.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "4:00 PM - 1:00 AM",
-      "Tuesday": "4:00 PM - 1:00 AM",
-      "Wednesday": "4:00 PM - 1:00 AM",
-      "Thursday": "4:00 PM - 1:00 AM",
-      "Friday": "4:00 PM - 2:00 AM",
-      "Saturday": "4:00 PM - 2:00 AM",
-      "Sunday": "4:00 PM - 12:00 AM"
-    }
+    "enriched": true
   },
   {
     "name": "Brush Fire Barbeque",
@@ -12045,16 +6816,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Mouth-watering slow-smoked BBQ meats with classic sides. A true taste of the South.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 9:00 PM",
-      "Tuesday": "11:00 AM - 9:00 PM",
-      "Wednesday": "11:00 AM - 9:00 PM",
-      "Thursday": "11:00 AM - 9:00 PM",
-      "Friday": "11:00 AM - 10:00 PM",
-      "Saturday": "11:00 AM - 10:00 PM",
-      "Sunday": "11:00 AM - 8:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Salad and Go",
@@ -12064,16 +6826,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Fresh, healthy salads, wraps, and energizing drinks for quick, nutritious meals.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "6:00 AM - 8:00 PM",
-      "Tuesday": "6:00 AM - 8:00 PM",
-      "Wednesday": "6:00 AM - 8:00 PM",
-      "Thursday": "6:00 AM - 8:00 PM",
-      "Friday": "6:00 AM - 8:00 PM",
-      "Saturday": "7:00 AM - 7:00 PM",
-      "Sunday": "7:00 AM - 7:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Pueblo Vida Brewing",
@@ -12083,16 +6836,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Downtown brewery; famous for hazy IPAs and a cycling-friendly atmosphere.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "3:00 PM - 10:00 PM",
-      "Tuesday": "3:00 PM - 10:00 PM",
-      "Wednesday": "3:00 PM - 10:00 PM",
-      "Thursday": "3:00 PM - 10:00 PM",
-      "Friday": "12:00 PM - 11:00 PM",
-      "Saturday": "12:00 PM - 11:00 PM",
-      "Sunday": "12:00 PM - 8:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "HeeMee Coffee + Bakery",
@@ -12102,16 +6846,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Specialized Asian pastries and coffee; features fluffy milk bread, matcha lattes, and Korean-inspired baked goods.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "7:00 AM - 4:00 PM",
-      "Tuesday": "7:00 AM - 4:00 PM",
-      "Wednesday": "7:00 AM - 4:00 PM",
-      "Thursday": "7:00 AM - 4:00 PM",
-      "Friday": "7:00 AM - 4:00 PM",
-      "Saturday": "7:00 AM - 4:00 PM",
-      "Sunday": "7:00 AM - 4:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "El Mezquite Grill",
@@ -12121,16 +6856,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Traditional mesquite grilling; serves smoky carne asada, fresh tortillas, and classic Sonoran combination plates.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 9:00 PM",
-      "Tuesday": "11:00 AM - 9:00 PM",
-      "Wednesday": "11:00 AM - 9:00 PM",
-      "Thursday": "11:00 AM - 9:00 PM",
-      "Friday": "11:00 AM - 10:00 PM",
-      "Saturday": "11:00 AM - 10:00 PM",
-      "Sunday": "10:00 AM - 8:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Maynards",
@@ -12140,16 +6866,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$$",
     "notes": "Historic train depot setting; regional ingredients focusing on seasonally-inspired New American fine dining.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "Closed",
-      "Tuesday": "5:00 PM - 9:00 PM",
-      "Wednesday": "5:00 PM - 9:00 PM",
-      "Thursday": "5:00 PM - 9:00 PM",
-      "Friday": "5:00 PM - 10:00 PM",
-      "Saturday": "5:00 PM - 10:00 PM",
-      "Sunday": "Closed"
-    }
+    "enriched": true
   },
   {
     "name": "Ike's Coffee & Tea",
@@ -12159,16 +6876,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Relaxed setting for robust tea and espresso, offering a quiet atmosphere and standard coffeehouse pastries.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "6:30 AM - 5:00 PM",
-      "Tuesday": "6:30 AM - 5:00 PM",
-      "Wednesday": "6:30 AM - 5:00 PM",
-      "Thursday": "6:30 AM - 5:00 PM",
-      "Friday": "6:30 AM - 5:00 PM",
-      "Saturday": "7:00 AM - 4:00 PM",
-      "Sunday": "7:00 AM - 4:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Forbes Meat Company",
@@ -12178,16 +6886,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Craft meats, steaks, and gelato; offers a stellar surf and turf combo of premium burgers and fresh oysters.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 7:00 PM",
-      "Tuesday": "11:00 AM - 7:00 PM",
-      "Wednesday": "11:00 AM - 7:00 PM",
-      "Thursday": "11:00 AM - 7:00 PM",
-      "Friday": "11:00 AM - 7:00 PM",
-      "Saturday": "11:00 AM - 7:00 PM",
-      "Sunday": "Closed"
-    }
+    "enriched": true
   },
   {
     "name": "Eleven Café",
@@ -12197,16 +6896,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Quick service urban coffee shop; provides fast espresso drinks, teas, and light morning grab-and-go items.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "7:00 AM - 3:00 PM",
-      "Tuesday": "7:00 AM - 3:00 PM",
-      "Wednesday": "7:00 AM - 3:00 PM",
-      "Thursday": "7:00 AM - 3:00 PM",
-      "Friday": "7:00 AM - 3:00 PM",
-      "Saturday": "8:00 AM - 2:00 PM",
-      "Sunday": "8:00 AM - 2:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Jaime's Pizza Kitchen",
@@ -12216,16 +6906,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Classic pizza preparations; family-rooted craft pies with high-quality cheese blends and fresh crusts.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 9:00 PM",
-      "Tuesday": "11:00 AM - 9:00 PM",
-      "Wednesday": "11:00 AM - 9:00 PM",
-      "Thursday": "11:00 AM - 9:00 PM",
-      "Friday": "11:00 AM - 10:00 PM",
-      "Saturday": "11:00 AM - 10:00 PM",
-      "Sunday": "12:00 PM - 8:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Popeyes",
@@ -12235,16 +6916,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Louisiana-style fried chicken, spicy sandwiches, and flavorful sides for a quick, satisfying bite.",
     "isLocal": false,
-    "enriched": true,
-    "hours": {
-      "Monday": "10:30 AM - 10:00 PM",
-      "Tuesday": "10:30 AM - 10:00 PM",
-      "Wednesday": "10:30 AM - 10:00 PM",
-      "Thursday": "10:30 AM - 10:00 PM",
-      "Friday": "10:30 AM - 10:00 PM",
-      "Saturday": "10:30 AM - 10:00 PM",
-      "Sunday": "10:30 AM - 10:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Jimmy John's",
@@ -12254,16 +6926,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Fast-casual chain; serves rapidly prepared cold cut sub sandwiches on freshly baked French bread.",
     "isLocal": false,
-    "enriched": true,
-    "hours": {
-      "Monday": "10:00 AM - 9:00 PM",
-      "Tuesday": "10:00 AM - 9:00 PM",
-      "Wednesday": "10:00 AM - 9:00 PM",
-      "Thursday": "10:00 AM - 9:00 PM",
-      "Friday": "10:00 AM - 9:00 PM",
-      "Saturday": "10:00 AM - 9:00 PM",
-      "Sunday": "10:00 AM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Coronado's",
@@ -12273,16 +6936,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Beloved local spot for flavorful Sonoran cuisine, generous portions, and family-friendly dining.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 9:00 PM",
-      "Tuesday": "11:00 AM - 9:00 PM",
-      "Wednesday": "11:00 AM - 9:00 PM",
-      "Thursday": "11:00 AM - 9:00 PM",
-      "Friday": "11:00 AM - 10:00 PM",
-      "Saturday": "11:00 AM - 10:00 PM",
-      "Sunday": "10:00 AM - 8:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Commoner & Co.",
@@ -12292,16 +6946,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$$",
     "notes": "Upscale comfort dining; features braised short ribs, craft cocktails, and a cozy atmosphere.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "Closed",
-      "Tuesday": "4:00 PM - 9:00 PM",
-      "Wednesday": "4:00 PM - 9:00 PM",
-      "Thursday": "4:00 PM - 9:00 PM",
-      "Friday": "4:00 PM - 10:00 PM",
-      "Saturday": "4:00 PM - 10:00 PM",
-      "Sunday": "10:00 AM - 2:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Inca's Peruvian",
@@ -12311,16 +6956,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Authentic Peruvian cuisine; serves Lomo Saltado, fresh ceviche, and Pisco Sours.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 9:00 PM",
-      "Tuesday": "11:00 AM - 9:00 PM",
-      "Wednesday": "11:00 AM - 9:00 PM",
-      "Thursday": "11:00 AM - 9:00 PM",
-      "Friday": "11:00 AM - 9:00 PM",
-      "Saturday": "11:00 AM - 9:00 PM",
-      "Sunday": "Closed"
-    }
+    "enriched": true
   },
   {
     "name": "Scented Leaf Tea",
@@ -12330,16 +6966,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Extensive tea menu and lounge; features innovative \"teas-on-tap,\" loose leaf varieties, and freshly baked brownies.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "8:00 AM - 8:00 PM",
-      "Tuesday": "8:00 AM - 8:00 PM",
-      "Wednesday": "8:00 AM - 8:00 PM",
-      "Thursday": "8:00 AM - 8:00 PM",
-      "Friday": "8:00 AM - 8:00 PM",
-      "Saturday": "9:00 AM - 8:00 PM",
-      "Sunday": "9:00 AM - 6:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Perche' No",
@@ -12349,16 +6976,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Bright Italian flavors and traditional dining; serves classic pasta plates, rich sauces, and seafood preparations.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "Closed",
-      "Tuesday": "5:00 PM - 9:00 PM",
-      "Wednesday": "5:00 PM - 9:00 PM",
-      "Thursday": "5:00 PM - 9:00 PM",
-      "Friday": "5:00 PM - 10:00 PM",
-      "Saturday": "5:00 PM - 10:00 PM",
-      "Sunday": "4:00 PM - 8:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Nook",
@@ -12368,16 +6986,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Breakfast crumpets and artistic showcase; artsy vibe serving creative morning dishes and fresh brunch cocktails.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "7:00 AM - 2:00 PM",
-      "Tuesday": "7:00 AM - 2:00 PM",
-      "Wednesday": "7:00 AM - 2:00 PM",
-      "Thursday": "7:00 AM - 2:00 PM",
-      "Friday": "7:00 AM - 2:00 PM",
-      "Saturday": "7:00 AM - 2:00 PM",
-      "Sunday": "7:00 AM - 2:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Raspaderia El Sahuaro",
@@ -12387,16 +6996,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Shaved ice and fruit snacks; traditional Mexican raspados, chamoyadas, and fresh pico de gallo fruit cups.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "12:00 PM - 8:00 PM",
-      "Tuesday": "12:00 PM - 8:00 PM",
-      "Wednesday": "12:00 PM - 8:00 PM",
-      "Thursday": "12:00 PM - 8:00 PM",
-      "Friday": "12:00 PM - 8:00 PM",
-      "Saturday": "11:00 AM - 8:00 PM",
-      "Sunday": "11:00 AM - 8:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Jojo's Café & Bakery",
@@ -12406,16 +7006,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Historic courtyard setting; live music and brunch serving elevated egg dishes, pancakes, and fresh bread.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "Closed",
-      "Tuesday": "7:00 AM - 3:00 PM",
-      "Wednesday": "7:00 AM - 3:00 PM",
-      "Thursday": "7:00 AM - 3:00 PM",
-      "Friday": "7:00 AM - 3:00 PM",
-      "Saturday": "7:00 AM - 3:00 PM",
-      "Sunday": "Closed"
-    }
+    "enriched": true
   },
   {
     "name": "Raptor Canyon Cafe",
@@ -12425,16 +7016,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Highly rated egg biscuits; downtown favorite for quick, scratch-made breakfast sandwiches and hot coffee.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "6:00 AM - 2:00 PM",
-      "Tuesday": "6:00 AM - 2:00 PM",
-      "Wednesday": "6:00 AM - 2:00 PM",
-      "Thursday": "6:00 AM - 2:00 PM",
-      "Friday": "6:00 AM - 2:00 PM",
-      "Saturday": "6:00 AM - 2:00 PM",
-      "Sunday": "7:00 AM - 2:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Roadrunner Coffee Co",
@@ -12444,16 +7026,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Local coffee provider; serves reliable drip coffee, espresso variations, and casual cafe breakfast items.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "6:00 AM - 4:00 PM",
-      "Tuesday": "6:00 AM - 4:00 PM",
-      "Wednesday": "6:00 AM - 4:00 PM",
-      "Thursday": "6:00 AM - 4:00 PM",
-      "Friday": "6:00 AM - 4:00 PM",
-      "Saturday": "7:00 AM - 4:00 PM",
-      "Sunday": "7:00 AM - 4:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "The Screamery",
@@ -12463,16 +7036,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Local ingredient-focused; handcrafted ice cream flavors like Sweet Cream Honeycomb and Orange Dreamsicle.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "12:00 PM - 9:00 PM",
-      "Tuesday": "12:00 PM - 9:00 PM",
-      "Wednesday": "12:00 PM - 9:00 PM",
-      "Thursday": "12:00 PM - 9:00 PM",
-      "Friday": "12:00 PM - 10:00 PM",
-      "Saturday": "12:00 PM - 10:00 PM",
-      "Sunday": "12:00 PM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Ursa",
@@ -12482,16 +7046,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$$",
     "notes": "Zero-waste focus; desert-inspired fine dining tasting menus utilizing highly seasonal local ingredients.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "Closed",
-      "Tuesday": "11:00 AM - 9:00 PM",
-      "Wednesday": "11:00 AM - 9:00 PM",
-      "Thursday": "11:00 AM - 9:00 PM",
-      "Friday": "11:00 AM - 9:00 PM",
-      "Saturday": "11:00 AM - 9:00 PM",
-      "Sunday": "11:00 AM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "The Pink Scoop",
@@ -12501,16 +7056,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Vibrant dessert parlor; offers massive ice cream scoops, creative sundaes, and colorful sweet treats.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "1:00 PM - 9:00 PM",
-      "Tuesday": "1:00 PM - 9:00 PM",
-      "Wednesday": "1:00 PM - 9:00 PM",
-      "Thursday": "1:00 PM - 9:00 PM",
-      "Friday": "1:00 PM - 9:00 PM",
-      "Saturday": "1:00 PM - 9:00 PM",
-      "Sunday": "1:00 PM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Renee's Tucson",
@@ -12520,16 +7066,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Locally owned; focuses on organic/GF; famous for the Spinach Dip Calzone and the Everything Pizza.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "4:00 PM - 8:00 PM",
-      "Tuesday": "4:00 PM - 8:00 PM",
-      "Wednesday": "4:00 PM - 8:00 PM",
-      "Thursday": "4:00 PM - 8:00 PM",
-      "Friday": "4:00 PM - 9:00 PM",
-      "Saturday": "4:00 PM - 9:00 PM",
-      "Sunday": "Closed"
-    }
+    "enriched": true
   },
   {
     "name": "313 Detroit Pizza",
@@ -12539,16 +7076,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Take-out only; authentic Detroit squares serving deep, cheesy pan pizzas and the Double Dog Deal.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "Closed",
-      "Tuesday": "11:00 AM - 8:00 PM",
-      "Wednesday": "11:00 AM - 8:00 PM",
-      "Thursday": "11:00 AM - 8:00 PM",
-      "Friday": "11:00 AM - 9:00 PM",
-      "Saturday": "11:00 AM - 9:00 PM",
-      "Sunday": "11:00 AM - 7:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Kaiju Burger",
@@ -12558,16 +7086,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Japanese-inspired wagyu smash burgers; crispy edges, signature umami sauces, and loaded fries.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "Closed",
-      "Tuesday": "11:00 AM - 9:00 PM",
-      "Wednesday": "11:00 AM - 9:00 PM",
-      "Thursday": "11:00 AM - 9:00 PM",
-      "Friday": "11:00 AM - 9:00 PM",
-      "Saturday": "11:00 AM - 9:00 PM",
-      "Sunday": "Closed"
-    }
+    "enriched": true
   },
   {
     "name": "Kintoki Sushi House",
@@ -12577,16 +7096,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$$",
     "notes": "High-quality creative rolls and cocktail program; fresh sashimi and elevated Japanese fusion.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:30 AM - 2:00 PM, 5:00 PM - 9:00 PM",
-      "Tuesday": "11:30 AM - 2:00 PM, 5:00 PM - 9:00 PM",
-      "Wednesday": "11:30 AM - 2:00 PM, 5:00 PM - 9:00 PM",
-      "Thursday": "11:30 AM - 2:00 PM, 5:00 PM - 9:00 PM",
-      "Friday": "11:30 AM - 2:00 PM, 5:00 PM - 9:00 PM",
-      "Saturday": "12:00 PM - 9:30 PM",
-      "Sunday": "12:00 PM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Shogun Japanese Restaurant",
@@ -12596,16 +7106,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$$",
     "notes": "Enjoy expertly crafted sushi rolls, traditional Japanese dishes, and a lively atmosphere.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:30 AM - 2:00 PM, 5:00 PM - 9:30 PM",
-      "Tuesday": "11:30 AM - 2:00 PM, 5:00 PM - 9:30 PM",
-      "Wednesday": "11:30 AM - 2:00 PM, 5:00 PM - 9:30 PM",
-      "Thursday": "11:30 AM - 2:00 PM, 5:00 PM - 9:30 PM",
-      "Friday": "11:30 AM - 2:00 PM, 5:00 PM - 10:00 PM",
-      "Saturday": "12:00 PM - 10:00 PM",
-      "Sunday": "12:00 PM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Denny's",
@@ -12615,16 +7116,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "The classic American diner, open 24/7 for Grand Slams, burgers, and comfort food.",
     "isLocal": false,
-    "enriched": true,
-    "hours": {
-      "Monday": "24 Hours",
-      "Tuesday": "24 Hours",
-      "Wednesday": "24 Hours",
-      "Thursday": "24 Hours",
-      "Friday": "24 Hours",
-      "Saturday": "24 Hours",
-      "Sunday": "24 Hours"
-    }
+    "enriched": true
   },
   {
     "name": "Jack in the Box",
@@ -12634,16 +7126,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Diverse fast-food menu, offering everything from burgers to tacos anytime.",
     "isLocal": false,
-    "enriched": true,
-    "hours": {
-      "Monday": "24 Hours",
-      "Tuesday": "24 Hours",
-      "Wednesday": "24 Hours",
-      "Thursday": "24 Hours",
-      "Friday": "24 Hours",
-      "Saturday": "24 Hours",
-      "Sunday": "24 Hours"
-    }
+    "enriched": true
   },
   {
     "name": "Churrasco de Brasil",
@@ -12653,16 +7136,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$$",
     "notes": "Authentic Brazilian steakhouse; features continuous tableside service of grilled meats, an extensive salad bar, and caipirinhas.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "5:00 PM - 9:00 PM",
-      "Tuesday": "5:00 PM - 9:00 PM",
-      "Wednesday": "5:00 PM - 9:00 PM",
-      "Thursday": "5:00 PM - 9:00 PM",
-      "Friday": "5:00 PM - 9:30 PM",
-      "Saturday": "4:30 PM - 9:30 PM",
-      "Sunday": "4:30 PM - 8:30 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Seis Kitchen",
@@ -12672,16 +7146,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Scratch kitchen with whole ingredients; serves massive regional burritos, adobo steak, and handmade tortillas.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "8:00 AM - 9:00 PM",
-      "Tuesday": "8:00 AM - 9:00 PM",
-      "Wednesday": "8:00 AM - 9:00 PM",
-      "Thursday": "8:00 AM - 9:00 PM",
-      "Friday": "8:00 AM - 9:00 PM",
-      "Saturday": "8:00 AM - 9:00 PM",
-      "Sunday": "8:00 AM - 9:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Sunshine Wine",
@@ -12691,16 +7156,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Adobe home setting; evolves constantly; features natural wines and small plates like Confit Squash Tartine.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "Closed",
-      "Tuesday": "3:00 PM - 9:00 PM",
-      "Wednesday": "3:00 PM - 9:00 PM",
-      "Thursday": "3:00 PM - 9:00 PM",
-      "Friday": "3:00 PM - 9:00 PM",
-      "Saturday": "3:00 PM - 9:00 PM",
-      "Sunday": "Closed"
-    }
+    "enriched": true
   },
   {
     "name": "Tucson Chocolate",
@@ -12710,16 +7166,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Artisanal chocolates; hand-crafted truffles, rich cacao treats, and beautifully designed confection boxes.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "10:00 AM - 6:00 PM",
-      "Tuesday": "10:00 AM - 6:00 PM",
-      "Wednesday": "10:00 AM - 6:00 PM",
-      "Thursday": "10:00 AM - 6:00 PM",
-      "Friday": "10:00 AM - 6:00 PM",
-      "Saturday": "10:00 AM - 6:00 PM",
-      "Sunday": "Closed"
-    }
+    "enriched": true
   },
   {
     "name": "Dolce Pastello",
@@ -12729,16 +7176,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Award-winning Mexican and European cakes; famous for tres leches and beautifully decorated custom cakes.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "Closed",
-      "Tuesday": "10:00 AM - 6:00 PM",
-      "Wednesday": "10:00 AM - 6:00 PM",
-      "Thursday": "10:00 AM - 6:00 PM",
-      "Friday": "10:00 AM - 6:00 PM",
-      "Saturday": "10:00 AM - 6:00 PM",
-      "Sunday": "Closed"
-    }
+    "enriched": true
   },
   {
     "name": "El Taco Rustico",
@@ -12748,16 +7186,7 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Rustic Mexican street food; serves charcoal-grilled ribs, tender quesabirria, and flavorful carne asada.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "Closed",
-      "Tuesday": "11:00 AM - 8:00 PM",
-      "Wednesday": "11:00 AM - 8:00 PM",
-      "Thursday": "11:00 AM - 8:00 PM",
-      "Friday": "11:00 AM - 8:00 PM",
-      "Saturday": "11:00 AM - 8:00 PM",
-      "Sunday": "Closed"
-    }
+    "enriched": true
   },
   {
     "name": "Beaut Burger",
@@ -12767,16 +7196,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "House-made grain/nut patties; down-to-earth vegan burgers served on specialized buns with crispy fries.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 8:00 PM",
-      "Tuesday": "11:00 AM - 8:00 PM",
-      "Wednesday": "11:00 AM - 8:00 PM",
-      "Thursday": "11:00 AM - 8:00 PM",
-      "Friday": "11:00 AM - 8:00 PM",
-      "Saturday": "11:00 AM - 8:00 PM",
-      "Sunday": "11:00 AM - 8:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "National",
@@ -12786,16 +7206,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$$",
     "notes": "High-concept new entry (2024); previously offered upscale downtown dining before closing in late 2025.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "8:00 AM - 2:00 PM",
-      "Tuesday": "8:00 AM - 2:00 PM",
-      "Wednesday": "8:00 AM - 2:00 PM",
-      "Thursday": "8:00 AM - 2:00 PM",
-      "Friday": "8:00 AM - 2:00 PM",
-      "Saturday": "8:00 AM - 2:00 PM",
-      "Sunday": "8:00 AM - 2:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Bōs Burger",
@@ -12805,16 +7216,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Wagyu beef smash burgers cooked in a shipping container; features premium beef and decadent toppings.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 8:00 PM",
-      "Tuesday": "11:00 AM - 8:00 PM",
-      "Wednesday": "11:00 AM - 8:00 PM",
-      "Thursday": "11:00 AM - 8:00 PM",
-      "Friday": "11:00 AM - 8:00 PM",
-      "Saturday": "11:00 AM - 8:00 PM",
-      "Sunday": "Closed"
-    }
+    "enriched": true
   },
   {
     "name": "Whole Slvce Pizza",
@@ -12824,16 +7226,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "18\" whole pies and NY-style slices; offers massive foldable slices and dedicated vegan pizza options.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 9:00 PM",
-      "Tuesday": "11:00 AM - 9:00 PM",
-      "Wednesday": "11:00 AM - 9:00 PM",
-      "Thursday": "11:00 AM - 9:00 PM",
-      "Friday": "11:00 AM - 10:00 PM",
-      "Saturday": "11:00 AM - 10:00 PM",
-      "Sunday": "12:00 PM - 8:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Brandylion",
@@ -12843,16 +7236,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Brandy-focused concept in historic Presidio; serves crafted cocktails and sophisticated small bites.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "Closed",
-      "Tuesday": "Closed",
-      "Wednesday": "4:00 PM - 10:00 PM",
-      "Thursday": "4:00 PM - 10:00 PM",
-      "Friday": "4:00 PM - 11:00 PM",
-      "Saturday": "12:00 PM - 11:00 PM",
-      "Sunday": "12:00 PM - 8:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "Holy Smokin Butts",
@@ -12862,16 +7246,7 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Authentic smoked meats and turkey; serves thick-cut brisket, pulled pork, and traditional BBQ sides.",
     "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "Closed",
-      "Tuesday": "Closed",
-      "Wednesday": "11:00 AM - 7:00 PM",
-      "Thursday": "11:00 AM - 7:00 PM",
-      "Friday": "11:00 AM - 7:00 PM",
-      "Saturday": "11:00 AM - 7:00 PM",
-      "Sunday": "11:00 AM - 7:00 PM"
-    }
+    "enriched": true
   },
   {
     "name": "California Pizza",

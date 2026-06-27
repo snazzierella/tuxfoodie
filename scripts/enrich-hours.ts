@@ -142,7 +142,8 @@ ${JSON.stringify(batchItems.map((item, index) => ({ id: index, name: item.r.name
                 },
                 required: ['id', 'hours']
               }
-            }
+            },
+            tools: [{ googleSearch: {} }]
           }
         });
         success = true;

@@ -406,7 +406,8 @@ Return ONLY a JSON array in the schema:
                 },
                 required: ['id', 'notes', 'price', 'cuisine', 'hours']
               }
-            }
+            },
+            tools: [{ googleSearch: {} }]
           }
         });
         success = true;
@@ -653,7 +654,8 @@ Schema:
                   },
                   required: ['id', 'closed']
                 }
-              }
+              },
+              tools: [{ googleSearch: {} }]
             }
           });
           const verificationResults = JSON.parse(verificationResponse.text || '[]');
