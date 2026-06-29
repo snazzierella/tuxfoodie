@@ -34,32 +34,16 @@ Return JSON:
       model: 'gemini-2.5-flash',
       contents: prompt,
       config: {
-        responseMimeType: 'application/json',
-        responseSchema: {
-          type: 'OBJECT',
-          properties: {
-            name: { type: 'STRING' },
-            hours: {
-              type: 'OBJECT',
-              properties: {
-                Monday: { type: 'STRING' },
-                Tuesday: { type: 'STRING' },
-                Wednesday: { type: 'STRING' },
-                Thursday: { type: 'STRING' },
-                Friday: { type: 'STRING' },
-                Saturday: { type: 'STRING' },
-                Sunday: { type: 'STRING' }
-              },
-              required: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
-            }
-          },
-          required: ['name', 'hours']
-        },
         tools: [{ googleSearch: {} }] // Google Search Grounding
       }
     });
 
     console.log("Response text:", response.text);
+    const text = response.text || '';
+    const jsonMatch = text.match(/```json\s*([\s\S]*?)\s*```/) || text.match(/```\s*([\s\S]*?)\s*```/) || [null, text];
+    const jsonText = (jsonMatch[1] || text).trim();
+    console.log("Parsed JSON Text:", jsonText);
+    console.log("Parsed JSON Object:", JSON.parse(jsonText));
   } catch (err: any) {
     console.error("Error running test:", err.message || err);
   }

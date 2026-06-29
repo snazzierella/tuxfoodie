@@ -349,7 +349,7 @@ For each restaurant:
 Input:
 ${JSON.stringify(batch.map((r, index) => ({ id: index, name: r.name, cuisineSuggestion: r.cuisine, neighborhood: r.neighborhood })))}
 
-Return ONLY a JSON array in the schema:
+Return ONLY a JSON array wrapped in a markdown json code block (e.g. \`\`\`json [ ... ] \`\`\`) matching this schema:
 [
   {
     "id": number,
@@ -380,33 +380,6 @@ Return ONLY a JSON array in the schema:
           model: 'gemini-2.5-flash',
           contents: prompt,
           config: {
-            responseMimeType: 'application/json',
-            responseSchema: {
-              type: 'ARRAY',
-              items: {
-                type: 'OBJECT',
-                properties: {
-                  id: { type: 'INTEGER' },
-                  notes: { type: 'STRING' },
-                  price: { type: 'STRING' },
-                  cuisine: { type: 'STRING' },
-                  hours: {
-                    type: 'OBJECT',
-                    properties: {
-                      Monday: { type: 'STRING' },
-                      Tuesday: { type: 'STRING' },
-                      Wednesday: { type: 'STRING' },
-                      Thursday: { type: 'STRING' },
-                      Friday: { type: 'STRING' },
-                      Saturday: { type: 'STRING' },
-                      Sunday: { type: 'STRING' }
-                    },
-                    required: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
-                  }
-                },
-                required: ['id', 'notes', 'price', 'cuisine', 'hours']
-              }
-            },
             tools: [{ googleSearch: {} }]
           }
         });
@@ -447,8 +420,10 @@ Return ONLY a JSON array in the schema:
 
     if (success && response) {
       try {
-        const responseText = response.text || '[]';
-        const enrichedBatch = JSON.parse(responseText);
+        const text = response.text || '';
+        const jsonMatch = text.match(/```json\s*([\s\S]*?)\s*```/) || text.match(/```\s*([\s\S]*?)\s*```/) || [null, text];
+        const jsonText = (jsonMatch[1] || text).trim();
+        const enrichedBatch = JSON.parse(jsonText);
         
         for (const item of enrichedBatch) {
           const original = batch[item.id];
@@ -627,38 +602,29 @@ async function main() {
         try {
           const verifyPrompt = `You are a local Tucson dining assistant. Review the following restaurants in Tucson, Arizona.
 For each restaurant, determine if it has permanently closed or if it is still open as of 2026.
-Return a JSON array of objects with the exact "id" and a "closed" boolean (true if permanently closed, false if open/active).
 
-Input:
-${JSON.stringify(verifyBatch.map((r, index) => ({ id: index, name: r.name, cuisine: r.cuisine, neighborhood: r.neighborhood, distance: r.distance })))}
-
-Schema:
+Return ONLY a JSON array wrapped in a markdown json code block (e.g. \`\`\`json [ ... ] \`\`\`) matching this schema:
 [
   {
     "id": number,
     "closed": boolean
   }
-]`;
+]
+
+Input:
+${JSON.stringify(verifyBatch.map((r, index) => ({ id: index, name: r.name, cuisine: r.cuisine, neighborhood: r.neighborhood, distance: r.distance })))}`;
+
           const verificationResponse = await ai.models.generateContent({
             model: 'gemini-2.5-flash',
             contents: verifyPrompt,
             config: {
-              responseMimeType: 'application/json',
-              responseSchema: {
-                type: 'ARRAY',
-                items: {
-                  type: 'OBJECT',
-                  properties: {
-                    id: { type: 'INTEGER' },
-                    closed: { type: 'BOOLEAN' }
-                  },
-                  required: ['id', 'closed']
-                }
-              },
               tools: [{ googleSearch: {} }]
             }
           });
-          const verificationResults = JSON.parse(verificationResponse.text || '[]');
+          const text = verificationResponse.text || '';
+          const jsonMatch = text.match(/```json\s*([\s\S]*?)\s*```/) || text.match(/```\s*([\s\S]*?)\s*```/) || [null, text];
+          const jsonText = (jsonMatch[1] || text).trim();
+          const verificationResults = JSON.parse(jsonText);
           for (const item of verificationResults) {
             const original = verifyBatch[item.id];
             if (original && item.closed) {

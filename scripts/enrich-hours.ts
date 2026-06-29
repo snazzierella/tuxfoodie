@@ -86,7 +86,7 @@ async function main() {
     const prompt = `You are a local Tucson food critic and database manager. Provide the actual weekly operating hours for these Tucson restaurants. 
 If actual hours are not known, make a highly accurate estimate based on their category (e.g. diners open early, cafes close afternoon, bars open late, fast food open late/24h).
 
-Return a JSON array in this schema:
+Return ONLY a JSON array wrapped in a markdown json code block (e.g. \`\`\`json [ ... ] \`\`\`) matching this schema:
 [
   {
     "id": number,
@@ -119,30 +119,6 @@ ${JSON.stringify(batchItems.map((item, index) => ({ id: index, name: item.r.name
           model: 'gemini-2.5-flash',
           contents: prompt,
           config: {
-            responseMimeType: 'application/json',
-            responseSchema: {
-              type: 'ARRAY',
-              items: {
-                type: 'OBJECT',
-                properties: {
-                  id: { type: 'INTEGER' },
-                  hours: {
-                    type: 'OBJECT',
-                    properties: {
-                      Monday: { type: 'STRING' },
-                      Tuesday: { type: 'STRING' },
-                      Wednesday: { type: 'STRING' },
-                      Thursday: { type: 'STRING' },
-                      Friday: { type: 'STRING' },
-                      Saturday: { type: 'STRING' },
-                      Sunday: { type: 'STRING' }
-                    },
-                    required: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
-                  }
-                },
-                required: ['id', 'hours']
-              }
-            },
             tools: [{ googleSearch: {} }]
           }
         });
@@ -184,7 +160,10 @@ ${JSON.stringify(batchItems.map((item, index) => ({ id: index, name: item.r.name
 
     if (success && response) {
       try {
-        const enrichedBatch = JSON.parse(response.text || '[]');
+        const text = response.text || '';
+        const jsonMatch = text.match(/```json\s*([\s\S]*?)\s*```/) || text.match(/```\s*([\s\S]*?)\s*```/) || [null, text];
+        const jsonText = (jsonMatch[1] || text).trim();
+        const enrichedBatch = JSON.parse(jsonText);
         for (const item of enrichedBatch) {
           const original = batchItems[item.id];
           if (original) {
@@ -197,6 +176,7 @@ ${JSON.stringify(batchItems.map((item, index) => ({ id: index, name: item.r.name
         
       } catch (jsonErr) {
         console.error("Failed to parse Gemini JSON response:", jsonErr);
+        console.error("Raw response text was:", response.text);
       }
     } else {
       console.warn(`Failed to enrich batch ${i / batchSize + 1}. Skipping...`);
