@@ -40,7 +40,7 @@ function deployChanges() {
       return;
     }
 
-    execSync('git commit -m "chore: update restaurant hours [skip ci]"', { stdio: 'inherit' });
+    execSync('git commit -m "chore: update restaurant hours"', { stdio: 'inherit' });
     execSync('git push origin main', { stdio: 'inherit' });
     console.log("Successfully committed and pushed updates to remote repository.");
   } catch (err: any) {
