@@ -3496,7 +3496,16 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Casual spot for classic Sonoran Mexican dishes, known for delicious burritos and tacos. Quick, tasty.",
     "isLocal": true,
-    "enriched": true
+    "enriched": true,
+    "hours": {
+      "Monday": "11:00 AM - 9:30 PM",
+      "Tuesday": "11:00 AM - 9:30 PM",
+      "Wednesday": "11:00 AM - 9:30 PM",
+      "Thursday": "11:00 AM - 9:30 PM",
+      "Friday": "11:00 AM - 9:30 PM",
+      "Saturday": "11:00 AM - 9:30 PM",
+      "Sunday": "11:00 AM - 8:00 PM"
+    }
   },
   {
     "name": "Smashburger",
@@ -3516,7 +3525,16 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Innovative vegan deli serving delicious plant-based sandwiches, salads, and market provisions.",
     "isLocal": true,
-    "enriched": true
+    "enriched": true,
+    "hours": {
+      "Monday": "7:00 AM - 7:00 PM",
+      "Tuesday": "7:00 AM - 7:00 PM",
+      "Wednesday": "7:00 AM - 7:00 PM",
+      "Thursday": "7:00 AM - 7:00 PM",
+      "Friday": "7:00 AM - 9:00 PM",
+      "Saturday": "9:00 AM - 9:00 PM",
+      "Sunday": "10:00 AM - 6:00 PM"
+    }
   },
   {
     "name": "Yamato",
@@ -3536,7 +3554,16 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Handcrafted Sonoran tamales bursting with traditional flavors. A true Tucson hidden gem.",
     "isLocal": true,
-    "enriched": true
+    "enriched": true,
+    "hours": {
+      "Monday": "8:00 AM - 3:00 PM",
+      "Tuesday": "8:00 AM - 3:00 PM",
+      "Wednesday": "8:00 AM - 3:00 PM",
+      "Thursday": "8:00 AM - 8:00 PM",
+      "Friday": "8:00 AM - 8:00 PM",
+      "Saturday": "8:00 AM - 8:00 PM",
+      "Sunday": "8:00 AM - 4:00 PM"
+    }
   },
   {
     "name": "Kung Fu Noodle",
@@ -3596,7 +3623,16 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Local favorite; homemade breakfast until 3 p.m. featuring Blue Wally Cakes, loaded hash, and pies.",
     "isLocal": true,
-    "enriched": true
+    "enriched": true,
+    "hours": {
+      "Monday": "6:00 AM - 2:05 PM",
+      "Tuesday": "6:00 AM - 2:05 PM",
+      "Wednesday": "6:00 AM - 2:05 PM",
+      "Thursday": "6:00 AM - 2:05 PM",
+      "Friday": "6:00 AM - 2:05 PM",
+      "Saturday": "6:00 AM - 2:05 PM",
+      "Sunday": "6:00 AM - 2:05 PM"
+    }
   },
   {
     "name": "Kogi Korean BBQ",
@@ -3606,7 +3642,16 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Authentic Korean BBQ experience with sizzling bulgogi and delicious banchan. A lively atmosphere.",
     "isLocal": true,
-    "enriched": true
+    "enriched": true,
+    "hours": {
+      "Monday": "11:00 AM - 9:00 PM",
+      "Tuesday": "11:00 AM - 9:00 PM",
+      "Wednesday": "11:00 AM - 9:00 PM",
+      "Thursday": "11:00 AM - 9:00 PM",
+      "Friday": "11:00 AM - 9:30 PM",
+      "Saturday": "11:00 AM - 9:30 PM",
+      "Sunday": "11:00 AM - 9:00 PM"
+    }
   },
   {
     "name": "Sher-i Punjab",
@@ -3626,7 +3671,16 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Bright and airy spot for expertly brewed coffee, light bites, and a welcoming community vibe.",
     "isLocal": true,
-    "enriched": true
+    "enriched": true,
+    "hours": {
+      "Monday": "Closed",
+      "Tuesday": "Closed",
+      "Wednesday": "8:00 AM - 3:00 PM",
+      "Thursday": "8:00 AM - 3:00 PM",
+      "Friday": "8:00 AM - 3:00 PM",
+      "Saturday": "8:00 AM - 3:00 PM",
+      "Sunday": "8:00 AM - 3:00 PM"
+    }
   },
   {
     "name": "Dolce Vita",
@@ -3716,7 +3770,16 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Traditional spicy Ethiopian cuisine; communal dining featuring injera bread, gomen wat, and spiced lamb strips.",
     "isLocal": true,
-    "enriched": true
+    "enriched": true,
+    "hours": {
+      "Monday": "Closed",
+      "Tuesday": "11:00 AM - 8:00 PM",
+      "Wednesday": "11:00 AM - 8:00 PM",
+      "Thursday": "11:00 AM - 8:00 PM",
+      "Friday": "11:00 AM - 8:00 PM",
+      "Saturday": "11:00 AM - 8:00 PM",
+      "Sunday": "11:00 AM - 8:00 PM"
+    }
   },
   {
     "name": "Fatman Kitchen",
@@ -3726,7 +3789,16 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Chinese indulgence featuring house-made Xian Oil Splashing Noodles, Spicy Lamb Noodle Soup, and Pan-Fried Lamb.",
     "isLocal": true,
-    "enriched": true
+    "enriched": true,
+    "hours": {
+      "Monday": "11:00 AM - 9:30 PM",
+      "Tuesday": "Closed",
+      "Wednesday": "11:00 AM - 9:30 PM",
+      "Thursday": "11:00 AM - 9:30 PM",
+      "Friday": "11:00 AM - 10:00 PM",
+      "Saturday": "12:00 PM - 10:00 PM",
+      "Sunday": "12:00 PM - 9:30 PM"
+    }
   },
   {
     "name": "Subway (Campbell)",
@@ -3766,7 +3838,16 @@ export const restaurants: Restaurant[] = [
     "price": "$$",
     "notes": "Traditional Korean staples including bubbling tofu stews, spicy pork bulgogi, and extensive pickled banchan.",
     "isLocal": true,
-    "enriched": true
+    "enriched": true,
+    "hours": {
+      "Monday": "11:00 AM - 10:00 PM",
+      "Tuesday": "11:00 AM - 10:00 PM",
+      "Wednesday": "11:00 AM - 10:00 PM",
+      "Thursday": "11:00 AM - 10:00 PM",
+      "Friday": "11:00 AM - 10:30 PM",
+      "Saturday": "11:00 AM - 10:30 PM",
+      "Sunday": "4:00 PM - 9:00 PM"
+    }
   },
   {
     "name": "McDonald's",
@@ -3776,7 +3857,16 @@ export const restaurants: Restaurant[] = [
     "price": "$",
     "notes": "Standard fast food burger franchise; serves classic Big Macs, world-famous fries, and breakfast sandwiches.",
     "isLocal": false,
-    "enriched": true
+    "enriched": true,
+    "hours": {
+      "Monday": "24 Hours",
+      "Tuesday": "24 Hours",
+      "Wednesday": "24 Hours",
+      "Thursday": "24 Hours",
+      "Friday": "24 Hours",
+      "Saturday": "24 Hours",
+      "Sunday": "24 Hours"
+    }
   },
   {
     "name": "Taco Bell (Grant)",
