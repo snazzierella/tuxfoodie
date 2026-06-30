@@ -717,7 +717,9 @@ ${JSON.stringify(verifyBatch.map((r, index) => ({ id: index, name: r.name, cuisi
 
     const fileContent = `import { Restaurant } from './types';
 
-export const restaurants: Restaurant[] = ${JSON.stringify(updatedDatabase, null, 2)};
+export const restaurants: Restaurant[] = JSON.parse(
+  ${JSON.stringify(JSON.stringify(updatedDatabase))}
+);
 `;
 
     fs.writeFileSync(tempFilePath, fileContent, 'utf-8');

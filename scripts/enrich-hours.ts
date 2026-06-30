@@ -24,7 +24,7 @@ function saveDatabase(list: Restaurant[]) {
   // Sort by distance to keep database organized
   const sorted = [...active].sort((a, b) => a.distance - b.distance);
   const dataFilePath = path.join(process.cwd(), 'src/data.ts');
-  const fileContent = 'import { Restaurant } from \'./types\';\n\nexport const restaurants: Restaurant[] = ' + JSON.stringify(sorted, null, 2) + ';\n';
+  const fileContent = 'import { Restaurant } from \'./types\';\n\nexport const restaurants: Restaurant[] = JSON.parse(\n  ' + JSON.stringify(JSON.stringify(sorted)) + '\n);\n';
   fs.writeFileSync(dataFilePath, fileContent, 'utf-8');
   console.log(`Saved progress: ${active.filter(r => r.hours).length} / ${active.length} restaurants enriched.`);
   if (list.length !== active.length) {
