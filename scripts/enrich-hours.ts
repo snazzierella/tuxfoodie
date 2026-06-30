@@ -20,12 +20,16 @@ const ai = new GoogleGenAI({ apiKey });
 const sleep = (ms: number) => new Promise(resolve => setTimeout(resolve, ms));
 
 function saveDatabase(list: Restaurant[]) {
+  const active = list.filter(r => !(r as any).closedForRemoval);
   // Sort by distance to keep database organized
-  const sorted = [...list].sort((a, b) => a.distance - b.distance);
+  const sorted = [...active].sort((a, b) => a.distance - b.distance);
   const dataFilePath = path.join(process.cwd(), 'src/data.ts');
   const fileContent = 'import { Restaurant } from \'./types\';\n\nexport const restaurants: Restaurant[] = ' + JSON.stringify(sorted, null, 2) + ';\n';
   fs.writeFileSync(dataFilePath, fileContent, 'utf-8');
-  console.log(`Saved progress: ${list.filter(r => r.hours).length} / ${list.length} restaurants enriched.`);
+  console.log(`Saved progress: ${active.filter(r => r.hours).length} / ${active.length} restaurants enriched.`);
+  if (list.length !== active.length) {
+    console.log(`Removed ${list.length - active.length} permanently closed restaurants from the database.`);
+  }
 }
 
 function deployChanges() {
@@ -84,12 +88,13 @@ async function main() {
     console.log(`Enriching batch ${i / batchSize + 1} of ${Math.ceil(pendingIndices.length / batchSize)} (size: ${batchItems.length})...`);
 
     const prompt = `You are a local Tucson food critic and database manager. Provide the actual weekly operating hours for these Tucson restaurants. 
-If actual hours are not known, make a highly accurate estimate based on their category (e.g. diners open early, cafes close afternoon, bars open late, fast food open late/24h).
+If the restaurant is permanently closed, set the "closed" boolean to true.
 
 Return ONLY a JSON array wrapped in a markdown json code block (e.g. \`\`\`json [ ... ] \`\`\`) matching this schema:
 [
   {
     "id": number,
+    "closed": boolean,
     "hours": {
       "Monday": string,
       "Tuesday": string,
@@ -102,7 +107,7 @@ Return ONLY a JSON array wrapped in a markdown json code block (e.g. \`\`\`json 
   }
 ]
 
-Format for hours must be "11:00 AM - 9:00 PM" (or other time range), "Closed", or "24 Hours". If multiple ranges apply, separate them with a comma (e.g. "11:00 AM - 3:00 PM, 5:00 PM - 10:00 PM").
+Format for hours must be "11:00 AM - 9:00 PM" (or other time range), "Closed", or "24 Hours". If multiple ranges apply, separate them with a comma (e.g. "11:00 AM - 3:00 PM, 5:00 PM - 10:00 PM"). If the restaurant is closed, you can omit the hours or provide them as estimated.
 
 Input:
 ${JSON.stringify(batchItems.map((item, index) => ({ id: index, name: item.r.name, cuisine: item.r.cuisine, neighborhood: item.r.neighborhood })))}`;
@@ -167,7 +172,12 @@ ${JSON.stringify(batchItems.map((item, index) => ({ id: index, name: item.r.name
         for (const item of enrichedBatch) {
           const original = batchItems[item.id];
           if (original) {
-            dbList[original.index].hours = item.hours;
+            if (item.closed) {
+              console.log(`Gemini verified permanently closed: ${dbList[original.index].name}. Marking for removal.`);
+              (dbList[original.index] as any).closedForRemoval = true;
+            } else {
+              dbList[original.index].hours = item.hours;
+            }
           }
         }
         
