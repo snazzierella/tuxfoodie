@@ -4,6 +4,7 @@ import dotenv from 'dotenv';
 import { execSync } from 'child_process';
 import { GoogleGenAI } from '@google/genai';
 import { Restaurant } from '../src/types';
+import { restaurants } from '../src/data';
 
 // Load environment variables
 dotenv.config({ path: '.env.local' });
@@ -53,19 +54,8 @@ function deployChanges() {
 }
 
 async function main() {
-  // Dynamically load restaurants to get latest state
-  const dataPath = path.resolve(process.cwd(), 'src/data.ts');
-  
-  // Since data.ts is written, we can read and parse it directly
-  const dataContent = fs.readFileSync(dataPath, 'utf-8');
-  // Extract JSON payload
-  const jsonStart = dataContent.indexOf('export const restaurants: Restaurant[] = ');
-  if (jsonStart === -1) {
-    console.error("Error: Could not parse src/data.ts content.");
-    process.exit(1);
-  }
-  const jsonText = dataContent.slice(jsonStart + 'export const restaurants: Restaurant[] = '.length).trim().replace(/;$/, '');
-  const dbList = JSON.parse(jsonText) as Restaurant[];
+  // Since data.ts is exported, we can use the statically imported list directly
+  const dbList = [...restaurants] as Restaurant[];
 
   // Find restaurants without hours
   const pendingIndices = dbList
