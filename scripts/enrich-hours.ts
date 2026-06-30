@@ -21,16 +21,12 @@ const ai = new GoogleGenAI({ apiKey });
 const sleep = (ms: number) => new Promise(resolve => setTimeout(resolve, ms));
 
 function saveDatabase(list: Restaurant[]) {
-  const active = list.filter(r => !(r as any).closedForRemoval);
   // Sort by distance to keep database organized
-  const sorted = [...active].sort((a, b) => a.distance - b.distance);
+  const sorted = [...list].sort((a, b) => a.distance - b.distance);
   const dataFilePath = path.join(process.cwd(), 'src/data.ts');
   const fileContent = 'import { Restaurant } from \'./types\';\n\nexport const restaurants: Restaurant[] = JSON.parse(\n  ' + JSON.stringify(JSON.stringify(sorted)) + '\n);\n';
   fs.writeFileSync(dataFilePath, fileContent, 'utf-8');
-  console.log(`Saved progress: ${active.filter(r => r.hours).length} / ${active.length} restaurants enriched.`);
-  if (list.length !== active.length) {
-    console.log(`Removed ${list.length - active.length} permanently closed restaurants from the database.`);
-  }
+  console.log(`Saved progress: ${list.filter(r => r.hours).length} / ${list.length} restaurants enriched.`);
 }
 
 function deployChanges() {
@@ -56,6 +52,13 @@ function deployChanges() {
 async function main() {
   // Since data.ts is exported, we can use the statically imported list directly
   const dbList = [...restaurants] as Restaurant[];
+  const proposedClosuresPath = path.join(process.cwd(), 'proposed_closures.json');
+  let proposedClosures: any[] = [];
+  if (fs.existsSync(proposedClosuresPath)) {
+    try {
+      proposedClosures = JSON.parse(fs.readFileSync(proposedClosuresPath, 'utf-8'));
+    } catch (_) {}
+  }
 
   // Find restaurants without hours
   const pendingIndices = dbList
@@ -163,8 +166,23 @@ ${JSON.stringify(batchItems.map((item, index) => ({ id: index, name: item.r.name
           const original = batchItems[item.id];
           if (original) {
             if (item.closed) {
-              console.log(`Gemini verified permanently closed: ${dbList[original.index].name}. Marking for removal.`);
-              (dbList[original.index] as any).closedForRemoval = true;
+              console.log(`Gemini proposed permanently closed: ${dbList[original.index].name}.`);
+              (dbList[original.index] as any).closedProposed = true;
+              dbList[original.index].hours = {
+                Monday: "Permanently Closed?",
+                Tuesday: "Permanently Closed?",
+                Wednesday: "Permanently Closed?",
+                Thursday: "Permanently Closed?",
+                Friday: "Permanently Closed?",
+                Saturday: "Permanently Closed?",
+                Sunday: "Permanently Closed?"
+              };
+              proposedClosures.push({
+                name: dbList[original.index].name,
+                neighborhood: dbList[original.index].neighborhood,
+                cuisine: dbList[original.index].cuisine,
+                distance: dbList[original.index].distance
+              });
             } else {
               dbList[original.index].hours = item.hours;
             }
@@ -186,7 +204,12 @@ ${JSON.stringify(batchItems.map((item, index) => ({ id: index, name: item.r.name
     await sleep(3000);
   }
 
-  // After processing all batches or exiting due to quota, deploy changes
+  if (proposedClosures.length > 0) {
+    fs.writeFileSync(proposedClosuresPath, JSON.stringify(proposedClosures, null, 2), 'utf-8');
+    console.log(`PROPOSED_CLOSURES_FOUND: ${proposedClosures.length}`);
+  }
+
+  // Final push of changes
   deployChanges();
 
   if (exitDueToQuota) {
