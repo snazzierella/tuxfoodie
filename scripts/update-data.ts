@@ -51,7 +51,31 @@ const CLOSED_RESTAURANTS = new Set([
   "pasco kitchen and lounge",
   "welcome diner",
   "sausage deli",
-  "pastiche modern eatery"
+  "pastiche modern eatery",
+  "the bashful bandit barbeque",
+  "la salsa",
+  "la salsa fresh mexican grill",
+  "takamatsu",
+  "ali baba",
+  "goodness",
+  "el berraco",
+  "cafe maggie",
+  "the little one",
+  "el chinito gordo",
+  "portal cocktails",
+  "blue front",
+  "national",
+  "ten55 brewing",
+  "oasis fruit cones",
+  "toro loco",
+  "dolce vita",
+  "island plate lunch",
+  "barrio charro",
+  "pizza luna",
+  "4 seasons",
+  "1702",
+  "donut wheel",
+  "wings over broadway"
 ]);
 
 function getDefaultHours(cuisine: string): { [day: string]: string } {
