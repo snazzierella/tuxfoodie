@@ -33,7 +33,6 @@ Arby's (Speedway) | Neighborhood: Central & Midtown | Cuisine: Fast Food & Sandw
 Argenziano's | Neighborhood: Eastside & Vail | Cuisine: Italian & Pizza | Dist: 20.9 mi
 Arizona Beer House | Neighborhood: Eastside & Vail | Cuisine: Bar, Pub & Brewery | Dist: 4.9 mi
 Arizona Family Restaurant | Neighborhood: Southside & Heritage | Cuisine: American & Comfort | Dist: 18 mi
-Arizona Pizza Co | Neighborhood: Eastside & Vail | Cuisine: Italian & Pizza | Dist: 16 mi
 Arizona Pizza Company | Neighborhood: Northside & Foothills | Cuisine: Italian & Pizza | Dist: 7.2 mi
 Arizona Wine Collective | Neighborhood: Northside & Foothills | Cuisine: Bar, Pub & Brewery | Dist: 3.7 mi
 Asian Spice | Neighborhood: Northwest & Marana | Cuisine: Asian & Sushi | Dist: 13 mi
@@ -60,7 +59,6 @@ Barista Del Barrio | Neighborhood: Westside & Downtown | Cuisine: Coffee & Cafe 
 Barnfire Mesquite | Neighborhood: Northwest & Marana | Cuisine: Steakhouse & BBQ | Dist: 7.2 mi
 Barrio Bread | Neighborhood: Central & Midtown | Cuisine: Dessert & Bakery | Dist: 1.2 mi
 Barrio Brewing Co. | Neighborhood: Central & Midtown | Cuisine: Bar, Pub & Brewery | Dist: 2.5 mi
-Barrio Brewing Company | Neighborhood: Urban Core | Cuisine: Bar, Pub & Brewery | Dist: 5.5 mi
 Barro's Pizza | Neighborhood: Northwest & Marana | Cuisine: Italian & Pizza | Dist: 12.8 mi
 Bashful Bandit BBQ | Neighborhood: Central & Midtown | Cuisine: Steakhouse & BBQ | Dist: 1.1 mi
 Basqueria | Neighborhood: Urban Core | Cuisine: Mediterranean & Global | Dist: 5 mi
@@ -73,7 +71,6 @@ BBQ Rush | Neighborhood: Southside & Heritage | Cuisine: Steakhouse & BBQ | Dist
 Bear Canyon Pizza | Neighborhood: Eastside & Vail | Cuisine: Italian & Pizza | Dist: 8.5 mi
 Beaut Burger | Neighborhood: Urban Core | Cuisine: Healthy, Vegan & Plant-Based | Dist: 3.7 mi
 Benny's Mexican Food | Neighborhood: Central & Midtown | Cuisine: Mexican & Sonoran | Dist: 1.2 mi
-Berry Greens Acai | Neighborhood: Urban Core | Cuisine: Healthy, Vegan & Plant-Based | Dist: 5 mi
 Berry Greens Juice Bar | Neighborhood: Urban Core | Cuisine: Healthy, Vegan & Plant-Based | Dist: 2.7 mi
 Beyond Bread | Neighborhood: Central & Midtown | Cuisine: Dessert & Bakery | Dist: 2.2 mi
 Bianchi's Italian | Neighborhood: Northwest & Marana | Cuisine: Italian & Pizza | Dist: 14.9 mi
@@ -113,7 +110,6 @@ Brandylion | Neighborhood: Urban Core | Cuisine: Bar, Pub & Brewery | Dist: 5.5 
 Brawley's Restaurant | Neighborhood: Central & Midtown | Cuisine: Breakfast & Diner | Dist: 3 mi
 Breadsmith | Neighborhood: Northside & Foothills | Cuisine: Dessert & Bakery | Dist: 9.5 mi
 Brick Box Brewery | Neighborhood: Urban Core | Cuisine: Bar, Pub & Brewery | Dist: 2.7 mi
-Brooklyn Pizza Co | Neighborhood: Urban Core | Cuisine: Italian & Pizza | Dist: 4.9 mi
 Brooklyn Pizza Company | Neighborhood: Central & Midtown | Cuisine: Italian & Pizza | Dist: 2.5 mi
 Brooklyn's Beer & Burgers | Neighborhood: Southside & Heritage | Cuisine: Bar, Pub & Brewery | Dist: 5 mi
 Brother's Noodles | Neighborhood: Central & Midtown | Cuisine: Asian & Sushi | Dist: 3 mi
@@ -198,13 +194,11 @@ China Pasta | Neighborhood: Central & University | Cuisine: Asian & Sushi | Dist
 China Sunrise | Neighborhood: Northside & Foothills | Cuisine: Asian & Sushi | Dist: 6 mi
 China Szechwan | Neighborhood: Central & Midtown | Cuisine: Asian & Sushi | Dist: 1.3 mi
 China Valley Restraunt | Neighborhood: Northside & Foothills | Cuisine: Asian & Sushi | Dist: 11 mi
-Chinese Combo | Neighborhood: Eastside & Vail | Cuisine: Asian & Sushi | Dist: 10.8 mi
 Chinese Combo Thai | Neighborhood: Northwest & Marana | Cuisine: Asian & Sushi | Dist: 8 mi
 Chipotle | Neighborhood: Central & Midtown | Cuisine: Mexican & Sonoran | Dist: 1.1 mi
 Chique Nuevo | Neighborhood: Southside & Heritage | Cuisine: Fast Food & Sandwiches | Dist: 7 mi
 Chuck E. Cheese | Neighborhood: Central & Midtown | Cuisine: Italian & Pizza | Dist: 3.6 mi
 Church's Chicken | Neighborhood: Central & Midtown | Cuisine: Fast Food & Sandwiches | Dist: 2.1 mi
-Churrasco de Brasil | Neighborhood: Eastside & Vail | Cuisine: Steakhouse & BBQ | Dist: 5.5 mi
 Churrasco de Brazil | Neighborhood: Northside & Foothills | Cuisine: Steakhouse & BBQ | Dist: 4.7 mi
 Chuy's Mesquite Broiler | Neighborhood: Eastside & Vail | Cuisine: Mexican & Sonoran | Dist: 12.2 mi
 Ciao Down Pizza | Neighborhood: Central & Midtown | Cuisine: Italian & Pizza | Dist: 2.2 mi
@@ -238,7 +232,6 @@ Cracker Barrel | Neighborhood: Northwest & Marana | Cuisine: American & Comfort 
 Crave Coffee Bar | Neighborhood: Central & Midtown | Cuisine: Coffee & Cafe | Dist: 1.9 mi
 Crema Coffee | Neighborhood: Northwest & Marana | Cuisine: Coffee & Cafe | Dist: 9.9 mi
 Crispy's Fries And Chips | Neighborhood: Central & Midtown | Cuisine: American & Comfort | Dist: 3 mi
-Crooked Tooth | Neighborhood: Urban Core | Cuisine: Bar, Pub & Brewery | Dist: 4.5 mi
 Crooked Tooth Brewing Co. | Neighborhood: Urban Core | Cuisine: Bar, Pub & Brewery | Dist: 2.6 mi
 Crossroads | Neighborhood: Southside & Heritage | Cuisine: Mexican & Sonoran | Dist: 6.5 mi
 CRUDA Mariscos | Neighborhood: Urban Core | Cuisine: Seafood | Dist: 5.2 mi
@@ -255,13 +248,11 @@ Dandelion Cafe | Neighborhood: Urban Core | Cuisine: Coffee & Cafe | Dist: 3 mi
 Dante's Fire | Neighborhood: Central & Midtown | Cuisine: American & Comfort | Dist: 2.5 mi
 Dany Hot Dogs | Neighborhood: Central & Midtown | Cuisine: Fast Food & Sandwiches | Dist: 1.8 mi
 Dao's Tai Pan | Neighborhood: Central & Midtown | Cuisine: Asian & Sushi | Dist: 3 mi
-Dao's Tai Pans Restaurant | Neighborhood: Eastside & Vail | Cuisine: Asian & Sushi | Dist: 3.9 mi
 Dave & Buster's | Neighborhood: Southside & Heritage | Cuisine: American & Comfort | Dist: 3.9 mi
 Dave's Hot Chicken | Neighborhood: Central & Midtown | Cuisine: Fast Food & Sandwiches | Dist: 0.8 mi
 De Marcos Pizzeria | Neighborhood: Eastside & Vail | Cuisine: Italian & Pizza | Dist: 27.6 mi
 De Novo Market | Neighborhood: Urban Core | Cuisine: Bar, Pub & Brewery | Dist: 5.2 mi
 Dean's Public House | Neighborhood: Urban Core | Cuisine: Bar, Pub & Brewery | Dist: 5 mi
-Decibel Coffee | Neighborhood: Urban Core | Cuisine: Coffee & Cafe | Dist: 5.5 mi
 Decibel Coffee Works | Neighborhood: Urban Core | Cuisine: Coffee & Cafe | Dist: 3.7 mi
 Dedicated Bakery | Neighborhood: Central & Midtown | Cuisine: Healthy, Vegan & Plant-Based | Dist: 1.2 mi
 Del Cielo Tamal | Neighborhood: Central & Midtown | Cuisine: Mexican & Sonoran | Dist: 2.3 mi
@@ -269,7 +260,6 @@ Del Lago Golf Club | Neighborhood: Eastside & Vail | Cuisine: American & Comfort
 Del Taco | Neighborhood: Central & Midtown | Cuisine: Fast Food & Sandwiches | Dist: 2.2 mi
 Deliciocho | Neighborhood: Southside & Heritage | Cuisine: Dessert & Bakery | Dist: 6 mi
 Denny's | Neighborhood: Central & Midtown | Cuisine: Breakfast & Diner | Dist: 3.5 mi
-Desert Drifter | Neighborhood: Northwest & Marana | Cuisine: Coffee & Cafe | Dist: 11.8 mi
 Desert Drifter Coffee | Neighborhood: Central & Midtown | Cuisine: Coffee & Cafe | Dist: 3.8 mi
 Desert Farmer | Neighborhood: Northside & Foothills | Cuisine: Healthy, Vegan & Plant-Based | Dist: 7.8 mi
 DiBella's Brunch | Neighborhood: Northside & Foothills | Cuisine: Breakfast & Diner | Dist: 9.5 mi
@@ -327,13 +317,11 @@ Eleven Cafe | Neighborhood: Urban Core | Cuisine: Coffee & Cafe | Dist: 2.9 mi
 Eleven Café | Neighborhood: Urban Core | Cuisine: Coffee & Cafe | Dist: 5.3 mi
 Elliott's | Neighborhood: Urban Core | Cuisine: American & Comfort | Dist: 2.8 mi
 Empire Pizza | Neighborhood: Urban Core | Cuisine: Italian & Pizza | Dist: 2.8 mi
-Empire Pizza & Pub | Neighborhood: Urban Core | Cuisine: Italian & Pizza | Dist: 5.6 mi
 Epazote Kitchen | Neighborhood: Northside & Foothills | Cuisine: Mexican & Sonoran | Dist: 9.5 mi
 Espresso Art | Neighborhood: Central & University | Cuisine: Coffee & Cafe | Dist: 2 mi
 Espressoul Café | Neighborhood: Eastside & Vail | Cuisine: Coffee & Cafe | Dist: 4 mi
 Exo Roast Co. | Neighborhood: Urban Core | Cuisine: Coffee & Cafe | Dist: 2.7 mi
 Falora | Neighborhood: Central & Midtown | Cuisine: Italian & Pizza | Dist: 2 mi
-Famous Sam's | Neighborhood: Northwest & Marana | Cuisine: Fast Food & Sandwiches | Dist: 7 mi
 Famous Sam's Sports Grill | Neighborhood: Southside & Heritage | Cuisine: Bar, Pub & Brewery | Dist: 5 mi
 Famous Wok | Neighborhood: Northwest & Marana | Cuisine: Asian & Sushi | Dist: 14.2 mi
 Fatman Kitchen | Neighborhood: Central & Midtown | Cuisine: Asian & Sushi | Dist: 2.5 mi
@@ -365,7 +353,6 @@ Forbes Meat Company | Neighborhood: Urban Core | Cuisine: Fast Food & Sandwiches
 Fork & Fire | Neighborhood: Northside & Foothills | Cuisine: Steakhouse & BBQ | Dist: 10.5 mi
 Fortune Cookie | Neighborhood: Northwest & Marana | Cuisine: Asian & Sushi | Dist: 15.7 mi
 Frank's Restaurant | Neighborhood: Central & Midtown | Cuisine: Breakfast & Diner | Dist: 0.6 mi
-Frankie's Cheese | Neighborhood: Northwest & Marana | Cuisine: Italian & Pizza | Dist: 7.5 mi
 Frankie's CheeseSteaks | Neighborhood: Central & Midtown | Cuisine: Fast Food & Sandwiches | Dist: 1.8 mi
 Freddie's Steakburger | Neighborhood: Northwest & Marana | Cuisine: Fast Food & Sandwiches | Dist: 9.3 mi
 Freddy's | Neighborhood: Eastside & Vail | Cuisine: Fast Food & Sandwiches | Dist: 5 mi
@@ -377,7 +364,6 @@ Frost Gelato | Neighborhood: Northside & Foothills | Cuisine: Dessert & Bakery |
 Frozen Delight | Neighborhood: Eastside & Vail | Cuisine: Dessert & Bakery | Dist: 3.8 mi
 Frozen Yogurt by PAB | Neighborhood: Southside & Heritage | Cuisine: Dessert & Bakery | Dist: 19.2 mi
 Fruit Shack Smoothies | Neighborhood: Central & Midtown | Cuisine: Coffee & Cafe | Dist: 2.9 mi
-Fruit Shack Smoothies & Yogurt | Neighborhood: Northside & Foothills | Cuisine: Boba Tea & Beverages | Dist: 11.7 mi
 Fuku Sushi | Neighborhood: Central & University | Cuisine: Asian & Sushi | Dist: 2 mi
 Garden Bistro | Neighborhood: Northwest & Marana | Cuisine: American & Comfort | Dist: 8 mi
 Gear Shifters | Neighborhood: Central & Midtown | Cuisine: Coffee & Cafe | Dist: 1.4 mi
@@ -385,10 +371,8 @@ Gee's Garden | Neighborhood: Central & Midtown | Cuisine: Asian & Sushi | Dist: 
 Gelato Shop | Neighborhood: Southside & Heritage | Cuisine: Dessert & Bakery | Dist: 26.4 mi
 Gemstone Cafe | Neighborhood: Central & Midtown | Cuisine: Coffee & Cafe | Dist: 2.9 mi
 Gen Korean BBQ | Neighborhood: Central & Midtown | Cuisine: Asian & Sushi | Dist: 3.4 mi
-Gentle Ben's Brewing | Neighborhood: Urban Core | Cuisine: Bar, Pub & Brewery | Dist: 4 mi
 Gentle Ben's Brewing Company | Neighborhood: Central & University | Cuisine: Bar, Pub & Brewery | Dist: 2 mi
 German Food Station | Neighborhood: Northwest & Marana | Cuisine: Mediterranean & Global | Dist: 7.5 mi
-Geronimo Restaurant | Neighborhood: Urban Core | Cuisine: Mediterranean & Global | Dist: 4 mi
 Geronimo's | Neighborhood: Central & University | Cuisine: American & Comfort | Dist: 2.1 mi
 Ghini's French Caffe | Neighborhood: Northside & Foothills | Cuisine: Mediterranean & Global | Dist: 3 mi
 Giacomo's | Neighborhood: Northside & Foothills | Cuisine: Italian & Pizza | Dist: 6 mi
@@ -396,13 +380,10 @@ Gibson Food Hall & Market | Neighborhood: Urban Core | Cuisine: American & Comfo
 Ginza | Neighborhood: Northside & Foothills | Cuisine: Asian & Sushi | Dist: 6 mi
 Girls Kitchen Mexican Food | Neighborhood: Central & Midtown | Cuisine: Mexican & Sonoran | Dist: 2.7 mi
 GMG Chinese | Neighborhood: Northside & Foothills | Cuisine: Asian & Sushi | Dist: 10.2 mi
-GMG Chinese Bistro | Neighborhood: Northwest & Marana | Cuisine: Asian & Sushi | Dist: 11.8 mi
 Go Dim Sum | Neighborhood: Central & Midtown | Cuisine: Asian & Sushi | Dist: 1.2 mi
-Golden Coral | Neighborhood: Northwest & Marana | Cuisine: American & Comfort | Dist: 9.8 mi
 Golden Corral | Neighborhood: Central & Midtown | Cuisine: American & Comfort | Dist: 2.4 mi
 Golden Dragon Restaurant | Neighborhood: Northside & Foothills | Cuisine: Asian & Sushi | Dist: 6.9 mi
 Gourmet Girls | Neighborhood: Northside & Foothills | Cuisine: Healthy, Vegan & Plant-Based | Dist: 9 mi
-Govinda's Indian Eatery | Neighborhood: Central & Midtown | Cuisine: Mediterranean & Global | Dist: 2.8 mi
 Govinda's Natural Foods Buffet | Neighborhood: Central & Midtown | Cuisine: Healthy, Vegan & Plant-Based | Dist: 2.2 mi
 Goyita's | Neighborhood: Northwest & Marana | Cuisine: Mexican & Sonoran | Dist: 11.9 mi
 Goyita's Mexican | Neighborhood: Northside & Foothills | Cuisine: Mexican & Sonoran | Dist: 9.8 mi
@@ -427,8 +408,6 @@ Happy Lemon | Neighborhood: Central & Midtown | Cuisine: Boba Tea & Beverages | 
 Happy Wok | Neighborhood: Eastside & Vail | Cuisine: Asian & Sushi | Dist: 13.5 mi
 Harvest | Neighborhood: Northwest & Marana | Cuisine: American & Comfort | Dist: 11.8 mi
 Hatch | Neighborhood: Urban Core | Cuisine: Coffee & Cafe | Dist: 2.8 mi
-HeeMee Coffee + Bakery | Neighborhood: Urban Core | Cuisine: Coffee & Cafe | Dist: 5.3 mi
-HeeMee Coffee + Bakery on Congress | Neighborhood: Urban Core | Cuisine: Coffee & Cafe | Dist: 2.9 mi
 HeeMee Coffee + Bakery on University | Neighborhood: Central & University | Cuisine: Coffee & Cafe | Dist: 2.1 mi
 Hello Cafe | Neighborhood: Central & Midtown | Cuisine: Coffee & Cafe | Dist: 2.4 mi
 Hi-Fi | Neighborhood: Urban Core | Cuisine: Bar, Pub & Brewery | Dist: 2.6 mi
@@ -448,7 +427,6 @@ Hotel Congress (Cup Cafe) | Neighborhood: Westside & Downtown | Cuisine: America
 Hotrods Old Vail | Neighborhood: Eastside & Vail | Cuisine: American & Comfort | Dist: 13.9 mi
 Houlden's Rise Above | Neighborhood: Central & Midtown | Cuisine: Dessert & Bakery | Dist: 3 mi
 Hungry Fox Restaurant & Country Store | Neighborhood: Central & Midtown | Cuisine: American & Comfort | Dist: 2 mi
-Hungry Howie's | Neighborhood: Northwest & Marana | Cuisine: Italian & Pizza | Dist: 15.3 mi
 Hungry Howie's Pizza | Neighborhood: Central & Midtown | Cuisine: Italian & Pizza | Dist: 1.5 mi
 IBT'S | Neighborhood: Central & Midtown | Cuisine: Bar, Pub & Brewery | Dist: 2.5 mi
 IBT's Bar & Food | Neighborhood: Urban Core | Cuisine: Bar, Pub & Brewery | Dist: 4.7 mi
@@ -479,8 +457,6 @@ Jason's Deli | Neighborhood: Central & Midtown | Cuisine: Fast Food & Sandwiches
 Javelina | Neighborhood: Central & Midtown | Cuisine: American & Comfort | Dist: 2.5 mi
 Jeremiah's Ice | Neighborhood: Eastside & Vail | Cuisine: Dessert & Bakery | Dist: 13 mi
 Jerry Bob's | Neighborhood: Northside & Foothills | Cuisine: Breakfast & Diner | Dist: 3 mi
-Jerry Bob's Restaurant | Neighborhood: Eastside & Vail | Cuisine: Breakfast & Diner | Dist: 5.6 mi
-Jerry Bobs Family Restaurant | Neighborhood: Northwest & Marana | Cuisine: American & Comfort | Dist: 7.2 mi
 Jersey Mike's Subs | Neighborhood: Central & Midtown | Cuisine: Fast Food & Sandwiches | Dist: 0.2 mi
 Jethro's Cafe & Tavern | Neighborhood: Eastside & Vail | Cuisine: Coffee & Cafe | Dist: 7 mi
 Jewel's Noodle Kitchen | Neighborhood: Central & Midtown | Cuisine: Asian & Sushi | Dist: 2.5 mi
@@ -496,7 +472,6 @@ Just Breakfast | Neighborhood: Northwest & Marana | Cuisine: Breakfast & Diner |
 Just Kabab | Neighborhood: Northwest & Marana | Cuisine: Mediterranean & Global | Dist: 11.9 mi
 K Japanese Restaurant | Neighborhood: Central & Midtown | Cuisine: Asian & Sushi | Dist: 2.1 mi
 Kababeque | Neighborhood: Central & University | Cuisine: Mediterranean & Global | Dist: 2 mi
-Kababeque Indian | Neighborhood: Urban Core | Cuisine: Asian & Sushi | Dist: 4 mi
 Kachina Lounge | Neighborhood: Northside & Foothills | Cuisine: Bar, Pub & Brewery | Dist: 16 mi
 Kahu Hawaiian BBQ | Neighborhood: Southside & Heritage | Cuisine: American & Comfort | Dist: 3.9 mi
 Kaiju Burger | Neighborhood: Urban Core | Cuisine: Fast Food & Sandwiches | Dist: 5.4 mi
@@ -511,7 +486,6 @@ Kettle Restaurant | Neighborhood: Central & Midtown | Cuisine: American & Comfor
 KFC (Broadway) | Neighborhood: Eastside & Vail | Cuisine: Fast Food & Sandwiches | Dist: 4 mi
 Kimchi Time | Neighborhood: Central & Midtown | Cuisine: Asian & Sushi | Dist: 2.5 mi
 Kingfisher Bar & Grill | Neighborhood: Central & Midtown | Cuisine: Seafood | Dist: 2.6 mi
-Kintoki Sushi House | Neighborhood: Urban Core | Cuisine: Asian & Sushi | Dist: 5.4 mi
 Kintoki Sushi House & Bar | Neighborhood: Central & Midtown | Cuisine: Asian & Sushi | Dist: 2.8 mi
 Kitchen 86 | Neighborhood: Southside & Heritage | Cuisine: American & Comfort | Dist: 6 mi
 Kiwami Ramen | Neighborhood: Central & Midtown | Cuisine: Asian & Sushi | Dist: 0.7 mi
@@ -563,7 +537,6 @@ Locale Italian | Neighborhood: Central & Midtown | Cuisine: Italian & Pizza | Di
 LongHorn Steakhouse | Neighborhood: Central & Midtown | Cuisine: Steakhouse & BBQ | Dist: 3.3 mi
 Lookout Bar | Neighborhood: Northside & Foothills | Cuisine: Bar, Pub & Brewery | Dist: 10 mi
 Los Beto's Mexican Food | Neighborhood: Eastside & Vail | Cuisine: Mexican & Sonoran | Dist: 5.7 mi
-Los Betos | Neighborhood: Southside & Heritage | Cuisine: Mexican & Sonoran | Dist: 6.9 mi
 Los Jarritos | Neighborhood: Southside & Heritage | Cuisine: Mexican & Sonoran | Dist: 7.4 mi
 Los Milics Tasting Room | Neighborhood: Urban Core | Cuisine: Bar, Pub & Brewery | Dist: 5.5 mi
 Los Nopales | Neighborhood: Eastside & Vail | Cuisine: Mexican & Sonoran | Dist: 8.4 mi
@@ -571,7 +544,6 @@ Los Olivos | Neighborhood: Westside & Downtown | Cuisine: Italian & Pizza | Dist
 Los Perches | Neighborhood: Urban Core | Cuisine: Mexican & Sonoran | Dist: 4.5 mi
 Lotus Garden | Neighborhood: Central & Midtown | Cuisine: Asian & Sushi | Dist: 3.4 mi
 Lovin' Spoonfuls | Neighborhood: Central & Midtown | Cuisine: Healthy, Vegan & Plant-Based | Dist: 2.2 mi
-Luckie's Thai | Neighborhood: Eastside & Vail | Cuisine: Asian & Sushi | Dist: 15 mi
 Luckie's Thai Asian Cousine | Neighborhood: Eastside & Vail | Cuisine: Asian & Sushi | Dist: 12.5 mi
 Lucky Panda | Neighborhood: Northside & Foothills | Cuisine: Asian & Sushi | Dist: 3.8 mi
 Lucky Wishbone | Neighborhood: Central & Midtown | Cuisine: Fast Food & Sandwiches | Dist: 2.1 mi
@@ -586,7 +558,6 @@ Main Dining Room | Neighborhood: Central & Midtown | Cuisine: American & Comfort
 Main Event | Neighborhood: Westside & Downtown | Cuisine: American & Comfort | Dist: 6 mi
 Mali Thai | Neighborhood: Northside & Foothills | Cuisine: Asian & Sushi | Dist: 10.2 mi
 Mama Louisa's | Neighborhood: Eastside & Vail | Cuisine: Italian & Pizza | Dist: 6.8 mi
-Mama’s Famous Pizza | Neighborhood: Eastside & Vail | Cuisine: Italian & Pizza | Dist: 7 mi
 Mama's Famous Pizza & Heros | Neighborhood: Central & Midtown | Cuisine: Italian & Pizza | Dist: 1.6 mi
 Mama's Hawiian BBQ | Neighborhood: Northwest & Marana | Cuisine: Steakhouse & BBQ | Dist: 11.1 mi
 Mama's Kitchen | Neighborhood: Southside & Heritage | Cuisine: Mexican & Sonoran | Dist: 18 mi
@@ -601,7 +572,6 @@ Mariscos Mi Mazatlán | Neighborhood: Central & Midtown | Cuisine: Seafood | Dis
 Mariscos San Juan | Neighborhood: Southside & Heritage | Cuisine: Seafood | Dist: 6 mi
 Marti's Bistro | Neighborhood: Southside & Heritage | Cuisine: American & Comfort | Dist: 18 mi
 Martin's Comida Chingona | Neighborhood: Central & Midtown | Cuisine: Mexican & Sonoran | Dist: 2.5 mi
-Martins Comida | Neighborhood: Urban Core | Cuisine: Mexican & Sonoran | Dist: 4.6 mi
 Maru Plus Japanese Noodle, Onigiri & More | Neighborhood: Central & Midtown | Cuisine: Asian & Sushi | Dist: 2 mi
 Maynard's Kitchen | Neighborhood: Urban Core | Cuisine: American & Comfort | Dist: 2.6 mi
 Maynard's Market | Neighborhood: Urban Core | Cuisine: American & Comfort | Dist: 2.6 mi
@@ -626,7 +596,6 @@ Monsoon Chocolate | Neighborhood: Central & Midtown | Cuisine: Dessert & Bakery 
 Monsoon Room | Neighborhood: Urban Core | Cuisine: Bar, Pub & Brewery | Dist: 3 mi
 Monster Sonoran | Neighborhood: Southside & Heritage | Cuisine: Mexican & Sonoran | Dist: 6 mi
 Monterey Court | Neighborhood: Central & Midtown | Cuisine: American & Comfort | Dist: 3.8 mi
-Montgomery Bar and Grill | Neighborhood: Eastside & Vail | Cuisine: American & Comfort | Dist: 18 mi
 Montgomery's | Neighborhood: Eastside & Vail | Cuisine: Bar, Pub & Brewery | Dist: 16 mi
 Moonstone | Neighborhood: Urban Core | Cuisine: Bar, Pub & Brewery | Dist: 4 mi
 Moqah Coffee & Beyond | Neighborhood: Westside & Downtown | Cuisine: Coffee & Cafe | Dist: 25.6 mi
@@ -707,7 +676,6 @@ Pelio Grill | Neighborhood: Urban Core | Cuisine: Mediterranean & Global | Dist:
 Penca | Neighborhood: Urban Core | Cuisine: Mexican & Sonoran | Dist: 5 mi
 Penelope Pizza | Neighborhood: Eastside & Vail | Cuisine: Italian & Pizza | Dist: 4.9 mi
 Peppersauce Kitchen | Neighborhood: Eastside & Vail | Cuisine: Fast Food & Sandwiches | Dist: 25.2 mi
-Perche' No | Neighborhood: Urban Core | Cuisine: Italian & Pizza | Dist: 5.4 mi
 Perche' No Italian Bistro | Neighborhood: Urban Core | Cuisine: Italian & Pizza | Dist: 2.9 mi
 Perfecto's Mexican | Neighborhood: Southside & Heritage | Cuisine: Mexican & Sonoran | Dist: 7.8 mi
 Persian Room | Neighborhood: Northwest & Marana | Cuisine: Mediterranean & Global | Dist: 12.1 mi
@@ -715,14 +683,10 @@ Peter Piper Pizza | Neighborhood: Central & Midtown | Cuisine: Italian & Pizza |
 Pho Ngan | Neighborhood: Central & Midtown | Cuisine: Asian & Sushi | Dist: 1.3 mi
 Phoebe’s Coffee Bar | Neighborhood: Westside & Downtown | Cuisine: Coffee & Cafe | Dist: 14.3 mi
 Piazza Gavi | Neighborhood: Northside & Foothills | Cuisine: Italian & Pizza | Dist: 5 mi
-Piazza Gavi Italian Restaurant | Neighborhood: Northside & Foothills | Cuisine: Italian & Pizza | Dist: 6.8 mi
-Pinnacle Peak | Neighborhood: Eastside & Vail | Cuisine: Steakhouse & BBQ | Dist: 8 mi
 Pinnacle Peak Steakhouse | Neighborhood: Eastside & Vail | Cuisine: Steakhouse & BBQ | Dist: 4.2 mi
 Pita Jungle - Tucson Oracle | Neighborhood: Northside & Foothills | Cuisine: Mediterranean & Global | Dist: 7.6 mi
 Pizza Hut | Neighborhood: Central & University | Cuisine: Italian & Pizza | Dist: 1.1 mi
-Playground Bar & Lounge | Neighborhood: Urban Core | Cuisine: Bar, Pub & Brewery | Dist: 5 mi
 Playground Bar and Lounge | Neighborhood: Urban Core | Cuisine: Bar, Pub & Brewery | Dist: 2.7 mi
-Poco & Mom's | Neighborhood: Eastside & Vail | Cuisine: Mexican & Sonoran | Dist: 7 mi
 Poco & Mom's Cantina | Neighborhood: Eastside & Vail | Cuisine: Mexican & Sonoran | Dist: 4.9 mi
 Pony Express Pizza, Wing & More | Neighborhood: Westside & Downtown | Cuisine: Italian & Pizza | Dist: 12.2 mi
 Popeyes | Neighborhood: Central & Midtown | Cuisine: Fast Food & Sandwiches | Dist: 2.3 mi
@@ -757,7 +721,6 @@ Radicchio | Neighborhood: Central & University | Cuisine: Italian & Pizza | Dist
 Ragazzi | Neighborhood: Westside & Downtown | Cuisine: Italian & Pizza | Dist: 25.6 mi
 Raging Sage | Neighborhood: Central & Midtown | Cuisine: Coffee & Cafe | Dist: 2.5 mi
 Raijin Ramen | Neighborhood: Central & Midtown | Cuisine: Asian & Sushi | Dist: 1.5 mi
-Raising Cane's (Bway) | Neighborhood: Eastside & Vail | Cuisine: Fast Food & Sandwiches | Dist: 4 mi
 Raising Cane's Chicken Fingers | Neighborhood: Central & Midtown | Cuisine: Fast Food & Sandwiches | Dist: 0.6 mi
 Ramiro's | Neighborhood: Eastside & Vail | Cuisine: Mexican & Sonoran | Dist: 6.8 mi
 Rancho Rustico | Neighborhood: Eastside & Vail | Cuisine: Mexican & Sonoran | Dist: 15.5 mi
@@ -772,7 +735,6 @@ Red's Smokehouse and Tap Room | Neighborhood: Central & University | Cuisine: Ba
 Redbird Sam Hughes | Neighborhood: Central & Midtown | Cuisine: American & Comfort | Dist: 3 mi
 Redbird Scratch Kitchen | Neighborhood: Central & Midtown | Cuisine: American & Comfort | Dist: 1.3 mi
 Reforma | Neighborhood: Northside & Foothills | Cuisine: Mexican & Sonoran | Dist: 4.3 mi
-Reilly Craft Pizza | Neighborhood: Urban Core | Cuisine: Italian & Pizza | Dist: 4.9 mi
 Reilly Craft Pizza & Drink | Neighborhood: Urban Core | Cuisine: Italian & Pizza | Dist: 2.8 mi
 Ren Bakery | Neighborhood: Northside & Foothills | Cuisine: Coffee & Cafe | Dist: 4.3 mi
 Ren Coffeehouse | Neighborhood: Northside & Foothills | Cuisine: Coffee & Cafe | Dist: 4.3 mi
@@ -784,7 +746,6 @@ Riley's Irish Travern | Neighborhood: Northwest & Marana | Cuisine: Bar, Pub & B
 Rincon John's Fresh Air Café | Neighborhood: Eastside & Vail | Cuisine: American & Comfort | Dist: 20.7 mi
 Riot Grill | Neighborhood: Eastside & Vail | Cuisine: American & Comfort | Dist: 27.5 mi
 RJ's Replays | Neighborhood: Central & Midtown | Cuisine: Bar, Pub & Brewery | Dist: 3.2 mi
-Roadrunner Coffee | Neighborhood: Northwest & Marana | Cuisine: Coffee & Cafe | Dist: 12.5 mi
 Roadrunner Coffee Co | Neighborhood: Urban Core | Cuisine: Coffee & Cafe | Dist: 5.4 mi
 Roadrunner Grill | Neighborhood: Eastside & Vail | Cuisine: Fast Food & Sandwiches | Dist: 20.8 mi
 Roadrunner Market | Neighborhood: Eastside & Vail | Cuisine: American & Comfort | Dist: 17 mi
@@ -804,7 +765,6 @@ Sachiko Sushi | Neighborhood: Eastside & Vail | Cuisine: Asian & Sushi | Dist: 4
 Saffron Bites | Neighborhood: Central & University | Cuisine: Mediterranean & Global | Dist: 1.6 mi
 Saffron Indian Bistro | Neighborhood: Northside & Foothills | Cuisine: Mediterranean & Global | Dist: 8.3 mi
 Saguaro Corners | Neighborhood: Eastside & Vail | Cuisine: American & Comfort | Dist: 9.8 mi
-Saguaro Corners Resteraunt and Bar | Neighborhood: Eastside & Vail | Cuisine: American & Comfort | Dist: 11.5 mi
 Saguaro Grill | Neighborhood: Urban Core | Cuisine: American & Comfort | Dist: 4 mi
 Saigon Pho | Neighborhood: Central & University | Cuisine: Asian & Sushi | Dist: 2 mi
 Sakura Teppan | Neighborhood: Eastside & Vail | Cuisine: Asian & Sushi | Dist: 4.5 mi
@@ -818,14 +778,9 @@ San Pedro Valley Pizza | Neighborhood: Eastside & Vail | Cuisine: Italian & Pizz
 Sandyi Oriental Market | Neighborhood: Central & Midtown | Cuisine: Asian & Sushi | Dist: 0.1 mi
 Santorini Greek Cafe | Neighborhood: Central & Midtown | Cuisine: Mediterranean & Global | Dist: 0.6 mi
 Sauce | Neighborhood: Central & Midtown | Cuisine: Italian & Pizza | Dist: 2.1 mi
-Sauce Pizza & Wine | Neighborhood: Central & Midtown | Cuisine: Italian & Pizza | Dist: 2.7 mi
-Sauce Pizza and Wine | Neighborhood: Northside & Foothills | Cuisine: Italian & Pizza | Dist: 7.7 mi
 Savaya Coffee Market | Neighborhood: Eastside & Vail | Cuisine: Coffee & Cafe | Dist: 4 mi
 Sawmill Run | Neighborhood: Eastside & Vail | Cuisine: American & Comfort | Dist: 17.4 mi
 Sbarro | Neighborhood: Northside & Foothills | Cuisine: Italian & Pizza | Dist: 4.8 mi
-Scented Leaf Tea | Neighborhood: Urban Core | Cuisine: Coffee & Cafe | Dist: 5.4 mi
-Scented Leaf Tea House - Congress | Neighborhood: Urban Core | Cuisine: Boba Tea & Beverages | Dist: 2.6 mi
-Scented Leaf Tea House - Tanque Verde | Neighborhood: Eastside & Vail | Cuisine: Boba Tea & Beverages | Dist: 4.3 mi
 Scented Leaf Tea House - University | Neighborhood: Central & University | Cuisine: Boba Tea & Beverages | Dist: 1.9 mi
 Schlotzsky's | Neighborhood: Southside & Heritage | Cuisine: Fast Food & Sandwiches | Dist: 7 mi
 Scordato's Pizzeria | Neighborhood: Northside & Foothills | Cuisine: Italian & Pizza | Dist: 5.1 mi
@@ -857,7 +812,6 @@ Smoothie Factory | Neighborhood: Central & University | Cuisine: Boba Tea & Beve
 Snack Shack | Neighborhood: Northwest & Marana | Cuisine: Fast Food & Sandwiches | Dist: 25.8 mi
 snack. | Neighborhood: Urban Core | Cuisine: Fast Food & Sandwiches | Dist: 4.5 mi
 Snake & Barrel | Neighborhood: Urban Core | Cuisine: Bar, Pub & Brewery | Dist: 5.2 mi
-Snakes & Lattes | Neighborhood: Urban Core | Cuisine: Bar, Pub & Brewery | Dist: 4.1 mi
 Snakes & Lattes Tucson | Neighborhood: Central & University | Cuisine: Coffee & Cafe | Dist: 2 mi
 Snooze | Neighborhood: Central & Midtown | Cuisine: Breakfast & Diner | Dist: 1.3 mi
 Sodalicious | Neighborhood: Northwest & Marana | Cuisine: Boba Tea & Beverages | Dist: 15.7 mi
@@ -875,7 +829,6 @@ Stacks Book Club | Neighborhood: Northside & Foothills | Cuisine: Coffee & Cafe 
 Stage Left | Neighborhood: Urban Core | Cuisine: Bar, Pub & Brewery | Dist: 5 mi
 Starbucks | Neighborhood: Central & Midtown | Cuisine: Coffee & Cafe | Dist: 0.2 mi
 Street Taco & Beer Co | Neighborhood: Eastside & Vail | Cuisine: Mexican & Sonoran | Dist: 2.7 mi
-Street Taco and Beer Co | Neighborhood: Urban Core | Cuisine: Mexican & Sonoran | Dist: 3 mi
 Studio Janos | Neighborhood: Urban Core | Cuisine: American & Comfort | Dist: 5 mi
 Subway | Neighborhood: Central & Midtown | Cuisine: Fast Food & Sandwiches | Dist: 1.2 mi
 Sue's Fish & Chips | Neighborhood: Southside & Heritage | Cuisine: Seafood | Dist: 8 mi
@@ -889,8 +842,6 @@ Sunrise Cafe | Neighborhood: Northside & Foothills | Cuisine: Breakfast & Diner 
 Sunshine Wine | Neighborhood: Urban Core | Cuisine: Bar, Pub & Brewery | Dist: 5.5 mi
 Surf Thru Express | Neighborhood: Eastside & Vail | Cuisine: Coffee & Cafe | Dist: 13 mi
 Surly Wench | Neighborhood: Urban Core | Cuisine: Bar, Pub & Brewery | Dist: 2.5 mi
-Surly Wench Pub | Neighborhood: Urban Core | Cuisine: Bar, Pub & Brewery | Dist: 4.5 mi
-Sushi Cortaro | Neighborhood: Northwest & Marana | Cuisine: Asian & Sushi | Dist: 13.1 mi
 Sushi Cortaro on River | Neighborhood: Northside & Foothills | Cuisine: Asian & Sushi | Dist: 5.1 mi
 Sushi Garden | Neighborhood: Central & Midtown | Cuisine: Asian & Sushi | Dist: 0.9 mi
 Sushi III | Neighborhood: Northside & Foothills | Cuisine: Asian & Sushi | Dist: 4.6 mi
@@ -937,7 +888,6 @@ The Board Room | Neighborhood: Urban Core | Cuisine: Bar, Pub & Brewery | Dist: 
 The Broadway | Neighborhood: Central & Midtown | Cuisine: Bar, Pub & Brewery | Dist: 1 mi
 The Buffalo Spot | Neighborhood: Urban Core | Cuisine: Fast Food & Sandwiches | Dist: 4 mi
 The Buffet | Neighborhood: Urban Core | Cuisine: Bar, Pub & Brewery | Dist: 2.4 mi
-The Buffet Bar | Neighborhood: Urban Core | Cuisine: Bar, Pub & Brewery | Dist: 4.6 mi
 The Canyon Club | Neighborhood: Northside & Foothills | Cuisine: American & Comfort | Dist: 6.2 mi
 The Century Room | Neighborhood: Urban Core | Cuisine: Bar, Pub & Brewery | Dist: 4.8 mi
 The Cheesecake Factory | Neighborhood: Northside & Foothills | Cuisine: American & Comfort | Dist: 4.7 mi
@@ -984,9 +934,7 @@ The Taco Shop Co. | Neighborhood: Central & Midtown | Cuisine: Mexican & Sonoran
 The Taco Spot | Neighborhood: Northside & Foothills | Cuisine: Mexican & Sonoran | Dist: 4.7 mi
 The Treasury 1929 | Neighborhood: Urban Core | Cuisine: American & Comfort | Dist: 5 mi
 The Views Lounge | Neighborhood: Northside & Foothills | Cuisine: Bar, Pub & Brewery | Dist: 15.8 mi
-The Views Restaurant | Neighborhood: Northside & Foothills | Cuisine: American & Comfort | Dist: 15.8 mi
 The WaterHole | Neighborhood: Northwest & Marana | Cuisine: Bar, Pub & Brewery | Dist: 25.2 mi
-Three Canyon | Neighborhood: Northside & Foothills | Cuisine: Bar, Pub & Brewery | Dist: 8.8 mi
 Three Canyon Beer and Wine Garden | Neighborhood: Northside & Foothills | Cuisine: American & Comfort | Dist: 7.3 mi
 Three Points Restaurant | Neighborhood: Westside & Downtown | Cuisine: American & Comfort | Dist: 25.3 mi
 Thunder Canyon Brewstillery | Neighborhood: Southside & Heritage | Cuisine: Bar, Pub & Brewery | Dist: 7.9 mi
@@ -1007,7 +955,6 @@ Trattoria Pina | Neighborhood: Northside & Foothills | Cuisine: Italian & Pizza 
 Traxide Taproom | Neighborhood: Urban Core | Cuisine: Bar, Pub & Brewery | Dist: 2.5 mi
 Trident Grill | Neighborhood: Central & Midtown | Cuisine: Bar, Pub & Brewery | Dist: 1.1 mi
 Triple T Truck Stop | Neighborhood: Eastside & Vail | Cuisine: Breakfast & Diner | Dist: 15 mi
-Tropical Smoothie | Neighborhood: Eastside & Vail | Cuisine: Healthy, Vegan & Plant-Based | Dist: 13 mi
 Tropical Smoothie Cafe | Neighborhood: Northwest & Marana | Cuisine: Healthy, Vegan & Plant-Based | Dist: 11.8 mi
 True Food Kitchen | Neighborhood: Northside & Foothills | Cuisine: Healthy, Vegan & Plant-Based | Dist: 6.3 mi
 Truland | Neighborhood: Northside & Foothills | Cuisine: American & Comfort | Dist: 7.9 mi
@@ -1024,7 +971,6 @@ Tuxon Chix | Neighborhood: Central & Midtown | Cuisine: Fast Food & Sandwiches |
 Twin Peaks Pizzeria | Neighborhood: Northwest & Marana | Cuisine: Italian & Pizza | Dist: 15.3 mi
 Twinkies Creations | Neighborhood: Central & Midtown | Cuisine: Dessert & Bakery | Dist: 0.1 mi
 Two Girls Pizzeria | Neighborhood: Southside & Heritage | Cuisine: Italian & Pizza | Dist: 18 mi
-Two Girls Pizzeria & Bistro | Neighborhood: Westside & Downtown | Cuisine: Italian & Pizza | Dist: 23.1 mi
 Two Hands Corn Dogs | Neighborhood: Central & Midtown | Cuisine: Fast Food & Sandwiches | Dist: 1.8 mi
 Umetea | Neighborhood: Central & Midtown | Cuisine: Boba Tea & Beverages | Dist: 2.4 mi
 UnCork'd Kitchen & Cocktails | Neighborhood: Eastside & Vail | Cuisine: Bar, Pub & Brewery | Dist: 3.9 mi
@@ -1055,7 +1001,6 @@ Wendy's | Neighborhood: Central & University | Cuisine: Fast Food & Sandwiches |
 Westbound | Neighborhood: Urban Core | Cuisine: Bar, Pub & Brewery | Dist: 3.7 mi
 Wetzel's Pretzels | Neighborhood: Northwest & Marana | Cuisine: Fast Food & Sandwiches | Dist: 14.2 mi
 What A Burro | Neighborhood: Southside & Heritage | Cuisine: Mexican & Sonoran | Dist: 7.4 mi
-What’s Cookin Mexican Food | Neighborhood: Central & Midtown | Cuisine: Mexican & Sonoran | Dist: 2.6 mi
 What's Cookin' Mexican | Neighborhood: Central & Midtown | Cuisine: Mexican & Sonoran | Dist: 1.1 mi
 Whataburger | Neighborhood: Central & Midtown | Cuisine: Fast Food & Sandwiches | Dist: 2.7 mi
 Which Wich? | Neighborhood: Northside & Foothills | Cuisine: Fast Food & Sandwiches | Dist: 11.5 mi
