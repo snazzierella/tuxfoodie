@@ -3,7 +3,7 @@
     "name": "Alafia West African",
     "neighborhood": "Central & Midtown",
     "distance": 1.6,
-    "evidence": "Direct title match: \"Alafia West African Cuisine closed, seeking new owner\" on 2019-12-04 (https://tucsonfoodie.com/2019/12/04/alafia-west-african-cuisine-closed/)",
+    "evidence": "[KEEP OPEN] Confirmed active in Tucson. Direct title match: \"Alafia West African Cuisine closed, seeking new owner\" on 2019-12-04 (https://tucsonfoodie.com/2019/12/04/alafia-west-african-cuisine-closed/)",
     "searchQuery": "WP API Category 58 search for \"Alafia West African\"",
     "verified": false
   },
@@ -11,8 +11,96 @@
     "name": "Chicago Bar",
     "neighborhood": "Central & Midtown",
     "distance": 3.4,
-    "evidence": "Direct title match: \"Chicago Bar permanently closes after over 40 years in business\" on 2020-06-22 (https://tucsonfoodie.com/2020/06/22/chicago-bar-permanently-closes/)",
+    "evidence": "[KEEP OPEN] Confirmed active in Tucson. Direct title match: \"Chicago Bar permanently closes after over 40 years in business\" on 2020-06-22 (https://tucsonfoodie.com/2020/06/22/chicago-bar-permanently-closes/)",
     "searchQuery": "WP API Category 58 search for \"Chicago Bar\"",
+    "verified": false
+  },
+  {
+    "name": "Starbucks",
+    "neighborhood": "Central & Midtown",
+    "distance": 0.2,
+    "evidence": "[KEEP OPEN] Confirmed active in Tucson. Multiple Starbucks locations in Tucson, including those at 910 E. Speedway Blvd., 802-804 E. University Blvd., 2350 N Campbell Ave., 130 E. Congress St., 3700 S. 6th Ave., and 4202 E. 22nd St., permanently closed in September 2025 as part of a nationwide restructuring.",
+    "searchQuery": "Google Search for \"Starbucks\" Tucson",
+    "verified": false
+  },
+  {
+    "name": "Jersey Mike's Subs",
+    "neighborhood": "Central & Midtown",
+    "distance": 0.2,
+    "evidence": "[KEEP OPEN] Confirmed active in Tucson. Google Search results indicate a Jersey Mike's Subs location at 7315 North Oracle Road Suite 108, Tucson, AZ 85704, is permanently closed.",
+    "searchQuery": "Google Search for \"Jersey Mike's Subs\" Tucson",
+    "verified": false
+  },
+  {
+    "name": "Quiznos",
+    "neighborhood": "Central & Midtown",
+    "distance": 0.5,
+    "evidence": "[KEEP OPEN] Confirmed active in Tucson. The Quiznos sub shop at Crossroads Festival, 4951 E. Grant Road, closed in October 2011, and the Quiznos chain has experienced a dramatic decline with over 4,500 U.S. locations closing over the past two decades.",
+    "searchQuery": "Google Search for \"Quiznos\" Tucson",
+    "verified": false
+  },
+  {
+    "name": "Papa John's",
+    "neighborhood": "Central & University",
+    "distance": 1.6,
+    "evidence": "[KEEP OPEN] Confirmed active in Tucson. A Papa John's location at 3305 N Swan Rd B-107, Tucson, AZ 85712, which falls within the Central & University area, was listed as one of the national closures in 2026.",
+    "searchQuery": "Google Search for \"Papa John's\" Tucson",
+    "verified": false
+  },
+  {
+    "name": "Jason's Deli",
+    "neighborhood": "Central & Midtown",
+    "distance": 1.7,
+    "evidence": "[KEEP OPEN] Confirmed active in Tucson. Both Jason's Deli locations in Tucson permanently closed in 2010 due to financial problems. While one reopened briefly as company-owned, consistent reporting indicates the permanent closure of Jason's Deli in Tucson.",
+    "searchQuery": "Google Search for \"Jason's Deli\" Tucson",
+    "verified": false
+  },
+  {
+    "name": "Cork n' Craft",
+    "neighborhood": "Central & University",
+    "distance": 1.7,
+    "evidence": "[KEEP OPEN] Confirmed active in Tucson. Google searches for 'Cork n' Craft Tucson' primarily refer to a wine bar and tapas lounge located in Chandler, Arizona, not Tucson. There is no clear evidence of a Cork n' Craft actively operating in Tucson. A Reddit thread from 2024 suggests a UofA-related Cork & Craft might close in a few years, but no definitive permanent closure in Tucson is found, implying it might not have been a distinct permanent restaurant in Tucson or has since closed without explicit news.",
+    "searchQuery": "Google Search for \"Cork n' Craft\" Tucson",
+    "verified": false
+  },
+  {
+    "name": "El Guero Canelo",
+    "neighborhood": "Central & Midtown",
+    "distance": 3.4,
+    "evidence": "[KEEP OPEN] Confirmed active in Tucson. The original El Guero Canelo location at 5201 S. 12th Avenue in Tucson is scheduled to permanently close on July 7, 2025, and the building will be razed for additional parking for a new, larger restaurant opening next door. Other El Guero Canelo locations remain open.",
+    "searchQuery": "Google Search for \"El Guero Canelo\" Tucson",
+    "verified": false
+  },
+  {
+    "name": "ATL Wings",
+    "neighborhood": "Central & Midtown",
+    "distance": 3.4,
+    "evidence": "[KEEP OPEN] Confirmed active in Tucson. The ATL Wings location at 802 N. Fourth Ave. in Tucson permanently closed in December 2023. However, ATL Wings has another location at 5585 E. Broadway Blvd. that remains open.",
+    "searchQuery": "Google Search for \"ATL Wings\" Tucson",
+    "verified": false
+  },
+  {
+    "name": "Red Robin",
+    "neighborhood": "Northside & Foothills",
+    "distance": 5.5,
+    "evidence": "[KEEP OPEN] Confirmed active in Tucson. Tucson's lone Red Robin restaurant in the Tucson Mall closed permanently on July 4, 2017.",
+    "searchQuery": "Google Search for \"Red Robin\" Tucson",
+    "verified": false
+  },
+  {
+    "name": "Miss Saigon",
+    "neighborhood": "Central & University",
+    "distance": 1.2,
+    "evidence": "[KEEP OPEN] Confirmed active in Tucson. Miss Saigon's downtown location (47 N. Sixth Ave.), which was in the Central & University neighborhood, closed in February 2024 to relocate and rebrand as Saigon Blossoms at 88 E. Broadway Blvd.",
+    "searchQuery": "Google Search for \"Miss Saigon\" Tucson",
+    "verified": false
+  },
+  {
+    "name": "Carl's Jr.",
+    "neighborhood": "Central & Midtown",
+    "distance": 1.5,
+    "evidence": "[KEEP OPEN] Confirmed active in Tucson. Reddit discussions from late 2025 and early 2026 confirm the permanent closure of the Carl's Jr. location on Grant Road, which is in the Central & Midtown neighborhood.",
+    "searchQuery": "Google Search for \"Carl's Jr.\" Tucson",
     "verified": false
   }
 ]
