@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "name": "Alafia West African",
+    "neighborhood": "Central & Midtown",
+    "distance": 1.6,
+    "evidence": "Direct title match: \"Alafia West African Cuisine closed, seeking new owner\" on 2019-12-04 (https://tucsonfoodie.com/2019/12/04/alafia-west-african-cuisine-closed/)",
+    "searchQuery": "WP API Category 58 search for \"Alafia West African\"",
+    "verified": false
+  },
+  {
+    "name": "Chicago Bar",
+    "neighborhood": "Central & Midtown",
+    "distance": 3.4,
+    "evidence": "Direct title match: \"Chicago Bar permanently closes after over 40 years in business\" on 2020-06-22 (https://tucsonfoodie.com/2020/06/22/chicago-bar-permanently-closes/)",
+    "searchQuery": "WP API Category 58 search for \"Chicago Bar\"",
+    "verified": false
+  }
+]
