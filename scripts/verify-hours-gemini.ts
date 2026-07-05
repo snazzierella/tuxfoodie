@@ -96,6 +96,14 @@ async function main() {
   const state = loadState();
   const dbList = [...existingRestaurants] as Restaurant[];
 
+  const changesPath = path.join(process.cwd(), 'proposed_hours_changes.json');
+  let proposedChanges: any[] = [];
+  if (fs.existsSync(changesPath)) {
+    try {
+      proposedChanges = JSON.parse(fs.readFileSync(changesPath, 'utf-8'));
+    } catch (_) {}
+  }
+
   // Filter restaurants that haven't been verified yet
   const pending = dbList.filter(r => !state.verifiedNames.includes(r.name));
 
@@ -140,12 +148,37 @@ async function main() {
         const dbEntry = dbList.find(r => r.name === original.name);
         if (dbEntry) {
           if (item.closed) {
-            console.log(`🚨 flagged Closed during hours check: ${dbEntry.name}`);
-            // Mark as proposed closed in database
-            (dbEntry as any).closedProposed = true;
+            console.log(`🚨 Flagged closed during hours check: ${dbEntry.name}`);
+            const idx = proposedChanges.findIndex(c => c.name === dbEntry.name);
+            const newChange = {
+              name: dbEntry.name,
+              currentHours: dbEntry.hours,
+              proposedHours: null,
+              closed: true,
+              verified: false,
+              notes: "Gemini API flags this restaurant as permanently closed."
+            };
+            if (idx >= 0) {
+              proposedChanges[idx] = newChange;
+            } else {
+              proposedChanges.push(newChange);
+            }
           } else if (!item.hoursCorrect && item.hours) {
-            console.log(`📝 Corrected hours for: ${dbEntry.name}`);
-            dbEntry.hours = item.hours;
+            console.log(`📝 Proposed corrected hours for: ${dbEntry.name}`);
+            const idx = proposedChanges.findIndex(c => c.name === dbEntry.name);
+            const newChange = {
+              name: dbEntry.name,
+              currentHours: dbEntry.hours,
+              proposedHours: item.hours,
+              closed: false,
+              verified: false,
+              notes: "Gemini API proposes hours update."
+            };
+            if (idx >= 0) {
+              proposedChanges[idx] = newChange;
+            } else {
+              proposedChanges.push(newChange);
+            }
           } else {
             console.log(`✅ Hours correct: ${dbEntry.name}`);
           }
@@ -153,19 +186,12 @@ async function main() {
         }
       }
 
-      // Save progress to database
-      const dataFilePath = path.join(process.cwd(), 'src', 'data.ts');
-      const fileContent = `import { Restaurant } from './types';
+      // Save proposed changes
+      fs.writeFileSync(changesPath, JSON.stringify(proposedChanges, null, 2), 'utf-8');
 
-export const restaurants: Restaurant[] = JSON.parse(
-  ${JSON.stringify(JSON.stringify(dbList))}
-);
-`;
-      fs.writeFileSync(dataFilePath, fileContent, 'utf-8');
-      
       // Save verification state
       saveState(state);
-      console.log(`Progress saved to database.`);
+      console.log(`Progress and proposed hours changes saved.`);
 
       if (i + batchSize < pending.length) {
         console.log("Sleeping 6 seconds to prevent rate limits...");

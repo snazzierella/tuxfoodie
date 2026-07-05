@@ -196,6 +196,35 @@ async function main() {
     }
 
     if (success) {
+      // Safeguard: Check if this batch has generic/corrupted closure evidence
+      let totalClosed = 0;
+      let genericClosed = 0;
+      for (const item of results) {
+        if (item.closed) {
+          totalClosed++;
+          const evidence = (item.evidence || "").toLowerCase();
+          const isGeneric = 
+            evidence.includes("google maps lists") || 
+            evidence.includes("listed as permanently closed on google maps") ||
+            evidence.includes("permanently closed on google maps") ||
+            (evidence.includes("google maps") && evidence.includes("permanently closed") && evidence.length < 100);
+          if (isGeneric) {
+            genericClosed++;
+          }
+        }
+      }
+
+      const isCorrupted = totalClosed >= 5 && (genericClosed / totalClosed) >= 0.8;
+      if (isCorrupted) {
+        console.warn(`\n⚠️ WARNING: Batch appears to have corrupted/generic closure responses (${genericClosed}/${totalClosed} closures are generic). Skipping this batch to redo in the next run.\n`);
+        
+        if (i + batchSize < pending.length) {
+          console.log("Sleeping 6 seconds to prevent rate limits...");
+          await sleep(6000);
+        }
+        continue;
+      }
+
       for (const item of results) {
         const original = batch[item.id];
         if (!original) continue;

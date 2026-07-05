@@ -3,7 +3,7 @@
     "name": "Alafia West African",
     "neighborhood": "Central & Midtown",
     "distance": 1.6,
-    "evidence": "[KEEP OPEN] Confirmed active in Tucson. Direct title match: \"Alafia West African Cuisine closed, seeking new owner\" on 2019-12-04 (https://tucsonfoodie.com/2019/12/04/alafia-west-african-cuisine-closed/)",
+    "evidence": "Direct title match: \"Alafia West African Cuisine closed, seeking new owner\" on 2019-12-04 (https://tucsonfoodie.com/2019/12/04/alafia-west-african-cuisine-closed/)",
     "searchQuery": "WP API Category 58 search for \"Alafia West African\"",
     "verified": false
   },
@@ -11,7 +11,7 @@
     "name": "Chicago Bar",
     "neighborhood": "Central & Midtown",
     "distance": 3.4,
-    "evidence": "[KEEP OPEN] Confirmed active in Tucson. Direct title match: \"Chicago Bar permanently closes after over 40 years in business\" on 2020-06-22 (https://tucsonfoodie.com/2020/06/22/chicago-bar-permanently-closes/)",
+    "evidence": "Direct title match: \"Chicago Bar permanently closes after over 40 years in business\" on 2020-06-22 (https://tucsonfoodie.com/2020/06/22/chicago-bar-permanently-closes/)",
     "searchQuery": "WP API Category 58 search for \"Chicago Bar\"",
     "verified": false
   },
@@ -19,7 +19,7 @@
     "name": "Starbucks",
     "neighborhood": "Central & Midtown",
     "distance": 0.2,
-    "evidence": "[KEEP OPEN] Confirmed active in Tucson. Multiple Starbucks locations in Tucson, including those at 910 E. Speedway Blvd., 802-804 E. University Blvd., 2350 N Campbell Ave., 130 E. Congress St., 3700 S. 6th Ave., and 4202 E. 22nd St., permanently closed in September 2025 as part of a nationwide restructuring.",
+    "evidence": "Multiple Starbucks locations in Tucson, including those at 910 E. Speedway Blvd., 802-804 E. University Blvd., 2350 N Campbell Ave., 130 E. Congress St., 3700 S. 6th Ave., and 4202 E. 22nd St., permanently closed in September 2025 as part of a nationwide restructuring.",
     "searchQuery": "Google Search for \"Starbucks\" Tucson",
     "verified": false
   },
@@ -27,7 +27,7 @@
     "name": "Jersey Mike's Subs",
     "neighborhood": "Central & Midtown",
     "distance": 0.2,
-    "evidence": "[KEEP OPEN] Confirmed active in Tucson. Google Search results indicate a Jersey Mike's Subs location at 7315 North Oracle Road Suite 108, Tucson, AZ 85704, is permanently closed.",
+    "evidence": "Google Search results indicate a Jersey Mike's Subs location at 7315 North Oracle Road Suite 108, Tucson, AZ 85704, is permanently closed.",
     "searchQuery": "Google Search for \"Jersey Mike's Subs\" Tucson",
     "verified": false
   },
@@ -35,15 +35,23 @@
     "name": "Quiznos",
     "neighborhood": "Central & Midtown",
     "distance": 0.5,
-    "evidence": "[KEEP OPEN] Confirmed active in Tucson. The Quiznos sub shop at Crossroads Festival, 4951 E. Grant Road, closed in October 2011, and the Quiznos chain has experienced a dramatic decline with over 4,500 U.S. locations closing over the past two decades.",
+    "evidence": "The Quiznos sub shop at Crossroads Festival, 4951 E. Grant Road, closed in October 2011, and the Quiznos chain has experienced a dramatic decline with over 4,500 U.S. locations closing over the past two decades.",
     "searchQuery": "Google Search for \"Quiznos\" Tucson",
+    "verified": false
+  },
+  {
+    "name": "What's Cookin' Mexican",
+    "neighborhood": "Central & Midtown",
+    "distance": 1.1,
+    "evidence": "What's Cookin' Mexican Cafe is listed as permanently closed on Google Maps.",
+    "searchQuery": "Google Search for \"What's Cookin' Mexican\" Tucson",
     "verified": false
   },
   {
     "name": "Papa John's",
     "neighborhood": "Central & University",
     "distance": 1.6,
-    "evidence": "[KEEP OPEN] Confirmed active in Tucson. A Papa John's location at 3305 N Swan Rd B-107, Tucson, AZ 85712, which falls within the Central & University area, was listed as one of the national closures in 2026.",
+    "evidence": "A Papa John's location at 3305 N Swan Rd B-107, Tucson, AZ 85712, which falls within the Central & University area, was listed as one of the national closures in 2026.",
     "searchQuery": "Google Search for \"Papa John's\" Tucson",
     "verified": false
   },
@@ -51,7 +59,7 @@
     "name": "Jason's Deli",
     "neighborhood": "Central & Midtown",
     "distance": 1.7,
-    "evidence": "[KEEP OPEN] Confirmed active in Tucson. Both Jason's Deli locations in Tucson permanently closed in 2010 due to financial problems. While one reopened briefly as company-owned, consistent reporting indicates the permanent closure of Jason's Deli in Tucson.",
+    "evidence": "Both Jason's Deli locations in Tucson permanently closed in 2010 due to financial problems. While one reopened briefly as company-owned, consistent reporting indicates the permanent closure of Jason's Deli in Tucson.",
     "searchQuery": "Google Search for \"Jason's Deli\" Tucson",
     "verified": false
   },
@@ -59,7 +67,7 @@
     "name": "Cork n' Craft",
     "neighborhood": "Central & University",
     "distance": 1.7,
-    "evidence": "[KEEP OPEN] Confirmed active in Tucson. Google searches for 'Cork n' Craft Tucson' primarily refer to a wine bar and tapas lounge located in Chandler, Arizona, not Tucson. There is no clear evidence of a Cork n' Craft actively operating in Tucson. A Reddit thread from 2024 suggests a UofA-related Cork & Craft might close in a few years, but no definitive permanent closure in Tucson is found, implying it might not have been a distinct permanent restaurant in Tucson or has since closed without explicit news.",
+    "evidence": "Google searches for 'Cork n' Craft Tucson' primarily refer to a wine bar and tapas lounge located in Chandler, Arizona, not Tucson. There is no clear evidence of a Cork n' Craft actively operating in Tucson. A Reddit thread from 2024 suggests a UofA-related Cork & Craft might close in a few years, but no definitive permanent closure in Tucson is found, implying it might not have been a distinct permanent restaurant in Tucson or has since closed without explicit news.",
     "searchQuery": "Google Search for \"Cork n' Craft\" Tucson",
     "verified": false
   },
@@ -67,7 +75,7 @@
     "name": "El Guero Canelo",
     "neighborhood": "Central & Midtown",
     "distance": 3.4,
-    "evidence": "[KEEP OPEN] Confirmed active in Tucson. The original El Guero Canelo location at 5201 S. 12th Avenue in Tucson is scheduled to permanently close on July 7, 2025, and the building will be razed for additional parking for a new, larger restaurant opening next door. Other El Guero Canelo locations remain open.",
+    "evidence": "The original El Guero Canelo location at 5201 S. 12th Avenue in Tucson is scheduled to permanently close on July 7, 2025, and the building will be razed for additional parking for a new, larger restaurant opening next door. Other El Guero Canelo locations remain open.",
     "searchQuery": "Google Search for \"El Guero Canelo\" Tucson",
     "verified": false
   },
@@ -75,7 +83,7 @@
     "name": "ATL Wings",
     "neighborhood": "Central & Midtown",
     "distance": 3.4,
-    "evidence": "[KEEP OPEN] Confirmed active in Tucson. The ATL Wings location at 802 N. Fourth Ave. in Tucson permanently closed in December 2023. However, ATL Wings has another location at 5585 E. Broadway Blvd. that remains open.",
+    "evidence": "The ATL Wings location at 802 N. Fourth Ave. in Tucson permanently closed in December 2023. However, ATL Wings has another location at 5585 E. Broadway Blvd. that remains open.",
     "searchQuery": "Google Search for \"ATL Wings\" Tucson",
     "verified": false
   },
@@ -83,7 +91,7 @@
     "name": "Red Robin",
     "neighborhood": "Northside & Foothills",
     "distance": 5.5,
-    "evidence": "[KEEP OPEN] Confirmed active in Tucson. Tucson's lone Red Robin restaurant in the Tucson Mall closed permanently on July 4, 2017.",
+    "evidence": "Tucson's lone Red Robin restaurant in the Tucson Mall closed permanently on July 4, 2017.",
     "searchQuery": "Google Search for \"Red Robin\" Tucson",
     "verified": false
   },
@@ -91,16 +99,240 @@
     "name": "Miss Saigon",
     "neighborhood": "Central & University",
     "distance": 1.2,
-    "evidence": "[KEEP OPEN] Confirmed active in Tucson. Miss Saigon's downtown location (47 N. Sixth Ave.), which was in the Central & University neighborhood, closed in February 2024 to relocate and rebrand as Saigon Blossoms at 88 E. Broadway Blvd.",
+    "evidence": "Miss Saigon's downtown location (47 N. Sixth Ave.), which was in the Central & University neighborhood, closed in February 2024 to relocate and rebrand as Saigon Blossoms at 88 E. Broadway Blvd.",
     "searchQuery": "Google Search for \"Miss Saigon\" Tucson",
+    "verified": false
+  },
+  {
+    "name": "Azian",
+    "neighborhood": "Central & Midtown",
+    "distance": 1.2,
+    "evidence": "Restaurantji.com lists Azian at 15 N Alvernon Way as permanently closed as of May 30, 2026.",
+    "searchQuery": "Google Search for \"Azian\" Tucson",
+    "verified": false
+  },
+  {
+    "name": "néktər",
+    "neighborhood": "Central & Midtown",
+    "distance": 1.3,
+    "evidence": "Nékter Juice Bar in Tucson is listed as permanently closed on Restaurant Guru, with Google reviews confirming the closure as of March 2023.",
+    "searchQuery": "Google Search for \"néktər\" Tucson",
     "verified": false
   },
   {
     "name": "Carl's Jr.",
     "neighborhood": "Central & Midtown",
     "distance": 1.5,
-    "evidence": "[KEEP OPEN] Confirmed active in Tucson. Reddit discussions from late 2025 and early 2026 confirm the permanent closure of the Carl's Jr. location on Grant Road, which is in the Central & Midtown neighborhood.",
+    "evidence": "Reddit discussions from late 2025 and early 2026 confirm the permanent closure of the Carl's Jr. location on Grant Road, which is in the Central & Midtown neighborhood.",
     "searchQuery": "Google Search for \"Carl's Jr.\" Tucson",
+    "verified": false
+  },
+  {
+    "name": "Shooters Bar and Grill",
+    "neighborhood": "Northside & Foothills",
+    "distance": 2.7,
+    "evidence": "Wanderlog lists 'Shooters' as permanently closed.",
+    "searchQuery": "Google Search for \"Shooters Bar and Grill\" Tucson",
+    "verified": false
+  },
+  {
+    "name": "Fresh Pho and Sushi",
+    "neighborhood": "Eastside & Vail",
+    "distance": 5,
+    "evidence": "Grubhub review on February 16, 2026, states the restaurant was closed at 7159 E Broadway Blvd.",
+    "searchQuery": "Google Search for \"Fresh Pho and Sushi\" Tucson",
+    "verified": false
+  },
+  {
+    "name": "CERES",
+    "neighborhood": "Urban Core",
+    "distance": 5.2,
+    "evidence": "Tucson Foodie article from December 2025 lists CERES as permanently closed.",
+    "searchQuery": "Google Search for \"CERES\" Tucson",
+    "verified": false
+  },
+  {
+    "name": "Ventana Bar & Grill",
+    "neighborhood": "Northside & Foothills",
+    "distance": 6.2,
+    "evidence": "Permanently Closed. The 'Ventana Room' at Loews Ventana Canyon Resort permanently closed in 2009 according to Arizona Daily Star articles. The resort's current dining listings do not include 'Ventana Bar & Grill'.",
+    "searchQuery": "Google Search for \"Ventana Bar & Grill\" Tucson",
+    "verified": false
+  },
+  {
+    "name": "BarDown Fitness",
+    "neighborhood": "Northwest & Marana",
+    "distance": 6.5,
+    "evidence": "Permanently Closed as a restaurant (was never a restaurant); Google Search indicates 'BarDown Fitness' is a fitness center, not a dining establishment.",
+    "searchQuery": "Google Search for \"BarDown Fitness\" Tucson",
+    "verified": false
+  },
+  {
+    "name": "Flaps and Racks",
+    "neighborhood": "Southside & Heritage",
+    "distance": 6.9,
+    "evidence": "Yelp and other online directories list Flaps and Racks in Tucson as permanently closed.",
+    "searchQuery": "Google Search for \"Flaps and Racks\" Tucson",
+    "verified": false
+  },
+  {
+    "name": "Putney's Pitstop",
+    "neighborhood": "Northside & Foothills",
+    "distance": 7.5,
+    "evidence": "Wanderlog lists 'Putney's Pitstop Sports Bar & Grill' as 'Permanently Closed'. News articles from 2019 indicate the owners opened a new venue, suggesting the original Putney's Pitstop ceased operation.",
+    "searchQuery": "Google Search for \"Putney's Pitstop\" Tucson",
+    "verified": false
+  },
+  {
+    "name": "Native Grill",
+    "neighborhood": "Northwest & Marana",
+    "distance": 7.8,
+    "evidence": "Wanderlog explicitly lists 'Native Grill & Wings, Tucson, AZ' as 'Permanently closed'. A 2023 Reddit thread also indicates it closed permanently.",
+    "searchQuery": "Google Search for \"Native Grill\" Tucson",
+    "verified": false
+  },
+  {
+    "name": "Casa Valencia",
+    "neighborhood": "Southside & Heritage",
+    "distance": 8,
+    "evidence": "Google Maps indicates Casa Valencia is permanently closed and has been replaced by El Charro Cafe. News articles from 2017/2018 confirm its closure.",
+    "searchQuery": "Google Search for \"Casa Valencia\" Tucson",
+    "verified": false
+  },
+  {
+    "name": "Ignite",
+    "neighborhood": "Northwest & Marana",
+    "distance": 8.5,
+    "evidence": "Searches for 'Ignite Tucson' predominantly show 'Ignite Sign Art Museum' and no active restaurant by this name. If a restaurant named Ignite existed, it is permanently closed or no longer prominent.",
+    "searchQuery": "Google Search for \"Ignite\" Tucson",
+    "verified": false
+  },
+  {
+    "name": "Mama's Hawiian BBQ",
+    "neighborhood": "Northwest & Marana",
+    "distance": 11.1,
+    "evidence": "Tucson Foodie and Arizona Daily Star articles from 2023 and 2024 confirm Mama's Hawaiian Bar-B-Cue's last Tucson location at 6310 E. Tanque Verde Rd. #120 permanently closed in June 2023 due to failure to pay rent.",
+    "searchQuery": "Google Search for \"Mama's Hawiian BBQ\" Tucson",
+    "verified": false
+  },
+  {
+    "name": "Harvest",
+    "neighborhood": "Northwest & Marana",
+    "distance": 11.8,
+    "evidence": "Tucson Foodie and Arizona Daily Star articles from March/April 2019 confirm 'Harvest on River' at 5605 E. River Rd. permanently closed on March 23, 2019.",
+    "searchQuery": "Google Search for \"Harvest\" Tucson",
+    "verified": false
+  },
+  {
+    "name": "Bianchi's Italian",
+    "neighborhood": "Northwest & Marana",
+    "distance": 14.9,
+    "evidence": "Bianchi's Italian restaurant's Marana location at 3620 W. Tangerine Road permanently closed on March 31, 2020, due to the coronavirus pandemic. The original location on Silverbell Road remains open.",
+    "searchQuery": "Google Search for \"Bianchi's Italian\" Tucson",
+    "verified": false
+  },
+  {
+    "name": "Bubb's Grubb",
+    "neighborhood": "Northside & Foothills",
+    "distance": 18.1,
+    "evidence": "No information found to suggest this restaurant is currently open in Tucson. No recent active listings or reviews.",
+    "searchQuery": "Google Search for \"Bubb's Grubb\" Tucson",
+    "verified": false
+  },
+  {
+    "name": "Sammy's",
+    "neighborhood": "Northside & Foothills",
+    "distance": 18.8,
+    "evidence": "No information found to suggest a standalone 'Sammy's' restaurant is currently open in Tucson. While a 'Sammy's Grill' is mentioned, there's no clear confirmation for 'Sammy's' as a distinct, active restaurant.",
+    "searchQuery": "Google Search for \"Sammy's\" Tucson",
+    "verified": false
+  },
+  {
+    "name": "Toro Bravo",
+    "neighborhood": "Eastside & Vail",
+    "distance": 18.9,
+    "evidence": "No information found to suggest this restaurant is currently open in Tucson. No recent active listings or reviews.",
+    "searchQuery": "Google Search for \"Toro Bravo\" Tucson",
+    "verified": false
+  },
+  {
+    "name": "Pub 22",
+    "neighborhood": "Southside & Heritage",
+    "distance": 19.2,
+    "evidence": "No information found to suggest this restaurant is currently open in Tucson. No recent active listings or reviews.",
+    "searchQuery": "Google Search for \"Pub 22\" Tucson",
+    "verified": false
+  },
+  {
+    "name": "Frozen Yogurt by PAB",
+    "neighborhood": "Southside & Heritage",
+    "distance": 19.2,
+    "evidence": "No information found to suggest this restaurant is currently open in Tucson. No recent active listings or reviews.",
+    "searchQuery": "Google Search for \"Frozen Yogurt by PAB\" Tucson",
+    "verified": false
+  },
+  {
+    "name": "Cayton’s Restaurant",
+    "neighborhood": "Northwest & Marana",
+    "distance": 19.4,
+    "evidence": "No information found to suggest this restaurant is currently open in Tucson. No recent active listings or reviews.",
+    "searchQuery": "Google Search for \"Cayton’s Restaurant\" Tucson",
+    "verified": false
+  },
+  {
+    "name": "MountainView Bar and Grill",
+    "neighborhood": "Northside & Foothills",
+    "distance": 20.1,
+    "evidence": "No information found to suggest this restaurant is currently open in Tucson. No recent active listings or reviews for a standalone 'MountainView Bar and Grill'.",
+    "searchQuery": "Google Search for \"MountainView Bar and Grill\" Tucson",
+    "verified": false
+  },
+  {
+    "name": "American Legion",
+    "neighborhood": "Eastside & Vail",
+    "distance": 20.6,
+    "evidence": "No specific restaurant named 'American Legion' could be confirmed as open for general dining in Tucson. American Legion posts may have dining for members, but this entry implies a public restaurant.",
+    "searchQuery": "Google Search for \"American Legion\" Tucson",
+    "verified": false
+  },
+  {
+    "name": "Sky Rider Cafe",
+    "neighborhood": "Northwest & Marana",
+    "distance": 20.8,
+    "evidence": "No information found to suggest this restaurant is currently open in Tucson. No recent active listings or reviews.",
+    "searchQuery": "Google Search for \"Sky Rider Cafe\" Tucson",
+    "verified": false
+  },
+  {
+    "name": "Lupe’s",
+    "neighborhood": "Northside & Foothills",
+    "distance": 22.1,
+    "evidence": "No information found to suggest a 'Lupe’s' restaurant is currently open in Tucson. No recent active listings or reviews.",
+    "searchQuery": "Google Search for \"Lupe’s\" Tucson",
+    "verified": false
+  },
+  {
+    "name": "El Bebos",
+    "neighborhood": "Northwest & Marana",
+    "distance": 22.8,
+    "evidence": "No information found to suggest this restaurant is currently open in Tucson. No recent active listings or reviews.",
+    "searchQuery": "Google Search for \"El Bebos\" Tucson",
+    "verified": false
+  },
+  {
+    "name": "Tumbleweed Lounge",
+    "neighborhood": "Northwest & Marana",
+    "distance": 23.1,
+    "evidence": "No information found to suggest this restaurant is currently open in Tucson. No recent active listings or reviews.",
+    "searchQuery": "Google Search for \"Tumbleweed Lounge\" Tucson",
+    "verified": false
+  },
+  {
+    "name": "R&R Pizza Express",
+    "neighborhood": "Northwest & Marana",
+    "distance": 23.1,
+    "evidence": "No information found to suggest this restaurant is currently open in Tucson. No recent active listings or reviews.",
+    "searchQuery": "Google Search for \"R&R Pizza Express\" Tucson",
     "verified": false
   }
 ]
