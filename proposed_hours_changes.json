@@ -1,1 +1,1762 @@
-[]
+[
+  {
+    "name": "Steak Rush Grill",
+    "currentHours": {
+      "Monday": "9:00 AM - 8:00 PM",
+      "Tuesday": "9:00 AM - 8:00 PM",
+      "Wednesday": "9:00 AM - 8:00 PM",
+      "Thursday": "9:00 AM - 8:00 PM",
+      "Friday": "9:00 AM - 8:00 PM",
+      "Saturday": "9:00 AM - 8:00 PM",
+      "Sunday": "9:00 AM - 6:00 PM"
+    },
+    "proposedHours": {
+      "Monday": "11:00 AM - 8:00 PM",
+      "Tuesday": "11:00 AM - 8:00 PM",
+      "Wednesday": "11:00 AM - 8:00 PM",
+      "Thursday": "11:00 AM - 8:00 PM",
+      "Friday": "11:00 AM - 9:00 PM",
+      "Saturday": "11:00 AM - 9:00 PM",
+      "Sunday": "11:00 AM - 6:00 PM"
+    },
+    "closed": false,
+    "verified": false,
+    "notes": "Gemini API proposes hours update."
+  },
+  {
+    "name": "Bubba-Que's BBQ",
+    "currentHours": {
+      "Monday": "10:00 AM - 10:00 PM",
+      "Tuesday": "10:00 AM - 10:00 PM",
+      "Wednesday": "10:00 AM - 10:00 PM",
+      "Thursday": "10:00 AM - 10:00 PM",
+      "Friday": "10:00 AM - 12:00 AM",
+      "Saturday": "10:00 AM - 12:00 AM",
+      "Sunday": "10:00 AM - 10:00 PM"
+    },
+    "proposedHours": {
+      "Monday": "10:00 AM - 9:00 PM",
+      "Tuesday": "10:00 AM - 9:00 PM",
+      "Wednesday": "10:00 AM - 9:00 PM",
+      "Thursday": "10:00 AM - 9:00 PM",
+      "Friday": "10:00 AM - 10:00 PM",
+      "Saturday": "10:00 AM - 10:00 PM",
+      "Sunday": "10:00 AM - 9:00 PM"
+    },
+    "closed": false,
+    "verified": false,
+    "notes": "Gemini API proposes hours update."
+  },
+  {
+    "name": "Forbes Meat Company",
+    "currentHours": {
+      "Monday": "8:00 AM - 9:00 PM",
+      "Tuesday": "8:00 AM - 9:00 PM",
+      "Wednesday": "8:00 AM - 9:00 PM",
+      "Thursday": "8:00 AM - 9:00 PM",
+      "Friday": "8:00 AM - 9:00 PM",
+      "Saturday": "8:00 AM - 9:00 PM",
+      "Sunday": "8:00 AM - 9:00 PM"
+    },
+    "proposedHours": {
+      "Monday": "Closed",
+      "Tuesday": "10:00 AM - 6:00 PM",
+      "Wednesday": "10:00 AM - 6:00 PM",
+      "Thursday": "10:00 AM - 6:00 PM",
+      "Friday": "10:00 AM - 6:00 PM",
+      "Saturday": "10:00 AM - 4:00 PM",
+      "Sunday": "Closed"
+    },
+    "closed": false,
+    "verified": false,
+    "notes": "Gemini API proposes hours update."
+  },
+  {
+    "name": "Ursa",
+    "currentHours": {
+      "Monday": "11:00 AM - 9:00 PM",
+      "Tuesday": "11:00 AM - 9:00 PM",
+      "Wednesday": "11:00 AM - 9:00 PM",
+      "Thursday": "11:00 AM - 9:00 PM",
+      "Friday": "11:00 AM - 9:00 PM",
+      "Saturday": "11:00 AM - 9:00 PM",
+      "Sunday": "11:00 AM - 9:00 PM"
+    },
+    "proposedHours": {
+      "Monday": "Closed",
+      "Tuesday": "11:00 AM - 9:00 PM",
+      "Wednesday": "11:00 AM - 9:00 PM",
+      "Thursday": "11:00 AM - 9:00 PM",
+      "Friday": "11:00 AM - 9:00 PM",
+      "Saturday": "11:00 AM - 9:00 PM",
+      "Sunday": "Closed"
+    },
+    "closed": false,
+    "verified": false,
+    "notes": "Gemini API proposes hours update."
+  },
+  {
+    "name": "The Pink Scoop",
+    "currentHours": {
+      "Monday": "12:00 PM - 10:00 PM",
+      "Tuesday": "12:00 PM - 10:00 PM",
+      "Wednesday": "12:00 PM - 10:00 PM",
+      "Thursday": "12:00 PM - 10:00 PM",
+      "Friday": "12:00 PM - 10:00 PM",
+      "Saturday": "12:00 PM - 10:00 PM",
+      "Sunday": "12:00 PM - 10:00 PM"
+    },
+    "proposedHours": null,
+    "closed": true,
+    "verified": false,
+    "notes": "Gemini API flags this restaurant as permanently closed."
+  },
+  {
+    "name": "Tucson Chocolate",
+    "currentHours": {
+      "Monday": "10:00 AM - 6:00 PM",
+      "Tuesday": "10:00 AM - 6:00 PM",
+      "Wednesday": "10:00 AM - 6:00 PM",
+      "Thursday": "10:00 AM - 6:00 PM",
+      "Friday": "10:00 AM - 6:00 PM",
+      "Saturday": "10:00 AM - 6:00 PM",
+      "Sunday": "10:00 AM - 6:00 PM"
+    },
+    "proposedHours": {
+      "Monday": "Closed",
+      "Tuesday": "Closed",
+      "Wednesday": "10:00 AM - 4:00 PM",
+      "Thursday": "10:00 AM - 4:00 PM",
+      "Friday": "10:00 AM - 4:00 PM",
+      "Saturday": "10:00 AM - 4:00 PM",
+      "Sunday": "Closed"
+    },
+    "closed": false,
+    "verified": false,
+    "notes": "Gemini API proposes hours update."
+  },
+  {
+    "name": "Dolce Pastello",
+    "currentHours": {
+      "Monday": "10:00 AM - 6:00 PM",
+      "Tuesday": "10:00 AM - 6:00 PM",
+      "Wednesday": "10:00 AM - 6:00 PM",
+      "Thursday": "10:00 AM - 6:00 PM",
+      "Friday": "10:00 AM - 6:00 PM",
+      "Saturday": "10:00 AM - 6:00 PM",
+      "Sunday": "10:00 AM - 6:00 PM"
+    },
+    "proposedHours": {
+      "Monday": "Closed",
+      "Tuesday": "10:00 AM - 6:00 PM",
+      "Wednesday": "10:00 AM - 6:00 PM",
+      "Thursday": "10:00 AM - 6:00 PM",
+      "Friday": "10:00 AM - 6:00 PM",
+      "Saturday": "10:00 AM - 4:00 PM",
+      "Sunday": "Closed"
+    },
+    "closed": false,
+    "verified": false,
+    "notes": "Gemini API proposes hours update."
+  },
+  {
+    "name": "Bōs Burger",
+    "currentHours": {
+      "Monday": "11:00 AM - 9:00 PM",
+      "Tuesday": "11:00 AM - 9:00 PM",
+      "Wednesday": "11:00 AM - 9:00 PM",
+      "Thursday": "11:00 AM - 9:00 PM",
+      "Friday": "11:00 AM - 9:00 PM",
+      "Saturday": "11:00 AM - 9:00 PM",
+      "Sunday": "11:00 AM - 9:00 PM"
+    },
+    "proposedHours": null,
+    "closed": true,
+    "verified": false,
+    "notes": "Gemini API flags this restaurant as permanently closed."
+  },
+  {
+    "name": "Brandylion",
+    "currentHours": {
+      "Monday": "Closed",
+      "Tuesday": "Closed",
+      "Wednesday": "9:00 AM - 3:00 PM, 5:00 PM - 10:00 PM",
+      "Thursday": "9:00 AM - 3:00 PM, 5:00 PM - 10:00 PM",
+      "Friday": "9:00 AM - 3:00 PM, 5:00 PM - 10:00 PM",
+      "Saturday": "9:00 AM - 3:00 PM, 5:00 PM - 10:00 PM",
+      "Sunday": "9:00 AM - 3:00 PM, 5:00 PM - 10:00 PM"
+    },
+    "proposedHours": null,
+    "closed": true,
+    "verified": false,
+    "notes": "Gemini API flags this restaurant as permanently closed."
+  },
+  {
+    "name": "St. Cruz Restaurant",
+    "currentHours": {
+      "Monday": "6:30 AM - 10:00 AM, 11:00 AM - 2:00 PM, 2:00 PM - 10:00 PM",
+      "Tuesday": "6:30 AM - 10:00 AM, 11:00 AM - 2:00 PM, 2:00 PM - 10:00 PM",
+      "Wednesday": "6:30 AM - 10:00 AM, 11:00 AM - 2:00 PM, 2:00 PM - 10:00 PM",
+      "Thursday": "6:30 AM - 10:00 AM, 11:00 AM - 2:00 PM, 2:00 PM - 10:00 PM",
+      "Friday": "6:30 AM - 10:00 AM, 11:00 AM - 2:00 PM, 2:00 PM - 11:00 PM",
+      "Saturday": "6:30 AM - 10:00 AM, 2:00 PM - 11:00 PM",
+      "Sunday": "6:30 AM - 10:00 AM, 2:00 PM - 10:00 PM"
+    },
+    "proposedHours": {
+      "Monday": "6:30 AM - 10:00 AM, 11:00 AM - 2:00 PM, 5:00 PM - 10:00 PM",
+      "Tuesday": "6:30 AM - 10:00 AM, 11:00 AM - 2:00 PM, 5:00 PM - 10:00 PM",
+      "Wednesday": "6:30 AM - 10:00 AM, 11:00 AM - 2:00 PM, 5:00 PM - 10:00 PM",
+      "Thursday": "6:30 AM - 10:00 AM, 11:00 AM - 2:00 PM, 5:00 PM - 10:00 PM",
+      "Friday": "6:30 AM - 10:00 AM, 11:00 AM - 2:00 PM, 5:00 PM - 11:00 PM",
+      "Saturday": "6:30 AM - 10:00 AM, 5:00 PM - 11:00 PM",
+      "Sunday": "6:30 AM - 10:00 AM, 5:00 PM - 10:00 PM"
+    },
+    "closed": false,
+    "verified": false,
+    "notes": "Gemini API proposes hours update."
+  },
+  {
+    "name": "Eclectic Café",
+    "currentHours": {
+      "Monday": "7:00 AM - 9:00 PM",
+      "Tuesday": "7:00 AM - 9:00 PM",
+      "Wednesday": "7:00 AM - 9:00 PM",
+      "Thursday": "7:00 AM - 9:00 PM",
+      "Friday": "7:00 AM - 9:00 PM",
+      "Saturday": "7:00 AM - 9:00 PM",
+      "Sunday": "7:00 AM - 3:00 PM"
+    },
+    "proposedHours": {
+      "Monday": "7:00 AM - 3:00 PM, 5:00 PM - 9:00 PM",
+      "Tuesday": "7:00 AM - 3:00 PM, 5:00 PM - 9:00 PM",
+      "Wednesday": "7:00 AM - 3:00 PM, 5:00 PM - 9:00 PM",
+      "Thursday": "7:00 AM - 3:00 PM, 5:00 PM - 9:00 PM",
+      "Friday": "7:00 AM - 3:00 PM, 5:00 PM - 9:00 PM",
+      "Saturday": "7:00 AM - 3:00 PM",
+      "Sunday": "9:00 AM - 3:00 PM"
+    },
+    "closed": false,
+    "verified": false,
+    "notes": "Gemini API proposes hours update."
+  },
+  {
+    "name": "Los Milics Tasting Room",
+    "currentHours": {
+      "Monday": "Closed",
+      "Tuesday": "Closed",
+      "Wednesday": "Closed",
+      "Thursday": "3:00 PM - 9:00 PM",
+      "Friday": "1:00 PM - 10:00 PM",
+      "Saturday": "1:00 PM - 10:00 PM",
+      "Sunday": "1:00 PM - 7:00 PM"
+    },
+    "proposedHours": {
+      "Monday": "Closed",
+      "Tuesday": "Closed",
+      "Wednesday": "3:00 PM - 9:00 PM",
+      "Thursday": "3:00 PM - 9:00 PM",
+      "Friday": "3:00 PM - 9:00 PM",
+      "Saturday": "11:00 AM - 9:00 PM",
+      "Sunday": "11:00 AM - 9:00 PM"
+    },
+    "closed": false,
+    "verified": false,
+    "notes": "Gemini API proposes hours update."
+  },
+  {
+    "name": "YBC by Yellow Brick",
+    "currentHours": {
+      "Monday": "6:00 AM - 4:00 PM",
+      "Tuesday": "6:00 AM - 4:00 PM",
+      "Wednesday": "6:00 AM - 4:00 PM",
+      "Thursday": "6:00 AM - 4:00 PM",
+      "Friday": "6:00 AM - 4:00 PM",
+      "Saturday": "7:00 AM - 3:00 PM",
+      "Sunday": "7:00 AM - 3:00 PM"
+    },
+    "proposedHours": {
+      "Monday": "7:00 AM - 2:00 PM",
+      "Tuesday": "7:00 AM - 2:00 PM",
+      "Wednesday": "7:00 AM - 2:00 PM",
+      "Thursday": "7:00 AM - 2:00 PM",
+      "Friday": "7:00 AM - 2:00 PM",
+      "Saturday": "Closed",
+      "Sunday": "Closed"
+    },
+    "closed": false,
+    "verified": false,
+    "notes": "Gemini API proposes hours update."
+  },
+  {
+    "name": "Adis Aguas Frescas",
+    "currentHours": {
+      "Monday": "9:00 AM - 6:00 PM",
+      "Tuesday": "9:00 AM - 6:00 PM",
+      "Wednesday": "9:00 AM - 6:00 PM",
+      "Thursday": "9:00 AM - 6:00 PM",
+      "Friday": "9:00 AM - 6:00 PM",
+      "Saturday": "9:00 AM - 6:00 PM",
+      "Sunday": "Closed"
+    },
+    "proposedHours": {
+      "Monday": "Not Found",
+      "Tuesday": "Not Found",
+      "Wednesday": "Not Found",
+      "Thursday": "Not Found",
+      "Friday": "Not Found",
+      "Saturday": "Not Found",
+      "Sunday": "Not Found"
+    },
+    "closed": false,
+    "verified": false,
+    "notes": "Gemini API proposes hours update."
+  },
+  {
+    "name": "Gyro Shack",
+    "currentHours": {
+      "Monday": "10:30 AM - 9:00 PM",
+      "Tuesday": "10:30 AM - 9:00 PM",
+      "Wednesday": "10:30 AM - 9:00 PM",
+      "Thursday": "10:30 AM - 9:00 PM",
+      "Friday": "10:30 AM - 9:00 PM",
+      "Saturday": "10:30 AM - 9:00 PM",
+      "Sunday": "10:30 AM - 9:00 PM"
+    },
+    "proposedHours": {
+      "Monday": "Not Found",
+      "Tuesday": "Not Found",
+      "Wednesday": "Not Found",
+      "Thursday": "Not Found",
+      "Friday": "Not Found",
+      "Saturday": "Not Found",
+      "Sunday": "Not Found"
+    },
+    "closed": false,
+    "verified": false,
+    "notes": "Gemini API proposes hours update."
+  },
+  {
+    "name": "Red Robin",
+    "currentHours": {
+      "Monday": "11:00 AM - 10:00 PM",
+      "Tuesday": "11:00 AM - 10:00 PM",
+      "Wednesday": "11:00 AM - 10:00 PM",
+      "Thursday": "11:00 AM - 10:00 PM",
+      "Friday": "11:00 AM - 11:00 PM",
+      "Saturday": "11:00 AM - 11:00 PM",
+      "Sunday": "11:00 AM - 9:00 PM"
+    },
+    "proposedHours": {
+      "Monday": "11:00 AM - 10:00 PM",
+      "Tuesday": "11:00 AM - 10:00 PM",
+      "Wednesday": "11:00 AM - 10:00 PM",
+      "Thursday": "11:00 AM - 10:00 PM",
+      "Friday": "11:00 AM - 11:00 PM",
+      "Saturday": "11:00 AM - 11:00 PM",
+      "Sunday": "11:00 AM - 10:00 PM"
+    },
+    "closed": false,
+    "verified": false,
+    "notes": "Gemini API proposes hours update."
+  },
+  {
+    "name": "The Edge A Tucson Bar",
+    "currentHours": {
+      "Monday": "4:00 PM - 2:00 AM",
+      "Tuesday": "4:00 PM - 2:00 AM",
+      "Wednesday": "4:00 PM - 2:00 AM",
+      "Thursday": "4:00 PM - 2:00 AM",
+      "Friday": "4:00 PM - 2:00 AM",
+      "Saturday": "4:00 PM - 2:00 AM",
+      "Sunday": "4:00 PM - 2:00 AM"
+    },
+    "proposedHours": {
+      "Monday": "4:00 PM - 2:00 AM",
+      "Tuesday": "4:00 PM - 2:00 AM",
+      "Wednesday": "4:00 PM - 2:00 AM",
+      "Thursday": "4:00 PM - 2:00 AM",
+      "Friday": "4:00 PM - 2:00 AM",
+      "Saturday": "4:00 PM - 2:00 AM",
+      "Sunday": "4:00 PM - 2:00 AM"
+    },
+    "closed": false,
+    "verified": false,
+    "notes": "Gemini API proposes hours update."
+  },
+  {
+    "name": "The Coronet",
+    "currentHours": {
+      "Monday": "Closed",
+      "Tuesday": "11:00 AM - 2:00 PM, 5:00 PM - 9:00 PM",
+      "Wednesday": "11:00 AM - 2:00 PM, 5:00 PM - 9:00 PM",
+      "Thursday": "11:00 AM - 2:00 PM, 5:00 PM - 9:00 PM",
+      "Friday": "11:00 AM - 2:00 PM, 5:00 PM - 10:00 PM",
+      "Saturday": "11:00 AM - 2:00 PM, 5:00 PM - 10:00 PM",
+      "Sunday": "10:00 AM - 2:00 PM, 5:00 PM - 9:00 PM"
+    },
+    "proposedHours": {
+      "Monday": "Closed",
+      "Tuesday": "11:00 AM - 2:00 PM, 5:00 PM - 9:00 PM",
+      "Wednesday": "11:00 AM - 2:00 PM, 5:00 PM - 9:00 PM",
+      "Thursday": "11:00 AM - 2:00 PM, 5:00 PM - 9:00 PM",
+      "Friday": "11:00 AM - 2:00 PM, 5:00 PM - 10:00 PM",
+      "Saturday": "11:00 AM - 2:00 PM, 5:00 PM - 10:00 PM",
+      "Sunday": "10:00 AM - 2:00 PM, 5:00 PM - 9:00 PM"
+    },
+    "closed": false,
+    "verified": false,
+    "notes": "Gemini API proposes hours update."
+  },
+  {
+    "name": "RA Sushi",
+    "currentHours": {
+      "Monday": "11:00 AM - 10:00 PM",
+      "Tuesday": "11:00 AM - 10:00 PM",
+      "Wednesday": "11:00 AM - 10:00 PM",
+      "Thursday": "11:00 AM - 10:00 PM",
+      "Friday": "11:00 AM - 11:00 PM",
+      "Saturday": "12:00 PM - 11:00 PM",
+      "Sunday": "12:00 PM - 10:00 PM"
+    },
+    "proposedHours": {
+      "Monday": "4:00 PM - 10:00 PM",
+      "Tuesday": "4:00 PM - 10:00 PM",
+      "Wednesday": "4:00 PM - 10:00 PM",
+      "Thursday": "4:00 PM - 10:00 PM",
+      "Friday": "4:00 PM - 11:00 PM",
+      "Saturday": "12:00 PM - 11:00 PM",
+      "Sunday": "12:00 PM - 10:00 PM"
+    },
+    "closed": false,
+    "verified": false,
+    "notes": "Gemini API proposes hours update."
+  },
+  {
+    "name": "AJ's Fine Foods",
+    "currentHours": {
+      "Monday": "6:00 AM - 10:00 AM, 11:00 AM - 2:00 PM, 2:30 PM - 4:30 PM, 4:00 PM - 8:00 PM",
+      "Tuesday": "6:00 AM - 10:00 AM, 11:00 AM - 2:00 PM, 2:30 PM - 4:30 PM, 4:00 PM - 8:00 PM",
+      "Wednesday": "6:00 AM - 10:00 AM, 11:00 AM - 2:00 PM, 2:30 PM - 4:30 PM, 4:00 PM - 8:00 PM",
+      "Thursday": "6:00 AM - 10:00 AM, 11:00 AM - 2:00 PM, 2:30 PM - 4:30 PM, 4:00 PM - 8:00 PM",
+      "Friday": "6:00 AM - 10:00 AM, 11:00 AM - 2:00 PM, 2:30 PM - 4:30 PM, 4:00 PM - 8:00 PM",
+      "Saturday": "6:00 AM - 10:00 AM, 11:00 AM - 2:00 PM, 4:00 PM - 8:00 PM",
+      "Sunday": "6:00 AM - 10:00 AM, 11:00 AM - 8:00 PM"
+    },
+    "proposedHours": {
+      "Monday": "6:00 AM - 8:00 PM",
+      "Tuesday": "6:00 AM - 8:00 PM",
+      "Wednesday": "6:00 AM - 8:00 PM",
+      "Thursday": "6:00 AM - 8:00 PM",
+      "Friday": "6:00 AM - 8:00 PM",
+      "Saturday": "6:00 AM - 8:00 PM",
+      "Sunday": "6:00 AM - 8:00 PM"
+    },
+    "closed": false,
+    "verified": false,
+    "notes": "Gemini API proposes hours update."
+  },
+  {
+    "name": "Frost Gelato",
+    "currentHours": {
+      "Monday": "11:00 AM - 9:00 PM",
+      "Tuesday": "11:00 AM - 9:00 PM",
+      "Wednesday": "11:00 AM - 9:00 PM",
+      "Thursday": "11:00 AM - 9:00 PM",
+      "Friday": "11:00 AM - 10:00 PM",
+      "Saturday": "11:00 AM - 10:00 PM",
+      "Sunday": "12:00 PM - 8:00 PM"
+    },
+    "proposedHours": {
+      "Monday": "11:00 AM - 9:00 PM",
+      "Tuesday": "11:00 AM - 9:00 PM",
+      "Wednesday": "11:00 AM - 9:00 PM",
+      "Thursday": "11:00 AM - 9:00 PM",
+      "Friday": "11:00 AM - 10:00 PM",
+      "Saturday": "11:00 AM - 10:00 PM",
+      "Sunday": "12:00 PM - 8:00 PM"
+    },
+    "closed": false,
+    "verified": false,
+    "notes": "Gemini API proposes hours update."
+  },
+  {
+    "name": "BZ's Italian Kitchen",
+    "currentHours": {
+      "Monday": "Closed",
+      "Tuesday": "11:00 AM - 9:30 PM",
+      "Wednesday": "11:00 AM - 9:30 PM",
+      "Thursday": "11:00 AM - 9:30 PM",
+      "Friday": "11:00 AM - 9:30 PM",
+      "Saturday": "11:00 AM - 9:30 PM",
+      "Sunday": "11:00 AM - 9:30 PM"
+    },
+    "proposedHours": {
+      "Monday": "Closed",
+      "Tuesday": "11:00 AM - 9:00 PM",
+      "Wednesday": "11:00 AM - 9:00 PM",
+      "Thursday": "11:00 AM - 9:00 PM",
+      "Friday": "11:00 AM - 9:30 PM",
+      "Saturday": "11:00 AM - 9:30 PM",
+      "Sunday": "11:00 AM - 8:00 PM"
+    },
+    "closed": false,
+    "verified": false,
+    "notes": "Gemini API proposes hours update."
+  },
+  {
+    "name": "China Sunrise",
+    "currentHours": {
+      "Monday": "Closed",
+      "Tuesday": "11:00 AM - 9:30 PM",
+      "Wednesday": "11:00 AM - 9:30 PM",
+      "Thursday": "11:00 AM - 9:30 PM",
+      "Friday": "11:00 AM - 9:30 PM",
+      "Saturday": "11:00 AM - 9:30 PM",
+      "Sunday": "11:00 AM - 9:30 PM"
+    },
+    "proposedHours": {
+      "Monday": "Closed",
+      "Tuesday": "11:00 AM - 9:00 PM",
+      "Wednesday": "11:00 AM - 9:00 PM",
+      "Thursday": "11:00 AM - 9:00 PM",
+      "Friday": "11:00 AM - 9:30 PM",
+      "Saturday": "11:00 AM - 9:30 PM",
+      "Sunday": "11:00 AM - 9:00 PM"
+    },
+    "closed": false,
+    "verified": false,
+    "notes": "Gemini API proposes hours update."
+  },
+  {
+    "name": "Ginza",
+    "currentHours": {
+      "Monday": "Closed",
+      "Tuesday": "11:30 AM - 2:30 PM, 5:00 PM - 9:30 PM",
+      "Wednesday": "11:30 AM - 2:30 PM, 5:00 PM - 9:30 PM",
+      "Thursday": "11:30 AM - 2:30 PM, 5:00 PM - 9:30 PM",
+      "Friday": "11:30 AM - 2:30 PM, 5:00 PM - 9:30 PM",
+      "Saturday": "11:30 AM - 2:30 PM, 5:00 PM - 9:30 PM",
+      "Sunday": "5:00 PM - 9:00 PM"
+    },
+    "proposedHours": {
+      "Monday": "Closed",
+      "Tuesday": "11:30 AM - 2:30 PM, 5:00 PM - 9:30 PM",
+      "Wednesday": "11:30 AM - 2:30 PM, 5:00 PM - 9:30 PM",
+      "Thursday": "11:30 AM - 2:30 PM, 5:00 PM - 9:30 PM",
+      "Friday": "11:30 AM - 2:30 PM, 5:00 PM - 10:00 PM",
+      "Saturday": "11:30 AM - 2:30 PM, 5:00 PM - 10:00 PM",
+      "Sunday": "5:00 PM - 9:00 PM"
+    },
+    "closed": false,
+    "verified": false,
+    "notes": "Gemini API proposes hours update."
+  },
+  {
+    "name": "Tavolino Ristorante Italiano",
+    "currentHours": {
+      "Monday": "4:00 PM - 9:00 PM",
+      "Tuesday": "4:00 PM - 9:00 PM",
+      "Wednesday": "4:00 PM - 9:00 PM",
+      "Thursday": "11:00 AM - 3:00 PM, 3:00 PM - 9:00 PM",
+      "Friday": "11:00 AM - 3:00 PM, 3:00 PM - 9:00 PM",
+      "Saturday": "11:00 AM - 3:00 PM, 3:00 PM - 9:00 PM",
+      "Sunday": "11:00 AM - 3:00 PM, 3:00 PM - 9:00 PM"
+    },
+    "proposedHours": {
+      "Monday": "4:00 PM - 9:00 PM",
+      "Tuesday": "4:00 PM - 9:00 PM",
+      "Wednesday": "4:00 PM - 9:00 PM",
+      "Thursday": "4:00 PM - 9:00 PM",
+      "Friday": "4:00 PM - 10:00 PM",
+      "Saturday": "4:00 PM - 10:00 PM",
+      "Sunday": "4:00 PM - 9:00 PM"
+    },
+    "closed": false,
+    "verified": false,
+    "notes": "Gemini API proposes hours update."
+  },
+  {
+    "name": "The Canyon Club",
+    "currentHours": {
+      "Monday": "6:00 AM - 2:00 PM",
+      "Tuesday": "6:00 AM - 2:00 PM",
+      "Wednesday": "6:00 AM - 2:00 PM",
+      "Thursday": "6:00 AM - 2:00 PM",
+      "Friday": "6:00 AM - 2:00 PM",
+      "Saturday": "6:00 AM - 2:00 PM",
+      "Sunday": "11:00 AM - 2:00 PM"
+    },
+    "proposedHours": {
+      "Monday": "7:00 AM - 2:00 PM",
+      "Tuesday": "7:00 AM - 2:00 PM",
+      "Wednesday": "7:00 AM - 2:00 PM",
+      "Thursday": "7:00 AM - 2:00 PM",
+      "Friday": "7:00 AM - 2:00 PM",
+      "Saturday": "7:00 AM - 2:00 PM",
+      "Sunday": "7:00 AM - 2:00 PM"
+    },
+    "closed": false,
+    "verified": false,
+    "notes": "Gemini API proposes hours update."
+  },
+  {
+    "name": "Vista Barista",
+    "currentHours": {
+      "Monday": "6:00 AM - 2:00 PM",
+      "Tuesday": "6:00 AM - 2:00 PM",
+      "Wednesday": "6:00 AM - 2:00 PM",
+      "Thursday": "6:00 AM - 2:00 PM",
+      "Friday": "6:00 AM - 2:00 PM",
+      "Saturday": "6:00 AM - 2:00 PM",
+      "Sunday": "6:00 AM - 2:00 PM"
+    },
+    "proposedHours": {
+      "Monday": "6:00 AM - 2:00 PM",
+      "Tuesday": "6:00 AM - 2:00 PM",
+      "Wednesday": "6:00 AM - 2:00 PM",
+      "Thursday": "6:00 AM - 2:00 PM",
+      "Friday": "6:00 AM - 2:00 PM",
+      "Saturday": "Closed",
+      "Sunday": "Closed"
+    },
+    "closed": false,
+    "verified": false,
+    "notes": "Gemini API proposes hours update."
+  },
+  {
+    "name": "The Habit Burger Grill",
+    "currentHours": {
+      "Monday": "10:30 AM - 9:00 PM",
+      "Tuesday": "10:30 AM - 9:00 PM",
+      "Wednesday": "10:30 AM - 9:00 PM",
+      "Thursday": "10:30 AM - 9:00 PM",
+      "Friday": "10:30 AM - 9:00 PM",
+      "Saturday": "10:30 AM - 9:00 PM",
+      "Sunday": "10:30 AM - 9:00 PM"
+    },
+    "proposedHours": {
+      "Monday": "10:30 AM - 9:00 PM",
+      "Tuesday": "10:30 AM - 9:00 PM",
+      "Wednesday": "10:30 AM - 9:00 PM",
+      "Thursday": "10:30 AM - 9:00 PM",
+      "Friday": "10:30 AM - 9:30 PM",
+      "Saturday": "10:30 AM - 9:30 PM",
+      "Sunday": "10:30 AM - 9:00 PM"
+    },
+    "closed": false,
+    "verified": false,
+    "notes": "Gemini API proposes hours update."
+  },
+  {
+    "name": "Luna y Sol",
+    "currentHours": {
+      "Monday": "6:00 AM - 5:00 PM",
+      "Tuesday": "6:00 AM - 5:00 PM",
+      "Wednesday": "6:00 AM - 5:00 PM",
+      "Thursday": "6:00 AM - 5:00 PM",
+      "Friday": "6:00 AM - 5:00 PM",
+      "Saturday": "6:00 AM - 5:00 PM",
+      "Sunday": "6:00 AM - 5:00 PM"
+    },
+    "proposedHours": {
+      "Monday": "6:00 AM - 4:00 PM",
+      "Tuesday": "6:00 AM - 4:00 PM",
+      "Wednesday": "6:00 AM - 4:00 PM",
+      "Thursday": "6:00 AM - 4:00 PM",
+      "Friday": "6:00 AM - 4:00 PM",
+      "Saturday": "6:00 AM - 4:00 PM",
+      "Sunday": "6:00 AM - 4:00 PM"
+    },
+    "closed": false,
+    "verified": false,
+    "notes": "Gemini API proposes hours update."
+  },
+  {
+    "name": "BarDown Fitness",
+    "currentHours": {
+      "Monday": "7:00 AM - 7:00 PM",
+      "Tuesday": "7:00 AM - 7:00 PM",
+      "Wednesday": "7:00 AM - 7:00 PM",
+      "Thursday": "7:00 AM - 7:00 PM",
+      "Friday": "7:00 AM - 7:00 PM",
+      "Saturday": "8:00 AM - 5:00 PM",
+      "Sunday": "8:00 AM - 5:00 PM"
+    },
+    "proposedHours": null,
+    "closed": true,
+    "verified": false,
+    "notes": "Gemini API flags this restaurant as permanently closed."
+  },
+  {
+    "name": "Mama Louisa's",
+    "currentHours": {
+      "Monday": "11:00 AM - 8:00 PM",
+      "Tuesday": "11:00 AM - 8:00 PM",
+      "Wednesday": "11:00 AM - 8:00 PM",
+      "Thursday": "11:00 AM - 8:00 PM",
+      "Friday": "11:00 AM - 8:00 PM",
+      "Saturday": "11:00 AM - 8:00 PM",
+      "Sunday": "12:00 PM - 8:00 PM"
+    },
+    "proposedHours": {
+      "Monday": "11:00 AM - 9:00 PM",
+      "Tuesday": "11:00 AM - 9:00 PM",
+      "Wednesday": "11:00 AM - 9:00 PM",
+      "Thursday": "11:00 AM - 9:00 PM",
+      "Friday": "11:00 AM - 9:00 PM",
+      "Saturday": "11:00 AM - 9:00 PM",
+      "Sunday": "11:00 AM - 9:00 PM"
+    },
+    "closed": false,
+    "verified": false,
+    "notes": "Gemini API proposes hours update."
+  },
+  {
+    "name": "Ramiro's",
+    "currentHours": {
+      "Monday": "6:00 AM - 12:00 AM",
+      "Tuesday": "6:00 AM - 12:00 AM",
+      "Wednesday": "6:00 AM - 12:00 AM",
+      "Thursday": "6:00 AM - 3:00 AM",
+      "Friday": "6:00 AM - 3:00 AM",
+      "Saturday": "6:00 AM - 3:00 AM",
+      "Sunday": "6:00 AM - 12:00 AM"
+    },
+    "proposedHours": null,
+    "closed": true,
+    "verified": false,
+    "notes": "Gemini API flags this restaurant as permanently closed."
+  },
+  {
+    "name": "Button Brew House",
+    "currentHours": {
+      "Monday": "Closed",
+      "Tuesday": "2:00 PM - 5:00 PM",
+      "Wednesday": "2:00 PM - 8:00 PM",
+      "Thursday": "2:00 PM - 8:00 PM",
+      "Friday": "12:00 PM - 10:00 PM",
+      "Saturday": "12:00 PM - 10:00 PM",
+      "Sunday": "12:00 PM - 6:00 PM"
+    },
+    "proposedHours": {
+      "Monday": "Closed",
+      "Tuesday": "3:00 PM - 8:00 PM",
+      "Wednesday": "3:00 PM - 8:00 PM",
+      "Thursday": "3:00 PM - 8:00 PM",
+      "Friday": "3:00 PM - 9:00 PM",
+      "Saturday": "12:00 PM - 9:00 PM",
+      "Sunday": "12:00 PM - 6:00 PM"
+    },
+    "closed": false,
+    "verified": false,
+    "notes": "Gemini API proposes hours update."
+  },
+  {
+    "name": "Bahama Buck’s",
+    "currentHours": {
+      "Monday": "11:00 AM - 9:00 PM",
+      "Tuesday": "11:00 AM - 9:00 PM",
+      "Wednesday": "11:00 AM - 9:00 PM",
+      "Thursday": "11:00 AM - 9:00 PM",
+      "Friday": "11:00 AM - 10:00 PM",
+      "Saturday": "11:00 AM - 10:00 PM",
+      "Sunday": "11:00 AM - 9:00 PM"
+    },
+    "proposedHours": {
+      "Monday": "12:00 PM - 10:00 PM",
+      "Tuesday": "12:00 PM - 10:00 PM",
+      "Wednesday": "12:00 PM - 10:00 PM",
+      "Thursday": "11:00 AM - 11:00 PM",
+      "Friday": "11:00 AM - 11:00 PM",
+      "Saturday": "11:00 AM - 11:00 PM",
+      "Sunday": "11:00 AM - 10:00 PM"
+    },
+    "closed": false,
+    "verified": false,
+    "notes": "Gemini API proposes hours update."
+  },
+  {
+    "name": "Riley's Irish Travern",
+    "currentHours": {
+      "Monday": "3:00 PM - 12:00 AM",
+      "Tuesday": "3:00 PM - 1:00 AM",
+      "Wednesday": "3:00 PM - 1:00 AM",
+      "Thursday": "3:00 PM - 1:00 AM",
+      "Friday": "12:00 PM - 2:00 AM",
+      "Saturday": "12:00 PM - 2:00 AM",
+      "Sunday": "12:00 PM - 12:00 AM"
+    },
+    "proposedHours": null,
+    "closed": true,
+    "verified": false,
+    "notes": "Gemini API flags this restaurant as permanently closed."
+  },
+  {
+    "name": "The Hills Tucson",
+    "currentHours": {
+      "Monday": "10:00 AM - 9:00 PM",
+      "Tuesday": "10:00 AM - 9:00 PM",
+      "Wednesday": "10:00 AM - 9:00 PM",
+      "Thursday": "10:00 AM - 9:00 PM",
+      "Friday": "10:00 AM - 9:00 PM",
+      "Saturday": "8:00 AM - 9:00 PM",
+      "Sunday": "8:00 AM - 9:00 PM"
+    },
+    "proposedHours": {
+      "Monday": "10:00 AM - 9:00 PM",
+      "Tuesday": "10:00 AM - 9:00 PM",
+      "Wednesday": "10:00 AM - 9:00 PM",
+      "Thursday": "10:00 AM - 9:00 PM",
+      "Friday": "10:00 AM - 9:00 PM",
+      "Saturday": "8:00 AM - 9:00 PM",
+      "Sunday": "8:00 AM - 9:00 PM"
+    },
+    "closed": false,
+    "verified": false,
+    "notes": "Gemini API proposes hours update."
+  },
+  {
+    "name": "The Parish",
+    "currentHours": {
+      "Monday": "Closed",
+      "Tuesday": "11:00 AM - 9:00 PM",
+      "Wednesday": "11:00 AM - 9:00 PM",
+      "Thursday": "11:00 AM - 9:00 PM",
+      "Friday": "11:00 AM - 10:00 PM",
+      "Saturday": "11:00 AM - 10:00 PM",
+      "Sunday": "11:00 AM - 9:00 PM"
+    },
+    "proposedHours": null,
+    "closed": true,
+    "verified": false,
+    "notes": "Gemini API flags this restaurant as permanently closed."
+  },
+  {
+    "name": "Flaps and Racks",
+    "currentHours": {
+      "Monday": "10:00 AM - 9:00 PM",
+      "Tuesday": "10:00 AM - 9:00 PM",
+      "Wednesday": "10:00 AM - 9:00 PM",
+      "Thursday": "10:00 AM - 9:00 PM",
+      "Friday": "10:00 AM - 9:00 PM",
+      "Saturday": "10:00 AM - 9:00 PM",
+      "Sunday": "10:00 AM - 9:00 PM"
+    },
+    "proposedHours": {
+      "Monday": "11:00 AM - 9:00 PM",
+      "Tuesday": "11:00 AM - 9:00 PM",
+      "Wednesday": "11:00 AM - 9:00 PM",
+      "Thursday": "11:00 AM - 9:00 PM",
+      "Friday": "11:00 AM - 9:00 PM",
+      "Saturday": "11:00 AM - 9:00 PM",
+      "Sunday": "11:00 AM - 9:00 PM"
+    },
+    "closed": false,
+    "verified": false,
+    "notes": "Gemini API proposes hours update."
+  },
+  {
+    "name": "Rosita's",
+    "currentHours": {
+      "Monday": "11:00 AM - 8:00 PM",
+      "Tuesday": "11:00 AM - 8:00 PM",
+      "Wednesday": "11:00 AM - 8:00 PM",
+      "Thursday": "11:00 AM - 8:00 PM",
+      "Friday": "11:00 AM - 9:00 PM",
+      "Saturday": "11:00 AM - 9:00 PM",
+      "Sunday": "11:00 AM - 7:00 PM"
+    },
+    "proposedHours": null,
+    "closed": true,
+    "verified": false,
+    "notes": "Gemini API flags this restaurant as permanently closed."
+  },
+  {
+    "name": "Golden Dragon Restaurant",
+    "currentHours": {
+      "Monday": "11:00 AM - 9:00 PM",
+      "Tuesday": "11:00 AM - 9:00 PM",
+      "Wednesday": "11:00 AM - 9:00 PM",
+      "Thursday": "11:00 AM - 9:00 PM",
+      "Friday": "11:00 AM - 10:00 PM",
+      "Saturday": "11:00 AM - 10:00 PM",
+      "Sunday": "12:00 PM - 9:00 PM"
+    },
+    "proposedHours": {
+      "Monday": "Closed",
+      "Tuesday": "11:00 AM - 9:00 PM",
+      "Wednesday": "11:00 AM - 9:00 PM",
+      "Thursday": "11:00 AM - 9:00 PM",
+      "Friday": "11:00 AM - 9:30 PM",
+      "Saturday": "12:00 PM - 9:30 PM",
+      "Sunday": "12:00 PM - 9:00 PM"
+    },
+    "closed": false,
+    "verified": false,
+    "notes": "Gemini API proposes hours update."
+  },
+  {
+    "name": "Tacos del Rancho",
+    "currentHours": {
+      "Monday": "9:00 AM - 10:00 PM",
+      "Tuesday": "9:00 AM - 10:00 PM",
+      "Wednesday": "9:00 AM - 10:00 PM",
+      "Thursday": "9:00 AM - 10:00 PM",
+      "Friday": "9:00 AM - 11:00 PM",
+      "Saturday": "9:00 AM - 11:00 PM",
+      "Sunday": "9:00 AM - 9:00 PM"
+    },
+    "proposedHours": {
+      "Monday": "9:00 AM - 10:00 PM",
+      "Tuesday": "9:00 AM - 10:00 PM",
+      "Wednesday": "9:00 AM - 10:00 PM",
+      "Thursday": "9:00 AM - 10:00 PM",
+      "Friday": "9:00 AM - 10:00 PM",
+      "Saturday": "9:00 AM - 10:00 PM",
+      "Sunday": "9:00 AM - 10:00 PM"
+    },
+    "closed": false,
+    "verified": false,
+    "notes": "Gemini API proposes hours update."
+  },
+  {
+    "name": "Your Mom’s House",
+    "currentHours": {
+      "Monday": "4:00 PM - 12:00 AM",
+      "Tuesday": "4:00 PM - 1:00 AM",
+      "Wednesday": "4:00 PM - 1:00 AM",
+      "Thursday": "4:00 PM - 1:00 AM",
+      "Friday": "2:00 PM - 2:00 AM",
+      "Saturday": "12:00 PM - 2:00 AM",
+      "Sunday": "12:00 PM - 12:00 AM"
+    },
+    "proposedHours": {
+      "Monday": "10:00 AM - 2:00 AM",
+      "Tuesday": "10:00 AM - 2:00 AM",
+      "Wednesday": "10:00 AM - 2:00 AM",
+      "Thursday": "10:00 AM - 2:00 AM",
+      "Friday": "10:00 AM - 2:00 AM",
+      "Saturday": "10:00 AM - 2:00 AM",
+      "Sunday": "10:00 AM - 2:00 AM"
+    },
+    "closed": false,
+    "verified": false,
+    "notes": "Gemini API proposes hours update."
+  },
+  {
+    "name": "Carnitas La Yoca",
+    "currentHours": {
+      "Monday": "9:00 AM - 4:00 PM",
+      "Tuesday": "9:00 AM - 4:00 PM",
+      "Wednesday": "9:00 AM - 4:00 PM",
+      "Thursday": "9:00 AM - 4:00 PM",
+      "Friday": "9:00 AM - 5:00 PM",
+      "Saturday": "8:00 AM - 5:00 PM",
+      "Sunday": "8:00 AM - 4:00 PM"
+    },
+    "proposedHours": {
+      "Monday": "Closed",
+      "Tuesday": "Closed",
+      "Wednesday": "8:00 AM - 3:30 PM",
+      "Thursday": "8:00 AM - 3:30 PM",
+      "Friday": "8:00 AM - 3:30 PM",
+      "Saturday": "8:00 AM - 3:30 PM",
+      "Sunday": "8:00 AM - 3:30 PM"
+    },
+    "closed": false,
+    "verified": false,
+    "notes": "Gemini API proposes hours update."
+  },
+  {
+    "name": "Chique Nuevo",
+    "currentHours": {
+      "Monday": "7:00 AM - 10:00 PM",
+      "Tuesday": "7:00 AM - 10:00 PM",
+      "Wednesday": "7:00 AM - 10:00 PM",
+      "Thursday": "7:00 AM - 10:00 PM",
+      "Friday": "7:00 AM - 10:00 PM",
+      "Saturday": "7:00 AM - 10:00 PM",
+      "Sunday": "7:00 AM - 10:00 PM"
+    },
+    "proposedHours": null,
+    "closed": true,
+    "verified": false,
+    "notes": "Gemini API flags this restaurant as permanently closed."
+  },
+  {
+    "name": "Cocteleria La Palma",
+    "currentHours": {
+      "Monday": "11:00 AM - 9:00 PM",
+      "Tuesday": "11:00 AM - 9:00 PM",
+      "Wednesday": "11:00 AM - 9:00 PM",
+      "Thursday": "11:00 AM - 9:00 PM",
+      "Friday": "11:00 AM - 9:00 PM",
+      "Saturday": "11:00 AM - 9:00 PM",
+      "Sunday": "11:00 AM - 9:00 PM"
+    },
+    "proposedHours": null,
+    "closed": true,
+    "verified": false,
+    "notes": "Gemini API flags this restaurant as permanently closed."
+  },
+  {
+    "name": "Janet & Ray's",
+    "currentHours": {
+      "Monday": "Closed",
+      "Tuesday": "Closed",
+      "Wednesday": "12:00 PM - 6:00 PM",
+      "Thursday": "12:00 PM - 6:00 PM",
+      "Friday": "12:00 PM - 8:00 PM",
+      "Saturday": "12:00 PM - 8:00 PM",
+      "Sunday": "12:00 PM - 6:00 PM"
+    },
+    "proposedHours": {
+      "Monday": "Closed",
+      "Tuesday": "Closed",
+      "Wednesday": "12:00 PM - 6:00 PM",
+      "Thursday": "12:00 PM - 6:00 PM",
+      "Friday": "12:00 PM - 8:00 PM",
+      "Saturday": "12:00 PM - 8:00 PM",
+      "Sunday": "12:00 PM - 6:00 PM"
+    },
+    "closed": false,
+    "verified": false,
+    "notes": "Gemini API proposes hours update."
+  },
+  {
+    "name": "Legends Bar And Grill",
+    "currentHours": {
+      "Monday": "10:30 AM - 10:00 PM",
+      "Tuesday": "10:30 AM - 10:00 PM",
+      "Wednesday": "10:30 AM - 10:00 PM",
+      "Thursday": "10:30 AM - 10:00 PM",
+      "Friday": "10:30 AM - 10:00 PM",
+      "Saturday": "10:30 AM - 10:00 PM",
+      "Sunday": "10:30 AM - 10:00 PM"
+    },
+    "proposedHours": null,
+    "closed": true,
+    "verified": false,
+    "notes": "Gemini API flags this restaurant as permanently closed."
+  },
+  {
+    "name": "El Sinaloense",
+    "currentHours": {
+      "Monday": "10:00 AM - 10:30 PM",
+      "Tuesday": "10:00 AM - 10:30 PM",
+      "Wednesday": "10:00 AM - 10:30 PM",
+      "Thursday": "10:00 AM - 10:30 PM",
+      "Friday": "10:00 AM - 12:00 AM",
+      "Saturday": "10:00 AM - 12:00 AM",
+      "Sunday": "10:00 AM - 10:00 PM"
+    },
+    "proposedHours": {
+      "Monday": "10:00 AM - 10:30 PM",
+      "Tuesday": "10:00 AM - 10:30 PM",
+      "Wednesday": "10:00 AM - 10:30 PM",
+      "Thursday": "10:00 AM - 10:30 PM",
+      "Friday": "10:00 AM - 11:00 PM",
+      "Saturday": "10:00 AM - 11:00 PM",
+      "Sunday": "10:00 AM - 10:00 PM"
+    },
+    "closed": false,
+    "verified": false,
+    "notes": "Gemini API proposes hours update."
+  },
+  {
+    "name": "Juanitos",
+    "currentHours": {
+      "Monday": "8:00 AM - 9:00 PM",
+      "Tuesday": "8:00 AM - 9:00 PM",
+      "Wednesday": "8:00 AM - 9:00 PM",
+      "Thursday": "8:00 AM - 9:00 PM",
+      "Friday": "8:00 AM - 10:00 PM",
+      "Saturday": "8:00 AM - 10:00 PM",
+      "Sunday": "8:00 AM - 9:00 PM"
+    },
+    "proposedHours": {
+      "Monday": "9:00 AM - 9:00 PM",
+      "Tuesday": "9:00 AM - 9:00 PM",
+      "Wednesday": "9:00 AM - 9:00 PM",
+      "Thursday": "9:00 AM - 9:00 PM",
+      "Friday": "9:00 AM - 10:00 PM",
+      "Saturday": "9:00 AM - 10:00 PM",
+      "Sunday": "9:00 AM - 9:00 PM"
+    },
+    "closed": false,
+    "verified": false,
+    "notes": "Gemini API proposes hours update."
+  },
+  {
+    "name": "Wildflower",
+    "currentHours": {
+      "Monday": "11:00 AM - 9:30 PM",
+      "Tuesday": "11:00 AM - 9:30 PM",
+      "Wednesday": "11:00 AM - 9:30 PM",
+      "Thursday": "11:00 AM - 9:30 PM",
+      "Friday": "11:00 AM - 10:30 PM",
+      "Saturday": "11:00 AM - 10:30 PM",
+      "Sunday": "11:00 AM - 9:30 PM"
+    },
+    "proposedHours": {
+      "Monday": "11:00 AM - 9:00 PM",
+      "Tuesday": "11:00 AM - 9:00 PM",
+      "Wednesday": "11:00 AM - 9:00 PM",
+      "Thursday": "11:00 AM - 9:00 PM",
+      "Friday": "11:00 AM - 9:00 PM",
+      "Saturday": "11:00 AM - 9:00 PM",
+      "Sunday": "11:00 AM - 9:00 PM"
+    },
+    "closed": false,
+    "verified": false,
+    "notes": "Gemini API proposes hours update."
+  },
+  {
+    "name": "Jethro's Cafe & Tavern",
+    "currentHours": {
+      "Monday": "7:00 AM - 2:00 PM",
+      "Tuesday": "7:00 AM - 9:00 PM",
+      "Wednesday": "7:00 AM - 9:00 PM",
+      "Thursday": "7:00 AM - 12:00 AM",
+      "Friday": "7:00 AM - 12:00 AM",
+      "Saturday": "7:00 AM - 12:00 AM",
+      "Sunday": "7:00 AM - 2:00 PM"
+    },
+    "proposedHours": {
+      "Monday": "7:00 AM - 2:00 PM",
+      "Tuesday": "7:00 AM - 9:00 PM",
+      "Wednesday": "7:00 AM - 9:00 PM",
+      "Thursday": "7:00 AM - 9:00 PM",
+      "Friday": "7:00 AM - 9:00 PM",
+      "Saturday": "7:00 AM - 9:00 PM",
+      "Sunday": "7:00 AM - 2:00 PM"
+    },
+    "closed": false,
+    "verified": false,
+    "notes": "Gemini API proposes hours update."
+  },
+  {
+    "name": "Rosati's",
+    "currentHours": {
+      "Monday": "10:30 AM - 12:00 AM",
+      "Tuesday": "10:30 AM - 12:00 AM",
+      "Wednesday": "10:30 AM - 12:00 AM",
+      "Thursday": "10:30 AM - 1:00 AM",
+      "Friday": "10:30 AM - 1:00 AM",
+      "Saturday": "10:30 AM - 1:00 AM",
+      "Sunday": "10:30 AM - 12:00 AM"
+    },
+    "proposedHours": {
+      "Monday": "10:30 AM - 9:00 PM",
+      "Tuesday": "10:30 AM - 9:00 PM",
+      "Wednesday": "10:30 AM - 9:00 PM",
+      "Thursday": "10:30 AM - 9:00 PM",
+      "Friday": "10:30 AM - 10:00 PM",
+      "Saturday": "10:30 AM - 10:00 PM",
+      "Sunday": "10:30 AM - 9:00 PM"
+    },
+    "closed": false,
+    "verified": false,
+    "notes": "Gemini API proposes hours update."
+  },
+  {
+    "name": "Juice n' Fruit",
+    "currentHours": {
+      "Monday": "10:00 AM - 7:00 PM",
+      "Tuesday": "10:00 AM - 7:00 PM",
+      "Wednesday": "10:00 AM - 7:00 PM",
+      "Thursday": "10:00 AM - 7:00 PM",
+      "Friday": "10:00 AM - 7:00 PM",
+      "Saturday": "10:00 AM - 7:00 PM",
+      "Sunday": "10:00 AM - 7:00 PM"
+    },
+    "proposedHours": {
+      "Monday": "Closed",
+      "Tuesday": "Closed",
+      "Wednesday": "Closed",
+      "Thursday": "Closed",
+      "Friday": "Closed",
+      "Saturday": "Closed",
+      "Sunday": "Closed"
+    },
+    "closed": false,
+    "verified": false,
+    "notes": "Gemini API proposes hours update."
+  },
+  {
+    "name": "Tandem American Eatery",
+    "currentHours": {
+      "Monday": "11:00 AM - 9:00 PM",
+      "Tuesday": "11:00 AM - 9:00 PM",
+      "Wednesday": "11:00 AM - 9:00 PM",
+      "Thursday": "9:00 AM - 9:00 PM",
+      "Friday": "9:00 AM - 9:00 PM",
+      "Saturday": "9:00 AM - 9:00 PM",
+      "Sunday": "9:00 AM - 2:00 PM"
+    },
+    "proposedHours": {
+      "Monday": "Closed",
+      "Tuesday": "Closed",
+      "Wednesday": "Closed",
+      "Thursday": "Closed",
+      "Friday": "Closed",
+      "Saturday": "Closed",
+      "Sunday": "Closed"
+    },
+    "closed": false,
+    "verified": false,
+    "notes": "Gemini API proposes hours update."
+  },
+  {
+    "name": "HiFalutin",
+    "currentHours": {
+      "Monday": "11:00 AM - 8:30 PM",
+      "Tuesday": "11:00 AM - 8:30 PM",
+      "Wednesday": "11:00 AM - 8:30 PM",
+      "Thursday": "11:00 AM - 8:30 PM",
+      "Friday": "11:00 AM - 9:00 PM",
+      "Saturday": "11:00 AM - 9:00 PM",
+      "Sunday": "11:00 AM - 8:30 PM"
+    },
+    "proposedHours": {
+      "Monday": "Closed",
+      "Tuesday": "Closed",
+      "Wednesday": "Closed",
+      "Thursday": "Closed",
+      "Friday": "Closed",
+      "Saturday": "Closed",
+      "Sunday": "Closed"
+    },
+    "closed": false,
+    "verified": false,
+    "notes": "Gemini API proposes hours update."
+  },
+  {
+    "name": "Arizona Pizza Company",
+    "currentHours": {
+      "Monday": "11:00 AM - 10:00 PM",
+      "Tuesday": "11:00 AM - 10:00 PM",
+      "Wednesday": "11:00 AM - 10:00 PM",
+      "Thursday": "11:00 AM - 10:00 PM",
+      "Friday": "11:00 AM - 11:00 PM",
+      "Saturday": "11:00 AM - 11:00 PM",
+      "Sunday": "11:00 AM - 10:00 PM"
+    },
+    "proposedHours": {
+      "Monday": "Closed",
+      "Tuesday": "Closed",
+      "Wednesday": "Closed",
+      "Thursday": "Closed",
+      "Friday": "Closed",
+      "Saturday": "Closed",
+      "Sunday": "Closed"
+    },
+    "closed": false,
+    "verified": false,
+    "notes": "Gemini API proposes hours update."
+  },
+  {
+    "name": "Dream Dinners",
+    "currentHours": {
+      "Monday": "Hours vary by session/pickup schedule",
+      "Tuesday": "Hours vary by session/pickup schedule",
+      "Wednesday": "Hours vary by session/pickup schedule",
+      "Thursday": "Hours vary by session/pickup schedule",
+      "Friday": "Hours vary by session/pickup schedule",
+      "Saturday": "Hours vary by session/pickup schedule",
+      "Sunday": "Hours vary by session/pickup schedule"
+    },
+    "proposedHours": {
+      "Monday": "Closed",
+      "Tuesday": "Closed",
+      "Wednesday": "Closed",
+      "Thursday": "Closed",
+      "Friday": "Closed",
+      "Saturday": "Closed",
+      "Sunday": "Closed"
+    },
+    "closed": false,
+    "verified": false,
+    "notes": "Gemini API proposes hours update."
+  },
+  {
+    "name": "Three Canyon Beer and Wine Garden",
+    "currentHours": {
+      "Monday": "Closed",
+      "Tuesday": "3:00 PM - 9:00 PM",
+      "Wednesday": "3:00 PM - 9:00 PM",
+      "Thursday": "3:00 PM - 9:00 PM",
+      "Friday": "12:00 PM - 10:00 PM",
+      "Saturday": "12:00 PM - 10:00 PM",
+      "Sunday": "12:00 PM - 9:30 PM"
+    },
+    "proposedHours": {
+      "Monday": "Closed",
+      "Tuesday": "Closed",
+      "Wednesday": "Closed",
+      "Thursday": "Closed",
+      "Friday": "Closed",
+      "Saturday": "Closed",
+      "Sunday": "Closed"
+    },
+    "closed": false,
+    "verified": false,
+    "notes": "Gemini API proposes hours update."
+  },
+  {
+    "name": "Figs Oven + Enoteca",
+    "currentHours": {
+      "Monday": "11:00 AM - 8:00 PM",
+      "Tuesday": "11:00 AM - 8:00 PM",
+      "Wednesday": "11:00 AM - 8:00 PM",
+      "Thursday": "11:00 AM - 8:00 PM",
+      "Friday": "11:00 AM - 9:00 PM",
+      "Saturday": "11:00 AM - 9:00 PM",
+      "Sunday": "11:00 AM - 8:00 PM"
+    },
+    "proposedHours": {
+      "Monday": "Closed",
+      "Tuesday": "Closed",
+      "Wednesday": "Closed",
+      "Thursday": "Closed",
+      "Friday": "Closed",
+      "Saturday": "Closed",
+      "Sunday": "Closed"
+    },
+    "closed": false,
+    "verified": false,
+    "notes": "Gemini API proposes hours update."
+  },
+  {
+    "name": "What A Burro",
+    "currentHours": {
+      "Monday": "7:00 AM - 3:00 PM",
+      "Tuesday": "7:00 AM - 3:00 PM",
+      "Wednesday": "7:00 AM - 3:00 PM",
+      "Thursday": "7:00 AM - 3:00 PM",
+      "Friday": "7:00 AM - 3:00 PM",
+      "Saturday": "7:00 AM - 3:00 PM",
+      "Sunday": "Closed"
+    },
+    "proposedHours": {
+      "Monday": "Closed",
+      "Tuesday": "Closed",
+      "Wednesday": "Closed",
+      "Thursday": "Closed",
+      "Friday": "Closed",
+      "Saturday": "Closed",
+      "Sunday": "Closed"
+    },
+    "closed": false,
+    "verified": false,
+    "notes": "Gemini API proposes hours update."
+  },
+  {
+    "name": "Los Jarritos",
+    "currentHours": {
+      "Monday": "8:00 AM - 8:00 PM",
+      "Tuesday": "8:00 AM - 8:00 PM",
+      "Wednesday": "8:00 AM - 8:00 PM",
+      "Thursday": "8:00 AM - 8:00 PM",
+      "Friday": "8:00 AM - 9:00 PM",
+      "Saturday": "8:00 AM - 9:00 PM",
+      "Sunday": "8:00 AM - 8:00 PM"
+    },
+    "proposedHours": {
+      "Monday": "6:00 AM - 1:00 PM",
+      "Tuesday": "6:00 AM - 1:00 PM",
+      "Wednesday": "6:00 AM - 1:00 PM",
+      "Thursday": "6:00 AM - 1:00 PM",
+      "Friday": "6:00 AM - 1:00 PM",
+      "Saturday": "6:00 AM - 1:00 PM",
+      "Sunday": "6:00 AM - 1:00 PM"
+    },
+    "closed": false,
+    "verified": false,
+    "notes": "Gemini API proposes hours update."
+  },
+  {
+    "name": "Tacos El Cuate",
+    "currentHours": {
+      "Monday": "10:00 AM - 9:00 PM",
+      "Tuesday": "10:00 AM - 9:00 PM",
+      "Wednesday": "10:00 AM - 9:00 PM",
+      "Thursday": "10:00 AM - 9:00 PM",
+      "Friday": "10:00 AM - 10:00 PM",
+      "Saturday": "10:00 AM - 10:00 PM",
+      "Sunday": "10:00 AM - 9:00 PM"
+    },
+    "proposedHours": {
+      "Monday": "Closed",
+      "Tuesday": "Closed",
+      "Wednesday": "Closed",
+      "Thursday": "Closed",
+      "Friday": "Closed",
+      "Saturday": "Closed",
+      "Sunday": "Closed"
+    },
+    "closed": false,
+    "verified": false,
+    "notes": "Gemini API proposes hours update."
+  },
+  {
+    "name": "Fentonelli's",
+    "currentHours": {
+      "Monday": "4:00 PM - 9:00 PM",
+      "Tuesday": "4:00 PM - 9:00 PM",
+      "Wednesday": "4:00 PM - 9:00 PM",
+      "Thursday": "4:00 PM - 9:00 PM",
+      "Friday": "4:00 PM - 10:00 PM",
+      "Saturday": "4:00 PM - 10:00 PM",
+      "Sunday": "4:00 PM - 9:00 PM"
+    },
+    "proposedHours": {
+      "Monday": "Closed",
+      "Tuesday": "11:30 AM - 8:30 PM",
+      "Wednesday": "11:30 AM - 8:30 PM",
+      "Thursday": "11:30 AM - 8:30 PM",
+      "Friday": "11:30 AM - 8:30 PM",
+      "Saturday": "11:30 AM - 8:30 PM",
+      "Sunday": "11:30 AM - 8:30 PM"
+    },
+    "closed": false,
+    "verified": false,
+    "notes": "Gemini API proposes hours update."
+  },
+  {
+    "name": "Baja Mar",
+    "currentHours": {
+      "Monday": "8:00 AM - 8:00 PM",
+      "Tuesday": "8:00 AM - 8:00 PM",
+      "Wednesday": "8:00 AM - 8:00 PM",
+      "Thursday": "8:00 AM - 8:00 PM",
+      "Friday": "8:00 AM - 8:00 PM",
+      "Saturday": "8:00 AM - 8:00 PM",
+      "Sunday": "8:00 AM - 8:00 PM"
+    },
+    "proposedHours": {
+      "Monday": "Closed",
+      "Tuesday": "Closed",
+      "Wednesday": "Closed",
+      "Thursday": "Closed",
+      "Friday": "Closed",
+      "Saturday": "Closed",
+      "Sunday": "Closed"
+    },
+    "closed": false,
+    "verified": false,
+    "notes": "Gemini API proposes hours update."
+  },
+  {
+    "name": "Victoria Cocina",
+    "currentHours": {
+      "Monday": "Closed",
+      "Tuesday": "8:00 AM - 8:00 PM",
+      "Wednesday": "8:00 AM - 8:00 PM",
+      "Thursday": "8:00 AM - 8:00 PM",
+      "Friday": "8:00 AM - 8:00 PM",
+      "Saturday": "8:00 AM - 8:00 PM",
+      "Sunday": "8:00 AM - 8:00 PM"
+    },
+    "proposedHours": {
+      "Monday": "Closed",
+      "Tuesday": "Closed",
+      "Wednesday": "Closed",
+      "Thursday": "Closed",
+      "Friday": "Closed",
+      "Saturday": "Closed",
+      "Sunday": "Closed"
+    },
+    "closed": false,
+    "verified": false,
+    "notes": "Gemini API proposes hours update."
+  },
+  {
+    "name": "Dirty Dough",
+    "currentHours": {
+      "Monday": "10:00 AM - 10:00 PM",
+      "Tuesday": "10:00 AM - 10:00 PM",
+      "Wednesday": "10:00 AM - 10:00 PM",
+      "Thursday": "10:00 AM - 10:00 PM",
+      "Friday": "10:00 AM - 10:00 PM",
+      "Saturday": "10:00 AM - 10:00 PM",
+      "Sunday": "Closed"
+    },
+    "proposedHours": {
+      "Monday": "Closed",
+      "Tuesday": "Closed",
+      "Wednesday": "Closed",
+      "Thursday": "Closed",
+      "Friday": "Closed",
+      "Saturday": "Closed",
+      "Sunday": "Closed"
+    },
+    "closed": false,
+    "verified": false,
+    "notes": "Gemini API proposes hours update."
+  },
+  {
+    "name": "Putter's Grill",
+    "currentHours": {
+      "Monday": "11:00 AM - 9:00 PM",
+      "Tuesday": "11:00 AM - 9:00 PM",
+      "Wednesday": "11:00 AM - 9:00 PM",
+      "Thursday": "11:00 AM - 9:00 PM",
+      "Friday": "11:00 AM - 9:00 PM",
+      "Saturday": "11:00 AM - 9:00 PM",
+      "Sunday": "11:00 AM - 9:00 PM"
+    },
+    "proposedHours": {
+      "Monday": "Closed",
+      "Tuesday": "Closed",
+      "Wednesday": "Closed",
+      "Thursday": "Closed",
+      "Friday": "Closed",
+      "Saturday": "Closed",
+      "Sunday": "Closed"
+    },
+    "closed": false,
+    "verified": false,
+    "notes": "Gemini API proposes hours update."
+  },
+  {
+    "name": "German Food Station",
+    "currentHours": {
+      "Monday": "11:00 AM - 9:00 PM",
+      "Tuesday": "11:00 AM - 9:00 PM",
+      "Wednesday": "11:00 AM - 9:00 PM",
+      "Thursday": "11:00 AM - 9:00 PM",
+      "Friday": "11:00 AM - 9:00 PM",
+      "Saturday": "11:00 AM - 9:00 PM",
+      "Sunday": "11:00 AM - 9:00 PM"
+    },
+    "proposedHours": {
+      "Monday": "Closed",
+      "Tuesday": "Closed",
+      "Wednesday": "Closed",
+      "Thursday": "Closed",
+      "Friday": "Closed",
+      "Saturday": "Closed",
+      "Sunday": "Closed"
+    },
+    "closed": false,
+    "verified": false,
+    "notes": "Gemini API proposes hours update."
+  },
+  {
+    "name": "Dominick's Italian",
+    "currentHours": {
+      "Monday": "11:00 AM - 10:00 PM",
+      "Tuesday": "11:00 AM - 10:00 PM",
+      "Wednesday": "11:00 AM - 10:00 PM",
+      "Thursday": "11:00 AM - 10:00 PM",
+      "Friday": "11:00 AM - 10:00 PM",
+      "Saturday": "11:00 AM - 10:00 PM",
+      "Sunday": "11:00 AM - 10:00 PM"
+    },
+    "proposedHours": {
+      "Monday": "Closed",
+      "Tuesday": "Closed",
+      "Wednesday": "Closed",
+      "Thursday": "Closed",
+      "Friday": "Closed",
+      "Saturday": "Closed",
+      "Sunday": "Closed"
+    },
+    "closed": false,
+    "verified": false,
+    "notes": "Gemini API proposes hours update."
+  },
+  {
+    "name": "Honey Baked Ham",
+    "currentHours": {
+      "Monday": "10:00 AM - 6:00 PM",
+      "Tuesday": "10:00 AM - 6:00 PM",
+      "Wednesday": "10:00 AM - 6:00 PM",
+      "Thursday": "10:00 AM - 6:00 PM",
+      "Friday": "10:00 AM - 6:00 PM",
+      "Saturday": "10:00 AM - 6:00 PM",
+      "Sunday": "Closed"
+    },
+    "proposedHours": {
+      "Monday": "Closed",
+      "Tuesday": "Closed",
+      "Wednesday": "Closed",
+      "Thursday": "Closed",
+      "Friday": "Closed",
+      "Saturday": "Closed",
+      "Sunday": "Closed"
+    },
+    "closed": false,
+    "verified": false,
+    "notes": "Gemini API proposes hours update."
+  },
+  {
+    "name": "BK Carne Asada",
+    "currentHours": {
+      "Monday": "10:00 AM - 9:00 PM",
+      "Tuesday": "10:00 AM - 9:00 PM",
+      "Wednesday": "10:00 AM - 9:00 PM",
+      "Thursday": "10:00 AM - 9:00 PM",
+      "Friday": "10:00 AM - 9:00 PM",
+      "Saturday": "10:00 AM - 9:00 PM",
+      "Sunday": "10:00 AM - 9:00 PM"
+    },
+    "proposedHours": {
+      "Monday": "Closed",
+      "Tuesday": "Closed",
+      "Wednesday": "Closed",
+      "Thursday": "Closed",
+      "Friday": "Closed",
+      "Saturday": "Closed",
+      "Sunday": "Closed"
+    },
+    "closed": false,
+    "verified": false,
+    "notes": "Gemini API proposes hours update."
+  },
+  {
+    "name": "Pita Jungle - Tucson Oracle",
+    "currentHours": {
+      "Monday": "11:00 AM - 9:00 PM",
+      "Tuesday": "11:00 AM - 9:00 PM",
+      "Wednesday": "11:00 AM - 9:00 PM",
+      "Thursday": "11:00 AM - 9:00 PM",
+      "Friday": "11:00 AM - 9:00 PM",
+      "Saturday": "11:00 AM - 9:00 PM",
+      "Sunday": "11:00 AM - 9:00 PM"
+    },
+    "proposedHours": {
+      "Monday": "Closed",
+      "Tuesday": "Closed",
+      "Wednesday": "Closed",
+      "Thursday": "Closed",
+      "Friday": "Closed",
+      "Saturday": "Closed",
+      "Sunday": "Closed"
+    },
+    "closed": false,
+    "verified": false,
+    "notes": "Gemini API proposes hours update."
+  },
+  {
+    "name": "Alejandro's Tortilla",
+    "currentHours": {
+      "Monday": "9:00 AM - 8:00 PM",
+      "Tuesday": "9:00 AM - 8:00 PM",
+      "Wednesday": "9:00 AM - 8:00 PM",
+      "Thursday": "9:00 AM - 8:00 PM",
+      "Friday": "9:00 AM - 8:00 PM",
+      "Saturday": "9:00 AM - 8:00 PM",
+      "Sunday": "9:00 AM - 8:00 PM"
+    },
+    "proposedHours": {
+      "Monday": "7:00 AM - 7:00 PM",
+      "Tuesday": "7:00 AM - 7:00 PM",
+      "Wednesday": "7:00 AM - 7:00 PM",
+      "Thursday": "7:00 AM - 7:00 PM",
+      "Friday": "7:00 AM - 7:00 PM",
+      "Saturday": "6:00 AM - 7:00 PM",
+      "Sunday": "6:00 AM - 7:00 PM"
+    },
+    "closed": false,
+    "verified": false,
+    "notes": "Gemini API proposes hours update."
+  },
+  {
+    "name": "Perfecto's Mexican",
+    "currentHours": {
+      "Monday": "10:00 AM - 9:00 PM",
+      "Tuesday": "10:00 AM - 9:00 PM",
+      "Wednesday": "10:00 AM - 9:00 PM",
+      "Thursday": "10:00 AM - 9:00 PM",
+      "Friday": "10:00 AM - 9:00 PM",
+      "Saturday": "10:00 AM - 9:00 PM",
+      "Sunday": "10:00 AM - 9:00 PM"
+    },
+    "proposedHours": {
+      "Monday": "8:00 AM - 7:00 PM",
+      "Tuesday": "8:00 AM - 7:00 PM",
+      "Wednesday": "8:00 AM - 7:00 PM",
+      "Thursday": "7:00 AM - 7:00 PM",
+      "Friday": "7:00 AM - 7:00 PM",
+      "Saturday": "7:00 AM - 7:00 PM",
+      "Sunday": "7:00 AM - 5:00 PM"
+    },
+    "closed": false,
+    "verified": false,
+    "notes": "Gemini API proposes hours update."
+  },
+  {
+    "name": "Com Tam Thuan Kieu",
+    "currentHours": {
+      "Monday": "11:00 AM - 3:00 PM, 5:00 PM - 9:00 PM",
+      "Tuesday": "11:00 AM - 3:00 PM, 5:00 PM - 9:00 PM",
+      "Wednesday": "11:00 AM - 3:00 PM, 5:00 PM - 9:00 PM",
+      "Thursday": "11:00 AM - 3:00 PM, 5:00 PM - 9:00 PM",
+      "Friday": "11:00 AM - 3:00 PM, 5:00 PM - 9:00 PM",
+      "Saturday": "11:00 AM - 3:00 PM, 5:00 PM - 9:00 PM",
+      "Sunday": "11:00 AM - 3:00 PM, 5:00 PM - 9:00 PM"
+    },
+    "proposedHours": {
+      "Monday": "10:00 AM - 8:00 PM",
+      "Tuesday": "Closed",
+      "Wednesday": "10:00 AM - 8:00 PM",
+      "Thursday": "10:00 AM - 8:00 PM",
+      "Friday": "10:00 AM - 8:00 PM",
+      "Saturday": "10:00 AM - 8:00 PM",
+      "Sunday": "10:00 AM - 8:00 PM"
+    },
+    "closed": false,
+    "verified": false,
+    "notes": "Gemini API proposes hours update."
+  },
+  {
+    "name": "El Chivo de Oro",
+    "currentHours": {
+      "Monday": "10:00 AM - 9:00 PM",
+      "Tuesday": "10:00 AM - 9:00 PM",
+      "Wednesday": "10:00 AM - 9:00 PM",
+      "Thursday": "10:00 AM - 9:00 PM",
+      "Friday": "10:00 AM - 9:00 PM",
+      "Saturday": "10:00 AM - 9:00 PM",
+      "Sunday": "10:00 AM - 9:00 PM"
+    },
+    "proposedHours": {
+      "Monday": "Closed",
+      "Tuesday": "Closed",
+      "Wednesday": "Closed",
+      "Thursday": "Closed",
+      "Friday": "Closed",
+      "Saturday": "Closed",
+      "Sunday": "Closed"
+    },
+    "closed": false,
+    "verified": false,
+    "notes": "Gemini API proposes hours update."
+  },
+  {
+    "name": "Desert Farmer",
+    "currentHours": {
+      "Monday": "10:00 AM - 7:00 PM",
+      "Tuesday": "10:00 AM - 7:00 PM",
+      "Wednesday": "10:00 AM - 7:00 PM",
+      "Thursday": "10:00 AM - 7:00 PM",
+      "Friday": "10:00 AM - 7:00 PM",
+      "Saturday": "10:00 AM - 7:00 PM",
+      "Sunday": "10:00 AM - 7:00 PM"
+    },
+    "proposedHours": {
+      "Monday": "Closed",
+      "Tuesday": "Closed",
+      "Wednesday": "Closed",
+      "Thursday": "Closed",
+      "Friday": "Closed",
+      "Saturday": "Closed",
+      "Sunday": "Closed"
+    },
+    "closed": false,
+    "verified": false,
+    "notes": "Gemini API proposes hours update."
+  }
+]
