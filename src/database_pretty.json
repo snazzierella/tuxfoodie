@@ -17197,5 +17197,138 @@
       "Saturday": "10:00 AM - 10:00 PM",
       "Sunday": "10:00 AM - 10:00 PM"
     }
+  },
+  {
+    "name": "Emerald 29",
+    "cuisine": "Bar, Pub & Brewery",
+    "neighborhood": "Urban Core",
+    "distance": 3,
+    "price": "$$$",
+    "notes": "Upscale, hidden subterranean speakeasy inside a historic Congress Street vault; serving craft cocktails and small bites.",
+    "isLocal": true,
+    "enriched": true,
+    "hours": {
+      "Monday": "Closed",
+      "Tuesday": "Closed",
+      "Wednesday": "Closed",
+      "Thursday": "8:00 PM - 12:00 AM",
+      "Friday": "8:00 PM - 12:00 AM",
+      "Saturday": "8:00 PM - 12:00 AM",
+      "Sunday": "Closed"
+    }
+  },
+  {
+    "name": "Seis Cantina",
+    "cuisine": "Mexican & Sonoran",
+    "neighborhood": "Northside & Foothills",
+    "distance": 4,
+    "price": "$$",
+    "notes": "Quick-serve taqueria concept in Joesler Village serving Sonoran street food, craft margaritas, and cold beers.",
+    "isLocal": true,
+    "enriched": true,
+    "hours": {
+      "Monday": "11:00 AM - 9:00 PM",
+      "Tuesday": "11:00 AM - 9:00 PM",
+      "Wednesday": "11:00 AM - 9:00 PM",
+      "Thursday": "11:00 AM - 9:00 PM",
+      "Friday": "11:00 AM - 9:00 PM",
+      "Saturday": "11:00 AM - 9:00 PM",
+      "Sunday": "11:00 AM - 9:00 PM"
+    }
+  },
+  {
+    "name": "Bubba-Que Smokehouse BBQ",
+    "cuisine": "Steakhouse & BBQ",
+    "neighborhood": "Southside & Heritage",
+    "distance": 4.5,
+    "price": "$$",
+    "notes": "Local food truck favorite turned brick-and-mortar spot on Campbell Ave; serving Texas barbecue with Sonoran Tex-Mex twists.",
+    "isLocal": true,
+    "enriched": true,
+    "hours": {
+      "Monday": "Closed",
+      "Tuesday": "11:00 AM - 8:00 PM",
+      "Wednesday": "11:00 AM - 8:00 PM",
+      "Thursday": "11:00 AM - 8:00 PM",
+      "Friday": "11:00 AM - 9:00 PM",
+      "Saturday": "11:00 AM - 9:00 PM",
+      "Sunday": "11:00 AM - 8:00 PM"
+    }
+  },
+  {
+    "name": "Edna's Eatery",
+    "cuisine": "American & Comfort",
+    "neighborhood": "Central & Midtown",
+    "distance": 1.8,
+    "price": "$$",
+    "notes": "Garden cafe inside the Tucson Botanical Gardens serving seasonal fresh breakfast and lunch with garden-grown herbs.",
+    "isLocal": true,
+    "enriched": true,
+    "hours": {
+      "Monday": "8:30 AM - 3:00 PM",
+      "Tuesday": "8:30 AM - 3:00 PM",
+      "Wednesday": "8:30 AM - 3:00 PM",
+      "Thursday": "8:30 AM - 3:00 PM",
+      "Friday": "8:30 AM - 3:00 PM",
+      "Saturday": "8:30 AM - 3:00 PM",
+      "Sunday": "8:30 AM - 3:00 PM"
+    }
+  },
+  {
+    "name": "Kintaro",
+    "cuisine": "Asian & Sushi",
+    "neighborhood": "Central & Midtown",
+    "distance": 3.8,
+    "price": "$$",
+    "notes": "Highly popular made-to-order All-You-Can-Eat sushi, sashimi, and hot hibachi plates on Speedway Blvd.",
+    "isLocal": true,
+    "enriched": true,
+    "hours": {
+      "Monday": "11:00 AM - 9:00 PM",
+      "Tuesday": "11:00 AM - 9:00 PM",
+      "Wednesday": "11:00 AM - 9:00 PM",
+      "Thursday": "11:00 AM - 9:00 PM",
+      "Friday": "11:00 AM - 9:30 PM",
+      "Saturday": "11:00 AM - 9:30 PM",
+      "Sunday": "11:00 AM - 9:00 PM"
+    }
+  },
+  {
+    "name": "Miramonte",
+    "cuisine": "American & Comfort",
+    "neighborhood": "Central & Midtown",
+    "distance": 1.7,
+    "price": "$$$",
+    "notes": "Mid-century modern American diner and bar on Speedway Blvd serving comfort classics, steaks, seafood, and homemade pies.",
+    "isLocal": true,
+    "enriched": true,
+    "hours": {
+      "Monday": "Closed",
+      "Tuesday": "4:00 PM - 11:00 PM",
+      "Wednesday": "4:00 PM - 11:00 PM",
+      "Thursday": "4:00 PM - 11:00 PM",
+      "Friday": "4:00 PM - 11:00 PM",
+      "Saturday": "4:00 PM - 11:00 PM",
+      "Sunday": "4:00 PM - 11:00 PM"
+    }
+  },
+  {
+    "name": "Zerai's International Bar",
+    "cuisine": "Bar, Pub & Brewery",
+    "neighborhood": "Central & Midtown",
+    "distance": 1.2,
+    "price": "$$",
+    "notes": "Afro-centric international bar in the Z Street complex with a global beer selection and early morning international sports broadcasts.",
+    "isLocal": true,
+    "enriched": true,
+    "hours": {
+      "Monday": "Closed",
+      "Tuesday": "12:00 PM - 10:00 PM",
+      "Wednesday": "12:00 PM - 10:00 PM",
+      "Thursday": "12:00 PM - 10:00 PM",
+      "Friday": "12:00 PM - 11:00 PM",
+      "Saturday": "6:00 AM - 11:00 PM",
+      "Sunday": "6:00 AM - 10:00 PM"
+    }
   }
 ]
