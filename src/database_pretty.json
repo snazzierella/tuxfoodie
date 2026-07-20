@@ -1425,6 +1425,44 @@
     }
   },
   {
+    "name": "Dunkin'",
+    "cuisine": "Coffee & Cafe",
+    "neighborhood": "Central & Midtown",
+    "distance": 1.2,
+    "price": "$",
+    "notes": "Active Speedway Blvd location serving donuts, coffee, and breakfast sandwiches.",
+    "isLocal": false,
+    "enriched": true,
+    "hours": {
+      "Monday": "5:00 AM - 8:00 PM",
+      "Tuesday": "5:00 AM - 8:00 PM",
+      "Wednesday": "5:00 AM - 8:00 PM",
+      "Thursday": "5:00 AM - 8:00 PM",
+      "Friday": "5:00 AM - 8:00 PM",
+      "Saturday": "5:00 AM - 8:00 PM",
+      "Sunday": "5:00 AM - 8:00 PM"
+    }
+  },
+  {
+    "name": "Zerai's International Bar",
+    "cuisine": "Bar, Pub & Brewery",
+    "neighborhood": "Central & Midtown",
+    "distance": 1.2,
+    "price": "$$",
+    "notes": "Afro-centric international bar in the Z Street complex with a global beer selection and early morning international sports broadcasts.",
+    "isLocal": true,
+    "enriched": true,
+    "hours": {
+      "Monday": "Closed",
+      "Tuesday": "12:00 PM - 10:00 PM",
+      "Wednesday": "12:00 PM - 10:00 PM",
+      "Thursday": "12:00 PM - 10:00 PM",
+      "Friday": "12:00 PM - 11:00 PM",
+      "Saturday": "6:00 AM - 11:00 PM",
+      "Sunday": "6:00 AM - 10:00 PM"
+    }
+  },
+  {
     "name": "China Szechwan",
     "cuisine": "Asian & Sushi",
     "neighborhood": "Central & Midtown",
@@ -1938,6 +1976,44 @@
     }
   },
   {
+    "name": "Baskin-Robbins",
+    "cuisine": "Dessert & Bakery",
+    "neighborhood": "Central & Midtown",
+    "distance": 1.5,
+    "price": "$",
+    "notes": "Classic ice cream parlor on 22nd St offering a wide range of flavors and frozen treats.",
+    "isLocal": false,
+    "enriched": true,
+    "hours": {
+      "Monday": "4:00 AM - 8:00 PM",
+      "Tuesday": "4:00 AM - 8:00 PM",
+      "Wednesday": "4:00 AM - 8:00 PM",
+      "Thursday": "4:00 AM - 8:00 PM",
+      "Friday": "4:00 AM - 8:00 PM",
+      "Saturday": "4:00 AM - 8:00 PM",
+      "Sunday": "5:00 AM - 8:00 PM"
+    }
+  },
+  {
+    "name": "Tokyo Sushi",
+    "cuisine": "Asian & Sushi",
+    "neighborhood": "Central & Midtown",
+    "distance": 1.5,
+    "price": "$$",
+    "notes": "Cozy Japanese restaurant on Speedway Blvd serving fresh sushi and classic dishes.",
+    "isLocal": true,
+    "enriched": true,
+    "hours": {
+      "Monday": "10:00 AM - 10:00 PM",
+      "Tuesday": "10:00 AM - 10:00 PM",
+      "Wednesday": "10:00 AM - 10:00 PM",
+      "Thursday": "10:00 AM - 10:00 PM",
+      "Friday": "10:00 AM - 10:00 PM",
+      "Saturday": "10:00 AM - 10:00 PM",
+      "Sunday": "10:00 AM - 10:00 PM"
+    }
+  },
+  {
     "name": "Einstein Bros. Bagels",
     "cuisine": "Breakfast & Diner",
     "neighborhood": "Central & University",
@@ -2394,6 +2470,25 @@
     }
   },
   {
+    "name": "Miramonte",
+    "cuisine": "American & Comfort",
+    "neighborhood": "Central & Midtown",
+    "distance": 1.7,
+    "price": "$$$",
+    "notes": "Mid-century modern American diner and bar on Speedway Blvd serving comfort classics, steaks, seafood, and homemade pies.",
+    "isLocal": true,
+    "enriched": true,
+    "hours": {
+      "Monday": "Closed",
+      "Tuesday": "4:00 PM - 11:00 PM",
+      "Wednesday": "4:00 PM - 11:00 PM",
+      "Thursday": "4:00 PM - 11:00 PM",
+      "Friday": "4:00 PM - 11:00 PM",
+      "Saturday": "4:00 PM - 11:00 PM",
+      "Sunday": "4:00 PM - 11:00 PM"
+    }
+  },
+  {
     "name": "Dany Hot Dogs",
     "cuisine": "Fast Food & Sandwiches",
     "neighborhood": "Central & Midtown",
@@ -2524,6 +2619,25 @@
       "Friday": "11:00 AM - 10:00 PM",
       "Saturday": "11:30 AM - 9:30 PM",
       "Sunday": "11:30 AM - 9:00 PM"
+    }
+  },
+  {
+    "name": "Edna's Eatery",
+    "cuisine": "American & Comfort",
+    "neighborhood": "Central & Midtown",
+    "distance": 1.8,
+    "price": "$$",
+    "notes": "Garden cafe inside the Tucson Botanical Gardens serving seasonal fresh breakfast and lunch with garden-grown herbs.",
+    "isLocal": true,
+    "enriched": true,
+    "hours": {
+      "Monday": "8:30 AM - 3:00 PM",
+      "Tuesday": "8:30 AM - 3:00 PM",
+      "Wednesday": "8:30 AM - 3:00 PM",
+      "Thursday": "8:30 AM - 3:00 PM",
+      "Friday": "8:30 AM - 3:00 PM",
+      "Saturday": "8:30 AM - 3:00 PM",
+      "Sunday": "8:30 AM - 3:00 PM"
     }
   },
   {
@@ -4598,6 +4712,25 @@
     }
   },
   {
+    "name": "Oahu Hawaiian BBQ",
+    "cuisine": "American & Comfort",
+    "neighborhood": "Central & Midtown",
+    "distance": 2.5,
+    "price": "$",
+    "notes": "Popular Hawaiian plate lunch spot on Grant Rd serving teriyaki chicken, kalua pork, and classic sides.",
+    "isLocal": true,
+    "enriched": true,
+    "hours": {
+      "Monday": "11:00 AM - 9:00 PM",
+      "Tuesday": "11:00 AM - 9:00 PM",
+      "Wednesday": "11:00 AM - 9:00 PM",
+      "Thursday": "11:00 AM - 9:00 PM",
+      "Friday": "11:00 AM - 9:00 PM",
+      "Saturday": "11:00 AM - 9:00 PM",
+      "Sunday": "11:00 AM - 9:00 PM"
+    }
+  },
+  {
     "name": "Cup Cafe",
     "cuisine": "Breakfast & Diner",
     "neighborhood": "Urban Core",
@@ -6042,6 +6175,25 @@
     }
   },
   {
+    "name": "Emerald 29",
+    "cuisine": "Bar, Pub & Brewery",
+    "neighborhood": "Urban Core",
+    "distance": 3,
+    "price": "$$$",
+    "notes": "Upscale, hidden subterranean speakeasy inside a historic Congress Street vault; serving craft cocktails and small bites.",
+    "isLocal": true,
+    "enriched": true,
+    "hours": {
+      "Monday": "Closed",
+      "Tuesday": "Closed",
+      "Wednesday": "Closed",
+      "Thursday": "8:00 PM - 12:00 AM",
+      "Friday": "8:00 PM - 12:00 AM",
+      "Saturday": "8:00 PM - 12:00 AM",
+      "Sunday": "Closed"
+    }
+  },
+  {
     "name": "Monsoon Chocolate",
     "cuisine": "Dessert & Bakery",
     "neighborhood": "Central & Midtown",
@@ -6116,6 +6268,25 @@
       "Friday": "11:00 AM - 2:00 AM",
       "Saturday": "9:00 AM - 2:00 AM",
       "Sunday": "9:00 AM - 12:00 AM"
+    }
+  },
+  {
+    "name": "Ono Hawaiian BBQ",
+    "cuisine": "Steakhouse & BBQ",
+    "neighborhood": "Central & Midtown",
+    "distance": 3.2,
+    "price": "$",
+    "notes": "Coming soon to Grant Rd next to Taco Bell; famous for plate lunches, kalua pork, and chicken katsu.",
+    "isLocal": false,
+    "enriched": true,
+    "hours": {
+      "Monday": "Closed",
+      "Tuesday": "Closed",
+      "Wednesday": "Closed",
+      "Thursday": "Closed",
+      "Friday": "Closed",
+      "Saturday": "Closed",
+      "Sunday": "Closed"
     }
   },
   {
@@ -7108,6 +7279,25 @@
     }
   },
   {
+    "name": "Kintaro",
+    "cuisine": "Asian & Sushi",
+    "neighborhood": "Central & Midtown",
+    "distance": 3.8,
+    "price": "$$",
+    "notes": "Highly popular made-to-order All-You-Can-Eat sushi, sashimi, and hot hibachi plates on Speedway Blvd.",
+    "isLocal": true,
+    "enriched": true,
+    "hours": {
+      "Monday": "11:00 AM - 9:00 PM",
+      "Tuesday": "11:00 AM - 9:00 PM",
+      "Wednesday": "11:00 AM - 9:00 PM",
+      "Thursday": "11:00 AM - 9:00 PM",
+      "Friday": "11:00 AM - 9:30 PM",
+      "Saturday": "11:00 AM - 9:30 PM",
+      "Sunday": "11:00 AM - 9:00 PM"
+    }
+  },
+  {
     "name": "UnCork'd Kitchen & Cocktails",
     "cuisine": "Bar, Pub & Brewery",
     "neighborhood": "Eastside & Vail",
@@ -7751,6 +7941,44 @@
       "Friday": "11:00 AM - 10:00 PM",
       "Saturday": "11:00 AM - 9:30 PM",
       "Sunday": "11:00 AM - 9:00 PM"
+    }
+  },
+  {
+    "name": "Seis Cantina",
+    "cuisine": "Mexican & Sonoran",
+    "neighborhood": "Northside & Foothills",
+    "distance": 4,
+    "price": "$$",
+    "notes": "Quick-serve taqueria concept in Joesler Village serving Sonoran street food, craft margaritas, and cold beers.",
+    "isLocal": true,
+    "enriched": true,
+    "hours": {
+      "Monday": "11:00 AM - 9:00 PM",
+      "Tuesday": "11:00 AM - 9:00 PM",
+      "Wednesday": "11:00 AM - 9:00 PM",
+      "Thursday": "11:00 AM - 9:00 PM",
+      "Friday": "11:00 AM - 9:00 PM",
+      "Saturday": "11:00 AM - 9:00 PM",
+      "Sunday": "11:00 AM - 9:00 PM"
+    }
+  },
+  {
+    "name": "Hawaiian Bros Island Grill",
+    "cuisine": "American & Comfort",
+    "neighborhood": "Eastside & Vail",
+    "distance": 4,
+    "price": "$",
+    "notes": "Fast-casual Hawaiian plate lunches featuring teriyaki chicken, kalua pork, and macaroni salad.",
+    "isLocal": false,
+    "enriched": true,
+    "hours": {
+      "Monday": "10:00 AM - 3:00 AM",
+      "Tuesday": "10:00 AM - 3:00 AM",
+      "Wednesday": "10:00 AM - 3:00 AM",
+      "Thursday": "10:00 AM - 3:00 AM",
+      "Friday": "10:00 AM - 3:00 AM",
+      "Saturday": "10:00 AM - 3:00 AM",
+      "Sunday": "10:00 AM - 3:00 AM"
     }
   },
   {
@@ -8701,6 +8929,25 @@
       "Friday": "10:30 AM - 6:30 PM",
       "Saturday": "10:30 AM - 5:00 PM",
       "Sunday": "11:00 AM - 4:00 PM"
+    }
+  },
+  {
+    "name": "Bubba-Que Smokehouse BBQ",
+    "cuisine": "Steakhouse & BBQ",
+    "neighborhood": "Southside & Heritage",
+    "distance": 4.5,
+    "price": "$$",
+    "notes": "Local food truck favorite turned brick-and-mortar spot on Campbell Ave; serving Texas barbecue with Sonoran Tex-Mex twists.",
+    "isLocal": true,
+    "enriched": true,
+    "hours": {
+      "Monday": "Closed",
+      "Tuesday": "11:00 AM - 8:00 PM",
+      "Wednesday": "11:00 AM - 8:00 PM",
+      "Thursday": "11:00 AM - 8:00 PM",
+      "Friday": "11:00 AM - 9:00 PM",
+      "Saturday": "11:00 AM - 9:00 PM",
+      "Sunday": "11:00 AM - 8:00 PM"
     }
   },
   {
@@ -14737,13 +14984,13 @@
     "isLocal": true,
     "enriched": true,
     "hours": {
-      "Monday": "3:00 PM - 9:00 PM",
-      "Tuesday": "3:00 PM - 9:00 PM",
-      "Wednesday": "3:00 PM - 9:00 PM",
-      "Thursday": "3:00 PM - 9:00 PM",
-      "Friday": "3:00 PM - 9:00 PM",
-      "Saturday": "3:00 PM - 9:00 PM",
-      "Sunday": "12:00 PM - 8:00 PM"
+      "Monday": "3:30 PM - 8:30 PM",
+      "Tuesday": "3:30 PM - 8:30 PM",
+      "Wednesday": "3:30 PM - 8:30 PM",
+      "Thursday": "3:30 PM - 8:30 PM",
+      "Friday": "3:30 PM - 8:30 PM",
+      "Saturday": "3:30 PM - 8:30 PM",
+      "Sunday": "12:30 PM - 7:30 PM"
     }
   },
   {
@@ -16933,25 +17180,6 @@
     }
   },
   {
-    "name": "Pub 1922",
-    "cuisine": "Bar, Pub & Brewery",
-    "neighborhood": "Southside & Heritage",
-    "distance": 19.2,
-    "price": "$$",
-    "notes": "Commonly known as Pub 1922.",
-    "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "Closed",
-      "Tuesday": "11:00 AM - 8:00 PM",
-      "Wednesday": "11:00 AM - 8:00 PM",
-      "Thursday": "11:00 AM - 8:00 PM",
-      "Friday": "11:00 AM - 9:00 PM",
-      "Saturday": "11:00 AM - 9:00 PM",
-      "Sunday": "11:00 AM - 8:00 PM"
-    }
-  },
-  {
     "name": "Cayton’s Restaurant",
     "cuisine": "American & Comfort",
     "neighborhood": "Northwest & Marana",
@@ -17138,234 +17366,6 @@
       "Thursday": "11:00 AM - 9:00 PM",
       "Friday": "11:00 AM - 9:00 PM",
       "Saturday": "11:00 AM - 9:00 PM",
-      "Sunday": "Closed"
-    }
-  },
-  {
-    "name": "Dunkin'",
-    "cuisine": "Coffee & Cafe",
-    "neighborhood": "Central & Midtown",
-    "distance": 1.2,
-    "price": "$",
-    "notes": "Active Speedway Blvd location serving donuts, coffee, and breakfast sandwiches.",
-    "isLocal": false,
-    "enriched": true,
-    "hours": {
-      "Monday": "5:00 AM - 8:00 PM",
-      "Tuesday": "5:00 AM - 8:00 PM",
-      "Wednesday": "5:00 AM - 8:00 PM",
-      "Thursday": "5:00 AM - 8:00 PM",
-      "Friday": "5:00 AM - 8:00 PM",
-      "Saturday": "5:00 AM - 8:00 PM",
-      "Sunday": "5:00 AM - 8:00 PM"
-    }
-  },
-  {
-    "name": "Baskin-Robbins",
-    "cuisine": "Dessert & Bakery",
-    "neighborhood": "Central & Midtown",
-    "distance": 1.5,
-    "price": "$",
-    "notes": "Classic ice cream parlor on 22nd St offering a wide range of flavors and frozen treats.",
-    "isLocal": false,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 10:00 PM",
-      "Tuesday": "11:00 AM - 10:00 PM",
-      "Wednesday": "11:00 AM - 10:00 PM",
-      "Thursday": "11:00 AM - 10:00 PM",
-      "Friday": "11:00 AM - 10:00 PM",
-      "Saturday": "11:00 AM - 10:00 PM",
-      "Sunday": "11:00 AM - 10:00 PM"
-    }
-  },
-  {
-    "name": "Tokyo Sushi",
-    "cuisine": "Asian & Sushi",
-    "neighborhood": "Central & Midtown",
-    "distance": 1.5,
-    "price": "$$",
-    "notes": "Cozy Japanese restaurant on Speedway Blvd serving fresh sushi and classic dishes.",
-    "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "10:00 AM - 10:00 PM",
-      "Tuesday": "10:00 AM - 10:00 PM",
-      "Wednesday": "10:00 AM - 10:00 PM",
-      "Thursday": "10:00 AM - 10:00 PM",
-      "Friday": "10:00 AM - 10:00 PM",
-      "Saturday": "10:00 AM - 10:00 PM",
-      "Sunday": "10:00 AM - 10:00 PM"
-    }
-  },
-  {
-    "name": "Emerald 29",
-    "cuisine": "Bar, Pub & Brewery",
-    "neighborhood": "Urban Core",
-    "distance": 3,
-    "price": "$$$",
-    "notes": "Upscale, hidden subterranean speakeasy inside a historic Congress Street vault; serving craft cocktails and small bites.",
-    "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "Closed",
-      "Tuesday": "Closed",
-      "Wednesday": "Closed",
-      "Thursday": "8:00 PM - 12:00 AM",
-      "Friday": "8:00 PM - 12:00 AM",
-      "Saturday": "8:00 PM - 12:00 AM",
-      "Sunday": "Closed"
-    }
-  },
-  {
-    "name": "Seis Cantina",
-    "cuisine": "Mexican & Sonoran",
-    "neighborhood": "Northside & Foothills",
-    "distance": 4,
-    "price": "$$",
-    "notes": "Quick-serve taqueria concept in Joesler Village serving Sonoran street food, craft margaritas, and cold beers.",
-    "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 9:00 PM",
-      "Tuesday": "11:00 AM - 9:00 PM",
-      "Wednesday": "11:00 AM - 9:00 PM",
-      "Thursday": "11:00 AM - 9:00 PM",
-      "Friday": "11:00 AM - 9:00 PM",
-      "Saturday": "11:00 AM - 9:00 PM",
-      "Sunday": "11:00 AM - 9:00 PM"
-    }
-  },
-  {
-    "name": "Bubba-Que Smokehouse BBQ",
-    "cuisine": "Steakhouse & BBQ",
-    "neighborhood": "Southside & Heritage",
-    "distance": 4.5,
-    "price": "$$",
-    "notes": "Local food truck favorite turned brick-and-mortar spot on Campbell Ave; serving Texas barbecue with Sonoran Tex-Mex twists.",
-    "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "Closed",
-      "Tuesday": "11:00 AM - 8:00 PM",
-      "Wednesday": "11:00 AM - 8:00 PM",
-      "Thursday": "11:00 AM - 8:00 PM",
-      "Friday": "11:00 AM - 9:00 PM",
-      "Saturday": "11:00 AM - 9:00 PM",
-      "Sunday": "11:00 AM - 8:00 PM"
-    }
-  },
-  {
-    "name": "Edna's Eatery",
-    "cuisine": "American & Comfort",
-    "neighborhood": "Central & Midtown",
-    "distance": 1.8,
-    "price": "$$",
-    "notes": "Garden cafe inside the Tucson Botanical Gardens serving seasonal fresh breakfast and lunch with garden-grown herbs.",
-    "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "8:30 AM - 3:00 PM",
-      "Tuesday": "8:30 AM - 3:00 PM",
-      "Wednesday": "8:30 AM - 3:00 PM",
-      "Thursday": "8:30 AM - 3:00 PM",
-      "Friday": "8:30 AM - 3:00 PM",
-      "Saturday": "8:30 AM - 3:00 PM",
-      "Sunday": "8:30 AM - 3:00 PM"
-    }
-  },
-  {
-    "name": "Kintaro",
-    "cuisine": "Asian & Sushi",
-    "neighborhood": "Central & Midtown",
-    "distance": 3.8,
-    "price": "$$",
-    "notes": "Highly popular made-to-order All-You-Can-Eat sushi, sashimi, and hot hibachi plates on Speedway Blvd.",
-    "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 9:00 PM",
-      "Tuesday": "11:00 AM - 9:00 PM",
-      "Wednesday": "11:00 AM - 9:00 PM",
-      "Thursday": "11:00 AM - 9:00 PM",
-      "Friday": "11:00 AM - 9:30 PM",
-      "Saturday": "11:00 AM - 9:30 PM",
-      "Sunday": "11:00 AM - 9:00 PM"
-    }
-  },
-  {
-    "name": "Miramonte",
-    "cuisine": "American & Comfort",
-    "neighborhood": "Central & Midtown",
-    "distance": 1.7,
-    "price": "$$$",
-    "notes": "Mid-century modern American diner and bar on Speedway Blvd serving comfort classics, steaks, seafood, and homemade pies.",
-    "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "Closed",
-      "Tuesday": "4:00 PM - 11:00 PM",
-      "Wednesday": "4:00 PM - 11:00 PM",
-      "Thursday": "4:00 PM - 11:00 PM",
-      "Friday": "4:00 PM - 11:00 PM",
-      "Saturday": "4:00 PM - 11:00 PM",
-      "Sunday": "4:00 PM - 11:00 PM"
-    }
-  },
-  {
-    "name": "Zerai's International Bar",
-    "cuisine": "Bar, Pub & Brewery",
-    "neighborhood": "Central & Midtown",
-    "distance": 1.2,
-    "price": "$$",
-    "notes": "Afro-centric international bar in the Z Street complex with a global beer selection and early morning international sports broadcasts.",
-    "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "Closed",
-      "Tuesday": "12:00 PM - 10:00 PM",
-      "Wednesday": "12:00 PM - 10:00 PM",
-      "Thursday": "12:00 PM - 10:00 PM",
-      "Friday": "12:00 PM - 11:00 PM",
-      "Saturday": "6:00 AM - 11:00 PM",
-      "Sunday": "6:00 AM - 10:00 PM"
-    }
-  },
-  {
-    "name": "Hawaiian Bros Island Grill",
-    "cuisine": "American & Comfort",
-    "neighborhood": "Eastside & Vail",
-    "distance": 4,
-    "price": "$",
-    "notes": "Fast-casual Hawaiian plate lunches featuring teriyaki chicken, kalua pork, and macaroni salad.",
-    "isLocal": false,
-    "enriched": true,
-    "hours": {
-      "Monday": "10:00 AM - 3:00 AM",
-      "Tuesday": "10:00 AM - 3:00 AM",
-      "Wednesday": "10:00 AM - 3:00 AM",
-      "Thursday": "10:00 AM - 3:00 AM",
-      "Friday": "10:00 AM - 3:00 AM",
-      "Saturday": "10:00 AM - 3:00 AM",
-      "Sunday": "10:00 AM - 3:00 AM"
-    }
-  },
-  {
-    "name": "Ono Hawaiian BBQ",
-    "cuisine": "Steakhouse & BBQ",
-    "neighborhood": "Central & Midtown",
-    "distance": 3.2,
-    "price": "$",
-    "notes": "Coming soon to Grant Rd next to Taco Bell; famous for plate lunches, kalua pork, and chicken katsu.",
-    "isLocal": false,
-    "enriched": true,
-    "hours": {
-      "Monday": "Closed",
-      "Tuesday": "Closed",
-      "Wednesday": "Closed",
-      "Thursday": "Closed",
-      "Friday": "Closed",
-      "Saturday": "Closed",
       "Sunday": "Closed"
     }
   }
