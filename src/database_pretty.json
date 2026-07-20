@@ -17330,5 +17330,43 @@
       "Saturday": "6:00 AM - 11:00 PM",
       "Sunday": "6:00 AM - 10:00 PM"
     }
+  },
+  {
+    "name": "Hawaiian Bros Island Grill",
+    "cuisine": "American & Comfort",
+    "neighborhood": "Eastside & Vail",
+    "distance": 4,
+    "price": "$",
+    "notes": "Fast-casual Hawaiian plate lunches featuring teriyaki chicken, kalua pork, and macaroni salad.",
+    "isLocal": false,
+    "enriched": true,
+    "hours": {
+      "Monday": "10:00 AM - 3:00 AM",
+      "Tuesday": "10:00 AM - 3:00 AM",
+      "Wednesday": "10:00 AM - 3:00 AM",
+      "Thursday": "10:00 AM - 3:00 AM",
+      "Friday": "10:00 AM - 3:00 AM",
+      "Saturday": "10:00 AM - 3:00 AM",
+      "Sunday": "10:00 AM - 3:00 AM"
+    }
+  },
+  {
+    "name": "Ono Hawaiian BBQ",
+    "cuisine": "Steakhouse & BBQ",
+    "neighborhood": "Central & Midtown",
+    "distance": 3.2,
+    "price": "$",
+    "notes": "Coming soon to Grant Rd next to Taco Bell; famous for plate lunches, kalua pork, and chicken katsu.",
+    "isLocal": false,
+    "enriched": true,
+    "hours": {
+      "Monday": "Closed",
+      "Tuesday": "Closed",
+      "Wednesday": "Closed",
+      "Thursday": "Closed",
+      "Friday": "Closed",
+      "Saturday": "Closed",
+      "Sunday": "Closed"
+    }
   }
 ]
