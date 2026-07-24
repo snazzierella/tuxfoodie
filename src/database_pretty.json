@@ -4731,6 +4731,26 @@
     }
   },
   {
+    "name": "1989 Bake House",
+    "cuisine": "Bakery (cookies, brownies)",
+    "neighborhood": "Central & Midtown",
+    "distance": 2.5,
+    "price": "$$",
+    "notes": "Artisanal bakery known for gigantic cinnamon rolls, New York-style cookies, and specialty coffee.",
+    "isLocal": true,
+    "enriched": true,
+    "hours": {
+      "Monday": "6:30 AM - 7:00 PM",
+      "Tuesday": "6:30 AM - 7:00 PM",
+      "Wednesday": "6:30 AM - 7:00 PM",
+      "Thursday": "6:30 AM - 7:00 PM",
+      "Friday": "6:30 AM - 9:00 PM",
+      "Saturday": "6:30 AM - 9:00 PM",
+      "Sunday": "8:00 AM - 4:00 PM"
+    },
+    "manuallyAdded": true
+  },
+  {
     "name": "Cup Cafe",
     "cuisine": "Breakfast & Diner",
     "neighborhood": "Urban Core",
@@ -4957,6 +4977,26 @@
       "Saturday": "10:00 AM - 2:00 AM",
       "Sunday": "10:00 AM - 12:00 AM"
     }
+  },
+  {
+    "name": "Birdievee Coffee",
+    "cuisine": "Coffee",
+    "neighborhood": "Central & Midtown",
+    "distance": 2.6,
+    "price": "$",
+    "notes": "Cozy coffee hub offering local brews, dirty sodas, and sweet/savory grab-and-go treats.",
+    "isLocal": true,
+    "enriched": true,
+    "hours": {
+      "Monday": "7:00 AM - 3:00 PM",
+      "Tuesday": "7:00 AM - 3:00 PM",
+      "Wednesday": "7:00 AM - 3:00 PM",
+      "Thursday": "7:00 AM - 3:00 PM",
+      "Friday": "7:00 AM - 3:00 PM",
+      "Saturday": "Closed",
+      "Sunday": "Closed"
+    },
+    "manuallyAdded": true
   },
   {
     "name": "Exo Roast Co.",
@@ -5356,6 +5396,46 @@
       "Saturday": "12:00 PM - 2:00 AM",
       "Sunday": "12:00 PM - 2:00 AM"
     }
+  },
+  {
+    "name": "Don Ribs BBQ",
+    "cuisine": "Sonoran-influenced BBQ",
+    "neighborhood": "Urban Core",
+    "distance": 2.7,
+    "price": "$$",
+    "notes": "Handcrafted Latin-style BBQ, specializing in slow-smoked ribs, pulled pork, and loaded comfort food with unique sauces.",
+    "isLocal": true,
+    "enriched": true,
+    "hours": {
+      "Monday": "11:00 AM - 9:00 PM",
+      "Tuesday": "11:00 AM - 9:00 PM",
+      "Wednesday": "11:00 AM - 9:00 PM",
+      "Thursday": "11:00 AM - 10:00 PM",
+      "Friday": "11:00 AM - 10:00 PM",
+      "Saturday": "11:00 AM - 10:00 PM",
+      "Sunday": "11:00 AM - 9:00 PM"
+    },
+    "manuallyAdded": true
+  },
+  {
+    "name": "Samurai Teppan Steak & Sushi",
+    "cuisine": "Sushi, Teppan Steak",
+    "neighborhood": "Urban Core",
+    "distance": 2.7,
+    "price": "$$",
+    "notes": "Serving hibachi favorites, fresh sushi, and Japanese-inspired dishes in a vibrant food hall setting.",
+    "isLocal": true,
+    "enriched": true,
+    "hours": {
+      "Monday": "7:00 AM - 11:00 PM",
+      "Tuesday": "7:00 AM - 11:00 PM",
+      "Wednesday": "7:00 AM - 11:00 PM",
+      "Thursday": "7:00 AM - 11:00 PM",
+      "Friday": "7:00 AM - 11:00 PM",
+      "Saturday": "7:00 AM - 11:00 PM",
+      "Sunday": "7:00 AM - 11:00 PM"
+    },
+    "manuallyAdded": true
   },
   {
     "name": "La Indita",
@@ -10852,6 +10932,26 @@
     }
   },
   {
+    "name": "Biergarten German Kitchen & Bar",
+    "cuisine": "German",
+    "neighborhood": "Westside & Downtown",
+    "distance": 5.3,
+    "price": "$$",
+    "notes": "Traditional German food with a beer garden spirit, featuring schnitzel, spaetzle, and imported German beers.",
+    "isLocal": true,
+    "enriched": true,
+    "hours": {
+      "Monday": "Closed",
+      "Tuesday": "11:00 AM - 9:00 PM",
+      "Wednesday": "11:00 AM - 9:00 PM",
+      "Thursday": "11:00 AM - 9:00 PM",
+      "Friday": "11:00 AM - 10:00 PM",
+      "Saturday": "11:00 AM - 10:00 PM",
+      "Sunday": "11:00 AM - 9:00 PM"
+    },
+    "manuallyAdded": true
+  },
+  {
     "name": "Nook",
     "cuisine": "American & Comfort",
     "neighborhood": "Urban Core",
@@ -13608,6 +13708,26 @@
     }
   },
   {
+    "name": "Sydney's Sweet Shoppe",
+    "cuisine": "Bakery (pies)",
+    "neighborhood": "Eastside & Vail",
+    "distance": 7.4,
+    "price": "$$",
+    "notes": "Handmade pies with flaky crusts from generational recipes; fruit, cream, and seasonal flavors.",
+    "isLocal": true,
+    "enriched": true,
+    "hours": {
+      "Monday": "Closed",
+      "Tuesday": "10:00 AM - 5:00 PM",
+      "Wednesday": "10:00 AM - 5:00 PM",
+      "Thursday": "10:00 AM - 5:00 PM",
+      "Friday": "10:00 AM - 5:00 PM",
+      "Saturday": "10:00 AM - 4:00 PM",
+      "Sunday": "Closed"
+    },
+    "manuallyAdded": true
+  },
+  {
     "name": "Fentonelli's",
     "cuisine": "Italian & Pizza",
     "neighborhood": "Northside & Foothills",
@@ -14062,6 +14182,26 @@
       "Saturday": "11:00 AM - 11:59 PM",
       "Sunday": "11:00 AM - 11:00 PM"
     }
+  },
+  {
+    "name": "Bitty & Beau's",
+    "cuisine": "Mobile coffee cruiser",
+    "neighborhood": "Northside & Foothills",
+    "distance": 7.8,
+    "price": "$",
+    "notes": "Mobile coffee cruiser employing people with disabilities, offering specialty coffees, lattes, and positive vibes. Schedule and locations vary.",
+    "isLocal": true,
+    "enriched": true,
+    "hours": {
+      "Monday": "Closed",
+      "Tuesday": "8:00 AM - 12:00 PM",
+      "Wednesday": "Closed",
+      "Thursday": "Closed",
+      "Friday": "Closed",
+      "Saturday": "Closed",
+      "Sunday": "Closed"
+    },
+    "manuallyAdded": true
   },
   {
     "name": "Truland",
@@ -15336,6 +15476,26 @@
       "Saturday": "12:00 PM - 3:00 PM, 4:00 PM - 8:00 PM",
       "Sunday": "Closed"
     }
+  },
+  {
+    "name": "The Hills by Monica",
+    "cuisine": "Café (breakfast, lunch, dinner)",
+    "neighborhood": "Eastside & Vail",
+    "distance": 9.8,
+    "price": "$$",
+    "notes": "Neighborhood cafe with all-day menu, brick oven pizza, cocktails, and mountain views.",
+    "isLocal": true,
+    "enriched": true,
+    "hours": {
+      "Monday": "10:00 AM - 9:00 PM",
+      "Tuesday": "10:00 AM - 9:00 PM",
+      "Wednesday": "10:00 AM - 9:00 PM",
+      "Thursday": "10:00 AM - 9:00 PM",
+      "Friday": "10:00 AM - 9:00 PM",
+      "Saturday": "8:00 AM - 9:00 PM",
+      "Sunday": "8:00 AM - 9:00 PM"
+    },
+    "manuallyAdded": true
   },
   {
     "name": "Crema Coffee",
