@@ -1957,25 +1957,6 @@
     }
   },
   {
-    "name": "Sexy Grilled Cheese",
-    "cuisine": "Fast Food & Sandwiches",
-    "neighborhood": "Central & Midtown",
-    "distance": 1.5,
-    "price": "$$",
-    "notes": "Chef-driven artisan cheese melts, loaded mac & cheese bowls, and rich tomato bisque.",
-    "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "4:00 PM - 10:00 PM",
-      "Tuesday": "4:00 PM - 10:00 PM",
-      "Wednesday": "4:00 PM - 10:00 PM",
-      "Thursday": "4:00 PM - 10:00 PM",
-      "Friday": "4:00 PM - 10:00 PM",
-      "Saturday": "4:00 PM - 10:00 PM",
-      "Sunday": "4:00 PM - 10:00 PM"
-    }
-  },
-  {
     "name": "Baskin-Robbins",
     "cuisine": "Dessert & Bakery",
     "neighborhood": "Central & Midtown",
