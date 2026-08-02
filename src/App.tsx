@@ -44,7 +44,9 @@ import {
   Drumstick,
   Egg,
   Award,
-  Store
+  Store,
+  Share2,
+  MessageSquarePlus
 } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
 
@@ -202,6 +204,8 @@ const RestaurantCard: FC<RestaurantCardProps> = ({
   onToggleFavorite,
   onToggleNotInterested
 }) => {
+  const isSpotlight = restaurant.name.toLowerCase().trim() === 'wings and rice';
+
   return (
     <motion.div 
       initial={{ opacity: 0, y: 20 }}
@@ -209,13 +213,17 @@ const RestaurantCard: FC<RestaurantCardProps> = ({
       exit={{ opacity: 0, scale: 0.95 }}
       className={`
         relative p-5 rounded-3xl border-2 transition-all duration-300
-        ${isVisited 
-          ? isDarkMode ? 'bg-teal-900/40 border-teal-800 shadow-sm' : 'bg-teal-50/80 border-teal-200 shadow-sm' 
-          : isNotInterested
-            ? isDarkMode ? 'bg-slate-900/50 border-slate-800 opacity-60' : 'bg-slate-50 border-slate-100 opacity-60'
-            : isDarkMode 
-              ? 'bg-slate-800/80 border-slate-700 shadow-sm shadow-slate-900 hover:shadow-md hover:shadow-slate-800 hover:-translate-y-1'
-              : 'bg-white border-rose-100 shadow-sm shadow-rose-100 hover:shadow-md hover:shadow-rose-200 hover:-translate-y-1'
+        ${isSpotlight
+          ? isDarkMode 
+            ? 'bg-amber-950/40 border-amber-500/80 shadow-lg shadow-amber-950/50 ring-2 ring-amber-500/20 hover:-translate-y-1' 
+            : 'bg-amber-50/90 border-amber-300 shadow-lg shadow-amber-100 ring-2 ring-amber-200/50 hover:-translate-y-1'
+          : isVisited 
+            ? isDarkMode ? 'bg-teal-900/40 border-teal-800 shadow-sm' : 'bg-teal-50/80 border-teal-200 shadow-sm' 
+            : isNotInterested
+              ? isDarkMode ? 'bg-slate-900/50 border-slate-800 opacity-60' : 'bg-slate-50 border-slate-100 opacity-60'
+              : isDarkMode 
+                ? 'bg-slate-800/80 border-slate-700 shadow-sm shadow-slate-900 hover:shadow-md hover:shadow-slate-800 hover:-translate-y-1'
+                : 'bg-white border-rose-100 shadow-sm shadow-rose-100 hover:shadow-md hover:shadow-rose-200 hover:-translate-y-1'
         }
       `}
     >
@@ -225,12 +233,22 @@ const RestaurantCard: FC<RestaurantCardProps> = ({
             <h3 className={`font-display text-xl font-bold leading-tight ${
               isVisited 
                 ? isDarkMode ? 'text-teal-400' : 'text-teal-700' 
-                : isNotInterested
-                  ? 'text-slate-500 line-through'
-                  : isDarkMode ? 'text-slate-100' : 'text-slate-700'
+                : isSpotlight
+                  ? isDarkMode ? 'text-amber-400' : 'text-amber-700 font-extrabold'
+                  : isNotInterested
+                    ? 'text-slate-500 line-through'
+                    : isDarkMode ? 'text-slate-100' : 'text-slate-700'
             }`}>
               {restaurant.name}
             </h3>
+            {isSpotlight && (
+              <span className={`inline-flex items-center gap-1 px-2.5 py-1 rounded-full text-[10px] font-black uppercase tracking-wide border ${
+                isDarkMode ? 'bg-amber-950/60 text-amber-300 border-amber-800/80' : 'bg-amber-100 text-amber-700 border-amber-200'
+              }`}>
+                <Sparkles className="w-3 h-3 text-amber-500 fill-current" />
+                Spotlight
+              </span>
+            )}
             {isVisited && (
               <span className={`inline-flex items-center px-2.5 py-1 rounded-full text-[10px] font-bold uppercase tracking-wide border ${
                 isDarkMode ? 'bg-teal-900/60 text-teal-300 border-teal-700' : 'bg-teal-100 text-teal-600 border-teal-200'
@@ -539,6 +557,7 @@ export default function App() {
   const [showFilters, setShowFilters] = useState(false);
   const [randomPick, setRandomPick] = useState<Restaurant | null>(null);
   const [showResetConfirm, setShowResetConfirm] = useState(false);
+  const [copiedToast, setCopiedToast] = useState(false);
   const [batchVisitData, setBatchVisitData] = useState<{ name: string, displayName: string, currentId: string } | null>(null);
   const [unlockedAchievements, setUnlockedAchievements] = useState<Set<string>>(() => {
     const saved = localStorage.getItem('tuxfoodie-achievements');
@@ -602,6 +621,13 @@ export default function App() {
     }
   }, [isDarkMode]);
 
+  useEffect(() => {
+    if (copiedToast) {
+      const timer = setTimeout(() => setCopiedToast(false), 2000);
+      return () => clearTimeout(timer);
+    }
+  }, [copiedToast]);
+
   // Achievement Check
   useEffect(() => {
     const percentage = stats.percentage;
@@ -639,7 +665,7 @@ export default function App() {
   [restaurants]);
 
   const filteredRestaurants = useMemo(() => {
-    return restaurants.filter(r => {
+    const list = restaurants.filter(r => {
       const id = getRestaurantId(r);
       const matchesSearch = r.name.toLowerCase().includes(search.toLowerCase()) || 
                           (r.notes || '').toLowerCase().includes(search.toLowerCase()) ||
@@ -683,6 +709,15 @@ export default function App() {
           return a.distance - b.distance;
       }
     });
+
+    // TuxFoodie Spotlight: Move "Wings and Rice" to the very top of the list if it matches filters
+    const spotlightIndex = list.findIndex(r => r.name.toLowerCase().trim() === 'wings and rice');
+    if (spotlightIndex > -1) {
+      const [spotlighted] = list.splice(spotlightIndex, 1);
+      list.unshift(spotlighted);
+    }
+
+    return list;
   }, [search, selectedNeighborhood, selectedCuisine, selectedPrice, maxDistance, visitedFilter, favoritesOnly, openNowOnly, sortBy, visited, favorites, notInterested, localFilter]);
 
   // Handlers
@@ -773,6 +808,36 @@ export default function App() {
     setShowResetConfirm(false);
   };
 
+  const handleShare = () => {
+    const shareData = {
+      title: 'TuxFoodie Directory',
+      text: 'Explore the best culinary spots in Tucson, AZ with the TuxFoodie Directory! 🌮',
+      url: window.location.origin
+    };
+
+    if (navigator.share && navigator.canShare && navigator.canShare(shareData)) {
+      navigator.share(shareData).catch((err) => {
+        if (err.name !== 'AbortError') {
+          copyToClipboard();
+        }
+      });
+    } else {
+      copyToClipboard();
+    }
+  };
+
+  const copyToClipboard = () => {
+    navigator.clipboard.writeText(window.location.origin).then(() => {
+      setCopiedToast(true);
+    }).catch(() => {
+      alert("Failed to copy link. You can copy the browser URL directly!");
+    });
+  };
+
+  const handleSuggest = () => {
+    window.open('https://docs.google.com/forms/d/e/1FAIpQLSe5af_h6Srkedyr6Rvs7PCvu09iJKkxAKxc8CNsxb83Ajv5WA/viewform', '_blank', 'noopener,noreferrer');
+  };
+
   return (
     <div className={`min-h-screen font-sans pb-32 selection:bg-rose-200 transition-colors duration-300 overflow-x-hidden ${isDarkMode ? 'bg-slate-900 text-slate-100' : 'bg-rose-50 text-slate-700'}`}>
       {/* Background Pattern */}
@@ -799,14 +864,29 @@ export default function App() {
             <div className="flex flex-row sm:flex-col items-center sm:items-end justify-between sm:justify-start gap-3 w-full sm:w-auto">
               <div className="flex gap-2">
                 <button
+                  onClick={handleShare}
+                  className={`p-2 rounded-full transition-colors cursor-pointer ${isDarkMode ? 'bg-slate-800 text-teal-400 hover:bg-slate-700' : 'bg-white text-teal-400 hover:text-teal-500 shadow-sm shadow-rose-100'}`}
+                  title="Share TuxFoodie"
+                >
+                  <Share2 className="w-5 h-5" />
+                </button>
+                <button
+                  onClick={handleSuggest}
+                  className={`p-2 rounded-full transition-colors cursor-pointer ${isDarkMode ? 'bg-slate-800 text-indigo-400 hover:bg-slate-700' : 'bg-white text-indigo-400 hover:text-indigo-500 shadow-sm shadow-rose-100'}`}
+                  title="Suggest a Missing Restaurant"
+                >
+                  <MessageSquarePlus className="w-5 h-5" />
+                </button>
+                <button
                   onClick={() => setIsDarkMode(!isDarkMode)}
-                  className={`p-2 rounded-full transition-colors ${isDarkMode ? 'bg-slate-800 text-yellow-400 hover:bg-slate-700' : 'bg-white text-slate-400 hover:text-yellow-500 shadow-sm shadow-rose-100'}`}
+                  className={`p-2 rounded-full transition-colors cursor-pointer ${isDarkMode ? 'bg-slate-800 text-yellow-400 hover:bg-slate-700' : 'bg-white text-slate-400 hover:text-yellow-500 shadow-sm shadow-rose-100'}`}
+                  title="Toggle Theme"
                 >
                   {isDarkMode ? <Sun className="w-5 h-5" /> : <Moon className="w-5 h-5" />}
                 </button>
                 <button
                   onClick={() => setShowResetConfirm(true)}
-                  className={`p-2 rounded-full transition-colors ${isDarkMode ? 'bg-slate-800 text-rose-400 hover:bg-slate-700' : 'bg-white text-rose-300 hover:text-rose-500 shadow-sm shadow-rose-100'}`}
+                  className={`p-2 rounded-full transition-colors cursor-pointer ${isDarkMode ? 'bg-slate-800 text-rose-400 hover:bg-slate-700' : 'bg-white text-rose-300 hover:text-rose-500 shadow-sm shadow-rose-100'}`}
                   title="Reset Progress"
                 >
                   <Trash2 className="w-5 h-5" />
@@ -1267,6 +1347,24 @@ export default function App() {
               </div>
             </motion.div>
           </div>
+        )}
+      </AnimatePresence>
+
+      {/* Toast Notification for Clipboard Copy */}
+      <AnimatePresence>
+        {copiedToast && (
+          <motion.div 
+            initial={{ opacity: 0, y: 50, scale: 0.9 }}
+            animate={{ opacity: 1, y: 0, scale: 1 }}
+            exit={{ opacity: 0, y: 20, scale: 0.9 }}
+            className={`fixed bottom-28 left-1/2 -translate-x-1/2 z-50 px-6 py-3 rounded-full shadow-2xl flex items-center gap-2 border text-sm font-bold transition-colors ${
+              isDarkMode 
+                ? 'bg-slate-800 text-teal-400 border-slate-700 shadow-slate-950' 
+                : 'bg-white text-teal-600 border-rose-100 shadow-rose-100/50'
+            }`}
+          >
+            <span>Link copied to clipboard! 📋</span>
+          </motion.div>
         )}
       </AnimatePresence>
     </div>
