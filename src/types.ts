@@ -9,4 +9,5 @@ export interface Restaurant {
   enriched?: boolean;
   hours?: { [day: string]: string };
   manuallyAdded?: boolean;
+  comingSoon?: boolean;
 }

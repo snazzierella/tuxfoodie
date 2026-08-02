@@ -5312,14 +5312,15 @@
     "isLocal": true,
     "enriched": true,
     "hours": {
-      "Monday": "Closed",
-      "Tuesday": "Closed",
-      "Wednesday": "Closed",
-      "Thursday": "Closed",
-      "Friday": "Closed",
-      "Saturday": "Closed",
-      "Sunday": "Closed"
-    }
+      "Monday": "Hours TBD",
+      "Tuesday": "Hours TBD",
+      "Wednesday": "Hours TBD",
+      "Thursday": "Hours TBD",
+      "Friday": "Hours TBD",
+      "Saturday": "Hours TBD",
+      "Sunday": "Hours TBD"
+    },
+    "comingSoon": true
   },
   {
     "name": "Playground Bar and Lounge",
@@ -6380,14 +6381,15 @@
     "isLocal": false,
     "enriched": true,
     "hours": {
-      "Monday": "Closed",
-      "Tuesday": "Closed",
-      "Wednesday": "Closed",
-      "Thursday": "Closed",
-      "Friday": "Closed",
-      "Saturday": "Closed",
-      "Sunday": "Closed"
-    }
+      "Monday": "Hours TBD",
+      "Tuesday": "Hours TBD",
+      "Wednesday": "Hours TBD",
+      "Thursday": "Hours TBD",
+      "Friday": "Hours TBD",
+      "Saturday": "Hours TBD",
+      "Sunday": "Hours TBD"
+    },
+    "comingSoon": true
   },
   {
     "name": "El Molinito",
@@ -8671,25 +8673,6 @@
     }
   },
   {
-    "name": "Bawker Bawker Cider",
-    "cuisine": "Bar, Pub & Brewery",
-    "neighborhood": "Urban Core",
-    "distance": 4.5,
-    "price": "$$",
-    "notes": "Unfiltered ciders; no-TV conversation policy; serves rotating seasonal fruit ciders in a relaxed environment.",
-    "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "Closed",
-      "Tuesday": "Closed",
-      "Wednesday": "4:00 PM - 10:00 PM",
-      "Thursday": "4:00 PM - 10:00 PM",
-      "Friday": "2:00 PM - 11:00 PM",
-      "Saturday": "12:00 PM - 11:00 PM",
-      "Sunday": "12:00 PM - 7:00 PM"
-    }
-  },
-  {
     "name": "Cafe Passe",
     "cuisine": "Coffee & Cafe",
     "neighborhood": "Urban Core",
@@ -9051,6 +9034,26 @@
     }
   },
   {
+    "name": "Double Down on Fourth",
+    "cuisine": "Bar, Pub & Brewery",
+    "neighborhood": "Urban Core",
+    "distance": 4.5,
+    "price": "$$",
+    "notes": "Southwest saloon with frozen Frosé in cowboy boots, local brews, and a rock-and-roll vibe.",
+    "isLocal": true,
+    "enriched": true,
+    "hours": {
+      "Monday": "3:00 PM - 12:00 AM",
+      "Tuesday": "3:00 PM - 12:00 AM",
+      "Wednesday": "3:00 PM - 12:00 AM",
+      "Thursday": "3:00 PM - 12:00 AM",
+      "Friday": "12:00 PM - 2:00 AM",
+      "Saturday": "12:00 PM - 2:00 AM",
+      "Sunday": "12:00 PM - 10:00 PM"
+    },
+    "manuallyAdded": true
+  },
+  {
     "name": "Sushi III",
     "cuisine": "Asian & Sushi",
     "neighborhood": "Northside & Foothills",
@@ -9364,14 +9367,15 @@
     "isLocal": true,
     "enriched": true,
     "hours": {
-      "Monday": "Temporarily Closed",
-      "Tuesday": "Temporarily Closed",
-      "Wednesday": "Temporarily Closed",
-      "Thursday": "Temporarily Closed",
-      "Friday": "Temporarily Closed",
-      "Saturday": "Temporarily Closed",
-      "Sunday": "Temporarily Closed"
-    }
+      "Monday": "Hours TBD",
+      "Tuesday": "Hours TBD",
+      "Wednesday": "Hours TBD",
+      "Thursday": "Hours TBD",
+      "Friday": "Hours TBD",
+      "Saturday": "Hours TBD",
+      "Sunday": "Hours TBD"
+    },
+    "comingSoon": true
   },
   {
     "name": "The Century Room",
@@ -12701,6 +12705,27 @@
     }
   },
   {
+    "name": "Frida American Brasserie",
+    "cuisine": "American & Comfort",
+    "neighborhood": "Northside & Foothills",
+    "distance": 6.3,
+    "price": "$$$",
+    "notes": "Elegant European-inspired American fine dining and Champagne bar coming soon to La Encantada.",
+    "isLocal": true,
+    "enriched": true,
+    "hours": {
+      "Monday": "Hours TBD",
+      "Tuesday": "Hours TBD",
+      "Wednesday": "Hours TBD",
+      "Thursday": "Hours TBD",
+      "Friday": "Hours TBD",
+      "Saturday": "Hours TBD",
+      "Sunday": "Hours TBD"
+    },
+    "manuallyAdded": true,
+    "comingSoon": true
+  },
+  {
     "name": "Carniceria El Sentimental",
     "cuisine": "Mexican & Sonoran",
     "neighborhood": "Northside & Foothills",
@@ -15038,6 +15063,27 @@
       "Saturday": "11:00 AM - 9:00 PM",
       "Sunday": "Closed"
     }
+  },
+  {
+    "name": "Moonsong Bar + Café",
+    "cuisine": "Coffee & Cafe",
+    "neighborhood": "Northwest & Marana",
+    "distance": 9.1,
+    "price": "$$",
+    "notes": "Sophisticated coming soon hotel cafe and bar serving Bluestone Lane coffee and craft cocktails.",
+    "isLocal": true,
+    "enriched": true,
+    "hours": {
+      "Monday": "Hours TBD",
+      "Tuesday": "Hours TBD",
+      "Wednesday": "Hours TBD",
+      "Thursday": "Hours TBD",
+      "Friday": "Hours TBD",
+      "Saturday": "Hours TBD",
+      "Sunday": "Hours TBD"
+    },
+    "manuallyAdded": true,
+    "comingSoon": true
   },
   {
     "name": "Ding Tea",
