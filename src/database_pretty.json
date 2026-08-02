@@ -4294,25 +4294,6 @@
     }
   },
   {
-    "name": "Dante's Fire",
-    "cuisine": "American & Comfort",
-    "neighborhood": "Central & Midtown",
-    "distance": 2.5,
-    "price": "$$",
-    "notes": "Impending permanent closure after July 19, 2026.",
-    "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "4:00 PM - 10:00 PM",
-      "Tuesday": "4:00 PM - 10:00 PM",
-      "Wednesday": "4:00 PM - 10:00 PM",
-      "Thursday": "4:00 PM - 10:00 PM",
-      "Friday": "4:00 PM - 12:00 AM",
-      "Saturday": "4:00 PM - 12:00 AM",
-      "Sunday": "4:00 PM - 10:00 PM"
-    }
-  },
-  {
     "name": "SideCar",
     "cuisine": "Bar, Pub & Brewery",
     "neighborhood": "Central & Midtown",
