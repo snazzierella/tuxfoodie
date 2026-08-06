@@ -1178,25 +1178,6 @@
     }
   },
   {
-    "name": "Salad and Go (Speedway)",
-    "cuisine": "Healthy, Vegan & Plant-Based",
-    "neighborhood": "Central & Midtown",
-    "distance": 1.2,
-    "price": "$",
-    "notes": "Drive-thru organic salads, healthy breakfast wraps, and fresh-brewed iced teas with sustainable sourcing.",
-    "isLocal": false,
-    "enriched": true,
-    "hours": {
-      "Monday": "6:30 AM - 9:00 PM",
-      "Tuesday": "6:30 AM - 9:00 PM",
-      "Wednesday": "6:30 AM - 9:00 PM",
-      "Thursday": "6:30 AM - 9:00 PM",
-      "Friday": "6:30 AM - 9:00 PM",
-      "Saturday": "7:00 AM - 9:00 PM",
-      "Sunday": "7:00 AM - 9:00 PM"
-    }
-  },
-  {
     "name": "Panera Bread",
     "cuisine": "Fast Food & Sandwiches",
     "neighborhood": "Central & Midtown",
