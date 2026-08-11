@@ -2831,6 +2831,26 @@
     }
   },
   {
+    "name": "O Sushi Restaurant",
+    "cuisine": "Asian & Sushi",
+    "neighborhood": "Central & Midtown",
+    "distance": 1.9,
+    "price": "$$",
+    "notes": "Relaxed, long-standing neighborhood sushi restaurant offering consistent quality rolls and bento lunches.",
+    "isLocal": true,
+    "enriched": true,
+    "hours": {
+      "Monday": "11:00 AM - 9:00 PM",
+      "Tuesday": "11:00 AM - 9:00 PM",
+      "Wednesday": "11:00 AM - 9:00 PM",
+      "Thursday": "11:00 AM - 9:00 PM",
+      "Friday": "11:00 AM - 10:00 PM",
+      "Saturday": "11:00 AM - 10:00 PM",
+      "Sunday": "11:00 AM - 9:00 PM"
+    },
+    "manuallyAdded": true
+  },
+  {
     "name": "Fuku Sushi",
     "cuisine": "Asian & Sushi",
     "neighborhood": "Central & University",
@@ -4942,6 +4962,26 @@
     "manuallyAdded": true
   },
   {
+    "name": "Block A",
+    "cuisine": "Bar, Pub & Brewery",
+    "neighborhood": "Urban Core",
+    "distance": 2.6,
+    "price": "$$",
+    "notes": "High-tech UA-themed sports bar and grill serving scratch-made pub food and Detroit-style pizza.",
+    "isLocal": true,
+    "enriched": true,
+    "hours": {
+      "Monday": "3:00 PM - 12:00 AM",
+      "Tuesday": "3:00 PM - 12:00 AM",
+      "Wednesday": "3:00 PM - 12:00 AM",
+      "Thursday": "3:00 PM - 12:00 AM",
+      "Friday": "12:00 PM - 2:00 AM",
+      "Saturday": "12:00 PM - 2:00 AM",
+      "Sunday": "12:00 PM - 10:00 PM"
+    },
+    "manuallyAdded": true
+  },
+  {
     "name": "Exo Roast Co.",
     "cuisine": "Coffee & Cafe",
     "neighborhood": "Urban Core",
@@ -6335,6 +6375,26 @@
     "comingSoon": true
   },
   {
+    "name": "Paco's Mexican Food",
+    "cuisine": "Mexican & Sonoran",
+    "neighborhood": "Central & Midtown",
+    "distance": 3.2,
+    "price": "$",
+    "notes": "Bright and fast Mexican eatery with a drive-thru, famous for signature breakfast burritos.",
+    "isLocal": true,
+    "enriched": true,
+    "hours": {
+      "Monday": "6:00 AM - 10:00 PM",
+      "Tuesday": "6:00 AM - 10:00 PM",
+      "Wednesday": "6:00 AM - 10:00 PM",
+      "Thursday": "6:00 AM - 10:00 PM",
+      "Friday": "6:00 AM - 11:00 PM",
+      "Saturday": "6:00 AM - 11:00 PM",
+      "Sunday": "6:00 AM - 10:00 PM"
+    },
+    "manuallyAdded": true
+  },
+  {
     "name": "El Molinito",
     "cuisine": "Mexican & Sonoran",
     "neighborhood": "Central & Midtown",
@@ -6865,6 +6925,26 @@
       "Saturday": "4:00 PM - 2:00 AM",
       "Sunday": "4:00 PM - 2:00 AM"
     }
+  },
+  {
+    "name": "Nate's Italian Kitchen (Campbell)",
+    "cuisine": "Italian & Pizza",
+    "neighborhood": "Northside & Foothills",
+    "distance": 3.5,
+    "price": "$$",
+    "notes": "Bustling central location for delicious hand-tossed pizzas, baked pastas, and classic garlic knots.",
+    "isLocal": true,
+    "enriched": true,
+    "hours": {
+      "Monday": "11:00 AM - 9:00 PM",
+      "Tuesday": "11:00 AM - 9:00 PM",
+      "Wednesday": "11:00 AM - 9:00 PM",
+      "Thursday": "11:00 AM - 9:00 PM",
+      "Friday": "11:00 AM - 10:00 PM",
+      "Saturday": "11:00 AM - 10:00 PM",
+      "Sunday": "11:00 AM - 9:00 PM"
+    },
+    "manuallyAdded": true
   },
   {
     "name": "DQ/Orange Julius",
@@ -9606,6 +9686,26 @@
     }
   },
   {
+    "name": "Eclectic Cafe",
+    "cuisine": "American & Comfort",
+    "neighborhood": "Eastside & Vail",
+    "distance": 4.9,
+    "price": "$$",
+    "notes": "Comfortable neighborhood cafe known for refreshing prickly pear tea and massive American-Mexican entrees.",
+    "isLocal": true,
+    "enriched": true,
+    "hours": {
+      "Monday": "11:00 AM - 8:30 PM",
+      "Tuesday": "11:00 AM - 8:30 PM",
+      "Wednesday": "11:00 AM - 8:30 PM",
+      "Thursday": "11:00 AM - 8:30 PM",
+      "Friday": "11:00 AM - 9:00 PM",
+      "Saturday": "11:00 AM - 9:00 PM",
+      "Sunday": "11:00 AM - 8:30 PM"
+    },
+    "manuallyAdded": true
+  },
+  {
     "name": "Viva Burrito",
     "cuisine": "Mexican & Sonoran",
     "neighborhood": "Southside & Heritage",
@@ -11887,6 +11987,26 @@
     }
   },
   {
+    "name": "Nate's Italian Kitchen (Golf Links)",
+    "cuisine": "Italian & Pizza",
+    "neighborhood": "Eastside & Vail",
+    "distance": 5.7,
+    "price": "$$",
+    "notes": "Casual East Side Italian favorite offering generous portions of pasta, pizza, and Italian sandwiches.",
+    "isLocal": true,
+    "enriched": true,
+    "hours": {
+      "Monday": "11:00 AM - 9:00 PM",
+      "Tuesday": "11:00 AM - 9:00 PM",
+      "Wednesday": "11:00 AM - 9:00 PM",
+      "Thursday": "11:00 AM - 9:00 PM",
+      "Friday": "11:00 AM - 10:00 PM",
+      "Saturday": "11:00 AM - 10:00 PM",
+      "Sunday": "11:00 AM - 9:00 PM"
+    },
+    "manuallyAdded": true
+  },
+  {
     "name": "The Coronet",
     "cuisine": "Mediterranean & Global",
     "neighborhood": "Urban Core",
@@ -12437,6 +12557,26 @@
       "Saturday": "11:00 AM - 8:00 PM",
       "Sunday": "Closed"
     }
+  },
+  {
+    "name": "Happy Rooster Cafe",
+    "cuisine": "Breakfast & Diner",
+    "neighborhood": "Eastside & Vail",
+    "distance": 6.1,
+    "price": "$$",
+    "notes": "Cozy neighborhood breakfast and lunch diner serving traditional eggs benedict, hashes, and melts.",
+    "isLocal": true,
+    "enriched": true,
+    "hours": {
+      "Monday": "6:00 AM - 2:00 PM",
+      "Tuesday": "6:00 AM - 2:00 PM",
+      "Wednesday": "6:00 AM - 2:00 PM",
+      "Thursday": "6:00 AM - 2:00 PM",
+      "Friday": "6:00 AM - 2:00 PM",
+      "Saturday": "6:00 AM - 2:00 PM",
+      "Sunday": "6:00 AM - 2:00 PM"
+    },
+    "manuallyAdded": true
   },
   {
     "name": "Taqueria Jason",
@@ -13391,6 +13531,26 @@
     }
   },
   {
+    "name": "Casa Del Rio",
+    "cuisine": "Mexican & Sonoran",
+    "neighborhood": "Eastside & Vail",
+    "distance": 7,
+    "price": "$$",
+    "notes": "Festive family eatery serving large Sonoran portions and their signature Santa Fe chicken sandwich.",
+    "isLocal": true,
+    "enriched": true,
+    "hours": {
+      "Monday": "11:00 AM - 9:00 PM",
+      "Tuesday": "11:00 AM - 9:00 PM",
+      "Wednesday": "11:00 AM - 9:00 PM",
+      "Thursday": "11:00 AM - 9:00 PM",
+      "Friday": "11:00 AM - 10:00 PM",
+      "Saturday": "11:00 AM - 10:00 PM",
+      "Sunday": "11:00 AM - 9:00 PM"
+    },
+    "manuallyAdded": true
+  },
+  {
     "name": "Rosati's",
     "cuisine": "Italian & Pizza",
     "neighborhood": "Eastside & Vail",
@@ -13617,6 +13777,46 @@
       "Saturday": "9:30 AM - 3:30 PM",
       "Sunday": "9:30 AM - 3:30 PM"
     }
+  },
+  {
+    "name": "Golden House Chinese Fast Food",
+    "cuisine": "Asian & Sushi",
+    "neighborhood": "Eastside & Vail",
+    "distance": 7.3,
+    "price": "$$",
+    "notes": "Relaxed spot for classic Chinese dishes with plentiful vegetarian, vegan, and gluten-free options.",
+    "isLocal": true,
+    "enriched": true,
+    "hours": {
+      "Monday": "11:00 AM - 9:00 PM",
+      "Tuesday": "Closed",
+      "Wednesday": "11:00 AM - 9:00 PM",
+      "Thursday": "11:00 AM - 9:00 PM",
+      "Friday": "11:00 AM - 9:30 PM",
+      "Saturday": "11:00 AM - 9:30 PM",
+      "Sunday": "11:00 AM - 9:00 PM"
+    },
+    "manuallyAdded": true
+  },
+  {
+    "name": "Margie's Kitchen",
+    "cuisine": "Breakfast & Diner",
+    "neighborhood": "Eastside & Vail",
+    "distance": 7.3,
+    "price": "$$",
+    "notes": "Warm neighborhood cafe serving hearty homestyle breakfast plates and classic diner lunch favorites.",
+    "isLocal": true,
+    "enriched": true,
+    "hours": {
+      "Monday": "6:00 AM - 2:00 PM",
+      "Tuesday": "6:00 AM - 2:00 PM",
+      "Wednesday": "6:00 AM - 2:00 PM",
+      "Thursday": "6:00 AM - 2:00 PM",
+      "Friday": "6:00 AM - 2:00 PM",
+      "Saturday": "6:00 AM - 2:00 PM",
+      "Sunday": "6:00 AM - 2:00 PM"
+    },
+    "manuallyAdded": true
   },
   {
     "name": "Percheron Mexican Grill",
@@ -14799,6 +14999,27 @@
     }
   },
   {
+    "name": "Casa Vera",
+    "cuisine": "Mexican & Sonoran",
+    "neighborhood": "Northwest & Marana",
+    "distance": 8.7,
+    "price": "$$",
+    "notes": "Regional Mexican cuisine with old-world hacienda design by Jordan Fuller and Emma Vera.",
+    "isLocal": true,
+    "enriched": true,
+    "hours": {
+      "Monday": "Hours TBD",
+      "Tuesday": "Hours TBD",
+      "Wednesday": "Hours TBD",
+      "Thursday": "Hours TBD",
+      "Friday": "Hours TBD",
+      "Saturday": "Hours TBD",
+      "Sunday": "Hours TBD"
+    },
+    "manuallyAdded": true,
+    "comingSoon": true
+  },
+  {
     "name": "Hidden Grill",
     "cuisine": "American & Comfort",
     "neighborhood": "Northside & Foothills",
@@ -15979,6 +16200,26 @@
       "Saturday": "10:00 AM - 9:00 PM",
       "Sunday": "11:00 AM - 8:00 PM"
     }
+  },
+  {
+    "name": "Sushi Cortaro",
+    "cuisine": "Asian & Sushi",
+    "neighborhood": "Northwest & Marana",
+    "distance": 11.5,
+    "price": "$$",
+    "notes": "Popular casual neighborhood spot offering a large selection of sushi rolls and Japanese classics.",
+    "isLocal": true,
+    "enriched": true,
+    "hours": {
+      "Monday": "11:00 AM - 9:30 PM",
+      "Tuesday": "11:00 AM - 9:30 PM",
+      "Wednesday": "11:00 AM - 9:30 PM",
+      "Thursday": "11:00 AM - 9:30 PM",
+      "Friday": "11:00 AM - 10:00 PM",
+      "Saturday": "11:00 AM - 10:00 PM",
+      "Sunday": "11:00 AM - 9:30 PM"
+    },
+    "manuallyAdded": true
   },
   {
     "name": "Papa Locos",
