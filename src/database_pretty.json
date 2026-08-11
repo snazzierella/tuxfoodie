@@ -4974,10 +4974,10 @@
       "Monday": "3:00 PM - 12:00 AM",
       "Tuesday": "3:00 PM - 12:00 AM",
       "Wednesday": "3:00 PM - 12:00 AM",
-      "Thursday": "3:00 PM - 12:00 AM",
-      "Friday": "12:00 PM - 2:00 AM",
-      "Saturday": "12:00 PM - 2:00 AM",
-      "Sunday": "12:00 PM - 10:00 PM"
+      "Thursday": "3:00 PM - 2:00 AM",
+      "Friday": "11:00 AM - 2:00 AM",
+      "Saturday": "10:00 AM - 2:00 AM",
+      "Sunday": "10:00 AM - 12:00 AM"
     },
     "manuallyAdded": true
   },
