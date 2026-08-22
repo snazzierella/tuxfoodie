@@ -2603,6 +2603,26 @@
     }
   },
   {
+    "name": "Imad Habibi Food Truck",
+    "cuisine": "Mediterranean & Global",
+    "neighborhood": "Central & Midtown",
+    "distance": 1.8,
+    "price": "$",
+    "notes": "Halal food truck offering delicious chicken shawarma, wings, and Greek-Arabic fusion dishes.",
+    "isLocal": true,
+    "enriched": true,
+    "hours": {
+      "Monday": "11:00 AM - 12:00 AM",
+      "Tuesday": "11:00 AM - 12:00 AM",
+      "Wednesday": "11:00 AM - 12:00 AM",
+      "Thursday": "11:00 AM - 12:00 AM",
+      "Friday": "11:00 AM - 12:00 AM",
+      "Saturday": "11:00 AM - 10:00 PM",
+      "Sunday": "4:00 PM - 1:00 AM"
+    },
+    "manuallyAdded": true
+  },
+  {
     "name": "Agave House",
     "cuisine": "Mexican & Sonoran",
     "neighborhood": "Central & University",
@@ -3364,6 +3384,26 @@
     }
   },
   {
+    "name": "Kiss of Smoke BBQ",
+    "cuisine": "Steakhouse & BBQ",
+    "neighborhood": "Central & Midtown",
+    "distance": 2.1,
+    "price": "$",
+    "notes": "Midtown brick-and-mortar spot famous for slow-smoked brisket, ribs, and pulled pork until sold out.",
+    "isLocal": true,
+    "enriched": true,
+    "hours": {
+      "Monday": "Closed",
+      "Tuesday": "Closed",
+      "Wednesday": "10:00 AM - 3:00 PM",
+      "Thursday": "10:00 AM - 3:00 PM",
+      "Friday": "10:00 AM - 3:00 PM",
+      "Saturday": "10:00 AM - 3:00 PM",
+      "Sunday": "Closed"
+    },
+    "manuallyAdded": true
+  },
+  {
     "name": "Tuk Tuk Thai",
     "cuisine": "Asian & Sushi",
     "neighborhood": "Central & Midtown",
@@ -3552,6 +3592,26 @@
       "Saturday": "11:00 AM - 2:00 AM",
       "Sunday": "11:00 AM - 2:00 AM"
     }
+  },
+  {
+    "name": "Bread & Butter Cafe",
+    "cuisine": "Breakfast & Diner",
+    "neighborhood": "Central & Midtown",
+    "distance": 2.2,
+    "price": "$",
+    "notes": "Cheery local diner serving classic American breakfast plates, hearty lunches, and fresh homemade pies.",
+    "isLocal": true,
+    "enriched": true,
+    "hours": {
+      "Monday": "6:00 AM - 2:00 PM",
+      "Tuesday": "6:00 AM - 2:00 PM",
+      "Wednesday": "6:00 AM - 2:00 PM",
+      "Thursday": "6:00 AM - 2:00 PM",
+      "Friday": "6:00 AM - 2:00 PM",
+      "Saturday": "6:00 AM - 2:00 PM",
+      "Sunday": "7:00 AM - 2:00 PM"
+    },
+    "manuallyAdded": true
   },
   {
     "name": "Tucson Hop Shop",
@@ -9305,6 +9365,26 @@
     }
   },
   {
+    "name": "Purple Tree Truck Organic Açai",
+    "cuisine": "Healthy, Vegan & Plant-Based",
+    "neighborhood": "Westside & Downtown",
+    "distance": 4.7,
+    "price": "$",
+    "notes": "Mobile truck serving fully organic açai bowls, smoothies, and vegan shakes with zero added sugar.",
+    "isLocal": true,
+    "enriched": true,
+    "hours": {
+      "Monday": "Hours TBD",
+      "Tuesday": "Hours TBD",
+      "Wednesday": "Hours TBD",
+      "Thursday": "Hours TBD",
+      "Friday": "Hours TBD",
+      "Saturday": "Hours TBD",
+      "Sunday": "8:00 AM - 12:00 PM"
+    },
+    "manuallyAdded": true
+  },
+  {
     "name": "BATA",
     "cuisine": "American & Comfort",
     "neighborhood": "Urban Core",
@@ -10844,6 +10924,26 @@
       "Saturday": "11:00 AM - 9:00 PM",
       "Sunday": "11:00 AM - 8:00 PM"
     }
+  },
+  {
+    "name": "Frank & Theresa's Anchor Bar",
+    "cuisine": "Bar, Pub & Brewery",
+    "neighborhood": "Eastside & Vail",
+    "distance": 5.2,
+    "price": "$$",
+    "notes": "Home of the original Buffalo wing, serving crispy wings, burgers, and pub classics.",
+    "isLocal": true,
+    "enriched": true,
+    "hours": {
+      "Monday": "11:00 AM - 10:00 PM",
+      "Tuesday": "11:00 AM - 10:00 PM",
+      "Wednesday": "11:00 AM - 10:00 PM",
+      "Thursday": "11:00 AM - 10:00 PM",
+      "Friday": "11:00 AM - 11:00 PM",
+      "Saturday": "11:00 AM - 11:00 PM",
+      "Sunday": "10:30 AM - 10:00 PM"
+    },
+    "manuallyAdded": true
   },
   {
     "name": "El Mezquite Grill",
