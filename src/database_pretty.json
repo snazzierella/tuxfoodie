@@ -15190,16 +15190,15 @@
     "isLocal": true,
     "enriched": true,
     "hours": {
-      "Monday": "Hours TBD",
-      "Tuesday": "Hours TBD",
-      "Wednesday": "Hours TBD",
-      "Thursday": "Hours TBD",
-      "Friday": "Hours TBD",
-      "Saturday": "Hours TBD",
-      "Sunday": "Hours TBD"
+      "Monday": "4:00 PM - 9:00 PM",
+      "Tuesday": "4:00 PM - 9:00 PM",
+      "Wednesday": "4:00 PM - 9:00 PM",
+      "Thursday": "4:00 PM - 9:00 PM",
+      "Friday": "4:00 PM - 9:00 PM",
+      "Saturday": "4:00 PM - 9:00 PM",
+      "Sunday": "Closed"
     },
-    "manuallyAdded": true,
-    "comingSoon": true
+    "manuallyAdded": true
   },
   {
     "name": "Hidden Grill",
