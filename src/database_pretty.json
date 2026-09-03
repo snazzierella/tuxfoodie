@@ -4774,6 +4774,26 @@
     "manuallyAdded": true
   },
   {
+    "name": "The Drunken Chicken",
+    "cuisine": "American & Comfort",
+    "neighborhood": "Central & University",
+    "distance": 2.5,
+    "price": "$$",
+    "notes": "Lively Fourth Avenue comfort food joint specializing in crispy fried chicken, fluffy waffles, and savory sides.",
+    "isLocal": true,
+    "enriched": true,
+    "hours": {
+      "Monday": "11:00 AM - 9:00 PM",
+      "Tuesday": "11:00 AM - 9:00 PM",
+      "Wednesday": "11:00 AM - 9:00 PM",
+      "Thursday": "11:00 AM - 9:00 PM",
+      "Friday": "11:00 AM - 10:00 PM",
+      "Saturday": "11:00 AM - 10:00 PM",
+      "Sunday": "11:00 AM - 9:00 PM"
+    },
+    "manuallyAdded": true
+  },
+  {
     "name": "Cup Cafe",
     "cuisine": "Breakfast & Diner",
     "neighborhood": "Urban Core",
@@ -5038,6 +5058,47 @@
       "Friday": "11:00 AM - 2:00 AM",
       "Saturday": "10:00 AM - 2:00 AM",
       "Sunday": "10:00 AM - 12:00 AM"
+    },
+    "manuallyAdded": true
+  },
+  {
+    "name": "Asaditos Zulmyta",
+    "cuisine": "Mediterranean & Global",
+    "neighborhood": "Urban Core",
+    "distance": 2.6,
+    "price": "$",
+    "notes": "Popular Salvadoran eatery expanding with a new mobile food truck serving handmade pupusas and grilled specialties.",
+    "isLocal": true,
+    "enriched": true,
+    "hours": {
+      "Monday": "Hours TBD",
+      "Tuesday": "Hours TBD",
+      "Wednesday": "Hours TBD",
+      "Thursday": "Hours TBD",
+      "Friday": "Hours TBD",
+      "Saturday": "Hours TBD",
+      "Sunday": "Hours TBD"
+    },
+    "manuallyAdded": true,
+    "comingSoon": true
+  },
+  {
+    "name": "Kabul Corner",
+    "cuisine": "Mediterranean & Global",
+    "neighborhood": "Central & Midtown",
+    "distance": 2.6,
+    "price": "$$",
+    "notes": "Traditional Afghan restaurant serving authentic flame-charred kabobs, aromatic specialty rice dishes, and stews.",
+    "isLocal": true,
+    "enriched": true,
+    "hours": {
+      "Monday": "11:00 AM - 9:00 PM",
+      "Tuesday": "11:00 AM - 9:00 PM",
+      "Wednesday": "11:00 AM - 9:00 PM",
+      "Thursday": "11:00 AM - 9:00 PM",
+      "Friday": "11:00 AM - 9:30 PM",
+      "Saturday": "11:00 AM - 9:30 PM",
+      "Sunday": "11:00 AM - 9:00 PM"
     },
     "manuallyAdded": true
   },
@@ -5324,25 +5385,6 @@
       "Friday": "24 Hours",
       "Saturday": "24 Hours",
       "Sunday": "24 Hours"
-    }
-  },
-  {
-    "name": "Berry Greens Juice Bar",
-    "cuisine": "Healthy, Vegan & Plant-Based",
-    "neighborhood": "Urban Core",
-    "distance": 2.7,
-    "price": "$$",
-    "notes": "Refreshing and healthy juices, smoothies, and acai bowls, perfect for a healthy boost.",
-    "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "8:00 AM - 6:00 PM",
-      "Tuesday": "8:00 AM - 6:00 PM",
-      "Wednesday": "8:00 AM - 6:00 PM",
-      "Thursday": "8:00 AM - 6:00 PM",
-      "Friday": "8:00 AM - 6:00 PM",
-      "Saturday": "8:00 AM - 6:00 PM",
-      "Sunday": "9:00 AM - 5:00 PM"
     }
   },
   {
@@ -7673,6 +7715,26 @@
     }
   },
   {
+    "name": "Tortillas Chiwas",
+    "cuisine": "Mexican & Sonoran",
+    "neighborhood": "Westside & Downtown",
+    "distance": 3.9,
+    "price": "$$",
+    "notes": "Authentic handmade tortillería and intimate dining room concept by James Beard-nominated chefs.",
+    "isLocal": true,
+    "enriched": true,
+    "hours": {
+      "Monday": "Closed",
+      "Tuesday": "Closed",
+      "Wednesday": "Closed",
+      "Thursday": "5:00 PM - 10:00 PM",
+      "Friday": "5:00 PM - 10:00 PM",
+      "Saturday": "5:00 PM - 10:00 PM",
+      "Sunday": "Closed"
+    },
+    "manuallyAdded": true
+  },
+  {
     "name": "The Cork Tucson",
     "cuisine": "Steakhouse & BBQ",
     "neighborhood": "Eastside & Vail",
@@ -8640,6 +8702,26 @@
       "Saturday": "11:00 AM - 11:00 PM",
       "Sunday": "11:00 AM - 10:00 PM"
     }
+  },
+  {
+    "name": "The District Bites and Brew",
+    "cuisine": "Bar, Pub & Brewery",
+    "neighborhood": "Eastside & Vail",
+    "distance": 4.3,
+    "price": "$$",
+    "notes": "Contemporary American pub and sports bar featuring craft beer, flat-screen TVs, burgers, and comfort fare.",
+    "isLocal": true,
+    "enriched": true,
+    "hours": {
+      "Monday": "11:00 AM - 10:00 PM",
+      "Tuesday": "11:00 AM - 10:00 PM",
+      "Wednesday": "11:00 AM - 10:00 PM",
+      "Thursday": "11:00 AM - 10:00 PM",
+      "Friday": "11:00 AM - 11:00 PM",
+      "Saturday": "11:00 AM - 11:00 PM",
+      "Sunday": "11:00 AM - 10:00 PM"
+    },
+    "manuallyAdded": true
   },
   {
     "name": "Samurai Japanese Restaurant",
@@ -16645,6 +16727,27 @@
     }
   },
   {
+    "name": "Istanbul Mediterranean Express",
+    "cuisine": "Mediterranean & Global",
+    "neighborhood": "Northwest & Marana",
+    "distance": 12.8,
+    "price": "$$",
+    "notes": "Fast-casual Mediterranean spinoff in Marana serving authentic shawarma, kebabs, rice bowls, and dips.",
+    "isLocal": true,
+    "enriched": true,
+    "hours": {
+      "Monday": "Hours TBD",
+      "Tuesday": "Hours TBD",
+      "Wednesday": "Hours TBD",
+      "Thursday": "Hours TBD",
+      "Friday": "Hours TBD",
+      "Saturday": "Hours TBD",
+      "Sunday": "Hours TBD"
+    },
+    "manuallyAdded": true,
+    "comingSoon": true
+  },
+  {
     "name": "Mantis Asian Cuisine",
     "cuisine": "Asian & Sushi",
     "neighborhood": "Northwest & Marana",
@@ -16662,6 +16765,26 @@
       "Saturday": "11:00 AM - 8:00 PM",
       "Sunday": "12:00 PM - 8:00 PM"
     }
+  },
+  {
+    "name": "Kirin Asian Bistro & Sushi Bar",
+    "cuisine": "Asian & Sushi",
+    "neighborhood": "Northwest & Marana",
+    "distance": 12.9,
+    "price": "$$",
+    "notes": "Pan-Asian restaurant in northwest Tucson offering Chinese classics, Thai favorites, and a full sushi bar menu.",
+    "isLocal": true,
+    "enriched": true,
+    "hours": {
+      "Monday": "11:00 AM - 9:30 PM",
+      "Tuesday": "11:00 AM - 9:30 PM",
+      "Wednesday": "11:00 AM - 9:30 PM",
+      "Thursday": "11:00 AM - 9:30 PM",
+      "Friday": "11:00 AM - 10:00 PM",
+      "Saturday": "11:00 AM - 10:00 PM",
+      "Sunday": "11:00 AM - 9:30 PM"
+    },
+    "manuallyAdded": true
   },
   {
     "name": "Cold Stone",
