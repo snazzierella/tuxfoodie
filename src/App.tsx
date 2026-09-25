@@ -667,10 +667,16 @@ export default function App() {
   const filteredRestaurants = useMemo(() => {
     const list = restaurants.filter(r => {
       const id = getRestaurantId(r);
-      const matchesSearch = r.name.toLowerCase().includes(search.toLowerCase()) || 
-                          (r.notes || '').toLowerCase().includes(search.toLowerCase()) ||
-                          r.cuisine.toLowerCase().includes(search.toLowerCase()) ||
-                          r.neighborhood.toLowerCase().includes(search.toLowerCase());
+      const searchLower = search.toLowerCase();
+      const searchNorm = searchLower.replace(/&/g, 'and').replace(/[^\w\s]/g, '').replace(/\s+/g, ' ').trim();
+      const nameNorm = r.name.toLowerCase().replace(/&/g, 'and').replace(/[^\w\s]/g, '').replace(/\s+/g, ' ').trim();
+      const notesNorm = (r.notes || '').toLowerCase().replace(/&/g, 'and').replace(/[^\w\s]/g, '').replace(/\s+/g, ' ').trim();
+
+      const matchesSearch = r.name.toLowerCase().includes(searchLower) || 
+                          (r.notes || '').toLowerCase().includes(searchLower) ||
+                          r.cuisine.toLowerCase().includes(searchLower) ||
+                          r.neighborhood.toLowerCase().includes(searchLower) ||
+                          (searchNorm.length > 0 && (nameNorm.includes(searchNorm) || notesNorm.includes(searchNorm)));
       const matchesNeighborhood = selectedNeighborhood === 'All' || r.neighborhood === selectedNeighborhood;
       const matchesCuisine = selectedCuisine === 'All' || r.cuisine === selectedCuisine;
       const matchesPrice = selectedPrice === 'All' || r.price === selectedPrice;
