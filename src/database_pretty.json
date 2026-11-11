@@ -514,25 +514,6 @@
     }
   },
   {
-    "name": "IOU Sushi III",
-    "cuisine": "Asian & Sushi",
-    "neighborhood": "Central & Midtown",
-    "distance": 0.8,
-    "price": "$$$",
-    "notes": "All-you-can-eat sushi; diverse roll selection ranging from spicy tuna to baked salmon, alongside sashimi.",
-    "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 9:00 PM",
-      "Tuesday": "Closed",
-      "Wednesday": "11:00 AM - 9:00 PM",
-      "Thursday": "11:00 AM - 9:00 PM",
-      "Friday": "11:00 AM - 10:00 PM",
-      "Saturday": "11:00 AM - 10:00 PM",
-      "Sunday": "12:00 PM - 9:00 PM"
-    }
-  },
-  {
     "name": "Korea House",
     "cuisine": "Asian & Sushi",
     "neighborhood": "Central & Midtown",
@@ -1366,25 +1347,6 @@
       "Thursday": "11:00 AM - 9:00 PM",
       "Friday": "11:00 AM - 9:00 PM",
       "Saturday": "11:00 AM - 9:00 PM",
-      "Sunday": "11:00 AM - 9:00 PM"
-    }
-  },
-  {
-    "name": "Outback Steakhouse",
-    "cuisine": "Steakhouse & BBQ",
-    "neighborhood": "Central & Midtown",
-    "distance": 1.2,
-    "price": "$$$",
-    "notes": "Consistent family-friendly Australian-themed steaks, signature Bloomin' Onion, and heavily seasoned prime rib.",
-    "isLocal": false,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 9:00 PM",
-      "Tuesday": "11:00 AM - 9:00 PM",
-      "Wednesday": "11:00 AM - 9:00 PM",
-      "Thursday": "11:00 AM - 9:00 PM",
-      "Friday": "11:00 AM - 10:00 PM",
-      "Saturday": "11:00 AM - 10:00 PM",
       "Sunday": "11:00 AM - 9:00 PM"
     }
   },
@@ -3425,6 +3387,26 @@
     }
   },
   {
+    "name": "RealGood Brunch Co",
+    "cuisine": "Breakfast & Diner",
+    "neighborhood": "Central & Midtown",
+    "distance": 2.1,
+    "price": "$$",
+    "notes": "Scratch-made breakfast and brunch dishes on Alvernon using organic produce, cage-free eggs, house sourdough, and seed-oil-free cooking.",
+    "isLocal": true,
+    "enriched": true,
+    "hours": {
+      "Monday": "7:30 AM - 2:00 PM",
+      "Tuesday": "7:30 AM - 2:00 PM",
+      "Wednesday": "7:30 AM - 2:00 PM",
+      "Thursday": "7:30 AM - 2:00 PM",
+      "Friday": "7:30 AM - 2:00 PM",
+      "Saturday": "7:00 AM - 2:00 PM",
+      "Sunday": "7:00 AM - 2:00 PM"
+    },
+    "manuallyAdded": true
+  },
+  {
     "name": "Sauce",
     "cuisine": "Italian & Pizza",
     "neighborhood": "Central & Midtown",
@@ -3537,25 +3519,6 @@
       "Friday": "11:30 AM - 2:30 PM, 5:00 PM - 8:00 PM",
       "Saturday": "11:30 AM - 2:30 PM, 5:00 PM - 8:00 PM",
       "Sunday": "11:00 AM - 2:30 PM"
-    }
-  },
-  {
-    "name": "Lovin' Spoonfuls",
-    "cuisine": "Healthy, Vegan & Plant-Based",
-    "neighborhood": "Central & Midtown",
-    "distance": 2.2,
-    "price": "$$",
-    "notes": "Top vegan spot for creative plant-based comfort food, delicious desserts, and healthy options.",
-    "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "8:00 AM - 3:00 PM",
-      "Tuesday": "8:00 AM - 3:00 PM",
-      "Wednesday": "8:00 AM - 3:00 PM",
-      "Thursday": "8:00 AM - 3:00 PM",
-      "Friday": "8:00 AM - 3:00 PM",
-      "Saturday": "8:00 AM - 3:00 PM",
-      "Sunday": "8:00 AM - 3:00 PM"
     }
   },
   {
@@ -5124,6 +5087,27 @@
     }
   },
   {
+    "name": "Bonanza Coffee Company",
+    "cuisine": "Coffee & Cafe",
+    "neighborhood": "Urban Core",
+    "distance": 2.7,
+    "price": "$$",
+    "notes": "All-day and late-night specialty coffee destination partnering with Caffè Vita, featuring desert tonics, non-alcoholic cocktails, and a hi-fi listening lounge.",
+    "isLocal": true,
+    "enriched": true,
+    "hours": {
+      "Monday": "Hours TBD",
+      "Tuesday": "Hours TBD",
+      "Wednesday": "Hours TBD",
+      "Thursday": "Hours TBD",
+      "Friday": "Hours TBD",
+      "Saturday": "Hours TBD",
+      "Sunday": "Hours TBD"
+    },
+    "manuallyAdded": true,
+    "comingSoon": true
+  },
+  {
     "name": "Brick Box Brewery",
     "cuisine": "Bar, Pub & Brewery",
     "neighborhood": "Urban Core",
@@ -5298,6 +5282,27 @@
     "manuallyAdded": true
   },
   {
+    "name": "Lucky Penny BBQ",
+    "cuisine": "Steakhouse & BBQ",
+    "neighborhood": "Urban Core",
+    "distance": 2.7,
+    "price": "$$",
+    "notes": "Contemporary wood-fired barbecue concept in Downtown Tucson featuring smoked brisket, seafood, and Sonoran-influenced sides.",
+    "isLocal": true,
+    "enriched": true,
+    "hours": {
+      "Monday": "Hours TBD",
+      "Tuesday": "Hours TBD",
+      "Wednesday": "Hours TBD",
+      "Thursday": "Hours TBD",
+      "Friday": "Hours TBD",
+      "Saturday": "Hours TBD",
+      "Sunday": "Hours TBD"
+    },
+    "manuallyAdded": true,
+    "comingSoon": true
+  },
+  {
     "name": "Maicos",
     "cuisine": "Mexican & Sonoran",
     "neighborhood": "Central & Midtown",
@@ -5334,6 +5339,26 @@
       "Saturday": "11:00 AM - 9:00 PM",
       "Sunday": "11:00 AM - 6:00 PM"
     }
+  },
+  {
+    "name": "OKASHI Ice Cream & Confections",
+    "cuisine": "Dessert & Bakery",
+    "neighborhood": "Central & Midtown",
+    "distance": 2.7,
+    "price": "$$",
+    "notes": "Japanese-inspired confectionery and cafe serving handcrafted pastries, butter mochi, cream puffs, kakigori shaved ice, and Japanese teas.",
+    "isLocal": true,
+    "enriched": true,
+    "hours": {
+      "Monday": "Closed",
+      "Tuesday": "Closed",
+      "Wednesday": "Closed",
+      "Thursday": "9:00 AM - 2:00 PM",
+      "Friday": "9:00 AM - 2:00 PM",
+      "Saturday": "9:00 AM - 2:00 PM",
+      "Sunday": "Closed"
+    },
+    "manuallyAdded": true
   },
   {
     "name": "Playground Bar and Lounge",
@@ -7261,25 +7286,6 @@
     }
   },
   {
-    "name": "Agustin Kitchen",
-    "cuisine": "American & Comfort",
-    "neighborhood": "Westside & Downtown",
-    "distance": 3.8,
-    "price": "$$",
-    "notes": "Upscale American cuisine with a French twist, also offering delightful daytime cafe fare.",
-    "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "9:00 AM - 2:00 PM, 4:00 PM - 8:00 PM",
-      "Tuesday": "9:00 AM - 2:00 PM, 4:00 PM - 8:00 PM",
-      "Wednesday": "9:00 AM - 2:00 PM, 4:00 PM - 8:00 PM",
-      "Thursday": "9:00 AM - 2:00 PM, 4:00 PM - 8:00 PM",
-      "Friday": "9:00 AM - 2:00 PM, 4:00 PM - 9:00 PM",
-      "Saturday": "9:00 AM - 2:00 PM, 4:00 PM - 9:00 PM",
-      "Sunday": "9:00 AM - 2:00 PM, 4:00 PM - 8:00 PM"
-    }
-  },
-  {
     "name": "Angie's Lobster",
     "cuisine": "Seafood",
     "neighborhood": "Southside & Heritage",
@@ -7411,6 +7417,27 @@
       "Saturday": "11:00 AM - 8:00 PM",
       "Sunday": "Closed"
     }
+  },
+  {
+    "name": "Il Santo",
+    "cuisine": "Italian & Pizza",
+    "neighborhood": "Westside & Downtown",
+    "distance": 3.8,
+    "price": "$$$",
+    "notes": "Upcoming regional Italian concept at Mercado San Agustín by Vito Prencipe and Bonnie Callahan, taking over the former Agustín Kitchen space.",
+    "isLocal": true,
+    "enriched": true,
+    "hours": {
+      "Monday": "Hours TBD",
+      "Tuesday": "Hours TBD",
+      "Wednesday": "Hours TBD",
+      "Thursday": "Hours TBD",
+      "Friday": "Hours TBD",
+      "Saturday": "Hours TBD",
+      "Sunday": "Hours TBD"
+    },
+    "manuallyAdded": true,
+    "comingSoon": true
   },
   {
     "name": "Kettle Restaurant",
@@ -7909,6 +7936,27 @@
     }
   },
   {
+    "name": "Joesler Kitchen",
+    "cuisine": "American & Comfort",
+    "neighborhood": "Northside & Foothills",
+    "distance": 4,
+    "price": "$$",
+    "notes": "Neighborhood American bistro in Joesler Village by the Choice Greens team, featuring craft cocktails, elevated comfort fare, and an indoor-outdoor patio.",
+    "isLocal": true,
+    "enriched": true,
+    "hours": {
+      "Monday": "Hours TBD",
+      "Tuesday": "Hours TBD",
+      "Wednesday": "Hours TBD",
+      "Thursday": "Hours TBD",
+      "Friday": "Hours TBD",
+      "Saturday": "Hours TBD",
+      "Sunday": "Hours TBD"
+    },
+    "manuallyAdded": true,
+    "comingSoon": true
+  },
+  {
     "name": "KFC (Broadway)",
     "cuisine": "Fast Food & Sandwiches",
     "neighborhood": "Eastside & Vail",
@@ -8096,25 +8144,6 @@
       "Friday": "7:00 AM - 4:00 PM",
       "Saturday": "7:00 AM - 4:00 PM",
       "Sunday": "7:00 AM - 4:00 PM"
-    }
-  },
-  {
-    "name": "Seis Cantina",
-    "cuisine": "Mexican & Sonoran",
-    "neighborhood": "Northside & Foothills",
-    "distance": 4,
-    "price": "$$",
-    "notes": "Quick-serve taqueria concept in Joesler Village serving Sonoran street food, craft margaritas, and cold beers.",
-    "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "11:00 AM - 9:00 PM",
-      "Tuesday": "11:00 AM - 9:00 PM",
-      "Wednesday": "11:00 AM - 9:00 PM",
-      "Thursday": "11:00 AM - 9:00 PM",
-      "Friday": "11:00 AM - 9:00 PM",
-      "Saturday": "11:00 AM - 9:00 PM",
-      "Sunday": "11:00 AM - 9:00 PM"
     }
   },
   {
@@ -8801,25 +8830,6 @@
       "Friday": "11:00 AM - 10:00 PM",
       "Saturday": "11:00 AM - 10:00 PM",
       "Sunday": "11:00 AM - 9:00 PM"
-    }
-  },
-  {
-    "name": "Samurai Japanese Restaurant",
-    "cuisine": "Asian & Sushi",
-    "neighborhood": "Northside & Foothills",
-    "distance": 4.4,
-    "price": "$$",
-    "notes": "Traditional Japanese restaurant, offering fresh sushi, teppanyaki grills, and a vibrant dining experience.",
-    "isLocal": true,
-    "enriched": true,
-    "hours": {
-      "Monday": "Closed",
-      "Tuesday": "11:00 AM - 3:00 PM, 4:00 PM - 7:30 PM",
-      "Wednesday": "11:00 AM - 3:00 PM, 4:00 PM - 7:30 PM",
-      "Thursday": "11:00 AM - 3:00 PM, 4:00 PM - 7:30 PM",
-      "Friday": "11:00 AM - 3:00 PM, 4:00 PM - 7:30 PM",
-      "Saturday": "11:00 AM - 3:00 PM, 4:00 PM - 7:30 PM",
-      "Sunday": "11:00 AM - 3:00 PM, 4:00 PM - 7:30 PM"
     }
   },
   {
@@ -12919,6 +12929,26 @@
       "Saturday": "9:30 AM - 10:00 PM",
       "Sunday": "9:30 AM - 9:00 PM"
     }
+  },
+  {
+    "name": "Anatolia Restaurant",
+    "cuisine": "Mediterranean & Global",
+    "neighborhood": "Northside & Foothills",
+    "distance": 6.4,
+    "price": "$$",
+    "notes": "Scratch-made traditional Turkish cuisine featuring authentic pides, lahmacun, flame-broiled kebabs, and hot and cold mezzes with fresh baked bread.",
+    "isLocal": true,
+    "enriched": true,
+    "hours": {
+      "Monday": "11:00 AM - 9:30 PM",
+      "Tuesday": "11:00 AM - 9:30 PM",
+      "Wednesday": "11:00 AM - 9:30 PM",
+      "Thursday": "11:00 AM - 9:30 PM",
+      "Friday": "11:00 AM - 9:30 PM",
+      "Saturday": "11:00 AM - 9:30 PM",
+      "Sunday": "11:00 AM - 9:30 PM"
+    },
+    "manuallyAdded": true
   },
   {
     "name": "Carniceria El Sentimental",
