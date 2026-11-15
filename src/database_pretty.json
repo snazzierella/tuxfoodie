@@ -1370,6 +1370,26 @@
     }
   },
   {
+    "name": "Proof Bread",
+    "cuisine": "Dessert & Bakery",
+    "neighborhood": "Central & Midtown",
+    "distance": 1.2,
+    "price": "$$",
+    "notes": "Phoenix-based heritage stone flour mill and artisan sourdough bakery. Fresh sourdough loaves, laminated pastries, and baked goods at both Broadway (Midtown) and Wrightstown Rd (Eastside).",
+    "isLocal": true,
+    "enriched": true,
+    "hours": {
+      "Monday": "Closed",
+      "Tuesday": "Closed",
+      "Wednesday": "7:00 AM - 2:00 PM",
+      "Thursday": "7:00 AM - 2:00 PM",
+      "Friday": "7:00 AM - 2:00 PM",
+      "Saturday": "7:00 AM - 2:00 PM",
+      "Sunday": "7:00 AM - 2:00 PM"
+    },
+    "manuallyAdded": true
+  },
+  {
     "name": "Subway",
     "cuisine": "Fast Food & Sandwiches",
     "neighborhood": "Central & Midtown",
@@ -3392,7 +3412,7 @@
     "neighborhood": "Central & Midtown",
     "distance": 2.1,
     "price": "$$",
-    "notes": "Scratch-made breakfast and brunch dishes on Alvernon using organic produce, cage-free eggs, house sourdough, and seed-oil-free cooking.",
+    "notes": "Real Good Brunch Co (1310 S. Alvernon Way at 22nd St); scratch-made breakfast and brunch dishes using organic produce, cage-free eggs, house sourdough, and seed-oil-free cooking.",
     "isLocal": true,
     "enriched": true,
     "hours": {
@@ -7726,6 +7746,27 @@
     }
   },
   {
+    "name": "Swig",
+    "cuisine": "Boba Tea & Beverages",
+    "neighborhood": "Eastside & Vail",
+    "distance": 3.9,
+    "price": "$",
+    "notes": "Customizable Utah-born dirty sodas with flavor syrups, creams, and purees, plus warm cookies and pretzel bites coming to Wilmot Place on Broadway.",
+    "isLocal": false,
+    "enriched": true,
+    "hours": {
+      "Monday": "Hours TBD",
+      "Tuesday": "Hours TBD",
+      "Wednesday": "Hours TBD",
+      "Thursday": "Hours TBD",
+      "Friday": "Hours TBD",
+      "Saturday": "Hours TBD",
+      "Sunday": "Hours TBD"
+    },
+    "manuallyAdded": true,
+    "comingSoon": true
+  },
+  {
     "name": "Tortillas Chiwas",
     "cuisine": "Mexican & Sonoran",
     "neighborhood": "Westside & Downtown",
@@ -7945,13 +7986,13 @@
     "isLocal": true,
     "enriched": true,
     "hours": {
-      "Monday": "Hours TBD",
-      "Tuesday": "Hours TBD",
-      "Wednesday": "Hours TBD",
-      "Thursday": "Hours TBD",
-      "Friday": "Hours TBD",
-      "Saturday": "Hours TBD",
-      "Sunday": "Hours TBD"
+      "Monday": "11:00 AM - 9:00 PM",
+      "Tuesday": "11:00 AM - 9:00 PM",
+      "Wednesday": "11:00 AM - 9:00 PM",
+      "Thursday": "11:00 AM - 9:00 PM",
+      "Friday": "11:00 AM - 10:00 PM",
+      "Saturday": "11:00 AM - 10:00 PM",
+      "Sunday": "11:00 AM - 9:00 PM"
     },
     "manuallyAdded": true,
     "comingSoon": true
@@ -17732,6 +17773,27 @@
       "Saturday": "11:00 AM - 9:00 PM",
       "Sunday": "Closed"
     }
+  },
+  {
+    "name": "Core, A Sonoran Grill",
+    "cuisine": "Steakhouse & BBQ",
+    "neighborhood": "Northwest & Marana",
+    "distance": 20.9,
+    "price": "$$$$",
+    "notes": "Contemporary Southwestern steakhouse at The Ritz-Carlton Dove Mountain led by Chef Hamish Allison, featuring flame-grilled Lomo Ranch cuts, fresh seafood, and Sonoran Desert ingredients.",
+    "isLocal": true,
+    "enriched": true,
+    "hours": {
+      "Monday": "7:00 AM - 11:00 AM",
+      "Tuesday": "7:00 AM - 11:00 AM, 5:30 PM - 9:00 PM",
+      "Wednesday": "7:00 AM - 11:00 AM, 5:30 PM - 9:00 PM",
+      "Thursday": "7:00 AM - 11:00 AM, 5:30 PM - 9:00 PM",
+      "Friday": "7:00 AM - 11:00 AM, 5:30 PM - 9:00 PM",
+      "Saturday": "7:00 AM - 11:00 AM, 5:30 PM - 9:00 PM",
+      "Sunday": "7:00 AM - 11:00 AM"
+    },
+    "manuallyAdded": true,
+    "comingSoon": true
   },
   {
     "name": "Lupe’s",
