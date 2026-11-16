@@ -458,7 +458,12 @@ const RandomPickModal = ({
         <div className="p-8">
           <div className="text-center mb-8">
             <h3 className="text-2xl font-display font-bold text-slate-800 mb-2 leading-tight">{restaurant.name}</h3>
-            <div className="flex items-center justify-center gap-2 text-slate-500 text-sm font-medium">
+            <div className="flex items-center justify-center gap-2 text-slate-500 text-sm font-medium flex-wrap">
+              {isVisited && (
+                <span className="bg-teal-100 text-teal-700 px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wide border border-teal-200">
+                  Visited
+                </span>
+              )}
               <span className="bg-slate-100 px-3 py-1 rounded-full">{restaurant.cuisine}</span>
               <span className="bg-slate-100 px-3 py-1 rounded-full">{restaurant.neighborhood}</span>
               <span className="bg-slate-100 px-3 py-1 rounded-full flex items-center gap-1">
@@ -498,7 +503,9 @@ const RandomPickModal = ({
             </button>
             <button 
               onClick={() => {
-                onToggleVisited(getRestaurantId(restaurant));
+                if (!isVisited) {
+                  onToggleVisited(getRestaurantId(restaurant));
+                }
                 onClose();
               }}
               className="flex-[3] py-3.5 rounded-2xl font-bold bg-teal-400 text-white shadow-lg shadow-teal-200 hover:bg-teal-500 hover:scale-[1.02] transition-all border-2 border-teal-400"
@@ -796,14 +803,35 @@ export default function App() {
     });
   };
 
+  const hasFiltersApplied = Boolean(
+    search.trim() ||
+    selectedNeighborhood !== 'All' ||
+    selectedCuisine !== 'All' ||
+    selectedPrice !== 'All' ||
+    localFilter !== 'All' ||
+    visitedFilter !== 'All' ||
+    favoritesOnly ||
+    openNowOnly ||
+    maxDistance < 30
+  );
+
   const handleRandomPick = () => {
-    const unvisited = restaurants.filter(r => !visited.has(getRestaurantId(r)) && !notInterested.has(getRestaurantId(r)));
-    if (unvisited.length === 0) {
-      alert("Wow! You've visited everywhere! Reset your progress to start over.");
-      return;
+    if (hasFiltersApplied) {
+      if (filteredRestaurants.length === 0) {
+        alert("No restaurants match your applied filters!");
+        return;
+      }
+      const random = filteredRestaurants[Math.floor(Math.random() * filteredRestaurants.length)];
+      setRandomPick(random);
+    } else {
+      const unvisited = restaurants.filter(r => !visited.has(getRestaurantId(r)) && !notInterested.has(getRestaurantId(r)));
+      if (unvisited.length === 0) {
+        alert("Wow! You've visited everywhere! Reset your progress to start over.");
+        return;
+      }
+      const random = unvisited[Math.floor(Math.random() * unvisited.length)];
+      setRandomPick(random);
     }
-    const random = unvisited[Math.floor(Math.random() * unvisited.length)];
-    setRandomPick(random);
   };
 
   const resetProgress = () => {
@@ -1186,6 +1214,7 @@ export default function App() {
         whileHover={{ scale: 1.1, rotate: 180 }}
         whileTap={{ scale: 0.9 }}
         onClick={handleRandomPick}
+        title={hasFiltersApplied ? "Pick a random restaurant from applied filters" : "Pick a random unvisited restaurant"}
         className={`fixed bottom-8 right-8 w-16 h-16 rounded-full shadow-2xl flex items-center justify-center z-40 border-4 ring-4 ${
           isDarkMode 
             ? 'bg-rose-500 text-white shadow-rose-900/50 border-slate-800 ring-slate-700' 
